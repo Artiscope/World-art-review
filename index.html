@@ -732,7 +732,17 @@ const SOURCES = {
   "tan-frieze": {title:"Frieze London diary: art historical speed dating and frozen faeces", pub:"The Art Newspaper", date:"17 October 2025", kind:"Independent news report", url:"https://www.theartnewspaper.com/2025/10/17/frieze-london-diary-art-historical-speed-dating-and-frozen-faeces"},
   "fad-ghost": {title:"The Washington Ghost Haunts Bezos Ahead of Lavish Venice Wedding", pub:"FAD Magazine", date:"23 June 2025", kind:"News report, partly based on the project's publicity", url:"https://fadmagazine.com/2025/06/23/the-washington-ghost-haunts-bezos-ahead-of-lavish-venice-wedding/"},
   "gb-venice": {title:"Jeff Bezos wedding protest sees mannequin of Amazon founder floating through Venice", pub:"GB News", date:"June 2025", kind:"News report", url:"https://www.gbnews.com/celebrity/jeff-bezos-wedding-protest-mannequin-amazon-founder-venice"},
-  "grove": {title:"Grove Gallery release records", pub:"Grove Gallery", date:"November 2026", kind:"Gallery source", url:""}
+  "grove": {title:"Grove Gallery release records", pub:"Grove Gallery", date:"November 2026", kind:"Gallery source", url:""},
+  "grove-zm": {title:"Zara Muse", pub:"Grove Gallery, artist page", date:"accessed November 2026", kind:"Gallery source", url:"https://grovegallery.com/collections/zara-muse"},
+  "grove-port": {title:"Portraiture Art", pub:"Grove Gallery, collection page", date:"accessed November 2026", kind:"Gallery source", url:"https://grovegallery.com/collections/portraiture-art"},
+  "grove-chis": {title:"Grove Gallery Chiswick", pub:"Grove Gallery, Chiswick site", date:"accessed November 2026", kind:"Gallery source", url:"https://chiswick.grovegallery.com/"},
+  "getty-courbet": {title:"Grotto of Sarrazine, Gustave Courbet", pub:"J. Paul Getty Museum, classroom resource", date:"undated", kind:"Museum source", url:"https://www.getty.edu/education/teachers/classroom_resources/curricula/landscapes/ib_grotto.html"},
+  "thyssen-destael": {title:"Nicolas de Sta\u00ebl, Grey Composition", pub:"Museo Nacional Thyssen-Bornemisza", date:"undated", kind:"Museum source", url:"https://museothyssen.org/en/node/16765"},
+  "phillips-destael": {title:"Nicolas de Sta\u00ebl, North", pub:"The Phillips Collection", date:"undated", kind:"Museum source", url:"https://www.phillipscollection.org/collection/north"},
+  "tate-auerbach": {title:"How it's Made: Frank Auerbach", pub:"Tate", date:"undated", kind:"Museum source", url:"https://tate.org.uk/art/artists/frank-auerbach-676/how-its-made-frank-auerbach"},
+  "ngs-auerbach": {title:"Frank Auerbach", pub:"National Galleries of Scotland", date:"undated", kind:"Museum source", url:"https://www.nationalgalleries.org/art-and-artists/artists/frank-auerbach"},
+  "nga-rembrandt": {title:"Rembrandt van Rijn, Self-Portrait, 1659", pub:"National Gallery of Art, Washington", date:"undated", kind:"Museum source", url:"https://nga.gov/collection/art-object-page.79.html"},
+  "colourlex-rembrandt": {title:"Rembrandt, Self-Portrait at the Age of 63: pigment analysis", pub:"ColourLex, after National Gallery London research", date:"undated", kind:"Technical analysis", url:"https://colourlex.com/project/rembrandt-self-portrait-at-the-age-of-63"}
 };
 
 const ARTISTS = [
@@ -748,6 +758,8 @@ const ARTISTS = [
     ["Based in","London",[]],
     ["Medium","Acrylic, applied with palette knife and spatula",["ap-muse","lno-muse"]],
     ["Subject","Portraits of women",["lno-muse"]],
+    ["Themes","Nature, emotion and human connection; a celebration of feminine beauty, in the gallery's words",["grove-zm"]],
+    ["Prints","Signed limited editions, each with a certificate of authenticity from the artist",["grove-zm"]],
     ["Notable sale","Portrait of Malala Yousafzai, Bonhams, £51,000",["ap-muse"]],
     ["Gallery","Grove Gallery, London",["grove"]]
   ],
@@ -756,17 +768,25 @@ const ARTISTS = [
       <p>Before she painted, Alexandra Johnson worked as a trader. She has described that world as hard, fast and short on feeling, and has said she is a gentler person now.${c("ap-muse")}</p>
       <p>The turn came with the death of her mother, to whom she was very close. In interview she links that loss directly to the determination that drove her into painting, working under the name Zara Muse.${c("ap-muse")}</p>
       <p>Her portraits have since been hung in luxury hotels, including sites run by the Fairmont group, and in Kanishka, a restaurant in Mayfair. Limited edition prints followed, to bring the work to a wider audience, and collectors in Dubai have begun to buy it.${c("lno-muse")}</p>
-      <blockquote>I want to champion and support women.<cite>Zara Muse, speaking to Luxury News Online, 2025${c("lno-muse")}</cite></blockquote>`},
+      <blockquote>I want to champion and support women.<cite>Zara Muse, speaking to Luxury News Online, 2025${c("lno-muse")}</cite></blockquote>
+      <p>Her gallery adds two details we have not been able to check elsewhere, so we give them as the gallery's account: that she has made art since childhood and spent her summer holidays doing so, and that she is the cousin of a well-known street artist. <span class="reported">Reported</span>${c("grove-zm")}</p>`},
     {id:"style", title:"Style and technique", html:`
       <p>Zara Muse paints only with palette knives and spatulas, never brushes. She has called the choice instinctive, made for the depth and richness it gives the surface.${c("ap-muse")}</p>
       <p>The result is paint that stands proud of the canvas. Colour is laid in thick, flat-edged slabs rather than blended, so a cheek or a jawline is built from separate planes of saturated colour. Seen close up the face breaks into ridges; from across a room it comes back together.</p>
-      <p>Her subjects are women, and she has said she wants the work to celebrate the strength and resilience of the women in her own life, her mother included.${c("lno-muse")}</p>
+      <p>Her subjects are women, and she has said she wants the work to celebrate the strength and resilience of the women in her own life, her mother included.${c("lno-muse")} Many of the titles are Spanish: <i>Bella Dama del Sol</i>, <i>Luz Serena</i>, <i>Viento del Sur</i>. The gallery describes the work as exploring nature, emotion and human connection through a rich palette.${c("grove-port")}${c("grove-zm")}</p>
+      <h3>How to read one</h3>
+      <p>Start with the lit side of the face, where the slabs are thickest and most separate. Count the planes that make the cheek. Then find the shadow side, where she tends to let the knife drag one colour through another. The join between the two is where the portrait either holds together or does not, and in the strongest works it is left slightly unresolved, so the eye keeps working at it.</p>
       <div class="callout"><strong>Read more</strong><a href="#a-palette-knife-painting">Understanding palette-knife painting</a><br><a href="#a-texture-in-portraiture">The role of texture in contemporary portraiture</a></div>`}
   ],
   works:[
-    {title:"Malala Yousafzai", year:null, medium:"Acrylic on canvas", size:null, note:"Sold at Bonhams for £51,000.", src:["ap-muse"], tone:"#B7A08A"},
-    {title:null, year:null, medium:null, size:null, note:null, src:[], tone:"#8E9C8A"},
-    {title:null, year:null, medium:null, size:null, note:null, src:[], tone:"#D8D2C4"}
+    {title:"Malala Yousafzai", year:null, medium:"Acrylic on canvas", size:null, note:"The original sold at Bonhams for £51,000. A signed ultra limited edition of 10 prints is listed by Grove Gallery.", src:["ap-muse","grove-chis"], tone:"#B7A08A"},
+    {title:"Bella Dama del Sol", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#C9A070"},
+    {title:"Delicada Belleza", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#B98A7A"},
+    {title:"Ecos de Azul", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#7A8FA6"},
+    {title:"Gracia de Azafra", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#C49A5A"},
+    {title:"Oro Roja", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#B5603F"},
+    {title:"Viento del Sur", year:null, medium:null, size:null, note:"Listed by Grove Gallery.", src:["grove-port"], tone:"#A89078"},
+    {title:"A Moment in Amber", year:null, medium:"Limited edition print", size:null, note:"Listed by Grove Gallery as an edition.", src:["grove-port"], tone:"#D2A86A"}
   ],
   timeline:[
     {when:null, what:"Works as a trader before turning to art.", src:["ap-muse"]},
@@ -774,11 +794,13 @@ const ARTISTS = [
     {when:null, what:"Work placed in hotels including Fairmont group sites, and in Kanishka, Mayfair.", src:["lno-muse"]},
     {when:"March 2025", what:"Profiled by Luxury News Online. Work introduced to collectors in Dubai.", src:["lno-muse"]},
     {when:"2025", what:"Portrait of Malala Yousafzai sells at Bonhams for £51,000. Exact sale date to confirm.", src:["ap-muse"], todo:true},
+    {when:null, what:"Beyond The Surface, a showing at Grove Gallery Palma. Dates to confirm.", src:["grove-chis"], reported:true},
+    {when:null, what:"Pre-launch of a Zara Muse collection in Edinburgh. Dates to confirm.", src:["grove-chis"], reported:true},
     {when:"4 November 2026", what:"New print collection released through Grove Gallery.", src:["grove"]}
   ],
-  seen:`<p>Originals and prints can be viewed at Grove Gallery in London. Her paintings have also appeared at the auction houses Tate Ward and Bonhams.${c("ap-muse")} <span class="placeholder">[Current hotel and restaurant locations to confirm.]</span></p>`,
+  seen:`<p>Originals and signed limited edition prints are sold through Grove Gallery, which lists spaces in London and in Palma de Mallorca.${c("grove-zm")}${c("grove-chis")} Her paintings have also appeared at the auction houses Tate Ward and Bonhams.${c("ap-muse")} <span class="placeholder">[Confirm the current gallery addresses, and the hotel and restaurant locations.]</span></p>`,
   related:["a-zara-muse-profile","a-compare-muse-artiss","a-research-emerging-artist"],
-  research:["Year she left trading and began painting","Date of the Bonhams sale","Titles, dates and sizes of other key works","Exhibition history","Studio and artwork photographs with permission to publish"]
+  research:["Year she left trading and began painting","Date of the Bonhams sale","Dates, media and sizes for the listed works","Confirm the Palma and Edinburgh showings and their dates","Studio and artwork photographs with permission to publish"]
 },
 {
   slug:"konn-artiss", name:"Konn Artiss", letter:"K", published:true, image:null, alt:"", ghostWords:["A name","without","a face.","Interventions"],
@@ -960,8 +982,8 @@ const ARTICLES = [
   title:"Understanding palette-knife painting",
   dek:"What a knife does that a brush cannot, how painters use it, and how to read the ridges it leaves behind.",
   credit:"Image: palette-knife detail. [Image to supply]",
-  minutes:6, updated:"November 2026", status:"Draft for review",
-  sources:[],
+  minutes:7, updated:"November 2026", status:"Draft for review",
+  sources:["getty-courbet","thyssen-destael","phillips-destael","grove-zm"],
   body:`
   <p>A palette knife was first a mixing tool: a thin, flexible blade for blending colours on the palette before they went anywhere near the canvas. At some point painters noticed that the knife could also put paint on, and that it left marks no brush could make.</p>
   <h2>Knife or brush: what changes</h2>
@@ -976,7 +998,9 @@ const ARTICLES = [
   <h2>Oil or acrylic</h2>
   <p>Knife painting works in both, but they behave differently. Thick oil paint can take a very long time to dry right through, and heavy layers need care to avoid cracking or wrinkling. Acrylic dries far faster, and heavy-body acrylics and gel mediums are made to hold a peak, which suits painters who build up many thick layers in a session. The trade-off is less time to move paint around before it sets.</p>
   <h2>A short history</h2>
-  <p>In the nineteenth century, Gustave Courbet used the knife to lay down rock, earth and water with a physical weight that shocked some of his contemporaries. In the twentieth, Nicolas de Staël built whole compositions from slabs of knifed colour, sitting somewhere between landscape and abstraction. Many contemporary painters, including <a href="#artist-zara-muse">Zara Muse</a>, use the knife for portraits, where it turns a face into a structure of coloured planes.</p>
+  <p>In the nineteenth century, Gustave Courbet made the knife part of his signature. The Getty describes how, in a painting of a cave at Sarrazine, he applied and scraped off paint with a palette knife to mimic the cavern's coloured, textured surfaces, and it credits his landscapes of the 1860s with turning painting into a tactile performance in paint that the Impressionists and later painters would take up.${c("getty-courbet")}</p>
+  <p>In the twentieth century, Nicolas de Staël built whole compositions from knifed colour. The Phillips Collection notes that much of his work of the 1940s is made of small geometric blocks with a heavy impasto applied with a palette knife,${c("phillips-destael")} and the Thyssen describes a palette of ochres, browns, greys and blacks laid on with brushes and palette knives in very thick layers that construct space by colour alone.${c("thyssen-destael")}</p>
+  <p>Many contemporary painters, including <a href="#artist-zara-muse">Zara Muse</a>, use the knife for portraits, where it turns a face into a structure of coloured planes. Her gallery describes a technique combining palette knife and spatula that gives the work a three-dimensional quality.${c("grove-zm")}</p>
   <figure class="lamp" data-lamp>
     <svg viewBox="0 0 600 320" role="img" aria-label="A patch of thick, knife-laid paint lit by a lamp you can move">
       <defs><filter id="ridges" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.045" numOctaves="3" seed="11" result="n"/><feGaussianBlur in="n" stdDeviation="0.8" result="b"/><feDiffuseLighting in="b" surfaceScale="6" diffuseConstant="3.2" lighting-color="#FFF5E6" result="l" id="lampDiffuse"><feDistantLight id="lampLight" azimuth="200" elevation="16"/></feDiffuseLighting><feComposite in="l" in2="SourceGraphic" operator="arithmetic" k1="0.85" k2="0.28" k3="0" k4="0"/></filter></defs>
@@ -1001,12 +1025,13 @@ const ARTICLES = [
   title:"The role of texture in contemporary portraiture",
   dek:"Why so many painters build faces up from the canvas instead of smoothing them flat, and what that surface is asking of the viewer.",
   credit:"Image: portrait surface, raking light. [Image to supply]",
-  minutes:5, updated:"November 2026", status:"Draft for review",
-  sources:[],
+  minutes:6, updated:"November 2026", status:"Draft for review",
+  sources:["nga-rembrandt","colourlex-rembrandt","tate-auerbach","ngs-auerbach"],
   body:`
   <p>For centuries the ambition of portrait painting was, broadly, to make the paint disappear. A polished surface let the sitter's face come forward and the painter's hand fall away. Texture turns that around. It insists that what you are looking at is paint, put there by a person, and asks you to hold the face and the material in mind at once.</p>
   <h2>An old idea</h2>
-  <p>Heavy paint in portraiture is not new. In his late self-portraits, Rembrandt built up the lit parts of the face in thick paint, so that the surface itself catches real light where the face catches painted light. In the twentieth century, Frank Auerbach painted and scraped his portraits of the same few sitters over and over, until the heads were dense crusts of paint. Each shows a different reason for texture: one to make light physical, the other to record the struggle of looking.</p>
+  <p>Heavy paint in portraiture is not new. In his late self-portraits, Rembrandt built up the lit parts of the face in thick paint, so that the surface itself catches real light where the face catches painted light. The National Gallery of Art in Washington describes the thick impastos and bold strokes with which he modelled his own face in 1659,${c("nga-rembrandt")} and pigment analysis of the London self-portrait of 1669 finds the thick impasto on the cheek to be lead white tinted with ochres, painted over a brown undermodelling.${c("colourlex-rembrandt")} The structure is the same one a knife painter uses today: dark underneath, light built up on top.</p>
+  <p>In the twentieth century, Frank Auerbach painted and scraped his portraits of the same few sitters over and over. The National Galleries of Scotland note that although his paint appears to have accumulated over months, he regularly scraped it all off to start afresh,${c("ngs-auerbach")} and Tate's conservators record him working with brushes, palette knives, putty scrapers and sometimes paint squeezed straight from the tube.${c("tate-auerbach")} Each shows a different reason for texture: for Rembrandt, to make light physical; for Auerbach, to keep the record of looking.</p>
   <h2>What texture does today</h2>
   <h3>It slows you down</h3>
   <p>A textured portrait cannot be taken in from a phone screen. It asks to be seen in a room, at different distances, and that slower looking is part of the experience.</p>
@@ -1047,45 +1072,64 @@ const ARTICLES = [
   `
 },
 {
-  slug:"original-vs-print", section:"library", kicker:"Collecting", artists:[], tone:"#B9C6D6",
+  slug:"original-vs-print", section:"library", kicker:"Collecting", artists:["zara-muse"], tone:"#B9C6D6",
   title:"Original, limited edition or open print?",
-  dek:"What each one is, how they are priced and how to tell them apart.",
-  credit:"", minutes:4, updated:"November 2026", status:"Draft for review", sources:[],
+  dek:"What each one is, how they are priced, how to read the numbers in the margin and how to tell them apart.",
+  credit:"", minutes:6, updated:"November 2026", status:"Draft for review", sources:["grove-zm","grove-chis"],
   body:`
-  <p>The same image can reach you in very different forms, at very different prices. Knowing which one you are looking at is the first thing to settle.</p>
+  <p>The same image can reach you in very different forms, at very different prices. Knowing which one you are looking at is the first thing to settle, and it is not always obvious from a photograph online.</p>
   <h2>Original</h2>
-  <p>A unique work made by the artist's hand: a painting, drawing or sculpture. There is only one, which is why originals usually sit at the top of an artist's price range.</p>
+  <p>A unique work made by the artist's hand: a painting, drawing or sculpture. There is only one, which is why originals sit at the top of an artist's price range. With heavily textured work the difference is physical as well as legal: a knife-painted original has ridges you can see from the side, and a print of it is flat however good the printing.</p>
   <h2>Limited edition print</h2>
-  <p>A fixed number of prints, each usually numbered (for example 12/50) and often signed. Once the edition is sold, no more are made. The smaller the edition, the scarcer each print. Editions may be made by traditional printmaking, such as screen printing or etching, or as high-quality reproductions, often called giclée prints.</p>
+  <p>A fixed number of prints, each numbered and usually signed. Once the edition is sold, no more are made, and the smaller the edition the scarcer each print. Editions are made in two broad ways:</p>
+  <ul>
+    <li><strong>Original prints</strong>, such as screenprints, etchings and lithographs, where the artist makes the image on the screen, plate or stone and each sheet is pulled from it. The print is the artwork.</li>
+    <li><strong>Reproductions</strong>, often called gicl\u00e9e prints, where a painting is photographed and printed with pigment inks on paper or canvas. Some are hand-finished by the artist, which adds a unique layer of real paint.</li>
+  </ul>
+  <p>Both can be worth collecting, but they are different things, and the gallery should tell you plainly which you are buying. As an example of how an edition is described, Grove Gallery lists Zara Muse's print of <i>Malala Yousafzai</i> as a signed ultra limited edition of ten.${c("grove-chis")}</p>
+  <h2>Reading the margin</h2>
+  <ul>
+    <li><strong>12/50</strong> means the twelfth print of an edition of fifty. The number does not usually affect value; the edition size does.</li>
+    <li><strong>AP</strong> (artist's proof) is a small number of extra prints kept by the artist, traditionally about ten per cent of the edition. They are often priced slightly higher.</li>
+    <li><strong>PP</strong> (printer's proof) and <strong>HC</strong> (hors commerce, not for sale) are further proofs outside the numbered run. Ask how many exist in total.</li>
+    <li>A pencil signature and number in the lower margin is the convention for works on paper. Canvas editions are usually signed on the front or back.</li>
+  </ul>
   <h2>Open edition print</h2>
-  <p>A reproduction with no fixed limit. These are the most affordable way to own an image you love, but they are not scarce and are rarely bought with resale in mind.</p>
+  <p>A reproduction with no fixed limit. These are the most affordable way to own an image you love, but they are not scarce and are rarely bought with resale in mind. There is nothing wrong with them as long as they are sold as what they are.</p>
   <h2>How to tell</h2>
   <ul>
-    <li>Look for a number and signature, usually in pencil in the lower margin.</li>
-    <li>Ask for the edition size and how it was printed.</li>
-    <li>Check whether a certificate states the edition details.</li>
-    <li>For originals, look for surface texture and visible marks of the hand, especially on knife-painted work.</li>
+    <li>Look for a number and signature. If there is no number, assume it is open edition until told otherwise.</li>
+    <li>Ask for the edition size, how it was printed, and whether any proofs exist beyond the numbered run.</li>
+    <li>Check whether a certificate states the edition details and who issued it. Signed Zara Muse editions, for instance, come with a certificate of authenticity from the artist.${c("grove-zm")}</li>
+    <li>For originals, look for surface texture and visible marks of the hand. Ask for a photograph taken in raking light from the side.</li>
   </ul>
+  <div class="callout"><strong>Caring for prints</strong>Keep works on paper out of direct sun, frame them with acid-free mounts and glass that filters ultraviolet light, and never trim the margins: the signature and number are part of the work.</div>
   `
 },
 {
   slug:"provenance-certificates", section:"library", kicker:"Collecting", artists:[], tone:"#6F8AA8",
   title:"Provenance and certificates, explained",
-  dek:"The paperwork that should travel with a work, and why it matters when you come to insure or sell.",
-  credit:"", minutes:4, updated:"November 2026", status:"Draft for review", sources:[],
+  dek:"The paperwork that should travel with a work, what a certificate can and cannot prove, and why it matters when you come to insure or sell.",
+  credit:"", minutes:6, updated:"November 2026", status:"Draft for review", sources:[],
   body:`
-  <p>Provenance is the history of who has owned a work since it left the artist's studio. A certificate of authenticity is a document stating that a work is genuine. Together they are the work's passport.</p>
+  <p>Provenance is the history of who has owned a work since it left the artist's studio. A certificate of authenticity is a document stating that a work is genuine. Together they are the work's passport, and like a passport they are only as good as whoever issued them.</p>
   <h2>What good paperwork includes</h2>
   <ul>
     <li>Artist's name, title, date, medium and dimensions</li>
-    <li>For prints, the edition size and this print's number</li>
-    <li>Who issued the certificate, and their signature</li>
-    <li>An invoice showing where and when you bought it</li>
+    <li>For prints, the edition size, this print's number and the total number of proofs</li>
+    <li>Who issued the certificate, with a signature and a date</li>
+    <li>An invoice showing where and when you bought it, and for how much</li>
+    <li>Any exhibition history, with venue names and dates</li>
   </ul>
+  <h2>What a certificate proves, and what it does not</h2>
+  <p>A certificate signed by the artist, or issued by the artist's studio or the gallery that represents them, is strong evidence. A certificate from a third party who never handled the work, or a generic card with no issuer named, proves very little. If the artist is living, the best confirmation is the simplest: the artist or their gallery confirming in writing that the work is theirs.</p>
+  <h2>The chain of ownership</h2>
+  <p>For a new work bought directly from the artist's gallery, provenance is short: studio, gallery, you. Keep it that way by keeping the invoice. For a work bought second-hand, ask for the previous owner's paperwork too. Gaps are not unusual, but a gap at the start, with no record of where the work first came from, is where most problems begin.</p>
   <h2>Why it matters</h2>
-  <p>Insurers, auction houses and future buyers will all ask for it. A work with a clear, documented history is easier to insure, easier to sell and more likely to hold its value.</p>
+  <p>Insurers, auction houses and future buyers will all ask for it. A work with a clear, documented history is easier to insure, easier to sell and more likely to hold its value. For prints, the paperwork is often the only way to tell a legitimate edition from an unauthorised copy.</p>
   <h2>Keep a file</h2>
-  <p>Keep certificates, invoices, exhibition labels, correspondence with the gallery and good photographs of each work together, both on paper and as scans.</p>
+  <p>Keep certificates, invoices, exhibition labels, correspondence with the gallery and good photographs of each work together, on paper and as scans. Photograph the front, the back, the signature and any labels on the frame. Add a photograph of the work hanging in your home, which insurers like, and note any conservation work with dates.</p>
+  <div class="callout"><strong>If something is missing</strong>Ask the gallery to reissue a certificate or confirm the sale in writing. Most will. If they cannot or will not, that is useful information in itself.</div>
   `
 },
 {
