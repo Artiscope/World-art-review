@@ -1939,7 +1939,7 @@ function footerHTML(){
   return `<footer id="contact" class="on-green">
     <div class="cta">
       <div><span class="eyebrow light">Get the review</span>
-        <h2 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines([{t:'New portfolios,'},{t:'once a month.', cls:'ital brick-soft'}])}</h2></div>
+        <h2 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines([{t:'New portfolios,'},{t:'once a month.'}])}</h2></div>
       <div data-in data-from='{"opacity":0,"y":20}' data-cfg='{"tension":200,"friction":24}' data-delay="150"><button class="btn paper" type="button" data-sub data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>Subscribe</button></div>
     </div>
     <div class="cols">
@@ -2022,7 +2022,7 @@ function homeHTML(){
   <section class="band deep" id="sections" style="padding:4.5rem 1.5rem 5rem">
     <div class="sec-in">
     <span class="eyebrow">What you will find here</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'Read by'},{t:'section', cls:'ital brick'}])}</h2>
+    <h2 class="h2" data-in="lines">${lines([{t:'Read by'},{t:'section'}])}</h2>
     <ul class="rows">${SECTION_INFO.map((s,i)=>`<li data-in data-from='{"opacity":0,"y":26}' data-cfg='{"tension":190,"friction":26}' data-delay="${i*90}"><a href="${s.href}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'><span class="n">${s.n}</span><span class="body"><span class="name">${esc(s.name)}</span><span class="desc">${esc(s.desc)}</span></span><span class="count">${plural(s.count(), s.unit)}</span></a></li>`).join('')}</ul>
     </div>
   </section>
@@ -2031,7 +2031,7 @@ function homeHTML(){
     <div class="grid sec-in">
       <div class="intro">
         <div data-in data-from='{"opacity":0,"scale":0.85}' data-cfg='{"tension":240,"friction":20}'>${plateFor(explained[0]||{tone:'#C99A55'},{cls:'sqimg',note:''})}</div>
-        <h2 class="h2" style="margin-top:1.5rem" data-in="lines" data-opts='{"stagger":120}'>${lines([{t:'How to'},{t:'look at'},{t:'a painting', cls:'ital brick'}])}</h2>
+        <h2 class="h2" style="margin-top:1.5rem" data-in="lines" data-opts='{"stagger":120}'>${lines([{t:'How to'},{t:'look at'},{t:'a painting'}])}</h2>
         <p class="body" data-in="words">${words('Short, sourced explainers on the techniques and materials behind the work, so you know what you are looking at before you look it up.')}</p>
       </div>
       <div class="cards">${explained.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":48}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*140}" data-hover data-hover-target=".plate" data-hfrom='{"scale":1}' data-hto='{"scale":1.03}' data-hcfg='{"tension":300,"friction":22}'>${plateFor(a,{note:'Image to supply'})}<span class="cap ${i?'b':'g'}"><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`).join('')}</div>
@@ -2040,13 +2040,13 @@ function homeHTML(){
 
   <section class="band green nums on-green inner" id="numbers" style="padding-top:5rem;padding-bottom:5rem">
     <span class="eyebrow light">The review so far</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'Research you'},{t:'can check', cls:'ital brick-soft'}])}</h2>
+    <h2 class="h2" data-in="lines">${lines([{t:'Research you'},{t:'can check'}])}</h2>
     <dl>${[[pub.length,'Artists documented'],[ARTICLES.length,'Articles and reviews'],[Object.keys(SOURCES).length,'Sources cited'],['100%','Facts with a numbered source']].map((n,i)=>`<div class="cell" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":24}' data-delay="${i*110}"><dt class="sr-only">${n[1]}</dt><dd class="num">${n[0]}</dd><div class="lab" aria-hidden="true">${n[1]}</div></div>`).join('')}</dl>
   </section>
 
   <section class="band paper method inner" id="method">
     <span class="eyebrow">How we research</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'The work first,'},{t:'then the story', cls:'ital brick'}])}</h2>
+    <h2 class="h2" data-in="lines">${lines([{t:'The work first,'},{t:'then the story'}])}</h2>
     <div class="grid">${[
       ['1','We start with the work itself: what it is made of, how it was made and where it has been shown.','Start with the work','Seen, measured, described'],
       ['2','Every fact in a portfolio carries a numbered source you can open and read for yourself.','Every fact, sourced','Press, auction records, gallery files'],
@@ -2157,7 +2157,7 @@ pages.artists = () => {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   const have = new Set(ARTISTS.map(a=>a.letter));
   const list = ARTISTS.filter(a => !azFilter || a.letter===azFilter).sort((a,b)=>a.name.localeCompare(b.name));
-  return shell(pageHead('Artists A to Z', [{t:'Every artist,'},{t:'researched and sourced', cls:'ital brick'}], 'Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now.') + `
+  return shell(pageHead('Artists A to Z', [{t:'Every artist,'},{t:'researched and sourced'}], 'Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now.') + `
   <div class="azrow" role="group" aria-label="Filter by initial">${letters.map(l => have.has(l)?`<button type="button" class="chip" data-az="${l}" aria-pressed="${azFilter===l}">${l}</button>`:`<span>${l}</span>`).join('')}${azFilter?`<button type="button" class="chip" data-az="">Show all</button>`:''}</div>
   <div class="agrid" id="artistGrid">${list.map(artistCard).join('')}</div>`);
 };
@@ -2167,12 +2167,12 @@ function listRow(a, i){
 function sectionPage(section, eyebrow, titleLines, dek){
   return () => shell(pageHead(eyebrow, titleLines, dek) + `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`);
 }
-pages.explained = sectionPage('explained','Art Explained',[{t:'How the work is made,'},{t:'and why it matters', cls:'ital brick'}],'Plain-language guides to the techniques, materials and ideas behind the artworks.');
-pages.library = sectionPage('library',"Collector's Library",[{t:'Buy with your'},{t:'eyes open', cls:'ital brick'}],'Practical, independent guidance on researching artists, understanding what you are buying and keeping good records.');
-pages.reviews = sectionPage('reviews','Reviews',[{t:'Recent reviews'},{t:'and comparisons', cls:'ital brick'}],'Considered responses to individual works and projects, and side-by-side comparisons of artists.');
-pages.guides = () => shell(pageHead('Exhibition Guides',[{t:'What to see,'},{t:'and how to see it', cls:'ital brick'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div class="list" style="max-width:56rem">${GUIDES.map((g,i)=>`<a href="#guides" data-in data-delay="${i*80}"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}. What to see and how long to allow.</span></span></a>`).join('')}<p class="meta" style="margin-top:1.5rem">Guides will be added as exhibitions are confirmed.</p></div>`);
+pages.explained = sectionPage('explained','Art Explained',[{t:'How the work is made,'},{t:'and why it matters'}],'Plain-language guides to the techniques, materials and ideas behind the artworks.');
+pages.library = sectionPage('library',"Collector's Library",[{t:'Buy with your'},{t:'eyes open'}],'Practical, independent guidance on researching artists, understanding what you are buying and keeping good records.');
+pages.reviews = sectionPage('reviews','Reviews',[{t:'Recent reviews'},{t:'and comparisons'}],'Considered responses to individual works and projects, and side-by-side comparisons of artists.');
+pages.guides = () => shell(pageHead('Exhibition Guides',[{t:'What to see,'},{t:'and how to see it'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div class="list" style="max-width:56rem">${GUIDES.map((g,i)=>`<a href="#guides" data-in data-delay="${i*80}"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}. What to see and how long to allow.</span></span></a>`).join('')}<p class="meta" style="margin-top:1.5rem">Guides will be added as exhibitions are confirmed.</p></div>`);
 
-pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish', cls:'ital brick'}],'The rules every portfolio and article on World Art Review follows.') + `
+pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish'}],'The rules every portfolio and article on World Art Review follows.') + `
   <div class="std"><div class="prose" style="max-width:44rem">
   <h2>Every fact has a source</h2><p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>
   <h2>We say who said it</h2><p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class="reported">Reported</span>.</p>
@@ -2184,7 +2184,7 @@ pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we researc
 
 pages.research = () => {
   const items = ARTISTS.map(a => ({a, open:openItems(a)}));
-  return shell(pageHead('Research desk',[{t:'What still needs'},{t:'to be added', cls:'ital brick'}],'An internal checklist, drawn from the portfolios themselves. Each item disappears once the information is added. Not for the public site.') + `
+  return shell(pageHead('Research desk',[{t:'What still needs'},{t:'to be added'}],'An internal checklist, drawn from the portfolios themselves. Each item disappears once the information is added. Not for the public site.') + `
   <div class="rgrid">
     ${items.map(({a,open},i)=>`<div class="rcard" data-in data-delay="${i*80}"><h2>${esc(a.name)}<span class="status ${open.length?'todo':'ok'}">${open.length} open</span></h2><ul>${open.map(o=>`<li>${esc(o)}</li>`).join('')}</ul>${a.published?`<p style="margin-top:1rem"><a href="#artist-${a.slug}" class="meta" style="text-decoration:underline">Open portfolio</a></p>`:''}</div>`).join('')}
     <div class="rcard" data-in data-delay="${items.length*80}"><h2>Site-wide</h2><ul><li>Grove Gallery disclosure wording</li><li>Corrections email address</li><li>Privacy notice and terms</li><li>Editor and researcher names</li><li>Artwork and studio photographs, with permissions</li><li>First exhibition guides</li><li>Social media addresses</li><li>Final review of all draft articles</li></ul></div>
@@ -2194,7 +2194,7 @@ pages.research = () => {
 let searchQuery = '';
 pages.search = () => {
   const results = runSearch(searchQuery); const q = searchQuery.trim();
-  return shell(pageHead('Search',[{t:'Search the'},{t:'archive', cls:'ital brick'}],'Artists, artworks, techniques and collecting guides.') + `
+  return shell(pageHead('Search',[{t:'Search the'},{t:'archive'}],'Artists, artworks, techniques and collecting guides.') + `
   <form class="searchbox" role="search" id="pageSearch"><label for="pageQ" class="sr-only">Search</label><input id="pageQ" type="search" value="${esc(searchQuery)}" placeholder="An artist, artwork or technique"><button class="btn green" type="submit">Search</button></form>
   ${q?`<p class="meta" style="padding:0 1.5rem 1rem">${results.length} result${results.length===1?'':'s'} for “${esc(q)}”</p>`:''}
   <div class="list">${results.map((r,i)=>`<a href="${r.href}" data-in data-delay="${Math.min(i,6)*60}">${plateFor({tone:r.tone},{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(r.type)}</span><span class="t">${hl(r.title,q)}</span><span class="d">${esc(r.dek)}</span></span></a>`).join('')}
@@ -2252,7 +2252,7 @@ function article(a){
   const prev = idx>0 ? inSec[idx-1] : null, next = idx>=0 && idx<inSec.length-1 ? inSec[idx+1] : null;
   const related = ARTICLES.filter(x => x.slug!==a.slug && x.section!==a.section && x.artists.some(s=>a.artists.includes(s))).slice(0,3);
   const tl = a.title.split(':');
-  const titleLines = tl.length>1 ? [{t:tl[0]+':'},{t:tl.slice(1).join(':').trim(), cls:'ital'}] : [{t:a.title}];
+  const titleLines = tl.length>1 ? [{t:tl[0]+':'},{t:tl.slice(1).join(':').trim()}] : [{t:a.title}];
   const secList = (cls) => `<ol class="${cls}">${inSec.map(x => x.slug===a.slug
     ? `<li class="here"><span class="k">${esc(x.kicker)}</span><span class="t">${esc(x.title)}</span><span class="now">Reading now</span></li>`
     : `<li><a href="#a-${x.slug}"><span class="k">${esc(x.kicker)}</span><span class="t">${esc(x.title)}</span></a></li>`).join('')}</ol>`;
@@ -2330,7 +2330,7 @@ function render(){
   } else if(pages[h]){
     html = pages[h](); title = h.charAt(0).toUpperCase()+h.slice(1)+' | World Art Review';
   }
-  if(!html){ html = shell(pageHead('Not found',[{t:'We could not'},{t:'find that page', cls:'ital brick'}],'<a href="#home" style="text-decoration:underline">Return to the homepage</a>.')); }
+  if(!html){ html = shell(pageHead('Not found',[{t:'We could not'},{t:'find that page'}],'<a href="#home" style="color:var(--brick)">Return to the homepage</a>.')); }
   main.innerHTML = html;
   document.title = title;
   if(srcOrder){ const order = numberCitations(main, srcOrder); const w = $('srcwrap'); if(w) w.outerHTML = sourcesHTML(order); }
