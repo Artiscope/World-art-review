@@ -72,24 +72,18 @@ html:not(.rm) [data-in]{opacity:0}
 .eyebrow.light{color:rgba(238,229,212,.75)}
 .eyebrow.light::before{background:var(--brick-soft)}
 .btn{display:inline-flex;align-items:center;gap:.6rem;padding:.85rem 1.5rem;font-family:var(--sans);font-size:.85rem;font-weight:500;line-height:1;transition:background .25s,color .25s,border-color .25s}
-.btn svg{width:1rem;height:1rem;flex:0 0 auto}
+.btn svg{display:none}
 .btn.green{background:var(--green);color:var(--paper)}.btn.green:hover{background:var(--green-hover)}
 .btn.paper{background:var(--paper);color:var(--green)}.btn.paper:hover{background:var(--brick);color:var(--paper)}
-.btn.outline{border:1px solid var(--ink);color:var(--ink)}.btn.outline:hover{background:var(--ink);color:var(--paper)}
+.btn.outline{color:var(--ink)}.btn.outline:hover{background:var(--ink);color:var(--paper)}
 .btn.sm{padding:.65rem 1.1rem;font-size:.78rem}
-.arrowbtn{width:3rem;height:3rem;display:inline-flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s,color .25s}
-@media (min-width:640px){.arrowbtn{width:3.25rem;height:3.25rem}}
-.arrowbtn svg{width:1.1rem;height:1.1rem}
-.arrowbtn.outline{border:1px solid var(--line);color:var(--ink)}.arrowbtn.outline:hover{border-color:var(--ink)}
-.arrowbtn.solid{background:var(--green);color:var(--paper)}.arrowbtn.solid:hover{background:var(--green-hover)}
-.arrowbtn.prev svg{transform:scaleX(-1)}
 .dots{display:flex;gap:.1rem}
 .dots button{padding:.375rem}
 .dots button span{display:block;height:.3rem;width:.3rem;background:var(--ghost);transition:width .35s var(--ease-expo),background .25s}
 .dots button[aria-current="true"] span{width:1.4rem;background:var(--ink)}
 .dots.light button span{background:rgba(238,229,212,.35)}
 .dots.light button[aria-current="true"] span{background:var(--paper)}
-.chip{display:inline-flex;align-items:center;justify-content:center;min-width:2.25rem;height:2.25rem;padding:0 .75rem;border:1px solid var(--line);font-family:var(--sans);font-size:.78rem;transition:background .2s,border-color .2s,color .2s}
+.chip{display:inline-flex;align-items:center;justify-content:center;min-width:2.25rem;height:2.25rem;padding:0 .75rem;font-family:var(--sans);font-size:.78rem;transition:background .2s,border-color .2s,color .2s}
 .chip:hover{border-color:var(--ink)}
 .chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--paper)}
 .mark{display:block;flex:0 0 auto}
@@ -170,7 +164,7 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .hero .mobwall{width:11rem;margin-top:1rem}
 @media (min-width:768px){.hero .mobwall{display:none}}
 .hero .cluster{display:flex;gap:1rem;align-items:flex-end}
-.glass{border:1px solid rgba(238,229,212,.18);background:rgba(238,229,212,.09);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:.75rem;font-family:var(--sans);font-size:.68rem;line-height:1.45}
+.glass{background:rgba(238,229,212,.09);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:.75rem;font-family:var(--sans);font-size:.68rem;line-height:1.45}
 .latest{display:none;width:17rem;flex-direction:column;gap:.6rem}
 @media (min-width:768px){.latest{display:flex}}
 .latest .slide{display:flex;gap:.75rem;align-items:flex-start;position:relative}
@@ -213,14 +207,13 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 
 /* ---------- read by section ---------- */
 .rows{margin-top:3.5rem}
-.rows a{display:flex;gap:1.5rem;align-items:center;padding:1.6rem 0;border-top:1px solid var(--line)}
-.rows a:last-child{border-bottom:1px solid var(--line)}
+.rows a{display:flex;gap:1.5rem;align-items:center;padding:1.6rem 0;}
 .rows .n{width:2.5rem;flex:0 0 auto;font-family:var(--sans);font-size:.8rem;color:var(--soft)}
 .rows .body{flex:1;min-width:0}
 .rows .name{display:block;font-family:var(--display);font-size:1.9rem;line-height:1.1}
 .rows .desc{display:block;font-size:.85rem;color:var(--muted);margin-top:.3rem}
 .rows .count{width:7rem;flex:0 0 auto;font-family:var(--sans);font-size:.7rem;color:var(--muted);text-align:right}
-.rows .sq{width:2.75rem;height:2.75rem;flex:0 0 auto;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s,color .25s}
+.rows .sq{width:2.75rem;height:2.75rem;flex:0 0 auto;display:flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s,color .25s}
 .rows .sq svg{width:1rem;height:1rem}
 .rows a:hover .sq{background:var(--green);border-color:var(--green);color:var(--paper)}
 @media (max-width:640px){.rows .count{display:none}.rows .name{font-size:1.4rem}}
@@ -245,7 +238,7 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .nums{margin-top:.75rem}
 .nums dl{display:grid;grid-template-columns:1fr 1fr;gap:3rem 2rem;margin:4rem 0 0}
 @media (min-width:1024px){.nums dl{grid-template-columns:repeat(4,1fr)}}
-.nums .cell{border-top:1px solid rgba(238,229,212,.2);padding-top:1.25rem}
+.nums .cell{padding-top:1.25rem}
 .nums dd{margin:0;font-family:var(--display);font-size:3.75rem;line-height:1}
 @media (min-width:640px){.nums dd{font-size:4.5rem}}
 .nums .lab{font-family:var(--sans);font-size:.8rem;color:rgba(238,229,212,.65);margin-top:.75rem}
@@ -256,13 +249,13 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .mcard{background:var(--paper-deep);padding:1.75rem;display:flex;flex-direction:column;justify-content:space-between;min-height:17rem;gap:1.5rem}
 .mcard .k{font-family:var(--display);font-size:2.2rem;color:var(--brick);line-height:1}
 .mcard p{font-size:1rem;line-height:1.6}
-.mcard .foot{border-top:1px solid var(--line);padding-top:1rem;font-family:var(--sans);font-size:.75rem}
+.mcard .foot{padding-top:1rem;font-family:var(--sans);font-size:.75rem}
 .mcard .foot b{font-weight:600;display:block}.mcard .foot span{color:var(--muted)}
 
 /* ---------- footer ---------- */
 footer{background:var(--green);color:var(--paper);margin-top:.75rem;padding:3.5rem 1.5rem}
 @media (min-width:640px){footer{padding:4rem 2.5rem}}
-footer .cta{border-bottom:1px solid rgba(238,229,212,.15);padding-bottom:3.5rem;display:flex;flex-direction:column;gap:1.5rem}
+footer .cta{padding-bottom:3.5rem;display:flex;flex-direction:column;gap:1.5rem}
 @media (min-width:640px){footer .cta{flex-direction:row;justify-content:space-between;align-items:flex-end}}
 footer .cta h2{font-size:3.75rem;line-height:.95;margin-top:1rem}
 @media (max-width:640px){footer .cta h2{font-size:2.6rem}}
@@ -272,7 +265,7 @@ footer .blurb{font-size:.85rem;line-height:1.6;color:var(--p65);margin-top:1rem;
 footer h4{font-family:var(--sans);font-weight:500;font-size:.75rem;color:var(--p50);margin-bottom:1rem}
 footer .cols a,footer .cols button{display:block;font-family:var(--sans);font-size:.85rem;color:rgba(238,229,212,.82);margin-bottom:.7rem;text-align:left;transition:color .2s}
 footer .cols a:hover,footer .cols button:hover{color:var(--brick-soft)}
-footer .bar{border-top:1px solid rgba(238,229,212,.15);padding-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between;font-family:var(--sans);font-size:.78rem;color:rgba(238,229,212,.6)}
+footer .bar{padding-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:space-between;font-family:var(--sans);font-size:.78rem;color:rgba(238,229,212,.6)}
 footer .bar nav{display:flex;flex-wrap:wrap;gap:1.25rem}
 footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.4rem}
 
@@ -291,7 +284,7 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 #menu .links a{font-family:var(--display);font-size:3rem;line-height:1.1;transition:color .2s;display:inline-block}
 @media (min-width:640px){#menu .links a{font-size:4.5rem}}
 #menu .links a:hover{color:var(--brick-soft)}
-#menu .foot{border-top:1px solid rgba(238,229,212,.15);padding-top:2rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem}
+#menu .foot{padding-top:2rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem}
 #menu .foot nav{display:flex;gap:1.25rem;font-family:var(--sans);font-size:.8rem;color:rgba(238,229,212,.7)}
 #menu .foot nav a:hover,#menu .foot nav button:hover{color:var(--paper)}
 #menu .foot nav button{font-family:var(--sans);font-size:.8rem;color:inherit}
@@ -308,7 +301,7 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 @media (min-width:640px){#sub h2{font-size:3rem}}
 #sub form{display:flex;flex-direction:column;gap:1rem;margin-top:1.5rem}
 #sub label{display:block;font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted);margin-bottom:.4rem}
-#sub input,#sub textarea{width:100%;border:1px solid var(--line);background:var(--page);padding:.75rem 1rem;font-family:var(--text);font-size:.88rem;color:var(--ink);outline:none;transition:border-color .2s}
+#sub input,#sub textarea{width:100%;background:var(--page);padding:.75rem 1rem;font-family:var(--text);font-size:.88rem;color:var(--ink);outline:none;transition:border-color .2s}
 #sub input:focus,#sub textarea:focus{border-color:var(--brick)}
 #sub textarea{resize:vertical}
 #sub .done{display:none;flex-direction:column;gap:1rem;margin-top:1.5rem}
@@ -340,14 +333,13 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 /* ---------- listing rows (sections, search) ---------- */
 .list{padding:0 1.5rem 5rem}
 @media (min-width:640px){.list{padding:0 2.5rem 6rem}}
-.list a{display:flex;gap:1.5rem;align-items:center;padding:1.5rem 0;border-top:1px solid var(--line)}
-.list a:last-child{border-bottom:1px solid var(--line)}
+.list a{display:flex;gap:1.5rem;align-items:center;padding:1.5rem 0;}
 .list .thumb{width:7rem;aspect-ratio:4/3;flex:0 0 auto}
 .list .body{flex:1;min-width:0}
 .list .k{font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted);display:block;margin-bottom:.35rem}
 .list .t{font-family:var(--display);font-size:1.5rem;line-height:1.15;display:block}
 .list .d{font-size:.85rem;color:var(--muted);margin-top:.35rem;display:block}
-.list .sq{width:2.75rem;height:2.75rem;flex:0 0 auto;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s,color .25s}
+.list .sq{width:2.75rem;height:2.75rem;flex:0 0 auto;display:flex;align-items:center;justify-content:center;transition:background .25s,border-color .25s,color .25s}
 .list .sq svg{width:1rem;height:1rem}
 .list a:hover .sq{background:var(--green);border-color:var(--green);color:var(--paper)}
 @media (max-width:640px){.list .thumb{width:4.5rem}.list .t{font-size:1.15rem}.list .sq{display:none}}
@@ -361,7 +353,7 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 .pf-art .frame .plate{width:100%;height:100%}
 .pf-art .wall{position:absolute;right:0;bottom:.5rem;width:9.5rem;transform:rotate(.8deg)}
 .glance{background:var(--paper-deep);padding:1.75rem;display:flex;flex-direction:column;gap:1rem}
-.glance .row{display:flex;flex-direction:column;gap:.15rem;border-top:1px solid var(--line);padding-top:.75rem}
+.glance .row{display:flex;flex-direction:column;gap:.15rem;padding-top:.75rem}
 .glance .row:first-of-type{border-top:0;padding-top:0}
 .glance .k{font-family:var(--sans);font-size:.68rem;color:var(--muted)}
 .glance .v{font-size:.95rem;line-height:1.45}
@@ -404,8 +396,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .work-btn .wall .wt{font-size:.6rem;color:var(--muted)}
 .works-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:1.25rem}
 .works-head h2{margin:0}
-.timeline li{display:flex;gap:1.5rem;padding:1.1rem 0;border-top:1px solid var(--line);align-items:baseline}
-.timeline li:last-child{border-bottom:1px solid var(--line)}
+.timeline li{display:flex;gap:1.5rem;padding:1.1rem 0;align-items:baseline}
 .timeline .when{width:8rem;flex:0 0 auto;font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--green)}
 .timeline .what{font-size:.95rem;line-height:1.55}
 @media (max-width:640px){.timeline li{flex-direction:column;gap:.3rem}}
@@ -428,7 +419,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 @media (min-width:640px){.art-hero{padding:0 2.5rem 3rem}}
 .art-hero .plate{aspect-ratio:16/8;max-height:34rem}
 .byline{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;margin-top:1.5rem;font-family:var(--sans);font-size:.72rem;color:var(--muted)}
-.byline .iconbtn{height:2rem;padding:0 .7rem;border:1px solid var(--line);display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.72rem;color:var(--ink);transition:border-color .2s,background .2s}
+.byline .iconbtn{height:2rem;padding:0 .7rem;display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.72rem;color:var(--ink);transition:border-color .2s,background .2s}
 .byline .iconbtn:hover{border-color:var(--ink)}
 .byline .iconbtn svg{width:.95rem;height:.95rem}
 [aria-pressed="true"] .ic-bookmark path{fill:currentColor}
@@ -458,7 +449,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 /* ---------- search, research, standards ---------- */
 .searchbox{display:flex;gap:.5rem;max-width:40rem;padding:0 1.5rem 2.5rem}
 @media (min-width:640px){.searchbox{padding:0 2.5rem 3rem}}
-.searchbox input{flex:1;min-width:0;height:3rem;padding:0 1rem;border:1px solid var(--line);background:var(--card);font-family:var(--text);font-size:.95rem;color:var(--ink);outline:none}
+.searchbox input{flex:1;min-width:0;height:3rem;padding:0 1rem;background:var(--card);font-family:var(--text);font-size:.95rem;color:var(--ink);outline:none}
 .searchbox input:focus{border-color:var(--brick)}
 .rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr));gap:1.25rem;padding:0 1.5rem 5rem}
 @media (min-width:640px){.rgrid{padding:0 2.5rem 6rem}}
@@ -474,7 +465,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .scrim{position:absolute;inset:0;background:rgba(29,74,53,.5);opacity:0;transition:opacity .35s ease}
 .overlay.open .scrim{opacity:1}
 .panel{position:relative;background:var(--paper);box-shadow:0 2.5rem 5rem -2.5rem rgba(0,0,0,.55)}
-.iconbtn{height:2.25rem;min-width:2.25rem;padding:0 .7rem;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;background:var(--card);border:1px solid var(--line);font-family:var(--sans);font-size:.75rem;color:var(--ink);transition:background .2s,border-color .2s}
+.iconbtn{height:2.25rem;min-width:2.25rem;padding:0 .7rem;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;background:var(--card);font-family:var(--sans);font-size:.75rem;color:var(--ink);transition:background .2s,border-color .2s}
 .iconbtn:hover{border-color:var(--ink)}
 .iconbtn svg{width:1rem;height:1rem}
 #palette{align-items:flex-start;justify-content:center;padding:10vh 1rem 1rem}
@@ -490,7 +481,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .pal-item .tx{min-width:0;display:flex;flex-direction:column;gap:.1rem}
 .pal-item .tt{font-family:var(--display);font-size:1.05rem;line-height:1.25}
 .pal-item .dd{font-family:var(--sans);font-size:.72rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.pal-item .go{margin-left:auto;opacity:0;transition:opacity .2s;color:var(--brick)}
+.pal-item .go{margin-left:auto;opacity:0;transition:opacity .2s;color:var(--brick);text-decoration:underline;text-underline-offset:.25em}
 .pal-item .go svg{width:1rem;height:1rem}
 .pal-item[aria-selected="true"]{background:var(--paper-deep)}
 .pal-item[aria-selected="true"] .go{opacity:1}
@@ -527,7 +518,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 @keyframes swap{from{opacity:0;transform:translateX(.9rem)}to{opacity:1;transform:none}}
 .note-box{display:flex;flex-direction:column;gap:.4rem}
 .note-box label{font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted)}
-.note-box textarea{width:100%;min-height:5rem;resize:vertical;padding:.7rem .85rem;font-family:var(--text);font-size:.9rem;line-height:1.5;color:var(--ink);background:var(--card);border:1px solid var(--line);outline:none}
+.note-box textarea{width:100%;min-height:5rem;resize:vertical;padding:.7rem .85rem;font-family:var(--text);font-size:.9rem;line-height:1.5;color:var(--ink);background:var(--card);outline:none}
 .note-box textarea:focus{border-color:var(--brick)}
 .note-state{font-family:var(--sans);font-size:.68rem;color:var(--muted);min-height:1rem}
 #gallery .gw-room{position:absolute;inset:0;background:#1C1B19;color:#EDE8E0;display:flex;flex-direction:column;opacity:0;transition:opacity .6s ease}
@@ -554,7 +545,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .gw-hint{text-align:center;font-family:var(--sans);font-size:.72rem;color:#A39B90;padding:0 1.25rem 1.4rem}
 .gw-note{position:absolute;right:1.5rem;bottom:4rem;width:min(20rem,calc(100vw - 3rem));background:#F1ECE3;color:#1F1D1A;padding:.9rem 1rem;transform:rotate(.4deg);z-index:3;box-shadow:0 1.25rem 2.5rem -1.25rem rgba(0,0,0,.8)}
 .gw-note label{font-family:var(--sans);font-size:.72rem;font-weight:500}
-.gw-note textarea{width:100%;min-height:4.4rem;margin-top:.4rem;padding:.5rem .6rem;font-family:var(--text);font-size:.88rem;line-height:1.45;border:1px solid #D6CDBF;background:#FBF8F2;color:#1F1D1A;resize:vertical}
+.gw-note textarea{width:100%;min-height:4.4rem;margin-top:.4rem;padding:.5rem .6rem;font-family:var(--text);font-size:.88rem;line-height:1.45;background:#FBF8F2;color:#1F1D1A;resize:vertical}
 .gw-note .note-state{color:#5A544C}
 @media (max-width:700px){.gw-note{position:relative;right:auto;bottom:auto;margin:0 auto .75rem}}
 .pop{position:absolute;z-index:90;width:18.75rem;max-width:calc(100vw - 1.5rem);background:var(--green);color:var(--paper);padding:1rem 1.1rem;font-family:var(--sans);font-size:.78rem;line-height:1.5;box-shadow:0 1.5rem 3rem -1.5rem rgba(0,0,0,.6);opacity:0;transform:translateY(.4rem);transition:opacity .2s,transform .25s var(--ease-expo);pointer-events:none}
@@ -578,6 +569,48 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .page-fade{transition:opacity .25s ease}
 .page-fade.out{opacity:0}
 
+/* ---------- words, not arrows ---------- */
+.wordbtn{font-family:var(--sans);font-size:.85rem;font-weight:500;padding:.5rem 0;color:var(--ink);text-decoration:underline;text-decoration-color:var(--ghost);text-underline-offset:.3em;transition:color .2s,text-decoration-color .2s}
+.wordbtn:hover{color:var(--brick);text-decoration-color:var(--brick)}
+.wordbtn.light{color:var(--paper);text-decoration-color:rgba(238,229,212,.4)}.wordbtn.light:hover{color:var(--brick-soft);text-decoration-color:var(--brick-soft)}
+.counter{font-family:var(--display);font-size:1.1rem;font-variant-numeric:lining-nums tabular-nums}
+.counter i{font-style:normal;color:var(--soft);margin:0 .35rem}
+.counter.light i{color:rgba(238,229,212,.5)}
+.menubtn{width:auto;height:2.5rem;padding:0 .9rem;flex-direction:row;font-family:var(--sans);font-size:.8rem;font-weight:500;color:var(--paper)}
+.hdr.dark .menubtn{color:var(--ink)}
+.menubtn i{display:none}
+.xbtn{width:auto;height:2.5rem;padding:0 .9rem;font-family:var(--sans);font-size:.8rem;font-weight:500;color:var(--paper)}
+.xbtn.dark{color:var(--ink)}
+.xbtn svg{display:none}
+.rows a{padding:1.4rem 0;transition:background .25s;margin:0 -1rem;padding-left:1rem;padding-right:1rem}
+.rows a:hover{background:var(--paper)}
+.rows .name{transition:color .2s}.rows a:hover .name{color:var(--brick)}
+.rows .sq{display:none}
+.rows .count{text-align:right;font-family:var(--display);font-size:.95rem;color:var(--muted);font-style:italic}
+.list a{padding:1.4rem 1rem;margin:0 -1rem;transition:background .25s}
+.list a:hover{background:var(--paper-deep)}
+.list .t{transition:color .2s}.list a:hover .t{color:var(--brick)}
+.list .sq{display:none}
+.nums .cell{padding-top:0}
+.nums dd{color:var(--paper)}
+.mcard .foot{padding-top:0}
+.timeline li{padding:.9rem 0}
+.timeline li:nth-child(odd){background:var(--paper-deep);margin:0 -1rem;padding-left:1rem;padding-right:1rem}
+.glance .row{padding-top:.5rem}
+footer .cta{padding-bottom:3rem}
+footer .bar{padding-top:1rem}
+#menu .foot{padding-top:1.5rem}
+#sub input,#sub textarea{background:var(--paper-deep)}
+.searchbox input{background:var(--paper-deep)}
+.note-box textarea{background:var(--paper-deep)}
+.chip{background:var(--paper-deep)}.chip:hover{background:var(--line)}
+.iconbtn{background:var(--paper-deep)}.iconbtn:hover{background:var(--line)}
+.byline .iconbtn{background:var(--paper-deep)}.byline .iconbtn:hover{background:var(--line)}
+.gw-ctrl .iconbtn{background:#2A2825}
+#opening .track{display:none}
+.dots{display:none}
+.lb-nav .iconbtn svg{display:none}
+
 </style>
 </head>
 <body>
@@ -591,8 +624,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 <div id="opening" aria-hidden="true">
   <div class="col">
     <span class="wordmark on-green" id="opWord"><svg class="mark"><use href="#sym-mark"/></svg><span>World Art Review</span></span>
-    <span class="track"><i id="opFill"></i></span>
-    <span class="tag">Discover Artists. Understand Art.</span>
+        <span class="tag">Discover Artists. Understand Art.</span>
   </div>
 </div>
 
@@ -603,7 +635,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
   <div class="panel" id="menuPanel" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="top">
       <a href="#home" class="wordmark on-green" data-menu-close><svg class="mark"><use href="#sym-mark"/></svg><span>World Art Review</span></a>
-      <button class="xbtn" type="button" id="menuClose" aria-label="Close menu"><svg class="x"><use href="#sym-x"/></svg></button>
+      <button class="xbtn" type="button" id="menuClose">Close</button>
     </div>
     <nav class="links" aria-label="Menu">
       <a href="#artists" data-menu-close>Artists A to Z</a>
@@ -613,7 +645,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
       <a href="#home" data-menu-close data-go="method">How we research</a>
     </nav>
     <div class="foot">
-      <button class="btn paper" type="button" id="menuSub">Subscribe <svg><use href="#sym-arrow"/></svg></button>
+      <button class="btn paper" type="button" id="menuSub">Subscribe</button>
       <nav aria-label="More"><button type="button" id="menuSearch">Search</button><button type="button" id="menuNotes">Your notebook</button><a href="#" rel="noopener">Instagram</a><a href="#" rel="noopener">X</a><a href="#" rel="noopener">LinkedIn</a></nav>
     </div>
   </div>
@@ -624,13 +656,13 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
   <div class="panel" id="subPanel" role="dialog" aria-modal="true" aria-labelledby="subTitle">
     <div class="ph">
       <div><span class="eyebrow">Get the review</span><h2 id="subTitle"><span class="ln"><span>New portfolios,</span></span><span class="ln"><span class="ital brick">once a month.</span></span></h2></div>
-      <button class="xbtn dark" type="button" id="subClose" aria-label="Close"><svg class="x"><use href="#sym-x"/></svg></button>
+      <button class="xbtn dark" type="button" id="subClose">Close</button>
     </div>
     <form id="subForm" novalidate>
       <div><label for="subName">Name</label><input id="subName" name="name" type="text" placeholder="Your name" autocomplete="name"></div>
       <div><label for="subEmail">Email</label><input id="subEmail" name="email" type="email" placeholder="you@email.com" autocomplete="email" required></div>
       <div><label for="subTopics">Which artists or topics interest you? (optional)</label><textarea id="subTopics" name="topics" rows="3"></textarea></div>
-      <div><button class="btn green" type="submit" id="subSend">Subscribe <svg><use href="#sym-arrow"/></svg></button></div>
+      <div><button class="btn green" type="submit" id="subSend">Subscribe</button></div>
     </form>
     <div class="done">
       <span class="tick"><svg><use href="#sym-tick"/></svg></span>
@@ -658,7 +690,7 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 <div class="overlay" id="drawer" hidden>
   <div class="scrim" data-close></div>
   <aside class="panel drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-    <div class="drawer-head"><h2 id="drawerTitle">Your notebook</h2><button class="iconbtn" type="button" data-close aria-label="Close"><svg><use href="#sym-x"/></svg></button></div>
+    <div class="drawer-head"><h2 id="drawerTitle">Your notebook</h2><button class="iconbtn" type="button" data-close>Close</button></div>
     <div id="drawerBody"></div>
   </aside>
 </div>
@@ -676,8 +708,8 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
     <div class="gw-top">
       <div><p class="gw-kicker">Gallery walk</p><h2 id="gwTitle">Gallery</h2></div>
       <div class="gw-ctrl"><span class="gw-count" id="gwCount" aria-live="polite"></span>
-        <button class="iconbtn" type="button" id="gwPrev" aria-label="Previous work"><svg style="transform:scaleX(-1)"><use href="#sym-arrow"/></svg></button>
-        <button class="iconbtn" type="button" id="gwNext" aria-label="Next work"><svg><use href="#sym-arrow"/></svg></button>
+        <button class="iconbtn" type="button" id="gwPrev">Previous</button>
+        <button class="iconbtn" type="button" id="gwNext">Next</button>
         <button class="iconbtn" type="button" data-close>Leave the gallery</button></div>
     </div>
     <div class="gw-track" id="gwTrack" tabindex="0" aria-label="Works on the wall"></div>
@@ -1399,7 +1431,7 @@ function renderPalette(){
     html += `<div class="pal-group" role="presentation">${esc(g)}</div>`;
     items.forEach(it => {
       const i = palItems.length; palItems.push(it);
-      html += `<div class="pal-item" role="option" id="opt-${i}" data-i="${i}" aria-selected="false"><span class="sw">${swatch(it.tone||'var(--sage-tint)')}</span><span class="tx"><span class="tt">${raw.trim()?hl(it.title,raw):esc(it.title)}</span><span class="dd">${esc(it.dek||'')}</span></span><span class="go">${IC.arrow}</span></div>`;
+      html += `<div class="pal-item" role="option" id="opt-${i}" data-i="${i}" aria-selected="false"><span class="sw">${swatch(it.tone||'var(--sage-tint)')}</span><span class="tx"><span class="tt">${raw.trim()?hl(it.title,raw):esc(it.title)}</span><span class="dd">${esc(it.dek||'')}</span></span><span class="go" style="font-family:var(--sans);font-size:.72rem">Open</span></div>`;
     });
   });
   if(!palItems.length) html = `<div class="pal-empty">Nothing found for “${esc(raw)}”. Try an artist's name, a technique such as impasto, or a topic such as prints.</div>`;
@@ -1454,10 +1486,10 @@ function fillSaved(){
   const items = saved.map(articleBy).filter(Boolean);
   const ns = Object.entries(notes);
   const savedHTML = items.length
-    ? items.map(a=>`<div class="saved-item" data-row="${a.slug}"><span class="sw">${swatch(a.tone)}</span><a href="#a-${a.slug}"><span class="label">${esc(a.kicker)}</span><span class="tt">${esc(a.title)}</span></a><button class="iconbtn" type="button" data-unsave="${a.slug}" aria-label="Remove ${esc(a.title)}">${IC.close}</button></div>`).join('')
+    ? items.map(a=>`<div class="saved-item" data-row="${a.slug}"><span class="sw">${swatch(a.tone)}</span><a href="#a-${a.slug}"><span class="label">${esc(a.kicker)}</span><span class="tt">${esc(a.title)}</span></a><button class="iconbtn" type="button" data-unsave="${a.slug}" aria-label="Remove ${esc(a.title)}">Remove</button></div>`).join('')
     : `<p class="meta">Use the bookmark on any article to keep it here.</p>`;
   const notesHTML = ns.length
-    ? ns.map(([k,n])=>{ const a = artistBy(n.artist); return `<div class="nb-note" data-note="${esc(k)}"><div class="row"><span class="nt"><i>${esc(n.title)}</i>${a?', '+esc(a.name):''}</span><button class="iconbtn" type="button" data-unnote="${esc(k)}" aria-label="Delete this note">${IC.close}</button></div><p>${esc(n.text)}</p><span class="meta">${esc(n.date)}${a?` · <a href="#artist-${a.slug}" style="text-decoration:underline">Open the portfolio</a>`:''}</span></div>`; }).join('')
+    ? ns.map(([k,n])=>{ const a = artistBy(n.artist); return `<div class="nb-note" data-note="${esc(k)}"><div class="row"><span class="nt"><i>${esc(n.title)}</i>${a?', '+esc(a.name):''}</span><button class="iconbtn" type="button" data-unnote="${esc(k)}" aria-label="Delete this note">Delete</button></div><p>${esc(n.text)}</p><span class="meta">${esc(n.date)}${a?` · <a href="#artist-${a.slug}" style="text-decoration:underline">Open the portfolio</a>`:''}</span></div>`; }).join('')
     : `<p class="meta">Open any documented work and write down what you notice. Your notes collect here.</p>`;
   $('drawerBody').innerHTML = `<p class="meta" style="margin-bottom:22px">Kept in this browser only. Nobody else can see it.</p>
     <div class="nb-section"><h3>Saved to read</h3>${savedHTML}</div>
@@ -1488,9 +1520,9 @@ function renderLightbox(anim){
     <dl><dt>Year</dt><dd>${w.year?esc(w.year):ph('Year')}</dd><dt>Medium</dt><dd>${w.medium?esc(w.medium):ph('Medium')}</dd>${w.size===false?'':`<dt>Size</dt><dd>${w.size?esc(w.size):ph('Size')}</dd>`}${w.note?`<dt>Notes</dt><dd>${esc(w.note)}</dd>`:''}<dt>Source</dt><dd>${srcs.length?srcs.map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(s.pub)}, ${esc(s.date)}</a>`:esc(s.pub)).join('<br>'):ph('Source')}</dd></dl>
     <div class="note-box"><label class="label" for="noteBox">What do you notice?</label><textarea id="noteBox" placeholder="A colour, a mark, a detail you keep coming back to"></textarea><span class="note-state" id="noteState" aria-live="polite"></span></div>
     <div class="lb-nav"><span class="lb-count">${lbIndex+1} of ${lbWorks.length}</span>
-      <button class="iconbtn" type="button" id="lbPrev" aria-label="Previous work">${IC.left}</button>
-      <button class="iconbtn" type="button" id="lbNext" aria-label="Next work">${IC.arrow}</button>
-      <button class="iconbtn" type="button" data-close aria-label="Close">${IC.close}</button></div>`;
+      <button class="iconbtn" type="button" id="lbPrev">Previous</button>
+      <button class="iconbtn" type="button" id="lbNext">Next</button>
+      <button class="iconbtn" type="button" data-close>Close</button></div>`;
   bindNote($('noteBox'), $('noteState'), lbArtist, lbIndex);
   $('lbPrev').onclick = () => stepLightbox(-1);
   $('lbNext').onclick = () => stepLightbox(1);
@@ -1571,7 +1603,7 @@ function setupDock(kind, slug){
   const C = (2*Math.PI*17).toFixed(1);
   d.innerHTML = `<span class="ring" aria-hidden="true"><svg viewBox="0 0 42 42" width="42" height="42"><circle cx="21" cy="21" r="17" fill="none" style="stroke:var(--paper-deep)" stroke-width="3"/><circle id="dockFg" cx="21" cy="21" r="17" fill="none" style="stroke:var(--brick)" stroke-width="3" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}"/></svg><span id="dockPct">0%</span></span>${kind==='article'?'<span class="dock-ch" id="dockCh" aria-hidden="true"></span>':''}
     ${kind==='article'?`<button type="button" id="dockSize" aria-label="Change text size"><span class="aa">Aa</span></button><button type="button" data-save="${slug}" aria-pressed="${isSaved(slug)}" aria-label="Save to reading list">${IC.bookmark}</button>`:''}
-    <button type="button" id="dockTop" aria-label="Back to top">${IC.up}</button>`;
+    <button type="button" id="dockTop">Top</button>`;
   $('dockTop').onclick = () => (lenis ? lenis.scrollTo(0) : window.scrollTo({top:0, behavior:reduceMotion?'auto':'smooth'}));
   if($('dockSize')) $('dockSize').onclick = () => {
     const order = ['size-s','','size-l']; readSize = order[(order.indexOf(readSize)+1)%3];
@@ -1602,9 +1634,8 @@ function runOpening(){
   };
   lockScroll();
   if(reduceMotion){ setTimeout(finish, 200); return; }
-  const word = $('opWord'), fill = $('opFill');
+  const word = $('opWord');
   springTo(word, {opacity:0, y:16}, {opacity:1, y:0}, {tension:200, friction:22}, applyT(word));
-  tween(1280, ease.inOutCubic, k => { fill.style.transform = `scaleX(${k.toFixed(4)})`; }, 120);
   const t0 = performance.now();
   let fired = false;
   const go = () => { if(fired) return; fired = true; const wait = Math.max(0, 1400 - (performance.now()-t0)); setTimeout(finish, wait); };
@@ -1617,7 +1648,7 @@ function headerHTML(dark){
   return `<header class="hdr${dark?' dark':' on-green'}">
     <nav class="left" aria-label="Sections"><a href="#artists">Artists A to Z</a><a href="#reviews">Reviews</a><a href="#explained">Art Explained</a></nav>
     <a href="#home" class="centre" aria-label="World Art Review, home">${IC.mark}<span>World Art Review</span></a>
-    <div class="right"><button type="button" class="sub" data-sub>Subscribe</button><button type="button" class="menubtn" data-menu aria-label="Open menu"><i></i><i></i></button></div>
+    <div class="right"><button type="button" class="sub" data-sub>Subscribe</button><button type="button" class="menubtn" data-menu aria-label="Open menu">Menu</button></div>
   </header>`;
 }
 
@@ -1692,7 +1723,7 @@ function footerHTML(){
     <div class="cta">
       <div><span class="eyebrow light">Get the review</span>
         <h2 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines([{t:'New portfolios,'},{t:'once a month.', cls:'ital brick-soft'}])}</h2></div>
-      <div data-in data-from='{"opacity":0,"y":20}' data-cfg='{"tension":200,"friction":24}' data-delay="150"><button class="btn paper" type="button" data-sub data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>Subscribe ${IC.arrow}</button></div>
+      <div data-in data-from='{"opacity":0,"y":20}' data-cfg='{"tension":200,"friction":24}' data-delay="150"><button class="btn paper" type="button" data-sub data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>Subscribe</button></div>
     </div>
     <div class="cols">
       <div><span class="wordmark">${IC.mark}<span>World Art Review</span></span><p class="blurb">Researched artist portfolios, reviews and collecting guides. Discover Artists. Understand Art.</p></div>
@@ -1741,7 +1772,7 @@ function homeHTML(){
       <div class="cluster">
         <div class="glass latest" id="latest" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="650">
           <div class="slides">${latest.map((it,i)=>`<div class="slide" data-i="${i}" style="${i?'opacity:0;pointer-events:none':''}">${plateFor(it,{cls:'thumb',note:''})}<div><span class="k">${esc(it.section==='features'?'Artist portfolio':it.kicker)}</span><span class="t">${esc(it.title)}</span><a class="go" href="#a-${it.slug}">${it.section==='features'?'Read the portfolio':'Read the review'} →</a></div></div>`).join('')}</div>
-          <div class="dots light" id="latestDots">${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
+          <span class="counter light" id="latestCount" style="font-size:.85rem"><b>1</b><i>of</i>${latest.length}</span><div class="dots" id="latestDots" hidden>${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
         </div>
         <div class="glass srcs" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="780">
           <div><span class="big">100%</span><span class="sw"><i style="background:#EEE5D4"></i><i style="background:#B5392B"></i><i style="background:#E6A992"></i><i style="background:#1D1D1B"></i></span><span class="cap">Every fact carries a numbered source</span></div>
@@ -1765,9 +1796,9 @@ function homeHTML(){
       <span id="featWall">${wallLabel(feat[0],[artistLine(feat[0]), glanceVal(feat[0],'Medium')])}</span>
     </a>
     <div class="ctrls">
-      <button type="button" class="arrowbtn outline prev" id="featPrev" aria-label="Previous artist" data-hover data-hover-target="svg" data-hfrom='{"scale":1}' data-hto='{"scale":1.15}' data-hcfg='{"tension":320,"friction":18}'>${IC.arrow}</button>
-      <div class="dots" id="featDots">${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
-      <button type="button" class="arrowbtn solid" id="featNext" aria-label="Next artist" data-hover data-hover-target="svg" data-hfrom='{"scale":1}' data-hto='{"scale":1.15}' data-hcfg='{"tension":320,"friction":18}'>${IC.arrow}</button>
+      <button type="button" class="wordbtn" id="featPrev">Previous artist</button>
+      <span class="counter" id="featCount" aria-live="polite"><b>1</b><i>of</i>${feat.length}</span><div class="dots" id="featDots" hidden>${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
+      <button type="button" class="wordbtn" id="featNext">Next artist</button>
     </div>
   </section>
 
@@ -1775,7 +1806,7 @@ function homeHTML(){
     <div class="sec-in">
     <span class="eyebrow">What you will find here</span>
     <h2 class="h2" data-in="lines">${lines([{t:'Read by'},{t:'section', cls:'ital brick'}])}</h2>
-    <ul class="rows">${SECTION_INFO.map((s,i)=>`<li data-in data-from='{"opacity":0,"y":26}' data-cfg='{"tension":190,"friction":26}' data-delay="${i*90}"><a href="${s.href}" data-hover data-hover-target=".sq svg" data-hfrom='{"x":0,"opacity":0.55}' data-hto='{"x":8,"opacity":1}' data-hcfg='{"tension":300,"friction":20}'><span class="n">${s.n}</span><span class="body"><span class="name">${esc(s.name)}</span><span class="desc">${esc(s.desc)}</span></span><span class="count">${plural(s.count(), s.unit)}</span><span class="sq">${IC.arrow}</span></a></li>`).join('')}</ul>
+    <ul class="rows">${SECTION_INFO.map((s,i)=>`<li data-in data-from='{"opacity":0,"y":26}' data-cfg='{"tension":190,"friction":26}' data-delay="${i*90}"><a href="${s.href}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'><span class="n">${s.n}</span><span class="body"><span class="name">${esc(s.name)}</span><span class="desc">${esc(s.desc)}</span></span><span class="count">${plural(s.count(), s.unit)}</span></a></li>`).join('')}</ul>
     </div>
   </section>
 
@@ -1854,6 +1885,7 @@ function setupHome(){
     const fresh = document.createElement('div'); fresh.id='featPlate'; fresh.innerHTML = plateFor(a,{note:'Artwork image to supply'});
     if(animate && !reduceMotion){ fresh.style.opacity='0'; old.replaceWith(fresh); springTo(fresh, {opacity:0}, {opacity:1}, {tension:260, friction:26}, applyT(fresh)); } else old.replaceWith(fresh);
     [...$('featDots').children].forEach((d,k)=> d.setAttribute('aria-current', k===fi));
+    $('featCount').firstChild.textContent = fi+1;
     setGhost(a, animate);
   };
   show(0, false);
@@ -1880,6 +1912,7 @@ function startLatest(){
     springTo(out, {opacity:1, y:0, scale:1}, {opacity:0, y:16, scale:.96}, {tension:210, friction:24}, applyT(out));
     springTo(inn, {opacity:0, y:16, scale:.96}, {opacity:1, y:0, scale:1}, {tension:210, friction:24}, applyT(inn));
     dots.forEach((d,k)=> d.setAttribute('aria-current', k===li));
+    const lc = $('latestCount'); if(lc) lc.firstChild.textContent = li+1;
   };
   const t = setInterval(()=>{ if(!document.body.contains(box)) return clearInterval(t); go(li+1); }, 3800);
   homeTimers.push(t);
@@ -1912,7 +1945,7 @@ pages.artists = () => {
   <div class="agrid" id="artistGrid">${list.map(artistCard).join('')}</div>`);
 };
 function listRow(a, i){
-  return `<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":22}' data-cfg='{"tension":190,"friction":26}' data-delay="${Math.min(i,6)*70}" data-hover data-hover-target=".sq svg" data-hfrom='{"x":0,"opacity":0.55}' data-hto='{"x":8,"opacity":1}' data-hcfg='{"tension":300,"friction":20}'>${plateFor(a,{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(a.kicker)} · ${a.minutes} minute read</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span><span class="sq">${IC.arrow}</span></a>`;
+  return `<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":22}' data-cfg='{"tension":190,"friction":26}' data-delay="${Math.min(i,6)*70}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'>${plateFor(a,{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(a.kicker)} · ${a.minutes} minute read</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`;
 }
 function sectionPage(section, eyebrow, titleLines, dek){
   return () => shell(pageHead(eyebrow, titleLines, dek) + `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`);
@@ -1947,7 +1980,7 @@ pages.search = () => {
   return shell(pageHead('Search',[{t:'Search the'},{t:'archive', cls:'ital brick'}],'Artists, artworks, techniques and collecting guides.') + `
   <form class="searchbox" role="search" id="pageSearch"><label for="pageQ" class="sr-only">Search</label><input id="pageQ" type="search" value="${esc(searchQuery)}" placeholder="An artist, artwork or technique"><button class="btn green" type="submit">Search</button></form>
   ${q?`<p class="meta" style="padding:0 1.5rem 1rem">${results.length} result${results.length===1?'':'s'} for “${esc(q)}”</p>`:''}
-  <div class="list">${results.map((r,i)=>`<a href="${r.href}" data-in data-delay="${Math.min(i,6)*60}">${plateFor({tone:r.tone},{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(r.type)}</span><span class="t">${hl(r.title,q)}</span><span class="d">${esc(r.dek)}</span></span><span class="sq">${IC.arrow}</span></a>`).join('')}
+  <div class="list">${results.map((r,i)=>`<a href="${r.href}" data-in data-delay="${Math.min(i,6)*60}">${plateFor({tone:r.tone},{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(r.type)}</span><span class="t">${hl(r.title,q)}</span><span class="d">${esc(r.dek)}</span></span></a>`).join('')}
   ${q && !results.length?`<p class="lead">Nothing found. Try an artist's name, a technique such as impasto, or a topic such as prints.</p>`:''}</div>`);
 };
 
@@ -1968,7 +2001,7 @@ function portfolio(a){
         <div class="frame">${plateFor(a,{hero:true, eager:true, note:'Artwork image to supply', credit:a.heroCredit||''})}</div>
         ${wallLabel(a,[artistLine(a), glanceVal(a,'Medium'), glanceVal(a,'Gallery')])}
       </div>
-      <p style="margin-top:1rem"><button type="button" class="btn green" data-walk data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>Walk the gallery ${IC.arrow}</button></p>
+      <p style="margin-top:1rem"><button type="button" class="btn green" data-walk>Walk the gallery</button></p>
     </div>
     <aside class="glance" aria-label="At a glance" data-in data-from='{"opacity":0,"y":24}' data-delay="150">
       <span class="eyebrow">At a glance</span>
