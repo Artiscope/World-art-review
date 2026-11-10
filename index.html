@@ -453,17 +453,6 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 .turn .lab{font-size:.7rem;color:var(--muted)}
 .turn .t{font-family:var(--display);font-size:1.15rem;line-height:1.25}
 @media (max-width:640px){.turn{grid-template-columns:1fr}.turn a.next{text-align:left;align-items:flex-start}}
-.secmap h2{font-family:var(--display);font-weight:400;font-size:1.6rem;margin:0 0 .3rem}
-.secmap .meta{margin:0 0 1.2rem}
-.secmap-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;counter-reset:n}
-.secmap-list li a,.secmap-list li.here{display:flex;flex-direction:column;gap:.2rem;padding:1rem 1.1rem;background:var(--paper-deep);height:100%}
-.secmap-list li a{transition:transform .4s var(--ease-expo)}
-.secmap-list li a:hover{transform:translateY(-.25rem)}
-.secmap-list li.here{background:var(--green);color:var(--paper)}
-.secmap-list .k{font-family:var(--sans);font-size:.68rem;color:var(--muted)}
-.secmap-list li.here .k,.secmap-list li.here .now{color:var(--paper);opacity:.75}
-.secmap-list .t{font-family:var(--display);font-size:1.05rem;line-height:1.3}
-.secmap-list .now{font-family:var(--sans);font-size:.68rem;margin-top:.3rem}
 .compare{width:100%;border-collapse:separate;border-spacing:0 .5rem;font-size:.88rem;line-height:1.5}
 .compare th{font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted);text-align:left;padding:0 1rem .25rem}
 .compare td{background:var(--paper-deep);padding:1rem;vertical-align:top}
@@ -2282,7 +2271,6 @@ function article(a){
         ${prev?`<a class="prev" href="#a-${prev.slug}"><span class="lab">Previously in ${esc(secName)}</span><span class="t">${esc(prev.title)}</span></a>`:`<a class="prev" href="${sectionHome(a.section)}"><span class="lab">Start of ${esc(secName)}</span><span class="t">Back to the section</span></a>`}
         ${next?`<a class="next" href="#a-${next.slug}"><span class="lab">Next in ${esc(secName)}</span><span class="t">${esc(next.title)}</span></a>`:`<a class="next" href="${sectionHome(a.section)}"><span class="lab">End of ${esc(secName)}</span><span class="t">Back to the section</span></a>`}
       </nav>
-      ${inSec.length>1?`<section class="secmap" aria-label="Everything in ${esc(secName)}"><h2>Everything in ${esc(secName)}</h2><p class="meta">${inSec.length} pieces. Pick any one, the page changes without leaving the section.</p>${secList('secmap-list')}</section>`:''}
     </div>
     <aside class="side">
       <div class="side-stick">
