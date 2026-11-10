@@ -22,7 +22,7 @@ Pushes to `main` publish automatically to GitHub Pages. Turn Pages on once in th
 
 - Colours: Oatmilk #EEE5D4 for pages and cards (about 60%), Calm Green #1D4A35 for bands, buttons and labels (about 30%), brick #B5392B for links and highlights (about 10%). Text is charcoal #1D1D1B.
 
-- Typefaces: Newsreader for the name and headlines, Alegreya for reading text, Libre Franklin for small text and buttons. Logo and colours follow the World Art Review logo guidelines (version 2.0, November 2026).
-- No long dashes, no long dividing lines, no spaced capital labels.
+- Typefaces: Castoro for the name and headlines, Literata for reading text, Libre Franklin for small text and buttons. Logo and colours follow the World Art Review logo guidelines (version 2.0, November 2026).
+- No long dashes, no long dividing lines, no spaced capital labels, no rounded corners.
 - UK spelling throughout.
 - Every fact in a dossier carries a numbered source. Claims that come only from publicity are marked Reported.
