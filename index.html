@@ -326,7 +326,7 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 .acard .plate{aspect-ratio:3/4;transition:transform .5s var(--ease-expo)}
 .acard:hover .plate{transform:translateY(-.25rem)}
 .acard .wall{position:absolute;left:1rem;bottom:0;width:11rem;transform:rotate(-.6deg)}
-.acard .in{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-size:.72rem;color:var(--muted)}
+.acard .in{position:absolute;left:1rem;top:1rem;font-family:var(--sans);font-size:.68rem;color:var(--ink);background:var(--paper);padding:.3rem .55rem}
 .azrow{display:flex;flex-wrap:wrap;gap:.4rem;padding:0 1.5rem 2.5rem}
 @media (min-width:640px){.azrow{padding:0 2.5rem 3rem}}
 .azrow span{display:inline-flex;align-items:center;justify-content:center;min-width:2.25rem;height:2.25rem;font-family:var(--sans);font-size:.78rem;color:var(--ghost)}
@@ -826,6 +826,84 @@ const ARTISTS = [
   tag:"Grove Gallery artist", place:"", tone:"#D3C5AA",
   summary:"Portfolio in research. A full profile will be added once it has been sourced and checked.",
   research:["Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage","Photographs with permission to publish"]
+},
+{
+  slug:"amanza-smith", name:"Amanza Smith", letter:"A", published:false, image:null, alt:"", ghostWords:["Amanza", "Smith", "in research.", "Portfolio"],
+  tag:"Grove Gallery artist", place:"", tone:"#A08878",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"robi-walters", name:"Robi Walters", letter:"R", published:false, image:null, alt:"", ghostWords:["Robi", "Walters", "in research.", "Portfolio"],
+  tag:"Collage and recycled materials, to confirm", place:"London", tone:"#B59A6A",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"frank-canvas", name:"Frank Canvas", letter:"F", published:false, image:null, alt:"", ghostWords:["Frank", "Canvas", "in research.", "Portfolio"],
+  tag:"Grove Gallery artist", place:"", tone:"#8C97A0",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"silent-mike", name:"Silent Mike", letter:"S", published:false, image:null, alt:"", ghostWords:["Silent", "Mike", "in research.", "Portfolio"],
+  tag:"Grove Gallery artist", place:"", tone:"#7A827E",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"clarke-reynolds", name:"Clarke Reynolds", letter:"C", published:false, image:null, alt:"", ghostWords:["Clarke", "Reynolds", "in research.", "Portfolio"],
+  tag:"Braille art, to confirm", place:"Portsmouth, to confirm", tone:"#C8B07A",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"los-talgia", name:"Los-Talgia", letter:"L", published:false, image:null, alt:"", ghostWords:["Los", "Talgia", "in research.", "Portfolio"],
+  tag:"Nostalgic toy and pop culture prints", place:"", tone:"#6E8297",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"adee-phelan", name:"Adee Phelan", letter:"A", published:false, image:null, alt:"", ghostWords:["Adee", "Phelan", "in research.", "Portfolio"],
+  tag:"Grove Gallery artist", place:"", tone:"#9A8290",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"ben-eine", name:"Ben Eine", letter:"B", published:false, image:null, alt:"", ghostWords:["Ben", "Eine", "in research.", "Portfolio"],
+  tag:"Typographic street art, to confirm", place:"London, to confirm", tone:"#B07B6E",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"lauren-baker", name:"Lauren Baker", letter:"L", published:false, image:null, alt:"", ghostWords:["Lauren", "Baker", "in research.", "Portfolio"],
+  tag:"Neon and light works, to confirm", place:"London, to confirm", tone:"#C19AA8",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"orlanda-broom", name:"Orlanda Broom", letter:"O", published:false, image:null, alt:"", ghostWords:["Orlanda", "Broom", "in research.", "Portfolio"],
+  tag:"Abstract painting, to confirm", place:"", tone:"#7FA396",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"opake", name:"Opake", letter:"O", published:false, image:null, alt:"", ghostWords:["Opake", "", "in research.", "Portfolio"],
+  tag:"Street art, to confirm", place:"", tone:"#9C7E9A",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"sara-pope", name:"Sara Pope", letter:"S", published:false, image:null, alt:"", ghostWords:["Sara", "Pope", "in research.", "Portfolio"],
+  tag:"Pop painting, to confirm", place:"", tone:"#BE8A8E",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
+},
+{
+  slug:"stik", name:"STIK", letter:"S", published:false, image:null, alt:"", ghostWords:["STIK", "", "in research.", "Portfolio"],
+  tag:"Street art, to confirm", place:"London, to confirm", tone:"#8292A6",
+  summary:"Portfolio in research. Listed by Grove Gallery. A full profile will be added once it has been sourced and checked.",
+  research:["Confirm how the artist describes their own practice","Biography and background","Medium and technique","Key works with dates and sizes","Exhibition history","Press coverage, independent of the gallery","Photographs with permission to publish"]
 }
 ];
 
