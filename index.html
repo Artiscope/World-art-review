@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{var t=localStorage.getItem("war-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <title>World Art Review</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20class%3D%22mark%22%20viewBox%3D%220%200%2016%2016%22%20width%3D%2216%22%20height%3D%2216%22%20aria-hidden%3D%22true%22%20%3E%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%231D1D1B%22/%3E%3Cpath%20fill%3D%22%23F6F4EF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M2%203h9v10H2zM3%204v8h7V4z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23F6F4EF%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22miter%22%20stroke-miterlimit%3D%223%22%20d%3D%22M4.25%2011.7%206.5%205.3l2.25%206.4%22/%3E%3Crect%20x%3D%2212%22%20y%3D%229%22%20width%3D%222%22%20height%3D%224%22%20fill%3D%22%23F6F4EF%22/%3E%3C/svg%3E">
 <meta name="description" content="Discover Artists. Understand Art. Researched artist dossiers, artwork reviews, collecting guides and techniques explained.">
@@ -192,106 +191,7 @@ footer nav{display:flex;flex-wrap:wrap;gap:12px 32px;font-family:var(--sans);fon
   .section{padding-top:64px;padding-bottom:64px}
 }
 
-/* ===== Themes ===== */
-[data-theme="gallery"]{
-  --hot:var(--sage);
-  --paper:#F6F5F1; --white:#FFFFFF; --ink:#1F2226; --muted:#4F5459; --soft:#8A8F94;
-  --sage:#5E6E5A; --sage-dark:#4A5847; --sage-tint:#E4E9E0; --sage-light:#B9C7B4;
-  --text-2:#3E4440; --line:#DADDD5; --field:#C9CCC4; --pill-hover:#D6DED1;
-  --deep:#1F2226; --on-deep:#F6F5F1; --on-deep-2:#D3D6D0; --deep-accent:#B9C7B4; --btn-hover:#383C42;
-  --topbar-bg:rgba(246,245,241,.93); --shadow:var(--shadow); --scrim:var(--scrim); --link-line:var(--link-line);
-  --mark:#ECE2CC; --flash:#E9DFC9; --ph-bg:#F6EEE2; --ph-fg:#6B4A1F; --todo-bg:#F1E6D6; --todo-fg:#6B4A1F; --rep-bg:#E6E3EE; --rep-fg:#4A4166;
-  --c-sage:var(--sage); --c-sage-tint:var(--sage-tint);
-  --c-ochre:#85590F; --c-ochre-tint:#F2E6CC;
-  --c-blue:#2C4A6E; --c-blue-tint:#DDE6F1; --c-blue-deep:#1C2A3C; --c-blue-light:#B7C9E1;
-  --c-red:#963B2B; --c-red-tint:#F4DED6;
-  --c-plum:#694272; --c-plum-tint:#EDE1EF;
-  --c-ice:#2A6380; --c-ice-tint:#D9E9F0;
-  --c-sienna:#97522A; --c-sienna-tint:#F3E1D2;
-  --tile:#1D1D1B; --tile-ink:#F6F4EF;
-  color-scheme:light;
-}
-[data-theme="graphite"]{
-  --hot:var(--sage);
-  --tile:#F6F4EF; --tile-ink:#1D1D1B;
-  --paper:#16181B; --white:#202327; --ink:#ECEAE5; --muted:#A9AEB2; --soft:#6E7378;
-  --sage:#A9BBA3; --sage-dark:#C3D2BD; --sage-tint:#283029; --sage-light:#B9C7B4;
-  --text-2:#CDD0CA; --line:#34383D; --field:#41464C; --pill-hover:#34403A;
-  --deep:#0D0F11; --on-deep:#ECEAE5; --on-deep-2:#B9BDB7; --deep-accent:#A9BBA3; --btn-hover:#2B2F34;
-  --topbar-bg:rgba(22,24,27,.9); --shadow:rgba(0,0,0,.75); --scrim:rgba(0,0,0,.6); --link-line:rgba(169,187,163,.5);
-  --mark:#4D4632; --flash:#3E3B2C; --ph-bg:#3A3124; --ph-fg:#EDCFA2; --todo-bg:#3A3124; --todo-fg:#EDCFA2; --rep-bg:#302C3E; --rep-fg:#CFC7EC;
-  --c-ochre:#DDB56C; --c-ochre-tint:#352B1B;
-  --c-blue:#A3BCDD; --c-blue-tint:#1F2B3A; --c-blue-deep:#0C141E; --c-blue-light:#A3BCDD;
-  --c-red:#E5A08F; --c-red-tint:#3A2420;
-  --c-plum:#CDAED3; --c-plum-tint:#30243A;
-  --c-ice:#93C6DC; --c-ice-tint:#1B303B;
-  --c-sienna:#E4AA82; --c-sienna-tint:#38281D;
-  color-scheme:dark;
-}
-[data-theme="graphite"] .btn{border:1px solid var(--line)}
-[data-theme="sage"]{
-  --hot:var(--sage);
-  --paper:#E6ECE1; --white:#F5F8F2; --ink:#1D2920; --muted:#46564B; --soft:#7C897F;
-  --sage:#46603F; --sage-dark:#364D31; --sage-tint:#D0DCC9; --sage-light:#B9CDB0;
-  --text-2:#30402F; --line:#C6D2C0; --field:#B3C2AD; --pill-hover:#C1D1B9;
-  --deep:#22322A; --on-deep:#EEF2EA; --on-deep-2:#C8D4C3; --deep-accent:#B9CDB0; --btn-hover:#31463A;
-  --topbar-bg:rgba(230,236,225,.92); --shadow:rgba(29,41,32,.5); --scrim:rgba(29,41,32,.45); --link-line:rgba(70,96,63,.45);
-}
-[data-theme="ink"]{
-  --hot:var(--sage);
-  --tile:#F6F4EF; --tile-ink:#1D1D1B;
-  --paper:#111A25; --white:#18232F; --ink:#E9EDF2; --muted:#A6B1BE; --soft:#6C7887;
-  --sage:#E0B76E; --sage-dark:#EBC985; --sage-tint:#24303E; --sage-light:#E0B76E;
-  --text-2:#CBD3DC; --line:#2A3746; --field:#364657; --pill-hover:#2C3A4A;
-  --deep:#0A111A; --on-deep:#E9EDF2; --on-deep-2:#B4BFCB; --deep-accent:#E0B76E; --btn-hover:#22303F;
-  --topbar-bg:rgba(17,26,37,.9); --shadow:rgba(0,0,0,.75); --scrim:rgba(0,0,0,.6); --link-line:rgba(224,183,110,.5);
-  --mark:#4A4130; --flash:#3B3526; --ph-bg:#3A3124; --ph-fg:#EDCFA2; --todo-bg:#3A3124; --todo-fg:#EDCFA2; --rep-bg:#2C2A40; --rep-fg:#CFC7EC;
-  --c-ochre:#DDB56C; --c-ochre-tint:#352B1B;
-  --c-blue:#A3BCDD; --c-blue-tint:#1F2B3A; --c-blue-deep:#0C141E; --c-blue-light:#A3BCDD;
-  --c-red:#E5A08F; --c-red-tint:#3A2420;
-  --c-plum:#CDAED3; --c-plum-tint:#30243A;
-  --c-ice:#93C6DC; --c-ice-tint:#1B303B;
-  --c-sienna:#E4AA82; --c-sienna-tint:#38281D;
-  color-scheme:dark;
-}
-[data-theme="ink"] .btn{border:1px solid var(--line)}
-[data-theme="ink"] body::after{opacity:.09;filter:invert(1)}
-[data-theme="clay"]{
-  --hot:var(--sage);
-  --paper:#F5E9E3; --white:#FDF7F3; --ink:#2B1F1C; --muted:#5E4D47; --soft:#9A8781;
-  --sage:#963B2B; --sage-dark:#7A2E21; --sage-tint:#EED6CC; --sage-light:#E3A796;
-  --text-2:#4A3833; --line:#E8D3CA; --field:#DABFB4; --pill-hover:#E9CBBF;
-  --deep:#3A2320; --on-deep:#F8EDE8; --on-deep-2:#E2CFC8; --deep-accent:#E3A796; --btn-hover:#4D2F2B;
-  --topbar-bg:rgba(245,233,227,.92); --shadow:rgba(43,31,28,.5); --scrim:rgba(43,31,28,.45); --link-line:rgba(150,59,43,.45);
-}
-[data-theme="linen"]{
-  --hot:var(--sage);
-  --paper:#F2ECE3; --white:#FBF8F3; --ink:#2A2420; --muted:#5A5149; --soft:#948A80;
-  --sage:#8A5A3B; --sage-dark:#6B4329; --sage-tint:#E8DCCC; --sage-light:#D9B79A;
-  --text-2:#463C34; --line:#E0D4C5; --field:#D2C4B2; --pill-hover:#DFCCB7;
-  --deep:#2A2420; --on-deep:#F2ECE3; --on-deep-2:#D8CEC3; --deep-accent:#D9B79A; --btn-hover:#3E3530;
-  --topbar-bg:rgba(242,236,227,.92); --shadow:rgba(42,36,32,.5); --scrim:rgba(42,36,32,.45); --link-line:rgba(138,90,59,.45);
-}
-html.theming,html.theming *,html.theming *::before,html.theming *::after{transition:background-color .6s ease,color .6s ease,border-color .6s ease,fill .6s ease,stroke .6s ease!important}
 
-/* Theme picker */
-.theme-wrap{position:relative}
-.theme-dot{width:18px;height:18px;border-radius:50%;background:var(--paper);box-shadow:inset 0 0 0 1px var(--field);position:relative;flex:0 0 18px}
-.theme-dot::after{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--sage)}
-.theme-menu{position:absolute;right:0;top:calc(100% + 10px);z-index:70;width:260px;background:var(--white);border-radius:12px;padding:10px;box-shadow:0 26px 60px -26px var(--shadow);opacity:0;transform:translateY(-8px) scale(.97);transform-origin:top right;pointer-events:none;transition:opacity .25s,transform .35s cubic-bezier(.2,.7,.2,1)}
-.theme-menu.open{opacity:1;transform:none;pointer-events:auto}
-.theme-menu .tm-label{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);padding:8px 10px 6px}
-.theme-opt{display:flex;align-items:center;gap:12px;width:100%;padding:10px;border:0;background:none;border-radius:8px;cursor:pointer;text-align:left;color:var(--ink);font-family:var(--sans);font-size:15px;transition:background .2s}
-.theme-opt:hover,.theme-opt:focus-visible{background:var(--sage-tint)}
-.theme-opt .sw3{display:flex;flex:0 0 auto;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px var(--line)}
-.theme-opt .sw3 span{width:14px;height:28px}
-.theme-opt .nm{display:flex;flex-direction:column;gap:2px;flex:1}
-.theme-opt .nm small{font-size:12px;color:var(--muted)}
-.theme-opt .tick{opacity:0;transform:scale(.6);transition:opacity .25s,transform .3s cubic-bezier(.3,1.6,.5,1);color:var(--sage-dark)}
-.theme-opt .tick svg{width:18px;height:18px}
-.theme-opt[aria-checked="true"] .tick{opacity:1;transform:none}
-.drawer-themes{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.drawer-themes .theme-opt{width:auto;background:var(--white);padding:10px 14px 10px 10px}
 
 /* ===== Interaction and motion ===== */
 .topbar{position:sticky;top:0;z-index:50;background:var(--topbar-bg);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px);transition:box-shadow .35s ease}
@@ -488,8 +388,8 @@ body{font-size:18px;font-kerning:normal;font-variant-numeric:oldstyle-nums propo
 h1,h2,h3{text-wrap:balance}
 
 /* Kickers: italic, as a magazine sets them, not spaced capitals */
-.label,.pal-group,.theme-menu .tm-label,.compare th,.prose .callout strong,.pop .pk{font-family:var(--serif-display)!important;font-style:italic;font-weight:400!important;text-transform:none!important;letter-spacing:0!important;font-size:17px!important}
-.pal-group,.theme-menu .tm-label,.pop .pk{font-size:15px!important}
+.label,.pal-group,.compare th,.prose .callout strong,.pop .pk{font-family:var(--serif-display)!important;font-style:italic;font-weight:400!important;text-transform:none!important;letter-spacing:0!important;font-size:17px!important}
+.pal-group,.pop .pk{font-size:15px!important}
 .brand-tag{font-family:var(--serif-display);font-style:italic;text-transform:none;letter-spacing:0;font-size:14px;height:18px}
 .saved-item .label{font-size:14px!important}
 
@@ -539,7 +439,6 @@ h1,h2,h3{text-wrap:balance}
 
 /* Paper grain across the page */
 body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E")}
-[data-theme="graphite"] body::after{opacity:.09;filter:invert(1)}
 
 /* Text selection in the house colour */
 ::selection{background:var(--sage-tint);color:var(--ink)}
@@ -690,10 +589,6 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;op
     </nav>
     <div class="tools">
       <button class="iconbtn" type="button" id="openSearch" aria-label="Search, shortcut slash key"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="search-label">Search</span><span class="kbd" aria-hidden="true">/</span></button>
-      <div class="theme-wrap">
-        <button class="iconbtn" type="button" id="openTheme" aria-haspopup="true" aria-expanded="false" aria-controls="themeMenu" aria-label="Colour theme"><span class="theme-dot" aria-hidden="true"></span><span class="search-label">Theme</span></button>
-        <div class="theme-menu" id="themeMenu" role="radiogroup" aria-label="Colour theme"></div>
-      </div>
       <button class="iconbtn" type="button" id="openSaved" aria-label="Your notebook: saved articles and notes"><svg class="ic-bookmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z"/></svg><span class="badge" id="savedCount" hidden>0</span></button>
       <button class="iconbtn menu-btn" type="button" id="openMenu" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
     </div>
@@ -1392,8 +1287,7 @@ function openMenu(){
   $('drawerTitle').textContent = 'Menu';
   const links = [['#home','Home'],['#artists','Artists A to Z'],['#explained','Art Explained'],['#library',"Collector's Library"],['#reviews','Reviews'],['#guides','Exhibition Guides']];
   $('drawerBody').innerHTML = `<nav class="drawer-nav" aria-label="Menu">${links.map((l,i)=>`<a href="${l[0]}" style="transition-delay:${reduceMotion?0:120+i*45}ms">${l[1]}</a>`).join('')}</nav>
-    <div class="drawer-small"><a href="#standards">Editorial standards</a><a href="#research">Research desk</a><button class="pill" type="button" id="drawerSearch">Search</button></div>
-    <p class="label" style="margin-top:32px">Colour theme</p><div class="drawer-themes" role="radiogroup" aria-label="Colour theme">${themeOpts()}</div>`;
+    <div class="drawer-small"><a href="#standards">Editorial standards</a><a href="#research">Research desk</a><button class="pill" type="button" id="drawerSearch">Search</button></div>`;
   $('drawerSearch').onclick = () => { closeOv($('drawer'), true); setTimeout(()=>openPalette(''), 200); };
   openOv('drawer', '.drawer-nav a');
 }
@@ -1994,7 +1888,6 @@ document.addEventListener('click', e => {
 });
 document.addEventListener('keydown', e => {
   const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName);
-  if(e.key==='Escape' && $('themeMenu').classList.contains('open')){ openThemeMenu(false); $('openTheme').focus(); return; }
   if(e.key==='Escape'){
     const open = [...document.querySelectorAll('.overlay')].filter(o=>!o.hidden);
     if(open.length){ closeOv(open[open.length-1]); return; }
@@ -2012,51 +1905,6 @@ document.addEventListener('keydown', e => {
   }
 });
 
-/* =========================================================
-   THEMES
-   ========================================================= */
-const THEMES = [
-  {id:'oatmilk', name:'Oatmilk', note:'The house palette: oatmilk, calm green, brick', sw:['#EEE5D4','#1D4A35','#B5392B']},
-  {id:'gallery', name:'Gallery White', note:'Light, quiet, sage', sw:['#F6F5F1','#5E6E5A','#1F2226']},
-  {id:'graphite', name:'Graphite', note:'Dark, for evening reading', sw:['#16181B','#A9BBA3','#ECEAE5']},
-  {id:'sage', name:'Sage', note:'Soft green, calm', sw:['#E6ECE1','#46603F','#22322A']},
-  {id:'linen', name:'Linen', note:'Warm stone and clay', sw:['#F2ECE3','#8A5A3B','#2A2420']},
-  {id:'ink', name:'Ink', note:'Deep navy with gold', sw:['#111A25','#E0B76E','#E9EDF2']},
-  {id:'clay', name:'Clay', note:'Warm rose and oxblood', sw:['#F5E9E3','#963B2B','#3A2320']}
-];
-let theme = document.documentElement.getAttribute('data-theme') || 'oatmilk';
-const TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
-function themeOpts(){
-  return THEMES.map(t=>`<button type="button" class="theme-opt" role="radio" data-theme-id="${t.id}" aria-checked="${t.id===theme}"><span class="sw3" aria-hidden="true">${t.sw.map(c=>`<span style="background:${c}"></span>`).join('')}</span><span class="nm">${t.name}<small>${t.note}</small></span><span class="tick">${TICK}</span></button>`).join('');
-}
-function setTheme(id, announce){
-  if(id===theme) return;
-  theme = id;
-  const root = document.documentElement;
-  if(!reduceMotion){ root.classList.add('theming'); setTimeout(()=>root.classList.remove('theming'), 700); }
-  if(id==='oatmilk') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', id);
-  try { localStorage.setItem('war-theme', id); } catch(e) {}
-  document.querySelectorAll('[data-theme-id]').forEach(b => b.setAttribute('aria-checked', b.dataset.themeId===id));
-  if(announce) toast(THEMES.find(t=>t.id===id).name+' theme');
-}
-function openThemeMenu(open){
-  const m = $('themeMenu'), b = $('openTheme');
-  if(open){ m.innerHTML = `<div class="tm-label">Colour theme</div>`+themeOpts(); }
-  m.classList.toggle('open', open); b.setAttribute('aria-expanded', open);
-  if(open) setTimeout(()=>{ const cur = m.querySelector('[aria-checked="true"]'); if(cur) cur.focus(); }, 30);
-}
-$('openTheme').onclick = e => { e.stopPropagation(); openThemeMenu(!$('themeMenu').classList.contains('open')); };
-document.addEventListener('click', e => {
-  const opt = e.target.closest('[data-theme-id]');
-  if(opt){ setTheme(opt.dataset.themeId, true); if(opt.closest('#themeMenu')) setTimeout(()=>{ openThemeMenu(false); $('openTheme').focus(); }, 250); return; }
-  if(!e.target.closest('.theme-wrap')) openThemeMenu(false);
-});
-$('themeMenu').addEventListener('keydown', e => {
-  const opts = [...$('themeMenu').querySelectorAll('.theme-opt')]; const i = opts.indexOf(document.activeElement);
-  if(e.key==='ArrowDown'||e.key==='ArrowRight'){ e.preventDefault(); opts[(i+1)%opts.length].focus(); }
-  if(e.key==='ArrowUp'||e.key==='ArrowLeft'){ e.preventDefault(); opts[(i-1+opts.length)%opts.length].focus(); }
-  if(e.key==='Escape'){ e.stopPropagation(); openThemeMenu(false); $('openTheme').focus(); }
-});
 $('openSearch').onclick = () => openPalette('');
 $('openSaved').onclick = openSaved;
 $('openMenu').onclick = openMenu;
