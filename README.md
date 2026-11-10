@@ -20,7 +20,7 @@ Pushes to `main` publish automatically to GitHub Pages. Turn Pages on once in th
 
 ## House rules for the design
 
-- Typefaces: Libre Caslon Text for headlines, Alegreya for reading text, Libre Franklin for small text and buttons.
+- Typefaces: Newsreader for the name and headlines, Alegreya for reading text, Libre Franklin for small text and buttons. Logo and colours follow the World Art Review logo guidelines (version 2.0, November 2026).
 - No long dashes, no long dividing lines, no spaced capital labels.
 - UK spelling throughout.
 - Every fact in a dossier carries a numbered source. Claims that come only from publicity are marked Reported.

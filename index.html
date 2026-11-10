@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>try{var t=localStorage.getItem("war-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <title>World Art Review</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20class%3D%22mark%22%20viewBox%3D%220%200%2016%2016%22%20width%3D%2216%22%20height%3D%2216%22%20aria-hidden%3D%22true%22%20%3E%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%231D1D1B%22/%3E%3Cpath%20fill%3D%22%23F6F4EF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M2%203h9v10H2zM3%204v8h7V4z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23F6F4EF%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22miter%22%20stroke-miterlimit%3D%223%22%20d%3D%22M4.25%2011.7%206.5%205.3l2.25%206.4%22/%3E%3Crect%20x%3D%2212%22%20y%3D%229%22%20width%3D%222%22%20height%3D%224%22%20fill%3D%22%23F6F4EF%22/%3E%3C/svg%3E">
 <meta name="description" content="Discover Artists. Understand Art. Researched artist dossiers, artwork reviews, collecting guides and techniques explained.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Alegreya:ital,wght@0,400;0,500;1,400&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Alegreya:ital,wght@0,400;0,500;1,400&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#F6F5F1; --white:#FFFFFF; --ink:#1F2226; --muted:#4F5459; --soft:#8A8F94;
@@ -23,8 +24,9 @@
   --c-plum:#694272; --c-plum-tint:#EDE1EF;
   --c-ice:#2A6380; --c-ice-tint:#D9E9F0;
   --c-sienna:#97522A; --c-sienna-tint:#F3E1D2;
+  --tile:#1D1D1B; --tile-ink:#F6F4EF;
   color-scheme:light;
-  --serif-display:'Libre Caslon Text', Georgia, serif;
+  --serif-display:'Newsreader', var(--serif-display);
   --serif:'Alegreya', Georgia, serif;
   --sans:'Libre Franklin', 'Franklin Gothic Book', Arial, sans-serif;
 }
@@ -191,6 +193,7 @@ footer nav{display:flex;flex-wrap:wrap;gap:12px 32px;font-family:var(--sans);fon
 
 /* ===== Themes ===== */
 [data-theme="graphite"]{
+  --tile:#F6F4EF; --tile-ink:#1D1D1B;
   --paper:#16181B; --white:#202327; --ink:#ECEAE5; --muted:#A9AEB2; --soft:#6E7378;
   --sage:#A9BBA3; --sage-dark:#C3D2BD; --sage-tint:#283029; --sage-light:#B9C7B4;
   --text-2:#CDD0CA; --line:#34383D; --field:#41464C; --pill-hover:#34403A;
@@ -214,6 +217,7 @@ footer nav{display:flex;flex-wrap:wrap;gap:12px 32px;font-family:var(--sans);fon
   --topbar-bg:rgba(230,236,225,.92); --shadow:rgba(29,41,32,.5); --scrim:rgba(29,41,32,.45); --link-line:rgba(70,96,63,.45);
 }
 [data-theme="ink"]{
+  --tile:#F6F4EF; --tile-ink:#1D1D1B;
   --paper:#111A25; --white:#18232F; --ink:#E9EDF2; --muted:#A6B1BE; --soft:#6C7887;
   --sage:#E0B76E; --sage-dark:#EBC985; --sage-tint:#24303E; --sage-light:#E0B76E;
   --text-2:#CBD3DC; --line:#2A3746; --field:#364657; --pill-hover:#2C3A4A;
@@ -272,7 +276,7 @@ html.theming,html.theming *,html.theming *::before,html.theming *::after{transit
 .topbar.scrolled .masthead{padding-top:12px;padding-bottom:10px}
 .brand-name{transition:font-size .35s ease}
 .topbar.scrolled .brand-name{font-size:25px}
-.brand-tag{display:block;height:16px;overflow:hidden;transition:opacity .3s ease,height .35s ease}
+.brand-tag{display:block;height:18px;overflow:hidden;transition:opacity .3s ease,height .35s ease}
 .topbar.scrolled .brand-tag{opacity:0;height:0}
 
 .mainnav a{position:relative;padding:4px 0}
@@ -626,6 +630,22 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;op
 .lamp figcaption{font-size:16px;line-height:1.55;color:var(--muted)}
 .lamp .presets{display:flex;flex-wrap:wrap;gap:8px}
 .credits{font-family:var(--sans);font-size:14px;line-height:1.5;color:var(--text-2)}
+
+/* ===== Brand mark ===== */
+.mark{display:block;flex:0 0 auto}
+.mark .tile{fill:var(--tile)}.mark .ink{fill:var(--tile-ink)}.mark .ink-stroke{stroke:var(--tile-ink)}
+.brand{flex-direction:row;align-items:center;gap:14px}
+.brand .mark{width:40px;height:40px;transition:width .35s ease,height .35s ease}
+.topbar.scrolled .brand .mark{width:32px;height:32px}
+.brand .words{display:flex;flex-direction:column;gap:1px}
+.brand-name{font-family:var(--serif-display);font-weight:400;font-size:28px;letter-spacing:-.005em;line-height:1.1}
+.brand-tag{font-family:var(--serif-display);font-style:italic;font-size:14px;color:var(--muted)}
+@media (max-width:420px){.brand .words .brand-tag{display:none}}
+.footer-brand{display:flex;align-items:center;gap:18px;margin-bottom:16px}
+.footer-brand .mark{width:56px;height:56px}
+.footer-brand .fb-name{font-family:var(--serif-display);font-size:30px;line-height:1.1;color:var(--ink)}
+.footer-brand .fb-tag{font-family:var(--serif-display);font-style:italic;font-size:16px;color:var(--muted)}
+.drawer-head .mark{width:36px;height:36px}
 </style>
 </head>
 <body>
@@ -633,8 +653,8 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;op
 <div class="topbar" id="topbar">
 <header class="wrap masthead">
   <a href="#home" class="brand" aria-label="World Art Review, home">
-    <span class="brand-name">World Art Review</span>
-    <span class="brand-tag">Discover Artists. Understand Art.</span>
+    <svg class="mark" viewBox="0 0 16 16" aria-hidden="true"><rect class="tile" width="16" height="16"/><path class="ink" fill-rule="evenodd" d="M2 3h9v10H2zM3 4v8h7V4z"/><path class="ink-stroke" fill="none" stroke-width="1" stroke-linejoin="miter" stroke-miterlimit="3" d="M4.25 11.7 6.5 5.3l2.25 6.4"/><rect class="ink" x="12" y="9" width="2" height="4"/></svg>
+    <span class="words"><span class="brand-name">World Art Review</span><span class="brand-tag">Discover Artists. Understand Art.</span></span>
   </a>
   <div class="header-right">
     <nav class="mainnav" aria-label="Main">
@@ -663,7 +683,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;op
 <footer>
   <div class="wrap inner">
     <div style="flex:1 1 360px;max-width:540px">
-      <p style="font-family:var(--serif-display);font-size:26px;color:var(--ink);margin-bottom:12px">World Art Review</p>
+      <div class="footer-brand"><svg class="mark" viewBox="0 0 16 16" aria-hidden="true"><rect class="tile" width="16" height="16"/><path class="ink" fill-rule="evenodd" d="M2 3h9v10H2zM3 4v8h7V4z"/><path class="ink-stroke" fill="none" stroke-width="1" stroke-linejoin="miter" stroke-miterlimit="3" d="M4.25 11.7 6.5 5.3l2.25 6.4"/><rect class="ink" x="12" y="9" width="2" height="4"/></svg><div><div class="fb-name">World Art Review</div><div class="fb-tag">Discover Artists. Understand Art.</div></div></div>
       <p>Every fact in an artist dossier is linked to its source. Where a claim comes only from the artist, their gallery or their publicity, we say so. <span class="placeholder">[Disclosure of the link between World Art Review and Grove Gallery, wording to confirm.]</span></p>
     </div>
     <nav aria-label="Footer">
@@ -692,7 +712,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;op
 <div class="overlay" id="drawer" hidden>
   <div class="scrim" data-close></div>
   <aside class="panel drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-    <div class="drawer-head"><h2 id="drawerTitle">Menu</h2><button class="iconbtn" type="button" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="drawer-head"><div style="display:flex;align-items:center;gap:12px"><svg class="mark" viewBox="0 0 16 16" aria-hidden="true"><rect class="tile" width="16" height="16"/><path class="ink" fill-rule="evenodd" d="M2 3h9v10H2zM3 4v8h7V4z"/><path class="ink-stroke" fill="none" stroke-width="1" stroke-linejoin="miter" stroke-miterlimit="3" d="M4.25 11.7 6.5 5.3l2.25 6.4"/><rect class="ink" x="12" y="9" width="2" height="4"/></svg><h2 id="drawerTitle">Menu</h2></div><button class="iconbtn" type="button" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div id="drawerBody"></div>
   </aside>
 </div>
