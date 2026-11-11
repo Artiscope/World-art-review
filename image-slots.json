@@ -1,0 +1,191 @@
+{
+  "note": "The image spots on this site. The console reads this list so the owner can choose where a photo goes. The agent keeps it up to date.",
+  "slots": [
+    {
+      "id": "artist-zara-muse",
+      "group": "Artist main images",
+      "label": "Zara Muse",
+      "filled": true
+    },
+    {
+      "id": "work-zara-muse-malala-yousafzai",
+      "group": "Artworks: Zara Muse",
+      "label": "Malala Yousafzai",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-bella-dama-del-sol",
+      "group": "Artworks: Zara Muse",
+      "label": "Bella Dama del Sol",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-delicada-belleza",
+      "group": "Artworks: Zara Muse",
+      "label": "Delicada Belleza",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-ecos-de-azul",
+      "group": "Artworks: Zara Muse",
+      "label": "Ecos de Azul",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-gracia-de-azafra",
+      "group": "Artworks: Zara Muse",
+      "label": "Gracia de Azafra",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-oro-roja",
+      "group": "Artworks: Zara Muse",
+      "label": "Oro Roja",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-viento-del-sur",
+      "group": "Artworks: Zara Muse",
+      "label": "Viento del Sur",
+      "filled": false
+    },
+    {
+      "id": "work-zara-muse-a-moment-in-amber",
+      "group": "Artworks: Zara Muse",
+      "label": "A Moment in Amber",
+      "filled": false
+    },
+    {
+      "id": "artist-konn-artiss",
+      "group": "Artist main images",
+      "label": "Konn Artiss",
+      "filled": false
+    },
+    {
+      "id": "work-konn-artiss-the-washington-ghost",
+      "group": "Artworks: Konn Artiss",
+      "label": "The Washington Ghost",
+      "filled": false
+    },
+    {
+      "id": "work-konn-artiss-venice-canal-effigy",
+      "group": "Artworks: Konn Artiss",
+      "label": "Venice canal effigy",
+      "filled": false
+    },
+    {
+      "id": "work-konn-artiss-anti-frieze",
+      "group": "Artworks: Konn Artiss",
+      "label": "ANTI-FRIEZE",
+      "filled": false
+    },
+    {
+      "id": "work-konn-artiss-frieze-week-ice-blocks",
+      "group": "Artworks: Konn Artiss",
+      "label": "Frieze week ice blocks",
+      "filled": false
+    },
+    {
+      "id": "artist-zen-xander",
+      "group": "Artist main images",
+      "label": "Zen Xander",
+      "filled": false
+    },
+    {
+      "id": "article-zara-muse-profile",
+      "group": "Articles: Features",
+      "label": "Zara Muse: biography, artistic style and career",
+      "filled": false
+    },
+    {
+      "id": "article-konn-artiss-profile",
+      "group": "Articles: Features",
+      "label": "Konn Artiss: artist profile and selected works",
+      "filled": false
+    },
+    {
+      "id": "article-palette-knife-painting",
+      "group": "Articles: Art explained",
+      "label": "Understanding palette-knife painting",
+      "filled": false
+    },
+    {
+      "id": "article-texture-in-portraiture",
+      "group": "Articles: Art explained",
+      "label": "The role of texture in contemporary portraiture",
+      "filled": false
+    },
+    {
+      "id": "article-how-to-look-at-a-painting",
+      "group": "Articles: Art explained",
+      "label": "How to look at a painting in ten minutes",
+      "filled": false
+    },
+    {
+      "id": "article-oil-and-acrylic",
+      "group": "Articles: Art explained",
+      "label": "Oil or acrylic: what the difference means for the person who owns it",
+      "filled": false
+    },
+    {
+      "id": "article-glossary-of-paint",
+      "group": "Articles: Art explained",
+      "label": "A short glossary of paint, from impasto to sgraffito",
+      "filled": false
+    },
+    {
+      "id": "article-what-is-an-intervention",
+      "group": "Articles: Art explained",
+      "label": "What is an art intervention?",
+      "filled": false
+    },
+    {
+      "id": "article-how-prints-are-made",
+      "group": "Articles: Art explained",
+      "label": "How prints are made: screenprint, etching, lithograph and giclée",
+      "filled": false
+    },
+    {
+      "id": "article-research-emerging-artist",
+      "group": "Articles: Collecting library",
+      "label": "How to research an emerging artist",
+      "filled": false
+    },
+    {
+      "id": "article-original-vs-print",
+      "group": "Articles: Collecting library",
+      "label": "Original, limited edition or open print?",
+      "filled": false
+    },
+    {
+      "id": "article-provenance-certificates",
+      "group": "Articles: Collecting library",
+      "label": "Provenance and certificates, explained",
+      "filled": false
+    },
+    {
+      "id": "article-mixed-media",
+      "group": "Articles: Art explained",
+      "label": "Mixed-media art: materials, meaning and conservation",
+      "filled": false
+    },
+    {
+      "id": "article-review-anti-frieze",
+      "group": "Articles: Reviews",
+      "label": "ANTI-FRIEZE: what melts when the art market is put on ice",
+      "filled": false
+    },
+    {
+      "id": "article-review-washington-ghost",
+      "group": "Articles: Reviews",
+      "label": "The Washington Ghost: satire as a printed newspaper",
+      "filled": false
+    },
+    {
+      "id": "article-compare-muse-artiss",
+      "group": "Articles: Reviews",
+      "label": "Zara Muse and Konn Artiss: two ways to talk about value",
+      "filled": false
+    }
+  ]
+}
