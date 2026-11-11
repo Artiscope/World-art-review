@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 11 November 2026, after your merge
+Published: the Zara Muse image, with the caption "Image: painting by Zara Muse. Supplied by Grove Gallery". You merged the draft at 15:39. It shows on the homepage, Artists A to Z and her portfolio. https://github.com/Artiscope/World-art-review/pull/1
+Drafts waiting: none.
+Checked: the publishing run finished without errors and the site loads. The photo has left `inbox/`. I could not view the picture itself on the live site from here, so please glance at the homepage.
+Needs you: the painting's title and year for the caption, if you want them shown. Points 2 and 3 below still stand.
+
 ## Wednesday 11 November 2026, first weekday run
 Published: one link fix. Source "Zara Muse: The Art of Healing, the Power of Becoming" (Art Plugged) pointed to an address that now opens a different article, about Zen Xander. It now points to the right page: https://artplugged.co.uk/artist-zara-muse-art-healing-power-becoming/
 Drafts waiting: Place the Zara Muse image from the inbox, with a corrected caption. https://github.com/Artiscope/World-art-review/pull/1
