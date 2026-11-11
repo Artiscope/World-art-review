@@ -21,20 +21,31 @@ brief. Read all of it before doing anything.
 - Enquiries and corrections go to info@grovegallery.com.
 
 ## How the site is put together
-- The whole site is one file, `index.html`. There is no build step.
-- Content lives in four lists near the top of the script in that file:
-  SOURCES, ARTISTS, ARTICLES and GUIDES. To add or change content, edit
-  those lists and follow the shape of the entries already there.
-- Every fact in a portfolio carries a numbered source from SOURCES.
-- Each artist entry can carry `image` and `alt`. Each article can carry
-  `image` and `alt`. Store image files in an `images/` folder.
+The site is kept in three parts, so it can be edited from Artiscope
+Digital Home without touching code:
+
+- `content/site.json` holds the words and pictures: SOURCES, ARTISTS,
+  ARTICLES and GUIDES, under the keys `sources`, `artists`, `articles`
+  and `guides`. To add or change content, edit this file and follow the
+  shape of the entries already there. An entry with `"hidden": true`
+  is left off the site.
+- `src/index.html` holds the design and layout. Leave it alone unless
+  the owner asks for a design change.
+- `tools/build_site.py` joins the two into the finished page. It runs
+  automatically on every publish. There is no `index.html` in the
+  repository any more. To check your work, run
+  `python3 tools/build_site.py /tmp/preview` and open the result.
+- Every fact in a portfolio carries a numbered source from `sources`.
+- Each artist entry can carry `image`, `alt` and `heroCredit`. Each
+  article can carry `image`, `alt` and `credit`. Store image files in
+  an `images/` folder.
 - `brand/` holds the logo files and guidelines. `design/` holds early
   design samples. Leave both alone.
 - Publishing: every push to main is published by the workflow in
   `.github/workflows/pages.yml`. Do not edit that file.
   It leaves your working files (this brief, the voice guide, the log,
-  the calendar, `image-slots.json`, `inbox/` and `design/`) out of the
-  public site.
+  the calendar, `image-slots.json`, `inbox/`, `design/`, `src/`,
+  `content/` and `tools/`) out of the public site.
 
 ## The look of this site
 - Colours: Oatmilk #EEE5D4 for pages and cards (about 60%), Calm Green

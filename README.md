@@ -6,13 +6,19 @@ An editorial site of researched artist portfolios, artwork reviews, collecting g
 
 ## What is here
 
-- `index.html`: the whole site in one file. The content lives in four lists at the top of the script (SOURCES, ARTISTS, ARTICLES, GUIDES). Add an entry to add an artist, artwork, article or source. Each artist can carry an `image`, `alt` and four `ghostWords`; each article an `image` and `alt`.
-- `design/`: the design canvas files from the first homepage and portfolio sample.
-- `.github/workflows/pages.yml`: publishes the site to GitHub Pages on every push to `main`.
+- `content/site.json`: the words and pictures. Edited from Artiscope Digital Home, or by hand.
+- `src/index.html`: the design and layout.
+- `tools/build_site.py`: joins the two into the finished page.
+- `images/`: photos used on the site.
+- `.github/workflows/pages.yml`: builds and publishes the site on every push to `main`.
 
 ## Running it
 
-Open `index.html` in a browser. There is no build step.
+```
+python3 tools/build_site.py /tmp/preview
+```
+
+Then open `/tmp/preview/index.html` in a browser.
 
 ## Publishing
 

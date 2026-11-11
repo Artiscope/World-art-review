@@ -1,6 +1,7 @@
 name: Publish to GitHub Pages
 
-# Publishes the website only. The agent's working files (its brief,
+# Builds the page from its content and layout, then publishes the
+# website only. The agent's working files (its brief,
 # voice guide, log, content calendar and photo inbox) stay in the
 # repository and are left out of the published site.
 
@@ -44,7 +45,11 @@ jobs:
             --exclude '/README.md' \
             --exclude '/image-slots.json' \
             --exclude '/inbox' \
+            --exclude '/src' \
+            --exclude '/content' \
+            --exclude '/tools' \
             --exclude '/design'
+          python3 tools/build_site.py _site
           echo "Published files:"
           cd _site && find . -type f | sort
       - uses: actions/configure-pages@v5
