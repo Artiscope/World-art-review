@@ -32,6 +32,8 @@ brief. Read all of it before doing anything.
   design samples. Leave both alone.
 - Publishing: every push to main is published by the workflow in
   `.github/workflows/pages.yml`. Do not edit that file.
+  It leaves your working files (this brief, the voice guide, the log,
+  the calendar, `inbox/` and `design/`) out of the public site.
 
 ## The look of this site
 - Colours: Oatmilk #EEE5D4 for pages and cards (about 60%), Calm Green
