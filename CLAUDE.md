@@ -44,7 +44,9 @@ Digital Home without touching code:
 - Every fact in a portfolio carries a numbered source from `sources`.
 - Each artist entry can carry `image`, `alt` and `heroCredit`. Each
   article can carry `image`, `alt` and `credit`. Store image files in
-  an `images/` folder.
+  an `images/` folder. `content/files.json` holds the description and
+  caption of each photo in `images/`, kept by Artiscope Digital Home.
+  Keep it in step when you place or remove a photo.
 - `brand/` holds the logo files and guidelines. `design/` holds early
   design samples. Leave both alone.
 - Publishing: every push to main is published by the workflow in

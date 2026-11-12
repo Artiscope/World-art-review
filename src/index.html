@@ -1463,6 +1463,8 @@ function publishedArtists(slugs){
   return chosen.length ? chosen : pub;
 }
 const T = v => esc(v == null ? '' : String(v));
+/* a photo chosen in a section: a file in images/, or one not saved yet in the console's preview */
+function picSrc(name){ const pending = (window.ADH_IMAGES || {})[name]; return pending ? pending : (name ? 'images/' + String(name).replace(/[^A-Za-z0-9._-]/g,'') : ''); }
 const shown = list => (Array.isArray(list) ? list : []).filter(x => !(x && x.hidden === true));
 
 /* Every kind of section on the home page, drawn from its settings. */
@@ -1476,7 +1478,9 @@ const SECTIONS = {
   <section class="hero on-green" id="${id}">
     ${headerHTML(false)}
     <div class="art" id="heroArt">
-      <div class="frame" id="heroFrame">${plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
+      <div class="frame" id="heroFrame">${st.image
+        ? plateFor({image:picSrc(st.image), alt:st.alt||'', tone:a1.tone, heroTone:a1.heroTone}, {hero:true, eager:true, credit:st.credit||''})
+        : plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
       <span id="heroWall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
     </div>
     <h1 id="heroTitle">${ln(st.headline)}</h1>
@@ -1582,8 +1586,7 @@ function libHead(st){
     (st.heading && st.heading.length ? `<h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>` : '');
 }
 function libImage(st, cls){
-  const pending = (window.ADH_IMAGES || {})[st.image];
-  const item = { image: pending ? pending : (st.image ? ('images/' + String(st.image).replace(/[^A-Za-z0-9._-]/g,'')) : ''), alt: st.alt || '', tone: 'var(--paper-deep)' };
+  const item = { image: picSrc(st.image), alt: st.alt || '', tone: 'var(--paper-deep)' };
   return plateFor(item, { cls: cls || '', note: 'Image to supply' }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
 }
 const LIBRARY = {
@@ -1824,7 +1827,7 @@ function article(a){
     <p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${esc(a.dek)}</p>
     <div class="byline" data-in data-from='{"opacity":0,"y":10}' data-delay="400"><span>${ph('Author')}</span><span>${a.minutes} minute read</span><span>Updated ${a.updated}</span>${a.status?`<span class="status todo">${a.status}</span>`:''}${saveBtn(a.slug,true)}<button class="iconbtn" type="button" data-copy>${IC.link}<span>Copy link</span></button></div>
   </div>
-  ${a.credit?`<div class="art-hero" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":170,"friction":26}'>${plateFor(a,{eager:true, credit:a.credit})}</div>`:''}
+  ${(a.credit||a.image)?`<div class="art-hero" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":170,"friction":26}'>${plateFor(a,{eager:true, credit:a.credit})}</div>`:''}
   <div class="art-body">
     <div class="main">
       <div class="prose ${readSize}" id="articleBody">${a.body}${a.compare?compareTable():''}</div>
@@ -1994,9 +1997,12 @@ function typeOf(id){ if(id==="header"||id==="footer") return id; try{ var s=(PAG
 function sectionEl(id){ return id==="header"?document.querySelector("main header.hdr"):id==="footer"?document.querySelector("main footer"):document.getElementById(id); }
 function blockEls(id){ var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; document.documentElement.classList.add("rm"); }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} pick(e.data.pick,e.data.block,e.data.label,e.data.scroll); return; }
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} pick(e.data.pick,e.data.block,e.data.label,e.data.scroll); return; }
   if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true); return; }
 });
+/* shared pictures of artists and articles, as changed in the console and not saved yet */
+function pictures(list){ if(!Array.isArray(list)) return; list.forEach(function(p){ var k=String(p&&p.key||"").split(":"), all=k[0]==="artist"?ARTISTS:k[0]==="article"?ARTICLES:null; if(!all) return; var x=all.find(function(y){return y.slug===k[1];}); if(!x) return;
+  x.image=p.image?picSrc(p.image):null; x.alt=p.alt||""; if(k[0]==="artist") x.heroCredit=p.credit||""; else x.credit=p.credit||""; }); }
 function pick(id,block,label,scroll){
   document.querySelectorAll(".adh-picked,.adh-picked-block").forEach(function(x){x.classList.remove("adh-picked","adh-picked-block");x.removeAttribute("data-adh-label");});
   if(!id) return; var el=sectionEl(id); if(!el) return;
