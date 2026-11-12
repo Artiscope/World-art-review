@@ -3,6 +3,7 @@
 
   content/site.json   the words and pictures (edited in Artiscope Digital Home)
   content/theme.json  the colours and typefaces (edited in Artiscope Digital Home)
+  content/pages.json  the sections of each page, in order (edited in Artiscope Digital Home)
   src/index.html      the design and layout
   -> index.html       the finished page, written to the folder you name
 
@@ -16,6 +17,32 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MARK = "/*@@CONTENT@@*/"
+SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "method"}
+SHARED_TYPES = {"opening", "header", "footer"}
+
+
+def check_pages(pages):
+    """Refuses to build if the page list would not draw, so a bad edit
+    cannot blank the site."""
+    for key, part in (pages.get("shared") or {}).items():
+        if not isinstance(part, dict) or part.get("type") not in SHARED_TYPES or not isinstance(part.get("settings"), dict):
+            sys.exit("The shared part '%s' in content/pages.json is not something the site can draw." % key)
+    for key in ("opening", "header", "footer"):
+        if key not in (pages.get("shared") or {}):
+            sys.exit("content/pages.json must have the shared part '%s'." % key)
+    home = (pages.get("pages") or {}).get("home")
+    if not home or not isinstance(home.get("sections"), list):
+        sys.exit("content/pages.json must have a home page with a list of sections.")
+    seen = set()
+    for sec in home["sections"]:
+        if not isinstance(sec, dict) or sec.get("type") not in SECTION_TYPES:
+            sys.exit("The home page has a section of a kind the site cannot draw: %r" % (sec.get("type") if isinstance(sec, dict) else sec,))
+        sid = str(sec.get("id") or "")
+        if not sid or not all(c.isalnum() or c in "-_" for c in sid) or sid in seen:
+            sys.exit("Every home page section needs its own id of letters, digits and hyphens: %r" % sid)
+        seen.add(sid)
+        if not isinstance(sec.get("settings", {}), dict):
+            sys.exit("The settings of section '%s' must be a list of fields." % sid)
 
 
 def visible(items):
@@ -46,6 +73,8 @@ def theme_head(path):
 def main():
     out_dir = sys.argv[1] if len(sys.argv) > 1 else ROOT
     data = json.load(open(os.path.join(ROOT, "content", "site.json"), encoding="utf-8"))
+    pages = json.load(open(os.path.join(ROOT, "content", "pages.json"), encoding="utf-8"))
+    check_pages(pages)
     template = open(os.path.join(ROOT, "src", "index.html"), encoding="utf-8").read()
     if template.count(MARK) != 1:
         sys.exit("The layout file must contain the content marker exactly once.")
@@ -63,6 +92,7 @@ def main():
         "const ARTISTS = " + js(artists) + ";",
         "const ARTICLES = " + js(articles) + ";",
         "const GUIDES = " + js(data["guides"]) + ";",
+        "const PAGES = " + js(pages) + ";",
     ])
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:

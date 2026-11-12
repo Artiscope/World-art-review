@@ -645,8 +645,8 @@ footer .bar{padding-top:1rem}
 
 <div id="opening" aria-hidden="true">
   <div class="col">
-    <span class="wordmark on-green" id="opWord"><svg class="mark"><use href="#sym-mark"/></svg><span>World Art Review</span></span>
-        <span class="tag">Discover Artists. Understand Art.</span>
+    <span class="wordmark on-green" id="opWord"><svg class="mark"><use href="#sym-mark"/></svg><span id="opName">World Art Review</span></span>
+        <span class="tag" id="opTag">Discover Artists. Understand Art.</span>
   </div>
 </div>
 
@@ -1308,8 +1308,8 @@ function skipOpening(){ const op = $('opening'); if(op) op.remove(); setReady();
 
 function headerHTML(dark){
   return `<header class="hdr${dark?' dark':' on-green'}">
-    <nav class="left" aria-label="Sections"><a href="#artists">Artists A to Z</a><a href="#reviews">Reviews</a><a href="#explained">Art Explained</a></nav>
-    <a href="#home" class="centre" aria-label="World Art Review, home">${IC.mark}<span>World Art Review</span></a>
+    <nav class="left" aria-label="Sections">${(PAGES.shared.header.settings.links||[]).map(l=>`<a href="${esc(l[1])}">${esc(l[0])}</a>`).join('')}</nav>
+    <a href="#home" class="centre" aria-label="${esc(PAGES.shared.header.settings.name||'World Art Review')}, home">${IC.mark}<span>${esc(PAGES.shared.header.settings.name||'World Art Review')}</span></a>
     <div class="right"><button type="button" class="wordbtn hdrword" data-sub>Subscribe</button><button type="button" class="wordbtn hdrword menubtn" data-menu aria-label="Open menu">Menu</button></div>
   </header>`;
 }
@@ -1382,54 +1382,60 @@ document.querySelectorAll('.xbtn').forEach(b => { const x = b.querySelector('.x'
   b.addEventListener('pointerleave', ()=>{ if(hoverOK()) springTo(x, {rot:90}, {rot:0}, {tension:300, friction:18}, applyT(x)); }); });
 
 function footerHTML(){
+  const f = PAGES.shared.footer; if(f && f.visible === false) return '';
+  const st = f.settings;
+  const link = l => l[2] ? `<a href="${esc(l[1])}" data-go="${esc(l[2])}">${esc(l[0])}</a>` : `<a href="${esc(l[1])}"${/^#|^mailto:/.test(l[1])?'':' rel="noopener"'}>${esc(l[0])}</a>`;
   return `<footer id="contact" class="on-green">
     <div class="cta">
-      <div><span class="eyebrow light">Get the review</span>
-        <h2 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines([{t:'New portfolios,'},{t:'once a month.'}])}</h2></div>
-      <div data-in data-from='{"opacity":0,"y":20}' data-cfg='{"tension":200,"friction":24}' data-delay="150"><button class="btn paper" type="button" data-sub data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>Subscribe</button></div>
+      <div><span class="eyebrow light">${esc(st.eyebrow)}</span>
+        <h2 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(st.heading.map(t=>({t:esc(t)})))}</h2></div>
+      <div data-in data-from='{"opacity":0,"y":20}' data-cfg='{"tension":200,"friction":24}' data-delay="150"><button class="btn paper" type="button" data-sub data-hover data-hover-target="svg" data-hfrom='{"x":0}' data-hto='{"x":5}' data-hcfg='{"tension":320,"friction":20}'>${esc(st.button)}</button></div>
     </div>
     <div class="cols">
-      <div><span class="wordmark">${IC.mark}<span>World Art Review</span></span><p class="blurb">Researched artist portfolios, reviews and collecting guides. Discover Artists. Understand Art.</p></div>
-      <div><h4>Read</h4><a href="#artists">Artists A to Z</a><a href="#reviews">Reviews</a><a href="#explained">Art Explained</a><a href="#guides">Exhibition Guides</a></div>
-      <div><h4>Collect</h4><a href="#library">Collector's Library</a><a href="#a-original-vs-print">Original or print?</a><a href="#a-provenance-certificates">Provenance</a><a href="#a-research-emerging-artist">Research an artist</a></div>
-      <div><h4>About</h4><a href="#home" data-go="method">How we research</a><a href="#standards">Sources</a><a href="mailto:info@grovegallery.com?subject=Suggest%20an%20artist%20for%20World%20Art%20Review">Suggest an artist</a><a href="mailto:info@grovegallery.com">Contact</a></div>
+      <div><span class="wordmark">${IC.mark}<span>${esc(PAGES.shared.header.settings.name||'World Art Review')}</span></span><p class="blurb">${esc(st.blurb)}</p></div>
+      ${st.columns.map(c=>`<div><h4>${esc(c.title)}</h4>${c.links.map(link).join('')}</div>`).join('\n      ')}
     </div>
-    <div class="bar"><span>© 2026 World Art Review. All rights reserved.</span><nav aria-label="Elsewhere"><a href="#" rel="noopener">Instagram</a><a href="#" rel="noopener">X</a><a href="#" rel="noopener">LinkedIn</a><a href="#standards">Privacy</a><a href="#standards">Terms</a></nav></div>
+    <div class="bar"><span>${esc(st.copyright)}</span><nav aria-label="Elsewhere">${st.elsewhere.map(l=>`<a href="${esc(l[1])}"${l[1].startsWith('#') && l[1].length>1?'':' rel="noopener"'}>${esc(l[0])}</a>`).join('')}</nav></div>
   </footer>`;
 }
 
 /* =========================================================
    HOMEPAGE
    ========================================================= */
-const SECTION_INFO = [
-  {n:'01', name:'Artists A to Z', href:'#artists', desc:'Researched portfolios: biography, style, career and selected works.', count:()=>ARTISTS.filter(a=>a.published).length, unit:'portfolio'},
-  {n:'02', name:'Reviews', href:'#reviews', desc:'Close readings of single works, shows and interventions.', count:()=>ARTICLES.filter(a=>a.section==='reviews').length, unit:'review'},
-  {n:'03', name:'Art Explained', href:'#explained', desc:'Techniques, materials and ideas, in plain language.', count:()=>ARTICLES.filter(a=>a.section==='explained').length, unit:'guide'},
-  {n:'04', name:"Collector's Library", href:'#library', desc:'How to research an artist, read a certificate and tell an original from a print.', count:()=>ARTICLES.filter(a=>a.section==='library').length, unit:'guide'}
-];
 const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
+const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
+const SECTION_INFO = ((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
 
 function latestItems(){
-  const want = ['zara-muse-profile','konn-artiss-profile','review-anti-frieze'];
+  const h = PAGES.pages.home.sections.find(x=>x.type==='hero');
+  const want = (h && h.settings.latest && h.settings.latest.length) ? h.settings.latest : ['zara-muse-profile','konn-artiss-profile','review-anti-frieze'];
   return want.map(articleBy).filter(Boolean);
 }
-function homeHTML(){
+function publishedArtists(slugs){
   const pub = ARTISTS.filter(a=>a.published);
-  const a1 = pub[0], a2 = pub[1] || pub[0];
-  const latest = latestItems();
-  const explained = ARTICLES.filter(a=>a.section==='explained').slice(0,2);
-  const feat = pub;
-  return `
-  <section class="hero on-green" id="hero">
+  const chosen = (slugs||[]).map(sl => pub.find(a=>a.slug===sl)).filter(Boolean);
+  return chosen.length ? chosen : pub;
+}
+const T = v => esc(v == null ? '' : String(v));
+
+/* Every kind of section on the home page, drawn from its settings. */
+const SECTIONS = {
+  hero(st, id){
+    const pub = ARTISTS.filter(a=>a.published);
+    const a1 = pub.find(a=>a.slug===st.artist) || pub[0], a2 = pub.find(a=>a!==a1) || a1;
+    const latest = latestItems();
+    const ln = parts => lines((parts||[]).map(p=>({t:T(p.t), cls:p.ital?'ital':''})));
+    return `
+  <section class="hero on-green" id="${id}">
     ${headerHTML(false)}
     <div class="art" id="heroArt">
       <div class="frame" id="heroFrame">${plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
       <span id="heroWall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
     </div>
-    <h1 id="heroTitle"><span class="ln"><span>Discover</span></span><span class="ln"><span class="ital">Artists.</span></span></h1>
+    <h1 id="heroTitle">${ln(st.headline)}</h1>
     <div class="bottom">
       <div>
-        <p class="tagline" id="heroTag">${lines([{t:'Understand'},{t:'Art.', cls:'ital'}])}</p>
+        <p class="tagline" id="heroTag">${ln(st.tagline)}</p>
         <div class="mobwall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</div>
       </div>
       <div class="cluster">
@@ -1438,16 +1444,19 @@ function homeHTML(){
           <span class="counter light" id="latestCount" style="font-size:.85rem"><b>1</b><i>of</i>${latest.length}</span><div class="dots" id="latestDots" hidden>${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
         </div>
         <div class="glass srcs" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="780">
-          <div><span class="k">Our rule</span><span class="t">Every fact carries a numbered source. Where only the gallery or the artist says so, we say so.</span><a class="go" href="#standards">How we work</a></div>
+          <div><span class="k">${T(st.rule_label)}</span><span class="t">${T(st.rule_text)}</span><a class="go" href="#standards">${T(st.rule_link)}</a></div>
           ${plateFor(a2,{cls:'thumb',note:''})}
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="band paper feat inner" id="featured">
+  </section>`;
+  },
+  featured(st, id){
+    const feat = publishedArtists(st.artists);
+    return `
+  <section class="band paper feat inner" id="${id}" data-artists="${esc(feat.map(a=>a.slug).join(' '))}">
     <div class="top">
-      <div class="badge" data-in data-from='{"opacity":0,"scale":0.9}' data-cfg='{"tension":220,"friction":22}'><b id="featNo">No. 1</b><small>Artist in focus</small></div>
+      <div class="badge" data-in data-from='{"opacity":0,"scale":0.9}' data-cfg='{"tension":220,"friction":22}'><b id="featNo">No. 1</b><small>${T(st.badge)}</small></div>
       <a class="card" id="featCard" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":24}' data-cfg='{"tension":200,"friction":26}' data-delay="120"><span class="letter" id="featLetter">${feat[0].letter}</span><div><h3 id="featName">${esc(feat[0].name)}</h3><p id="featSum">${esc(feat[0].summary)}</p></div></a>
     </div>
     <h2 class="ghost" id="ghost" aria-label="${esc((feat[0].ghostWords||[]).join(' '))}">
@@ -1463,42 +1472,57 @@ function homeHTML(){
       <span class="counter" id="featCount" aria-live="polite"><b>1</b><i>of</i>${feat.length}</span><div class="dots" id="featDots" hidden>${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
       <button type="button" class="wordbtn" id="featNext">Next artist</button>
     </div>
-  </section>
-
-  <section class="band deep" id="sections" style="padding:4.5rem 1.5rem 5rem">
+  </section>`;
+  },
+  'section-list'(st, id){
+    const rows = (st.rows||[]).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
+    return `
+  <section class="band deep" id="${id}" style="padding:4.5rem 1.5rem 5rem">
     <div class="sec-in">
-    <span class="eyebrow">What you will find here</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'Read by'},{t:'section'}])}</h2>
-    <ul class="rows">${SECTION_INFO.map((s,i)=>`<li data-in data-from='{"opacity":0,"y":26}' data-cfg='{"tension":190,"friction":26}' data-delay="${i*90}"><a href="${s.href}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'><span class="n">${s.n}</span><span class="body"><span class="name">${esc(s.name)}</span><span class="desc">${esc(s.desc)}</span></span><span class="count">${plural(s.count(), s.unit)}</span></a></li>`).join('')}</ul>
+    <span class="eyebrow">${T(st.eyebrow)}</span>
+    <h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
+    <ul class="rows">${rows.map((s,i)=>`<li data-in data-from='{"opacity":0,"y":26}' data-cfg='{"tension":190,"friction":26}' data-delay="${i*90}"><a href="${esc(s.href)}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'><span class="n">${esc(s.n)}</span><span class="body"><span class="name">${esc(s.name)}</span><span class="desc">${esc(s.desc)}</span></span><span class="count">${plural(s.count(), s.unit)}</span></a></li>`).join('')}</ul>
     </div>
-  </section>
-
-  <section class="band paper ae" id="explainedHome" style="padding:4rem 1.5rem 4.5rem">
+  </section>`;
+  },
+  explained(st, id){
+    const explained = ARTICLES.filter(a=>a.section==='explained').slice(0, Number(st.count) || 2);
+    return `
+  <section class="band paper ae" id="${id}" style="padding:4rem 1.5rem 4.5rem">
     <div class="grid sec-in">
       <div class="intro">
         <div data-in data-from='{"opacity":0,"scale":0.85}' data-cfg='{"tension":240,"friction":20}'>${plateFor(explained[0]||{tone:'#C99A55'},{cls:'sqimg',note:''})}</div>
-        <h2 class="h2" style="margin-top:1.5rem" data-in="lines" data-opts='{"stagger":120}'>${lines([{t:'How to'},{t:'look at'},{t:'a painting'}])}</h2>
-        <p class="body" data-in="words">${words('Short, sourced explainers on the techniques and materials behind the work, so you know what you are looking at before you look it up.')}</p>
+        <h2 class="h2" style="margin-top:1.5rem" data-in="lines" data-opts='{"stagger":120}'>${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
+        <p class="body" data-in="words">${words(T(st.text))}</p>
       </div>
       <div class="cards">${explained.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":48}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*140}" data-hover data-hover-target=".plate" data-hfrom='{"scale":1}' data-hto='{"scale":1.03}' data-hcfg='{"tension":300,"friction":22}'>${plateFor(a,{note:'Image to supply'})}<span class="cap ${i?'b':'g'}"><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`).join('')}</div>
     </div>
-  </section>
+  </section>`;
+  },
+  numbers(st, id){
+    const lab = st.labels || [];
+    const cells = [[COUNTS.artists(), lab[0]], [COUNTS.articles(), lab[1]], [COUNTS.sources(), lab[2]], ['100%', lab[3]]];
+    return `
+  <section class="band green nums on-green inner" id="${id}" style="padding-top:5rem;padding-bottom:5rem">
+    <span class="eyebrow light">${T(st.eyebrow)}</span>
+    <h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
+    <dl>${cells.map((n,i)=>`<div class="cell" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":24}' data-delay="${i*110}"><dt class="sr-only">${T(n[1])}</dt><dd class="num">${n[0]}</dd><div class="lab" aria-hidden="true">${T(n[1])}</div></div>`).join('')}</dl>
+  </section>`;
+  },
+  method(st, id){
+    return `
+  <section class="band paper method inner" id="${id}">
+    <span class="eyebrow">${T(st.eyebrow)}</span>
+    <h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
+    <div class="grid">${(st.cards||[]).map((m,i)=>`<div class="mcard" data-in data-from='{"opacity":0,"y":40}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*120}" data-hover data-hfrom='{"y":0}' data-hto='{"y":-8}' data-hcfg='{"tension":300,"friction":22}'><span class="k">${T(m.n)}</span><p>${m.text}</p><div class="foot"><b>${T(m.title)}</b><span>${T(m.sub)}</span></div></div>`).join('')}</div>
+  </section>`;
+  },
+};
 
-  <section class="band green nums on-green inner" id="numbers" style="padding-top:5rem;padding-bottom:5rem">
-    <span class="eyebrow light">The review so far</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'Research you'},{t:'can check'}])}</h2>
-    <dl>${[[pub.length,'Artists documented'],[ARTICLES.length,'Articles and reviews'],[Object.keys(SOURCES).length,'Sources cited'],['100%','Facts with a numbered source']].map((n,i)=>`<div class="cell" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":24}' data-delay="${i*110}"><dt class="sr-only">${n[1]}</dt><dd class="num">${n[0]}</dd><div class="lab" aria-hidden="true">${n[1]}</div></div>`).join('')}</dl>
-  </section>
-
-  <section class="band paper method inner" id="method">
-    <span class="eyebrow">How we research</span>
-    <h2 class="h2" data-in="lines">${lines([{t:'The work first,'},{t:'then the story'}])}</h2>
-    <div class="grid">${[
-      ['1','We start with the work itself: what it is made of, how it was made and where it has been shown.','Start with the work','Seen, measured, described'],
-      ['2','Every fact in a portfolio carries a numbered source you can open and read for yourself.','Every fact, sourced','Press, auction records, gallery files'],
-      ['3','Claims that come only from publicity are labelled <span class="reported">Reported</span> so you can weigh them.','Publicity, flagged','Kept apart from checked fact']
-    ].map((m,i)=>`<div class="mcard" data-in data-from='{"opacity":0,"y":40}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*120}" data-hover data-hfrom='{"y":0}' data-hto='{"y":-8}' data-hcfg='{"tension":300,"friction":22}'><span class="k">${m[0]}</span><p>${m[1]}</p><div class="foot"><b>${m[2]}</b><span>${m[3]}</span></div></div>`).join('')}</div>
-  </section>
+function homeHTML(){
+  const secs = (PAGES.pages.home.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
+  const hasHero = secs.some(x=>x.type==='hero');
+  return (hasHero ? '' : headerHTML(false)) + secs.map(x => SECTIONS[x.type](x.settings||{}, x.id)).join('\n') + `
   ${footerHTML()}`;
 }
 
@@ -1526,12 +1550,13 @@ function setupHome(){
   window.addEventListener('scroll', homeScroll, {passive:true});
   // title and tagline wait for the opening screen
   whenReady(() => {
-    revealIn($('heroTitle'), {stagger:140, duration:1100});
-    revealIn($('heroTag'), {stagger:110, duration:900, delay:350});
+    if($('heroTitle')) revealIn($('heroTitle'), {stagger:140, duration:1100});
+    if($('heroTag')) revealIn($('heroTag'), {stagger:110, duration:900, delay:350});
     startLatest();
   });
   // featured carousel
-  const feat = ARTISTS.filter(a=>a.published);
+  if(!$('featured')) { main.querySelectorAll('[data-go]').forEach(a => a.addEventListener('click', e => { if((location.hash||'#home')==='#home'){ e.preventDefault(); const el = $(a.dataset.go); if(el) scrollToEl(el, 24); } })); return; }
+  const feat = publishedArtists(($('featured').dataset.artists||'').split(' ').filter(Boolean));
   let fi = 0;
   const setGhost = (a, animate) => {
     const ws = (a.ghostWords && a.ghostWords.length===4) ? a.ghostWords : [a.name, '', '', ''];
@@ -1867,7 +1892,9 @@ syncSaved(false);
 const firstIsHome = ((location.hash||'').replace('#','')||'home')==='home';
 loadLenis().then(()=>{ if(firstIsHome && LenisCtor && !lenis) startLenis(); });
 route();
-if(firstIsHome) runOpening(); else skipOpening();
+(function(){ const op = PAGES.shared.opening; if(op && op.visible === false){ skipOpening(); return; }
+  if(op && op.settings){ if($('opName')) $('opName').textContent = op.settings.name || 'World Art Review'; if($('opTag')) $('opTag').textContent = op.settings.tagline || ''; }
+  if(firstIsHome) runOpening(); else skipOpening(); })();
 </script>
 <script>/* lets Artiscope Digital Home preview a theme before it is published */
 (function(){var ok="https://artiscope.github.io";if(window.parent===window)return;window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return;if(e.data.type==="adh-hello"){e.source.postMessage({type:"adh-ready"},ok);return;}if(e.data.type!=="adh-theme")return;var s=document.getElementById("adh-theme-preview");if(!s){s=document.createElement("style");s.id="adh-theme-preview";document.head.appendChild(s);}s.textContent=String(e.data.css||"");(e.data.fonts||[]).forEach(function(u){if(typeof u!=="string"||u.indexOf("https://fonts.googleapis.com/css2?")!==0)return;var had=false;Array.prototype.forEach.call(document.querySelectorAll("link[data-adh]"),function(l){if(l.getAttribute("data-adh")===u)had=true;});if(had)return;var l=document.createElement("link");l.rel="stylesheet";l.href=u;l.setAttribute("data-adh",u);document.head.appendChild(l);});});})();</script>

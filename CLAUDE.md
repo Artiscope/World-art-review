@@ -24,6 +24,12 @@ brief. Read all of it before doing anything.
 The site is kept in three parts, so it can be edited from Artiscope
 Digital Home without touching code:
 
+- `content/pages.json` holds the sections of the home page in order, plus
+  the opening screen, menu bar and footer, each with its words. A section
+  with `"visible": false` is left off. Only Artiscope Digital Home edits
+  this file.
+- `content/theme.json` holds the colours and typefaces chosen in Artiscope
+  Digital Home. Leave it alone.
 - `content/site.json` holds the words and pictures: SOURCES, ARTISTS,
   ARTICLES and GUIDES, under the keys `sources`, `artists`, `articles`
   and `guides`. To add or change content, edit this file and follow the
