@@ -797,7 +797,7 @@ footer .bar{padding-top:1rem}
    HELPERS
    ========================================================= */
 const $ = id => document.getElementById(id);
-const reduceMotion = document.documentElement.classList.contains('rm');
+let reduceMotion = document.documentElement.classList.contains('rm');
 const IC = {
   arrow:'<svg aria-hidden="true"><use href="#sym-arrow"/></svg>',
   left:'<svg aria-hidden="true" style="transform:scaleX(-1)"><use href="#sym-arrow"/></svg>',
@@ -1612,6 +1612,11 @@ const LIBRARY = {
 };
 Object.assign(SECTIONS, LIBRARY);
 
+/* a page made in Artiscope Digital Home, drawn from its sections like the home page */
+function customPage(key){
+  const secs = ((PAGES.pages[key]||{}).sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
+  return shell(secs.map(x => SECTIONS[x.type](x.settings||{}, x.id)).join('\n'));
+}
 function homeHTML(){
   const secs = (PAGES.pages.home.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
   const hasHero = secs.some(x=>x.type==='hero');
@@ -1716,12 +1721,18 @@ function artistCard(a, i){
     ${plateFor(a,{note:a.published?'Artwork image to supply':''})}${a.published?'':'<span class="in">Portfolio in research</span>'}
     ${wallLabel(a,[artistLine(a), a.published?'Open the portfolio':'In research'])}</a>`;
 }
+/* the heading and introduction of a list page, as set in Artiscope Digital Home */
+function listHead(key, eyebrow, titleLines, dek){
+  const l = PAGES.lists && PAGES.lists[key];
+  if(!l) return pageHead(eyebrow, titleLines, dek);
+  return pageHead(T(l.eyebrow), (l.heading||[]).map(t=>({t:T(t)})), l.intro ? T(l.intro) : '');
+}
 let azFilter = null;
 pages.artists = () => {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   const have = new Set(ARTISTS.map(a=>a.letter));
   const list = ARTISTS.filter(a => !azFilter || a.letter===azFilter).sort((a,b)=>a.name.localeCompare(b.name));
-  return shell(pageHead('Artists A to Z', [{t:'Every artist,'},{t:'researched and sourced'}], 'Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now.') + `
+  return shell(listHead('artists', 'Artists A to Z', [{t:'Every artist,'},{t:'researched and sourced'}], 'Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now.') + `
   <div class="azrow" role="group" aria-label="Filter by initial">${letters.map(l => have.has(l)?`<button type="button" class="chip" data-az="${l}" aria-pressed="${azFilter===l}">${l}</button>`:`<span>${l}</span>`).join('')}${azFilter?`<button type="button" class="chip" data-az="">Show all</button>`:''}</div>
   <div class="agrid" id="artistGrid">${list.map(artistCard).join('')}</div>`);
 };
@@ -1729,12 +1740,12 @@ function listRow(a, i){
   return `<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":22}' data-cfg='{"tension":190,"friction":26}' data-delay="${Math.min(i,6)*70}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'>${plateFor(a,{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(a.kicker)} · ${a.minutes} minute read</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`;
 }
 function sectionPage(section, eyebrow, titleLines, dek){
-  return () => shell(pageHead(eyebrow, titleLines, dek) + `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`);
+  return () => shell(listHead(section, eyebrow, titleLines, dek) + `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`);
 }
 pages.explained = sectionPage('explained','Art Explained',[{t:'How the work is made,'},{t:'and why it matters'}],'Plain-language guides to the techniques, materials and ideas behind the artworks.');
 pages.library = sectionPage('library',"Collector's Library",[{t:'Buy with your'},{t:'eyes open'}],'Practical, independent guidance on researching artists, understanding what you are buying and keeping good records.');
 pages.reviews = sectionPage('reviews','Reviews',[{t:'Recent reviews'},{t:'and comparisons'}],'Considered responses to individual works and projects, and side-by-side comparisons of artists.');
-pages.guides = () => shell(pageHead('Exhibition Guides',[{t:'What to see,'},{t:'and how to see it'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div class="list" style="max-width:56rem">${GUIDES.map((g,i)=>`<a href="#guides" data-in data-delay="${i*80}"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}. What to see and how long to allow.</span></span></a>`).join('')}<p class="meta" style="margin-top:1.5rem">Guides will be added as exhibitions are confirmed.</p></div>`);
+pages.guides = () => shell(listHead('guides', 'Exhibition Guides',[{t:'What to see,'},{t:'and how to see it'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div class="list" style="max-width:56rem">${GUIDES.map((g,i)=>`<a href="#guides" data-in data-delay="${i*80}"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}. What to see and how long to allow.</span></span></a>`).join('')}<p class="meta" style="margin-top:1.5rem">Guides will be added as exhibitions are confirmed.</p></div>`);
 
 pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish'}],'The rules every portfolio and article on World Art Review follows.') + `
   <div class="std"><div class="prose" style="max-width:44rem">
@@ -1768,8 +1779,9 @@ pages.search = () => {
 /* portfolio page */
 let currentArtist = null;
 function portfolio(a){
+  a = Object.assign({glance:[], sections:[], works:[], timeline:[], seen:'', checked:'', dek:''}, a);
   currentArtist = a;
-  const facts = factCount(a), open = openItems(a).length, pct = Math.round(100*facts/(facts+open));
+  const facts = factCount(a), open = openItems(a).length, pct = facts+open ? Math.round(100*facts/(facts+open)) : 0;
   const openDates = (a.timeline||[]).filter(t=>!t.when || t.todo).length;
   const reported = (a.timeline||[]).filter(t=>t.reported).length;
   const toc = [...a.sections.map(s=>[s.id,s.title]),['works','Documented works'],['timeline','Career timeline'],['seen','Where to see the work'],['sources-list','Sources']];
@@ -1887,10 +1899,12 @@ function render(){
   if(h==='home'){ html = homeHTML(); }
   else if(h.startsWith('artist-')){
     const a = artistBy(h.slice(7));
-    if(a && a.published){ html = portfolio(a); title = a.name+': artist portfolio | World Art Review'; srcOrder = []; dock = 'portfolio'; }
+    if(a && (a.published || window.ADH_EDIT)){ html = portfolio(a); title = a.name+': artist portfolio | World Art Review'; srcOrder = []; dock = 'portfolio'; }
   } else if(h.startsWith('a-')){
     const a = articleBy(h.slice(2));
     if(a){ html = article(a); title = a.title+' | World Art Review'; srcOrder = [...a.sources]; dock = 'article'; slug = a.slug; }
+  } else if(h.startsWith('page-') && PAGES.pages[h.slice(5)] && h !== 'page-home'){
+    html = customPage(h.slice(5)); title = (PAGES.pages[h.slice(5)].title||'') + ' | World Art Review';
   } else if(pages[h]){
     html = pages[h](); title = h.charAt(0).toUpperCase()+h.slice(1)+' | World Art Review';
   }
@@ -1993,11 +2007,27 @@ route();
 (function(){var ok="https://artiscope.github.io",active=false;if(window.parent===window)return;
 var BLOCKS={method:".mcard","section-list":".rows li",faq:".items details",header:"nav.left a",footer:".cols > div"};
 var SKIP={footer:1};
-function typeOf(id){ if(id==="header"||id==="footer") return id; try{ var s=(PAGES.pages.home.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
-function sectionEl(id){ return id==="header"?document.querySelector("main header.hdr"):id==="footer"?document.querySelector("main footer"):document.getElementById(id); }
-function blockEls(id){ var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
-window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; document.documentElement.classList.add("rm"); }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} pick(e.data.pick,e.data.block,e.data.label,e.data.scroll); return; }
+/* the parts of an article, a portfolio and a list page, and the rows inside them */
+var PARTS={article:{words:".phead",picture:".art-hero",body:"#articleBody",sources:"#sources-list"},artist:{words:".phead",picture:".pf-art",glance:".glance",sections:".pf-main",timeline:"#timeline",works:"#works"},list:{listhead:".phead"}};
+var ROWS={glance:".glance > .row",sections:".pf-main > .prose[data-spy]:not(#seen)",timeline:"ol.timeline > li",works:".work-btn"};
+var LISTS=["artists","reviews","explained","library","guides"];
+function here(){ return (location.hash||"").replace("#","")||"home"; }
+function view(){ var h=here(); if(h.indexOf("a-")===0) return "article"; if(h.indexOf("artist-")===0) return "artist"; if(LISTS.indexOf(h)>=0) return "list"; return "page"; }
+function pageKey(){ var h=here(); return h.indexOf("page-")===0?h.slice(5):"home"; }
+function typeOf(id){ if(id==="header"||id==="footer") return id; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
+function sectionEl(id){ var v=view(); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
+function blockEls(id){ if(view()==="artist"&&ROWS[id]) return [].slice.call(document.querySelectorAll("#main "+ROWS[id])); var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
+/* articles, portfolios and sources as edited in the console and not saved yet */
+function content(d,show){ if(!d||typeof d!=="object") return; try{
+  Object.keys(SOURCES).forEach(function(k){ delete SOURCES[k]; }); Object.assign(SOURCES,d.sources||{});
+  ARTISTS.length=0; (d.artists||[]).forEach(function(a){ var x=Object.assign({},a); x.works=(a.works||[]).filter(function(w){return !(w&&w.hidden===true);}).map(function(w){ return Object.assign({},w,{image:w.image?picSrc(w.image):null}); }); ARTISTS.push(x); });
+  ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
+}catch(x){} }
+window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
+    var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
+    try{ if(moved) location.hash=want; else render(); }catch(x){}
+    setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved); },moved?320:0); return; }
   if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true); return; }
 });
 /* shared pictures of artists and articles, as changed in the console and not saved yet */
@@ -2012,11 +2042,18 @@ function pick(id,block,label,scroll){
   if(label) target.setAttribute("data-adh-label",label);
   if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
 }
+/* a click on a link goes to that page; a click anywhere else, or with Alt held, picks what was clicked */
 document.addEventListener("click",function(e){ if(!active) return; var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return;
-  var sec=e.target.closest("main > section, main header.hdr, main footer, section[id]"); if(!sec) return; e.preventDefault(); e.stopPropagation();
-  var id=sec.matches("header.hdr")?"header":sec.matches("footer")?"footer":sec.id, block=-1, list=blockEls(id);
-  for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } }
-  window.parent.postMessage({type:"adh-click",id:id,block:block},ok); },true);
+  e.preventDefault(); e.stopPropagation();
+  var link=e.target.closest("a[href]"), href=link?link.getAttribute("href")||"":"";
+  if(link&&!e.altKey&&href.charAt(0)==="#"&&href.length>1){ window.parent.postMessage({type:"adh-nav",hash:link.getAttribute("data-go")?"home":href.slice(1)},ok); return; }
+  var v=view(), id="", block=-1;
+  if(e.target.closest("#main header.hdr")) id="header"; else if(e.target.closest("#main footer")) id="footer";
+  else if(v==="page"){ var sec=e.target.closest("main > section, section[id]"); if(sec) id=sec.id; }
+  else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(e.target)) id=k; } }
+  if(!id) return;
+  var list=blockEls(id); for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } }
+  window.parent.postMessage({type:"adh-click",id:id,block:block,view:v},ok); },true);
 })();
 /* theme preview */
 (function(){var ok="https://artiscope.github.io";if(window.parent===window)return;window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return;if(e.data.type==="adh-hello"){e.source.postMessage({type:"adh-ready"},ok);return;}if(e.data.type!=="adh-theme")return;var s=document.getElementById("adh-theme-preview");if(!s){s=document.createElement("style");s.id="adh-theme-preview";document.head.appendChild(s);}s.textContent=String(e.data.css||"");(e.data.fonts||[]).forEach(function(u){if(typeof u!=="string"||u.indexOf("https://fonts.googleapis.com/css2?")!==0)return;var had=false;Array.prototype.forEach.call(document.querySelectorAll("link[data-adh]"),function(l){if(l.getAttribute("data-adh")===u)had=true;});if(had)return;var l=document.createElement("link");l.rel="stylesheet";l.href=u;l.setAttribute("data-adh",u);document.head.appendChild(l);});});})();</script>

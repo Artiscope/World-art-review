@@ -26,7 +26,9 @@ Digital Home without touching code:
 
 - `content/pages.json` holds the sections of the home page in order, plus
   the opening screen, menu bar and footer, each with its words. A section
-  with `"visible": false` is left off. Only Artiscope Digital Home edits
+  with `"visible": false` is left off. It also holds pages made in the
+  console (shown at `#page-<name>`) and, under `lists`, the heading and
+  introduction of each list page. Only Artiscope Digital Home edits
   this file.
 - `content/theme.json` holds the colours and typefaces chosen in Artiscope
   Digital Home. Leave it alone.

@@ -34,16 +34,21 @@ def check_pages(pages):
     home = (pages.get("pages") or {}).get("home")
     if not home or not isinstance(home.get("sections"), list):
         sys.exit("content/pages.json must have a home page with a list of sections.")
-    seen = set()
-    for sec in home["sections"]:
-        if not isinstance(sec, dict) or sec.get("type") not in SECTION_TYPES:
-            sys.exit("The home page has a section of a kind the site cannot draw: %r" % (sec.get("type") if isinstance(sec, dict) else sec,))
-        sid = str(sec.get("id") or "")
-        if not sid or not all(c.isalnum() or c in "-_" for c in sid) or sid in seen:
-            sys.exit("Every home page section needs its own id of letters, digits and hyphens: %r" % sid)
-        seen.add(sid)
-        if not isinstance(sec.get("settings", {}), dict):
-            sys.exit("The settings of section '%s' must be a list of fields." % sid)
+    for key, page in (pages.get("pages") or {}).items():
+        if not isinstance(page, dict) or not isinstance(page.get("sections"), list):
+            sys.exit("The page '%s' in content/pages.json needs a list of sections." % key)
+        seen = set()
+        for sec in page["sections"]:
+            if not isinstance(sec, dict) or sec.get("type") not in SECTION_TYPES:
+                sys.exit("The page '%s' has a section of a kind the site cannot draw: %r" % (key, sec.get("type") if isinstance(sec, dict) else sec))
+            sid = str(sec.get("id") or "")
+            if not sid or not all(c.isalnum() or c in "-_" for c in sid) or sid in seen:
+                sys.exit("Every section on the page '%s' needs its own id of letters, digits and hyphens: %r" % (key, sid))
+            seen.add(sid)
+            if not isinstance(sec.get("settings", {}), dict):
+                sys.exit("The settings of section '%s' must be a list of fields." % sid)
+    if not isinstance(pages.get("lists", {}), dict):
+        sys.exit("The list headings in content/pages.json must be a list of fields.")
 
 
 def visible(items):
