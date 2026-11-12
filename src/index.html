@@ -1590,6 +1590,9 @@ function libImage(st, cls){
   return plateFor(item, { cls: cls || '', note: 'Image to supply' }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
 }
 const LIBRARY = {
+  /* a page's own heading, and text in the narrow reading column, as on Editorial standards */
+  'page-heading'(st, id){ return pageHead(T(st.eyebrow), (st.heading||[]).map(t=>({t:T(t)})), st.intro ? T(st.intro) : '').replace('<div class="phead"', `<div class="phead" id="${id}" data-sec`); },
+  'long-text'(st, id){ return `  <div class="std" id="${id}" data-sec><div class="prose" style="max-width:44rem">${st.body||''}</div></div>`; },
   text(st, id){ return libWrap(st, id, 'text', libHead(st) + (st.body ? `<div class="prose">${st.body}</div>` : ''), st.align === 'centre' ? 'centre' : ''); },
   'text-picture'(st, id){
     return libWrap(st, id, 'text-picture', `<div class="grid"><div>${libHead(st)}${st.body ? `<div class="prose">${st.body}</div>` : ''}</div><div>${libImage(st)}</div></div>`, st.side === 'left' ? 'flip' : '');
@@ -1747,7 +1750,8 @@ pages.library = sectionPage('library',"Collector's Library",[{t:'Buy with your'}
 pages.reviews = sectionPage('reviews','Reviews',[{t:'Recent reviews'},{t:'and comparisons'}],'Considered responses to individual works and projects, and side-by-side comparisons of artists.');
 pages.guides = () => shell(listHead('guides', 'Exhibition Guides',[{t:'What to see,'},{t:'and how to see it'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div class="list" style="max-width:56rem">${GUIDES.map((g,i)=>`<a href="#guides" data-in data-delay="${i*80}"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}. What to see and how long to allow.</span></span></a>`).join('')}<p class="meta" style="margin-top:1.5rem">Guides will be added as exhibitions are confirmed.</p></div>`);
 
-pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish'}],'The rules every portfolio and article on World Art Review follows.') + `
+/* Editorial standards: drawn from its sections in content/pages.json when it has them */
+pages.standards = () => PAGES.pages.standards ? customPage('standards') : shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish'}],'The rules every portfolio and article on World Art Review follows.') + `
   <div class="std"><div class="prose" style="max-width:44rem">
   <h2>Every fact has a source</h2><p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>
   <h2>We say who said it</h2><p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class="reported">Reported</span>.</p>
@@ -1759,7 +1763,7 @@ pages.standards = () => shell(pageHead('Editorial standards',[{t:'How we researc
 
 pages.research = () => {
   const items = ARTISTS.map(a => ({a, open:openItems(a)}));
-  return shell(pageHead('Research desk',[{t:'What still needs'},{t:'to be added'}],'An internal checklist, drawn from the portfolios themselves. Each item disappears once the information is added. Not for the public site.') + `
+  return shell(listHead('research', 'Research desk',[{t:'What still needs'},{t:'to be added'}],'An internal checklist, drawn from the portfolios themselves. Each item disappears once the information is added. Not for the public site.') + `
   <div class="rgrid">
     ${items.map(({a,open},i)=>`<div class="rcard" data-in data-delay="${i*80}"><h2>${esc(a.name)}<span class="status ${open.length?'todo':'ok'}">${open.length} open</span></h2><ul>${open.map(o=>`<li>${esc(o)}</li>`).join('')}</ul>${a.published?`<p style="margin-top:1rem"><a href="#artist-${a.slug}" class="meta" style="text-decoration:underline">Open portfolio</a></p>`:''}</div>`).join('')}
     <div class="rcard" data-in data-delay="${items.length*80}"><h2>Site-wide</h2><ul><li>Grove Gallery disclosure wording</li><li>Corrections email address</li><li>Privacy notice and terms</li><li>Editor and researcher names</li><li>Artwork and studio photographs, with permissions</li><li>First exhibition guides</li><li>Social media addresses</li><li>Final review of all draft articles</li></ul></div>
@@ -1769,7 +1773,7 @@ pages.research = () => {
 let searchQuery = '';
 pages.search = () => {
   const results = runSearch(searchQuery); const q = searchQuery.trim();
-  return shell(pageHead('Search',[{t:'Search the'},{t:'archive'}],'Artists, artworks, techniques and collecting guides.') + `
+  return shell(listHead('search', 'Search',[{t:'Search the'},{t:'archive'}],'Artists, artworks, techniques and collecting guides.') + `
   <form class="searchbox" role="search" id="pageSearch"><label for="pageQ" class="sr-only">Search</label><input id="pageQ" type="search" value="${esc(searchQuery)}" placeholder="An artist, artwork or technique"><button class="btn green" type="submit">Search</button></form>
   ${q?`<p class="meta" style="padding:0 1.5rem 1rem">${results.length} result${results.length===1?'':'s'} for “${esc(q)}”</p>`:''}
   <div class="list">${results.map((r,i)=>`<a href="${r.href}" data-in data-delay="${Math.min(i,6)*60}">${plateFor({tone:r.tone},{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(r.type)}</span><span class="t">${hl(r.title,q)}</span><span class="d">${esc(r.dek)}</span></span></a>`).join('')}
@@ -2010,7 +2014,7 @@ var SKIP={footer:1};
 /* the parts of an article, a portfolio and a list page, and the rows inside them */
 var PARTS={article:{words:".phead",picture:".art-hero",body:"#articleBody",sources:"#sources-list"},artist:{words:".phead",picture:".pf-art",glance:".glance",sections:".pf-main",timeline:"#timeline",works:"#works"},list:{listhead:".phead"}};
 var ROWS={glance:".glance > .row",sections:".pf-main > .prose[data-spy]:not(#seen)",timeline:"ol.timeline > li",works:".work-btn"};
-var LISTS=["artists","reviews","explained","library","guides"];
+var LISTS=["artists","reviews","explained","library","guides","research","search"];
 function here(){ return (location.hash||"").replace("#","")||"home"; }
 function view(){ var h=here(); if(h.indexOf("a-")===0) return "article"; if(h.indexOf("artist-")===0) return "artist"; if(LISTS.indexOf(h)>=0) return "list"; return "page"; }
 function pageKey(){ var h=here(); return h.indexOf("page-")===0?h.slice(5):"home"; }
@@ -2049,7 +2053,7 @@ document.addEventListener("click",function(e){ if(!active) return; var m=documen
   if(link&&!e.altKey&&href.charAt(0)==="#"&&href.length>1){ window.parent.postMessage({type:"adh-nav",hash:link.getAttribute("data-go")?"home":href.slice(1)},ok); return; }
   var v=view(), id="", block=-1;
   if(e.target.closest("#main header.hdr")) id="header"; else if(e.target.closest("#main footer")) id="footer";
-  else if(v==="page"){ var sec=e.target.closest("main > section, section[id]"); if(sec) id=sec.id; }
+  else if(v==="page"){ var sec=e.target.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
   else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(e.target)) id=k; } }
   if(!id) return;
   var list=blockEls(id); for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } }

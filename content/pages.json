@@ -292,6 +292,32 @@
           }
         }
       ]
+    },
+    "standards": {
+      "title": "Editorial standards",
+      "sections": [
+        {
+          "id": "heading",
+          "type": "page-heading",
+          "visible": true,
+          "settings": {
+            "eyebrow": "Editorial standards",
+            "heading": [
+              "How we research",
+              "and what we publish"
+            ],
+            "intro": "The rules every portfolio and article on World Art Review follows."
+          }
+        },
+        {
+          "id": "text",
+          "type": "long-text",
+          "visible": true,
+          "settings": {
+            "body": "\n  <h2>Every fact has a source</h2><p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>\n  <h2>We say who said it</h2><p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class=\"reported\">Reported</span>.</p>\n  <h2>We show what is missing</h2><p>Portfolios show a research status: how many facts are sourced and how many dates or details are still awaiting confirmation.</p>\n  <h2>Our relationships</h2><p><span class=\"placeholder\">[Disclosure of the link between World Art Review and Grove Gallery, wording to confirm.]</span></p>\n  <h2>Corrections</h2><p>If you spot an error, write to <a href=\"mailto:info@grovegallery.com?subject=Correction\">info@grovegallery.com</a>. We correct promptly and note the change on the page.</p>\n  <h2>Privacy and terms</h2><p><span class=\"placeholder\">[Privacy notice and terms of use to be added before launch.]</span></p>\n  "
+          }
+        }
+      ]
     }
   }
 }

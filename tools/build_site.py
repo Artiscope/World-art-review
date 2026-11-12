@@ -18,7 +18,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MARK = "/*@@CONTENT@@*/"
 SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "method",
-                 "text", "text-picture", "picture", "quote", "articles", "faq", "button"}
+                 "text", "text-picture", "picture", "quote", "articles", "faq", "button",
+                 "page-heading", "long-text"}
 SHARED_TYPES = {"opening", "header", "footer"}
 
 
