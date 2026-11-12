@@ -2,6 +2,7 @@
 """Builds World Art Review from its three parts.
 
   content/site.json   the words and pictures (edited in Artiscope Digital Home)
+  content/theme.json  the colours and typefaces (edited in Artiscope Digital Home)
   src/index.html      the design and layout
   -> index.html       the finished page, written to the folder you name
 
@@ -10,6 +11,7 @@ An entry with "hidden": true is left out of the finished page.
 """
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,6 +25,22 @@ def visible(items):
 def js(value):
     # Valid JavaScript, and safe to sit inside a <script> block.
     return json.dumps(value, ensure_ascii=False).replace("</", "<\\/")
+
+
+def theme_head(path):
+    """The colours and typefaces chosen in Artiscope Digital Home, as a small
+    block for the page head. Empty when the theme is the original one."""
+    if not os.path.exists(path):
+        return ""
+    theme = json.load(open(path, encoding="utf-8"))
+    out = ""
+    for link in theme.get("font_links") or []:
+        if isinstance(link, str) and link.startswith("https://fonts.googleapis.com/css2?") and not re.search(r'["<>\s]', link):
+            out += '<link href="%s" rel="stylesheet">\n' % link.replace("&", "&amp;")
+    css = theme.get("css") or ""
+    if css and re.fullmatch(r":root\{[^<>{}]*\}", css):
+        out += '<style id="theme">%s</style>\n' % css
+    return out
 
 
 def main():
@@ -48,7 +66,13 @@ def main():
     ])
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(template.replace(MARK, block))
+        page = template.replace(MARK, block)
+        theme = theme_head(os.path.join(ROOT, "content", "theme.json"))
+        if theme:
+            if page.count("</head>") != 1:
+                sys.exit("The layout file must contain one </head>.")
+            page = page.replace("</head>", theme + "</head>")
+        f.write(page)
     print(f"Built index.html with {len(artists)} artists and {len(articles)} articles.")
 
 
