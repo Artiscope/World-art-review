@@ -13,6 +13,7 @@
       "type": "header",
       "visible": true,
       "settings": {
+        "name": "World Art Review",
         "links": [
           [
             "Artists A to Z",
@@ -26,8 +27,7 @@
             "Art Explained",
             "#explained"
           ]
-        ],
-        "name": "World Art Review"
+        ]
       }
     },
     "footer": {
@@ -89,8 +89,7 @@
             "links": [
               [
                 "How we research",
-                "#home",
-                "method"
+                "#home"
               ],
               [
                 "Sources",
@@ -144,7 +143,8 @@
           "settings": {
             "headline": [
               {
-                "t": "Discover"
+                "t": "Discover",
+                "ital": false
               },
               {
                 "t": "Artists.",
@@ -153,7 +153,8 @@
             ],
             "tagline": [
               {
-                "t": "Understand"
+                "t": "Understand",
+                "ital": false
               },
               {
                 "t": "Art.",
@@ -194,32 +195,32 @@
               {
                 "n": "01",
                 "name": "Artists A to Z",
-                "href": "#artists",
                 "desc": "Researched portfolios: biography, style, career and selected works.",
+                "href": "#artists",
                 "count": "artists",
                 "unit": "portfolio"
               },
               {
                 "n": "02",
                 "name": "Reviews",
-                "href": "#reviews",
                 "desc": "Close readings of single works, shows and interventions.",
+                "href": "#reviews",
                 "count": "reviews",
                 "unit": "review"
               },
               {
                 "n": "03",
                 "name": "Art Explained",
-                "href": "#explained",
                 "desc": "Techniques, materials and ideas, in plain language.",
+                "href": "#explained",
                 "count": "explained",
                 "unit": "guide"
               },
               {
                 "n": "04",
                 "name": "Collector's Library",
-                "href": "#library",
                 "desc": "How to research an artist, read a certificate and tell an original from a print.",
+                "href": "#library",
                 "count": "library",
                 "unit": "guide"
               }
@@ -271,20 +272,20 @@
             "cards": [
               {
                 "n": "1",
-                "text": "We start with the work itself: what it is made of, how it was made and where it has been shown.",
                 "title": "Start with the work",
+                "text": "<p>We start with the work itself what it is made of, how it was made and where it has been shown.</p>",
                 "sub": "Seen, measured, described"
               },
               {
                 "n": "2",
-                "text": "Every fact in a portfolio carries a numbered source you can open and read for yourself.",
                 "title": "Every fact, sourced",
+                "text": "Every fact in a portfolio carries a numbered source you can open and read for yourself.",
                 "sub": "Press, auction records, gallery files"
               },
               {
                 "n": "3",
-                "text": "Claims that come only from publicity are labelled <span class=\"reported\">Reported</span> so you can weigh them.",
                 "title": "Publicity, flagged",
+                "text": "Claims that come only from publicity are labelled <span class=\"reported\">Reported</span> so you can weigh them.",
                 "sub": "Kept apart from checked fact"
               }
             ]
