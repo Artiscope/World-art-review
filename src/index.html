@@ -1588,7 +1588,7 @@ const LIBRARY = {
     return libWrap(st, id, 'text-picture', `<div class="grid"><div>${libHead(st)}${st.body ? `<div class="prose">${st.body}</div>` : ''}</div><div>${libImage(st)}</div></div>`, st.side === 'left' ? 'flip' : '');
   },
   picture(st, id){ return libWrap(st, id, 'picture', libImage(st), st.size === 'contained' ? 'contained' : ''); },
-  quote(st, id){ return libWrap(st, id, 'quote', `<blockquote data-in="lines">${lines(String(st.text||'').split(/\n+/).map(t=>({t:T(t)})))}</blockquote>${st.who ? `<cite>${T(st.who)}</cite>` : ''}`); },
+  quote(st, id){ return libWrap(st, id, 'quote', `<blockquote data-in="lines">${lines((Array.isArray(st.text) ? st.text : String(st.text||'').split(/\n+/)).map(t=>({t:T(t)})))}</blockquote>${st.who ? `<cite>${T(st.who)}</cite>` : ''}`); },
   articles(st, id){
     const which = st.section && st.section !== 'all' ? ARTICLES.filter(a => a.section === st.section) : ARTICLES.slice();
     const list = which.slice(0, Math.max(1, Math.min(12, Number(st.count) || 3)));
@@ -1984,7 +1984,7 @@ route();
 </script>
 <script>/* lets Artiscope Digital Home preview a theme or an edited page before it is saved */
 (function(){var ok="https://artiscope.github.io",active=false;if(window.parent===window)return;
-window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; active=true;
+window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; document.documentElement.classList.add("rm"); }
   if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} if(e.data.pick) pick(e.data.pick); return; }
   if(e.data.type==="adh-pick"){ pick(e.data.id); return; }
 });
