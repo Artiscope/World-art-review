@@ -158,8 +158,10 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .lib.on-green .a,.lib.on-green summary::after{color:var(--p85)}
 .lib-button .row2{display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;margin-top:1.5rem}
 .lib-button .lead{margin-top:.75rem}
-/* a section picked out in Artiscope Digital Home */
-.adh-picked{outline:3px solid #A9BCE0;outline-offset:-3px}
+/* a section or block picked out in Artiscope Digital Home */
+.adh-picked{outline:2px dashed rgba(85,103,140,.65);outline-offset:-2px}
+.adh-picked-block{outline:3px solid #55678C;outline-offset:3px;position:relative}
+.adh-picked-block[data-adh-label]::before{content:attr(data-adh-label);position:absolute;left:0;top:-2.1rem;z-index:5;background:#55678C;color:#fff;font:600 12px/1 'Libre Franklin',Arial,sans-serif;padding:6px 10px;border-radius:7px;white-space:nowrap;pointer-events:none}
 
 /* ---------- opening screen ---------- */
 #opening{position:fixed;inset:0;z-index:200;background:var(--green);color:var(--paper);display:flex;align-items:center;justify-content:center}
@@ -1437,7 +1439,7 @@ function footerHTML(){
     </div>
     <div class="cols">
       <div><span class="wordmark">${IC.mark}<span>${esc(PAGES.shared.header.settings.name||'World Art Review')}</span></span><p class="blurb">${esc(st.blurb)}</p></div>
-      ${st.columns.map(c=>`<div><h4>${esc(c.title)}</h4>${c.links.map(link).join('')}</div>`).join('\n      ')}
+      ${shown(st.columns).map(c=>`<div><h4>${esc(c.title)}</h4>${c.links.map(link).join('')}</div>`).join('\n      ')}
     </div>
     <div class="bar"><span>${esc(st.copyright)}</span><nav aria-label="Elsewhere">${st.elsewhere.map(l=>`<a href="${esc(l[1])}"${l[1].startsWith('#') && l[1].length>1?'':' rel="noopener"'}>${esc(l[0])}</a>`).join('')}</nav></div>
   </footer>`;
@@ -1448,7 +1450,7 @@ function footerHTML(){
    ========================================================= */
 const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
 const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
-const SECTION_INFO = ((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
+const SECTION_INFO = (((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).filter(x => !(x && x.hidden === true))).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
 
 function latestItems(){
   const h = PAGES.pages.home.sections.find(x=>x.type==='hero');
@@ -1461,6 +1463,7 @@ function publishedArtists(slugs){
   return chosen.length ? chosen : pub;
 }
 const T = v => esc(v == null ? '' : String(v));
+const shown = list => (Array.isArray(list) ? list : []).filter(x => !(x && x.hidden === true));
 
 /* Every kind of section on the home page, drawn from its settings. */
 const SECTIONS = {
@@ -1519,7 +1522,7 @@ const SECTIONS = {
   </section>`;
   },
   'section-list'(st, id){
-    const rows = (st.rows||[]).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
+    const rows = shown(st.rows).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
     return `
   <section class="band deep" id="${id}" style="padding:4.5rem 1.5rem 5rem">
     <div class="sec-in">
@@ -1558,7 +1561,7 @@ const SECTIONS = {
   <section class="band paper method inner" id="${id}">
     <span class="eyebrow">${T(st.eyebrow)}</span>
     <h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
-    <div class="grid">${(st.cards||[]).map((m,i)=>`<div class="mcard" data-in data-from='{"opacity":0,"y":40}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*120}" data-hover data-hfrom='{"y":0}' data-hto='{"y":-8}' data-hcfg='{"tension":300,"friction":22}'><span class="k">${T(m.n)}</span><p>${m.text}</p><div class="foot"><b>${T(m.title)}</b><span>${T(m.sub)}</span></div></div>`).join('')}</div>
+    <div class="grid">${shown(st.cards).map((m,i)=>`<div class="mcard" data-in data-from='{"opacity":0,"y":40}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*120}" data-hover data-hfrom='{"y":0}' data-hto='{"y":-8}' data-hcfg='{"tension":300,"friction":22}'><span class="k">${T(m.n)}</span><p>${m.text}</p><div class="foot"><b>${T(m.title)}</b><span>${T(m.sub)}</span></div></div>`).join('')}</div>
   </section>`;
   },
 };
@@ -1579,7 +1582,8 @@ function libHead(st){
     (st.heading && st.heading.length ? `<h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>` : '');
 }
 function libImage(st, cls){
-  const item = { image: st.image ? ('images/' + String(st.image).replace(/[^A-Za-z0-9._-]/g,'')) : '', alt: st.alt || '', tone: 'var(--paper-deep)' };
+  const pending = (window.ADH_IMAGES || {})[st.image];
+  const item = { image: pending ? pending : (st.image ? ('images/' + String(st.image).replace(/[^A-Za-z0-9._-]/g,'')) : ''), alt: st.alt || '', tone: 'var(--paper-deep)' };
   return plateFor(item, { cls: cls || '', note: 'Image to supply' }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
 }
 const LIBRARY = {
@@ -1595,7 +1599,7 @@ const LIBRARY = {
     return libWrap(st, id, 'articles', libHead(st) + `<div class="list">${list.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*100}">${plateFor(a,{note:'Image to supply'})}<span class="k">${esc(a.kicker||'')}</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek||'')}</span></a>`).join('')}</div>`);
   },
   faq(st, id){
-    return libWrap(st, id, 'faq', libHead(st) + `<div class="items">${(st.items||[]).map(q=>`<details><summary>${T(q.q)}</summary><div class="a">${q.a||''}</div></details>`).join('')}</div>`);
+    return libWrap(st, id, 'faq', libHead(st) + `<div class="items">${shown(st.items).map(q=>`<details><summary>${T(q.q)}</summary><div class="a">${q.a||''}</div></details>`).join('')}</div>`);
   },
   button(st, id){
     const kind = { green: 'green', paper: 'paper', outline: 'outline' }[st.style] || 'green';
@@ -1984,12 +1988,29 @@ route();
 </script>
 <script>/* lets Artiscope Digital Home preview a theme or an edited page before it is saved */
 (function(){var ok="https://artiscope.github.io",active=false;if(window.parent===window)return;
+var BLOCKS={method:".mcard","section-list":".rows li",faq:".items details",header:"nav.left a",footer:".cols > div"};
+var SKIP={footer:1};
+function typeOf(id){ if(id==="header"||id==="footer") return id; try{ var s=(PAGES.pages.home.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
+function sectionEl(id){ return id==="header"?document.querySelector("main header.hdr"):id==="footer"?document.querySelector("main footer"):document.getElementById(id); }
+function blockEls(id){ var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; document.documentElement.classList.add("rm"); }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} if(e.data.pick) pick(e.data.pick); return; }
-  if(e.data.type==="adh-pick"){ pick(e.data.id); return; }
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} pick(e.data.pick,e.data.block,e.data.label,e.data.scroll); return; }
+  if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true); return; }
 });
-function pick(id){ document.querySelectorAll(".adh-picked").forEach(function(x){x.classList.remove("adh-picked");}); if(!id) return; var el=id==="header"?document.querySelector("main header.hdr"):id==="footer"?document.querySelector("main footer"):document.getElementById(id); if(el){ el.classList.add("adh-picked"); try{ el.scrollIntoView({behavior:"smooth",block:"start"}); }catch(x){ el.scrollIntoView(); } } }
-document.addEventListener("click",function(e){ if(!active) return; var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return; var sec=e.target.closest("main > section, main header.hdr, main footer, section[id]"); if(!sec) return; e.preventDefault(); e.stopPropagation(); var id=sec.matches("header.hdr")?"header":sec.matches("footer")?"footer":sec.id; window.parent.postMessage({type:"adh-click",id:id},ok); pick(id); },true);
+function pick(id,block,label,scroll){
+  document.querySelectorAll(".adh-picked,.adh-picked-block").forEach(function(x){x.classList.remove("adh-picked","adh-picked-block");x.removeAttribute("data-adh-label");});
+  if(!id) return; var el=sectionEl(id); if(!el) return;
+  var target=el;
+  if(block!=null&&block>=0){ var b=blockEls(id)[block]; if(b){ el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
+  else el.classList.add("adh-picked-block");
+  if(label) target.setAttribute("data-adh-label",label);
+  if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
+}
+document.addEventListener("click",function(e){ if(!active) return; var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return;
+  var sec=e.target.closest("main > section, main header.hdr, main footer, section[id]"); if(!sec) return; e.preventDefault(); e.stopPropagation();
+  var id=sec.matches("header.hdr")?"header":sec.matches("footer")?"footer":sec.id, block=-1, list=blockEls(id);
+  for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } }
+  window.parent.postMessage({type:"adh-click",id:id,block:block},ok); },true);
 })();
 /* theme preview */
 (function(){var ok="https://artiscope.github.io";if(window.parent===window)return;window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return;if(e.data.type==="adh-hello"){e.source.postMessage({type:"adh-ready"},ok);return;}if(e.data.type!=="adh-theme")return;var s=document.getElementById("adh-theme-preview");if(!s){s=document.createElement("style");s.id="adh-theme-preview";document.head.appendChild(s);}s.textContent=String(e.data.css||"");(e.data.fonts||[]).forEach(function(u){if(typeof u!=="string"||u.indexOf("https://fonts.googleapis.com/css2?")!==0)return;var had=false;Array.prototype.forEach.call(document.querySelectorAll("link[data-adh]"),function(l){if(l.getAttribute("data-adh")===u)had=true;});if(had)return;var l=document.createElement("link");l.rel="stylesheet";l.href=u;l.setAttribute("data-adh",u);document.head.appendChild(l);});});})();</script>
