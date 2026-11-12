@@ -59,7 +59,7 @@
       "id": "artist-konn-artiss",
       "group": "Artist main images",
       "label": "Konn Artiss",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-konn-artiss-the-washington-ghost",
