@@ -117,6 +117,50 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .lead{font-family:var(--text);font-size:.95rem;line-height:1.65;color:var(--muted);max-width:34rem}
 .band.green .lead{color:var(--p85)}
 
+/* ---------- library sections (added from Artiscope Digital Home) ---------- */
+.lib .sec-in{max-width:68rem;margin:0 auto}
+.lib .lead{max-width:40rem}
+.lib .prose{margin-top:1.5rem;max-width:40rem}
+.lib.on-green .lead,.lib.on-green .prose{color:var(--p85)}
+.lib.on-green .h2,.lib.on-green .eyebrow{color:inherit}
+.lib.on-green .eyebrow{color:var(--brick-soft)}
+.lib.on-green a{color:inherit;text-decoration:underline;text-underline-offset:.2em}
+.lib .prose a{color:var(--brick)}
+.lib.on-green .prose a{color:var(--brick-soft)}
+.lib-text.centre .sec-in{text-align:center}.lib-text.centre .lead,.lib-text.centre .prose{margin-left:auto;margin-right:auto}
+.lib-text-picture .grid{display:grid;grid-template-columns:1fr;gap:2.5rem;align-items:center}
+@media (min-width:800px){.lib-text-picture .grid{grid-template-columns:1fr 1fr;gap:4rem}.lib-text-picture.flip .grid>div:first-child{order:2}}
+.lib-text-picture .plate{aspect-ratio:4/5;width:100%;max-width:26rem}
+.lib-text-picture .cap,.lib-picture .cap{display:block;font-family:var(--sans);font-size:.72rem;color:var(--muted);margin-top:.75rem}
+.lib.on-green .cap{color:var(--p65)}
+.lib-picture .plate{aspect-ratio:16/9;width:100%}
+.lib-picture.contained .plate{max-width:48rem;margin:0 auto}
+.lib-picture.contained .cap{max-width:48rem;margin-left:auto;margin-right:auto}
+.lib-quote blockquote{margin:0;font-family:var(--display);font-size:2.2rem;line-height:1.15;letter-spacing:-.01em;max-width:30ch}
+@media (max-width:640px){.lib-quote blockquote{font-size:1.7rem}}
+.lib-quote cite{display:block;font-style:normal;font-family:var(--sans);font-size:.78rem;color:var(--muted);margin-top:1.5rem}
+.lib.on-green cite{color:var(--p65)}
+.lib-articles .list{margin-top:2.5rem;display:grid;grid-template-columns:1fr;gap:1.5rem}
+@media (min-width:700px){.lib-articles .list{grid-template-columns:repeat(3,1fr)}}
+.lib-articles .list a{display:block}
+.lib-articles .list .plate{aspect-ratio:4/3}
+.lib-articles .list .k{display:block;font-family:var(--sans);font-size:.68rem;color:var(--muted);margin-top:.9rem}
+.lib-articles .list .t{display:block;font-family:var(--display);font-size:1.25rem;line-height:1.2;margin-top:.3rem}
+.lib-articles .list .d{display:block;font-size:.85rem;color:var(--muted);margin-top:.4rem}
+.lib.on-green .list .k,.lib.on-green .list .d{color:var(--p65)}
+.lib-faq .items{margin-top:2.5rem;max-width:44rem}
+.lib-faq details{padding:1.1rem 0}
+.lib-faq summary{cursor:pointer;list-style:none;font-family:var(--display);font-size:1.35rem;line-height:1.2;display:flex;justify-content:space-between;gap:1rem}
+.lib-faq summary::-webkit-details-marker{display:none}
+.lib-faq summary::after{content:"Open";font-family:var(--sans);font-size:.7rem;color:var(--muted);flex:0 0 auto;padding-top:.4rem}
+.lib-faq details[open] summary::after{content:"Close"}
+.lib-faq .a{margin-top:.8rem;font-size:.95rem;line-height:1.65;color:var(--muted);max-width:36rem}
+.lib.on-green .a,.lib.on-green summary::after{color:var(--p85)}
+.lib-button .row2{display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;margin-top:1.5rem}
+.lib-button .lead{margin-top:.75rem}
+/* a section picked out in Artiscope Digital Home */
+.adh-picked{outline:3px solid #A9BCE0;outline-offset:-3px}
+
 /* ---------- opening screen ---------- */
 #opening{position:fixed;inset:0;z-index:200;background:var(--green);color:var(--paper);display:flex;align-items:center;justify-content:center}
 #opening .col{display:flex;flex-direction:column;align-items:center;gap:2rem}
@@ -1519,6 +1563,48 @@ const SECTIONS = {
   },
 };
 
+/* Sections that can be added from the library in Artiscope Digital Home. */
+const THEME_BG = { paper: ['band paper', ''], deep: ['band deep', ''], green: ['band green on-green', ''] };
+function libWrap(st, id, type, inner, extra){
+  const key = String(st.bg || 'paper'), known = THEME_BG[key];
+  let cls = known ? known[0] : 'band', style = '';
+  if(!known && /^#[0-9a-fA-F]{6}$/.test(key)){ style += `background:${key};`; if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`; cls += dark(key) ? ' on-green' : ''; }
+  else if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`;
+  return `
+  <section class="${cls} inner lib lib-${type}${extra?' '+extra:''}" id="${id}"${style?` style="${style}"`:''}><div class="sec-in">${inner}</div></section>`;
+}
+function dark(hex){ const n = parseInt(hex.slice(1),16); const r=(n>>16)&255, g=(n>>8)&255, b=n&255; return (0.2126*r+0.7152*g+0.0722*b) < 140; }
+function libHead(st){
+  return (st.eyebrow ? `<span class="eyebrow">${T(st.eyebrow)}</span>` : '') +
+    (st.heading && st.heading.length ? `<h2 class="h2" data-in="lines">${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>` : '');
+}
+function libImage(st, cls){
+  const item = { image: st.image ? ('images/' + String(st.image).replace(/[^A-Za-z0-9._-]/g,'')) : '', alt: st.alt || '', tone: 'var(--paper-deep)' };
+  return plateFor(item, { cls: cls || '', note: 'Image to supply' }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
+}
+const LIBRARY = {
+  text(st, id){ return libWrap(st, id, 'text', libHead(st) + (st.body ? `<div class="prose">${st.body}</div>` : ''), st.align === 'centre' ? 'centre' : ''); },
+  'text-picture'(st, id){
+    return libWrap(st, id, 'text-picture', `<div class="grid"><div>${libHead(st)}${st.body ? `<div class="prose">${st.body}</div>` : ''}</div><div>${libImage(st)}</div></div>`, st.side === 'left' ? 'flip' : '');
+  },
+  picture(st, id){ return libWrap(st, id, 'picture', libImage(st), st.size === 'contained' ? 'contained' : ''); },
+  quote(st, id){ return libWrap(st, id, 'quote', `<blockquote data-in="lines">${lines(String(st.text||'').split(/\n+/).map(t=>({t:T(t)})))}</blockquote>${st.who ? `<cite>${T(st.who)}</cite>` : ''}`); },
+  articles(st, id){
+    const which = st.section && st.section !== 'all' ? ARTICLES.filter(a => a.section === st.section) : ARTICLES.slice();
+    const list = which.slice(0, Math.max(1, Math.min(12, Number(st.count) || 3)));
+    return libWrap(st, id, 'articles', libHead(st) + `<div class="list">${list.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*100}">${plateFor(a,{note:'Image to supply'})}<span class="k">${esc(a.kicker||'')}</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek||'')}</span></a>`).join('')}</div>`);
+  },
+  faq(st, id){
+    return libWrap(st, id, 'faq', libHead(st) + `<div class="items">${(st.items||[]).map(q=>`<details><summary>${T(q.q)}</summary><div class="a">${q.a||''}</div></details>`).join('')}</div>`);
+  },
+  button(st, id){
+    const kind = { green: 'green', paper: 'paper', outline: 'outline' }[st.style] || 'green';
+    const href = /^(#|https?:|mailto:)/.test(String(st.href||'')) ? st.href : '#home';
+    return libWrap(st, id, 'button', libHead(st) + (st.text ? `<p class="lead">${T(st.text)}</p>` : '') + `<div class="row2"><a class="btn ${kind}" href="${esc(href)}">${T(st.label || 'Find out more')}</a></div>`);
+  },
+};
+Object.assign(SECTIONS, LIBRARY);
+
 function homeHTML(){
   const secs = (PAGES.pages.home.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
   const hasHero = secs.some(x=>x.type==='hero');
@@ -1896,7 +1982,16 @@ route();
   if(op && op.settings){ if($('opName')) $('opName').textContent = op.settings.name || 'World Art Review'; if($('opTag')) $('opTag').textContent = op.settings.tagline || ''; }
   if(firstIsHome) runOpening(); else skipOpening(); })();
 </script>
-<script>/* lets Artiscope Digital Home preview a theme before it is published */
+<script>/* lets Artiscope Digital Home preview a theme or an edited page before it is saved */
+(function(){var ok="https://artiscope.github.io",active=false;if(window.parent===window)return;
+window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; active=true;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; try{ if(((location.hash||"").replace("#","")||"home")!=="home") location.hash="home"; else render(); }catch(x){} if(e.data.pick) pick(e.data.pick); return; }
+  if(e.data.type==="adh-pick"){ pick(e.data.id); return; }
+});
+function pick(id){ document.querySelectorAll(".adh-picked").forEach(function(x){x.classList.remove("adh-picked");}); if(!id) return; var el=id==="header"?document.querySelector("main header.hdr"):id==="footer"?document.querySelector("main footer"):document.getElementById(id); if(el){ el.classList.add("adh-picked"); try{ el.scrollIntoView({behavior:"smooth",block:"start"}); }catch(x){ el.scrollIntoView(); } } }
+document.addEventListener("click",function(e){ if(!active) return; var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return; var sec=e.target.closest("main > section, main header.hdr, main footer, section[id]"); if(!sec) return; e.preventDefault(); e.stopPropagation(); var id=sec.matches("header.hdr")?"header":sec.matches("footer")?"footer":sec.id; window.parent.postMessage({type:"adh-click",id:id},ok); pick(id); },true);
+})();
+/* theme preview */
 (function(){var ok="https://artiscope.github.io";if(window.parent===window)return;window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return;if(e.data.type==="adh-hello"){e.source.postMessage({type:"adh-ready"},ok);return;}if(e.data.type!=="adh-theme")return;var s=document.getElementById("adh-theme-preview");if(!s){s=document.createElement("style");s.id="adh-theme-preview";document.head.appendChild(s);}s.textContent=String(e.data.css||"");(e.data.fonts||[]).forEach(function(u){if(typeof u!=="string"||u.indexOf("https://fonts.googleapis.com/css2?")!==0)return;var had=false;Array.prototype.forEach.call(document.querySelectorAll("link[data-adh]"),function(l){if(l.getAttribute("data-adh")===u)had=true;});if(had)return;var l=document.createElement("link");l.rel="stylesheet";l.href=u;l.setAttribute("data-adh",u);document.head.appendChild(l);});});})();</script>
 </body>
 </html>
