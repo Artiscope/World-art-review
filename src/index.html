@@ -181,6 +181,13 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .hdr .centre{display:flex;align-items:center;gap:.75rem;font-family:var(--display);font-size:1.6rem;white-space:nowrap}
 @media (max-width:640px){.hdr .centre{font-size:1.3rem}.hdr .centre .mark{width:1.4rem;height:1.4rem}}
 .hdr .centre .mark{width:1.75rem;height:1.75rem}
+.hdr .hside,.hdr .hmid{display:flex;align-items:center;gap:2rem;min-width:0}.hdr .hmid{gap:1.25rem}
+.hdr .right{display:flex;align-items:center}
+.hlogo{display:inline-flex;align-items:center;flex:none;margin-right:1rem}.hdr .hside .hlogo,.hdr .hmid .hlogo{margin-right:0}
+.hlogo img{display:block;height:1.9rem;width:auto;max-width:9rem;object-fit:contain}
+.hlogo-s img{height:1.4rem;max-width:7rem}.hlogo-l img{height:2.6rem;max-width:12rem}
+.hlogo-empty{display:inline-flex;align-items:center;height:1.9rem;padding:0 .6rem;border:1.5px dashed currentColor;font-size:.75rem;opacity:.8;white-space:nowrap}
+@media (max-width:640px){.hdr{gap:.5rem}.hdr .hside,.hdr .hmid{flex:none;gap:.5rem}.hlogo{margin-right:.5rem}.hlogo img{height:1.1rem;max-width:3rem}.hlogo-l img{height:1.3rem;max-width:3.5rem}.hlogo-s img{height:.9rem;max-width:2.5rem}}
 .hdr .right{display:flex;align-items:center;gap:1.25rem}
 .hdr .hdrword{display:inline-block;font-family:var(--display);font-size:1.05rem;font-weight:400;padding:.4rem 0;transition:color .2s}.hdr.dark .hdrword:hover{color:var(--brick)}
 .hdr.on-green .hdrword{color:var(--paper)}.hdr.on-green .hdrword:hover{color:var(--brick-soft)}
@@ -814,7 +821,7 @@ function articleBy(slug){ return ARTICLES.find(a => a.slug === slug); }
 function esc(s){ return String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m])); }
 function stripTags(s){ return String(s).replace(/<[^>]*>/g,' ').replace(/\s+/g,' '); }
 function swatch(tone){ return `<span class="plate-bg" style="position:absolute;inset:0;background:${tone}"></span>`; }
-function lines(parts, cls){ return parts.map(p => `<span class="ln"><span${p.cls?` class="${p.cls}"`:''}>${p.t}</span></span>`).join(''); }
+function lines(parts, cls){ return parts.map(p => `<span class="ln"${p.b?` data-adh-b="${p.b}"`:''}><span${p.cls?` class="${p.cls}"`:''}>${p.t}</span></span>`).join(''); }
 function words(text, cls){ return text.split(' ').map(w => `<span class="wd"><span${cls?` class="${cls}"`:''}>${w}</span></span>`).join(' '); }
 function plateFor(item, opts){
   opts = opts || {};
@@ -1352,11 +1359,25 @@ function runOpening(){
 }
 function skipOpening(){ const op = $('opening'); if(op) op.remove(); setReady(); }
 
+/* logos added in the console: each on the left, in the centre or on the right of the menu bar */
+const safeHref = h => /^(#|\/|https?:\/\/|mailto:)/i.test(String(h||'')) ? String(h) : '';
+function headLogos(where){
+  return (PAGES.shared.header.settings.logos||[]).map((g,i)=>({g,i})).filter(x=>x.g && x.g.hidden!==true && (x.g.place||'L')===where).map(({g,i})=>{
+    const src = g.image ? picSrc(g.image) : '';
+    const inner = src ? `<img src="${esc(src)}" alt="${esc(g.alt||'')}">` : (window.ADH_EDIT ? `<span class="hlogo-empty">${esc(g.alt||'Logo')}</span>` : '');
+    if(!inner) return '';
+    const cls = `hlogo hlogo-${({S:'s',L:'l'})[g.size]||'m'}`, href = safeHref(g.href);
+    return href ? `<a class="${cls}" href="${esc(href)}" data-adh-b="logos.${i}"${/^https?:/i.test(href)?' rel="noopener"':''}>${inner}</a>` : `<span class="${cls}" data-adh-b="logos.${i}">${inner}</span>`;
+  }).join('');
+}
 function headerHTML(dark){
+  const name = esc(PAGES.shared.header.settings.name||'World Art Review'), L = headLogos('L'), C = headLogos('C');
+  const nav = `<nav class="left" aria-label="Sections">${(PAGES.shared.header.settings.links||[]).map((l,i)=>`<a href="${esc(l[1])}" data-adh-b="links.${i}">${esc(l[0])}</a>`).join('')}</nav>`;
+  const centre = `<a href="#home" class="centre" aria-label="${name}, home">${IC.mark}<span>${name}</span></a>`;
   return `<header class="hdr${dark?' dark':' on-green'}">
-    <nav class="left" aria-label="Sections">${(PAGES.shared.header.settings.links||[]).map(l=>`<a href="${esc(l[1])}">${esc(l[0])}</a>`).join('')}</nav>
-    <a href="#home" class="centre" aria-label="${esc(PAGES.shared.header.settings.name||'World Art Review')}, home">${IC.mark}<span>${esc(PAGES.shared.header.settings.name||'World Art Review')}</span></a>
-    <div class="right"><button type="button" class="wordbtn hdrword" data-sub>Subscribe</button><button type="button" class="wordbtn hdrword menubtn" data-menu aria-label="Open menu">Menu</button></div>
+    ${L ? `<div class="hside">${nav}${L}</div>` : nav}
+    ${C ? `<div class="hmid">${centre}${C}</div>` : centre}
+    <div class="right">${headLogos('R')}<button type="button" class="wordbtn hdrword" data-sub>Subscribe</button><button type="button" class="wordbtn hdrword menubtn" data-menu aria-label="Open menu">Menu</button></div>
   </header>`;
 }
 
@@ -1452,14 +1473,16 @@ const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
 const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
 const SECTION_INFO = (((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).filter(x => !(x && x.hidden === true))).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
 
+/* a list of names where one can be hidden: "name" or {v:"name", hidden:true} */
+const named = list => (Array.isArray(list) ? list : []).map((x,i) => ({v: x && typeof x === 'object' ? x.v : x, i, hidden: !!(x && typeof x === 'object' && x.hidden === true)}));
 function latestItems(){
   const h = PAGES.pages.home.sections.find(x=>x.type==='hero');
-  const want = (h && h.settings.latest && h.settings.latest.length) ? h.settings.latest : ['zara-muse-profile','konn-artiss-profile','review-anti-frieze'];
-  return want.map(articleBy).filter(Boolean);
+  const want = (h && h.settings.latest && h.settings.latest.length) ? named(h.settings.latest).filter(x=>!x.hidden) : named(['zara-muse-profile','konn-artiss-profile','review-anti-frieze']);
+  return want.map(x => { const a = articleBy(x.v); return a ? Object.assign({}, a, {_b: x.i}) : null; }).filter(Boolean);
 }
 function publishedArtists(slugs){
   const pub = ARTISTS.filter(a=>a.published);
-  const chosen = (slugs||[]).map(sl => pub.find(a=>a.slug===sl)).filter(Boolean);
+  const chosen = named(slugs).filter(x=>!x.hidden).map(x => pub.find(a=>a.slug===x.v)).filter(Boolean);
   return chosen.length ? chosen : pub;
 }
 const T = v => esc(v == null ? '' : String(v));
@@ -1473,31 +1496,31 @@ const SECTIONS = {
     const pub = ARTISTS.filter(a=>a.published);
     const a1 = pub.find(a=>a.slug===st.artist) || pub[0], a2 = pub.find(a=>a!==a1) || a1;
     const latest = latestItems();
-    const ln = parts => lines((parts||[]).map(p=>({t:T(p.t), cls:p.ital?'ital':''})));
+    const ln = (parts, f) => lines((parts||[]).map((p,i)=>({p, i})).filter(x=>!(x.p && x.p.hidden===true)).map(x=>({t:T(x.p.t), cls:x.p.ital?'ital':'', b:f+'.'+x.i})));
     return `
   <section class="hero on-green" id="${id}">
     ${headerHTML(false)}
-    <div class="art" id="heroArt">
+    ${st.hide_picture ? '' : `<div class="art" id="heroArt" data-adh-b="picture.0">
       <div class="frame" id="heroFrame">${st.image
         ? plateFor({image:picSrc(st.image), alt:st.alt||'', tone:a1.tone, heroTone:a1.heroTone}, {hero:true, eager:true, credit:st.credit||''})
         : plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
       <span id="heroWall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
-    </div>
-    <h1 id="heroTitle">${ln(st.headline)}</h1>
+    </div>`}
+    <h1 id="heroTitle">${ln(st.headline, 'headline')}</h1>
     <div class="bottom">
       <div>
-        <p class="tagline" id="heroTag">${ln(st.tagline)}</p>
-        <div class="mobwall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</div>
+        <p class="tagline" id="heroTag">${ln(st.tagline, 'tagline')}</p>
+        ${st.hide_picture ? '' : `<div class="mobwall" data-adh-b="picture.0">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</div>`}
       </div>
       <div class="cluster">
-        <div class="glass latest" id="latest" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="650">
-          <div class="slides">${latest.map((it,i)=>`<div class="slide" data-i="${i}" style="${i?'opacity:0;pointer-events:none':''}">${plateFor(it,{cls:'thumb',note:''})}<div><span class="k">${esc(it.section==='features'?'Artist portfolio':it.kicker)}</span><span class="t">${esc(it.title)}</span><a class="go" href="#a-${it.slug}">${it.section==='features'?'Read the portfolio':'Read the review'}</a></div></div>`).join('')}</div>
+        ${latest.length ? `<div class="glass latest" id="latest" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="650">
+          <div class="slides">${latest.map((it,i)=>`<div class="slide" data-i="${i}" data-adh-b="latest.${it._b}" style="${i?'opacity:0;pointer-events:none':''}">${plateFor(it,{cls:'thumb',note:''})}<div><span class="k">${esc(it.section==='features'?'Artist portfolio':it.kicker)}</span><span class="t">${esc(it.title)}</span><a class="go" href="#a-${it.slug}">${it.section==='features'?'Read the portfolio':'Read the review'}</a></div></div>`).join('')}</div>
           <span class="counter light" id="latestCount" style="font-size:.85rem"><b>1</b><i>of</i>${latest.length}</span><div class="dots" id="latestDots" hidden>${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
-        </div>
-        <div class="glass srcs" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="780">
+        </div>` : ''}
+        ${st.hide_rule ? '' : `<div class="glass srcs" data-adh-b="rule.0" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="780">
           <div><span class="k">${T(st.rule_label)}</span><span class="t">${T(st.rule_text)}</span><a class="go" href="#standards">${T(st.rule_link)}</a></div>
           ${plateFor(a2,{cls:'thumb',note:''})}
-        </div>
+        </div>`}
       </div>
     </div>
   </section>`;
@@ -2031,17 +2054,18 @@ window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; 
   if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
-    setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved); },moved?320:0); return; }
-  if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true); return; }
+    setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
+  if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true,e.data.bf,e.data.bi); return; }
 });
 /* shared pictures of artists and articles, as changed in the console and not saved yet */
 function pictures(list){ if(!Array.isArray(list)) return; list.forEach(function(p){ var k=String(p&&p.key||"").split(":"), all=k[0]==="artist"?ARTISTS:k[0]==="article"?ARTICLES:null; if(!all) return; var x=all.find(function(y){return y.slug===k[1];}); if(!x) return;
   x.image=p.image?picSrc(p.image):null; x.alt=p.alt||""; if(k[0]==="artist") x.heroCredit=p.credit||""; else x.credit=p.credit||""; }); }
-function pick(id,block,label,scroll){
+function tagged(el,bf,block){ if(!el||!bf) return null; var all=el.querySelectorAll('[data-adh-b="'+bf+'.'+block+'"]'); for(var i=0;i<all.length;i++){ if(all[i].offsetParent!==null&&getComputedStyle(all[i]).opacity!=="0") return all[i]; } if(all.length){ var g=all[0].closest(".glass"); if(g&&g.offsetParent!==null) return g; } return null; }
+function pick(id,block,label,scroll,bf,bi){
   document.querySelectorAll(".adh-picked,.adh-picked-block").forEach(function(x){x.classList.remove("adh-picked","adh-picked-block");x.removeAttribute("data-adh-label");});
   if(!id) return; var el=sectionEl(id); if(!el) return;
   var target=el;
-  if(block!=null&&block>=0){ var b=blockEls(id)[block]; if(b){ el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
+  if((block!=null&&block>=0)||(bf&&bi>=0)){ var b=(bf&&bi>=0?tagged(el,bf,bi):null)||(block>=0?blockEls(id)[block]:null); if(b){ el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
   else el.classList.add("adh-picked-block");
   if(label) target.setAttribute("data-adh-label",label);
   if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
@@ -2056,8 +2080,10 @@ document.addEventListener("click",function(e){ if(!active) return; var m=documen
   else if(v==="page"){ var sec=e.target.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
   else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(e.target)) id=k; } }
   if(!id) return;
-  var list=blockEls(id); for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } }
-  window.parent.postMessage({type:"adh-click",id:id,block:block,view:v},ok); },true);
+  var bf="", tag=e.target.closest("[data-adh-b]"), host=sectionEl(id);
+  if(tag&&host&&host.contains(tag)){ var bp=tag.getAttribute("data-adh-b").split("."); bf=bp[0]; block=Number(bp[1]); }
+  else { var list=blockEls(id); for(var i=0;i<list.length;i++){ if(list[i].contains(e.target)){ block=i; break; } } }
+  window.parent.postMessage({type:"adh-click",id:id,block:block,bf:bf,view:v},ok); },true);
 })();
 /* theme preview */
 (function(){var ok="https://artiscope.github.io";if(window.parent===window)return;window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return;if(e.data.type==="adh-hello"){e.source.postMessage({type:"adh-ready"},ok);return;}if(e.data.type!=="adh-theme")return;var s=document.getElementById("adh-theme-preview");if(!s){s=document.createElement("style");s.id="adh-theme-preview";document.head.appendChild(s);}s.textContent=String(e.data.css||"");(e.data.fonts||[]).forEach(function(u){if(typeof u!=="string"||u.indexOf("https://fonts.googleapis.com/css2?")!==0)return;var had=false;Array.prototype.forEach.call(document.querySelectorAll("link[data-adh]"),function(l){if(l.getAttribute("data-adh")===u)had=true;});if(had)return;var l=document.createElement("link");l.rel="stylesheet";l.href=u;l.setAttribute("data-adh",u);document.head.appendChild(l);});});})();</script>
