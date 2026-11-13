@@ -210,7 +210,7 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 @media (min-width:768px){.hero .art{display:block}}
 .hero .frame{background:var(--tile-ink);padding:1rem;width:16.5rem;aspect-ratio:4/5;transform:rotate(-2deg);box-shadow:0 2.5rem 3.5rem -2rem rgba(0,0,0,.65)}
 .hero .frame .plate{width:100%;height:100%}
-.hero .art #heroWall{position:absolute;right:-2.25rem;bottom:-1.25rem;width:8rem;transform:rotate(1deg);display:block}
+.hero .art .herowall{position:absolute;right:-2.25rem;bottom:-1.25rem;width:8rem;transform:rotate(1deg);display:block}
 .hero .art .wall{display:block}
 .hero .bottom{margin-top:auto;padding:0 1.5rem 2rem;display:flex;flex-direction:column;gap:1.5rem;position:relative;z-index:2}
 @media (min-width:640px){.hero .bottom{padding:0 2.5rem 2.5rem;flex-direction:row;justify-content:space-between;align-items:flex-end}}
@@ -1475,9 +1475,11 @@ const SECTION_INFO = (((PAGES.pages.home.sections.find(x=>x.type==='section-list
 
 /* a list of names where one can be hidden: "name" or {v:"name", hidden:true} */
 const named = list => (Array.isArray(list) ? list : []).map((x,i) => ({v: x && typeof x === 'object' ? x.v : x, i, hidden: !!(x && typeof x === 'object' && x.hidden === true)}));
-function latestItems(){
-  const h = PAGES.pages.home.sections.find(x=>x.type==='hero');
-  const want = (h && h.settings.latest && h.settings.latest.length) ? named(h.settings.latest).filter(x=>!x.hidden) : named(['zara-muse-profile','konn-artiss-profile','review-anti-frieze']);
+/* a section's own names inside the page: the original keeps them, a copy adds its own name */
+const sfx = (id, orig) => id === orig ? '' : '-' + id;
+function latestItems(st){
+  st = st || {};
+  const want = (st.latest && st.latest.length) ? named(st.latest).filter(x=>!x.hidden) : named(['zara-muse-profile','konn-artiss-profile','review-anti-frieze']);
   return want.map(x => { const a = articleBy(x.v); return a ? Object.assign({}, a, {_b: x.i}) : null; }).filter(Boolean);
 }
 function publishedArtists(slugs){
@@ -1492,30 +1494,31 @@ const shown = list => (Array.isArray(list) ? list : []).filter(x => !(x && x.hid
 
 /* Every kind of section on the home page, drawn from its settings. */
 const SECTIONS = {
-  hero(st, id){
+  hero(st, id, ctx){
+    const x = sfx(id, 'hero'), first = !ctx || ctx.first;
     const pub = ARTISTS.filter(a=>a.published);
     const a1 = pub.find(a=>a.slug===st.artist) || pub[0], a2 = pub.find(a=>a!==a1) || a1;
-    const latest = latestItems();
+    const latest = latestItems(st);
     const ln = (parts, f) => lines((parts||[]).map((p,i)=>({p, i})).filter(x=>!(x.p && x.p.hidden===true)).map(x=>({t:T(x.p.t), cls:x.p.ital?'ital':'', b:f+'.'+x.i})));
     return `
-  <section class="hero on-green" id="${id}">
-    ${headerHTML(false)}
-    ${st.hide_picture ? '' : `<div class="art" id="heroArt" data-adh-b="picture.0">
-      <div class="frame" id="heroFrame">${st.image
+  <section class="hero on-green" id="${id}" data-sfx="${x}">
+    ${first ? headerHTML(false) : ''}
+    ${st.hide_picture ? '' : `<div class="art" id="heroArt${x}" data-adh-b="picture.0">
+      <div class="frame" id="heroFrame${x}">${st.image
         ? plateFor({image:picSrc(st.image), alt:st.alt||'', tone:a1.tone, heroTone:a1.heroTone}, {hero:true, eager:true, credit:st.credit||''})
         : plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
-      <span id="heroWall">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
+      <span class="herowall" id="heroWall${x}">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
     </div>`}
-    <h1 id="heroTitle">${ln(st.headline, 'headline')}</h1>
+    <h1 id="heroTitle${x}">${ln(st.headline, 'headline')}</h1>
     <div class="bottom">
       <div>
-        <p class="tagline" id="heroTag">${ln(st.tagline, 'tagline')}</p>
+        <p class="tagline" id="heroTag${x}">${ln(st.tagline, 'tagline')}</p>
         ${st.hide_picture ? '' : `<div class="mobwall" data-adh-b="picture.0">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</div>`}
       </div>
       <div class="cluster">
-        ${latest.length ? `<div class="glass latest" id="latest" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="650">
+        ${latest.length ? `<div class="glass latest" id="latest${x}" data-latest data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="650">
           <div class="slides">${latest.map((it,i)=>`<div class="slide" data-i="${i}" data-adh-b="latest.${it._b}" style="${i?'opacity:0;pointer-events:none':''}">${plateFor(it,{cls:'thumb',note:''})}<div><span class="k">${esc(it.section==='features'?'Artist portfolio':it.kicker)}</span><span class="t">${esc(it.title)}</span><a class="go" href="#a-${it.slug}">${it.section==='features'?'Read the portfolio':'Read the review'}</a></div></div>`).join('')}</div>
-          <span class="counter light" id="latestCount" style="font-size:.85rem"><b>1</b><i>of</i>${latest.length}</span><div class="dots" id="latestDots" hidden>${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
+          <span class="counter light" id="latestCount${x}" data-l="count" style="font-size:.85rem"><b>1</b><i>of</i>${latest.length}</span><div class="dots" id="latestDots${x}" data-l="dots" hidden>${latest.map((_,i)=>`<button type="button" aria-label="Show item ${i+1}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
         </div>` : ''}
         ${st.hide_rule ? '' : `<div class="glass srcs" data-adh-b="rule.0" data-in data-from='{"opacity":0,"y":28}' data-cfg='{"tension":200,"friction":26}' data-delay="780">
           <div><span class="k">${T(st.rule_label)}</span><span class="t">${T(st.rule_text)}</span><a class="go" href="#standards">${T(st.rule_link)}</a></div>
@@ -1526,25 +1529,25 @@ const SECTIONS = {
   </section>`;
   },
   featured(st, id){
-    const feat = publishedArtists(st.artists);
+    const feat = publishedArtists(st.artists), x = sfx(id, 'featured');
     return `
   <section class="band paper feat inner" id="${id}" data-artists="${esc(feat.map(a=>a.slug).join(' '))}">
     <div class="top">
-      <div class="badge" data-in data-from='{"opacity":0,"scale":0.9}' data-cfg='{"tension":220,"friction":22}'><b id="featNo">No. 1</b><small>${T(st.badge)}</small></div>
-      <a class="card" id="featCard" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":24}' data-cfg='{"tension":200,"friction":26}' data-delay="120"><span class="letter" id="featLetter">${feat[0].letter}</span><div><h3 id="featName">${esc(feat[0].name)}</h3><p id="featSum">${esc(feat[0].summary)}</p></div></a>
+      <div class="badge" data-in data-from='{"opacity":0,"scale":0.9}' data-cfg='{"tension":220,"friction":22}'><b id="featNo${x}">No. 1</b><small>${T(st.badge)}</small></div>
+      <a class="card" id="featCard${x}" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":24}' data-cfg='{"tension":200,"friction":26}' data-delay="120"><span class="letter" id="featLetter${x}">${feat[0].letter}</span><div><h3 id="featName${x}">${esc(feat[0].name)}</h3><p id="featSum${x}">${esc(feat[0].summary)}</p></div></a>
     </div>
-    <h2 class="ghost" id="ghost" aria-label="${esc((feat[0].ghostWords||[]).join(' '))}">
+    <h2 class="ghost" id="ghost${x}" aria-label="${esc((feat[0].ghostWords||[]).join(' '))}">
       <div class="row"><span class="w" data-px="-3,3"><span></span></span><span class="w" data-px="3,-3"><span></span></span></div>
       <div class="row"><span class="w key" data-px="-2,4"><span></span></span><span class="w" data-px="4,-3"><span></span></span></div>
     </h2>
-    <a class="artcard" id="featArt" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":60,"scale":0.92}' data-cfg='{"tension":170,"friction":26}'>
-      <div id="featPlate">${plateFor(feat[0],{note:'Artwork image to supply'})}</div>
-      <span id="featWall">${wallLabel(feat[0],[artistLine(feat[0]), glanceVal(feat[0],'Medium')])}</span>
+    <a class="artcard" id="featArt${x}" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":60,"scale":0.92}' data-cfg='{"tension":170,"friction":26}'>
+      <div id="featPlate${x}">${plateFor(feat[0],{note:'Artwork image to supply'})}</div>
+      <span id="featWall${x}">${wallLabel(feat[0],[artistLine(feat[0]), glanceVal(feat[0],'Medium')])}</span>
     </a>
     <div class="ctrls">
-      <button type="button" class="wordbtn" id="featPrev">Previous artist</button>
-      <span class="counter" id="featCount" aria-live="polite"><b>1</b><i>of</i>${feat.length}</span><div class="dots" id="featDots" hidden>${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
-      <button type="button" class="wordbtn" id="featNext">Next artist</button>
+      <button type="button" class="wordbtn" id="featPrev${x}">Previous artist</button>
+      <span class="counter" id="featCount${x}" aria-live="polite"><b>1</b><i>of</i>${feat.length}</span><div class="dots" id="featDots${x}" hidden>${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
+      <button type="button" class="wordbtn" id="featNext${x}">Next artist</button>
     </div>
   </section>`;
   },
@@ -1641,81 +1644,91 @@ Object.assign(SECTIONS, LIBRARY);
 /* a page made in Artiscope Digital Home, drawn from its sections like the home page */
 function customPage(key){
   const secs = ((PAGES.pages[key]||{}).sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
-  return shell(secs.map(x => SECTIONS[x.type](x.settings||{}, x.id)).join('\n'));
+  const opensWithBanner = secs.length && secs[0].type === 'hero';
+  return (opensWithBanner ? '' : headerHTML(true)) + secs.map((x,i) => SECTIONS[x.type](x.settings||{}, x.id, {first: i === 0})).join('\n') + footerHTML();
 }
 function homeHTML(){
   const secs = (PAGES.pages.home.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
-  const hasHero = secs.some(x=>x.type==='hero');
-  return (hasHero ? '' : headerHTML(false)) + secs.map(x => SECTIONS[x.type](x.settings||{}, x.id)).join('\n') + `
+  const opensWithBanner = secs.length && secs[0].type === 'hero';
+  return (opensWithBanner ? '' : headerHTML(false)) + secs.map((x,i) => SECTIONS[x.type](x.settings||{}, x.id, {first: i === 0})).join('\n') + `
   ${footerHTML()}`;
 }
 
 /* homepage behaviours */
 let homeTimers = [];
 function clearHome(){ homeTimers.forEach(clearInterval); homeTimers = []; window.removeEventListener('scroll', homeScroll); }
-let heroEls = null, ghostEls = null, featSec = null;
+let heroEls = null, featList = [];
 function homeScroll(){
   if(reduceMotion) return;
   if(heroEls){
-    const h = $('hero'); if(h){ const q = Math.max(0, Math.min(1, window.scrollY / h.offsetHeight));
+    const h = heroEls.sec; if(h){ const q = Math.max(0, Math.min(1, window.scrollY / h.offsetHeight));
       heroEls.frame.style.transform = `rotate(-2deg) translateY(${(q*10).toFixed(2)}%)`; heroEls.wall.style.transform = `rotate(1deg) translateY(${(q*12).toFixed(2)}%)`; }
   }
-  if(ghostEls && featSec){
-    const r = featSec.getBoundingClientRect(); const vh = window.innerHeight;
+  featList.forEach(f => {
+    const r = f.sec.getBoundingClientRect(); const vh = window.innerHeight;
     const q = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height)));
-    ghostEls.forEach(w => { const [a,b] = w.dataset.px.split(',').map(Number); w.style.transform = `translateX(${(a + (b-a)*q).toFixed(2)}%)`; });
-  }
+    f.ghostEls.forEach(w => { const [a,b] = w.dataset.px.split(',').map(Number); w.style.transform = `translateX(${(a + (b-a)*q).toFixed(2)}%)`; });
+  });
 }
 function setupHome(){
   clearHome();
-  const art = $('heroArt');
-  heroEls = art ? {frame:$('heroFrame'), wall:$('heroWall')} : null;
-  featSec = $('featured'); ghostEls = featSec ? [...featSec.querySelectorAll('.ghost .w')] : null;
+  const heroes = [...main.querySelectorAll('section.hero')];
+  const h0 = heroes[0], x0 = h0 ? (h0.dataset.sfx||'') : '';
+  const art = h0 ? $('heroArt'+x0) : null;
+  heroEls = art ? {sec:h0, frame:$('heroFrame'+x0), wall:$('heroWall'+x0)} : null;
+  featList = [...main.querySelectorAll('section.feat')].map(sec => ({sec, ghostEls:[...sec.querySelectorAll('.ghost .w')]}));
   window.addEventListener('scroll', homeScroll, {passive:true});
   // title and tagline wait for the opening screen
   whenReady(() => {
-    if($('heroTitle')) revealIn($('heroTitle'), {stagger:140, duration:1100});
-    if($('heroTag')) revealIn($('heroTag'), {stagger:110, duration:900, delay:350});
-    startLatest();
+    heroes.forEach(hs => {
+      const x = hs.dataset.sfx||'';
+      if($('heroTitle'+x)) revealIn($('heroTitle'+x), {stagger:140, duration:1100});
+      if($('heroTag'+x)) revealIn($('heroTag'+x), {stagger:110, duration:900, delay:350});
+    });
+    main.querySelectorAll('[data-latest]').forEach(startLatest);
   });
-  // featured carousel
-  if(!$('featured')) { main.querySelectorAll('[data-go]').forEach(a => a.addEventListener('click', e => { if((location.hash||'#home')==='#home'){ e.preventDefault(); const el = $(a.dataset.go); if(el) scrollToEl(el, 24); } })); return; }
-  const feat = publishedArtists(($('featured').dataset.artists||'').split(' ').filter(Boolean));
-  let fi = 0;
-  const setGhost = (a, animate) => {
-    const ws = (a.ghostWords && a.ghostWords.length===4) ? a.ghostWords : [a.name, '', '', ''];
-    const spans = [...$('ghost').querySelectorAll('.w > span')];
-    spans.forEach((s,i) => { s.textContent = ws[i]; if(animate && !reduceMotion){ s.style.transform='translateY(115%)'; s.style.opacity='0'; tween(700, ease.outExpo, k => { s.style.transform=`translateY(${(115*(1-k)).toFixed(2)}%)`; s.style.opacity=k; }, i*60); } else { s.style.transform='none'; s.style.opacity='1'; } });
-    $('ghost').setAttribute('aria-label', ws.join(' '));
-  };
-  const show = (i, animate) => {
-    fi = (i + feat.length) % feat.length; const a = feat[fi];
-    $('featNo').textContent = 'No. '+(fi+1); $('featLetter').textContent = a.letter; $('featName').textContent = a.name; $('featSum').textContent = a.summary;
-    $('featCard').href = '#artist-'+a.slug; $('featArt').href = '#artist-'+a.slug;
-    $('featWall').innerHTML = wallLabel(a, [artistLine(a), glanceVal(a,'Medium')]);
-    const old = $('featPlate');
-    const fresh = document.createElement('div'); fresh.id='featPlate'; fresh.innerHTML = plateFor(a,{note:'Artwork image to supply'});
-    if(animate && !reduceMotion){ fresh.style.opacity='0'; old.replaceWith(fresh); springTo(fresh, {opacity:0}, {opacity:1}, {tension:260, friction:26}, applyT(fresh)); } else old.replaceWith(fresh);
-    [...$('featDots').children].forEach((d,k)=> d.setAttribute('aria-current', k===fi));
-    $('featCount').firstChild.textContent = fi+1;
-    setGhost(a, animate);
-  };
-  show(0, false);
-  $('featPrev').onclick = () => show(fi-1, true);
-  $('featNext').onclick = () => show(fi+1, true);
-  [...$('featDots').children].forEach((d,k)=> d.onclick = () => show(k, true));
-  // observe ghost words once visible to play the first reveal
-  if(!reduceMotion && 'IntersectionObserver' in window){
-    const io = new IntersectionObserver(en => { if(en[0].isIntersecting){ setGhost(feat[fi], true); io.disconnect(); } }, {threshold:.2});
-    const spans = [...$('ghost').querySelectorAll('.w > span')]; spans.forEach(s => { s.style.transform='translateY(115%)'; s.style.opacity='0'; });
-    io.observe($('ghost'));
-  }
+  // featured carousels, each with its own buttons
+  featList.forEach(f => wireFeatured(f.sec));
   // footer "How we research" links
   main.querySelectorAll('[data-go]').forEach(a => a.addEventListener('click', e => { if((location.hash||'#home')==='#home'){ e.preventDefault(); const el = $(a.dataset.go); if(el) scrollToEl(el, 24); } }));
 }
-function startLatest(){
-  const box = $('latest'); if(!box) return;
-  const slides = [...box.querySelectorAll('.slide')], dots = [...$('latestDots').children];
+function wireFeatured(sec){
+  const x = sec.id === 'featured' ? '' : '-' + sec.id, g = n => $(n + x);
+  const feat = publishedArtists((sec.dataset.artists||'').split(' ').filter(Boolean));
+  if(!feat.length || !g('featCard')) return;
+  let fi = 0;
+  const setGhost = (a, animate) => {
+    const ws = (a.ghostWords && a.ghostWords.length===4) ? a.ghostWords : [a.name, '', '', ''];
+    const spans = [...g('ghost').querySelectorAll('.w > span')];
+    spans.forEach((s,i) => { s.textContent = ws[i]; if(animate && !reduceMotion){ s.style.transform='translateY(115%)'; s.style.opacity='0'; tween(700, ease.outExpo, k => { s.style.transform=`translateY(${(115*(1-k)).toFixed(2)}%)`; s.style.opacity=k; }, i*60); } else { s.style.transform='none'; s.style.opacity='1'; } });
+    g('ghost').setAttribute('aria-label', ws.join(' '));
+  };
+  const show = (i, animate) => {
+    fi = (i + feat.length) % feat.length; const a = feat[fi];
+    g('featNo').textContent = 'No. '+(fi+1); g('featLetter').textContent = a.letter; g('featName').textContent = a.name; g('featSum').textContent = a.summary;
+    g('featCard').href = '#artist-'+a.slug; g('featArt').href = '#artist-'+a.slug;
+    g('featWall').innerHTML = wallLabel(a, [artistLine(a), glanceVal(a,'Medium')]);
+    const old = g('featPlate');
+    const fresh = document.createElement('div'); fresh.id='featPlate'+x; fresh.innerHTML = plateFor(a,{note:'Artwork image to supply'});
+    if(animate && !reduceMotion){ fresh.style.opacity='0'; old.replaceWith(fresh); springTo(fresh, {opacity:0}, {opacity:1}, {tension:260, friction:26}, applyT(fresh)); } else old.replaceWith(fresh);
+    [...g('featDots').children].forEach((d,k)=> d.setAttribute('aria-current', k===fi));
+    g('featCount').firstChild.textContent = fi+1;
+    setGhost(a, animate);
+  };
+  show(0, false);
+  g('featPrev').onclick = () => show(fi-1, true);
+  g('featNext').onclick = () => show(fi+1, true);
+  [...g('featDots').children].forEach((d,k)=> d.onclick = () => show(k, true));
+  // play the first reveal of the ghost words once they are seen
+  if(!reduceMotion && 'IntersectionObserver' in window){
+    const io = new IntersectionObserver(en => { if(en[0].isIntersecting){ setGhost(feat[fi], true); io.disconnect(); } }, {threshold:.2});
+    const spans = [...g('ghost').querySelectorAll('.w > span')]; spans.forEach(s => { s.style.transform='translateY(115%)'; s.style.opacity='0'; });
+    io.observe(g('ghost'));
+  }
+}
+function startLatest(box){
+  if(!box) return;
+  const slides = [...box.querySelectorAll('.slide')], dotsBox = box.querySelector('[data-l="dots"]'), dots = dotsBox ? [...dotsBox.children] : [];
   if(slides.length < 2) return;
   let li = 0;
   const go = i => {
@@ -1724,7 +1737,7 @@ function startLatest(){
     springTo(out, {opacity:1, y:0, scale:1}, {opacity:0, y:16, scale:.96}, {tension:210, friction:24}, applyT(out));
     springTo(inn, {opacity:0, y:16, scale:.96}, {opacity:1, y:0, scale:1}, {tension:210, friction:24}, applyT(inn));
     dots.forEach((d,k)=> d.setAttribute('aria-current', k===li));
-    const lc = $('latestCount'); if(lc) lc.firstChild.textContent = li+1;
+    const lc = box.querySelector('[data-l="count"]'); if(lc) lc.firstChild.textContent = li+1;
   };
   const t = setInterval(()=>{ if(!document.body.contains(box)) return clearInterval(t); go(li+1); }, 3800);
   homeTimers.push(t);
@@ -1939,7 +1952,7 @@ function render(){
   main.innerHTML = html;
   document.title = title;
   if(srcOrder){ const order = numberCitations(main, srcOrder); const w = $('srcwrap'); if(w) w.outerHTML = sourcesHTML(order); }
-  if(h==='home'){ if(LenisCtor) startLenis(); setupHome(); } else { stopLenis(); }
+  if(h==='home'){ if(LenisCtor) startLenis(); setupHome(); } else { stopLenis(); if(h.startsWith('page-')) setupHome(); }
   wire();
   setupInView(main);
   setupHover(main);
