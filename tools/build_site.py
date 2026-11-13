@@ -21,7 +21,8 @@ SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "me
                  "text", "text-picture", "picture", "quote", "articles", "faq", "button",
                  "page-heading", "long-text", "announcement", "columns", "space",
                  "picture-banner", "slideshow", "gallery", "logo-row",
-                 "artworks", "exhibitions", "career", "press", "artist-cards"}
+                 "artworks", "exhibitions", "career", "press", "artist-cards",
+                 "signup", "visit", "contact-form"}
 SHARED_TYPES = {"opening", "header", "footer"}
 
 

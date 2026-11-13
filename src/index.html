@@ -264,6 +264,31 @@ a.aw-item:hover .aw-pic{opacity:.92}
 .lib.on-green .pq figcaption{color:var(--p65)}
 .lib-artist-cards .agrid{padding:0;margin-top:2.5rem}
 .lib-artist-cards .sec-in>.agrid:first-child{margin-top:0}
+.mf-grid{display:flex;flex-wrap:wrap;gap:2.25rem 4.5rem;align-items:flex-start}
+.lib-signup .mf-grid{align-items:flex-end}
+.mf-head{flex:1 1 20rem;min-width:0;display:flex;flex-direction:column;align-items:flex-start}
+.mf-head .lead{margin-top:1rem}
+.mailform{flex:1 1 24rem;min-width:0;display:flex;flex-direction:column;gap:1rem}
+.mf-row{display:flex;flex-wrap:wrap;gap:.9rem}
+.mf-row .mf{flex:1 1 11rem}
+.mf{display:flex;flex-direction:column;gap:.4rem;font-family:var(--sans);font-size:.75rem;color:var(--muted)}
+.mf input,.mf select,.mf textarea{width:100%;border:0;border-radius:0;background:var(--page);color:var(--ink);padding:.8rem .9rem;font-family:var(--text);font-size:1rem;outline:none}
+.mf textarea{resize:vertical;line-height:1.5}
+.mf input:focus,.mf select:focus,.mf textarea:focus{outline:2px solid var(--green);outline-offset:0}
+.mailform .btn{align-self:flex-start;border:0;cursor:pointer}
+.mf-note{font-family:var(--sans);font-size:.75rem;line-height:1.5;color:var(--muted);max-width:30rem}
+.mf-note.err{color:var(--brick)}
+.lib.on-green .mf,.lib.on-green .mf-note{color:var(--p85)}
+.lib.on-green .mf input,.lib.on-green .mf select,.lib.on-green .mf textarea{background:var(--paper)}
+.lib.on-green .mf input:focus,.lib.on-green .mf select:focus,.lib.on-green .mf textarea:focus{outline-color:var(--brick-soft)}
+.lib.on-green .mf-note.err{color:var(--brick-soft)}
+.vmap{margin-top:1.25rem;font-family:var(--text);font-size:1rem;color:var(--brick);text-decoration:underline;text-underline-offset:.2em}
+.vis{flex:1 1 26rem;min-width:0;margin:0;display:flex;flex-direction:column;gap:1.4rem}
+.vis>div{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem}
+.vis dt{flex:0 0 9.5rem;font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--green);padding-top:.3rem}
+.vis dd{margin:0;flex:1 1 14rem;min-width:0;font-size:1.05rem;line-height:1.6;white-space:pre-line}
+.lib.on-green .vis dt{color:var(--brick-soft)}.lib.on-green .vmap{color:var(--brick-soft)}
+@media (max-width:640px){.mf-grid{gap:1.75rem}.vis dt{flex-basis:100%;padding-top:0}}
 .space{height:5rem}.space.s{height:2.5rem}.space.l{height:8rem}
 @media (max-width:640px){.space{height:3.5rem}.space.s{height:1.75rem}.space.l{height:5.5rem}}
 .lib-button .row2{display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;margin-top:1.5rem}
@@ -846,11 +871,11 @@ footer .bar{padding-top:1rem}
       <div class="f"><label for="subName">Your name</label><input id="subName" name="name" type="text" autocomplete="name"></div>
       <div class="f"><label for="subEmail">Your email</label><input id="subEmail" name="email" type="email" autocomplete="email" required><span class="err" id="subErr" hidden>We need a working email address to send it to.</span></div>
       <div class="f"><label for="subTopics">Anything you would like us to cover? Optional.</label><textarea id="subTopics" name="topics" rows="3"></textarea></div>
-      <div class="act"><button class="btn paper" type="submit" id="subSend">Send me the letter</button><span class="small">We read every reply, so write back.</span></div>
+      <div class="act"><button class="btn paper" type="submit" id="subSend">Ask to join</button><span class="small">This opens your own email app with a message ready to send to info@grovegallery.com. We read every reply.</span></div>
     </form>
     <div class="done">
-      <h3 id="subThanks">Thank you. The first letter is on its way.</h3>
-      <p class="note">If it does not arrive within the month, check the folder your email keeps for strangers, then write to us.</p>
+      <h3 id="subThanks">Your email app should now be open.</h3>
+      <p class="note">Your message to info@grovegallery.com is ready. Send it and you are on the list. If nothing opened, write to <a href="mailto:info@grovegallery.com?subject=Please%20add%20me%20to%20the%20World%20Art%20Review%20letter" style="color:inherit">info@grovegallery.com</a> and ask to join.</p>
       <div><button class="btn paper" type="button" id="subDone">Back to reading</button></div>
     </div>
   </div>
@@ -1534,19 +1559,27 @@ function closeSub(){
   springTo(p, {opacity:1, x:0}, {opacity:0, x:48}, {tension:240, friction:28}, applyT(p), ()=>{ s.classList.remove('open'); s.setAttribute('aria-hidden','true'); });
   if(reduceMotion){ s.classList.remove('open'); s.setAttribute('aria-hidden','true'); }
   if(!menuOpen) unlockScroll();
-  subTimer = setTimeout(()=>{ $('subForm').reset(); $('sub').classList.remove('ok'); $('subSend').disabled = false; $('subSend').style.opacity=''; $('subSend').textContent = 'Send me the letter'; $('subErr').hidden = true; }, 350);
+  subTimer = setTimeout(()=>{ $('subForm').reset(); $('sub').classList.remove('ok'); $('subSend').disabled = false; $('subSend').style.opacity=''; $('subSend').textContent = 'Ask to join'; $('subErr').hidden = true; }, 350);
   if(subLast && subLast.focus) subLast.focus();
 }
 $('subForm').addEventListener('submit', e => {
   e.preventDefault();
   const email = $('subEmail'); if(!email.value || !email.checkValidity()){ email.focus(); $('subErr').hidden = false; return; }
   $('subErr').hidden = true;
-  const b = $('subSend'); b.disabled = true; b.style.opacity = '.6'; b.textContent = 'Sending';
-  setTimeout(()=>{
-    const first = ($('subName').value.trim().split(/\s+/)[0]) || 'there';
-    $('subThanks').textContent = first==='there' ? 'Thank you. The first letter is on its way.' : `Thank you, ${first}. The first letter is on its way.`;
-    $('sub').classList.add('ok'); $('subDone').focus();
-  }, 900);
+  openMail('signup', $('subForm'));
+  const first = ($('subName').value.trim().split(/\s+/)[0]) || 'there';
+  $('subThanks').textContent = first==='there' ? 'Your email app should now be open.' : `Thank you, ${first}. Your email app should now be open.`;
+  $('sub').classList.add('ok'); $('subDone').focus();
+});
+/* the sign-up and contact sections on any page; they are drawn again as pages change, so one listener serves them all */
+document.addEventListener('submit', e => {
+  const f = e.target.closest && e.target.closest('form[data-mailform]'); if(!f) return;
+  e.preventDefault();
+  const kind = f.dataset.mailform, note = f.querySelector('.mf-note'), say = (t, bad) => { if(note){ note.textContent = t; note.classList.toggle('err', !!bad); } };
+  const email = f.elements.email; if(email && (!email.value.trim() || !email.checkValidity())){ email.focus(); say('We need a working email address, so we can reply.', true); return; }
+  if(kind === 'contact' && f.elements.message && !f.elements.message.value.trim()){ f.elements.message.focus(); say('Write your message first.', true); return; }
+  openMail(kind, f);
+  say(kind === 'contact' ? `Your email app should now be open with your message ready to send. If nothing opened, write to ${MAIL_TO}.` : `Your email app should now be open with the message ready. Send it and you are on the list. If nothing opened, write to ${MAIL_TO}.`);
 });
 $('subClose').onclick = closeSub; $('subBg').onclick = closeSub; $('subDone').onclick = closeSub;
 $('menuClose').onclick = closeMenu; $('menuBg').onclick = closeMenu;
@@ -1715,6 +1748,19 @@ function bandOf(st, dflt){
   else if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`;
   return { cls, style };
 }
+/* The site's forms send nothing themselves. Each one opens the visitor's own email app with a
+   message ready to send to this address, and says so plainly. Nothing is stored or passed on. */
+const MAIL_TO = 'info@grovegallery.com';
+function mailDraft(kind, f){
+  const v = n => { const el = f.elements[n]; return el ? String(el.value || '').trim() : ''; };
+  if(kind === 'contact') return { subject: (v('topic') || 'A message') + (v('name') ? ' from ' + v('name') : ''), body: v('message') + '\n\nFrom: ' + v('name') + '\nReply to: ' + v('email') };
+  return { subject: 'Please add me to the World Art Review letter', body: 'Please add me to the World Art Review letter.\n\nName: ' + v('name') + '\nEmail: ' + v('email') + (v('topics') ? '\n\nI would like you to cover: ' + v('topics') : '') };
+}
+// Opens the visitor's email app. The address is also kept on the form, so it can be checked.
+function openMail(kind, f){
+  const d = mailDraft(kind, f), url = 'mailto:' + MAIL_TO + '?subject=' + encodeURIComponent(d.subject) + '&body=' + encodeURIComponent(d.body);
+  f.dataset.mailto = url; window.location.href = url;
+}
 const liveRowsOf = list => (Array.isArray(list) ? list : []).map((x,i) => ({x,i})).filter(r => r.x && r.x.hidden !== true);
 const picOrSupply = x => x && x.image ? `<img src="${esc(picSrc(x.image))}" alt="${esc(x.alt||'')}" loading="lazy">` : `<span class="supply">Image to supply</span>`;
 const linkOk = h => /^(#|\/|https?:\/\/|mailto:)/i.test(String(h||''));
@@ -1824,6 +1870,28 @@ const LIBRARY = {
     const chosen = (Array.isArray(st.artists) ? st.artists : []).map((x,i) => ({ v: x && typeof x === 'object' ? x.v : x, hidden: !!(x && typeof x === 'object' && x.hidden), i })).filter(x => !x.hidden);
     const list = chosen.length ? chosen.map(c => ({ a: ARTISTS.find(a => a.slug === c.v), i: c.i })).filter(x => x.a) : ARTISTS.filter(a => a.published).map(a => ({ a, i: -1 }));
     return libWrap(st, id, 'artist-cards', libHead(st) + `<div class="agrid">${list.map((x,k) => { const card = artistCard(x.a, k); return x.i >= 0 ? card.replace('<a class="acard"', `<a class="acard" data-adh-b="artists.${x.i}"`) : card; }).join('')}</div>`);
+  },
+  /* email sign-up: the button opens the visitor's own email app with a request to join; the site sends and keeps nothing */
+  signup(st, id){
+    const onGreen = bandOf(st).cls.includes('on-green');
+    return libWrap(st, id, 'signup', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}</div>`+
+      `<form class="mailform" data-mailform="signup" novalidate><div class="mf-row"><label class="mf">Your first name<input name="name" type="text" autocomplete="given-name"></label><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label></div>`+
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${T(st.button || 'Ask to join')}</button><p class="mf-note" role="status">This opens your own email app with a message ready to send to ${MAIL_TO}.</p></form></div>`);
+  },
+  /* where to find the gallery: a label and its words on each line, and an optional map link that opens in a new tab */
+  visit(st, id){
+    const rows = liveRowsOf(st.details), map = st.map_words && /^https:\/\//i.test(String(st.map || '')) ? `<a class="vmap" href="${esc(st.map)}" target="_blank" rel="noopener">${T(st.map_words)}</a>` : '';
+    return libWrap(st, id, 'visit', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${map}</div><dl class="vis">${rows.map(r => `<div data-adh-b="details.${r.i}"><dt>${T(r.x.title || '')}</dt><dd>${r.x.text ? T(String(r.x.text).trim()) : ph('To add')}</dd></div>`).join('')}</dl></div>`);
+  },
+  /* contact form: like the sign-up, it opens the visitor's own email app with everything filled in */
+  'contact-form'(st, id){
+    const onGreen = bandOf(st).cls.includes('on-green');
+    const topics = (Array.isArray(st.topics) ? st.topics : []).map((t,i) => ({t,i})).filter(x => typeof x.t === 'string' && x.t.trim());
+    return libWrap(st, id, 'contact-form', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}</div>`+
+      `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">Your name<input name="name" type="text" autocomplete="name"></label><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label></div>`+
+      (topics.length ? `<label class="mf">What it is about<select name="topic">${topics.map(x => `<option data-adh-b="topics.${x.i}">${T(x.t.trim())}</option>`).join('')}</select></label>` : '')+
+      `<label class="mf">Your message<textarea name="message" rows="5" required></textarea></label>`+
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${T(st.button || 'Write the email')}</button><p class="mf-note" role="status">This opens your own email app with your message ready to send to ${MAIL_TO}.</p></form></div>`);
   },
   /* empty room between two sections; nothing is drawn */
   space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `
