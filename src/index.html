@@ -228,6 +228,42 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .lib.on-green .lgs:not(.own) .lg img{filter:grayscale(1) brightness(0) invert(1);opacity:.85}
 .lg-name{font-family:var(--display);font-size:1.15rem;color:var(--muted)}
 .lib.on-green .lg-name{color:var(--p85)}
+.lib-artworks .aw{margin-top:2.5rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.25rem 1.5rem}
+.lib-artworks .sec-in>.aw:first-child{margin-top:0}
+@media (min-width:900px){.lib-artworks .aw.n3{grid-template-columns:repeat(3,minmax(0,1fr));gap:2.75rem 2rem}.lib-artworks .aw.n4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:480px){.lib-artworks .aw{grid-template-columns:minmax(0,1fr)}}
+.aw-item{display:flex;flex-direction:column;color:inherit;text-decoration:none;min-width:0}
+.aw-pic{position:relative;display:block;aspect-ratio:4/5;background:var(--paper-deep);overflow:hidden}
+.aw-pic img{width:100%;height:100%;object-fit:contain;display:block}
+.aw-pic .supply{position:absolute;left:1rem;bottom:.8rem;font-family:var(--sans);font-size:.7rem;color:var(--muted)}
+.aw-item .wall{align-self:flex-start;margin:-1.5rem 0 0 1rem;position:relative;max-width:calc(100% - 2rem);transform:rotate(-.5deg)}
+.aw-item .wall .wt{font-size:.6rem;color:var(--muted)}
+a.aw-item:hover .aw-pic{opacity:.92}
+.lib-exhibitions .exh{list-style:none;margin:2.5rem 0 0;padding:0;max-width:56rem}
+.lib-exhibitions .sec-in>.exh:first-child{margin-top:0}
+.exh li{display:flex;gap:1.5rem;padding:1.1rem 0;align-items:baseline}
+.exh .when{width:9rem;flex:0 0 auto;font-family:var(--sans);font-size:.75rem;font-weight:600;color:var(--green)}
+.exh .what{flex:1;min-width:0;display:flex;flex-direction:column;gap:.2rem}
+.exh .t{font-family:var(--display);font-size:1.3rem;line-height:1.2}
+.exh .d{font-size:.9rem;color:var(--muted)}
+.exh .side{flex:0 0 auto;display:flex;gap:1rem;align-items:baseline}
+.exh .kind{font-family:var(--sans);font-size:.7rem;color:var(--muted)}
+.lib .src{font-family:var(--sans);font-size:.72rem;color:var(--brick);text-decoration:underline;text-underline-offset:.2em}
+.lib.on-green .src{color:var(--brick-soft)}.lib.on-green .exh .when,.lib.on-green .timeline .when{color:var(--brick-soft)}.lib.on-green .exh .d,.lib.on-green .exh .kind{color:var(--p65)}
+@media (max-width:640px){.exh li{flex-wrap:wrap;gap:.35rem 1rem}.exh .when{width:100%}.exh .side{width:100%}}
+.lib-career .timeline{list-style:none;margin:2.5rem 0 0;padding:0;max-width:48rem}
+.lib-career .sec-in>.timeline:first-child{margin-top:0}
+@media (max-width:640px){.lib-career .timeline li{flex-direction:column;gap:.3rem}.lib-career .timeline .when{width:auto}}
+.lib.deep .timeline li:nth-child(odd){background:var(--paper)}.lib.on-green .timeline li:nth-child(odd){background:rgba(238,229,212,.08)}
+.lib-press .pq{margin-top:2.5rem;display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem 3rem}
+.lib-press .sec-in>.pq:first-child{margin-top:0}
+@media (min-width:800px){.lib-press .pq{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pq figure{margin:0;display:flex;flex-direction:column;gap:.8rem;align-items:flex-start}
+.pq blockquote{margin:0;font-family:var(--display);font-style:italic;font-size:1.6rem;line-height:1.25}
+.pq figcaption{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
+.lib.on-green .pq figcaption{color:var(--p65)}
+.lib-artist-cards .agrid{padding:0;margin-top:2.5rem}
+.lib-artist-cards .sec-in>.agrid:first-child{margin-top:0}
 .space{height:5rem}.space.s{height:2.5rem}.space.l{height:8rem}
 @media (max-width:640px){.space{height:3.5rem}.space.s{height:1.75rem}.space.l{height:5.5rem}}
 .lib-button .row2{display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;margin-top:1.5rem}
@@ -1679,6 +1715,7 @@ function bandOf(st, dflt){
   else if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`;
   return { cls, style };
 }
+const liveRowsOf = list => (Array.isArray(list) ? list : []).map((x,i) => ({x,i})).filter(r => r.x && r.x.hidden !== true);
 const picOrSupply = x => x && x.image ? `<img src="${esc(picSrc(x.image))}" alt="${esc(x.alt||'')}" loading="lazy">` : `<span class="supply">Image to supply</span>`;
 const linkOk = h => /^(#|\/|https?:\/\/|mailto:)/i.test(String(h||''));
 function libWrap(st, id, type, inner, extra){
@@ -1756,6 +1793,37 @@ const LIBRARY = {
     const items = rows.map(r => { const g = r.x, inner = g.image ? `<img src="${esc(picSrc(g.image))}" alt="${esc(g.alt||'')}" loading="lazy">` : `<span class="lg-name">${T(g.alt)}</span>`;
       return linkOk(g.href) ? `<a class="lg" href="${esc(g.href)}" data-adh-b="logos.${r.i}">${inner}</a>` : `<span class="lg" data-adh-b="logos.${r.i}">${inner}</span>`; }).join('');
     return libWrap(st, id, 'logo-row', (st.eyebrow ? `<span class="eyebrow">${T(st.eyebrow)}</span>` : '') + `<div class="lgs${st.colour === 'own' ? ' own' : ''}">${items}</div>`);
+  },
+  /* works with a wall label each: title, year and medium, size and a small line */
+  artworks(st, id){
+    const per = ['2','3','4'].includes(String(st.per_row)) ? String(st.per_row) : '3';
+    const rows = liveRowsOf(st.artworks);
+    return libWrap(st, id, 'artworks', libHead(st) + `<div class="aw n${per}">${rows.map(r => { const w = r.x, tag = linkOk(w.href) ? 'a' : 'div';
+      return `<${tag} class="aw-item"${tag === 'a' ? ` href="${esc(w.href)}"` : ''} data-adh-b="artworks.${r.i}"><span class="aw-pic">${picOrSupply(w)}</span><span class="wall"><span class="wn">${w.title ? T(w.title) : ph('Title to confirm')}</span>${[w.year, w.medium].filter(Boolean).length ? `<span class="wt">${T([w.year, w.medium].filter(Boolean).join(', '))}</span>` : ''}${w.size ? `<span class="wt">${T(w.size)}</span>` : ''}${w.note ? `<span class="wt">${T(w.note)}</span>` : ''}</span></${tag}>`; }).join('')}</div>`);
+  },
+  /* exhibitions, each with its dates, place, kind and source */
+  exhibitions(st, id){
+    const rows = liveRowsOf(st.shows);
+    return libWrap(st, id, 'exhibitions', libHead(st) + `<ol class="exh">${rows.map(r => { const x = r.x;
+      return `<li data-adh-b="shows.${r.i}"><span class="when">${x.dates ? T(x.dates) : ph('Dates to confirm')}</span><span class="what"><span class="t">${x.reported ? '<span class="reported">Reported</span> ' : ''}${T(x.title || '')}</span>${x.place ? `<span class="d">${T(x.place)}</span>` : ''}</span><span class="side">${x.kind ? `<span class="kind">${T(x.kind)}</span>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">Source</a>` : ''}</span></li>`; }).join('')}</ol>`);
+  },
+  /* dated moments in an artist's career, as on a portfolio */
+  career(st, id){
+    const rows = liveRowsOf(st.events);
+    return libWrap(st, id, 'career', libHead(st) + `<ol class="timeline">${rows.map(r => { const x = r.x;
+      return `<li data-adh-b="events.${r.i}"><span class="when">${x.when ? T(x.when) : ph('Year to confirm')}</span><span class="what">${x.reported ? '<span class="reported">Reported</span> ' : ''}${T(x.what || '')}${linkOk(x.href) ? ` <a class="src" href="${esc(x.href)}" rel="noopener">Source</a>` : ''}</span></li>`; }).join('')}</ol>`);
+  },
+  /* short quotes from named press, each with its source */
+  press(st, id){
+    const rows = liveRowsOf(st.quotes).filter(r => r.x.quote);
+    return libWrap(st, id, 'press', libHead(st) + `<div class="pq">${rows.map(r => { const x = r.x, by = [x.who, x.publication, x.date].filter(Boolean).map(T).join(', ');
+      return `<figure data-adh-b="quotes.${r.i}"><blockquote>“${T(String(x.quote).trim())}”</blockquote>${by ? `<figcaption>${by}</figcaption>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">Read it at the source</a>` : ''}</figure>`; }).join('')}</div>`);
+  },
+  /* a card for each chosen artist, linking to the portfolio; none chosen shows every published artist */
+  'artist-cards'(st, id){
+    const chosen = (Array.isArray(st.artists) ? st.artists : []).map((x,i) => ({ v: x && typeof x === 'object' ? x.v : x, hidden: !!(x && typeof x === 'object' && x.hidden), i })).filter(x => !x.hidden);
+    const list = chosen.length ? chosen.map(c => ({ a: ARTISTS.find(a => a.slug === c.v), i: c.i })).filter(x => x.a) : ARTISTS.filter(a => a.published).map(a => ({ a, i: -1 }));
+    return libWrap(st, id, 'artist-cards', libHead(st) + `<div class="agrid">${list.map((x,k) => { const card = artistCard(x.a, k); return x.i >= 0 ? card.replace('<a class="acard"', `<a class="acard" data-adh-b="artists.${x.i}"`) : card; }).join('')}</div>`);
   },
   /* empty room between two sections; nothing is drawn */
   space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `

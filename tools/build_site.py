@@ -20,7 +20,8 @@ MARK = "/*@@CONTENT@@*/"
 SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "method",
                  "text", "text-picture", "picture", "quote", "articles", "faq", "button",
                  "page-heading", "long-text", "announcement", "columns", "space",
-                 "picture-banner", "slideshow", "gallery", "logo-row"}
+                 "picture-banner", "slideshow", "gallery", "logo-row",
+                 "artworks", "exhibitions", "career", "press", "artist-cards"}
 SHARED_TYPES = {"opening", "header", "footer"}
 
 
