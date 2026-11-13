@@ -19,7 +19,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MARK = "/*@@CONTENT@@*/"
 SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "method",
                  "text", "text-picture", "picture", "quote", "articles", "faq", "button",
-                 "page-heading", "long-text", "announcement", "columns", "space"}
+                 "page-heading", "long-text", "announcement", "columns", "space",
+                 "picture-banner", "slideshow", "gallery", "logo-row"}
 SHARED_TYPES = {"opening", "header", "footer"}
 
 
