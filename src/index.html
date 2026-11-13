@@ -156,6 +156,26 @@ mark{background:#E8D3A8;color:inherit;padding:0 .1rem}
 .lib-faq details[open] summary::after{content:"Close"}
 .lib-faq .a{margin-top:.8rem;font-size:.95rem;line-height:1.65;color:var(--muted);max-width:36rem}
 .lib.on-green .a,.lib.on-green summary::after{color:var(--p85)}
+.ann{padding:.7rem 1.5rem;font-family:var(--sans);font-size:.8rem;line-height:1.45;text-align:center}
+.ann .ann-in{display:flex;align-items:center;justify-content:center;gap:1rem;max-width:68rem;margin:0 auto}
+.ann .msgs{display:grid;min-width:0}
+.ann .msg{grid-area:1/1;margin:0;opacity:0;visibility:hidden;transition:opacity .45s,visibility .45s}
+.ann .msg.on{opacity:1;visibility:visible}
+.ann .msg a{margin-left:.7rem;color:var(--brick);text-decoration:underline;text-underline-offset:.2em;white-space:nowrap}
+.ann.on-green .msg a{color:var(--brick-soft)}
+.ann .cnt{flex:0 0 auto;font-size:.72rem;opacity:.7}
+.lib-columns .cols{margin-top:2.5rem;display:grid;grid-template-columns:1fr;gap:2.25rem 3rem}
+.lib-columns .sec-in>.cols:first-child{margin-top:0}
+@media (min-width:700px){.lib-columns .cols.n2,.lib-columns .cols.n3,.lib-columns .cols.n4{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){.lib-columns .cols.n3{grid-template-columns:repeat(3,1fr)}.lib-columns .cols.n4{grid-template-columns:repeat(4,1fr)}}
+.lib-columns .col .n{display:block;font-family:var(--display);font-size:.95rem;color:var(--brick)}
+.lib-columns .col h3{font-family:var(--display);font-weight:400;font-size:1.6rem;line-height:1.15;margin:.5rem 0 0}
+.lib-columns .col p{margin:.7rem 0 0;font-size:1rem;line-height:1.65;color:var(--muted)}
+.lib-columns .col a{display:inline-block;margin-top:.8rem;color:var(--brick);text-decoration:underline;text-underline-offset:.2em}
+.lib.on-green .col .n,.lib.on-green .col a{color:var(--brick-soft)}
+.lib.on-green .col p{color:var(--p85)}
+.space{height:5rem}.space.s{height:2.5rem}.space.l{height:8rem}
+@media (max-width:640px){.space{height:3.5rem}.space.s{height:1.75rem}.space.l{height:5.5rem}}
 .lib-button .row2{display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;margin-top:1.5rem}
 .lib-button .lead{margin-top:.75rem}
 /* a section or block picked out in Artiscope Digital Home */
@@ -1598,11 +1618,16 @@ const SECTIONS = {
 
 /* Sections that can be added from the library in Artiscope Digital Home. */
 const THEME_BG = { paper: ['band paper', ''], deep: ['band deep', ''], green: ['band green on-green', ''] };
-function libWrap(st, id, type, inner, extra){
-  const key = String(st.bg || 'paper'), known = THEME_BG[key];
+function bandOf(st, dflt){
+  const key = String(st.bg || dflt || 'paper'), known = THEME_BG[key];
   let cls = known ? known[0] : 'band', style = '';
   if(!known && /^#[0-9a-fA-F]{6}$/.test(key)){ style += `background:${key};`; if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`; cls += dark(key) ? ' on-green' : ''; }
   else if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`;
+  return { cls, style };
+}
+const linkOk = h => /^(#|\/|https?:\/\/|mailto:)/i.test(String(h||''));
+function libWrap(st, id, type, inner, extra){
+  const { cls, style } = bandOf(st);
   return `
   <section class="${cls} inner lib lib-${type}${extra?' '+extra:''}" id="${id}"${style?` style="${style}"`:''}><div class="sec-in">${inner}</div></section>`;
 }
@@ -1633,6 +1658,24 @@ const LIBRARY = {
   faq(st, id){
     return libWrap(st, id, 'faq', libHead(st) + `<div class="items">${shown(st.items).map(q=>`<details><summary>${T(q.q)}</summary><div class="a">${q.a||''}</div></details>`).join('')}</div>`);
   },
+  /* a thin band of short messages; with more than one they take turns */
+  announcement(st, id){
+    const rows = (Array.isArray(st.messages) ? st.messages : []).map((m,i)=>({m,i})).filter(x => x.m && x.m.hidden !== true && (x.m.text || x.m.link));
+    const band = bandOf(st, 'green');
+    const secs = Math.max(3, Math.min(30, Number(st.seconds) || 6));
+    const msgs = rows.map((x,k) => `<p class="msg${k ? '' : ' on'}" data-adh-b="messages.${x.i}"><span>${T(x.m.text||'')}</span>${x.m.link && linkOk(x.m.href) ? `<a href="${esc(x.m.href)}">${T(x.m.link)}</a>` : ''}</p>`).join('');
+    return `
+  <section class="ann ${band.cls}" id="${id}" data-ann data-secs="${secs}"${band.style ? ` style="${band.style}"` : ''}><div class="ann-in"><div class="msgs">${msgs}</div>${rows.length > 1 ? `<span class="cnt" aria-hidden="true">1 of ${rows.length}</span>` : ''}</div></section>`;
+  },
+  /* two to four columns side by side, stacked on a phone */
+  columns(st, id){
+    const per = ['2','3','4'].includes(String(st.per_row)) ? String(st.per_row) : '3', num = st.numbered !== false;
+    const cols = (Array.isArray(st.columns) ? st.columns : []).map((c,i)=>({c,i})).filter(x => x.c && x.c.hidden !== true);
+    return libWrap(st, id, 'columns', libHead(st) + `<div class="cols n${per}">${cols.map((x,k) => `<div class="col" data-adh-b="columns.${x.i}">${num ? `<span class="n">${String(k+1).padStart(2,'0')}</span>` : ''}${x.c.title ? `<h3>${T(x.c.title)}</h3>` : ''}${x.c.text ? `<p>${T(x.c.text)}</p>` : ''}${x.c.link && linkOk(x.c.href) ? `<a href="${esc(x.c.href)}">${T(x.c.link)}</a>` : ''}</div>`).join('')}</div>`);
+  },
+  /* empty room between two sections; nothing is drawn */
+  space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `
+  <div class="space ${c}" id="${id}" data-sec aria-hidden="true"></div>`; },
   button(st, id){
     const kind = { green: 'green', paper: 'paper', outline: 'outline' }[st.style] || 'green';
     const href = /^(#|https?:|mailto:)/.test(String(st.href||'')) ? st.href : '#home';
@@ -1643,14 +1686,18 @@ Object.assign(SECTIONS, LIBRARY);
 
 /* a page made in Artiscope Digital Home, drawn from its sections like the home page */
 function customPage(key){
-  const secs = ((PAGES.pages[key]||{}).sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
-  const opensWithBanner = secs.length && secs[0].type === 'hero';
-  return (opensWithBanner ? '' : headerHTML(true)) + secs.map((x,i) => SECTIONS[x.type](x.settings||{}, x.id, {first: i === 0})).join('\n') + footerHTML();
+  return sectionsHTML(((PAGES.pages[key]||{}).sections||[]), true) + footerHTML();
+}
+/* the sections of a page; announcement bars at the start sit above the menu bar, and a banner first takes the menu bar's place */
+function sectionsHTML(list, darkHead){
+  const secs = list.filter(x => x.visible !== false && SECTIONS[x.type]);
+  let lead = 0; while(lead < secs.length && secs[lead].type === 'announcement') lead++;
+  const top = secs.slice(0, lead), rest = secs.slice(lead), opensWithBanner = rest.length && rest[0].type === 'hero';
+  const draw = (x, first) => SECTIONS[x.type](x.settings||{}, x.id, {first});
+  return top.map(x => draw(x, false)).join('\n') + (opensWithBanner ? '' : headerHTML(darkHead)) + rest.map((x,i) => draw(x, i === 0)).join('\n');
 }
 function homeHTML(){
-  const secs = (PAGES.pages.home.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]);
-  const opensWithBanner = secs.length && secs[0].type === 'hero';
-  return (opensWithBanner ? '' : headerHTML(false)) + secs.map((x,i) => SECTIONS[x.type](x.settings||{}, x.id, {first: i === 0})).join('\n') + `
+  return sectionsHTML(PAGES.pages.home.sections||[], false) + `
   ${footerHTML()}`;
 }
 
@@ -1677,6 +1724,7 @@ function setupHome(){
   const art = h0 ? $('heroArt'+x0) : null;
   heroEls = art ? {sec:h0, frame:$('heroFrame'+x0), wall:$('heroWall'+x0)} : null;
   featList = [...main.querySelectorAll('section.feat')].map(sec => ({sec, ghostEls:[...sec.querySelectorAll('.ghost .w')]}));
+  main.querySelectorAll('[data-ann]').forEach(startAnn);
   window.addEventListener('scroll', homeScroll, {passive:true});
   // title and tagline wait for the opening screen
   whenReady(() => {
@@ -1725,6 +1773,17 @@ function wireFeatured(sec){
     const spans = [...g('ghost').querySelectorAll('.w > span')]; spans.forEach(s => { s.style.transform='translateY(115%)'; s.style.opacity='0'; });
     io.observe(g('ghost'));
   }
+}
+/* announcement bars: the next message every few seconds, paused while the pointer or keyboard is on the bar */
+function startAnn(bar){
+  const msgs = [...bar.querySelectorAll('.msg')], cnt = bar.querySelector('.cnt');
+  if(msgs.length < 2) return;
+  let at = 0, paused = false;
+  const show = n => { msgs[at].classList.remove('on'); at = (n + msgs.length) % msgs.length; msgs[at].classList.add('on'); if(cnt) cnt.textContent = (at+1) + ' of ' + msgs.length; };
+  bar.annShow = el => { const i = msgs.indexOf(el); if(i >= 0) show(i); };
+  bar.addEventListener('mouseenter', () => paused = true); bar.addEventListener('mouseleave', () => paused = false);
+  bar.addEventListener('focusin', () => paused = true); bar.addEventListener('focusout', () => paused = false);
+  homeTimers.push(setInterval(() => { if(!paused && !document.hidden) show(at + 1); }, (Number(bar.dataset.secs) || 6) * 1000));
 }
 function startLatest(box){
   if(!box) return;
@@ -2073,12 +2132,12 @@ window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; 
 /* shared pictures of artists and articles, as changed in the console and not saved yet */
 function pictures(list){ if(!Array.isArray(list)) return; list.forEach(function(p){ var k=String(p&&p.key||"").split(":"), all=k[0]==="artist"?ARTISTS:k[0]==="article"?ARTICLES:null; if(!all) return; var x=all.find(function(y){return y.slug===k[1];}); if(!x) return;
   x.image=p.image?picSrc(p.image):null; x.alt=p.alt||""; if(k[0]==="artist") x.heroCredit=p.credit||""; else x.credit=p.credit||""; }); }
-function tagged(el,bf,block){ if(!el||!bf) return null; var all=el.querySelectorAll('[data-adh-b="'+bf+'.'+block+'"]'); for(var i=0;i<all.length;i++){ if(all[i].offsetParent!==null&&getComputedStyle(all[i]).opacity!=="0") return all[i]; } if(all.length){ var g=all[0].closest(".glass"); if(g&&g.offsetParent!==null) return g; } return null; }
+function tagged(el,bf,block){ if(!el||!bf) return null; var all=el.querySelectorAll('[data-adh-b="'+bf+'.'+block+'"]'); if(all.length&&el.hasAttribute("data-ann")) return all[0]; for(var i=0;i<all.length;i++){ if(all[i].offsetParent!==null&&getComputedStyle(all[i]).opacity!=="0") return all[i]; } if(all.length){ var g=all[0].closest(".glass"); if(g&&g.offsetParent!==null) return g; } return null; }
 function pick(id,block,label,scroll,bf,bi){
   document.querySelectorAll(".adh-picked,.adh-picked-block").forEach(function(x){x.classList.remove("adh-picked","adh-picked-block");x.removeAttribute("data-adh-label");});
   if(!id) return; var el=sectionEl(id); if(!el) return;
   var target=el;
-  if((block!=null&&block>=0)||(bf&&bi>=0)){ var b=(bf&&bi>=0?tagged(el,bf,bi):null)||(block>=0?blockEls(id)[block]:null); if(b){ el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
+  if((block!=null&&block>=0)||(bf&&bi>=0)){ var b=(bf&&bi>=0?tagged(el,bf,bi):null)||(block>=0?blockEls(id)[block]:null); if(b){ var bar=b.closest("[data-ann]"); if(bar&&bar.annShow) bar.annShow(b); el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
   else el.classList.add("adh-picked-block");
   if(label) target.setAttribute("data-adh-label",label);
   if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
