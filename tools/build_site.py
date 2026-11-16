@@ -22,7 +22,7 @@ SECTION_TYPES = {"hero", "featured", "section-list", "explained", "numbers", "me
                  "page-heading", "long-text", "announcement", "columns", "space",
                  "picture-banner", "slideshow", "gallery", "logo-row",
                  "artworks", "exhibitions", "career", "press", "artist-cards",
-                 "signup", "visit", "contact-form"}
+                 "signup", "visit", "contact-form", "signup-popup"}
 SHARED_TYPES = {"opening", "header", "footer"}
 
 
@@ -55,7 +55,7 @@ def check_pages(pages):
     if not isinstance(groups, dict):
         sys.exit("The shared sections in content/pages.json must be a top and a bottom list.")
     gseen = set()
-    for where in ("top", "bottom"):
+    for where in ("top", "popups", "bottom"):
         for sec in groups.get(where) or []:
             if not isinstance(sec, dict) or sec.get("type") not in SECTION_TYPES:
                 sys.exit("A section shared by every page is of a kind the site cannot draw: %r" % (sec.get("type") if isinstance(sec, dict) else sec))

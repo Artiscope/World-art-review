@@ -277,6 +277,17 @@ a.aw-item:hover .aw-pic{opacity:.92}
 .mf input:focus,.mf select:focus,.mf textarea:focus{outline:2px solid var(--green);outline-offset:0}
 .mailform .btn{align-self:flex-start;border:0;cursor:pointer}
 .mf-note{font-family:var(--sans);font-size:.75rem;line-height:1.5;color:var(--muted);max-width:30rem}
+/* a sign-up box that pops up once a visit */
+.supop{position:fixed;right:1.5rem;bottom:1.5rem;z-index:90;width:min(25rem,calc(100vw - 2rem));background:var(--paper);color:var(--ink);box-shadow:0 18px 50px rgba(29,29,27,.28)}
+.supop[hidden]{display:none}
+.supop.adh-picked-block{position:fixed}
+.supop-in{position:relative;display:flex;flex-direction:column;gap:.9rem;padding:1.6rem 1.6rem 1.4rem}
+.supop-x{position:absolute;top:.9rem;right:1rem;border:0;background:none;font-family:var(--sans);font-size:.75rem;color:var(--muted);cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:.3rem}
+.supop h2{font-family:var(--display);font-weight:400;font-size:1.6rem;line-height:1.15;margin:0;padding-right:3.5rem}
+.supop .lead{margin:0;font-size:.95rem}
+.supop .mailform{flex:none;gap:.8rem}
+.supop .mf input{background:var(--page)}
+@media (max-width:600px){.supop{right:1rem;left:1rem;bottom:1rem;width:auto}}
 .mf-note.err{color:var(--brick)}
 .lib.on-green .mf,.lib.on-green .mf-note{color:var(--p85)}
 .lib.on-green .mf input,.lib.on-green .mf select,.lib.on-green .mf textarea{background:var(--paper)}
@@ -762,9 +773,9 @@ sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
 @media (max-width:700px){.gw-note{position:relative;right:auto;bottom:auto;margin:0 auto .75rem}}
 .pop{position:absolute;z-index:90;width:18.75rem;max-width:calc(100vw - 1.5rem);background:var(--green);color:var(--paper);padding:1rem 1.1rem;font-family:var(--sans);font-size:.78rem;line-height:1.5;box-shadow:0 1.5rem 3rem -1.5rem rgba(0,0,0,.6);opacity:0;transform:translateY(.4rem);transition:opacity .2s,transform .25s var(--ease-expo);pointer-events:none}
 .pop.show{opacity:1;transform:none;pointer-events:auto}
-.pop .pt{font-family:var(--display);font-size:1rem;line-height:1.3;margin-bottom:.3rem}
-.pop .pk{color:var(--brick-soft);font-size:.68rem;margin-bottom:.5rem}
-.pop .pa{display:flex;gap:.9rem;margin-top:.6rem}
+.supop .pt{font-family:var(--display);font-size:1rem;line-height:1.3;margin-bottom:.3rem}
+.supop .pk{color:var(--brick-soft);font-size:.68rem;margin-bottom:.5rem}
+.supop .pa{display:flex;gap:.9rem;margin-top:.6rem}
 .pop button,.pop a{color:var(--brick-soft);font-family:var(--sans);font-size:.78rem}
 .toast{position:fixed;left:50%;bottom:1.75rem;z-index:130;transform:translate(-50%,1.5rem);opacity:0;background:var(--green);color:var(--paper);padding:.75rem 1.25rem;font-family:var(--sans);font-size:.78rem;transition:opacity .3s,transform .4s var(--ease-expo);pointer-events:none}
 .toast.show{opacity:1;transform:translate(-50%,0)}
@@ -926,7 +937,7 @@ footer .bar{padding-top:1rem}
   </div>
 </div>
 
-<div class="pop" id="pop" role="dialog" aria-label="Source"></div>
+<div class="supop" id="pop" role="dialog" aria-label="Source"></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="dock" id="dock" aria-label="Reading tools"></div>
 
@@ -1594,7 +1605,7 @@ document.querySelectorAll('.xbtn').forEach(b => { const x = b.querySelector('.x'
 /* sections shared by every page: announcement bars above the menu bar, the rest below it, and at the bottom above the footer */
 function groupSecs(where){ return (((PAGES.groups||{})[where])||[]).filter(x => x && x.visible !== false && SECTIONS[x.type]); }
 function groupHTML(where, ann){ return groupSecs(where).filter(x => where !== 'top' || (x.type === 'announcement') === !!ann).map(x => SECTIONS[x.type](x.settings||{}, x.id, {first:false})).join('\n'); }
-function footerHTML(){ return groupHTML('bottom') + footerOnly(); }
+function footerHTML(){ return groupHTML('bottom') + footerOnly() + groupHTML('popups'); }
 function footerOnly(){
   const f = PAGES.shared.footer; if(f && f.visible === false) return '';
   const st = f.settings;
@@ -1882,6 +1893,15 @@ const LIBRARY = {
       `<form class="mailform" data-mailform="signup" novalidate><div class="mf-row"><label class="mf">Your first name<input name="name" type="text" autocomplete="given-name"></label><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label></div>`+
       `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${T(st.button || 'Ask to join')}</button><p class="mf-note" role="status">This opens your own email app with a message ready to send to ${MAIL_TO}.</p></form></div>`);
   },
+  /* a sign-up box that pops up once a visit; drawn hidden, and shown by setupPopups */
+  'signup-popup'(st, id){
+    const d = Math.max(3, Math.min(60, Number(st.delay) || 8));
+    return `<div class="supop" id="${id}" data-popup data-delay="${d}" role="dialog" aria-labelledby="${id}-h" hidden><div class="supop-in">`+
+      `<button type="button" class="supop-x" data-pop-close>Close</button>`+(st.eyebrow ? `<span class="eyebrow">${T(st.eyebrow)}</span>` : '')+
+      `<h2 id="${id}-h">${T(st.heading || '')}</h2>${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}`+
+      `<form class="mailform" data-mailform="signup" novalidate><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label>`+
+      `<button class="btn green" type="submit">${T(st.button || 'Ask to join')}</button><p class="mf-note" role="status">This opens your own email app with a message ready to send to ${MAIL_TO}.</p></form></div></div>`;
+  },
   /* where to find the gallery: a label and its words on each line, and an optional map link that opens in a new tab */
   visit(st, id){
     const rows = liveRowsOf(st.details), map = st.map_words && /^https:\/\//i.test(String(st.map || '')) ? `<a class="vmap" href="${esc(st.map)}" target="_blank" rel="noopener">${T(st.map_words)}</a>` : '';
@@ -1910,7 +1930,10 @@ Object.assign(SECTIONS, LIBRARY);
 
 /* a page made in Artiscope Digital Home, drawn from its sections like the home page */
 function customPage(key){
-  return sectionsHTML(((PAGES.pages[key]||{}).sections||[]), true) + footerHTML();
+  const pg = PAGES.pages[key]||{};
+  /* a page with its own layout: only its own sections, no menu bar, footer or shared sections */
+  if(pg.own) return (pg.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]).map(x => SECTIONS[x.type](x.settings||{}, x.id, {first:false})).join('\n') + groupHTML('popups');
+  return sectionsHTML((pg.sections||[]), true) + footerHTML();
 }
 /* the sections of a page; announcement bars at the start sit above the menu bar, and a banner first takes the menu bar's place */
 function sectionsHTML(list, darkHead){
@@ -2292,7 +2315,22 @@ function route(){
 }
 function goSearch(q){ searchQuery = q; if(location.hash==='#search') route(); else location.hash = 'search'; }
 
+/* each popup shows once a visit, after its delay; Close or Escape puts it away for the rest of the visit */
+function setupPopups(){
+  /* popups sit on the page itself, so a moving page around them never moves them */
+  document.querySelectorAll('body > [data-popup]').forEach(p => p.remove());
+  main.querySelectorAll('[data-popup]').forEach(p => document.body.appendChild(p));
+  document.querySelectorAll('body > [data-popup]').forEach(p => {
+    const key = 'war-popup-' + p.id, seen = () => { try{ return sessionStorage.getItem(key) === '1'; }catch(e){ return false; } };
+    const shut = () => { p.hidden = true; try{ sessionStorage.setItem(key, '1'); }catch(e){} };
+    p.querySelectorAll('[data-pop-close]').forEach(b => b.addEventListener('click', shut));
+    p.addEventListener('keydown', e => { if(e.key === 'Escape') shut(); });
+    if(window.ADH_EDIT || seen()) return;
+    setTimeout(() => { if(!window.ADH_EDIT && !seen() && document.body.contains(p)){ p.hidden = false; try{ sessionStorage.setItem(key, '1'); }catch(e){} } }, (Number(p.dataset.delay) || 8) * 1000);
+  });
+}
 function wire(){
+  setupPopups();
   const pf = $('pageSearch'); if(pf) pf.onsubmit = e => { e.preventDefault(); goSearch(pf.querySelector('input').value); };
   main.querySelectorAll('[data-q]').forEach(b => b.onclick = () => openPalette(b.dataset.q));
   main.querySelectorAll('[data-az]').forEach(b => b.onclick = () => {
@@ -2376,7 +2414,7 @@ var LISTS=["artists","reviews","explained","library","guides","research","search
 function here(){ return (location.hash||"").replace("#","")||"home"; }
 function view(){ var h=here(); if(h.indexOf("a-")===0) return "article"; if(h.indexOf("artist-")===0) return "artist"; if(LISTS.indexOf(h)>=0) return "list"; return "page"; }
 function pageKey(){ var h=here(); return h.indexOf("page-")===0?h.slice(5):"home"; }
-function grp(id){ try{ var g=PAGES.groups||{}; return (g.top||[]).concat(g.bottom||[]).find(function(x){return x.id===id;})||null; }catch(x){ return null; } }
+function grp(id){ try{ var g=PAGES.groups||{}; return (g.top||[]).concat(g.popups||[],g.bottom||[]).find(function(x){return x.id===id;})||null; }catch(x){ return null; } }
 function typeOf(id){ if(id==="header"||id==="footer") return id; var gs=grp(id); if(gs) return gs.type; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
 function sectionEl(id){ var v=view(); if(grp(id)) return document.getElementById(id); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
 function blockEls(id){ if(view()==="artist"&&ROWS[id]) return [].slice.call(document.querySelectorAll("#main "+ROWS[id])); var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
@@ -2399,7 +2437,9 @@ function pictures(list){ if(!Array.isArray(list)) return; list.forEach(function(
 function tagged(el,bf,block){ if(!el||!bf) return null; var all=el.querySelectorAll('[data-adh-b="'+bf+'.'+block+'"]'); if(all.length&&(el.hasAttribute("data-ann")||el.querySelector("[data-slides]"))) return all[0]; for(var i=0;i<all.length;i++){ if(all[i].offsetParent!==null&&getComputedStyle(all[i]).opacity!=="0") return all[i]; } if(all.length){ var g=all[0].closest(".glass"); if(g&&g.offsetParent!==null) return g; } return null; }
 function pick(id,block,label,scroll,bf,bi){
   document.querySelectorAll(".adh-picked,.adh-picked-block").forEach(function(x){x.classList.remove("adh-picked","adh-picked-block");x.removeAttribute("data-adh-label");});
+  document.querySelectorAll("[data-popup]").forEach(function(p){ p.hidden=true; });
   if(!id) return; var el=sectionEl(id); if(!el) return;
+  if(el.hasAttribute("data-popup")) el.hidden=false;
   var target=el;
   if((block!=null&&block>=0)||(bf&&bi>=0)){ var b=(bf&&bi>=0?tagged(el,bf,bi):null)||(block>=0?blockEls(id)[block]:null); if(b){ var bar=b.closest("[data-ann],[data-slides]"); if(bar&&bar.adhShow) bar.adhShow(b); el.classList.add("adh-picked"); b.classList.add("adh-picked-block"); target=b; } else el.classList.add("adh-picked-block"); }
   else el.classList.add("adh-picked-block");
