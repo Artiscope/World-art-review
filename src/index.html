@@ -1603,8 +1603,30 @@ document.querySelectorAll('.xbtn').forEach(b => { const x = b.querySelector('.x'
   b.addEventListener('pointerleave', ()=>{ if(hoverOK()) springTo(x, {rot:90}, {rot:0}, {tension:300, friction:18}, applyT(x)); }); });
 
 /* sections shared by every page: announcement bars above the menu bar, the rest below it, and at the bottom above the footer */
+let SEC_CSS = [];
+// A section's own CSS (set in the editor), kept inside that section: every rule is limited to it.
+function scopeCss(css, scope) {
+  var s = String(css || "").replace(/[<>\\]/g, "").replace(/url\s*\(/gi, "none("), out = "", i = 0;
+  while (i < s.length) {
+    var open = s.indexOf("{", i); if (open < 0) break;
+    var sel = s.slice(i, open).replace(/[;}]/g, " ").trim(), depth = 1, j = open + 1;
+    while (j < s.length && depth) { if (s[j] === "{") depth++; else if (s[j] === "}") depth--; j++; }
+    var body = s.slice(open + 1, depth ? j : j - 1);
+    if (/^@(media|supports|container)\b/i.test(sel)) out += sel + "{" + scopeCss(body, scope) + "}\n";
+    else if (/^@(-webkit-)?keyframes\b/i.test(sel)) out += sel + "{" + body + "}\n";
+    else if (sel && sel.charAt(0) !== "@") out += sel.split(",").map(function (x) { x = x.trim(); return /^:scope\b/.test(x) ? scope + x.slice(6) : /^&/.test(x) ? scope + x.slice(1) : scope + " " + x; }).join(", ") + " {" + body + "}\n";
+    i = j;
+  }
+  return out;
+}
+function cssMark(html, sec) {
+  if (!sec || !sec.css || !String(sec.css).trim()) return html;
+  SEC_CSS.push(scopeCss(sec.css, '[data-css="' + sec.id + '"]'));
+  return html.replace(/^(\s*<[a-z]+)/, '$1 data-css="' + sec.id + '"');
+}
+function drawSec(x, o){ return cssMark(SECTIONS[x.type](x.settings||{}, x.id, o), x); }
 function groupSecs(where){ return (((PAGES.groups||{})[where])||[]).filter(x => x && x.visible !== false && SECTIONS[x.type]); }
-function groupHTML(where, ann){ return groupSecs(where).filter(x => where !== 'top' || (x.type === 'announcement') === !!ann).map(x => SECTIONS[x.type](x.settings||{}, x.id, {first:false})).join('\n'); }
+function groupHTML(where, ann){ return groupSecs(where).filter(x => where !== 'top' || (x.type === 'announcement') === !!ann).map(x => drawSec(x, {first:false})).join('\n'); }
 function footerHTML(){ return groupHTML('bottom') + footerOnly() + groupHTML('popups'); }
 function footerOnly(){
   const f = PAGES.shared.footer; if(f && f.visible === false) return '';
@@ -1932,7 +1954,7 @@ Object.assign(SECTIONS, LIBRARY);
 function customPage(key){
   const pg = PAGES.pages[key]||{};
   /* a page with its own layout: only its own sections, no menu bar, footer or shared sections */
-  if(pg.own) return (pg.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]).map(x => SECTIONS[x.type](x.settings||{}, x.id, {first:false})).join('\n') + groupHTML('popups');
+  if(pg.own) return (pg.sections||[]).filter(x => x.visible !== false && SECTIONS[x.type]).map(x => drawSec(x, {first:false})).join('\n') + groupHTML('popups');
   return sectionsHTML((pg.sections||[]), true) + footerHTML();
 }
 /* the sections of a page; announcement bars at the start sit above the menu bar, and a banner first takes the menu bar's place */
@@ -1940,7 +1962,7 @@ function sectionsHTML(list, darkHead){
   const secs = list.filter(x => x.visible !== false && SECTIONS[x.type]);
   let lead = 0; while(lead < secs.length && secs[lead].type === 'announcement') lead++;
   const top = secs.slice(0, lead), rest = secs.slice(lead), opensWithBanner = rest.length && rest[0].type === 'hero';
-  const draw = (x, first) => SECTIONS[x.type](x.settings||{}, x.id, {first});
+  const draw = (x, first) => drawSec(x, {first});
   const below = groupHTML('top', false), body = rest.map((x,i) => draw(x, i === 0));
   if(opensWithBanner) body.splice(1, 0, below); else body.unshift(below);
   return groupHTML('top', true) + top.map(x => draw(x, false)).join('\n') + (opensWithBanner ? '' : headerHTML(darkHead)) + body.join('\n');
@@ -2280,7 +2302,7 @@ let firstRender = true;
 function render(){
   const h = (location.hash||'').replace('#','') || 'home';
   let html, srcOrder = null, title = 'World Art Review', dock = null, slug = null;
-  currentArtist = null; clearHome();
+  currentArtist = null; clearHome(); SEC_CSS = [];
   if(h==='home'){ html = homeHTML(); }
   else if(h.startsWith('artist-')){
     const a = artistBy(h.slice(7));
@@ -2295,6 +2317,8 @@ function render(){
   }
   if(!html){ html = shell(pageHead('Not found',[{t:'We could not'},{t:'find that page'}],'<a href="#home" style="color:var(--brick)">Return to the homepage</a>.')); }
   main.innerHTML = html;
+  let secCss = document.getElementById('sec-css');
+  if(SEC_CSS.length){ if(!secCss){ secCss = document.createElement('style'); secCss.id = 'sec-css'; document.head.appendChild(secCss); } secCss.textContent = SEC_CSS.join('\n'); } else if(secCss) secCss.remove();
   document.title = title;
   if(srcOrder){ const order = numberCitations(main, srcOrder); const w = $('srcwrap'); if(w) w.outerHTML = sourcesHTML(order); }
   if(h==='home'){ if(LenisCtor) startLenis(); setupHome(); } else { stopLenis(); if(h.startsWith('page-')) setupHome(); }
