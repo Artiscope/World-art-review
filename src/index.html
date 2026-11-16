@@ -1591,7 +1591,11 @@ document.querySelectorAll('.xbtn').forEach(b => { const x = b.querySelector('.x'
   b.addEventListener('pointerenter', ()=>{ if(hoverOK()) springTo(x, {rot:0}, {rot:90}, {tension:300, friction:18}, applyT(x)); });
   b.addEventListener('pointerleave', ()=>{ if(hoverOK()) springTo(x, {rot:90}, {rot:0}, {tension:300, friction:18}, applyT(x)); }); });
 
-function footerHTML(){
+/* sections shared by every page: announcement bars above the menu bar, the rest below it, and at the bottom above the footer */
+function groupSecs(where){ return (((PAGES.groups||{})[where])||[]).filter(x => x && x.visible !== false && SECTIONS[x.type]); }
+function groupHTML(where, ann){ return groupSecs(where).filter(x => where !== 'top' || (x.type === 'announcement') === !!ann).map(x => SECTIONS[x.type](x.settings||{}, x.id, {first:false})).join('\n'); }
+function footerHTML(){ return groupHTML('bottom') + footerOnly(); }
+function footerOnly(){
   const f = PAGES.shared.footer; if(f && f.visible === false) return '';
   const st = f.settings;
   const link = l => l[2] ? `<a href="${esc(l[1])}" data-go="${esc(l[2])}">${esc(l[0])}</a>` : `<a href="${esc(l[1])}"${/^#|^mailto:/.test(l[1])?'':' rel="noopener"'}>${esc(l[0])}</a>`;
@@ -1914,7 +1918,9 @@ function sectionsHTML(list, darkHead){
   let lead = 0; while(lead < secs.length && secs[lead].type === 'announcement') lead++;
   const top = secs.slice(0, lead), rest = secs.slice(lead), opensWithBanner = rest.length && rest[0].type === 'hero';
   const draw = (x, first) => SECTIONS[x.type](x.settings||{}, x.id, {first});
-  return top.map(x => draw(x, false)).join('\n') + (opensWithBanner ? '' : headerHTML(darkHead)) + rest.map((x,i) => draw(x, i === 0)).join('\n');
+  const below = groupHTML('top', false), body = rest.map((x,i) => draw(x, i === 0));
+  if(opensWithBanner) body.splice(1, 0, below); else body.unshift(below);
+  return groupHTML('top', true) + top.map(x => draw(x, false)).join('\n') + (opensWithBanner ? '' : headerHTML(darkHead)) + body.join('\n');
 }
 function homeHTML(){
   return sectionsHTML(PAGES.pages.home.sections||[], false) + `
@@ -2068,7 +2074,7 @@ function pageHead(eyebrow, titleLines, dek, crumbs){
   return `<div class="phead">${crumbs?`<nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>`:''}<span class="eyebrow">${eyebrow}</span><h1 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(titleLines)}</h1>${dek?`<p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${dek}</p>`:''}</div>`;
 }
 function shell(inner, opts){
-  return headerHTML(true) + inner + footerHTML();
+  return groupHTML('top', true) + headerHTML(true) + groupHTML('top', false) + inner + footerHTML();
 }
 function artistCard(a, i){
   const href = a.published ? `#artist-${a.slug}` : '#research';
@@ -2370,8 +2376,9 @@ var LISTS=["artists","reviews","explained","library","guides","research","search
 function here(){ return (location.hash||"").replace("#","")||"home"; }
 function view(){ var h=here(); if(h.indexOf("a-")===0) return "article"; if(h.indexOf("artist-")===0) return "artist"; if(LISTS.indexOf(h)>=0) return "list"; return "page"; }
 function pageKey(){ var h=here(); return h.indexOf("page-")===0?h.slice(5):"home"; }
-function typeOf(id){ if(id==="header"||id==="footer") return id; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
-function sectionEl(id){ var v=view(); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
+function grp(id){ try{ var g=PAGES.groups||{}; return (g.top||[]).concat(g.bottom||[]).find(function(x){return x.id===id;})||null; }catch(x){ return null; } }
+function typeOf(id){ if(id==="header"||id==="footer") return id; var gs=grp(id); if(gs) return gs.type; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
+function sectionEl(id){ var v=view(); if(grp(id)) return document.getElementById(id); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
 function blockEls(id){ if(view()==="artist"&&ROWS[id]) return [].slice.call(document.querySelectorAll("#main "+ROWS[id])); var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
 /* articles, portfolios and sources as edited in the console and not saved yet */
 function content(d,show){ if(!d||typeof d!=="object") return; try{
@@ -2380,7 +2387,7 @@ function content(d,show){ if(!d||typeof d!=="object") return; try{
   ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
 }catch(x){} }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
     setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
@@ -2405,7 +2412,8 @@ document.addEventListener("click",function(e){ if(!active) return; var m=documen
   var link=e.target.closest("a[href]"), href=link?link.getAttribute("href")||"":"";
   if(link&&!e.altKey&&href.charAt(0)==="#"&&href.length>1){ window.parent.postMessage({type:"adh-nav",hash:link.getAttribute("data-go")?"home":href.slice(1)},ok); return; }
   var v=view(), id="", block=-1;
-  if(e.target.closest("#main header.hdr")) id="header"; else if(e.target.closest("#main footer")) id="footer";
+  for(var up=e.target; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } }
+  if(id){} else if(e.target.closest("#main header.hdr")) id="header"; else if(e.target.closest("#main footer")) id="footer";
   else if(v==="page"){ var sec=e.target.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
   else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(e.target)) id=k; } }
   if(!id) return;

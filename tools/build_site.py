@@ -51,6 +51,18 @@ def check_pages(pages):
             seen.add(sid)
             if not isinstance(sec.get("settings", {}), dict):
                 sys.exit("The settings of section '%s' must be a list of fields." % sid)
+    groups = pages.get("groups") or {}
+    if not isinstance(groups, dict):
+        sys.exit("The shared sections in content/pages.json must be a top and a bottom list.")
+    gseen = set()
+    for where in ("top", "bottom"):
+        for sec in groups.get(where) or []:
+            if not isinstance(sec, dict) or sec.get("type") not in SECTION_TYPES:
+                sys.exit("A section shared by every page is of a kind the site cannot draw: %r" % (sec.get("type") if isinstance(sec, dict) else sec))
+            sid = str(sec.get("id") or "")
+            if not sid.startswith("every-") or sid in gseen:
+                sys.exit("Every shared section needs its own id starting every-: %r" % sid)
+            gseen.add(sid)
     if not isinstance(pages.get("lists", {}), dict):
         sys.exit("The list headings in content/pages.json must be a list of fields.")
 
