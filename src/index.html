@@ -2125,8 +2125,17 @@ const pages = {};
 function pageHead(eyebrow, titleLines, dek, crumbs){
   return `<div class="phead">${crumbs?`<nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>`:''}<span class="eyebrow">${eyebrow}</span><h1 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(titleLines)}</h1>${dek?`<p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${dek}</p>`:''}</div>`;
 }
+/* templates: an article or a portfolio is drawn with the sections of its template around its own content (the "main" section) */
+let TPL_NOW = null;
+function tplOf(kind, slug){ const all = ((PAGES.templates||{})[kind])||{}; const o = window.ADH_TPL; const id = o && o.kind === kind && all[o.id] ? o.id : ((((PAGES.assign||{})[kind])||{})[slug] || 'default'); return all[id] || all['default'] || null; }
+function tplWrap(kind, slug, inner){
+  const t = tplOf(kind, slug); if(!t || !Array.isArray(t.sections)) return inner;
+  let placed = false; const out = t.sections.map(x => { if(x && x.type === 'main'){ placed = true; return inner; } return x && x.visible !== false && SECTIONS[x.type] ? drawSec(x, {first:false}) : ''; });
+  if(!placed) out.unshift(inner); return out.join('\n');
+}
 function shell(inner, opts){
-  return groupHTML('top', true) + headerHTML(true) + groupHTML('top', false) + inner + footerHTML();
+  const t = TPL_NOW; TPL_NOW = null;
+  return groupHTML('top', true) + headerHTML(true) + groupHTML('top', false) + (t ? tplWrap(t[0], t[1], inner) : inner) + footerHTML();
 }
 function artistCard(a, i){
   const href = a.published ? `#artist-${a.slug}` : '#research';
@@ -2200,6 +2209,7 @@ function portfolio(a){
   const reported = (a.timeline||[]).filter(t=>t.reported).length;
   const toc = [...a.sections.map(s=>[s.id,s.title]),['works','Documented works'],['timeline','Career timeline'],['seen','Where to see the work'],['sources-list','Sources']];
   const related = (a.related||[]).map(s=>articleBy(s.replace(/^a-/,''))).filter(Boolean);
+  TPL_NOW = ['artist', a.slug];
   return shell(`
   ${pageHead('Artist portfolio', [{t:esc(a.name)}], esc(a.dek), `<a href="#artists">Artists</a><span aria-hidden="true">/</span><a href="#artists" data-letter="${a.letter}">${a.letter}</a><span aria-hidden="true">/</span><span>${esc(a.name)}</span>`)}
   <div class="pf-top">
@@ -2235,6 +2245,7 @@ function portfolio(a){
 const SECTION_NAMES = {explained:'Art Explained', library:"Collector's Library", reviews:'Reviews', features:'Artists A to Z'};
 function sectionHome(sec){ return sec==='features' ? '#artists' : '#'+sec; }
 function article(a){
+  TPL_NOW = ['article', a.slug];
   const arts = a.artists.map(artistBy).filter(Boolean);
   const secName = SECTION_NAMES[a.section] || 'Articles';
   const inSec = ARTICLES.filter(x => x.section===a.section);
@@ -2445,9 +2456,10 @@ var LISTS=["artists","reviews","explained","library","guides","research","search
 function here(){ return (location.hash||"").replace("#","")||"home"; }
 function view(){ var h=here(); if(h.indexOf("a-")===0) return "article"; if(h.indexOf("artist-")===0) return "artist"; if(LISTS.indexOf(h)>=0) return "list"; return "page"; }
 function pageKey(){ var h=here(); return h.indexOf("page-")===0?h.slice(5):"home"; }
+function tsec(id){ try{ var v=view(); if(v!=="article"&&v!=="artist") return null; if(!/^t-/.test(id)) return null; var all=((PAGES.templates||{})[v])||{}, o=window.ADH_TPL, slug=here().slice(v==="article"?2:7); var tid=o&&o.kind===v&&all[o.id]?o.id:((((PAGES.assign||{})[v])||{})[slug]||"default"); var t=all[tid]||all["default"]; return t?(t.sections||[]).find(function(x){return x.id===id;})||null:null; }catch(x){ return null; } }
 function grp(id){ try{ var g=PAGES.groups||{}; return (g.top||[]).concat(g.popups||[],g.bottom||[]).find(function(x){return x.id===id;})||null; }catch(x){ return null; } }
-function typeOf(id){ if(id==="header"||id==="footer") return id; var gs=grp(id); if(gs) return gs.type; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
-function sectionEl(id){ var v=view(); if(grp(id)) return document.getElementById(id); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
+function typeOf(id){ if(id==="header"||id==="footer") return id; var gs=grp(id)||tsec(id); if(gs) return gs.type; try{ var pg=PAGES.pages[pageKey()]||{sections:[]}; var s=(pg.sections||[]).find(function(x){return x.id===id;}); return s?s.type:""; }catch(x){ return ""; } }
+function sectionEl(id){ var v=view(); if(grp(id)||tsec(id)) return document.getElementById(id); if(id==="header") return document.querySelector("#main header.hdr"); if(id==="footer") return document.querySelector("#main footer"); if(PARTS[v]&&PARTS[v][id]) return document.querySelector("#main "+PARTS[v][id]); return v==="page"?document.getElementById(id):null; }
 function blockEls(id){ if(view()==="artist"&&ROWS[id]) return [].slice.call(document.querySelectorAll("#main "+ROWS[id])); var el=sectionEl(id), sel=BLOCKS[typeOf(id)]; if(!el||!sel) return []; var all=[].slice.call(el.querySelectorAll(sel)); return SKIP[typeOf(id)]?all.slice(1):all; }
 /* articles, portfolios and sources as edited in the console and not saved yet */
 function content(d,show){ if(!d||typeof d!=="object") return; try{
@@ -2456,7 +2468,7 @@ function content(d,show){ if(!d||typeof d!=="object") return; try{
   ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
 }catch(x){} }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists; if(e.data.pages.templates) PAGES.templates=e.data.pages.templates; if(e.data.pages.assign) PAGES.assign=e.data.pages.assign; window.ADH_TPL=e.data.tpl||null;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
     setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
@@ -2478,14 +2490,14 @@ function pick(id,block,label,scroll,bf,bi){
   if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
 }
 function whatAt(t){ var m=document.getElementById("main"); if(!m||!m.contains(t)) return null; var v=view(), id="";
-  for(var up=t; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } }
+  for(var up=t; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } if(up.id&&tsec(up.id)){ id=up.id; v="tpl"; break; } }
   if(id){} else if(t.closest("#main header.hdr")) id="header"; else if(t.closest("#main footer")) id="footer";
   else if(v==="page"){ var sec=t.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
   else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(t)) id=k; } }
   if(!id) return null; var host=sectionEl(id); if(!host) return null;
   var tag=t.closest("[data-adh-b]"), bf="", block=-1, el=host;
   if(tag&&host.contains(tag)){ var bp=tag.getAttribute("data-adh-b").split("."); bf=bp[0]; block=Number(bp[1]); el=tag; }
-  return {id:id, block:block, bf:bf, view:v, el:el, plus:!!bf||(id!=="header"&&id!=="footer"&&(v==="page"||v==="every"))};
+  return {id:id, block:block, bf:bf, view:v, el:el, plus:!!bf||(id!=="header"&&id!=="footer"&&(v==="page"||v==="every"||v==="tpl"))};
 }
   /* the inspector: an outline and a name tag on whatever the pointer is over, with a plus above and below to add something just there */
   var NAMES = {}, hov = null, hovBox = null, hovRaf = 0;
@@ -2532,7 +2544,7 @@ document.addEventListener("click",function(e){ if(!active) return; if(e.target.c
   var link=e.target.closest("a[href]"), href=link?link.getAttribute("href")||"":"";
   if(link&&!e.altKey&&href.charAt(0)==="#"&&href.length>1){ window.parent.postMessage({type:"adh-nav",hash:link.getAttribute("data-go")?"home":href.slice(1)},ok); return; }
   var v=view(), id="", block=-1;
-  for(var up=e.target; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } }
+  for(var up=e.target; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } if(up.id&&tsec(up.id)){ id=up.id; v="tpl"; break; } }
   if(id){} else if(e.target.closest("#main header.hdr")) id="header"; else if(e.target.closest("#main footer")) id="footer";
   else if(v==="page"){ var sec=e.target.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
   else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(e.target)) id=k; } }

@@ -63,6 +63,24 @@ def check_pages(pages):
             if not sid.startswith("every-") or sid in gseen:
                 sys.exit("Every shared section needs its own id starting every-: %r" % sid)
             gseen.add(sid)
+    # templates: the sections article and artist pages are drawn with, around their own content ("main")
+    templates = pages.get("templates") or {}
+    if not isinstance(templates, dict):
+        sys.exit("The templates in content/pages.json must be grouped by kind of page.")
+    for kind, tpls in templates.items():
+        if kind not in ("article", "artist") or not isinstance(tpls, dict) or "default" not in tpls:
+            sys.exit("Templates are for articles and artists, and each kind needs a default: %r" % kind)
+        for tid, t in tpls.items():
+            secs = t.get("sections") if isinstance(t, dict) else None
+            if not isinstance(secs, list) or sum(1 for x in secs if isinstance(x, dict) and x.get("type") == "main") != 1:
+                sys.exit("The template '%s' needs a list of sections with the page's own content in it once." % tid)
+            for sec in secs:
+                if not isinstance(sec, dict) or (sec.get("type") != "main" and sec.get("type") not in SECTION_TYPES):
+                    sys.exit("The template '%s' has a section of a kind the site cannot draw." % tid)
+                if sec.get("type") != "main" and not str(sec.get("id") or "").startswith("t-"):
+                    sys.exit("Every section in a template needs its own id starting t-: %r" % sec.get("id"))
+    if not isinstance(pages.get("assign", {}), dict):
+        sys.exit("The templates chosen for articles and artists must be listed by kind.")
     if not isinstance(pages.get("lists", {}), dict):
         sys.exit("The list headings in content/pages.json must be a list of fields.")
 
