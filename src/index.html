@@ -2449,7 +2449,7 @@ function content(d,show){ if(!d||typeof d!=="object") return; try{
   ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
 }catch(x){} }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
     setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
@@ -2470,8 +2470,57 @@ function pick(id,block,label,scroll,bf,bi){
   if(label) target.setAttribute("data-adh-label",label);
   if(scroll){ try{ target.scrollIntoView({behavior:"smooth",block:"center"}); }catch(x){ target.scrollIntoView(); } }
 }
+function whatAt(t){ var m=document.getElementById("main"); if(!m||!m.contains(t)) return null; var v=view(), id="";
+  for(var up=t; up&&up!==m; up=up.parentNode){ if(up.id&&grp(up.id)){ id=up.id; v="every"; break; } }
+  if(id){} else if(t.closest("#main header.hdr")) id="header"; else if(t.closest("#main footer")) id="footer";
+  else if(v==="page"){ var sec=t.closest("main > section, section[id], [data-sec]"); if(sec) id=sec.id; }
+  else { var parts=PARTS[v]; for(var k in parts){ var el=document.querySelector("#main "+parts[k]); if(el&&el.contains(t)) id=k; } }
+  if(!id) return null; var host=sectionEl(id); if(!host) return null;
+  var tag=t.closest("[data-adh-b]"), bf="", block=-1, el=host;
+  if(tag&&host.contains(tag)){ var bp=tag.getAttribute("data-adh-b").split("."); bf=bp[0]; block=Number(bp[1]); el=tag; }
+  return {id:id, block:block, bf:bf, view:v, el:el, plus:!!bf||(id!=="header"&&id!=="footer"&&(v==="page"||v==="every"))};
+}
+  /* the inspector: an outline and a name tag on whatever the pointer is over, with a plus above and below to add something just there */
+  var NAMES = {}, hov = null, hovBox = null, hovRaf = 0;
+  function hoverStyle() {
+    if (document.getElementById("adh-hover-style")) { return; }
+    var st = document.createElement("style"); st.id = "adh-hover-style";
+    st.textContent = "#adh-hover{position:absolute;z-index:2147483000;pointer-events:none;outline:2px solid #2A2B30;outline-offset:2px;box-shadow:0 0 0 5px rgba(242,243,245,.55);display:none}#adh-hover.on{display:block}#adh-hover.blk{outline-style:dashed}" +
+      "#adh-hover .adh-tag{position:absolute;left:-2px;top:-30px;background:#2A2B30;color:#F2F3F5;font:600 12px/1 'Libre Franklin',Arial,sans-serif;padding:6px 10px;border-radius:7px;white-space:nowrap}#adh-hover.inside .adh-tag{top:6px;left:6px}" +
+      "#adh-hover .adh-plus{pointer-events:auto;position:absolute;left:50%;width:28px;height:28px;margin-left:-14px;padding:0;border:0;border-radius:50%;background:#F2F3F5;color:#1C1D20;font:600 18px/28px Arial,sans-serif;text-align:center;box-shadow:0 2px 7px rgba(0,0,0,.4);cursor:pointer}" +
+      "#adh-hover .adh-plus.top{top:-16px}#adh-hover .adh-plus.bottom{bottom:-16px}#adh-hover.noplus .adh-plus{display:none}#adh-hover .adh-plus:hover{background:#2A2B30;color:#F2F3F5}";
+    document.head.appendChild(st);
+  }
+  function hoverBox() {
+    if (hovBox && hovBox.parentNode) { return hovBox; }
+    hoverStyle();
+    hovBox = document.createElement("div"); hovBox.id = "adh-hover";
+    hovBox.innerHTML = '<span class="adh-tag"></span><button type="button" class="adh-plus top" tabindex="-1" title="Add here, above" aria-label="Add here, above">+</button><button type="button" class="adh-plus bottom" tabindex="-1" title="Add here, below" aria-label="Add here, below">+</button>';
+    document.documentElement.appendChild(hovBox); return hovBox;
+  }
+  function hoverOff() { if (hovBox) { hovBox.className = ""; } hov = null; }
+  function hoverAt(target) {
+    if (!active || !target || !target.closest) { return; }
+    if (target.closest("#adh-hover")) { return; }
+    var w = null; try { w = whatAt(target); } catch (x) { w = null; }
+    if (!w || !w.el) { hoverOff(); return; }
+    var r = w.el.getBoundingClientRect(); if (!r.width || !r.height) { hoverOff(); return; }
+    var box = hoverBox(); hov = w;
+    box.style.left = (r.left + window.scrollX) + "px"; box.style.top = (r.top + window.scrollY) + "px"; box.style.width = r.width + "px"; box.style.height = r.height + "px";
+    box.querySelector(".adh-tag").textContent = w.bf ? (NAMES[w.id + ":" + w.bf] || "Block") : (NAMES[w.id] || "Section");
+    box.className = "on" + (w.bf ? " blk" : "") + (w.plus ? "" : " noplus") + (r.top < 34 ? " inside" : "");
+  }
+  document.addEventListener("mousemove", function (e) { if (!active) { return; } var t = e.target; cancelAnimationFrame(hovRaf); hovRaf = requestAnimationFrame(function () { hoverAt(t); }); }, true);
+  document.documentElement.addEventListener("mouseleave", hoverOff);
+  window.addEventListener("scroll", function () { if (!hov || !hovBox) { return; } var r = hov.el.getBoundingClientRect(); if (!r.width) { hoverOff(); return; } hovBox.style.left = (r.left + window.scrollX) + "px"; hovBox.style.top = (r.top + window.scrollY) + "px"; }, true);
+  function plusClick(e) {
+    e.preventDefault(); e.stopPropagation();
+    var b = e.target.closest(".adh-plus"); if (!b || !hov) { return; }
+    window.parent.postMessage({ type: "adh-add", id: hov.id, block: hov.block, bf: hov.bf, view: hov.view, edge: b.classList.contains("top") ? "top" : "bottom" }, ok);
+    hoverOff();
+  }
 /* a click on a link goes to that page; a click anywhere else, or with Alt held, picks what was clicked */
-document.addEventListener("click",function(e){ if(!active) return; var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return;
+document.addEventListener("click",function(e){ if(!active) return; if(e.target.closest&&e.target.closest("#adh-hover")){ plusClick(e); return; } var m=document.getElementById("main"); if(!m||!m.contains(e.target)) return;
   e.preventDefault(); e.stopPropagation();
   var link=e.target.closest("a[href]"), href=link?link.getAttribute("href")||"":"";
   if(link&&!e.altKey&&href.charAt(0)==="#"&&href.length>1){ window.parent.postMessage({type:"adh-nav",hash:link.getAttribute("data-go")?"home":href.slice(1)},ok); return; }
