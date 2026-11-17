@@ -89,6 +89,24 @@ def theme_head(path):
     css = theme.get("css") or ""
     if css and re.fullmatch(r":root\{[^<>{}]*\}", css):
         out += '<style id="theme">%s</style>\n' % css
+    rules = theme.get("rules") or ""
+    if isinstance(rules, str) and rules.strip() and "<" not in rules:
+        out += '<style id="theme-rules">\n%s\n</style>\n' % rules
+    icon = theme.get("favicon") or ""
+    if isinstance(icon, str) and re.fullmatch(r"images/[A-Za-z0-9._-]{1,120}\.(png|jpe?g|svg|ico)", icon):
+        out += '<link rel="icon" href="%s">\n' % icon
+    return out
+
+
+def theme_social(path):
+    """The social media addresses chosen in the theme, for the footer and the menu."""
+    if not os.path.exists(path):
+        return {}
+    theme = json.load(open(path, encoding="utf-8"))
+    out = {}
+    for k, v in (theme.get("social") or {}).items():
+        if isinstance(v, dict) and isinstance(v.get("href"), str) and re.fullmatch(r"https://[^\s<>\"'`]+", v["href"]) and isinstance(v.get("label"), str):
+            out[k] = {"label": v["label"][:20], "href": v["href"]}
     return out
 
 
@@ -115,11 +133,14 @@ def main():
         "const ARTICLES = " + js(articles) + ";",
         "const GUIDES = " + js(data["guides"]) + ";",
         "const PAGES = " + js(pages) + ";",
+        "let SOCIAL = " + js(theme_social(os.path.join(ROOT, "content", "theme.json"))) + ";",
     ])
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
         page = template.replace(MARK, block)
         theme = theme_head(os.path.join(ROOT, "content", "theme.json"))
+        if 'rel="icon" href="images/' in theme:
+            page = re.sub(r'<link rel="icon"[^>]*>\n?', "", page)
         if theme:
             if page.count("</head>") != 1:
                 sys.exit("The layout file must contain one </head>.")
