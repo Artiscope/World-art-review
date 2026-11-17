@@ -832,6 +832,24 @@ footer .bar{padding-top:1rem}
 .dots{display:none}
 .lb-nav .iconbtn svg{display:none}
 
+
+/* add-ons: our own small extras, switched on in Artiscope Digital Home */
+.ao-share { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; max-width: 72rem; margin: 2.5rem auto; padding: 0 1.5rem; font-family: 'Libre Franklin', Arial, sans-serif; font-size: calc(13.5px * var(--b-scale, 1)); }
+.ao-share span { opacity: .75; }
+.ao-share a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.ao-top { position: fixed; right: 22px; bottom: 22px; z-index: 80; border: 0; cursor: pointer; padding: 11px 18px; background: #1D4A35; color: #EEE5D4; font-family: 'Libre Franklin', Arial, sans-serif; font-size: calc(13px * var(--b-scale, 1)); border-radius: 0; opacity: 0; transform: translateY(8px); pointer-events: none; transition: opacity .2s ease, transform .2s ease; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.ao-top.left { right: auto; left: 22px; }
+.ao-top.on { opacity: 1; transform: none; pointer-events: auto; }
+.ao-progress { position: fixed; left: 0; right: 0; top: 0; height: 3px; z-index: 70; pointer-events: none; }
+.ao-progress i { display: block; height: 100%; width: 0; background: #B5392B; }
+.ao-progress.pct { left: auto; top: auto; right: 22px; bottom: 76px; height: auto; padding: 6px 10px; background: #1D4A35; color: #EEE5D4; font-family: 'Libre Franklin', Arial, sans-serif; font-size: calc(12px * var(--b-scale, 1)); border-radius: 0; }
+.ao-progress.pct b { font-weight: 600; }
+.ao-privacy { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 65; max-width: 640px; display: flex; align-items: center; gap: 14px; padding: 12px 14px 12px 18px; background: #1D4A35; color: #EEE5D4; font-family: 'Libre Franklin', Arial, sans-serif; font-size: calc(13.5px * var(--b-scale, 1)); border-radius: 0; box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+.ao-privacy[hidden] { display: none; }
+.ao-privacy p { margin: 0; flex: 1; }
+.ao-privacy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.ao-privacy button { border: 0; cursor: pointer; padding: 8px 14px; background: #EEE5D4; color: #1D4A35; font: inherit; border-radius: 0; }
+@media (max-width: 600px) { .ao-top { right: 14px; bottom: 14px; } .ao-top.left { left: 14px; } .ao-privacy { left: 10px; right: 10px; bottom: 10px; } }
 </style>
 </head>
 <body>
@@ -1627,7 +1645,29 @@ function cssMark(html, sec) {
 function drawSec(x, o){ return cssMark(SECTIONS[x.type](x.settings||{}, x.id, o), x); }
 function groupSecs(where){ return (((PAGES.groups||{})[where])||[]).filter(x => x && x.visible !== false && SECTIONS[x.type]); }
 function groupHTML(where, ann){ return groupSecs(where).filter(x => where !== 'top' || (x.type === 'announcement') === !!ann).map(x => drawSec(x, {first:false})).join('\n'); }
-function footerHTML(){ return groupHTML('bottom') + footerOnly() + groupHTML('popups'); }
+
+// ----- add-ons: our own small extras for every page, switched on in Artiscope Digital Home -----
+function aoClosed() { try { return typeof localStorage !== "undefined" && localStorage.getItem("ao-privacy-closed") === "1"; } catch (x) { return false; } }
+function aoHtml(A, kind, url, title, esc, link) {
+  A = A || {}; var out = { share: "", fixed: "" }, on = function (id) { return !!(A[id] && A[id].on === true); };
+  var fits = function (w) { return w === "all" || (w === "items" ? (kind === "article" || kind === "artist") : kind === "article"); };
+  if (on("share") && fits(A.share.where || "articles")) {
+    var u = encodeURIComponent(url), t = encodeURIComponent(title || "");
+    var nets = { email: ["Email", "mailto:?subject=" + t + "&body=" + u], x: ["X", "https://x.com/intent/post?url=" + u + "&text=" + t], linkedin: ["LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + u], facebook: ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + u] };
+    var links = (A.share.networks || []).filter(function (n) { return nets[n]; }).map(function (n) { return '<a href="' + esc(nets[n][1]) + '"' + (n === "email" ? "" : ' target="_blank" rel="noopener noreferrer"') + '>' + nets[n][0] + '</a>'; }).join("");
+    if (links) out.share = '<aside class="ao-share" aria-label="Share this page"><span>' + esc(A.share.heading || "Share this page") + '</span>' + links + '</aside>';
+  }
+  if (on("progress") && fits(A.progress.where || "articles")) out.fixed += A.progress.style === "percent" ? '<div class="ao-progress pct" aria-hidden="true"><b>0%</b></div>' : '<div class="ao-progress" aria-hidden="true"><i></i></div>';
+  if (on("top")) out.fixed += '<button type="button" class="ao-top' + (A.top.side === "left" ? " left" : "") + '" data-after="' + (Number(A.top.after) || 600) + '">' + esc(A.top.label || "Top") + '</button>';
+  if (on("privacy")) out.fixed += '<div class="ao-privacy" role="region" aria-label="Privacy"><p>' + esc(A.privacy.text || "") + (A.privacy.link && A.privacy.link_label ? ' <a href="' + esc(link(A.privacy.link)) + '">' + esc(A.privacy.link_label) + '</a>' : "") + '</p><button type="button" data-ao-close>' + esc(A.privacy.button || "Close") + '</button></div>';
+  return out;
+}
+/* the add-ons for the page being drawn: share links before the bottom of the page, the rest fixed on the screen */
+function aoNow(){ const h = here0(), kind = h.indexOf('a-') === 0 ? 'article' : h.indexOf('artist-') === 0 ? 'artist' : 'page';
+  const it = kind === 'article' ? articleBy(h.slice(2)) : kind === 'artist' ? artistBy(h.slice(7)) : null;
+  return aoHtml(PAGES.addons, kind, location.href.split('#')[0] + (h === 'home' ? '' : '#' + h), it ? (it.title || it.name) : document.title, esc, function(x){ return x; }); }
+function here0(){ return (location.hash||'').replace('#','') || 'home'; }
+function footerHTML(){ const ao = aoNow(); return ao.share + groupHTML('bottom') + footerOnly() + groupHTML('popups') + ao.fixed; }
 /* Social media addresses from the theme: once any is filled in, they take the place of the
    network links in the footer and the menu, and only those filled in are shown. */
 const NETWORKS = ['Instagram','X','LinkedIn','Facebook','Pinterest','YouTube','TikTok'];
@@ -2330,6 +2370,25 @@ function setupSpy(){
    ========================================================= */
 const main = $('main');
 let firstRender = true;
+// add-ons: the Top button, the reading progress and the privacy notice's Close
+function aoWire() {
+  if (typeof window === "undefined") return;
+  var tick = function () {
+    var t = document.querySelector(".ao-top"); if (t) { t.classList.toggle("on", window.scrollY > (Number(t.getAttribute("data-after")) || 600)); var d = document.getElementById("dock"); t.style.bottom = d && d.classList.contains("show") ? "96px" : ""; }
+    var p = document.querySelector(".ao-progress"); if (p) { var h = document.documentElement.scrollHeight - window.innerHeight, f = h > 0 ? Math.min(1, Math.max(0, window.scrollY / h)) : 0, bar = p.querySelector("i"), n = p.querySelector("b"); if (bar) bar.style.width = (f * 100).toFixed(1) + "%"; if (n) n.textContent = Math.round(f * 100) + "%"; }
+  };
+  var pv = document.querySelector(".ao-privacy"); if (pv && !window.ADH_EDIT) { try { if (localStorage.getItem("ao-privacy-closed") === "1") pv.hidden = true; } catch (x) { } }
+  if (!window.__aoWired) {
+    window.__aoWired = true;
+    window.addEventListener("scroll", function () { requestAnimationFrame(function () { requestAnimationFrame(tick); }); }, { passive: true }); window.addEventListener("resize", function () { requestAnimationFrame(tick); });
+    document.addEventListener("click", function (e) {
+      if (window.ADH_EDIT || !e.target.closest) return;
+      var c = e.target.closest("[data-ao-close]"); if (c) { var n = c.closest(".ao-privacy"); if (n) n.hidden = true; try { localStorage.setItem("ao-privacy-closed", "1"); } catch (x) { } return; }
+      if (e.target.closest(".ao-top")) { e.preventDefault(); try { window.scrollTo({ top: 0, behavior: "smooth" }); } catch (x) { window.scrollTo(0, 0); } }
+    });
+  }
+  tick();
+}
 function render(){
   const h = (location.hash||'').replace('#','') || 'home';
   let html, srcOrder = null, title = 'World Art Review', dock = null, slug = null;
@@ -2347,7 +2406,7 @@ function render(){
     html = pages[h](); title = h.charAt(0).toUpperCase()+h.slice(1)+' | World Art Review';
   }
   if(!html){ html = shell(pageHead('Not found',[{t:'We could not'},{t:'find that page'}],'<a href="#home" style="color:var(--brick)">Return to the homepage</a>.')); }
-  main.innerHTML = html; menuSocial();
+  main.innerHTML = html; menuSocial(); aoWire();
   let secCss = document.getElementById('sec-css');
   if(SEC_CSS.length){ if(!secCss){ secCss = document.createElement('style'); secCss.id = 'sec-css'; document.head.appendChild(secCss); } secCss.textContent = SEC_CSS.join('\n'); } else if(secCss) secCss.remove();
   document.title = title;
@@ -2481,7 +2540,7 @@ function content(d,show){ if(!d||typeof d!=="object") return; try{
   ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
 }catch(x){} }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists; if(e.data.pages.templates) PAGES.templates=e.data.pages.templates; if(e.data.pages.assign) PAGES.assign=e.data.pages.assign; window.ADH_TPL=e.data.tpl||null;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists; if(e.data.pages.templates) PAGES.templates=e.data.pages.templates; if(e.data.pages.assign) PAGES.assign=e.data.pages.assign; if(e.data.pages.addons) PAGES.addons=e.data.pages.addons; window.ADH_TPL=e.data.tpl||null;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
     setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
