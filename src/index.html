@@ -2351,7 +2351,7 @@ function article(a){
     <p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${esc(a.dek)}</p>
     <div class="byline" data-in data-from='{"opacity":0,"y":10}' data-delay="400"><span>${ph('Author')}</span><span>${a.minutes} minute read</span><span>Updated ${a.updated}</span>${a.status?`<span class="status todo">${a.status}</span>`:''}${saveBtn(a.slug,true)}<button class="iconbtn" type="button" data-copy>${IC.link}<span>${W("btn.copy", "Copy link")}</span></button></div>
   </div>
-  ${(a.credit||a.image)?`<div class="art-hero" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":170,"friction":26}'>${plateFor(a,{eager:true, credit:a.credit})}</div>`:''}
+  ${(a.credit||a.image||window.ADH_EDIT)?`<div class="art-hero" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":170,"friction":26}'>${plateFor(a,{eager:true, credit:a.credit})}</div>`:''}
   <div class="art-body">
     <div class="main">
       <div class="prose ${readSize}" id="articleBody">${a.body}${a.compare?compareTable():''}</div>
