@@ -2573,12 +2573,42 @@ function content(d,show){ if(!d||typeof d!=="object") return; try{
   ARTISTS.length=0; (d.artists||[]).forEach(function(a){ var x=Object.assign({},a); x.works=(a.works||[]).filter(function(w){return !(w&&w.hidden===true);}).map(function(w){ return Object.assign({},w,{image:w.image?picSrc(w.image):null}); }); ARTISTS.push(x); });
   ARTICLES.length=0; (d.articles||[]).forEach(function(a){ if(a.hidden===true&&a.slug!==show) return; ARTICLES.push(Object.assign({},a)); });
 }catch(x){} }
+  // Edit default text: "Show me where" outlines the first place on this page that shows a word.
+  // A word with slots ({n} of {total}) matches whatever the site filled in. The text of a whole
+  // element is tried first, so "Close" does not match inside a longer line.
+  function findClear() {
+    var t = document.getElementById("adh-found-tag"); if (t) { t.remove(); }
+    Array.prototype.forEach.call(document.querySelectorAll(".adh-found"), function (x) { x.classList.remove("adh-found"); });
+  }
+  function findWord(text, label) {
+    findClear();
+    var t = String(text || "").replace(/\s+/g, " ").trim(); if (!t) { return 0; }
+    var body = t.split(/\{[a-z]+\}/).map(function (p) { return p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join(".+?");
+    var exact = new RegExp("^" + body + "$"), part = new RegExp(body), hit = null, loose = null;
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    for (var n = walker.nextNode(); n && !hit; n = walker.nextNode()) {
+      var el = n.parentElement; if (!el || el.closest("#adh-hover, #adh-found-tag, script, style, noscript")) { continue; }
+      var r = el.getBoundingClientRect(); if (!r.width || !r.height) { continue; }
+      var own = n.nodeValue.replace(/\s+/g, " ").trim(), all = (el.textContent || "").replace(/\s+/g, " ").trim();
+      if (exact.test(own) || exact.test(all)) { hit = el; } else if (!loose && part.test(own)) { loose = el; }
+    }
+    hit = hit || loose; if (!hit) { return 0; }
+    if (!document.getElementById("adh-found-css")) { var st = document.createElement("style"); st.id = "adh-found-css"; st.textContent = ".adh-found{outline:2px solid #8EC5FF!important;outline-offset:3px;border-radius:4px}#adh-found-tag{position:absolute;z-index:2147483000;background:#8EC5FF;color:#0E1A26;font:600 12px/1 'Libre Franklin',Arial,sans-serif;padding:6px 10px;border-radius:7px;white-space:nowrap;pointer-events:none}"; document.head.appendChild(st); }
+    hit.classList.add("adh-found");
+    var b = hit.getBoundingClientRect(), y = window.pageYOffset + b.top - Math.max(80, (window.innerHeight - b.height) / 2);
+    window.scrollTo(0, Math.max(0, y));
+    var tag = document.createElement("div"); tag.id = "adh-found-tag"; tag.textContent = label || t;
+    tag.style.left = Math.max(4, window.pageXOffset + b.left - 2) + "px"; tag.style.top = Math.max(4, window.pageYOffset + b.top - 32) + "px";
+    document.body.appendChild(tag);
+    return 1;
+  }
 window.addEventListener("message",function(e){if(e.origin!==ok||!e.data)return; if(!active){ active=true; window.ADH_EDIT=true; document.documentElement.classList.add("rm"); try{ reduceMotion=true; }catch(x){} }
-  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists; if(e.data.pages.templates) PAGES.templates=e.data.pages.templates; if(e.data.pages.assign) PAGES.assign=e.data.pages.assign; if(e.data.pages.addons) PAGES.addons=e.data.pages.addons; window.ADH_TPL=e.data.tpl||null;
+  if(e.data.type==="adh-pages"&&e.data.pages&&typeof PAGES==="object"){ findClear(); NAMES=e.data.names||{}; if(e.data.social&&typeof e.data.social==="object"){ SOCIAL=e.data.social; } hoverOff(); window.ADH_IMAGES=e.data.images||{}; content(e.data.content,e.data.show); pictures(e.data.pictures); PAGES.pages=e.data.pages.pages||PAGES.pages; PAGES.shared=e.data.pages.shared||PAGES.shared; PAGES.groups=e.data.pages.groups||PAGES.groups||{}; if(e.data.pages.lists) PAGES.lists=e.data.pages.lists; if(e.data.pages.templates) PAGES.templates=e.data.pages.templates; if(e.data.pages.assign) PAGES.assign=e.data.pages.assign; if(e.data.pages.addons) PAGES.addons=e.data.pages.addons; PAGES.words=e.data.pages.words&&typeof e.data.pages.words==="object"?e.data.pages.words:{}; window.ADH_TPL=e.data.tpl||null;
     var want=String(e.data.at||"home"), moved=here()!==want, d=e.data;
     try{ if(moved) location.hash=want; else render(); }catch(x){}
     setTimeout(function(){ pick(d.pick,d.block,d.label,d.scroll||moved,d.bf,d.bi); },moved?320:0); return; }
   if(e.data.type==="adh-pick"){ pick(e.data.id,e.data.block,e.data.label,true,e.data.bf,e.data.bi); return; }
+  if(e.data.type==="adh-find"){ var found=findWord(e.data.text,e.data.label); window.parent.postMessage({type:"adh-found",key:e.data.key,found:found},ok); return; }
 });
 /* shared pictures of artists and articles, as changed in the console and not saved yet */
 function pictures(list){ if(!Array.isArray(list)) return; list.forEach(function(p){ var k=String(p&&p.key||"").split(":"), all=k[0]==="artist"?ARTISTS:k[0]==="article"?ARTICLES:null; if(!all) return; var x=all.find(function(y){return y.slug===k[1];}); if(!x) return;
