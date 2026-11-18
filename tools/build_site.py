@@ -83,6 +83,10 @@ def check_pages(pages):
         sys.exit("The templates chosen for articles and artists must be listed by kind.")
     if not isinstance(pages.get("lists", {}), dict):
         sys.exit("The list headings in content/pages.json must be a list of fields.")
+    # changed fixed words, from Edit default text: plain words only
+    words = pages.get("words", {})
+    if not isinstance(words, dict) or any(not isinstance(v, str) for v in words.values()):
+        sys.exit("The changed words in content/pages.json must be a list of plain words.")
 
 
 def visible(items):

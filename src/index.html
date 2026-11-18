@@ -983,6 +983,40 @@ function ph(t){ return `<span class="placeholder">[${t}]</span>`; }
 function artistBy(slug){ return ARTISTS.find(a => a.slug === slug); }
 function articleBy(slug){ return ARTICLES.find(a => a.slug === slug); }
 function esc(s){ return String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m])); }
+/* The fixed words of the design. Edit default text in Artiscope Digital Home keeps changed ones in
+   content/pages.json under "words"; any word not changed keeps the site's own, written beside each W().
+   Wt gives the plain words, W the words ready for the page. */
+function Wt(key, dflt, slots){
+  const w = (typeof PAGES !== 'undefined' && PAGES && PAGES.words && typeof PAGES.words === 'object') ? PAGES.words : {};
+  let t = typeof w[key] === 'string' && w[key].trim() ? w[key] : dflt;
+  Object.keys(slots || {}).forEach(k => { t = t.split('{' + k + '}').join(slots[k]); });
+  return t;
+}
+function W(key, dflt, slots){ let t = esc(Wt(key, dflt)); Object.keys(slots || {}).forEach(k => { t = t.split('{' + k + '}').join(slots[k]); }); return t; }
+/* the words written into the page itself, outside what is drawn; set again whenever the words change */
+function applyWords(){
+  const set = (sel, v, attr) => document.querySelectorAll(sel).forEach(el => { if(attr) el.setAttribute(attr, v); else el.textContent = v; });
+  set('#menuPanel', Wt("sr.menu", "Menu"), 'aria-label'); set('#menuPanel .links', Wt("sr.menu", "Menu"), 'aria-label');
+  set('#menuClose', Wt("menu.close", "Close"));
+  set('#menuPanel .links a[href="#artists"]', Wt("menu.artists", "Artists A to Z")); set('#menuPanel .links a[href="#reviews"]', Wt("menu.reviews", "Reviews"));
+  set('#menuPanel .links a[href="#explained"]', Wt("menu.explained", "Art Explained")); set('#menuPanel .links a[href="#library"]', Wt("menu.library", "Collector's Library"));
+  set('#menuPanel .links a[data-go="method"]', Wt("menu.method", "How we research"));
+  set('#menuSub', Wt("menu.subscribe", "Subscribe")); set('#menuMore', Wt("sr.more", "More"), 'aria-label'); set('#menuSearch', Wt("menu.search", "Search"));
+  set('#subClose', Wt("btn.close", "Close")); set('label[for="subName"]', Wt("form.your-name", "Your name")); set('label[for="subEmail"]', Wt("form.email", "Your email"));
+  set('#subErr', Wt("form.sub-err", "We need a working email address to send it to.")); set('label[for="subTopics"]', Wt("form.topics", "Anything you would like us to cover? Optional."));
+  set('#subSend', Wt("btn.join", "Ask to join")); set('#subDone', Wt("btn.back-reading", "Back to reading"));
+  set('#palette .palette-panel', Wt("sr.search", "Search World Art Review"), 'aria-label'); set('label[for="palQ"]', Wt("menu.search", "Search"));
+  set('#palQ', Wt("search.hint", "Artists, artworks, techniques"), 'placeholder'); set('#palette [data-close].iconbtn', Wt("sr.close-search", "Close search"), 'aria-label');
+  set('#palResults', Wt("sr.results", "Results"), 'aria-label');
+  const keys = document.querySelectorAll('#palette .pal-foot span');
+  if(keys.length === 3){ keys[0].textContent = Wt("search.keys-move", "Up and down arrows to move"); keys[1].textContent = Wt("search.keys-open", "Enter to open"); keys[2].textContent = Wt("search.keys-close", "Esc to close"); }
+  set('#drawer .drawer-head [data-close]', Wt("btn.close", "Close"));
+  set('#gallery .gw-kicker', Wt("gw.kicker", "Gallery walk")); set('#gwPrev', Wt("btn.previous", "Previous")); set('#gwNext', Wt("btn.next", "Next"));
+  set('#gallery .gw-ctrl [data-close]', Wt("btn.leave-gallery", "Leave the gallery")); set('#gwTrack', Wt("sr.wall", "Works on the wall"), 'aria-label');
+  set('label[for="gwNoteBox"]', Wt("note.ask", "What do you notice?")); set('#gwNoteBox', Wt("gw.note-hint", "Write it down before you move on"), 'placeholder');
+  set('#gallery .gw-hint', Wt("gw.hint", "Drag, scroll or use the arrow keys.")); set('#pop', Wt("sr.source", "Source"), 'aria-label'); set('#dock', Wt("sr.tools", "Reading tools"), 'aria-label');
+  if(typeof syncSaved === 'function') try { syncSaved(false); } catch(e) {}
+}
 function stripTags(s){ return String(s).replace(/<[^>]*>/g,' ').replace(/\s+/g,' '); }
 function swatch(tone){ return `<span class="plate-bg" style="position:absolute;inset:0;background:${tone}"></span>`; }
 function lines(parts, cls){ return parts.map(p => `<span class="ln"${p.b?` data-adh-b="${p.b}"`:''}><span${p.cls?` class="${p.cls}"`:''}>${p.t}</span></span>`).join(''); }
@@ -990,7 +1024,7 @@ function words(text, cls){ return text.split(' ').map(w => `<span class="wd"><sp
 function plateFor(item, opts){
   opts = opts || {};
   const tone = item.heroTone && opts.hero ? item.heroTone : (item.tone || 'var(--paper-deep)');
-  const img = item.image ? `<img src="${esc(item.image)}" alt="${esc(item.alt || item.name || item.title || '')}" loading="${opts.eager?'eager':'lazy'}">` : `<span class="supply">${opts.note || 'Image to supply'}</span>`;
+  const img = item.image ? `<img src="${esc(item.image)}" alt="${esc(item.alt || item.name || item.title || '')}" loading="${opts.eager?'eager':'lazy'}">` : `<span class="supply">${opts.note || W("missing.image", "Image to supply")}</span>`;
   const credit = opts.credit ? `<span class="credit">${esc(opts.credit)}</span>` : '';
   return `<div class="plate${opts.cls?' '+opts.cls:''}" style="--tone:${tone};${opts.style||''}">${img}${credit}</div>`;
 }
@@ -1166,15 +1200,15 @@ function persist(){ try { localStorage.setItem('war-saved', JSON.stringify(saved
 function isSaved(slug){ return saved.includes(slug); }
 function toggleSave(slug){
   const a = articleBy(slug); if(!a) return;
-  if(isSaved(slug)){ saved = saved.filter(s => s!==slug); toast('Removed from your reading list'); }
-  else { saved.unshift(slug); toast('Saved to your reading list'); }
+  if(isSaved(slug)){ saved = saved.filter(s => s!==slug); toast(Wt("toast.removed", "Removed from your reading list")); }
+  else { saved.unshift(slug); toast(Wt("toast.saved", "Saved to your reading list")); }
   persist(); syncSaved(true);
 }
 function syncSaved(bump){
   document.querySelectorAll('[data-save]').forEach(b => b.setAttribute('aria-pressed', isSaved(b.dataset.save)));
   const total = saved.length + Object.keys(notes).length;
-  const mn = $('menuNotes'); if(mn) mn.textContent = total ? `Your notebook (${total})` : 'Your notebook';
-  if(!$('drawer').hidden && $('drawerTitle').textContent==='Your notebook') fillSaved();
+  const mn = $('menuNotes'); if(mn) mn.textContent = total ? Wt("menu.notebook-count", "Your notebook ({n})", { n: String(total) }) : Wt("menu.notebook", "Your notebook");
+  if(!$('drawer').hidden && $('drawerTitle').textContent===Wt("menu.notebook", "Your notebook")) fillSaved();
 }
 
 
@@ -1212,7 +1246,7 @@ function showPop(a){
   const id = a.dataset.src, s = SOURCES[id]; if(!s) return;
   clearTimeout(popTimer);
   const p = $('pop');
-  p.innerHTML = `<div class="pk">${esc(s.kind)}</div><div class="pt">${esc(s.title)}</div><div>${esc(s.pub)}, ${esc(s.date)}</div><div class="pa"><button type="button" data-jump-src="${id}">See in sources</button>${s.url?`<a href="${s.url}" target="_blank" rel="noopener">Open original</a>`:''}</div>`;
+  p.innerHTML = `<div class="pk">${esc(s.kind)}</div><div class="pt">${esc(s.title)}</div><div>${esc(s.pub)}, ${esc(s.date)}</div><div class="pa"><button type="button" data-jump-src="${id}">${W("btn.see-sources", "See in sources")}</button>${s.url?`<a href="${s.url}" target="_blank" rel="noopener">${W("btn.open-original", "Open original")}</a>`:''}</div>`;
   const r = a.getBoundingClientRect();
   const w = Math.min(300, window.innerWidth-24);
   let left = r.left + window.scrollX + r.width/2 - w/2;
@@ -1254,11 +1288,11 @@ function numberCitations(root, order){
 }
 function sourcesHTML(ids){
   if(!ids.length) return '';
-  return `<section class="sources" id="sources-list" aria-labelledby="srcH"><h2 id="srcH">Sources</h2><ol>${
+  return `<section class="sources" id="sources-list" aria-labelledby="srcH"><h2 id="srcH">${W("item.sources", "Sources")}</h2><ol>${
     ids.map(id => { const s = SOURCES[id]; if(!s) return '';
       const t = s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title);
       return `<li id="src-${id}" style="border-radius:0;padding:2px 4px;margin-left:-4px">${t}. ${esc(s.pub)}, ${esc(s.date)}. <span class="meta">${esc(s.kind)}.</span></li>`; }).join('')
-  }</ol><p class="meta" style="margin-top:16px">Spotted an error? <a href="#standards" style="text-decoration:underline">Tell us how to correct it</a>.</p></section>`;
+  }</ol><p class="meta" style="margin-top:16px">${W("item.spotted", "Spotted an error?")} <a href="#standards" style="text-decoration:underline">${W("item.tell-us", "Tell us how to correct it")}</a>.</p></section>`;
 }
 
 
@@ -1348,13 +1382,13 @@ let noteTimer;
 function bindNote(ta, stateEl, a, i){
   const key = noteKey(a, i);
   ta.value = notes[key] ? notes[key].text : '';
-  stateEl.textContent = notes[key] ? 'In your notebook' : '';
+  stateEl.textContent = notes[key] ? Wt("note.in", "In your notebook") : '';
   ta.oninput = () => {
-    stateEl.textContent = 'Writing...';
+    stateEl.textContent = Wt("note.writing", "Writing...");
     clearTimeout(noteTimer);
     noteTimer = setTimeout(() => {
       const w = a.works[i], t = ta.value.trim();
-      if(t){ notes[key] = {text:t, artist:a.slug, title:w.title||'Untitled work', date:new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}; stateEl.textContent = 'Saved in your notebook'; }
+      if(t){ notes[key] = {text:t, artist:a.slug, title:w.title||Wt("missing.untitled", "Untitled work"), date:new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}; stateEl.textContent = Wt("note.saved", "Saved in your notebook"); }
       else { delete notes[key]; stateEl.textContent = ''; }
       persistNotes(); syncSaved(false);
     }, 500);
@@ -1365,24 +1399,24 @@ function fillSaved(){
   const items = saved.map(articleBy).filter(Boolean);
   const ns = Object.entries(notes);
   const savedHTML = items.length
-    ? items.map(a=>`<div class="saved-item" data-row="${a.slug}"><span class="sw">${swatch(a.tone)}</span><a href="#a-${a.slug}"><span class="label">${esc(a.kicker)}</span><span class="tt">${esc(a.title)}</span></a><button class="iconbtn" type="button" data-unsave="${a.slug}" aria-label="Remove ${esc(a.title)}">Remove</button></div>`).join('')
-    : `<p class="meta">Use the bookmark on any article to keep it here.</p>`;
+    ? items.map(a=>`<div class="saved-item" data-row="${a.slug}"><span class="sw">${swatch(a.tone)}</span><a href="#a-${a.slug}"><span class="label">${esc(a.kicker)}</span><span class="tt">${esc(a.title)}</span></a><button class="iconbtn" type="button" data-unsave="${a.slug}" aria-label="${W("sr.remove", "Remove {title}", { title: esc(a.title) })}">${W("btn.remove", "Remove")}</button></div>`).join('')
+    : `<p class="meta">${W("note.empty-saved", "Use the bookmark on any article to keep it here.")}</p>`;
   const notesHTML = ns.length
-    ? ns.map(([k,n])=>{ const a = artistBy(n.artist); return `<div class="nb-note" data-note="${esc(k)}"><div class="row"><span class="nt"><i>${esc(n.title)}</i>${a?', '+esc(a.name):''}</span><button class="iconbtn" type="button" data-unnote="${esc(k)}" aria-label="Delete this note">Delete</button></div><p>${esc(n.text)}</p><span class="meta">${esc(n.date)}${a?` · <a href="#artist-${a.slug}" style="text-decoration:underline">Open the portfolio</a>`:''}</span></div>`; }).join('')
-    : `<p class="meta">Open any documented work and write down what you notice. Your notes collect here.</p>`;
-  $('drawerBody').innerHTML = `<p class="meta" style="margin-bottom:22px">Kept in this browser only. Nobody else can see it.</p>
-    <div class="nb-section"><h3>Saved to read</h3>${savedHTML}</div>
-    <div class="nb-section"><h3>What you noticed</h3>${notesHTML}</div>`;
+    ? ns.map(([k,n])=>{ const a = artistBy(n.artist); return `<div class="nb-note" data-note="${esc(k)}"><div class="row"><span class="nt"><i>${esc(n.title)}</i>${a?', '+esc(a.name):''}</span><button class="iconbtn" type="button" data-unnote="${esc(k)}" aria-label="${W("sr.delete-note", "Delete this note")}">${W("btn.delete", "Delete")}</button></div><p>${esc(n.text)}</p><span class="meta">${esc(n.date)}${a?` · <a href="#artist-${a.slug}" style="text-decoration:underline">Open the portfolio</a>`:''}</span></div>`; }).join('')
+    : `<p class="meta">${W("note.empty-notes", "Open any documented work and write down what you notice. Your notes collect here.")}</p>`;
+  $('drawerBody').innerHTML = `<p class="meta" style="margin-bottom:22px">${W("note.kept", "Kept in this browser only. Nobody else can see it.")}</p>
+    <div class="nb-section"><h3>${W("note.saved-read", "Saved to read")}</h3>${savedHTML}</div>
+    <div class="nb-section"><h3>${W("note.noticed", "What you noticed")}</h3>${notesHTML}</div>`;
   $('drawerBody').querySelectorAll('[data-unsave]').forEach(b => b.onclick = () => {
     const row = b.closest('.saved-item'); row.classList.add('gone');
     setTimeout(()=>toggleSave(b.dataset.unsave), reduceMotion?0:260);
   });
   $('drawerBody').querySelectorAll('[data-unnote]').forEach(b => b.onclick = () => {
     const row = b.closest('.nb-note'); row.classList.add('gone');
-    setTimeout(()=>{ delete notes[b.dataset.unnote]; persistNotes(); syncSaved(false); toast('Note deleted'); }, reduceMotion?0:260);
+    setTimeout(()=>{ delete notes[b.dataset.unnote]; persistNotes(); syncSaved(false); toast(Wt("note.deleted", "Note deleted")); }, reduceMotion?0:260);
   });
 }
-function openSaved(){ $('drawerTitle').textContent = 'Your notebook'; fillSaved(); openOv('drawer', '[data-close]'); }
+function openSaved(){ $('drawerTitle').textContent = Wt("menu.notebook", "Your notebook"); fillSaved(); openOv('drawer', '[data-close]'); }
 
 
 
@@ -1392,16 +1426,16 @@ function openSaved(){ $('drawerTitle').textContent = 'Your notebook'; fillSaved(
 let lbWorks = [], lbArtist = null, lbIndex = 0;
 function renderLightbox(anim){
   const w = lbWorks[lbIndex];
-  $('lbPlate').innerHTML = swatch(w.tone) + `<span class="credit" style="position:absolute;left:18px;bottom:18px;font-family:var(--sans);font-size:13px;background:var(--paper);padding:6px 10px;border-radius:0">${w.title?'Image to supply':'Work to be documented'}</span>`;
+  $('lbPlate').innerHTML = swatch(w.tone) + `<span class="credit" style="position:absolute;left:18px;bottom:18px;font-family:var(--sans);font-size:13px;background:var(--paper);padding:6px 10px;border-radius:0">${w.title?W("missing.image", "Image to supply"):W("missing.work", "Work to be documented")}</span>`;
   const srcs = w.src.map(id => SOURCES[id]).filter(Boolean);
   $('lbInfo').innerHTML = `<p class="label">${esc(lbArtist.name)}</p>
     <h2 id="lbTitle">${w.title?esc(w.title):ph('Title')}</h2>
-    <dl><dt>Year</dt><dd>${w.year?esc(w.year):ph('Year')}</dd><dt>Medium</dt><dd>${w.medium?esc(w.medium):ph('Medium')}</dd>${w.size===false?'':`<dt>Size</dt><dd>${w.size?esc(w.size):ph('Size')}</dd>`}${w.note?`<dt>Notes</dt><dd>${esc(w.note)}</dd>`:''}<dt>Source</dt><dd>${srcs.length?srcs.map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(s.pub)}, ${esc(s.date)}</a>`:esc(s.pub)).join('<br>'):ph('Source')}</dd></dl>
-    <div class="note-box"><label class="label" for="noteBox">What do you notice?</label><textarea id="noteBox" placeholder="A colour, a mark, a detail you keep coming back to"></textarea><span class="note-state" id="noteState" aria-live="polite"></span></div>
-    <div class="lb-nav"><span class="lb-count">${lbIndex+1} of ${lbWorks.length}</span>
-      <button class="iconbtn" type="button" id="lbPrev">Previous</button>
-      <button class="iconbtn" type="button" id="lbNext">Next</button>
-      <button class="iconbtn" type="button" data-close>Close</button></div>`;
+    <dl><dt>${W("item.year", "Year")}</dt><dd>${w.year?esc(w.year):ph(W("item.year", "Year"))}</dd><dt>${W("item.medium", "Medium")}</dt><dd>${w.medium?esc(w.medium):ph(W("item.medium", "Medium"))}</dd>${w.size===false?'':`<dt>${W("item.size", "Size")}</dt><dd>${w.size?esc(w.size):ph(W("item.size", "Size"))}</dd>`}${w.note?`<dt>${W("item.notes", "Notes")}</dt><dd>${esc(w.note)}</dd>`:''}<dt>${W("item.source", "Source")}</dt><dd>${srcs.length?srcs.map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener" style="text-decoration:underline">${esc(s.pub)}, ${esc(s.date)}</a>`:esc(s.pub)).join('<br>'):ph('Source')}</dd></dl>
+    <div class="note-box"><label class="label" for="noteBox">${W("note.ask", "What do you notice?")}</label><textarea id="noteBox" placeholder="${W("note.ask-hint", "A colour, a mark, a detail you keep coming back to")}"></textarea><span class="note-state" id="noteState" aria-live="polite"></span></div>
+    <div class="lb-nav"><span class="lb-count">${W("btn.count", "{n} of {total}", { n: String(lbIndex+1), total: String(lbWorks.length) })}</span>
+      <button class="iconbtn" type="button" id="lbPrev">${W("btn.previous", "Previous")}</button>
+      <button class="iconbtn" type="button" id="lbNext">${W("btn.next", "Next")}</button>
+      <button class="iconbtn" type="button" data-close>${W("btn.close", "Close")}</button></div>`;
   bindNote($('noteBox'), $('noteState'), lbArtist, lbIndex);
   $('lbPrev').onclick = () => stepLightbox(-1);
   $('lbNext').onclick = () => stepLightbox(1);
@@ -1427,7 +1461,7 @@ function openGallery(a){
 function gwItems(){ return [...$('gwTrack').children]; }
 function gwUpdate(){
   const items = gwItems(); if(!items.length) return;
-  $('gwCount').textContent = (gwIndex+1)+' of '+items.length;
+  $('gwCount').textContent = Wt("btn.count", "{n} of {total}", { n: String(gwIndex+1), total: String(items.length) });
   if(gwArtist) bindNote($('gwNoteBox'), $('gwNoteState'), gwArtist, gwIndex);
   items.forEach((it,i) => it.classList.toggle('cur', i===gwIndex));
 }
@@ -1481,14 +1515,14 @@ function setupDock(kind, slug){
   dockTarget = kind==='article' ? $('articleBody') : main.querySelector('.pf-main');
   const C = (2*Math.PI*17).toFixed(1);
   d.innerHTML = `<span class="ring" aria-hidden="true"><svg viewBox="0 0 42 42" width="42" height="42"><circle cx="21" cy="21" r="17" fill="none" style="stroke:var(--paper-deep)" stroke-width="3"/><circle id="dockFg" cx="21" cy="21" r="17" fill="none" style="stroke:var(--brick)" stroke-width="3" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}"/></svg><span id="dockPct">0%</span></span>${kind==='article'?'<span class="dock-ch" id="dockCh" aria-hidden="true"></span>':''}
-    ${kind==='article'?`<button type="button" id="dockSize" aria-label="Change text size"><span class="aa">Aa</span></button><button type="button" data-save="${slug}" aria-pressed="${isSaved(slug)}" aria-label="Save to reading list">${IC.bookmark}</button>`:''}
-    <button type="button" id="dockTop">Top</button>`;
+    ${kind==='article'?`<button type="button" id="dockSize" aria-label="${W("sr.text-size", "Change text size")}"><span class="aa">Aa</span></button><button type="button" data-save="${slug}" aria-pressed="${isSaved(slug)}" aria-label="${W("sr.save", "Save to reading list")}">${IC.bookmark}</button>`:''}
+    <button type="button" id="dockTop">${W("btn.top", "Top")}</button>`;
   $('dockTop').onclick = () => (lenis ? lenis.scrollTo(0) : window.scrollTo({top:0, behavior:reduceMotion?'auto':'smooth'}));
   if($('dockSize')) $('dockSize').onclick = () => {
     const order = ['size-s','','size-l']; readSize = order[(order.indexOf(readSize)+1)%3];
     const b = $('articleBody'); b.classList.remove('size-s','size-l'); if(readSize) b.classList.add(readSize);
     try { localStorage.setItem('war-size', readSize); } catch(e) {}
-    toast(readSize==='size-s'?'Smaller text':readSize==='size-l'?'Larger text':'Standard text');
+    toast(readSize==='size-s'?Wt("toast.smaller", "Smaller text"):readSize==='size-l'?Wt("toast.larger", "Larger text"):Wt("toast.standard", "Standard text"));
   };
   onScroll();
 }
@@ -1536,12 +1570,12 @@ function headLogos(where){
 }
 function headerHTML(dark){
   const name = esc(PAGES.shared.header.settings.name||'World Art Review'), L = headLogos('L'), C = headLogos('C');
-  const nav = `<nav class="left" aria-label="Sections">${(PAGES.shared.header.settings.links||[]).map((l,i)=>`<a href="${esc(l[1])}" data-adh-b="links.${i}">${esc(l[0])}</a>`).join('')}</nav>`;
+  const nav = `<nav class="left" aria-label="${W("sr.sections", "Sections")}">${(PAGES.shared.header.settings.links||[]).map((l,i)=>`<a href="${esc(l[1])}" data-adh-b="links.${i}">${esc(l[0])}</a>`).join('')}</nav>`;
   const centre = `<a href="#home" class="centre" aria-label="${name}, home">${IC.mark}<span>${name}</span></a>`;
   return `<header class="hdr${dark?' dark':' on-green'}">
     ${L ? `<div class="hside">${nav}${L}</div>` : nav}
     ${C ? `<div class="hmid">${centre}${C}</div>` : centre}
-    <div class="right">${headLogos('R')}<button type="button" class="wordbtn hdrword" data-sub>Subscribe</button><button type="button" class="wordbtn hdrword menubtn" data-menu aria-label="Open menu">Menu</button></div>
+    <div class="right">${headLogos('R')}<button type="button" class="wordbtn hdrword" data-sub>${W("menu.subscribe", "Subscribe")}</button><button type="button" class="wordbtn hdrword menubtn" data-menu aria-label="${W("sr.open-menu", "Open menu")}">${W("menu.open", "Menu")}</button></div>
   </header>`;
 }
 
@@ -1588,7 +1622,7 @@ function closeSub(){
   springTo(p, {opacity:1, x:0}, {opacity:0, x:48}, {tension:240, friction:28}, applyT(p), ()=>{ s.classList.remove('open'); s.setAttribute('aria-hidden','true'); });
   if(reduceMotion){ s.classList.remove('open'); s.setAttribute('aria-hidden','true'); }
   if(!menuOpen) unlockScroll();
-  subTimer = setTimeout(()=>{ $('subForm').reset(); $('sub').classList.remove('ok'); $('subSend').disabled = false; $('subSend').style.opacity=''; $('subSend').textContent = 'Ask to join'; $('subErr').hidden = true; }, 350);
+  subTimer = setTimeout(()=>{ $('subForm').reset(); $('sub').classList.remove('ok'); $('subSend').disabled = false; $('subSend').style.opacity=''; $('subSend').textContent = Wt("btn.join", "Ask to join"); $('subErr').hidden = true; }, 350);
   if(subLast && subLast.focus) subLast.focus();
 }
 $('subForm').addEventListener('submit', e => {
@@ -1597,7 +1631,7 @@ $('subForm').addEventListener('submit', e => {
   $('subErr').hidden = true;
   openMail('signup', $('subForm'));
   const first = ($('subName').value.trim().split(/\s+/)[0]) || 'there';
-  $('subThanks').textContent = first==='there' ? 'Your email app should now be open.' : `Thank you, ${first}. Your email app should now be open.`;
+  $('subThanks').textContent = first==='there' ? Wt("form.thanks", "Your email app should now be open.") : Wt("form.thanks-name", "Thank you, {name}. Your email app should now be open.", { name: first });
   $('sub').classList.add('ok'); $('subDone').focus();
 });
 /* the sign-up and contact sections on any page; they are drawn again as pages change, so one listener serves them all */
@@ -1605,8 +1639,8 @@ document.addEventListener('submit', e => {
   const f = e.target.closest && e.target.closest('form[data-mailform]'); if(!f) return;
   e.preventDefault();
   const kind = f.dataset.mailform, note = f.querySelector('.mf-note'), say = (t, bad) => { if(note){ note.textContent = t; note.classList.toggle('err', !!bad); } };
-  const email = f.elements.email; if(email && (!email.value.trim() || !email.checkValidity())){ email.focus(); say('We need a working email address, so we can reply.', true); return; }
-  if(kind === 'contact' && f.elements.message && !f.elements.message.value.trim()){ f.elements.message.focus(); say('Write your message first.', true); return; }
+  const email = f.elements.email; if(email && (!email.value.trim() || !email.checkValidity())){ email.focus(); say(Wt("form.need-email", "We need a working email address, so we can reply."), true); return; }
+  if(kind === 'contact' && f.elements.message && !f.elements.message.value.trim()){ f.elements.message.focus(); say(Wt("form.need-message", "Write your message first."), true); return; }
   openMail(kind, f);
   say(kind === 'contact' ? `Your email app should now be open with your message ready to send. If nothing opened, write to ${MAIL_TO}.` : `Your email app should now be open with the message ready. Send it and you are on the list. If nothing opened, write to ${MAIL_TO}.`);
 });
@@ -1655,11 +1689,11 @@ function aoHtml(A, kind, url, title, esc, link) {
     var u = encodeURIComponent(url), t = encodeURIComponent(title || "");
     var nets = { email: ["Email", "mailto:?subject=" + t + "&body=" + u], x: ["X", "https://x.com/intent/post?url=" + u + "&text=" + t], linkedin: ["LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + u], facebook: ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + u] };
     var links = (A.share.networks || []).filter(function (n) { return nets[n]; }).map(function (n) { return '<a href="' + esc(nets[n][1]) + '"' + (n === "email" ? "" : ' target="_blank" rel="noopener noreferrer"') + '>' + nets[n][0] + '</a>'; }).join("");
-    if (links) out.share = '<aside class="ao-share" aria-label="Share this page"><span>' + esc(A.share.heading || "Share this page") + '</span>' + links + '</aside>';
+    if (links) out.share = '<aside class="ao-share" aria-label="' + W("sr.share", "Share this page") + '"><span>' + esc(A.share.heading || "Share this page") + '</span>' + links + '</aside>';
   }
   if (on("progress") && fits(A.progress.where || "articles")) out.fixed += A.progress.style === "percent" ? '<div class="ao-progress pct" aria-hidden="true"><b>0%</b></div>' : '<div class="ao-progress" aria-hidden="true"><i></i></div>';
   if (on("top")) out.fixed += '<button type="button" class="ao-top' + (A.top.side === "left" ? " left" : "") + '" data-after="' + (Number(A.top.after) || 600) + '">' + esc(A.top.label || "Top") + '</button>';
-  if (on("privacy")) out.fixed += '<div class="ao-privacy" role="region" aria-label="Privacy"><p>' + esc(A.privacy.text || "") + (A.privacy.link && A.privacy.link_label ? ' <a href="' + esc(link(A.privacy.link)) + '">' + esc(A.privacy.link_label) + '</a>' : "") + '</p><button type="button" data-ao-close>' + esc(A.privacy.button || "Close") + '</button></div>';
+  if (on("privacy")) out.fixed += '<div class="ao-privacy" role="region" aria-label="' + W("sr.privacy", "Privacy") + '"><p>' + esc(A.privacy.text || "") + (A.privacy.link && A.privacy.link_label ? ' <a href="' + esc(link(A.privacy.link)) + '">' + esc(A.privacy.link_label) + '</a>' : "") + '</p><button type="button" data-ao-close>' + esc(A.privacy.button || "Close") + '</button></div>';
   return out;
 }
 /* the add-ons for the page being drawn: share links before the bottom of the page, the rest fixed on the screen */
@@ -1689,7 +1723,7 @@ function footerOnly(){
       <div><span class="wordmark">${IC.mark}<span>${esc(PAGES.shared.header.settings.name||'World Art Review')}</span></span><p class="blurb">${esc(st.blurb)}</p></div>
       ${shown(st.columns).map(c=>`<div><h4>${esc(c.title)}</h4>${c.links.map(link).join('')}</div>`).join('\n      ')}
     </div>
-    <div class="bar"><span>${esc(st.copyright)}</span><nav aria-label="Elsewhere">${withSocial(st.elsewhere).map(l=>`<a href="${esc(l[1])}"${l[1].startsWith('#') && l[1].length>1?'':' rel="noopener"'}>${esc(l[0])}</a>`).join('')}</nav></div>
+    <div class="bar"><span>${esc(st.copyright)}</span><nav aria-label="${W("sr.elsewhere", "Elsewhere")}">${withSocial(st.elsewhere).map(l=>`<a href="${esc(l[1])}"${l[1].startsWith('#') && l[1].length>1?'':' rel="noopener"'}>${esc(l[0])}</a>`).join('')}</nav></div>
   </footer>`;
 }
 
@@ -1733,7 +1767,7 @@ const SECTIONS = {
     ${st.hide_picture ? '' : `<div class="art" id="heroArt${x}" data-adh-b="picture.0">
       <div class="frame" id="heroFrame${x}">${st.image
         ? plateFor({image:picSrc(st.image), alt:st.alt||'', tone:a1.tone, heroTone:a1.heroTone}, {hero:true, eager:true, credit:st.credit||''})
-        : plateFor(a1, {hero:true, eager:true, note:'Artwork image to supply', credit:a1.heroCredit||''})}</div>
+        : plateFor(a1, {hero:true, eager:true, note:W("missing.artwork-image", "Artwork image to supply"), credit:a1.heroCredit||''})}</div>
       <span class="herowall" id="heroWall${x}">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</span>
     </div>`}
     <h1 id="heroTitle${x}">${ln(st.headline, 'headline')}</h1>
@@ -1768,13 +1802,13 @@ const SECTIONS = {
       <div class="row"><span class="w key" data-px="-2,4"><span></span></span><span class="w" data-px="4,-3"><span></span></span></div>
     </h2>
     <a class="artcard" id="featArt${x}" href="#artist-${feat[0].slug}" data-in data-from='{"opacity":0,"y":60,"scale":0.92}' data-cfg='{"tension":170,"friction":26}'>
-      <div id="featPlate${x}">${plateFor(feat[0],{note:'Artwork image to supply'})}</div>
+      <div id="featPlate${x}">${plateFor(feat[0],{note:W("missing.artwork-image", "Artwork image to supply")})}</div>
       <span id="featWall${x}">${wallLabel(feat[0],[artistLine(feat[0]), glanceVal(feat[0],'Medium')])}</span>
     </a>
     <div class="ctrls">
-      <button type="button" class="wordbtn" id="featPrev${x}">Previous artist</button>
+      <button type="button" class="wordbtn" id="featPrev${x}">${W("btn.prev-artist", "Previous artist")}</button>
       <span class="counter" id="featCount${x}" aria-live="polite"><b>1</b><i>of</i>${feat.length}</span><div class="dots" id="featDots${x}" hidden>${feat.map((a,i)=>`<button type="button" aria-label="${esc(a.name)}" aria-current="${i===0}"><span></span></button>`).join('')}</div>
-      <button type="button" class="wordbtn" id="featNext${x}">Next artist</button>
+      <button type="button" class="wordbtn" id="featNext${x}">${W("btn.next-artist", "Next artist")}</button>
     </div>
   </section>`;
   },
@@ -1799,7 +1833,7 @@ const SECTIONS = {
         <h2 class="h2" style="margin-top:1.5rem" data-in="lines" data-opts='{"stagger":120}'>${lines((st.heading||[]).map(t=>({t:T(t)})))}</h2>
         <p class="body" data-in="words">${words(T(st.text))}</p>
       </div>
-      <div class="cards">${explained.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":48}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*140}" data-hover data-hover-target=".plate" data-hfrom='{"scale":1}' data-hto='{"scale":1.03}' data-hcfg='{"tension":300,"friction":22}'>${plateFor(a,{note:'Image to supply'})}<span class="cap ${i?'b':'g'}"><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`).join('')}</div>
+      <div class="cards">${explained.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":48}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*140}" data-hover data-hover-target=".plate" data-hfrom='{"scale":1}' data-hto='{"scale":1.03}' data-hcfg='{"tension":300,"friction":22}'>${plateFor(a,{note:W("missing.image", "Image to supply")})}<span class="cap ${i?'b':'g'}"><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`).join('')}</div>
     </div>
   </section>`;
   },
@@ -1838,7 +1872,7 @@ const MAIL_TO = 'info@grovegallery.com';
 function mailDraft(kind, f){
   const v = n => { const el = f.elements[n]; return el ? String(el.value || '').trim() : ''; };
   if(kind === 'contact') return { subject: (v('topic') || 'A message') + (v('name') ? ' from ' + v('name') : ''), body: v('message') + '\n\nFrom: ' + v('name') + '\nReply to: ' + v('email') };
-  return { subject: 'Please add me to the World Art Review letter', body: 'Please add me to the World Art Review letter.\n\nName: ' + v('name') + '\nEmail: ' + v('email') + (v('topics') ? '\n\nI would like you to cover: ' + v('topics') : '') };
+  return { subject: Wt("form.subject", "Please add me to the World Art Review letter"), body: 'Please add me to the World Art Review letter.\n\nName: ' + v('name') + '\nEmail: ' + v('email') + (v('topics') ? '\n\nI would like you to cover: ' + v('topics') : '') };
 }
 // Opens the visitor's email app. The address is also kept on the form, so it can be checked.
 function openMail(kind, f){
@@ -1846,7 +1880,7 @@ function openMail(kind, f){
   f.dataset.mailto = url; window.location.href = url;
 }
 const liveRowsOf = list => (Array.isArray(list) ? list : []).map((x,i) => ({x,i})).filter(r => r.x && r.x.hidden !== true);
-const picOrSupply = x => x && x.image ? `<img src="${esc(picSrc(x.image))}" alt="${esc(x.alt||'')}" loading="lazy">` : `<span class="supply">Image to supply</span>`;
+const picOrSupply = x => x && x.image ? `<img src="${esc(picSrc(x.image))}" alt="${esc(x.alt||'')}" loading="lazy">` : `<span class="supply">${W("missing.image", "Image to supply")}</span>`;
 const linkOk = h => /^(#|\/|https?:\/\/|mailto:)/i.test(String(h||''));
 function libWrap(st, id, type, inner, extra){
   const { cls, style } = bandOf(st);
@@ -1860,7 +1894,7 @@ function libHead(st){
 }
 function libImage(st, cls){
   const item = { image: picSrc(st.image), alt: st.alt || '', tone: 'var(--paper-deep)' };
-  return plateFor(item, { cls: cls || '', note: 'Image to supply' }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
+  return plateFor(item, { cls: cls || '', note: W("missing.image", "Image to supply") }) + (st.caption ? `<span class="cap">${T(st.caption)}</span>` : '');
 }
 const LIBRARY = {
   /* a page's own heading, and text in the narrow reading column, as on Editorial standards */
@@ -1875,7 +1909,7 @@ const LIBRARY = {
   articles(st, id){
     const which = st.section && st.section !== 'all' ? ARTICLES.filter(a => a.section === st.section) : ARTICLES.slice();
     const list = which.slice(0, Math.max(1, Math.min(12, Number(st.count) || 3)));
-    return libWrap(st, id, 'articles', libHead(st) + `<div class="list">${list.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*100}">${plateFor(a,{note:'Image to supply'})}<span class="k">${esc(a.kicker||'')}</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek||'')}</span></a>`).join('')}</div>`);
+    return libWrap(st, id, 'articles', libHead(st) + `<div class="list">${list.map((a,i)=>`<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":26}' data-delay="${i*100}">${plateFor(a,{note:W("missing.image", "Image to supply")})}<span class="k">${esc(a.kicker||'')}</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek||'')}</span></a>`).join('')}</div>`);
   },
   faq(st, id){
     return libWrap(st, id, 'faq', libHead(st) + `<div class="items">${shown(st.items).map(q=>`<details><summary>${T(q.q)}</summary><div class="a">${q.a||''}</div></details>`).join('')}</div>`);
@@ -1908,7 +1942,7 @@ const LIBRARY = {
     const rows = (Array.isArray(st.slides) ? st.slides : []).map((x,i)=>({x,i})).filter(r => r.x && r.x.hidden !== true), n = rows.length;
     const secs = Math.max(3, Math.min(30, Number(st.seconds) || 6));
     const slides = rows.map((r,k) => `<figure class="ss-slide${k ? '' : ' on'}" data-adh-b="slides.${r.i}"><div class="ss-pic">${picOrSupply(r.x)}</div><figcaption>${T(r.x.caption||'')}</figcaption></figure>`).join('');
-    const nav = n > 1 ? `<div class="ss-nav"><button type="button" data-ss="prev">Previous</button><span class="ss-at" aria-live="polite">1 of ${n}</span><button type="button" data-ss="next">Next</button></div>` : '';
+    const nav = n > 1 ? `<div class="ss-nav"><button type="button" data-ss="prev">${W("btn.previous", "Previous")}</button><span class="ss-at" aria-live="polite">${W("btn.count", "{n} of {total}", { n: "1", total: String(n) })}</span><button type="button" data-ss="next">${W("btn.next", "Next")}</button></div>` : '';
     return libWrap(st, id, 'slideshow', libHead(st) + `<div class="ss" data-slides data-auto="${st.auto === false ? 0 : 1}" data-secs="${secs}" aria-roledescription="slideshow">${slides}${nav}</div>`);
   },
   /* a grid of photos; a click shows one larger */
@@ -1929,25 +1963,25 @@ const LIBRARY = {
     const per = ['2','3','4'].includes(String(st.per_row)) ? String(st.per_row) : '3';
     const rows = liveRowsOf(st.artworks);
     return libWrap(st, id, 'artworks', libHead(st) + `<div class="aw n${per}">${rows.map(r => { const w = r.x, tag = linkOk(w.href) ? 'a' : 'div';
-      return `<${tag} class="aw-item"${tag === 'a' ? ` href="${esc(w.href)}"` : ''} data-adh-b="artworks.${r.i}"><span class="aw-pic">${picOrSupply(w)}</span><span class="wall"><span class="wn">${w.title ? T(w.title) : ph('Title to confirm')}</span>${[w.year, w.medium].filter(Boolean).length ? `<span class="wt">${T([w.year, w.medium].filter(Boolean).join(', '))}</span>` : ''}${w.size ? `<span class="wt">${T(w.size)}</span>` : ''}${w.note ? `<span class="wt">${T(w.note)}</span>` : ''}</span></${tag}>`; }).join('')}</div>`);
+      return `<${tag} class="aw-item"${tag === 'a' ? ` href="${esc(w.href)}"` : ''} data-adh-b="artworks.${r.i}"><span class="aw-pic">${picOrSupply(w)}</span><span class="wall"><span class="wn">${w.title ? T(w.title) : ph(W("missing.title", "Title to confirm"))}</span>${[w.year, w.medium].filter(Boolean).length ? `<span class="wt">${T([w.year, w.medium].filter(Boolean).join(', '))}</span>` : ''}${w.size ? `<span class="wt">${T(w.size)}</span>` : ''}${w.note ? `<span class="wt">${T(w.note)}</span>` : ''}</span></${tag}>`; }).join('')}</div>`);
   },
   /* exhibitions, each with its dates, place, kind and source */
   exhibitions(st, id){
     const rows = liveRowsOf(st.shows);
     return libWrap(st, id, 'exhibitions', libHead(st) + `<ol class="exh">${rows.map(r => { const x = r.x;
-      return `<li data-adh-b="shows.${r.i}"><span class="when">${x.dates ? T(x.dates) : ph('Dates to confirm')}</span><span class="what"><span class="t">${x.reported ? '<span class="reported">Reported</span> ' : ''}${T(x.title || '')}</span>${x.place ? `<span class="d">${T(x.place)}</span>` : ''}</span><span class="side">${x.kind ? `<span class="kind">${T(x.kind)}</span>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">Source</a>` : ''}</span></li>`; }).join('')}</ol>`);
+      return `<li data-adh-b="shows.${r.i}"><span class="when">${x.dates ? T(x.dates) : ph(W("missing.dates", "Dates to confirm"))}</span><span class="what"><span class="t">${x.reported ? `<span class="reported">${W("item.reported", "Reported")}</span> ` : ''}${T(x.title || '')}</span>${x.place ? `<span class="d">${T(x.place)}</span>` : ''}</span><span class="side">${x.kind ? `<span class="kind">${T(x.kind)}</span>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">${W("btn.source", "Source")}</a>` : ''}</span></li>`; }).join('')}</ol>`);
   },
   /* dated moments in an artist's career, as on a portfolio */
   career(st, id){
     const rows = liveRowsOf(st.events);
     return libWrap(st, id, 'career', libHead(st) + `<ol class="timeline">${rows.map(r => { const x = r.x;
-      return `<li data-adh-b="events.${r.i}"><span class="when">${x.when ? T(x.when) : ph('Year to confirm')}</span><span class="what">${x.reported ? '<span class="reported">Reported</span> ' : ''}${T(x.what || '')}${linkOk(x.href) ? ` <a class="src" href="${esc(x.href)}" rel="noopener">Source</a>` : ''}</span></li>`; }).join('')}</ol>`);
+      return `<li data-adh-b="events.${r.i}"><span class="when">${x.when ? T(x.when) : ph(W("missing.year", "Year to confirm"))}</span><span class="what">${x.reported ? `<span class="reported">${W("item.reported", "Reported")}</span> ` : ''}${T(x.what || '')}${linkOk(x.href) ? ` <a class="src" href="${esc(x.href)}" rel="noopener">${W("btn.source", "Source")}</a>` : ''}</span></li>`; }).join('')}</ol>`);
   },
   /* short quotes from named press, each with its source */
   press(st, id){
     const rows = liveRowsOf(st.quotes).filter(r => r.x.quote);
     return libWrap(st, id, 'press', libHead(st) + `<div class="pq">${rows.map(r => { const x = r.x, by = [x.who, x.publication, x.date].filter(Boolean).map(T).join(', ');
-      return `<figure data-adh-b="quotes.${r.i}"><blockquote>“${T(String(x.quote).trim())}”</blockquote>${by ? `<figcaption>${by}</figcaption>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">Read it at the source</a>` : ''}</figure>`; }).join('')}</div>`);
+      return `<figure data-adh-b="quotes.${r.i}"><blockquote>“${T(String(x.quote).trim())}”</blockquote>${by ? `<figcaption>${by}</figcaption>` : ''}${linkOk(x.href) ? `<a class="src" href="${esc(x.href)}" rel="noopener">${W("btn.read-source", "Read it at the source")}</a>` : ''}</figure>`; }).join('')}</div>`);
   },
   /* a card for each chosen artist, linking to the portfolio; none chosen shows every published artist */
   'artist-cards'(st, id){
@@ -1959,32 +1993,32 @@ const LIBRARY = {
   signup(st, id){
     const onGreen = bandOf(st).cls.includes('on-green');
     return libWrap(st, id, 'signup', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}</div>`+
-      `<form class="mailform" data-mailform="signup" novalidate><div class="mf-row"><label class="mf">Your first name<input name="name" type="text" autocomplete="given-name"></label><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label></div>`+
-      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${T(st.button || 'Ask to join')}</button><p class="mf-note" role="status">This opens your own email app with a message ready to send to ${MAIL_TO}.</p></form></div>`);
+      `<form class="mailform" data-mailform="signup" novalidate><div class="mf-row"><label class="mf">${W("form.first-name", "Your first name")}<input name="name" type="text" autocomplete="given-name"></label><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required></label></div>`+
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.join", "Ask to join")}</button><p class="mf-note" role="status">${W("form.note", "This opens your own email app with a message ready to send to {email}.", { email: MAIL_TO })}</p></form></div>`);
   },
   /* a sign-up box that pops up once a visit; drawn hidden, and shown by setupPopups */
   'signup-popup'(st, id){
     const d = Math.max(3, Math.min(60, Number(st.delay) || 8));
     return `<div class="supop" id="${id}" data-popup data-delay="${d}" role="dialog" aria-labelledby="${id}-h" hidden><div class="supop-in">`+
-      `<button type="button" class="supop-x" data-pop-close>Close</button>`+(st.eyebrow ? `<span class="eyebrow">${T(st.eyebrow)}</span>` : '')+
+      `<button type="button" class="supop-x" data-pop-close>${W("btn.close", "Close")}</button>`+(st.eyebrow ? `<span class="eyebrow">${T(st.eyebrow)}</span>` : '')+
       `<h2 id="${id}-h">${T(st.heading || '')}</h2>${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}`+
-      `<form class="mailform" data-mailform="signup" novalidate><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label>`+
-      `<button class="btn green" type="submit">${T(st.button || 'Ask to join')}</button><p class="mf-note" role="status">This opens your own email app with a message ready to send to ${MAIL_TO}.</p></form></div></div>`;
+      `<form class="mailform" data-mailform="signup" novalidate><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required></label>`+
+      `<button class="btn green" type="submit">${st.button ? T(st.button) : W("btn.join", "Ask to join")}</button><p class="mf-note" role="status">${W("form.note", "This opens your own email app with a message ready to send to {email}.", { email: MAIL_TO })}</p></form></div></div>`;
   },
   /* where to find the gallery: a label and its words on each line, and an optional map link that opens in a new tab */
   visit(st, id){
     const rows = liveRowsOf(st.details), map = st.map_words && /^https:\/\//i.test(String(st.map || '')) ? `<a class="vmap" href="${esc(st.map)}" target="_blank" rel="noopener">${T(st.map_words)}</a>` : '';
-    return libWrap(st, id, 'visit', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${map}</div><dl class="vis">${rows.map(r => `<div data-adh-b="details.${r.i}"><dt>${T(r.x.title || '')}</dt><dd>${r.x.text ? T(String(r.x.text).trim()) : ph('To add')}</dd></div>`).join('')}</dl></div>`);
+    return libWrap(st, id, 'visit', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${map}</div><dl class="vis">${rows.map(r => `<div data-adh-b="details.${r.i}"><dt>${T(r.x.title || '')}</dt><dd>${r.x.text ? T(String(r.x.text).trim()) : ph(W("missing.to-add", "To add"))}</dd></div>`).join('')}</dl></div>`);
   },
   /* contact form: like the sign-up, it opens the visitor's own email app with everything filled in */
   'contact-form'(st, id){
     const onGreen = bandOf(st).cls.includes('on-green');
     const topics = (Array.isArray(st.topics) ? st.topics : []).map((t,i) => ({t,i})).filter(x => typeof x.t === 'string' && x.t.trim());
     return libWrap(st, id, 'contact-form', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}</div>`+
-      `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">Your name<input name="name" type="text" autocomplete="name"></label><label class="mf">Your email<input name="email" type="email" autocomplete="email" required></label></div>`+
-      (topics.length ? `<label class="mf">What it is about<select name="topic">${topics.map(x => `<option data-adh-b="topics.${x.i}">${T(x.t.trim())}</option>`).join('')}</select></label>` : '')+
-      `<label class="mf">Your message<textarea name="message" rows="5" required></textarea></label>`+
-      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${T(st.button || 'Write the email')}</button><p class="mf-note" role="status">This opens your own email app with your message ready to send to ${MAIL_TO}.</p></form></div>`);
+      `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">${W("form.your-name", "Your name")}<input name="name" type="text" autocomplete="name"></label><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required></label></div>`+
+      (topics.length ? `<label class="mf">${W("form.topic", "What it is about")}<select name="topic">${topics.map(x => `<option data-adh-b="topics.${x.i}">${T(x.t.trim())}</option>`).join('')}</select></label>` : '')+
+      `<label class="mf">${W("form.message", "Your message")}<textarea name="message" rows="5" required></textarea></label>`+
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.write", "Write the email")}</button><p class="mf-note" role="status">${W("form.note-contact", "This opens your own email app with your message ready to send to {email}.", { email: MAIL_TO })}</p></form></div>`);
   },
   /* empty room between two sections; nothing is drawn */
   space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `
@@ -2077,7 +2111,7 @@ function wireFeatured(sec){
     g('featCard').href = '#artist-'+a.slug; g('featArt').href = '#artist-'+a.slug;
     g('featWall').innerHTML = wallLabel(a, [artistLine(a), glanceVal(a,'Medium')]);
     const old = g('featPlate');
-    const fresh = document.createElement('div'); fresh.id='featPlate'+x; fresh.innerHTML = plateFor(a,{note:'Artwork image to supply'});
+    const fresh = document.createElement('div'); fresh.id='featPlate'+x; fresh.innerHTML = plateFor(a,{note:W("missing.artwork-image", "Artwork image to supply")});
     if(animate && !reduceMotion){ fresh.style.opacity='0'; old.replaceWith(fresh); springTo(fresh, {opacity:0}, {opacity:1}, {tension:260, friction:26}, applyT(fresh)); } else old.replaceWith(fresh);
     [...g('featDots').children].forEach((d,k)=> d.setAttribute('aria-current', k===fi));
     g('featCount').firstChild.textContent = fi+1;
@@ -2123,12 +2157,12 @@ function startSlides(box){
 let LB = null;
 function lightbox(){
   if(LB) return LB;
-  const d = document.createElement('div'); d.className = 'lb'; d.hidden = true; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-label', 'Larger picture');
-  d.innerHTML = '<div class="lb-pic"></div><p class="lb-cap"></p><div class="lb-nav"><button type="button" data-lb="prev">Previous</button><button type="button" data-lb="close">Close</button><button type="button" data-lb="next">Next</button></div>';
+  const d = document.createElement('div'); d.className = 'lb'; d.hidden = true; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-label', Wt("sr.larger", "Larger picture"));
+  d.innerHTML = '<div class="lb-pic"></div><p class="lb-cap"></p><div class="lb-nav"><button type="button" data-lb="prev">' + W("btn.previous", "Previous") + '</button><button type="button" data-lb="close">' + W("btn.close", "Close") + '</button><button type="button" data-lb="next">' + W("btn.next", "Next") + '</button></div>';
   document.body.appendChild(d);
   LB = { el: d, items: [], i: 0, back: null };
   LB.show = k => { const it = LB.items; LB.i = (k + it.length) % it.length; const b = it[LB.i], img = b.querySelector('img'), t = b.querySelector('.t'), pic = d.querySelector('.lb-pic');
-    pic.textContent = ''; if(img){ const c = img.cloneNode(); c.removeAttribute('loading'); pic.appendChild(c); } else { const sp = document.createElement('span'); sp.className = 'lb-none'; sp.textContent = 'Image to supply'; pic.appendChild(sp); }
+    pic.textContent = ''; if(img){ const c = img.cloneNode(); c.removeAttribute('loading'); pic.appendChild(c); } else { const sp = document.createElement('span'); sp.className = 'lb-none'; sp.textContent = Wt("missing.image", "Image to supply"); pic.appendChild(sp); }
     d.querySelector('.lb-cap').textContent = t ? t.textContent : (img ? img.alt : '');
     d.querySelector('[data-lb="prev"]').hidden = d.querySelector('[data-lb="next"]').hidden = it.length < 2; };
   LB.close = () => { d.hidden = true; document.documentElement.style.overflow = ''; if(LB.back) LB.back.focus(); };
@@ -2163,7 +2197,7 @@ function startLatest(box){
    ========================================================= */
 const pages = {};
 function pageHead(eyebrow, titleLines, dek, crumbs){
-  return `<div class="phead">${crumbs?`<nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>`:''}<span class="eyebrow">${eyebrow}</span><h1 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(titleLines)}</h1>${dek?`<p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${dek}</p>`:''}</div>`;
+  return `<div class="phead">${crumbs?`<nav class="crumbs" aria-label="${W("sr.breadcrumb", "Breadcrumb")}">${crumbs}</nav>`:''}<span class="eyebrow">${eyebrow}</span><h1 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(titleLines)}</h1>${dek?`<p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${dek}</p>`:''}</div>`;
 }
 /* templates: an article or a portfolio is drawn with the sections of its template around its own content (the "main" section) */
 let TPL_NOW = null;
@@ -2193,7 +2227,7 @@ function shell(inner, opts){
 function artistCard(a, i){
   const href = a.published ? `#artist-${a.slug}` : '#research';
   return `<a class="acard" href="${href}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":190,"friction":26}' data-delay="${(i%3)*90}">
-    ${plateFor(a,{note:a.published?'Artwork image to supply':''})}${a.published?'':'<span class="in">Portfolio in research</span>'}
+    ${plateFor(a,{note:a.published?W("missing.artwork-image", "Artwork image to supply"):''})}${a.published?'':`<span class="in">${W("item.in-research", "Portfolio in research")}</span>`}
     ${wallLabel(a,[artistLine(a), a.published?'Open the portfolio':'In research'])}</a>`;
 }
 /* the heading and introduction of a list page, as set in Artiscope Digital Home */
@@ -2268,28 +2302,28 @@ function portfolio(a){
   <div class="pf-top">
     <div>
       <div class="pf-art" data-in data-from='{"opacity":0,"y":40,"scale":0.96}' data-cfg='{"tension":170,"friction":26}'>
-        <div class="frame">${plateFor(a,{hero:true, eager:true, note:'Artwork image to supply', credit:a.heroCredit||''})}</div>
+        <div class="frame">${plateFor(a,{hero:true, eager:true, note:W("missing.artwork-image", "Artwork image to supply"), credit:a.heroCredit||''})}</div>
         ${wallLabel(a,[artistLine(a), glanceVal(a,'Medium'), glanceVal(a,'Gallery')])}
       </div>
-      <p style="margin-top:1rem"><button type="button" class="btn green" data-walk>Walk the gallery</button></p>
+      <p style="margin-top:1rem"><button type="button" class="btn green" data-walk>${W("btn.walk", "Walk the gallery")}</button></p>
     </div>
-    <aside class="glance" aria-label="At a glance" data-in data-from='{"opacity":0,"y":24}' data-delay="150">
-      <span class="eyebrow">At a glance</span>
+    <aside class="glance" aria-label="${W("item.glance", "At a glance")}" data-in data-from='{"opacity":0,"y":24}' data-delay="150">
+      <span class="eyebrow">${W("item.glance", "At a glance")}</span>
       ${a.glance.map(g=>`<div class="row"><span class="k">${esc(g[0])}</span><span class="v">${g[1]}${g[2].map(c).join('')}</span></div>`).join('')}
-      <div class="rs"><span class="pc num">${pct}<small>%</small></span><span>Research complete. ${facts} facts sourced${openDates?`, ${openDates} date${openDates>1?'s':''} awaiting confirmation`:''}${reported?`, ${reported} reported claim${reported>1?'s':''} not yet confirmed`:''}. Last checked ${a.checked}. <a href="#research" style="text-decoration:underline">See what is missing</a></span></div>
+      <div class="rs"><span class="pc num">${pct}<small>%</small></span><span>Research complete. ${facts} facts sourced${openDates?`, ${openDates} date${openDates>1?'s':''} awaiting confirmation`:''}${reported?`, ${reported} reported claim${reported>1?'s':''} not yet confirmed`:''}. Last checked ${a.checked}. <a href="#research" style="text-decoration:underline">${W("item.see-missing", "See what is missing")}</a></span></div>
       <span class="credits">Researched by ${ph('Researcher name')}. Checked by ${ph("Editor's name")}.</span>
     </aside>
   </div>
   <div class="pf-body">
-    <nav class="toc" aria-label="In this portfolio"><span class="eyebrow" style="margin-bottom:.5rem">In this portfolio</span>${toc.map(t=>`<button type="button" data-jump="${t[0]}">${t[1]}</button>`).join('')}</nav>
+    <nav class="toc" aria-label="${W("item.in-portfolio", "In this portfolio")}"><span class="eyebrow" style="margin-bottom:.5rem">${W("item.in-portfolio", "In this portfolio")}</span>${toc.map(t=>`<button type="button" data-jump="${t[0]}">${t[1]}</button>`).join('')}</nav>
     <article class="pf-main">
       ${a.sections.map(s=>`<div id="${s.id}" class="prose" data-spy data-in data-from='{"opacity":0,"y":20}'><h2 style="margin-top:0">${s.title}</h2>${s.html}</div>`).join('')}
-      <div id="works" data-spy><div class="works-head"><h2>Documented works</h2><button type="button" class="chip" data-walk>Walk the gallery</button></div>
-        <div class="works">${a.works.map((w,i)=>`<button type="button" class="work-btn" data-work="${i}" aria-label="View details: ${w.title?esc(w.title):'work to be documented'}" data-in data-from='{"opacity":0,"y":30}' data-delay="${i*90}">${plateFor(w,{note:w.title?'Image to supply':'Work to be documented'})}<span class="wall"><span class="wn"><i>${w.title?esc(w.title):'Title to be documented'}</i>${w.year?', '+esc(w.year):''}</span><span class="wt">${w.medium?esc(w.medium):ph('Medium')}${w.size===false?'':'<br>'+(w.size?esc(w.size):ph('Size'))}</span></span></button>`).join('')}</div></div>
-      <div id="timeline" data-spy><h2>Career timeline</h2><ol class="timeline">${a.timeline.map((t,i)=>`<li data-in data-from='{"opacity":0,"y":16}' data-delay="${i*60}"><span class="when">${t.when?esc(t.when):ph('Year to confirm')}</span><span class="what">${t.reported?'<span class="reported">Reported</span> ':''}${esc(t.what)}${t.src.map(c).join('')}</span></li>`).join('')}</ol></div>
-      <div id="seen" class="prose" data-spy><h2 style="margin-top:0">Where to see the work</h2>${a.seen}</div>
+      <div id="works" data-spy><div class="works-head"><h2>${W("item.works", "Documented works")}</h2><button type="button" class="chip" data-walk>${W("btn.walk", "Walk the gallery")}</button></div>
+        <div class="works">${a.works.map((w,i)=>`<button type="button" class="work-btn" data-work="${i}" aria-label="View details: ${w.title?esc(w.title):'work to be documented'}" data-in data-from='{"opacity":0,"y":30}' data-delay="${i*90}">${plateFor(w,{note:w.title?W("missing.image", "Image to supply"):W("missing.work", "Work to be documented")})}<span class="wall"><span class="wn"><i>${w.title?esc(w.title):'Title to be documented'}</i>${w.year?', '+esc(w.year):''}</span><span class="wt">${w.medium?esc(w.medium):ph('Medium')}${w.size===false?'':'<br>'+(w.size?esc(w.size):ph('Size'))}</span></span></button>`).join('')}</div></div>
+      <div id="timeline" data-spy><h2>${W("item.career", "Career timeline")}</h2><ol class="timeline">${a.timeline.map((t,i)=>`<li data-in data-from='{"opacity":0,"y":16}' data-delay="${i*60}"><span class="when">${t.when?esc(t.when):ph(W("missing.year", "Year to confirm"))}</span><span class="what">${t.reported?`<span class="reported">${W("item.reported", "Reported")}</span> `:''}${esc(t.what)}${t.src.map(c).join('')}</span></li>`).join('')}</ol></div>
+      <div id="seen" class="prose" data-spy><h2 style="margin-top:0">${W("item.where", "Where to see the work")}</h2>${a.seen}</div>
       <div id="srcwrap"></div>
-      ${related.length?`<div><h2>Read next</h2><div class="next">${related.map(r=>`<a href="#a-${r.slug}" class="${r.compare?'dark':''}"><span class="k">${esc(r.kicker)}</span><span class="t">${esc(r.title)}</span></a>`).join('')}</div></div>`:''}
+      ${related.length?`<div><h2>${W("btn.read-next", "Read next")}</h2><div class="next">${related.map(r=>`<a href="#a-${r.slug}" class="${r.compare?'dark':''}"><span class="k">${esc(r.kicker)}</span><span class="t">${esc(r.title)}</span></a>`).join('')}</div></div>`:''}
     </article>
   </div>`);
 }
@@ -2308,14 +2342,14 @@ function article(a){
   const tl = a.title.split(':');
   const titleLines = tl.length>1 ? [{t:tl[0]+':'},{t:tl.slice(1).join(':').trim()}] : [{t:a.title}];
   const secList = (cls) => `<ol class="${cls}">${inSec.map(x => x.slug===a.slug
-    ? `<li class="here"><span class="k">${esc(x.kicker)}</span><span class="t">${esc(x.title)}</span><span class="now">Reading now</span></li>`
+    ? `<li class="here"><span class="k">${esc(x.kicker)}</span><span class="t">${esc(x.title)}</span><span class="now">${W("item.reading-now", "Reading now")}</span></li>`
     : `<li><a href="#a-${x.slug}"><span class="k">${esc(x.kicker)}</span><span class="t">${esc(x.title)}</span></a></li>`).join('')}</ol>`;
   return shell(`
   <div class="phead" style="max-width:64rem">
     <span class="eyebrow"><a href="${sectionHome(a.section)}" class="crumb">${esc(secName)}</a><span class="sep">in</span>${esc(a.kicker)}</span>
     <h1 data-in="lines" data-opts='{"stagger":110,"duration":900}'>${lines(titleLines)}</h1>
     <p class="dek" data-in data-from='{"opacity":0,"y":14}' data-delay="250">${esc(a.dek)}</p>
-    <div class="byline" data-in data-from='{"opacity":0,"y":10}' data-delay="400"><span>${ph('Author')}</span><span>${a.minutes} minute read</span><span>Updated ${a.updated}</span>${a.status?`<span class="status todo">${a.status}</span>`:''}${saveBtn(a.slug,true)}<button class="iconbtn" type="button" data-copy>${IC.link}<span>Copy link</span></button></div>
+    <div class="byline" data-in data-from='{"opacity":0,"y":10}' data-delay="400"><span>${ph('Author')}</span><span>${a.minutes} minute read</span><span>Updated ${a.updated}</span>${a.status?`<span class="status todo">${a.status}</span>`:''}${saveBtn(a.slug,true)}<button class="iconbtn" type="button" data-copy>${IC.link}<span>${W("btn.copy", "Copy link")}</span></button></div>
   </div>
   ${(a.credit||a.image)?`<div class="art-hero" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":170,"friction":26}'>${plateFor(a,{eager:true, credit:a.credit})}</div>`:''}
   <div class="art-body">
@@ -2323,15 +2357,15 @@ function article(a){
       <div class="prose ${readSize}" id="articleBody">${a.body}${a.compare?compareTable():''}</div>
       <div id="srcwrap"></div>
       <nav class="turn" aria-label="Previous and next in ${esc(secName)}">
-        ${prev?`<a class="prev" href="#a-${prev.slug}"><span class="lab">Previously in ${esc(secName)}</span><span class="t">${esc(prev.title)}</span></a>`:`<a class="prev" href="${sectionHome(a.section)}"><span class="lab">Start of ${esc(secName)}</span><span class="t">Back to the section</span></a>`}
-        ${next?`<a class="next" href="#a-${next.slug}"><span class="lab">Next in ${esc(secName)}</span><span class="t">${esc(next.title)}</span></a>`:`<a class="next" href="${sectionHome(a.section)}"><span class="lab">End of ${esc(secName)}</span><span class="t">Back to the section</span></a>`}
+        ${prev?`<a class="prev" href="#a-${prev.slug}"><span class="lab">Previously in ${esc(secName)}</span><span class="t">${esc(prev.title)}</span></a>`:`<a class="prev" href="${sectionHome(a.section)}"><span class="lab">Start of ${esc(secName)}</span><span class="t">${W("item.back", "Back to the section")}</span></a>`}
+        ${next?`<a class="next" href="#a-${next.slug}"><span class="lab">Next in ${esc(secName)}</span><span class="t">${esc(next.title)}</span></a>`:`<a class="next" href="${sectionHome(a.section)}"><span class="lab">End of ${esc(secName)}</span><span class="t">${W("item.back", "Back to the section")}</span></a>`}
       </nav>
     </div>
     <aside class="side">
       <div class="side-stick">
-      ${arts.length?`<span class="lab">Artists in this article</span>${arts.map(x=>`<a class="acard2" href="${x.published?'#artist-'+x.slug:'#research'}"><b>${esc(x.name)}</b><span class="meta">Open the portfolio</span></a>`).join('')}`:''}
+      ${arts.length?`<span class="lab">${W("item.in-article", "Artists in this article")}</span>${arts.map(x=>`<a class="acard2" href="${x.published?'#artist-'+x.slug:'#research'}"><b>${esc(x.name)}</b><span class="meta">${W("btn.open-portfolio", "Open the portfolio")}</span></a>`).join('')}`:''}
       ${inSec.length>1?`<span class="lab" style="margin-top:1rem">More in ${esc(secName)}</span>${secList('side-list')}`:''}
-      ${related.length?`<span class="lab" style="margin-top:1rem">Related</span>${related.map(m=>`<a class="more" href="#a-${m.slug}">${esc(m.title)}</a>`).join('')}`:''}
+      ${related.length?`<span class="lab" style="margin-top:1rem">${W("item.related", "Related")}</span>${related.map(m=>`<a class="more" href="#a-${m.slug}">${esc(m.title)}</a>`).join('')}`:''}
       </div>
     </aside>
   </div>`);
@@ -2405,8 +2439,8 @@ function render(){
   } else if(pages[h]){
     html = pages[h](); title = h.charAt(0).toUpperCase()+h.slice(1)+' | World Art Review';
   }
-  if(!html){ html = shell(pageHead('Not found',[{t:'We could not'},{t:'find that page'}],'<a href="#home" style="color:var(--brick)">Return to the homepage</a>.')); }
-  main.innerHTML = html; menuSocial(); aoWire();
+  if(!html){ html = shell(pageHead(W("nf.eyebrow", "Not found"),[{t:W("nf.line1", "We could not")},{t:W("nf.line2", "find that page")}],'<a href="#home" style="color:var(--brick)">' + W("nf.home", "Return to the homepage") + '</a>.')); }
+  main.innerHTML = html; menuSocial(); aoWire(); applyWords();
   let secCss = document.getElementById('sec-css');
   if(SEC_CSS.length){ if(!secCss){ secCss = document.createElement('style'); secCss.id = 'sec-css'; document.head.appendChild(secCss); } secCss.textContent = SEC_CSS.join('\n'); } else if(secCss) secCss.remove();
   document.title = title;
@@ -2470,8 +2504,8 @@ function wire(){
   main.querySelectorAll('[data-walk]').forEach(b => b.onclick = () => openGallery(currentArtist));
   main.querySelectorAll('[data-work]').forEach(b => b.onclick = () => openLightbox(currentArtist, +b.dataset.work));
   main.querySelectorAll('[data-copy]').forEach(b => b.onclick = () => {
-    try { navigator.clipboard.writeText(location.href).then(()=>toast('Link copied'), ()=>toast('Copying is not available here')); }
-    catch(e) { toast('Copying is not available here'); }
+    try { navigator.clipboard.writeText(location.href).then(()=>toast(Wt("toast.copied", "Link copied")), ()=>toast(Wt("toast.no-copy", "Copying is not available here"))); }
+    catch(e) { toast(Wt("toast.no-copy", "Copying is not available here")); }
   });
 }
 
