@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Thursday 19 November 2026
+Published: fuller picture descriptions for people who cannot see the images. The Konn Artiss picture on his portfolio was described only as "Konn Artiss", and the picture on "Understanding palette-knife painting" as "Looking close on the strokes". Both now say what the picture shows. Nothing visible on the page changed.
+Drafts waiting: none.
+Checked: the site builds and the pages hold at phone and desktop width. No long dashes, US spellings or banned words. No photos in the inbox. Searched for news on Zara Muse, Konn Artiss and Zen Xander and read FAD Magazine, Art Plugged, Tate Ward and Roseberys: nothing new since 11 November. I could not open every source link from here this time, so the full link check is carried over. Monday's run was missed, so the first topic idea is added today: a first Zen Xander portfolio.
+Needs you: (1) A yes or no on the Zen Xander idea in the content calendar. (2) The Konn Artiss picture is now a collage work, but its caption still reads "ANTI-FRIEZE, London, October 2025. Courtesy Konn Artiss". Please send the right title and credit. (3) Still open from 11 November: the "Our relationships" wording that tells readers Artiscope sells these artists' work, the privacy and terms text, and the footer's Instagram, X and LinkedIn links, which lead nowhere.
+
 ## Wednesday 11 November 2026, after your merge
 Published: the Zara Muse image, with the caption "Image: painting by Zara Muse. Supplied by Grove Gallery". You merged the draft at 15:39. It shows on the homepage, Artists A to Z and her portfolio. https://github.com/Artiscope/World-art-review/pull/1
 Drafts waiting: none.
