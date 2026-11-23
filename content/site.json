@@ -314,6 +314,13 @@
       "date": "28 March 2026",
       "kind": "Auction report",
       "url": "https://en.thevalue.com/articles/christies-hong-kong-20th-21st-century-art-auction-2026-spring-evening-sale-result"
+    },
+    "tan-kusama-obit": {
+      "title": "Yayoi Kusama has died aged 97",
+      "pub": "The Art Newspaper",
+      "date": "27 August 2026",
+      "kind": "Obituary report",
+      "url": "https://www.theartnewspaper.com/2026/08/27/yayoi-kusama-polka-dots-mirror-rooms-has-died-aged-97"
     }
   },
   "artists": [
@@ -996,6 +1003,7 @@
           "Died",
           "Tokyo, 14 August 2026",
           [
+            "tan-kusama-obit",
             "wiki-kusama"
           ]
         ],
@@ -1018,7 +1026,7 @@
         {
           "id": "bio",
           "title": "Who was Yayoi Kusama?",
-          "html": "<p>Kusama was born in Matsumoto in 1929 and studied Japanese-style painting in Kyoto in 1948.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> She moved to the United States in 1957, settling in New York in 1958, and returned to Japan in 1973.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>Her painting <i>No. 3P.B.</i> of 1960 was included in the Whitney Museum's annual exhibition in 1961.<sup class=\"cite\"><a data-src=\"tan-kusama-record\">[tan-kusama-record]</a></sup><sup class=\"cite\"><a data-src=\"artsy-records-nov26\">[artsy-records-nov26]</a></sup> She first took part in the Venice Biennale in 1966 with <i>Narcissus Garden</i>, and represented Japan there in 1993.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>She died in Tokyo on 14 August 2026, aged 97.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p>"
+          "html": "<p>Kusama was born in Matsumoto in 1929 and studied Japanese-style painting in Kyoto in 1948.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> She moved to the United States in 1957, settling in New York in 1958, and returned to Japan in 1973.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>Her painting <i>No. 3P.B.</i> of 1960 was included in the Whitney Museum's annual exhibition in 1961.<sup class=\"cite\"><a data-src=\"tan-kusama-record\">[tan-kusama-record]</a></sup><sup class=\"cite\"><a data-src=\"artsy-records-nov26\">[artsy-records-nov26]</a></sup> She first took part in the Venice Biennale in 1966 with <i>Narcissus Garden</i>, and represented Japan there in 1993.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>She died in a Tokyo hospital on 14 August 2026, aged 97. The Yayoi Kusama Foundation announced her death on 27 August.<sup class=\"cite\"><a data-src=\"tan-kusama-obit\">[tan-kusama-obit]</a></sup></p>"
         },
         {
           "id": "style",
@@ -1098,7 +1106,7 @@
           "when": "August 2026",
           "what": "Dies in Tokyo, aged 97.",
           "src": [
-            "wiki-kusama"
+            "tan-kusama-obit"
           ]
         }
       ],
