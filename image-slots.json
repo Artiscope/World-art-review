@@ -92,6 +92,36 @@
       "filled": false
     },
     {
+      "id": "artist-banksy",
+      "group": "Artist main images",
+      "label": "Banksy",
+      "filled": true
+    },
+    {
+      "id": "artist-yayoi-kusama",
+      "group": "Artist main images",
+      "label": "Yayoi Kusama",
+      "filled": true
+    },
+    {
+      "id": "artist-el-anatsui",
+      "group": "Artist main images",
+      "label": "El Anatsui",
+      "filled": true
+    },
+    {
+      "id": "artist-s-h-raza",
+      "group": "Artist main images",
+      "label": "S.H. Raza",
+      "filled": true
+    },
+    {
+      "id": "artist-gerhard-richter",
+      "group": "Artist main images",
+      "label": "Gerhard Richter",
+      "filled": true
+    },
+    {
       "id": "article-zara-muse-profile",
       "group": "Articles: Features",
       "label": "Zara Muse: biography, artistic style and career",

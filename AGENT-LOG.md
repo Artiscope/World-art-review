@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, portfolio images (draft)
+Published: nothing. Prepared as a draft on the owner's request in a conversation to add images to the sites.
+Drafts waiting: main images for the Banksy, Yayoi Kusama, El Anatsui, S.H. Raza and Gerhard Richter portfolios (link in the pull request list).
+Checked: every image comes from Wikimedia Commons under a licence that allows reuse, read on the file's own page. Each carries the photographer and licence as its credit, and the full caption with the Commons link is in `content/files.json`. Kusama, Raza and Richter are portraits; Banksy is his 2026 Waterloo Place statue; El Anatsui is a public sculpture from his design in Nsukka, as no free portrait exists. The site builds with 9 artists and the pages hold at phone and desktop width.
+Needs you: (1) this site's brief says images come only from the inbox, so these wait for your yes. (2) On phones the credit line on a main image is cut short by the name label, as it already is for Konn Artiss. Free licences ask for the credit to be readable, so tell me if you want that fixed. (3) No usable image was found for Beatriz Milhazes; her portfolio keeps the "Artwork image to supply" frame.
+
 ## Monday 23 November 2026, five international portfolios (draft)
 Published: nothing. Prepared as a draft on the owner's instruction in a conversation.
 Drafts waiting: portfolios for Yayoi Kusama, El Anatsui, Beatriz Milhazes, S.H. Raza and Gerhard Richter. https://github.com/Artiscope/World-art-review/pull/3

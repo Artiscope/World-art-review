@@ -781,8 +781,8 @@
       "name": "Banksy",
       "letter": "B",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/banksy-statue-waterloo-place.jpg",
+      "alt": "A dark statue seen from below against a grey sky: a man in a suit strides off the edge of a stone plinth while a large flag he holds blows back over his face, with scaffolded buildings behind.",
       "ghostWords": [
         "A stencil,",
         "a joke,",
@@ -795,7 +795,7 @@
       "heroTone": "#3B3B38",
       "summary": "An anonymous artist from Bristol's graffiti scene whose stencilled rats, children and chimpanzees moved from walls to canvas and the auction room.",
       "dek": "No one has confirmed who Banksy is. The work is easier to pin down: flat black stencils, one accent colour and a dry joke, made on walls since the 1990s and on canvas since at least 2001.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Bex Walton, CC BY 4.0",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -975,8 +975,8 @@
       "name": "Yayoi Kusama",
       "letter": "Y",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/yayoi-kusama-c2004.jpg",
+      "alt": "Close view of Yayoi Kusama's face, with dark hair, red lipstick and pale pink glasses in a decorative silver frame.",
       "ghostWords": [
         "One mark,",
         "over",
@@ -989,7 +989,7 @@
       "heroTone": "#7A2E2A",
       "summary": "A Japanese artist who covered canvases, objects and whole rooms in repeated nets and dots, from the late 1950s until her death in 2026.",
       "dek": "Yayoi Kusama made one mark over and over until it filled the surface. The nets of her New York paintings of around 1960 and the polka dots that followed are the same idea at different scales.",
-      "heroCredit": "",
+      "heroCredit": "Photo: George Quasha, CC BY 3.0",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -1127,8 +1127,8 @@
       "name": "El Anatsui",
       "letter": "E",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/el-anatsui-ambivalent-hold-nsukka.jpg",
+      "alt": "A weathered grey stone sculpture of a crouching, rounded figure whose large hands cover its face, set on paving in front of a yellow concrete building.",
       "ghostWords": [
         "Bottle caps,",
         "copper",
@@ -1141,7 +1141,7 @@
       "heroTone": "#8A6A2E",
       "summary": "A Ghanaian sculptor in Nigeria who joins thousands of flattened bottle caps with copper wire into hanging metal sheets.",
       "dek": "El Anatsui began with wood and clay. Since the 2000s he has been known for large hangings of aluminium bottle caps and copper wire, which fold differently each time they are installed.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Mercyjamb123, CC BY-SA 4.0",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -1415,8 +1415,8 @@
       "name": "S.H. Raza",
       "letter": "S",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/s-h-raza-delhi-2011.jpg",
+      "alt": "S.H. Raza, an elderly man with white hair and glasses in a pale suit, seated and leaning over a sheet of paper as people gather close around him.",
       "ghostWords": [
         "A village,",
         "then",
@@ -1429,7 +1429,7 @@
       "heroTone": "#3A3A6A",
       "summary": "An Indian painter who moved from French landscapes to geometric paintings centred on the bindu, a single black dot.",
       "dek": "S.H. Raza spent most of his working life in France. His paintings start with villages and hills and end with circles, triangles and the bindu, a single black dot at the centre of the picture.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Chetan Nikam, CC BY-SA 4.0",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -1575,8 +1575,8 @@
       "name": "Gerhard Richter",
       "letter": "G",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/gerhard-richter-prague-2017.jpg",
+      "alt": "Portrait of Gerhard Richter, an older man with white hair, a short white beard and round dark glasses, in a dark coat, looking at the camera.",
       "ghostWords": [
         "A photograph,",
         "a blur,",
@@ -1589,7 +1589,7 @@
       "heroTone": "#4A4F57",
       "summary": "A German painter who works in two strands: blurred paintings made from photographs, and abstracts dragged across the canvas with a squeegee.",
       "dek": "Gerhard Richter works in two ways at once. Some of his pictures copy photographs and blur them; others are made by dragging layers of paint until chance takes over.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Jindřich Nosek (NoJin), CC BY-SA 4.0",
       "checked": "23 November 2026",
       "glance": [
         [
