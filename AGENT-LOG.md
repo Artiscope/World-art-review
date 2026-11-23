@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, images for the new street artists (draft)
+Published: nothing. Prepared as a draft on the owner's request in a conversation to add images for the five new street artists.
+Drafts waiting: portfolio images for Vhils, OSGEMEOS and Faith XLVII (link in the pull request list).
+Checked: each licence on the photo's own Wikimedia Commons page. The wide OSGEMEOS mural is shown whole on an oatmilk mount, so no part of the work is cut off. The portfolios build and hold at phone and desktop width.
+Needs you: these photos come from the web, not the inbox, and each shows the artist's work, so they wait for your yes. Nothing usable was found for KAWS or Eko Nugroho.
+
 ## Monday 23 November 2026, museum shows and prizes (draft)
 Published: nothing. Prepared as a draft under the owner's standing rule for artist research.
 Drafts waiting: museum shows, collections and prizes added to eleven portfolios (link in the pull request list).
