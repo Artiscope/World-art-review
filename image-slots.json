@@ -221,13 +221,13 @@
       "id": "artist-osgemeos",
       "group": "Artist main images",
       "label": "OSGEMEOS",
-      "filled": false
+      "filled": true
     },
     {
       "id": "artist-vhils",
       "group": "Artist main images",
       "label": "Vhils",
-      "filled": false
+      "filled": true
     },
     {
       "id": "artist-kaws",
@@ -245,7 +245,7 @@
       "id": "artist-faith-xlvii",
       "group": "Artist main images",
       "label": "Faith XLVII",
-      "filled": false
+      "filled": true
     },
     {
       "id": "artist-beatriz-milhazes",
