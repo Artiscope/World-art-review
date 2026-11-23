@@ -2,7 +2,7 @@
 
 Discover Artists. Understand Art.
 
-An editorial site of researched artist portfolios, artwork reviews, collecting guides and technique explainers. Starts with Zara Muse and Konn Artiss, and grows to cover the Grove Gallery artists.
+An editorial site of researched artist portfolios, artwork reviews, collecting guides and technique explainers. It began with the Grove Gallery artists Zara Muse, Konn Artiss and Zen Xander, and now covers fourteen artists from around the world.
 
 ## What is here
 

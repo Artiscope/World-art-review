@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, whole site brought up to date (published)
+Published: on the owner's yes in a conversation. A new article introducing the eleven new artists, now first on the homepage. Five explainers and collecting guides use the new artists as sourced examples. The research desk lists all fourteen artists A to Z. Privacy and terms text written to match what the site actually does. https://github.com/Artiscope/World-art-review/pull/6
+Drafts waiting: images for five portfolios. https://github.com/Artiscope/World-art-review/pull/5
+Checked: the site builds with 14 artists and 17 articles; touched pages hold at phone and desktop width; every citation resolves. No long dashes or banned words.
+Needs you: the "Our relationships" wording, and the footer's Instagram, X and LinkedIn addresses. Please also read the new privacy and terms text and check it suits you legally.
+
 ## Monday 23 November 2026, five street artist portfolios (draft)
 Published: nothing. Prepared as a draft under the owner's standing rule for artist research.
 Drafts waiting: portfolios for OSGEMEOS, Vhils, KAWS, Eko Nugroho and Faith XLVII, on branch draft/2026-11-23-street-artists.
