@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, Van Gogh and Kandinsky portfolios
+Published: portfolios for Vincent van Gogh and Wassily Kandinsky, whose paintings set auction records in New York in November 2026. The artists list now says sixteen artists. Published on the owner's instruction in a conversation ("once everything is done. merge and publish").
+Drafts waiting: none from this change.
+Checked: Kröller-Müller Museum, Guggenheim Bilbao, Art Gallery of NSW and Tate pages; Sotheby's lot page for Châtaigniers en fleurs; The Art Newspaper, Artsy and Art Insider for the sales. The Van Gogh Museum pages gave little text to automated visits. Image spots added; no images placed.
+Needs you: photographs, if you would like them. Both artists' paintings are old enough to be out of copyright, so museum photos in the public domain could be used.
+
 ## Monday 23 November 2026, images for the new street artists (draft)
 Published: nothing. Prepared as a draft on the owner's request in a conversation to add images for the five new street artists.
 Drafts waiting: portfolio images for Vhils, OSGEMEOS and Faith XLVII (link in the pull request list).

@@ -2274,7 +2274,7 @@ pages.research = () => {
   <p class="meta" style="padding:0 1.5rem 1.25rem">${items.length} artists, A to Z. ${total} items open across their portfolios.</p>
   <div class="rgrid">
     ${items.map(({a,open},i)=>`<div class="rcard" data-in data-delay="${i*80}"><h2>${esc(a.name)}<span class="status ${open.length?'todo':'ok'}">${open.length} open</span></h2><ul>${open.map(o=>`<li>${esc(o)}</li>`).join('')}</ul>${a.published?`<p style="margin-top:1rem"><a href="#artist-${a.slug}" class="meta" style="text-decoration:underline">Open portfolio</a></p>`:''}</div>`).join('')}
-    <div class="rcard" data-in data-delay="${items.length*80}"><h2>Site-wide</h2><ul><li>Grove Gallery disclosure wording</li><li>Editor and researcher names</li><li>Artwork and studio photographs, with permissions, for all fourteen artists</li><li>First exhibition guides, including current shows of the artists we cover</li><li>Social media addresses</li><li>Final review of all draft articles</li><li>Title and credit for the Konn Artiss portfolio picture</li></ul></div>
+    <div class="rcard" data-in data-delay="${items.length*80}"><h2>Site-wide</h2><ul><li>Grove Gallery disclosure wording</li><li>Editor and researcher names</li><li>Artwork and studio photographs, with permissions, for all sixteen artists</li><li>First exhibition guides, including current shows of the artists we cover</li><li>Social media addresses</li><li>Final review of all draft articles</li><li>Title and credit for the Konn Artiss portfolio picture</li></ul></div>
   </div>`);
 };
 
