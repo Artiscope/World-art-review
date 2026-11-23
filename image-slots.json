@@ -186,6 +186,48 @@
       "group": "Articles: Reviews",
       "label": "Zara Muse and Konn Artiss: two ways to talk about value",
       "filled": false
+    },
+    {
+      "id": "artist-osgemeos",
+      "group": "Artist main images",
+      "label": "OSGEMEOS",
+      "filled": false
+    },
+    {
+      "id": "artist-vhils",
+      "group": "Artist main images",
+      "label": "Vhils",
+      "filled": false
+    },
+    {
+      "id": "artist-kaws",
+      "group": "Artist main images",
+      "label": "KAWS",
+      "filled": false
+    },
+    {
+      "id": "artist-eko-nugroho",
+      "group": "Artist main images",
+      "label": "Eko Nugroho",
+      "filled": false
+    },
+    {
+      "id": "artist-faith-xlvii",
+      "group": "Artist main images",
+      "label": "Faith XLVII",
+      "filled": false
+    },
+    {
+      "id": "artist-beatriz-milhazes",
+      "group": "Artist main images",
+      "label": "Beatriz Milhazes",
+      "filled": false
+    },
+    {
+      "id": "article-new-portfolios-november-2026",
+      "group": "Articles: Features",
+      "label": "Eleven new portfolios, from Bristol to Yogyakarta",
+      "filled": false
     }
   ]
 }
