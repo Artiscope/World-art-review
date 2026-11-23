@@ -321,6 +321,125 @@
       "date": "27 August 2026",
       "kind": "Obituary report",
       "url": "https://www.theartnewspaper.com/2026/08/27/yayoi-kusama-polka-dots-mirror-rooms-has-died-aged-97"
+    },
+    "artsy-osgemeos": {
+      "title": "OSGEMEOS",
+      "pub": "Artsy",
+      "date": "2026",
+      "kind": "Artist page",
+      "url": "https://www.artsy.net/artist/osgemeos"
+    },
+    "hyperallergic-kelburn": {
+      "title": "Mix & Match: 13th C Castle Wants the Street Art to Stay",
+      "pub": "Hyperallergic",
+      "date": "7 September 2011",
+      "kind": "News report",
+      "url": "https://hyperallergic.com/kelburn-castle-street-art/"
+    },
+    "hookedblog-kelburn": {
+      "title": "Graffiti Project",
+      "pub": "Hookedblog",
+      "date": "23 May 2007",
+      "kind": "Street art blog post",
+      "url": "https://www.hookedblog.co.uk/2007/05/graffiti-project.html"
+    },
+    "christies-semmedo": {
+      "title": "OSGEMEOS, Sem medo de ser feliz, lot 117",
+      "pub": "Christie's",
+      "date": "July 2026",
+      "kind": "Auction lot page",
+      "url": "https://onlineonly.christies.com.cn/s/first-open-post-war-contemporary-art/osgemeos-b-1974-117/316126"
+    },
+    "phillips-andorinha": {
+      "title": "OSGEMEOS, O dia em que a Andorinha não voou, lot 390",
+      "pub": "Phillips",
+      "date": "May 2025",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/osgemeos/216474"
+    },
+    "vhils-about": {
+      "title": "About",
+      "pub": "Vhils (artist's website)",
+      "date": "2026",
+      "kind": "Artist's website",
+      "url": "https://vhils.com/about/"
+    },
+    "bonhams-attrition": {
+      "title": "Vhils, Attrition series #01, lot 231",
+      "pub": "Bonhams",
+      "date": "October 2025",
+      "kind": "Auction lot page",
+      "url": "https://www.bonhams.com/auction/31240/lot/231/vhils-b-1987-attrition-series-01-executed-in-2018/"
+    },
+    "artcurial-tenuous": {
+      "title": "Vhils, Tenuous, lot 233",
+      "pub": "Artcurial",
+      "date": "April 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.artcurial.com/en/sales/IT6467/lots/233-a"
+    },
+    "christies-kaws-guide": {
+      "title": "10 things to know about KAWS",
+      "pub": "Christie's",
+      "date": "28 March 2026",
+      "kind": "Auction house guide",
+      "url": "https://www.christies.com.cn/zh-cn/stories/kaws-artist-guide-1266ae90d08c4aba926e0e3309aeafaa"
+    },
+    "christies-companion": {
+      "title": "KAWS, COMPANION (ORIGINALFAKE), lot 16",
+      "pub": "Christie's",
+      "date": "June 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.christies.com.cn/en/lot/lot-6594586"
+    },
+    "christies-camo": {
+      "title": "KAWS, CAMO CAN'T HELP YOU, lot 233",
+      "pub": "Christie's",
+      "date": "September 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.christies.com.cn/en/lot/lot-6603892"
+    },
+    "sam-illusion": {
+      "title": "Illusion (2007) by Eko Nugroho",
+      "pub": "Singapore Art Museum",
+      "date": "2026",
+      "kind": "Museum collection page",
+      "url": "https://singaporeartmuseum.sg/About/Our-Collection/Illusion"
+    },
+    "christies-trapcostum": {
+      "title": "Eko Nugroho, Trap Costum for President 1, lot 76",
+      "pub": "Christie's",
+      "date": "November 2022",
+      "kind": "Auction lot page",
+      "url": "https://onlineonly.christies.com.cn/s/le-jeune-collecting-legacy-london-no-reserve-edit/eko-nugroho-b-1977-76/167517"
+    },
+    "phillips-topi": {
+      "title": "Eko Nugroho, Topi untuk Haring, lot 65",
+      "pub": "Phillips",
+      "date": "May 2025",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/eko-nugroho/215603"
+    },
+    "strauss-faith": {
+      "title": "Faith XLVII",
+      "pub": "Strauss & Co",
+      "date": "2026",
+      "kind": "Auction house artist page",
+      "url": "https://www.straussart.co.za/artists/faith-xlvii"
+    },
+    "strauss-capax": {
+      "title": "Faith XLVII, CAPAX INFINITI, lot 93",
+      "pub": "Strauss & Co",
+      "date": "October 2022",
+      "kind": "Auction lot page",
+      "url": "https://www.straussart.co.za/auctions/lot/25-oct-2022/93"
+    },
+    "strauss-coltan": {
+      "title": "Faith XLVII, Coltan; Oil; Diamonds, triptych, lot 332",
+      "pub": "Strauss & Co",
+      "date": "June 2024",
+      "kind": "Auction lot page",
+      "url": "https://www.straussart.co.za/auctions/lot/315-10-jun-2024/332"
     }
   },
   "artists": [
@@ -1717,6 +1836,639 @@
         "Museum pages for works in public collections",
         "Photographs with permission to publish",
         "The catalogue raisonné numbers for the works named"
+      ]
+    },
+    {
+      "slug": "osgemeos",
+      "name": "OSGEMEOS",
+      "letter": "O",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Two",
+        "brothers,",
+        "one",
+        "world."
+      ],
+      "tag": "Murals and painting",
+      "place": "São Paulo",
+      "tone": "#C79A2E",
+      "heroTone": "#C79A2E",
+      "summary": "Brazilian twin brothers who began as graffiti artists in São Paulo and paint one dream world of thin, yellow-skinned figures.",
+      "dek": "OSGEMEOS paint the same imagined world on walls, canvases and whole buildings: thin yellow figures in patterned clothes, drawn from Brazilian folk culture and hip-hop.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Who",
+          "Twin brothers Gustavo and Otavio Pandolfo",
+          [
+            "artsy-osgemeos"
+          ]
+        ],
+        [
+          "Born",
+          "1974",
+          [
+            "christies-semmedo"
+          ]
+        ],
+        [
+          "Started",
+          "Graffiti, São Paulo",
+          [
+            "artsy-osgemeos"
+          ]
+        ],
+        [
+          "Media",
+          "Murals, painting, sculpture, installation, video",
+          [
+            "artsy-osgemeos"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who are OSGEMEOS?",
+          "html": "<p>OSGEMEOS means “the twins” in Portuguese. Gustavo and Otavio Pandolfo started as graffiti artists in São Paulo and now make murals, paintings, sculpture, installations and video.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> They have shown in New York, London, São Paulo, Hong Kong, Seoul and Berlin.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Their figures are long-limbed and yellow-skinned, set in surreal landscapes. Artsy links the imagery to Brazilian folklore, hip-hop and graffiti.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> In the studio they mix street materials with others: one 2010 panel combines acrylic, spray enamel, latex and sequins.<sup class=\"cite\"><a data-src=\"christies-semmedo\">[christies-semmedo]</a></sup> Another work of 2005 includes an audio player and headphones.<sup class=\"cite\"><a data-src=\"phillips-andorinha\">[phillips-andorinha]</a></sup></p><h3>How to read one</h3><p>Look at the clothes and backgrounds first, which are full of small patterns. Our reading: the figures seem calm and dreamy, as if they belong to a world that runs on its own rules.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Kelburn Castle mural",
+          "year": "2007",
+          "medium": "Paint on the outside walls of a castle",
+          "size": "Building",
+          "note": "The castle's owners commissioned four Brazilian street artists, OSGEMEOS among them, to paint the 13th century building.",
+          "src": [
+            "hyperallergic-kelburn",
+            "hookedblog-kelburn"
+          ],
+          "tone": "#5C8A4E"
+        },
+        {
+          "title": "Sem medo de ser feliz",
+          "year": "2010",
+          "medium": "Acrylic, spray enamel, latex and sequins on panel",
+          "size": "199.7 x 160.7 x 12.1 cm",
+          "note": "The title means “without fear of being happy”. Sold at Christie's online in July 2026 for US$82,550.",
+          "src": [
+            "christies-semmedo"
+          ],
+          "tone": "#C79A2E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1974",
+          "what": "Born.",
+          "src": [
+            "christies-semmedo"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Kelburn Castle, Scotland, painted with other Brazilian artists.",
+          "src": [
+            "hookedblog-kelburn"
+          ]
+        }
+      ],
+      "seen": "<p>Artsy lists the Museu de Arte Moderna de São Paulo and the Museum of Contemporary Art, Los Angeles among the collections holding their work.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup></p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-mixed-media"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "A full list of public murals"
+      ]
+    },
+    {
+      "slug": "vhils",
+      "name": "Vhils",
+      "letter": "V",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Made",
+        "by",
+        "taking",
+        "away."
+      ],
+      "tag": "Carving and public walls",
+      "place": "Lisbon",
+      "tone": "#6B6259",
+      "heroTone": "#6B6259",
+      "summary": "A Portuguese artist who makes portraits by cutting, drilling and blasting into walls, posters, doors and metal.",
+      "dek": "Vhils works the opposite way to a painter. He removes plaster, paper or metal until a face appears, so the image is made from the layers of the city itself.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Name",
+          "Alexandre Farto",
+          [
+            "vhils-about"
+          ]
+        ],
+        [
+          "Born",
+          "Lisbon, 1987",
+          [
+            "vhils-about"
+          ]
+        ],
+        [
+          "Trained",
+          "Byam Shaw School of Art and Central Saint Martins, London",
+          [
+            "vhils-about"
+          ]
+        ],
+        [
+          "Method",
+          "Carving, drilling, etching and blasting surfaces",
+          [
+            "vhils-about"
+          ]
+        ],
+        [
+          "Reach",
+          "Work in more than 30 countries (reported)",
+          [
+            "vhils-about"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Vhils?",
+          "html": "<p>Alexandre Farto was born in Lisbon in 1987 and began working on the city's walls as Vhils in the early 2000s, according to his own website.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> He trained in London at Byam Shaw School of Art and Central Saint Martins.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> His studio was founded in 2010 and he reports work in more than 30 countries.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His site describes the method as subtraction: cutting, drilling, etching or blasting through a surface rather than adding to it.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> He uses walls, billboards, doors, metal, wood, styrofoam, paper and film.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> In the studio, stacks of street posters are carved by hand, so the colours of old adverts become the light and shade of a face.<sup class=\"cite\"><a data-src=\"bonhams-attrition\">[bonhams-attrition]</a></sup></p><h3>How to read one</h3><p>Stand back to see the face, then step close to see the layers. Our reading: the portraits seem to come out of the building's own history.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Scratching the Surface",
+          "year": "From 2007",
+          "medium": "Carved wall portraits",
+          "size": "Walls",
+          "note": "First shown publicly in Lisbon in 2007 and at the Cans Festival in London in 2008, according to the artist's site.",
+          "src": [
+            "vhils-about"
+          ],
+          "tone": "#8A7E72"
+        },
+        {
+          "title": "Attrition series #01",
+          "year": "2018",
+          "medium": "Hand-carved advertising posters collected from the street",
+          "size": "180 x 120 cm",
+          "note": "Sold at Bonhams London in October 2025 for GBP 10,240 including premium.",
+          "src": [
+            "bonhams-attrition"
+          ],
+          "tone": "#6B6259"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1987",
+          "what": "Born in Lisbon.",
+          "src": [
+            "vhils-about"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Scratching the Surface shown in Lisbon.",
+          "src": [
+            "vhils-about"
+          ]
+        },
+        {
+          "when": "2008",
+          "what": "Cans Festival, London.",
+          "src": [
+            "vhils-about"
+          ]
+        },
+        {
+          "when": "2010",
+          "what": "Studio founded.",
+          "src": [
+            "vhils-about"
+          ]
+        }
+      ],
+      "seen": "<p>Signed prints appear at auction regularly; Artcurial sold several in Paris in April 2026.<sup class=\"cite\"><a data-src=\"artcurial-tenuous\">[artcurial-tenuous]</a></sup></p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "An independent source for his biography"
+      ]
+    },
+    {
+      "slug": "kaws",
+      "name": "KAWS",
+      "letter": "K",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "X",
+        "for",
+        "eyes."
+      ],
+      "tag": "Painting, sculpture and prints",
+      "place": "New York",
+      "tone": "#4F6B8A",
+      "heroTone": "#4F6B8A",
+      "summary": "An American artist who began by painting cartoon figures onto bus shelter adverts and built a world around his X-eyed character, COMPANION.",
+      "dek": "KAWS borrows the language of cartoons and toys: flat colour, hard edges and a character whose eyes are always crossed out. The same figure moves between canvases, giant sculptures and editions.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Name",
+          "Brian Donnelly",
+          [
+            "christies-kaws-guide"
+          ]
+        ],
+        [
+          "Born",
+          "1974",
+          [
+            "christies-kaws-guide"
+          ]
+        ],
+        [
+          "Trained",
+          "Illustration, School of Visual Arts, New York",
+          [
+            "christies-kaws-guide"
+          ]
+        ],
+        [
+          "Started",
+          "Graffiti in New Jersey and Manhattan",
+          [
+            "christies-kaws-guide"
+          ]
+        ],
+        [
+          "Media",
+          "Painting, sculpture, prints, toys",
+          [
+            "christies-kaws-guide"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is KAWS?",
+          "html": "<p>Brian Donnelly studied illustration at the School of Visual Arts in New York and painted backgrounds for television cartoons.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> He tagged KAWS on buildings in New Jersey and Manhattan, then began adding cartoon figures to bus shelter adverts.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> His first toy, COMPANION, followed a trip to Japan in 1999.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His figures are cartoon-like, with crossed-out eyes. Christie's notes comparisons with Basquiat and Haring, who also came from the street, and with Warhol and Koons.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> The paintings crop the figures tight and break them into flat areas of colour.<sup class=\"cite\"><a data-src=\"christies-camo\">[christies-camo]</a></sup></p><h3>How to read one</h3><p>Look for the X's first, then for the borrowed cartoon. Our reading: a friendly character becomes a little sad or uneasy.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "COMPANION (ORIGINALFAKE)",
+          "year": "2011",
+          "medium": "Fibreglass and paint, edition of 3 plus 2 artist's proofs",
+          "size": "245 x 104 x 66 cm",
+          "note": "The 1999 toy figure at more than human height. Number 3 sold at Christie's London in June 2026 for GBP 228,600.",
+          "src": [
+            "christies-companion"
+          ],
+          "tone": "#3B3B38"
+        },
+        {
+          "title": "CAMO CAN'T HELP YOU",
+          "year": "2013",
+          "medium": "Acrylic on canvas",
+          "size": "182.9 x 304.9 cm",
+          "note": "First shown at Kaikai Kiki Gallery, Tokyo, in 2013. Sold at Christie's Hong Kong in September 2026 for HKD 8,960,000.",
+          "src": [
+            "christies-camo"
+          ],
+          "tone": "#4F6B8A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1974",
+          "what": "Born.",
+          "src": [
+            "christies-kaws-guide"
+          ]
+        },
+        {
+          "when": "1999",
+          "what": "First COMPANION toy, made in Japan.",
+          "src": [
+            "christies-kaws-guide"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "COMPANION balloon in the Macy's Thanksgiving parade, New York.",
+          "src": [
+            "christies-kaws-guide"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "KAWS: HOLIDAY inflatable in Victoria Harbour, Hong Kong.",
+          "src": [
+            "christies-kaws-guide"
+          ]
+        }
+      ],
+      "seen": "<p>His large inflatable COMPANION has been shown in Seoul, Taipei and Hong Kong's Victoria Harbour.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup></p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish"
+      ]
+    },
+    {
+      "slug": "eko-nugroho",
+      "name": "Eko Nugroho",
+      "letter": "E",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Masks,",
+        "thread",
+        "and",
+        "slogans."
+      ],
+      "tag": "Murals, embroidery and painting",
+      "place": "Yogyakarta",
+      "tone": "#8A3E5C",
+      "heroTone": "#8A3E5C",
+      "summary": "An Indonesian artist whose masked, comic-book figures move from walls into paintings, embroidery and batik.",
+      "dek": "Eko Nugroho draws masked hybrid figures in a bold comic style and makes them in paint, thread and batik, often working with communities around Yogyakarta.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Yogyakarta, 1977",
+          [
+            "sam-illusion"
+          ]
+        ],
+        [
+          "Based",
+          "Yogyakarta",
+          [
+            "sam-illusion"
+          ]
+        ],
+        [
+          "Media",
+          "Painting, embroidery, sculpture, batik",
+          [
+            "sam-illusion",
+            "phillips-topi"
+          ]
+        ],
+        [
+          "Shown at",
+          "5th Asia Pacific Triennial, Brisbane, 2006",
+          [
+            "sam-illusion"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Eko Nugroho?",
+          "html": "<p>Nugroho was born in Yogyakarta in 1977 and lives and works there.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> He often works with communities and other artists to draw attention to social issues.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> He took part in the 5th Asia Pacific Triennial in Brisbane in 2006 and in shows at the Singapore Art Museum and National Gallery Singapore.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His figures come from comic culture and are usually masked. The Singapore Art Museum says the masks are deliberate: he avoids stereotyped faces that could lead to discrimination.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> The same graphic style appears in embroidery and in batik on cotton.<sup class=\"cite\"><a data-src=\"phillips-topi\">[phillips-topi]</a></sup></p><h3>How to read one</h3><p>Read the words in the picture as part of the image. Our reading: the humour carries a serious point about power and society.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Illusion",
+          "year": "2007",
+          "medium": "Embroidery",
+          "size": "296 x 148 cm",
+          "note": "In the Singapore Art Museum. A stripped landscape with monster-like machines and a masked figure.",
+          "src": [
+            "sam-illusion"
+          ],
+          "tone": "#5C7A3E"
+        },
+        {
+          "title": "Trap Costum for President 1",
+          "year": "2011",
+          "medium": "Embroidery on fabric",
+          "size": "174 x 141 cm",
+          "note": "Sold at Christie's London online in November 2022 for GBP 10,710.",
+          "src": [
+            "christies-trapcostum"
+          ],
+          "tone": "#8A3E5C"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1977",
+          "what": "Born in Yogyakarta.",
+          "src": [
+            "sam-illusion"
+          ]
+        },
+        {
+          "when": "2006",
+          "what": "5th Asia Pacific Triennial, Brisbane.",
+          "src": [
+            "sam-illusion"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Imaginarium, Singapore Art Museum.",
+          "src": [
+            "sam-illusion"
+          ]
+        }
+      ],
+      "seen": "<p>Illusion (2007) is in the collection of the Singapore Art Museum.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup></p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-mixed-media"
+      ],
+      "research": [
+        "Other museum collections",
+        "Photographs with permission to publish",
+        "His murals and community projects"
+      ]
+    },
+    {
+      "slug": "faith-xlvii",
+      "name": "Faith XLVII",
+      "letter": "F",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Quiet",
+        "figures,",
+        "old",
+        "words."
+      ],
+      "tag": "Murals and prints",
+      "place": "South Africa",
+      "tone": "#5E6B4A",
+      "heroTone": "#5E6B4A",
+      "summary": "A South African artist who began as the graffiti writer Faith47 and has painted public murals in 39 countries.",
+      "dek": "Faith XLVII paints calm, almost religious figures, often with a Latin or Afrikaans phrase, and carries the same images from walls into prints, hangings and panels.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "1979",
+          [
+            "strauss-faith"
+          ]
+        ],
+        [
+          "Started",
+          "Graffiti in South Africa, 1997",
+          [
+            "strauss-faith"
+          ]
+        ],
+        [
+          "Murals",
+          "39 countries since 2006",
+          [
+            "strauss-faith"
+          ]
+        ],
+        [
+          "Media",
+          "Murals, new media, hand-sewn hangings, bronze, painting, prints",
+          [
+            "strauss-faith"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Faith XLVII?",
+          "html": "<p>She began as a graffiti writer called Faith47 on South African streets in 1997. From 2006 she travelled to paint public murals and has made them in 39 countries.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> She has shown at the Calais Museum of Fine Art, the Bernard Magrez Foundation and the Brooklyn Museum.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Her work now spans new media installations, hand-sewn wall hangings, bronzes, paintings and prints.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> Wall images return as prints: the lithograph CAPAX INFINITI refers to her 2014 mural on the Carlyle building in Portland, Oregon.<sup class=\"cite\"><a data-src=\"strauss-capax\">[strauss-capax]</a></sup></p><h3>How to read one</h3><p>Read the text first, then the figure. Our reading: the old phrases give everyday subjects a feeling of ritual.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Capax Infiniti",
+          "year": "2014",
+          "medium": "Mural, Carlyle building, Portland, Oregon",
+          "size": "Building wall",
+          "note": "Later made into a lithograph with the same title.",
+          "src": [
+            "strauss-capax"
+          ],
+          "tone": "#7A6A4E"
+        },
+        {
+          "title": "Coltan; Oil; Diamonds",
+          "year": "Undated in the catalogue",
+          "medium": "Triptych, mixed media on panel in the artist's hand-made wooden frames",
+          "size": "Each 230 x 107 x 11 cm",
+          "note": "Three panels named after resources mined in Africa. Sold at Strauss & Co in June 2024 for ZAR 29,313 including premium and VAT.",
+          "src": [
+            "strauss-coltan"
+          ],
+          "tone": "#5E6B4A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1979",
+          "what": "Born.",
+          "src": [
+            "strauss-faith"
+          ]
+        },
+        {
+          "when": "1997",
+          "what": "Begins writing graffiti as Faith47.",
+          "src": [
+            "strauss-faith"
+          ]
+        },
+        {
+          "when": "2006",
+          "what": "Starts painting murals abroad.",
+          "src": [
+            "strauss-faith"
+          ]
+        },
+        {
+          "when": "2014",
+          "what": "Capax Infiniti mural, Portland.",
+          "src": [
+            "strauss-capax"
+          ]
+        }
+      ],
+      "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup></p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "An independent source for her exhibitions"
       ]
     }
   ],
