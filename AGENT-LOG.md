@@ -4,7 +4,7 @@ A record of what the website agent did on each run, newest first.
 
 ## Monday 23 November 2026, five international portfolios (draft)
 Published: nothing. Prepared as a draft on the owner's instruction in a conversation.
-Drafts waiting: portfolios for Yayoi Kusama, El Anatsui, Beatriz Milhazes, S.H. Raza and Gerhard Richter. https://github.com/Artiscope/World-art-review/pull/PRNUM
+Drafts waiting: portfolios for Yayoi Kusama, El Anatsui, Beatriz Milhazes, S.H. Raza and Gerhard Richter. https://github.com/Artiscope/World-art-review/pull/3
 Checked: the site builds with 9 artists, and the Raza portfolio holds at phone width. No long dashes or banned words. Sources: Wikipedia for biographies, plus auction lot pages (Sotheby's, Phillips, Saffronart, AstaGuru) and press reports (The Art Newspaper, TheValue, HENI News, Artsy).
 Needs you: a yes or no on the draft, and photographs with permission to publish, if you want pictures on these portfolios.
 
