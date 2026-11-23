@@ -545,6 +545,83 @@
       "date": "14 October 2021",
       "kind": "News report",
       "url": "https://www.theartnewspaper.com/2021/10/14/banksys-shredded-love-is-in-the-bin-sells-for-pound185m"
+    },
+    "wiki-vangogh": {
+      "title": "Vincent van Gogh",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopaedia entry",
+      "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    },
+    "kmm-chestnuts": {
+      "title": "Vincent van Gogh, Blossoming Chestnut Trees",
+      "pub": "Kröller-Müller Museum",
+      "date": "",
+      "kind": "Museum collection page",
+      "url": "https://www.krollermuller.nl/en/collection/vincent-van-gogh-blossoming-chestnut-trees-km-105-479"
+    },
+    "sothebys-vg-lot5": {
+      "title": "Vincent van Gogh, Châtaigniers en fleurs, lot 5, Legendary: The Blaquier-Arrieta Collection Evening Auction",
+      "pub": "Sotheby's",
+      "date": "18 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.sothebys.com/buy/bcef4231-708a-4487-9b3f-53b866de0727/lots/ac1f9fd6-946e-473e-9a6a-0483bc4b8ae8"
+    },
+    "ai-vangogh": {
+      "title": "Van Gogh's Châtaigniers en fleurs Sells for Record $190.4 Million at Sotheby's",
+      "pub": "Art Insider",
+      "date": "19 November 2026",
+      "kind": "News report",
+      "url": "https://www.art-insider.com/van-goghs-chataigniers-en-fleurs-sells-for-record-190-4-million-at-sothebys/8934"
+    },
+    "vgm-auvers-2023": {
+      "title": "Van Gogh in Auvers. His Final Months opens 12 May",
+      "pub": "Van Gogh Museum",
+      "date": "10 May 2023",
+      "kind": "Press release",
+      "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/press-releases/20230510-van-gogh-in-auvers-his-final-months-opens-12-may"
+    },
+    "bilbao-kandinsky": {
+      "title": "Kandinsky",
+      "pub": "Guggenheim Museum Bilbao",
+      "date": "2020",
+      "kind": "Exhibition page",
+      "url": "https://guggenheim-bilbao.eus/en/exhibitions/kandinsky"
+    },
+    "agnsw-kandinsky": {
+      "title": "Kandinsky: learning resource",
+      "pub": "Art Gallery of New South Wales",
+      "date": "",
+      "kind": "Museum learning resource",
+      "url": "https://www.artgallery.nsw.gov.au/learn/learning-resources/kandinsky"
+    },
+    "tate-kandinsky-1958": {
+      "title": "Paintings by Kandinsky from the Solomon R Guggenheim Museum",
+      "pub": "Tate",
+      "date": "1958",
+      "kind": "Exhibition page",
+      "url": "https://tate.org.uk/whats-on/tate-britain/paintings-kandinsky-solomon-r-guggenheim-museum"
+    },
+    "artsy-kandinsky": {
+      "title": "Record-breaking $85.8 million Kandinsky leads Christie's November 2026 New York evening sale",
+      "pub": "Artsy",
+      "date": "18 November 2026",
+      "kind": "News report",
+      "url": "https://www.artsy.net/article/artsy-editorial-record-breaking-858-million-kandinsky-leads-christie-s-november-2026-new-york-evening-sale"
+    },
+    "tan-kandinsky": {
+      "title": "Kandinsky record and trove consigned by Jeff Koons buoy Christie's 20th-century sale in New York",
+      "pub": "The Art Newspaper (Judd Tully)",
+      "date": "18 November 2026",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2026/11/18/kandinsky-record-and-a-trove-consigned-by-jeff-koons-buoy-christies-solid-20th-century-evening-sale-in-new-york"
+    },
+    "apollo-oct-2026": {
+      "title": "Storming success for Christie's in the October auctions",
+      "pub": "Apollo (Anna Brady)",
+      "date": "19 October 2026",
+      "kind": "Auction report",
+      "url": "https://apollo-magazine.com/auction-report-october-2026-london-peter-simon-modern-british/"
     }
   },
   "artists": [
@@ -2720,6 +2797,340 @@
         "Museum pages for works in public collections",
         "Photographs with permission to publish",
         "An independent source for her exhibitions"
+      ]
+    },
+    {
+      "slug": "vincent-van-gogh",
+      "name": "Vincent van Gogh",
+      "letter": "V",
+      "published": true,
+      "image": "",
+      "alt": "",
+      "ghostWords": [
+        "Seventy",
+        "days,",
+        "seventy",
+        "paintings"
+      ],
+      "tag": "Painting",
+      "place": "Zundert, Paris, Arles and Auvers-sur-Oise",
+      "tone": "#3C5A8A",
+      "heroTone": "#3C5A8A",
+      "summary": "A Dutch painter of bold colour and fast, visible brushwork, who made most of his paintings in the last two years of his short life.",
+      "dek": "Vincent van Gogh painted for little more than ten years and sold little while he lived. In November 2026 one of his last paintings became the most expensive he has ever made at auction.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Zundert, Netherlands, 30 March 1853",
+          [
+            "wiki-vangogh"
+          ]
+        ],
+        [
+          "Died",
+          "Auvers-sur-Oise, France, 29 July 1890",
+          [
+            "wiki-vangogh"
+          ]
+        ],
+        [
+          "Output",
+          "About 2,100 works, around 860 of them oil paintings",
+          [
+            "wiki-vangogh"
+          ]
+        ],
+        [
+          "Label",
+          "Post-Impressionism",
+          [
+            "wiki-vangogh"
+          ]
+        ],
+        [
+          "Auction record",
+          "Châtaigniers en fleurs (1890), Sotheby's New York, 18 November 2026, reported at US$190.4 million with fees",
+          [
+            "ai-vangogh"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Vincent van Gogh?",
+          "html": "<p>Van Gogh was born in Zundert in the south of the Netherlands in 1853. In just over a decade of painting he made about 2,100 works, most of them in the last two years of his life.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup> He had little success while he lived.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup></p><p>On 16 May 1890 he left the asylum at Saint-Rémy and travelled to Auvers-sur-Oise, north of Paris, wanting to study peasants and landscapes from life.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup> He made about 70 oil paintings there in roughly as many days, and died in the village on 29 July 1890 from a gunshot wound he had inflicted himself.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup> The Van Gogh Museum gave those final months their first full exhibition in 2023.<sup class=\"cite\"><a data-src=\"vgm-auvers-2023\">[vgm-auvers-2023]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His painting is known for bold colour and dramatic, impulsive brushwork.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup> The Kröller-Müller Museum's description of Blossoming Chestnut Trees, painted in Auvers on 22 and 23 May 1890, shows how deliberate those marks were: flat strokes for the green of the tree, short straight strokes of dark blue to give the leaves structure, thick blue outlines round some of the white blossom, and a sky built from overlapping zigzags. Part of the lower canvas is left bare.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup></p><h3>How to read one</h3><p>Our reading: look at one area at a time and ask what kind of stroke it is made of. Sky, foliage and road are often painted in different directions and rhythms, so the brushwork describes the thing as much as the colour does.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Châtaigniers en fleurs (Chestnut Trees in Blossom)",
+          "year": "1890",
+          "medium": "Oil on canvas",
+          "size": "70 x 58 cm",
+          "note": "Painted in Auvers on 24 May 1890. A flowering chestnut fills the picture, with small figures walking beneath it. Sold at Sotheby's New York on 18 November 2026, a new auction record for the artist.",
+          "src": [
+            "sothebys-vg-lot5",
+            "ai-vangogh"
+          ],
+          "tone": "#C98FA0"
+        },
+        {
+          "title": "Blossoming Chestnut Trees",
+          "year": "1890",
+          "medium": "Oil on canvas",
+          "size": "63.3 x 49.8 cm",
+          "note": "Painted a day or two earlier on the same subject. Kröller-Müller Museum, Otterlo.",
+          "src": [
+            "kmm-chestnuts"
+          ],
+          "tone": "#5E7F5A"
+        },
+        {
+          "title": "Doctor Paul Gachet",
+          "year": "1890",
+          "medium": "Oil on canvas",
+          "size": "68.2 x 57 cm",
+          "note": "A portrait of the doctor who looked after him in Auvers. Musée d'Orsay, Paris.",
+          "src": [
+            "vgm-auvers-2023"
+          ],
+          "tone": "#3C5A8A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1853",
+          "what": "Born in Zundert, the Netherlands.",
+          "src": [
+            "wiki-vangogh"
+          ]
+        },
+        {
+          "when": "1890",
+          "what": "Leaves Saint-Rémy on 16 May for Auvers-sur-Oise.",
+          "src": [
+            "kmm-chestnuts"
+          ]
+        },
+        {
+          "when": "1890",
+          "what": "Dies at Auvers-sur-Oise on 29 July.",
+          "src": [
+            "wiki-vangogh"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "Van Gogh in Auvers: His Final Months opens at the Van Gogh Museum, Amsterdam.",
+          "src": [
+            "vgm-auvers-2023"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Châtaigniers en fleurs sells at Sotheby's New York on 18 November, a new auction record for the artist.",
+          "src": [
+            "ai-vangogh"
+          ]
+        }
+      ],
+      "seen": "<p>The Kröller-Müller Museum in Otterlo holds Blossoming Chestnut Trees.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup> Doctor Paul Gachet is in the Musée d'Orsay, Paris.<sup class=\"cite\"><a data-src=\"vgm-auvers-2023\">[vgm-auvers-2023]</a></sup></p>",
+      "related": [
+        "a-how-to-look-at-a-painting",
+        "a-oil-and-acrylic"
+      ],
+      "research": [
+        "Museum pages for the Van Gogh Museum's own collection",
+        "A free image of the artist or a work in a public collection",
+        "The exact Sotheby's figures, which need a sign-in to read",
+        "Earlier auction results"
+      ]
+    },
+    {
+      "slug": "wassily-kandinsky",
+      "name": "Wassily Kandinsky",
+      "letter": "W",
+      "published": true,
+      "image": "",
+      "alt": "",
+      "ghostWords": [
+        "Colour",
+        "as",
+        "music.",
+        "Abstraction"
+      ],
+      "tag": "Abstraction",
+      "place": "Moscow, Munich, Weimar, Dessau and Paris",
+      "tone": "#B8452F",
+      "heroTone": "#B8452F",
+      "summary": "A Russian-born painter who moved from landscape to pure abstraction, and who believed colour could move a viewer the way music does.",
+      "dek": "Wassily Kandinsky gave up law for painting at 30 and spent the rest of his life stripping the recognisable out of his pictures. His Bauhaus years produced the hard-edged circles and angles now most closely tied to his name.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Moscow, 16 December 1866",
+          [
+            "bilbao-kandinsky"
+          ]
+        ],
+        [
+          "Died",
+          "Neuilly-sur-Seine, France, 1944",
+          [
+            "bilbao-kandinsky"
+          ]
+        ],
+        [
+          "Trained",
+          "Law and economics at the University of Moscow, then painting in Munich",
+          [
+            "agnsw-kandinsky"
+          ]
+        ],
+        [
+          "Groups",
+          "Co-founded the Blue Rider with Franz Marc, 1911; taught at the Bauhaus",
+          [
+            "agnsw-kandinsky",
+            "bilbao-kandinsky"
+          ]
+        ],
+        [
+          "Auction record",
+          "Betonte Ecken (1922 to 1923), Christie's New York, 17 November 2026, reported at US$85.8 million with fees",
+          [
+            "tan-kandinsky",
+            "artsy-kandinsky"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Wassily Kandinsky?",
+          "html": "<p>Kandinsky was born in Moscow in 1866 and studied law and economics at the university there.<sup class=\"cite\"><a data-src=\"bilbao-kandinsky\">[bilbao-kandinsky]</a></sup> At 30 he gave up law for art. In 1896 he saw one of Monet's Haystacks and heard Wagner's Lohengrin, and moved to Munich the same year.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup></p><p>In 1911 he founded the Blue Rider with Franz Marc, and in 1912 published On the Spiritual in Art.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup> The First World War sent him back to Moscow in 1914. He returned to Germany in 1921, joined the Bauhaus, and moved to France when the school was closed under Nazi pressure in 1933. He died at Neuilly-sur-Seine in 1944.<sup class=\"cite\"><a data-src=\"bilbao-kandinsky\">[bilbao-kandinsky]</a></sup><sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>From about 1908 he gradually removed recognisable things from his pictures.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup> He wanted painting to be as free of the visible world as music, and wrote about colour as a way of carrying the artist's inner life to the viewer.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup></p><p>Tate describes two main phases: a free, expressive one from 1909 to 1918, and tighter, more geometric compositions from 1921 to 1935.<sup class=\"cite\"><a data-src=\"tate-kandinsky-1958\">[tate-kandinsky-1958]</a></sup> The second belongs to his Bauhaus years, when lines, circles and angled shapes take over. Betonte Ecken (Accented Corners), made between December 1922 and January 1923, is from the start of that period.<sup class=\"cite\"><a data-src=\"artsy-kandinsky\">[artsy-kandinsky]</a></sup></p><h3>How to read one</h3><p>Our reading: treat the shapes less as objects than as notes. Follow a line from one edge, see where colours press against each other, and notice which forms seem loud and which quiet.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Betonte Ecken (Accented Corners)",
+          "year": "1922 to 1923",
+          "medium": "Painting",
+          "size": "",
+          "note": "An abstract of black lines and coloured geometric forms from his early Bauhaus years. Owned by the Guggenheim from 1941 to 1964. Sold at Christie's New York on 17 November 2026, a new auction record for the artist.",
+          "src": [
+            "artsy-kandinsky",
+            "tan-kandinsky"
+          ],
+          "tone": "#B8452F"
+        },
+        {
+          "title": "Black Lines (Schwarze Linien)",
+          "year": "1913",
+          "medium": "Oil on canvas",
+          "size": "130.5 x 131.1 cm",
+          "note": "From the freer, expressive phase. Solomon R. Guggenheim Museum, New York.",
+          "src": [
+            "bilbao-kandinsky"
+          ],
+          "tone": "#2E2E3A"
+        },
+        {
+          "title": "Several Circles (Einige Kreise)",
+          "year": "1926",
+          "medium": "Oil on canvas",
+          "size": "140.7 x 140.3 cm",
+          "note": "Overlapping coloured circles on a dark ground, from the Bauhaus years. Solomon R. Guggenheim Museum, New York.",
+          "src": [
+            "bilbao-kandinsky"
+          ],
+          "tone": "#2B3D66"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1866",
+          "what": "Born in Moscow.",
+          "src": [
+            "bilbao-kandinsky"
+          ]
+        },
+        {
+          "when": "1896",
+          "what": "Gives up law and moves to Munich to paint.",
+          "src": [
+            "agnsw-kandinsky"
+          ]
+        },
+        {
+          "when": "1911",
+          "what": "Founds the Blue Rider with Franz Marc.",
+          "src": [
+            "agnsw-kandinsky"
+          ]
+        },
+        {
+          "when": "1912",
+          "what": "Publishes On the Spiritual in Art.",
+          "src": [
+            "agnsw-kandinsky"
+          ]
+        },
+        {
+          "when": "1929",
+          "what": "Solomon R. Guggenheim begins collecting his work.",
+          "src": [
+            "bilbao-kandinsky"
+          ]
+        },
+        {
+          "when": "1933",
+          "what": "The Bauhaus closes; he settles near Paris.",
+          "src": [
+            "bilbao-kandinsky"
+          ]
+        },
+        {
+          "when": "1944",
+          "what": "Dies at Neuilly-sur-Seine.",
+          "src": [
+            "bilbao-kandinsky"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Das bunte Leben sells at Christie's London in October, and Betonte Ecken sets his auction record at Christie's New York in November.",
+          "src": [
+            "apollo-oct-2026",
+            "tan-kandinsky"
+          ]
+        }
+      ],
+      "seen": "<p>The Solomon R. Guggenheim Museum in New York holds a large group of his paintings, including Black Lines and Several Circles.<sup class=\"cite\"><a data-src=\"bilbao-kandinsky\">[bilbao-kandinsky]</a></sup></p>",
+      "related": [
+        "a-how-to-look-at-a-painting",
+        "a-oil-and-acrylic"
+      ],
+      "research": [
+        "The medium and size of Betonte Ecken",
+        "A free image of the artist or a work in a public collection",
+        "Exact Christie's figures from the lot pages",
+        "Earlier auction results"
       ]
     }
   ],

@@ -258,6 +258,54 @@
       "group": "Articles: Features",
       "label": "Eleven new portfolios, from Bristol to Yogyakarta",
       "filled": false
+    },
+    {
+      "id": "artist-vincent-van-gogh",
+      "group": "Artist main images",
+      "label": "Vincent van Gogh",
+      "filled": false
+    },
+    {
+      "id": "work-vincent-van-gogh-chataigniers-en-fleurs",
+      "group": "Artworks: Vincent van Gogh",
+      "label": "Châtaigniers en fleurs (Chestnut Trees in Blossom)",
+      "filled": false
+    },
+    {
+      "id": "work-vincent-van-gogh-blossoming-chestnut-trees",
+      "group": "Artworks: Vincent van Gogh",
+      "label": "Blossoming Chestnut Trees",
+      "filled": false
+    },
+    {
+      "id": "work-vincent-van-gogh-doctor-paul-gachet",
+      "group": "Artworks: Vincent van Gogh",
+      "label": "Doctor Paul Gachet",
+      "filled": false
+    },
+    {
+      "id": "artist-wassily-kandinsky",
+      "group": "Artist main images",
+      "label": "Wassily Kandinsky",
+      "filled": false
+    },
+    {
+      "id": "work-wassily-kandinsky-betonte-ecken",
+      "group": "Artworks: Wassily Kandinsky",
+      "label": "Betonte Ecken (Accented Corners)",
+      "filled": false
+    },
+    {
+      "id": "work-wassily-kandinsky-black-lines",
+      "group": "Artworks: Wassily Kandinsky",
+      "label": "Black Lines (Schwarze Linien)",
+      "filled": false
+    },
+    {
+      "id": "work-wassily-kandinsky-several-circles",
+      "group": "Artworks: Wassily Kandinsky",
+      "label": "Several Circles (Einige Kreise)",
+      "filled": false
     }
   ]
 }
