@@ -440,6 +440,111 @@
       "date": "June 2024",
       "kind": "Auction lot page",
       "url": "https://www.straussart.co.za/auctions/lot/315-10-jun-2024/332"
+    },
+    "pi-painting": {
+      "title": "Praemium Imperiale: Painting laureates",
+      "pub": "Praemium Imperiale",
+      "date": "2026",
+      "kind": "Prize body list",
+      "url": "https://www.praemiumimperiale.org/en/bumon/painting"
+    },
+    "pi-richter": {
+      "title": "Gerhard Richter",
+      "pub": "Praemium Imperiale",
+      "date": "2026",
+      "kind": "Laureate page",
+      "url": "https://www.praemiumimperiale.org/en/laureate/richter/"
+    },
+    "tate-kusama-imr": {
+      "title": "Yayoi Kusama: Infinity Mirror Rooms",
+      "pub": "Tate Modern",
+      "date": "2021 to 2024",
+      "kind": "Exhibition page",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/yayoi-kusama-infinity-mirror-rooms"
+    },
+    "tate-anatsui": {
+      "title": "Hyundai Commission: El Anatsui: Behind the Red Moon",
+      "pub": "Tate",
+      "date": "9 October 2023",
+      "kind": "Press release",
+      "url": "https://www.tate.org.uk/press/press-releases/hyundai-commission-el-anatsui-behind-the-red-moon"
+    },
+    "tate-richter-panorama": {
+      "title": "Gerhard Richter: Panorama",
+      "pub": "Tate",
+      "date": "4 October 2011",
+      "kind": "Press release",
+      "url": "https://www.tate.org.uk/press/press-releases/gerhard-richter-panorama"
+    },
+    "tan-raza-pompidou": {
+      "title": "Leading Indian Modernist SH Raza gets first public museum retrospective at Centre Pompidou in Paris",
+      "pub": "The Art Newspaper (Kabir Jhala)",
+      "date": "16 March 2023",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2023/03/16/leading-indian-modernist-sh-raza-gets-first-public-museum-retrospective-at-centre-pompidou-in-paris"
+    },
+    "masp-milhazes": {
+      "title": "Beatriz Milhazes: Avenida Paulista",
+      "pub": "MASP",
+      "date": "2020",
+      "kind": "Exhibition page",
+      "url": "https://masp.org.br/en/exhibitions/beatriz-milhazes-avenida-paulista"
+    },
+    "artdaily-milhazes": {
+      "title": "Guggenheim unveils first New York museum show for Brazilian abstractionist Beatriz Milhazes",
+      "pub": "Artdaily",
+      "date": "2025",
+      "kind": "News report",
+      "url": "https://artdaily.com/news/178975/Guggenheim-unveils-first-New-York-museum-show-for-Brazilian-abstractionist-Beatriz-Milhazes"
+    },
+    "tate-streetart": {
+      "title": "Street Art at Tate Modern",
+      "pub": "Tate",
+      "date": "2 April 2008",
+      "kind": "Press release",
+      "url": "https://www.tate.org.uk/press/press-releases/street-art-tate-modern"
+    },
+    "maat-vhils": {
+      "title": "Vhils: Prisma",
+      "pub": "MAAT, Lisbon",
+      "date": "2022",
+      "kind": "Exhibition page",
+      "url": "https://maat.pt/en/exhibition/vhils-prisma"
+    },
+    "euronews-vhils": {
+      "title": "Vhils in view: Lisbon looks back at two decades of art by Portugal's 'urban archaeologist'",
+      "pub": "Euronews (Inês dos Santos Cardoso)",
+      "date": "25 January 2026",
+      "kind": "News report",
+      "url": "https://www.euronews.com/2026/01/25/vhils-in-view-lisbon-looks-back-at-two-decades-of-art-by-portugals-urban-archaeologist"
+    },
+    "brooklyn-kaws": {
+      "title": "KAWS: WHAT PARTY",
+      "pub": "Brooklyn Museum",
+      "date": "2021",
+      "kind": "Exhibition page",
+      "url": "https://www.brooklynmuseum.org/exhibitions/kaws_what_party"
+    },
+    "biennial-eko": {
+      "title": "The Indonesian Pavilion at the 55th Venice Biennale",
+      "pub": "Biennial Foundation",
+      "date": "15 May 2013",
+      "kind": "News report",
+      "url": "https://www.biennialfoundation.org/2013/05/the-indonesian-pavilion-under-the-banner-of-sakti-in-sanskrit-meaning-cosmic-energy-is-all-set-to-be-a-force-to-reacon-with-at-the-55th-venice-biennale/"
+    },
+    "artdaily-faith": {
+      "title": "STRAAT Museum offers a unique insight into the artistic journey of South African street artist Faith XLVII",
+      "pub": "Artdaily",
+      "date": "2025",
+      "kind": "News report",
+      "url": "https://artdaily.com/news/182027/STRAAT-Museum-offers-a-unique-insight-into-the-artistic-journey-of-South-African-street-artist-Faith-XLVII-"
+    },
+    "tan-litb": {
+      "title": "Banksy world record as shredded work sells to Asian collector for £18.6m at Sotheby's",
+      "pub": "The Art Newspaper (Georgina Adam)",
+      "date": "14 October 2021",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2021/10/14/banksys-shredded-love-is-in-the-bin-sells-for-pound185m"
     }
   },
   "artists": [
@@ -1074,6 +1179,13 @@
           "src": [
             "wiki-gwb"
           ]
+        },
+        {
+          "when": "October 2021",
+          "what": "Love Is in the Bin is offered again at Sotheby's London and sells for £18.6m with fees, a hammer price of £16m, as reported by The Art Newspaper.",
+          "src": [
+            "tan-litb"
+          ]
         }
       ],
       "seen": "<p>Banksy's street works are in public space, and many have been painted over or removed. We do not give the locations of works still in place. Canvases and prints appear at auction; see the lot pages listed in the sources.</p>",
@@ -1139,6 +1251,13 @@
           "Infinity Nets, polka dots, mirror rooms, soft sculpture",
           [
             "wiki-kusama"
+          ]
+        ],
+        [
+          "Honours",
+          "Praemium Imperiale for painting, 2006",
+          [
+            "pi-painting"
           ]
         ]
       ],
@@ -1223,6 +1342,27 @@
           ]
         },
         {
+          "when": "2006",
+          "what": "Praemium Imperiale for painting.",
+          "src": [
+            "pi-painting"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "The Yayoi Kusama Museum opens in Tokyo.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "2021",
+          "what": "Infinity Mirror Rooms opens at Tate Modern, London, and runs until April 2024.",
+          "src": [
+            "tate-kusama-imr"
+          ]
+        },
+        {
           "when": "August 2026",
           "what": "Dies in Tokyo, aged 97.",
           "src": [
@@ -1230,7 +1370,7 @@
           ]
         }
       ],
-      "seen": "<p>Her work is held by many museums. The Museum of Modern Art in New York holds <i>Accumulation of Stamps, 63</i> (1962).<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Paintings appear regularly at auction; see the lot reports listed in the sources.</p>",
+      "seen": "<p>Her work is held by many museums. The Museum of Modern Art in New York holds <i>Accumulation of Stamps, 63</i> (1962).<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Paintings appear regularly at auction; see the lot reports listed in the sources. A museum devoted to her work, the Yayoi Kusama Museum, opened in Tokyo in 2017.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Tate Modern showed two of her mirror rooms from May 2021 to April 2024.<sup class=\"cite\"><a data-src=\"tate-kusama-imr\">[tate-kusama-imr]</a></sup></p>",
       "related": [
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic",
@@ -1296,10 +1436,10 @@
         ],
         [
           "Honours",
-          "Golden Lion for Lifetime Achievement, Venice, 2015",
+          "Golden Lion for Lifetime Achievement, Venice, 2015; Praemium Imperiale, 2017",
           [
-            "wiki-anatsui",
-            "artnet-anatsui"
+            "artnet-anatsui",
+            "wiki-anatsui"
           ]
         ]
       ],
@@ -1376,14 +1516,22 @@
           ]
         },
         {
-          "when": "2023",
-          "what": "Hyundai Commission, Tate Modern Turbine Hall.",
+          "when": "2017",
+          "what": "Praemium Imperiale.",
           "src": [
             "wiki-anatsui"
           ]
+        },
+        {
+          "when": "2023",
+          "what": "Behind the Red Moon, the Hyundai Commission for Tate Modern's Turbine Hall, opens on 9 October. Tate calls it his largest work to date.",
+          "src": [
+            "wiki-anatsui",
+            "tate-anatsui"
+          ]
         }
       ],
-      "seen": "<p>His works hang in museums in Africa, Europe and the United States. Artnet names, among others, the Metropolitan Museum of Art and the Museum of Modern Art in New York, the Centre Pompidou and the British Museum.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup></p>",
+      "seen": "<p>His works hang in museums in Africa, Europe and the United States. Artnet names, among others, the Metropolitan Museum of Art and the Museum of Modern Art in New York, the Centre Pompidou and the British Museum.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup> Tate's 2023 press release also names the Smithsonian's National Museum of African Art in Washington.<sup class=\"cite\"><a data-src=\"tate-anatsui\">[tate-anatsui]</a></sup></p>",
       "related": [
         "a-mixed-media",
         "a-how-to-look-at-a-painting"
@@ -1449,6 +1597,13 @@
         [
           "Media",
           "Painting, collage, prints, installations",
+          [
+            "wiki-milhazes"
+          ]
+        ],
+        [
+          "Honours",
+          "Chevalier des Arts et des Lettres, France, 2007",
           [
             "wiki-milhazes"
           ]
@@ -1518,6 +1673,20 @@
           "src": [
             "wiki-milhazes"
           ]
+        },
+        {
+          "when": "2020",
+          "what": "Avenida Paulista, a survey of more than 170 works, opens at MASP and Itaú Cultural, São Paulo, in December.",
+          "src": [
+            "masp-milhazes"
+          ]
+        },
+        {
+          "when": "2025",
+          "what": "Rigor and Beauty at the Guggenheim, New York, the first New York museum show devoted to her work.",
+          "src": [
+            "artdaily-milhazes"
+          ]
         }
       ],
       "seen": "<p>Her work is held by the Museum of Modern Art and the Guggenheim in New York, Tate Modern in London and the Centre Pompidou in Paris, among others.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup></p>",
@@ -1586,6 +1755,13 @@
         [
           "Known for",
           "The Bindu paintings, from 1980",
+          [
+            "wiki-raza"
+          ]
+        ],
+        [
+          "Honours",
+          "Padma Shri 1981, Padma Bhushan 2007, Padma Vibhushan 2013; Commandeur de la Légion d'honneur 2015",
           [
             "wiki-raza"
           ]
@@ -1675,14 +1851,28 @@
           ]
         },
         {
+          "when": "2013",
+          "what": "Padma Vibhushan, India.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
           "when": "2016",
           "what": "Dies in New Delhi.",
           "src": [
             "wiki-raza"
           ]
+        },
+        {
+          "when": "2023",
+          "what": "Retrospective at the Centre Pompidou, Paris, with more than 90 works.",
+          "src": [
+            "tan-raza-pompidou"
+          ]
         }
       ],
-      "seen": "<p>His work appears often at auction in India and internationally; see the lot pages listed in the sources.</p>",
+      "seen": "<p>His work appears often at auction in India and internationally; see the lot pages listed in the sources. In 2023 the Centre Pompidou in Paris held a retrospective of more than 90 works, which The Art Newspaper described as his first in a state-run institution.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup></p>",
       "related": [
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
@@ -1746,9 +1936,10 @@
         ],
         [
           "Honours",
-          "Golden Lion, Venice Biennale, 1997",
+          "Golden Lion, Venice Biennale, 1997; Praemium Imperiale for painting, 1997",
           [
-            "wiki-richter"
+            "wiki-richter",
+            "pi-richter"
           ]
         ]
       ],
@@ -1819,9 +2010,10 @@
         },
         {
           "when": "1997",
-          "what": "Golden Lion, Venice Biennale.",
+          "what": "Golden Lion, Venice Biennale, and Praemium Imperiale for painting.",
           "src": [
-            "wiki-richter"
+            "wiki-richter",
+            "pi-richter"
           ]
         },
         {
@@ -1829,6 +2021,13 @@
           "what": "Window for Cologne Cathedral unveiled.",
           "src": [
             "wiki-richter"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Gerhard Richter: Panorama, a retrospective, opens at Tate Modern, London, in October.",
+          "src": [
+            "tate-richter-panorama"
           ]
         }
       ],
@@ -1946,9 +2145,16 @@
           "src": [
             "hookedblog-kelburn"
           ]
+        },
+        {
+          "when": "2008",
+          "what": "One of six artists to paint the river front of Tate Modern for its Street Art exhibition, 23 May to 25 August.",
+          "src": [
+            "tate-streetart"
+          ]
         }
       ],
-      "seen": "<p>Artsy lists the Museu de Arte Moderna de São Paulo and the Museum of Contemporary Art, Los Angeles among the collections holding their work.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup></p>",
+      "seen": "<p>Artsy lists the Museu de Arte Moderna de São Paulo and the Museum of Contemporary Art, Los Angeles among the collections holding their work.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> In 2008 they painted part of Tate Modern's river front for Street Art, which Tate called the first major public museum display of street art in London.<sup class=\"cite\"><a data-src=\"tate-streetart\">[tate-streetart]</a></sup></p>",
       "related": [
         "a-what-is-an-intervention",
         "a-mixed-media"
@@ -2082,9 +2288,23 @@
           "src": [
             "vhils-about"
           ]
+        },
+        {
+          "when": "2022",
+          "what": "Prisma, a video installation, at MAAT, Lisbon, 30 March to 5 September.",
+          "src": [
+            "maat-vhils"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Selected Editions 2008-2024 at MUDE, Lisbon's design museum, until 1 March.",
+          "src": [
+            "euronews-vhils"
+          ]
         }
       ],
-      "seen": "<p>Signed prints appear at auction regularly; Artcurial sold several in Paris in April 2026.<sup class=\"cite\"><a data-src=\"artcurial-tenuous\">[artcurial-tenuous]</a></sup></p>",
+      "seen": "<p>Signed prints appear at auction regularly; Artcurial sold several in Paris in April 2026.<sup class=\"cite\"><a data-src=\"artcurial-tenuous\">[artcurial-tenuous]</a></sup> MAAT in Lisbon showed his video installation Prisma in 2022,<sup class=\"cite\"><a data-src=\"maat-vhils\">[maat-vhils]</a></sup> and MUDE, the city's design museum, showed a selection of his editions in early 2026.<sup class=\"cite\"><a data-src=\"euronews-vhils\">[euronews-vhils]</a></sup></p>",
       "related": [
         "a-what-is-an-intervention",
         "a-original-vs-print"
@@ -2216,9 +2436,16 @@
           "src": [
             "christies-kaws-guide"
           ]
+        },
+        {
+          "when": "2021",
+          "what": "KAWS: WHAT PARTY, a survey of more than 100 works, at the Brooklyn Museum, 26 February to 5 September.",
+          "src": [
+            "brooklyn-kaws"
+          ]
         }
       ],
-      "seen": "<p>His large inflatable COMPANION has been shown in Seoul, Taipei and Hong Kong's Victoria Harbour.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup></p>",
+      "seen": "<p>His large inflatable COMPANION has been shown in Seoul, Taipei and Hong Kong's Victoria Harbour.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> The Brooklyn Museum gave him a survey of more than 100 works in 2021.<sup class=\"cite\"><a data-src=\"brooklyn-kaws\">[brooklyn-kaws]</a></sup></p>",
       "related": [
         "a-what-is-an-intervention",
         "a-original-vs-print"
@@ -2275,9 +2502,10 @@
         ],
         [
           "Shown at",
-          "5th Asia Pacific Triennial, Brisbane, 2006",
+          "5th Asia Pacific Triennial, Brisbane, 2006; Indonesian Pavilion, Venice Biennale, 2013",
           [
-            "sam-illusion"
+            "sam-illusion",
+            "biennial-eko"
           ]
         ]
       ],
@@ -2330,6 +2558,13 @@
           "what": "5th Asia Pacific Triennial, Brisbane.",
           "src": [
             "sam-illusion"
+          ]
+        },
+        {
+          "when": "2013",
+          "what": "One of five artists in Indonesia's pavilion at the 55th Venice Biennale.",
+          "src": [
+            "biennial-eko"
           ]
         },
         {
@@ -2467,9 +2702,16 @@
           "src": [
             "strauss-capax"
           ]
+        },
+        {
+          "when": "2025",
+          "what": "ORIGINS: Family & Legacy at the STRAAT Museum, Amsterdam, 18 April to 8 June.",
+          "src": [
+            "artdaily-faith"
+          ]
         }
       ],
-      "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup></p>",
+      "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> The STRAAT Museum in Amsterdam added one of her works to its collection in 2025.<sup class=\"cite\"><a data-src=\"artdaily-faith\">[artdaily-faith]</a></sup></p>",
       "related": [
         "a-what-is-an-intervention",
         "a-original-vs-print"
