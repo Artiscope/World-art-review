@@ -8,6 +8,12 @@ Drafts waiting: main images for the Banksy, Yayoi Kusama, El Anatsui, S.H. Raza 
 Checked: every image comes from Wikimedia Commons under a licence that allows reuse, read on the file's own page. Each carries the photographer and licence as its credit, and the full caption with the Commons link is in `content/files.json`. Kusama, Raza and Richter are portraits; Banksy is his 2026 Waterloo Place statue; El Anatsui is a public sculpture from his design in Nsukka, as no free portrait exists. The site builds with 9 artists and the pages hold at phone and desktop width.
 Needs you: (1) this site's brief says images come only from the inbox, so these wait for your yes. (2) On phones the credit line on a main image is cut short by the name label, as it already is for Konn Artiss. Free licences ask for the credit to be readable, so tell me if you want that fixed. (3) No usable image was found for Beatriz Milhazes; her portfolio keeps the "Artwork image to supply" frame.
 
+## Monday 23 November 2026, whole site brought up to date (published)
+Published: on the owner's yes in a conversation. A new article introducing the eleven new artists, now first on the homepage. Five explainers and collecting guides use the new artists as sourced examples. The research desk lists all fourteen artists A to Z. Privacy and terms text written to match what the site actually does. https://github.com/Artiscope/World-art-review/pull/6
+Drafts waiting: images for five portfolios. https://github.com/Artiscope/World-art-review/pull/5
+Checked: the site builds with 14 artists and 17 articles; touched pages hold at phone and desktop width; every citation resolves. No long dashes or banned words.
+Needs you: the "Our relationships" wording, and the footer's Instagram, X and LinkedIn addresses. Please also read the new privacy and terms text and check it suits you legally.
+
 ## Monday 23 November 2026, five street artist portfolios (draft)
 Published: nothing. Prepared as a draft under the owner's standing rule for artist research.
 Drafts waiting: portfolios for OSGEMEOS, Vhils, KAWS, Eko Nugroho and Faith XLVII, on branch draft/2026-11-23-street-artists.
