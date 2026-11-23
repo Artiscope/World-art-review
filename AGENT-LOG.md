@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, five street artist portfolios (draft)
+Published: nothing. Prepared as a draft under the owner's standing rule for artist research.
+Drafts waiting: portfolios for OSGEMEOS, Vhils, KAWS, Eko Nugroho and Faith XLVII, on branch draft/2026-11-23-street-artists.
+Checked: the site builds with 14 artists; the new portfolios hold at phone and desktop width with no page errors. No long dashes or banned words. Sources: Artsy, Hyperallergic, Hookedblog, the Singapore Art Museum, the artist's own site for Vhils (marked as reported), and lot pages at Christie's, Phillips, Bonhams, Artcurial and Strauss & Co.
+Needs you: a yes or no on the draft, and photographs with permission to publish.
+
 ## Monday 23 November 2026, five international portfolios (draft)
 Published: nothing. Prepared as a draft on the owner's instruction in a conversation.
 Drafts waiting: portfolios for Yayoi Kusama, El Anatsui, Beatriz Milhazes, S.H. Raza and Gerhard Richter. https://github.com/Artiscope/World-art-review/pull/3
