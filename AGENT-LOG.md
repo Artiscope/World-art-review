@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Monday 23 November 2026, museum shows and prizes (draft)
+Published: nothing. Prepared as a draft under the owner's standing rule for artist research.
+Drafts waiting: museum shows, collections and prizes added to eleven portfolios (link in the pull request list).
+Checked: Tate press releases (El Anatsui, Richter, Street Art 2008), Tate Modern's Kusama page, the Praemium Imperiale site, The Art Newspaper (Raza at the Pompidou, Love Is in the Bin), MASP, Artdaily, the Brooklyn Museum, MAAT, Euronews, the Biennial Foundation and Wikipedia for honours. 15 new numbered sources. The site builds with 14 artists; touched portfolios hold at phone and desktop width with no page errors.
+Needs you: a yes or no on the draft. Nothing new was found for Zara Muse, Konn Artiss or Zen Xander.
+
 ## Monday 23 November 2026, portfolio images (draft)
 Published: nothing. Prepared as a draft on the owner's request in a conversation to add images to the sites.
 Drafts waiting: main images for the Banksy, Yayoi Kusama, El Anatsui, S.H. Raza and Gerhard Richter portfolios (link in the pull request list).
