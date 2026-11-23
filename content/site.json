@@ -146,6 +146,48 @@
       "date": "undated",
       "kind": "Technical analysis",
       "url": "https://colourlex.com/project/rembrandt-self-portrait-at-the-age-of-63"
+    },
+    "jsma-banksy": {
+      "title": "Research Guide: Banksy",
+      "pub": "Jordan Schnitzer Museum of Art, University of Oregon",
+      "date": "2024",
+      "kind": "Museum research guide",
+      "url": "https://jsma.uoregon.edu/sites/default/files/2024-08/JSMA%20Research%20Guide%20-%20Banksy.pdf"
+    },
+    "wiki-gwb": {
+      "title": "Girl with Balloon",
+      "pub": "Wikipedia",
+      "date": "",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Girl_with_Balloon"
+    },
+    "bonhams-laughnow": {
+      "title": "Banksy, Laugh Now, painted in 2001 (lot 9)",
+      "pub": "Bonhams",
+      "date": "15 October 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.bonhams.com/auction/32184/lot/9/banksy-b-1975-laugh-now-painted-in-2001/"
+    },
+    "bonhams-angel": {
+      "title": "Banksy, Angel, painted in 2006 (lot 18A)",
+      "pub": "Bonhams",
+      "date": "18 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.bonhams.com/auction/31893/lot/18A/banksy-b-1974-angel-83-78-x-83-78-in-213-x-213-cm-painted-in-2006/"
+    },
+    "phillips-keepout": {
+      "title": "Banksy, Keep Ou T, 2019 (lot 4)",
+      "pub": "Phillips",
+      "date": "15 October 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/banksy/238143"
+    },
+    "heritage-ratheart": {
+      "title": "Banksy, Rat & Heart, 2015 (lot 77068)",
+      "pub": "Heritage Auctions",
+      "date": "10 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://fineart.ha.com/itm/paintings/banksy-b-1974-rat-and-heart-2015-spray-paint-and-emulsion-on-cut-out-canvas-in-artist-s-frame-9-7-8-x-11-7-8-inches/a/8277-77068.s"
     }
   },
   "artists": [
@@ -599,6 +641,200 @@
         "Exhibition history",
         "Press coverage",
         "Photographs with permission to publish"
+      ]
+    },
+    {
+      "slug": "banksy",
+      "name": "Banksy",
+      "letter": "B",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "A stencil,",
+        "a joke,",
+        "no name.",
+        "Street"
+      ],
+      "tag": "Street art",
+      "place": "Bristol and London",
+      "tone": "#3B3B38",
+      "heroTone": "#3B3B38",
+      "summary": "An anonymous artist from Bristol's graffiti scene whose stencilled rats, children and chimpanzees moved from walls to canvas and the auction room.",
+      "dek": "No one has confirmed who Banksy is. The work is easier to pin down: flat black stencils, one accent colour and a dry joke, made on walls since the 1990s and on canvas since at least 2001.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Identity",
+          "Anonymous. Never publicly confirmed",
+          [
+            "jsma-banksy"
+          ]
+        ],
+        [
+          "Began",
+          "Bristol graffiti scene, 1990s",
+          [
+            "jsma-banksy",
+            "phillips-keepout"
+          ]
+        ],
+        [
+          "Method",
+          "Spray paint through hand-cut stencils",
+          [
+            "jsma-banksy"
+          ]
+        ],
+        [
+          "Media",
+          "Spray paint, acrylic and emulsion on walls and canvas; screenprints; found objects",
+          [
+            "bonhams-angel",
+            "bonhams-laughnow",
+            "phillips-keepout",
+            "jsma-banksy"
+          ]
+        ],
+        [
+          "Recurring figures",
+          "Rats, chimpanzees, children",
+          [
+            "bonhams-laughnow",
+            "heritage-ratheart",
+            "wiki-gwb"
+          ]
+        ],
+        [
+          "Authentication",
+          "Pest Control",
+          [
+            "bonhams-angel",
+            "phillips-keepout"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Banksy?",
+          "html": "\n      <p>Banksy has never publicly confirmed who he is. What is documented is where the work began: as a teenage graffiti writer in Bristol in the 1990s, before a move to London.<sup class=\"cite\"><a data-src=\"jsma-banksy\">[jsma-banksy]</a></sup> Phillips' catalogue dates the first works on trains and walls to 1993.<sup class=\"cite\"><a data-src=\"phillips-keepout\">[phillips-keepout]</a></sup></p>\n      <p>The street work was soon joined by work on canvas. <i>Laugh Now</i>, a canvas of 2001, was acquired from the artist by its owner the year it was painted.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup> In 2006 he showed large canvases, among them <i>Angel</i>, in the Los Angeles exhibition <i>Barely Legal</i>.<sup class=\"cite\"><a data-src=\"bonhams-angel\">[bonhams-angel]</a></sup></p>\n      <p>Authentic works are certified by Pest Control, the artist's own authentication body. Each of the recent auction lots we checked was sold with a Pest Control certificate.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup><sup class=\"cite\"><a data-src=\"bonhams-angel\">[bonhams-angel]</a></sup><sup class=\"cite\"><a data-src=\"phillips-keepout\">[phillips-keepout]</a></sup><sup class=\"cite\"><a data-src=\"heritage-ratheart\">[heritage-ratheart]</a></sup></p>\n      <div class=\"callout\"><strong>How we report this artist</strong>Auction catalogues do not agree on Banksy's year of birth: Bonhams gives both 1974 and 1975. We leave it out until it can be settled. We do not give the locations of street works.</div>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "\n      <p>The method is the stencil: a sheet with shapes cut out of it, held to a surface and sprayed through. The Jordan Schnitzer Museum of Art calls Banksy an early mainstream innovator of stencil graffiti, a technique valued for its speed and graphic clarity.<sup class=\"cite\"><a data-src=\"jsma-banksy\">[jsma-banksy]</a></sup></p>\n      <p>On canvas he often mixes spray paint with acrylic or household emulsion.<sup class=\"cite\"><a data-src=\"bonhams-angel\">[bonhams-angel]</a></sup><sup class=\"cite\"><a data-src=\"heritage-ratheart\">[heritage-ratheart]</a></sup> The look carries over from the wall: flat, hard-edged figures in black and white, often with one accent colour, and few or no words.</p>\n      <p>Animals stand in for people. Rats and chimpanzees recur, and Bonhams' catalogue for <i>Laugh Now</i> describes the chimpanzee as a surrogate through which human hierarchies are seen.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup></p>\n      <h3>How to read one</h3>\n      <p>Look for the single point of colour first, then the gap around it. In <i>Girl with Balloon</i> the red heart sits apart from the black figure, and the empty space between them carries the picture.<sup class=\"cite\"><a data-src=\"wiki-gwb\">[wiki-gwb]</a></sup> In <i>Laugh Now</i> the dark figure sits against a pale green ground, and the white placard is the only break in it.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup> Our reading: the joke arrives first, and the point follows a second later.</p>\n      <div class=\"callout\"><strong>Read more</strong><a href=\"#a-what-is-an-intervention\">What is an art intervention?</a><br><a href=\"#a-original-vs-print\">Original, limited edition or open print?</a><br><a href=\"#a-provenance-certificates\">Provenance and certificates, explained</a></div>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Laugh Now",
+          "year": "2001",
+          "medium": "Acrylic and spray paint on canvas",
+          "size": "91.5 x 91.5 cm",
+          "note": "A stooping chimpanzee with a sandwich board. Sold at Bonhams London in October 2026 for £320,500 including buyer's premium.",
+          "src": [
+            "bonhams-laughnow"
+          ],
+          "tone": "#A9B8A0"
+        },
+        {
+          "title": "Girl with Balloon",
+          "year": "2002",
+          "medium": "Stencil mural; later canvases and prints",
+          "size": null,
+          "note": "First painted near Waterloo Bridge on London's South Bank. A framed version was partly shredded at Sotheby's in 2018 and renamed Love Is in the Bin.",
+          "src": [
+            "wiki-gwb",
+            "jsma-banksy"
+          ],
+          "tone": "#C0453A"
+        },
+        {
+          "title": "Angel",
+          "year": "2006",
+          "medium": "Spray paint and emulsion on canvas",
+          "size": "213 x 213 cm",
+          "note": "Shown in Barely Legal, Los Angeles, 2006. A black and white figure against a dark field.",
+          "src": [
+            "bonhams-angel"
+          ],
+          "tone": "#2A2A28"
+        },
+        {
+          "title": "Rat & Heart",
+          "year": "2015",
+          "medium": "Spray paint and emulsion on cut-out canvas, in artist's frame",
+          "size": "25.1 x 30.2 cm",
+          "note": "The red heart is cut through the canvas.",
+          "src": [
+            "heritage-ratheart"
+          ],
+          "tone": "#B9B3A8"
+        },
+        {
+          "title": "Keep Ou T",
+          "year": "2019",
+          "medium": "Reclaimed airport customs arch, wood, metal and spray paint",
+          "size": "266 x 236 x 42 cm",
+          "note": "A found object, reworked.",
+          "src": [
+            "phillips-keepout"
+          ],
+          "tone": "#6E6A62"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1990s",
+          "what": "Begins as a teenage graffiti writer in Bristol.",
+          "src": [
+            "jsma-banksy"
+          ]
+        },
+        {
+          "when": "2001",
+          "what": "Laugh Now painted on canvas.",
+          "src": [
+            "bonhams-laughnow"
+          ]
+        },
+        {
+          "when": "2002",
+          "what": "Girl with Balloon first appears near Waterloo Bridge, London. A six-metre Laugh Now mural is commissioned for the Ocean Rooms nightclub in Brighton.",
+          "src": [
+            "wiki-gwb",
+            "bonhams-laughnow"
+          ]
+        },
+        {
+          "when": "2006",
+          "what": "Barely Legal exhibition, Los Angeles.",
+          "src": [
+            "bonhams-angel"
+          ]
+        },
+        {
+          "when": "October 2018",
+          "what": "A framed Girl with Balloon is partly shredded moments after selling at Sotheby's London, and is renamed Love Is in the Bin.",
+          "src": [
+            "wiki-gwb"
+          ]
+        }
+      ],
+      "seen": "<p>Banksy's street works are in public space, and many have been painted over or removed. We do not give the locations of works still in place. Canvases and prints appear at auction; see the lot pages listed in the sources.</p>",
+      "related": [
+        "a-what-is-an-intervention",
+        "a-original-vs-print",
+        "a-provenance-certificates",
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "Museum collections that hold Banksy works",
+        "Exhibition history beyond Barely Legal",
+        "Photographs with permission to publish",
+        "A settled year of birth, if ever confirmed"
       ]
     }
   ],
