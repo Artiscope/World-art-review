@@ -2171,8 +2171,8 @@
       "name": "Vhils",
       "letter": "V",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/vhils-berlin-chausseestrasse.jpg",
+      "alt": "A large portrait of a man in a cap, made by chipping away the pale plaster of a tall brown city wall to show the darker layers beneath.",
       "ghostWords": [
         "Made",
         "by",
@@ -2185,7 +2185,7 @@
       "heroTone": "#6B6259",
       "summary": "A Portuguese artist who makes portraits by cutting, drilling and blasting into walls, posters, doors and metal.",
       "dek": "Vhils works the opposite way to a painter. He removes plaster, paper or metal until a face appears, so the image is made from the layers of the city itself.",
-      "heroCredit": "",
+      "heroCredit": "Photo: OTFW, Berlin, CC BY-SA 3.0",
       "checked": "23 November 2026",
       "glance": [
         [
