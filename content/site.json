@@ -188,6 +188,132 @@
       "date": "10 November 2026",
       "kind": "Auction lot page",
       "url": "https://fineart.ha.com/itm/paintings/banksy-b-1974-rat-and-heart-2015-spray-paint-and-emulsion-on-cut-out-canvas-in-artist-s-frame-9-7-8-x-11-7-8-inches/a/8277-77068.s"
+    },
+    "wiki-kusama": {
+      "title": "Yayoi Kusama",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Yayoi_Kusama"
+    },
+    "tan-kusama-record": {
+      "title": "Yayoi Kusama sets $15m auction record as Sotheby's opens New York mega-sales",
+      "pub": "The Art Newspaper",
+      "date": "16 November 2026",
+      "kind": "Auction report",
+      "url": "https://theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales"
+    },
+    "artsy-records-nov26": {
+      "title": "20 new artist auction records set in November 2026",
+      "pub": "Artsy",
+      "date": "20 November 2026",
+      "kind": "Auction report",
+      "url": "https://www.artsy.net/article/artsy-editorial-20-new-artist-auction-records-set-november-2026"
+    },
+    "heni-kusama-pumpkin": {
+      "title": "Yayoi Kusama, Pumpkin",
+      "pub": "HENI News",
+      "date": "7 March 2026",
+      "kind": "Auction result",
+      "url": "https://heni.com/news/article/yayoi-kusama-pumpkin-2026-03-07"
+    },
+    "wiki-anatsui": {
+      "title": "El Anatsui",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/El_Anatsui"
+    },
+    "artnet-anatsui": {
+      "title": "El Anatsui, biography",
+      "pub": "Artnet",
+      "date": "2026",
+      "kind": "Artist biography",
+      "url": "https://www.artnet.com/artists/el-anatsui/past-auction-results"
+    },
+    "sothebys-g6": {
+      "title": "El Anatsui, G6, lot 15",
+      "pub": "Sotheby's",
+      "date": "4 March 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.sothebys.com/en/buy/auction/2026/modern-contemporary-evening-auction-l26002/g6"
+    },
+    "sothebys-hesitant": {
+      "title": "El Anatsui, Hesitant Rivers, lot 5",
+      "pub": "Sotheby's",
+      "date": "16 October 2025",
+      "kind": "Auction lot page",
+      "url": "https://www.sothebys.com/en/buy/auction/2025/contemporary-evening-auction-2/hesitant-rivers"
+    },
+    "wiki-milhazes": {
+      "title": "Beatriz Milhazes",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Beatriz_Milhazes"
+    },
+    "phillips-paraty": {
+      "title": "Beatriz Milhazes, Paraty, lot 309",
+      "pub": "Phillips",
+      "date": "May 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/beatriz-milhazes/233914"
+    },
+    "heni-redmill": {
+      "title": "Beatriz Milhazes, Moinho vermelho (Red Mill)",
+      "pub": "HENI News",
+      "date": "25 June 2026",
+      "kind": "Auction result",
+      "url": "https://heni.com/news/article/beatriz-milhazes-moinho-vermelho-red-mill-2026-06-25"
+    },
+    "wiki-raza": {
+      "title": "S. H. Raza",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/S._H._Raza"
+    },
+    "saffronart-otta": {
+      "title": "S H Raza, Village Otta Corse, lot 28",
+      "pub": "Saffronart",
+      "date": "19 September 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.saffronart.com/auctions/DefaultController.aspx?pt=1&l=55068&eid=4984&a=S%20H%20Raza"
+    },
+    "saffronart-bindu": {
+      "title": "S H Raza, Bindu, lot 141",
+      "pub": "Saffronart",
+      "date": "21 to 22 September 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.saffronart.com/auctions/DefaultController.aspx?pt=1&l=55271&eid=4983&a=S%20H%20Raza"
+    },
+    "astaguru-provence": {
+      "title": "S H Raza, La Provence Noire, lot 39",
+      "pub": "AstaGuru",
+      "date": "28 to 30 September 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.astaguru.com/auctions/2026/manifest-221/la-provence-noire-19204"
+    },
+    "wiki-richter": {
+      "title": "Gerhard Richter",
+      "pub": "Wikipedia",
+      "date": "2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Gerhard_Richter"
+    },
+    "tan-richter-may": {
+      "title": "Christie's sale of Marian Goodman's Richters",
+      "pub": "The Art Newspaper",
+      "date": "21 May 2026",
+      "kind": "Auction report",
+      "url": "https://www.theartnewspaper.com/2026/05/21/christies-marian-goodman-richters-henry-mcneil-minimalism-auction-report-new-york"
+    },
+    "thevalue-richter-hk": {
+      "title": "Christie's Hong Kong 20th/21st Century Evening Sale, spring 2026",
+      "pub": "TheValue",
+      "date": "28 March 2026",
+      "kind": "Auction report",
+      "url": "https://en.thevalue.com/articles/christies-hong-kong-20th-21st-century-art-auction-2026-spring-evening-sale-result"
     }
   },
   "artists": [
@@ -835,6 +961,754 @@
         "Exhibition history beyond Barely Legal",
         "Photographs with permission to publish",
         "A settled year of birth, if ever confirmed"
+      ]
+    },
+    {
+      "slug": "yayoi-kusama",
+      "name": "Yayoi Kusama",
+      "letter": "Y",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "One mark,",
+        "over",
+        "and over.",
+        "Infinity"
+      ],
+      "tag": "Painting and installation",
+      "place": "Matsumoto, New York and Tokyo",
+      "tone": "#7A2E2A",
+      "heroTone": "#7A2E2A",
+      "summary": "A Japanese artist who covered canvases, objects and whole rooms in repeated nets and dots, from the late 1950s until her death in 2026.",
+      "dek": "Yayoi Kusama made one mark over and over until it filled the surface. The nets of her New York paintings of around 1960 and the polka dots that followed are the same idea at different scales.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Matsumoto, Japan, 1929",
+          [
+            "wiki-kusama"
+          ]
+        ],
+        [
+          "Died",
+          "Tokyo, 14 August 2026",
+          [
+            "wiki-kusama"
+          ]
+        ],
+        [
+          "Trained",
+          "Japanese-style painting (nihonga), Kyoto, 1948",
+          [
+            "wiki-kusama"
+          ]
+        ],
+        [
+          "Known for",
+          "Infinity Nets, polka dots, mirror rooms, soft sculpture",
+          [
+            "wiki-kusama"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Yayoi Kusama?",
+          "html": "<p>Kusama was born in Matsumoto in 1929 and studied Japanese-style painting in Kyoto in 1948.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> She moved to the United States in 1957, settling in New York in 1958, and returned to Japan in 1973.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>Her painting <i>No. 3P.B.</i> of 1960 was included in the Whitney Museum's annual exhibition in 1961.<sup class=\"cite\"><a data-src=\"tan-kusama-record\">[tan-kusama-record]</a></sup><sup class=\"cite\"><a data-src=\"artsy-records-nov26\">[artsy-records-nov26]</a></sup> She first took part in the Venice Biennale in 1966 with <i>Narcissus Garden</i>, and represented Japan there in 1993.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><p>She died in Tokyo on 14 August 2026, aged 97.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The Infinity Nets are large canvases covered edge to edge in small looped brushmarks, painted over a darker ground.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> There is no centre and no edge to the pattern: it simply stops where the canvas stops.</p><p>Later she gave the same repeated mark the form of a dot and carried it onto objects, sculptures and rooms. The pumpkin became her best-known object, wrapped in dots like a skin.<sup class=\"cite\"><a data-src=\"heni-kusama-pumpkin\">[heni-kusama-pumpkin]</a></sup> In the mirror rooms, reflections repeat lights or dots without end.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><h3>How to read one</h3><p>Stand close to a Net painting first, then step back. Close up you see single loops of paint; from a distance they merge into a surface that seems to move. Our reading: the effect comes from patience, not from any single mark.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "No. 3P.B.",
+          "year": "1960",
+          "medium": "Painting",
+          "size": "",
+          "note": "An early Infinity Net, shown at the Whitney Museum in 1961. In November 2026 it set a new auction record for the artist at Sotheby's New York.",
+          "src": [
+            "tan-kusama-record",
+            "artsy-records-nov26"
+          ],
+          "tone": "#E6DCC8"
+        },
+        {
+          "title": "Pumpkin",
+          "year": "1991",
+          "medium": "Acrylic on canvas",
+          "size": "22.6 x 16 cm",
+          "note": "A single pumpkin covered in dots, the motif she returned to most often.",
+          "src": [
+            "heni-kusama-pumpkin"
+          ],
+          "tone": "#D9A43A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1929",
+          "what": "Born in Matsumoto, Japan.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "1958",
+          "what": "Settles in New York.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "1961",
+          "what": "No. 3P.B. shown at the Whitney Museum's annual exhibition.",
+          "src": [
+            "tan-kusama-record"
+          ]
+        },
+        {
+          "when": "1966",
+          "what": "Narcissus Garden at the Venice Biennale.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "1973",
+          "what": "Returns to Japan.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "1993",
+          "what": "Represents Japan at the Venice Biennale.",
+          "src": [
+            "wiki-kusama"
+          ]
+        },
+        {
+          "when": "August 2026",
+          "what": "Dies in Tokyo, aged 97.",
+          "src": [
+            "wiki-kusama"
+          ]
+        }
+      ],
+      "seen": "<p>Her work is held by many museums. The Museum of Modern Art in New York holds <i>Accumulation of Stamps, 63</i> (1962).<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Paintings appear regularly at auction; see the lot reports listed in the sources.</p>",
+      "related": [
+        "a-how-to-look-at-a-painting",
+        "a-oil-and-acrylic",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "Exhibition history in Japan after 1973"
+      ]
+    },
+    {
+      "slug": "el-anatsui",
+      "name": "El Anatsui",
+      "letter": "E",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Bottle caps,",
+        "copper",
+        "wire.",
+        "Sculpture"
+      ],
+      "tag": "Sculpture",
+      "place": "Anyako and Nsukka",
+      "tone": "#8A6A2E",
+      "heroTone": "#8A6A2E",
+      "summary": "A Ghanaian sculptor in Nigeria who joins thousands of flattened bottle caps with copper wire into hanging metal sheets.",
+      "dek": "El Anatsui began with wood and clay. Since the 2000s he has been known for large hangings of aluminium bottle caps and copper wire, which fold differently each time they are installed.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Anyako, Ghana, 1944",
+          [
+            "wiki-anatsui"
+          ]
+        ],
+        [
+          "Trained",
+          "College of Art, Kumasi, BA 1968",
+          [
+            "wiki-anatsui"
+          ]
+        ],
+        [
+          "Based",
+          "Nsukka, Nigeria, since 1975",
+          [
+            "wiki-anatsui"
+          ]
+        ],
+        [
+          "Materials",
+          "Aluminium bottle caps and copper wire; earlier wood and clay",
+          [
+            "wiki-anatsui",
+            "sothebys-g6"
+          ]
+        ],
+        [
+          "Honours",
+          "Golden Lion for Lifetime Achievement, Venice, 2015",
+          [
+            "wiki-anatsui",
+            "artnet-anatsui"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is El Anatsui?",
+          "html": "<p>Anatsui was born in Anyako, in Ghana's Volta Region, in 1944, and graduated from the College of Art in Kumasi in 1968.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup> In 1975 he began teaching at the University of Nigeria in Nsukka, where he was professor of sculpture from 1996 to 2011.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup></p><p>His earlier work was carved wood, clay and found wooden objects. A 2005 exhibition at Skoto Gallery in New York brought the bottle-cap works to wide notice.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup> He received the Golden Lion for Lifetime Achievement at the Venice Biennale in 2015, and made the Hyundai Commission for Tate Modern's Turbine Hall in 2023.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup><sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The material is the aluminium cap from a liquor bottle. Each cap is flattened, cut or folded, and joined to its neighbours with copper wire.<sup class=\"cite\"><a data-src=\"sothebys-g6\">[sothebys-g6]</a></sup><sup class=\"cite\"><a data-src=\"sothebys-hesitant\">[sothebys-hesitant]</a></sup> Thousands of them make a sheet that is heavy but soft enough to hang in folds.</p><p>He does not fix how a work should hang. Artnet quotes him saying that life is always in flux, and the works can be draped differently each time.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup></p><h3>How to read one</h3><p>Look first at the whole: bands and fields of colour, like woven cloth. Then look at one cap, with its printed label still visible. Our reading: the work holds both scales at once, a large abstract surface and the small history of each bottle.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Hesitant Rivers",
+          "year": "2012",
+          "medium": "Aluminium bottle caps and copper wire",
+          "size": "388 x 233 cm",
+          "note": "A tall hanging in which bands of colour run downwards.",
+          "src": [
+            "sothebys-hesitant"
+          ],
+          "tone": "#B8892F"
+        },
+        {
+          "title": "G6",
+          "year": "2023",
+          "medium": "Aluminium, bottle caps and copper wire",
+          "size": "293 x 356.4 cm",
+          "note": "A recent wide hanging, donated by the artist to a Sotheby's sale in support of the Royal Academy in March 2026.",
+          "src": [
+            "sothebys-g6"
+          ],
+          "tone": "#6E7C6B"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1944",
+          "what": "Born in Anyako, Ghana.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "1968",
+          "what": "Graduates from the College of Art, Kumasi.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "1975",
+          "what": "Begins teaching at the University of Nigeria, Nsukka.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "2005",
+          "what": "Skoto Gallery exhibition brings the bottle-cap works to wide notice.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "2015",
+          "what": "Golden Lion for Lifetime Achievement, Venice Biennale.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "Hyundai Commission, Tate Modern Turbine Hall.",
+          "src": [
+            "wiki-anatsui"
+          ]
+        }
+      ],
+      "seen": "<p>His works hang in museums in Africa, Europe and the United States. Artnet names, among others, the Metropolitan Museum of Art and the Museum of Modern Art in New York, the Centre Pompidou and the British Museum.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup></p>",
+      "related": [
+        "a-mixed-media",
+        "a-how-to-look-at-a-painting"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "The earlier wood and clay works in more detail"
+      ]
+    },
+    {
+      "slug": "beatriz-milhazes",
+      "name": "Beatriz Milhazes",
+      "letter": "B",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Painted",
+        "on plastic,",
+        "pressed on.",
+        "Colour"
+      ],
+      "tag": "Painting and collage",
+      "place": "Rio de Janeiro",
+      "tone": "#2E6B5E",
+      "heroTone": "#2E6B5E",
+      "summary": "A Brazilian painter who builds dense, layered pictures of flowers, circles and stripes by transferring paint from plastic sheets.",
+      "dek": "Beatriz Milhazes does not paint straight onto the canvas. She paints shapes on plastic, lets them dry and presses them on, so the finished surface is flat, layered and slightly worn.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Rio de Janeiro, 1960",
+          [
+            "wiki-milhazes"
+          ]
+        ],
+        [
+          "Based",
+          "Rio de Janeiro",
+          [
+            "wiki-milhazes"
+          ]
+        ],
+        [
+          "Group",
+          "Associated with Brazil's 1980s Generation",
+          [
+            "wiki-milhazes"
+          ]
+        ],
+        [
+          "Method",
+          "Paint transferred from plastic sheets to canvas",
+          [
+            "wiki-milhazes",
+            "phillips-paraty"
+          ]
+        ],
+        [
+          "Media",
+          "Painting, collage, prints, installations",
+          [
+            "wiki-milhazes"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Beatriz Milhazes?",
+          "html": "<p>Milhazes was born in Rio de Janeiro in 1960 and works there.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup> She is associated with the 1980s Generation of Brazilian painters.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup></p><p>She showed at the Carnegie International in 1995 and in Brazil's pavilion at the Venice Biennale in 2003. Her first career survey in the United States was at the Pérez Art Museum Miami in 2015.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup> Her work is held by the Museum of Modern Art, the Guggenheim and Tate Modern, among others.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>She paints each motif on a sheet of plastic. When it is dry, she presses it face down onto the canvas and peels the plastic away, leaving the paint behind.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup><sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup> There are no brushstrokes to see, and small tears and wrinkles stay in the surface.<sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup></p><p>Phillips' catalogue lists her sources as Baroque architecture, lace, Carnival decoration and the plants of Rio's botanical garden, and links her to the Brazilian modernist idea of absorbing outside influences and making them local.<sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup></p><h3>How to read one</h3><p>Find the geometry first: the bands, grids and circles. Then see how flowers and arabesques sit over and under them. Our reading: the pleasure is in how much is held in balance.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Moinho vermelho (Red Mill)",
+          "year": "1999",
+          "medium": "Acrylic and metallic paint on canvas",
+          "size": "249 x 149 cm",
+          "note": "A tall canvas from the same period as Paraty, with metallic paint among the layers.",
+          "src": [
+            "heni-redmill"
+          ],
+          "tone": "#C0453A"
+        },
+        {
+          "title": "Paraty",
+          "year": "2001 to 2002",
+          "medium": "Acrylic on canvas",
+          "size": "198.4 x 80 cm",
+          "note": "Named after the coastal town where her mother was born. Sold at Phillips New York in May 2026 for US$516,000.",
+          "src": [
+            "phillips-paraty"
+          ],
+          "tone": "#3F8A6E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1960",
+          "what": "Born in Rio de Janeiro.",
+          "src": [
+            "wiki-milhazes"
+          ]
+        },
+        {
+          "when": "1995",
+          "what": "Carnegie International, Pittsburgh.",
+          "src": [
+            "wiki-milhazes"
+          ]
+        },
+        {
+          "when": "2003",
+          "what": "Brazil's pavilion, Venice Biennale.",
+          "src": [
+            "wiki-milhazes"
+          ]
+        },
+        {
+          "when": "2015",
+          "what": "First United States survey, Pérez Art Museum Miami.",
+          "src": [
+            "wiki-milhazes"
+          ]
+        }
+      ],
+      "seen": "<p>Her work is held by the Museum of Modern Art and the Guggenheim in New York, Tate Modern in London and the Centre Pompidou in Paris, among others.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup></p>",
+      "related": [
+        "a-mixed-media",
+        "a-original-vs-print",
+        "a-oil-and-acrylic"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "Her prints and public commissions"
+      ]
+    },
+    {
+      "slug": "s-h-raza",
+      "name": "S.H. Raza",
+      "letter": "S",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "A village,",
+        "then",
+        "a dot.",
+        "Bindu"
+      ],
+      "tag": "Painting",
+      "place": "Mandla, Bombay, Paris and New Delhi",
+      "tone": "#3A3A6A",
+      "heroTone": "#3A3A6A",
+      "summary": "An Indian painter who moved from French landscapes to geometric paintings centred on the bindu, a single black dot.",
+      "dek": "S.H. Raza spent most of his working life in France. His paintings start with villages and hills and end with circles, triangles and the bindu, a single black dot at the centre of the picture.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Kakkaiya, Mandla district, India, 1922",
+          [
+            "wiki-raza"
+          ]
+        ],
+        [
+          "Died",
+          "New Delhi, July 2016",
+          [
+            "wiki-raza"
+          ]
+        ],
+        [
+          "Trained",
+          "Nagpur, Bombay and the École des Beaux-Arts, Paris",
+          [
+            "wiki-raza"
+          ]
+        ],
+        [
+          "Group",
+          "Co-founder, Bombay Progressive Artists' Group, 1947",
+          [
+            "wiki-raza"
+          ]
+        ],
+        [
+          "Known for",
+          "The Bindu paintings, from 1980",
+          [
+            "wiki-raza"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was S.H. Raza?",
+          "html": "<p>Raza was born in 1922 in Kakkaiya, in what is now Madhya Pradesh. He studied at the Nagpur School of Art and then at the Sir J. J. School of Art in Bombay.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup> In 1947 he co-founded the Progressive Artists' Group in Bombay.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup></p><p>He moved to France in 1950 on a French government scholarship and studied at the École des Beaux-Arts in Paris. In 1956 he became the first artist from outside France to win the Prix de la Critique.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup> He moved back to India late in life; Wikipedia gives both 2010 and 2011. He died in New Delhi in July 2016.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The early French paintings are landscapes made of blocks: houses, roofs and hillsides set down in thick paint.<sup class=\"cite\"><a data-src=\"saffronart-otta\">[saffronart-otta]</a></sup> By the 1960s the forms loosen into large fields of dark colour.<sup class=\"cite\"><a data-src=\"astaguru-provence\">[astaguru-provence]</a></sup></p><p>From 1980 the bindu, a central black dot, becomes the centre of his work.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup> Around it he sets circles, triangles and bands of flat colour in near symmetry.<sup class=\"cite\"><a data-src=\"saffronart-bindu\">[saffronart-bindu]</a></sup></p><h3>How to read one</h3><p>In a Bindu painting, start at the dot and move outwards through the rings and bands. Our reading: the picture is built like a diagram of something growing from a seed.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Village Otta Corse",
+          "year": "1958",
+          "medium": "Oil on canvas",
+          "size": "60 x 73 cm",
+          "note": "An early French landscape of a village in Corsica. Sold at Saffronart, New Delhi, in September 2026 for INR 12,00,00,000 including buyer's premium.",
+          "src": [
+            "saffronart-otta"
+          ],
+          "tone": "#9A6B3F"
+        },
+        {
+          "title": "La Provence Noire",
+          "year": "1965",
+          "medium": "Acrylic on canvas",
+          "size": "203.2 x 183 cm",
+          "note": "A large, dark painting of the Provence landscape.",
+          "src": [
+            "astaguru-provence"
+          ],
+          "tone": "#2A2A3A"
+        },
+        {
+          "title": "Bindu",
+          "year": "2002",
+          "medium": "Acrylic on canvas",
+          "size": "40 x 40 cm",
+          "note": "A late work organised around the central black dot.",
+          "src": [
+            "saffronart-bindu"
+          ],
+          "tone": "#C08A2E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1922",
+          "what": "Born in Kakkaiya, Mandla district.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
+          "when": "1947",
+          "what": "Co-founds the Progressive Artists' Group, Bombay.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
+          "when": "1950",
+          "what": "Moves to France.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
+          "when": "1956",
+          "what": "Prix de la Critique, Paris.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
+          "when": "1980",
+          "what": "Begins the Bindu paintings.",
+          "src": [
+            "wiki-raza"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "Dies in New Delhi.",
+          "src": [
+            "wiki-raza"
+          ]
+        }
+      ],
+      "seen": "<p>His work appears often at auction in India and internationally; see the lot pages listed in the sources.</p>",
+      "related": [
+        "a-how-to-look-at-a-painting",
+        "a-oil-and-acrylic"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "His own writing on the bindu"
+      ]
+    },
+    {
+      "slug": "gerhard-richter",
+      "name": "Gerhard Richter",
+      "letter": "G",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "A photograph,",
+        "a blur,",
+        "a squeegee.",
+        "Painting"
+      ],
+      "tag": "Painting",
+      "place": "Dresden, Düsseldorf and Cologne",
+      "tone": "#4A4F57",
+      "heroTone": "#4A4F57",
+      "summary": "A German painter who works in two strands: blurred paintings made from photographs, and abstracts dragged across the canvas with a squeegee.",
+      "dek": "Gerhard Richter works in two ways at once. Some of his pictures copy photographs and blur them; others are made by dragging layers of paint until chance takes over.",
+      "heroCredit": "",
+      "checked": "23 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Dresden, Germany, 1932",
+          [
+            "wiki-richter"
+          ]
+        ],
+        [
+          "Trained",
+          "Dresden Academy of Fine Arts; Kunstakademie Düsseldorf",
+          [
+            "wiki-richter"
+          ]
+        ],
+        [
+          "Based",
+          "Cologne, since 1983",
+          [
+            "wiki-richter"
+          ]
+        ],
+        [
+          "Label",
+          "Capitalist Realism, with Sigmar Polke and Konrad Lueg",
+          [
+            "wiki-richter"
+          ]
+        ],
+        [
+          "Honours",
+          "Golden Lion, Venice Biennale, 1997",
+          [
+            "wiki-richter"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Gerhard Richter?",
+          "html": "<p>Richter was born in Dresden in 1932 and studied at the Dresden Academy of Fine Arts from 1951.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> In 1961, two months before the Berlin Wall went up, he left East Germany for the West and continued his studies in Düsseldorf.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup></p><p>With Sigmar Polke and Konrad Lueg he took up the label Capitalist Realism. He taught at the Düsseldorf academy from 1971 and moved to Cologne in 1983.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> The Museum of Modern Art in New York held a 40-year retrospective in 2002.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The photo paintings begin with a photograph, often black and white, copied onto canvas and then softened with a dry brush while the paint is wet.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> <i>Kerze</i> (Candle) of 1982 is one of these, a candle shown in his blurred, photographic manner.<sup class=\"cite\"><a data-src=\"tan-richter-may\">[tan-richter-may]</a></sup></p><p>From the mid-1980s he also made abstracts with a large squeegee, pulling layers of paint across the canvas so that colours tear, scrape and show through.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup><sup class=\"cite\"><a data-src=\"thevalue-richter-hk\">[thevalue-richter-hk]</a></sup></p><h3>How to read one</h3><p>In a squeegee painting, look for the direction of the pull, then for what shows through the gaps. Our reading: the artist sets the conditions, and the paint decides the details.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Kerze (Candle)",
+          "year": "1982",
+          "medium": "Painting",
+          "size": "",
+          "note": "A single candle painted from a photograph and blurred. It sold at Christie's New York in May 2026.",
+          "src": [
+            "tan-richter-may"
+          ],
+          "tone": "#C9A96E"
+        },
+        {
+          "title": "Abstraktes Bild",
+          "year": "1991",
+          "medium": "Oil on canvas",
+          "size": "200 x 180 cm",
+          "note": "A large squeegee abstract. Sold at Christie's Hong Kong in March 2026 for HKD 92,100,000 including buyer's premium.",
+          "src": [
+            "thevalue-richter-hk"
+          ],
+          "tone": "#6A4E7A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1932",
+          "what": "Born in Dresden.",
+          "src": [
+            "wiki-richter"
+          ]
+        },
+        {
+          "when": "1961",
+          "what": "Moves from East to West Germany.",
+          "src": [
+            "wiki-richter"
+          ]
+        },
+        {
+          "when": "1971",
+          "what": "Professor at the Kunstakademie Düsseldorf.",
+          "src": [
+            "wiki-richter"
+          ]
+        },
+        {
+          "when": "1983",
+          "what": "Moves to Cologne.",
+          "src": [
+            "wiki-richter"
+          ]
+        },
+        {
+          "when": "1997",
+          "what": "Golden Lion, Venice Biennale.",
+          "src": [
+            "wiki-richter"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Window for Cologne Cathedral unveiled.",
+          "src": [
+            "wiki-richter"
+          ]
+        }
+      ],
+      "seen": "<p>His work is held by many museums, among them Tate and the Museum of Modern Art.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> His stained-glass window can be seen in Cologne Cathedral.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup></p>",
+      "related": [
+        "a-how-to-look-at-a-painting",
+        "a-oil-and-acrylic"
+      ],
+      "research": [
+        "Museum pages for works in public collections",
+        "Photographs with permission to publish",
+        "The catalogue raisonné numbers for the works named"
       ]
     }
   ],

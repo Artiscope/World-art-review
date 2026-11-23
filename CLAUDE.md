@@ -12,10 +12,11 @@ brief. Read all of it before doing anything.
 - What it is: an editorial artist research site with artist
   portfolios, artwork reviews, collecting guides and technique
   explainers.
-- Artists: Zara Muse, Konn Artiss and Zen Xander only. Do not add or
-  propose any other artist, including others from the Grove Gallery
-  roster. (The README mentions growing the list. This file overrides
-  it.) Zen Xander's portfolio is not yet published. Building it is a
+- Artists: Zara Muse, Konn Artiss, Zen Xander, Banksy, Yayoi Kusama,
+  El Anatsui, Beatriz Milhazes, S.H. Raza and Gerhard Richter. The
+  owner's standing rule (23 November 2026): whenever artist research is
+  done for Artiscope, a portfolio for each artist researched is added
+  here as a draft. Do not add any other artist on your own. Zen Xander's portfolio is not yet published. Building it is a
   draft, like any new content.
 - Artist pages are called portfolios, never dossiers.
 - Enquiries and corrections go to info@grovegallery.com.
