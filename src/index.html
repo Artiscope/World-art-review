@@ -900,11 +900,11 @@ footer .bar{padding-top:1rem}
       <div class="f"><label for="subName">Your name</label><input id="subName" name="name" type="text" autocomplete="name"></div>
       <div class="f"><label for="subEmail">Your email</label><input id="subEmail" name="email" type="email" autocomplete="email" required><span class="err" id="subErr" hidden>We need a working email address to send it to.</span></div>
       <div class="f"><label for="subTopics">Anything you would like us to cover? Optional.</label><textarea id="subTopics" name="topics" rows="3"></textarea></div>
-      <div class="act"><button class="btn paper" type="submit" id="subSend">Ask to join</button><span class="small">This opens your own email app with a message ready to send to info@grovegallery.com. We read every reply.</span></div>
+      <div class="act"><button class="btn paper" type="submit" id="subSend">Ask to join</button><span class="small">This opens your own email app with a message ready to send to info@artiscope.co.uk. We read every reply.</span></div>
     </form>
     <div class="done">
       <h3 id="subThanks">Your email app should now be open.</h3>
-      <p class="note">Your message to info@grovegallery.com is ready. Send it and you are on the list. If nothing opened, write to <a href="mailto:info@grovegallery.com?subject=Please%20add%20me%20to%20the%20World%20Art%20Review%20letter" style="color:inherit">info@grovegallery.com</a> and ask to join.</p>
+      <p class="note">Your message to info@artiscope.co.uk is ready. Send it and you are on the list. If nothing opened, write to <a href="mailto:info@artiscope.co.uk?subject=Please%20add%20me%20to%20the%20World%20Art%20Review%20letter" style="color:inherit">info@artiscope.co.uk</a> and ask to join.</p>
       <div><button class="btn paper" type="button" id="subDone">Back to reading</button></div>
     </div>
   </div>
@@ -1868,7 +1868,7 @@ function bandOf(st, dflt){
 }
 /* The site's forms send nothing themselves. Each one opens the visitor's own email app with a
    message ready to send to this address, and says so plainly. Nothing is stored or passed on. */
-const MAIL_TO = 'info@grovegallery.com';
+const MAIL_TO = 'info@artiscope.co.uk';
 function mailDraft(kind, f){
   const v = n => { const el = f.elements[n]; return el ? String(el.value || '').trim() : ''; };
   if(kind === 'contact') return { subject: (v('topic') || 'A message') + (v('name') ? ' from ' + v('name') : ''), body: v('message') + '\n\nFrom: ' + v('name') + '\nReply to: ' + v('email') };
@@ -2263,7 +2263,7 @@ pages.standards = () => PAGES.pages.standards ? customPage('standards') : shell(
   <h2>We say who said it</h2><p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class="reported">Reported</span>.</p>
   <h2>We show what is missing</h2><p>Portfolios show a research status: how many facts are sourced and how many dates or details are still awaiting confirmation.</p>
   <h2>Our relationships</h2><p>${ph('Disclosure of the link between World Art Review and Grove Gallery, wording to confirm.')}</p>
-  <h2>Corrections</h2><p>If you spot an error, write to <a href="mailto:info@grovegallery.com?subject=Correction">info@grovegallery.com</a>. We correct promptly and note the change on the page.</p>
+  <h2>Corrections</h2><p>If you spot an error, write to <a href="mailto:info@artiscope.co.uk?subject=Correction">info@artiscope.co.uk</a>. We correct promptly and note the change on the page.</p>
   <h2>Privacy and terms</h2><p>${ph('Privacy notice and terms of use to be added before launch.')}</p>
   </div></div>`);
 

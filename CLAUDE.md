@@ -19,7 +19,7 @@ brief. Read all of it before doing anything.
   here as a draft. Do not add any other artist on your own. Zen Xander's portfolio is not yet published. Building it is a
   draft, like any new content.
 - Artist pages are called portfolios, never dossiers.
-- Enquiries and corrections go to info@grovegallery.com.
+- Enquiries and corrections go to info@artiscope.co.uk.
 
 ## How the site is put together
 The site is kept in three parts, so it can be edited from Artiscope
