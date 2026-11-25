@@ -170,10 +170,10 @@
             "rule_text": "Every fact carries a numbered source. Where only the gallery or the artist says so, we say so.",
             "rule_link": "How we work",
             "latest": [
+              "andy-warhol-portfolio",
               "five-new-portfolios-november-2026",
               "new-portfolios-november-2026",
-              "zara-muse-profile",
-              "review-anti-frieze"
+              "zara-muse-profile"
             ],
             "hide_picture": false,
             "hide_rule": false
@@ -398,7 +398,7 @@
         "Every artist,",
         "researched and sourced"
       ],
-      "intro": "Twenty-two artists from five continents. Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now."
+      "intro": "Twenty-three artists from five continents. Each portfolio brings together biography, documented works, a career timeline and the sources behind every fact. Portfolios marked in research are being compiled now."
     },
     "reviews": {
       "eyebrow": "Reviews",
