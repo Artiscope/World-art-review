@@ -2,6 +2,11 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, tiles for Reviews and Art Explained (draft)
+Published: nothing. Design change the owner asked for: the Reviews and Art Explained pages now show their pieces as tiles (picture or colour block, kind of piece, title, summary, reading time), three across on a computer, two on a tablet and one on a phone. Collector's Library is unchanged.
+Checked: the site builds, both pages hold at 390 pixels and desktop width with no page errors.
+Needs you: a yes on the pull request.
+
 ## Wednesday 25 November 2026, filling the gaps across the site (draft)
 Published: nothing. Prepared as a draft after the owner asked for every missing piece of content to be researched and filled.
 Drafts waiting: new Life and career sections for 16 portfolios and In their own words for 14, Explore more for three, about 20 artwork details and many timeline dates, eight exhibition guides, an Our relationships paragraph on the standards page, and a site byline in place of the author placeholder. Pull request: https://github.com/Artiscope/World-art-review/pull/19

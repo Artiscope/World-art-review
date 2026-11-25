@@ -523,6 +523,17 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 .crumbs{font-family:var(--sans);font-size:.72rem;color:var(--muted);display:flex;gap:.6rem;margin-bottom:1.5rem}
 
 /* ---------- artist grid ---------- */
+.tiles{display:grid;grid-template-columns:1fr;gap:2.75rem 2rem;padding:0 1.5rem 5rem}
+@media (min-width:640px){.tiles{grid-template-columns:repeat(2,1fr);padding:0 2.5rem 6rem}}
+@media (min-width:1000px){.tiles{grid-template-columns:repeat(3,1fr)}}
+.tiles a{display:block}
+.tiles .plate{aspect-ratio:4/3}
+.tiles .plate .supply{left:1rem;bottom:.85rem;right:1rem;font-family:var(--display);font-size:1.15rem;line-height:1.2;color:rgba(255,255,255,.92)}
+@media (max-width:639px){.tiles .plate{aspect-ratio:16/9}}
+.tiles .k{display:block;font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted);margin-top:.95rem}
+.tiles .t{display:block;font-family:var(--display);font-size:calc(1.3rem * var(--h-scale, 1));line-height:1.2;margin-top:.3rem}
+.tiles .d{font-size:.85rem;color:var(--muted);margin-top:.45rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tiles .m{display:block;font-family:var(--sans);font-size:.68rem;color:var(--muted);margin-top:.6rem}
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:2.5rem 2rem;padding:0 1.5rem 5rem}
 @media (min-width:640px){.agrid{padding:0 2.5rem 6rem}}
 .acard{display:block;position:relative;padding-bottom:1.5rem}
@@ -2249,8 +2260,13 @@ pages.artists = () => {
 function listRow(a, i){
   return `<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":22}' data-cfg='{"tension":190,"friction":26}' data-delay="${Math.min(i,6)*70}" data-hover data-hover-target=".body" data-hfrom='{"x":0}' data-hto='{"x":8}' data-hcfg='{"tension":300,"friction":20}'>${plateFor(a,{cls:'thumb',note:''})}<span class="body"><span class="k">${esc(a.kicker)} · ${a.minutes} minute read</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span></span></a>`;
 }
+function tileCard(a, i){
+  const names = (a.artists||[]).map(s=>(ARTISTS.find(x=>x.slug===s)||{}).name).filter(Boolean);
+  return `<a href="#a-${a.slug}" data-in data-from='{"opacity":0,"y":30}' data-cfg='{"tension":180,"friction":26}' data-delay="${(i%3)*90}" data-hover data-hover-target=".plate" data-hfrom='{"scale":1}' data-hto='{"scale":1.03}' data-hcfg='{"tension":300,"friction":22}'>${plateFor(a,{note:esc(names.join(' and '))})}<span class="k">${esc(a.kicker)}${names.length&&a.image?' · '+esc(names.join(', ')):''}</span><span class="t">${esc(a.title)}</span><span class="d">${esc(a.dek)}</span><span class="m">${a.minutes} minute read · ${esc(a.updated||'')}</span></a>`;
+}
 function sectionPage(section, eyebrow, titleLines, dek){
-  return () => shell(listHead(section, eyebrow, titleLines, dek) + `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`);
+  const tiles = section==='reviews' || section==='explained';
+  return () => shell(listHead(section, eyebrow, titleLines, dek) + (tiles ? `<div class="tiles">${ARTICLES.filter(a=>a.section===section).map(tileCard).join('')}</div>` : `<div class="list">${ARTICLES.filter(a=>a.section===section).map(listRow).join('')}</div>`));
 }
 pages.explained = sectionPage('explained','Art Explained',[{t:'How the work is made,'},{t:'and why it matters'}],'Plain-language guides to the techniques, materials and ideas behind the artworks.');
 pages.library = sectionPage('library',"Collector's Library",[{t:'Buy with your'},{t:'eyes open'}],'Practical, independent guidance on researching artists, understanding what you are buying and keeping good records.');
