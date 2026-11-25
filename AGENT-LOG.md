@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, filling the gaps across the site (draft)
+Published: nothing. Prepared as a draft after the owner asked for every missing piece of content to be researched and filled.
+Drafts waiting: new Life and career sections for 16 portfolios and In their own words for 14, Explore more for three, about 20 artwork details and many timeline dates, eight exhibition guides, an Our relationships paragraph on the standards page, and a site byline in place of the author placeholder. Pull request link to follow.
+Checked: every citation points to a listed source, no placeholder text is left apart from photos and a few artwork details no source gives, and the site builds with 34 artists and works at phone and desktop width.
+Needs you: confirm the Our relationships wording. The pull request lists what could not be sourced.
+
 ## Wednesday 25 November 2026, reviews and artwork explainers (draft)
 Published: nothing. Added as a draft after the owner asked for more reviews and art explained pieces for every artist.
 Drafts waiting: 20 new reviews and 22 artwork explainers, one or both for every published artist, plus a short feature introducing them at the top of the homepage list. 59 new numbered sources, all opened and read: named reviews in The Art Newspaper, Apollo, The Arts Desk, Studio International, Frieze, e-flux, The Brooklyn Rail, The New York Times and others, plus museum and gallery pages. Review and Art Explained list introductions updated. Pull request: https://github.com/Artiscope/World-art-review/pull/16

@@ -1966,6 +1966,503 @@
       "date": "read 25 November 2026",
       "kind": "Artist's own website",
       "url": "https://zenxander.com/pages/about"
+    },
+    "heni-muse-malala": {
+      "title": "Zara Muse's Auction Record Jumps 11%",
+      "pub": "HENI News",
+      "date": "3 April 2025",
+      "kind": "Press",
+      "url": "https://heni.com/news/article/zara-muse-malala-yousafzai-2025-04-03"
+    },
+    "cc-walters": {
+      "title": "In Search of The Infinite: Artist Robi Walters on the nature of time and radical future thinking",
+      "pub": "Culture Collective (interview by John-Paul Pryor)",
+      "date": "Undated",
+      "kind": "Interview",
+      "url": "https://housecollective.com/journal/in-search-of-the-infinite-robi-walters"
+    },
+    "onehotels-walters": {
+      "title": "From Waste to Wonder: The Captivating Art of Conscious Creation with Robi Walters",
+      "pub": "1 Hotels, The Field Guide",
+      "date": "21 October 2024",
+      "kind": "Interview",
+      "url": "https://1hotels.com/thefieldguide/from-waste-to-wonder-the-captivating-art-of-conscious-creation-with-robi-walters"
+    },
+    "aesthetica-walters": {
+      "title": "Transformative Materiality",
+      "pub": "Aesthetica Magazine",
+      "date": "5 July 2017",
+      "kind": "Press",
+      "url": "https://aestheticamagazine.com/transformative-materiality/"
+    },
+    "astonmartin-walters": {
+      "title": "Robi Walters becomes Aston Martin Artist-in-Residence",
+      "pub": "Aston Martin",
+      "date": "18 September 2019",
+      "kind": "Press",
+      "url": "https://www.astonmartin.com/en/our-world/news/2019/9/18/robi-walters-becomes-aston-martin-artist-in-residence"
+    },
+    "mis-walters": {
+      "title": "A mesmerising new solo exhibition by Robi Walters",
+      "pub": "Made in Shoreditch (page credited to Robi Walters)",
+      "date": "17 October 2023",
+      "kind": "Press",
+      "url": "https://madeinshoreditch.co.uk/2023/10/17/a-mesmerising-new-solo-exhibition-by-robi-walters"
+    },
+    "met-picasso-essay": {
+      "title": "Pablo Picasso (1881 to 1973)",
+      "pub": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History (James Voorhies)",
+      "date": "October 2004",
+      "kind": "Museum page",
+      "url": "https://www.metmuseum.org/essays/pablo-picasso-1881-1973"
+    },
+    "nga-picasso-early": {
+      "title": "Picasso: The Early Years, 1892 to 1906",
+      "pub": "National Gallery of Art, Washington",
+      "date": "1997",
+      "kind": "Museum page",
+      "url": "https://nga.gov/exhibitions/1997/picasso_early.html"
+    },
+    "picassofr-dezayas": {
+      "title": "To read around Picasso: Marius de Zayas, introducer of Picasso in the United States (OJO 35)",
+      "pub": "picasso.fr",
+      "date": "January 2019",
+      "kind": "Reference",
+      "url": "https://www.picasso.fr/en/details/ojo-1-files-january-2019-ojo-35-to-read-around-picasso-marius-de-zayas-introducer-of-picasso-in-the-united-states"
+    },
+    "warhol-life": {
+      "title": "Andy Warhol's life",
+      "pub": "The Andy Warhol Museum, Pittsburgh",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.warhol.org/andy-warhols-life/"
+    },
+    "sichel-swenson-2018": {
+      "title": "'What is Pop Art?' A Revised Transcript of Gene Swenson's 1963 Interview with Andy Warhol",
+      "pub": "Oxford Art Journal, vol. 41, no. 1 (Jennifer Sichel), via Smithsonian Research Online",
+      "date": "2018",
+      "kind": "Interview",
+      "url": "https://repository.si.edu/items/fde03289-cf45-4c1d-9198-afda2ad97341"
+    },
+    "interview-basquiat-1983": {
+      "title": "From the Subways to Soho: Jean-Michel Basquiat in conversation with Henry Geldzahler",
+      "pub": "Interview magazine",
+      "date": "January 1983 (posted online 25 March 2011)",
+      "kind": "Interview",
+      "url": "https://www.interviewmagazine.com/art/jean-michel-basquiat"
+    },
+    "gagosian-market-street-2024": {
+      "title": "Jean-Michel Basquiat: Made on Market Street, press release",
+      "pub": "Gagosian",
+      "date": "2024",
+      "kind": "Gallery page",
+      "url": "https://gagosian.com/media/exhibitions/2024/jean-michel-basquiat-made-on-market-street-curated-by-fred-hoffman-with-larry/Jean-Michel_Basquiat_2024_Made_on_Market_Street_Gagosian_Beverly_Hills.pdf"
+    },
+    "tan-basquiat-la-2024": {
+      "title": "Gagosian show reunites works Basquiat made in Los Angeles",
+      "pub": "The Art Newspaper (Jori Finkel)",
+      "date": "7 March 2024",
+      "kind": "Press",
+      "url": "https://theartnewspaper.com/2024/03/06/jean-michel-basquiat-gagosian-los-angeles-exhibition"
+    },
+    "haring-fdn-bio": {
+      "title": "Keith Haring: bio",
+      "pub": "Keith Haring Foundation",
+      "date": "Undated",
+      "kind": "Reference",
+      "url": "https://haring.com/!/about-haring/bio"
+    },
+    "tateetc-haring": {
+      "title": "Art for All! (Julia Gruen on Keith Haring), Tate Etc. issue 46",
+      "pub": "Tate",
+      "date": "9 June 2019",
+      "kind": "Press",
+      "url": "https://www.tate.org.uk/tate-etc/issue-46-summer-2019/keith-haring-art-for-all-julia-gruen"
+    },
+    "brandhorst-subway": {
+      "title": "Keith Haring, Untitled (Subway Drawing), about 1982 to 1984",
+      "pub": "Museum Brandhorst",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://museum-brandhorst.de/en/collection/subway-drawing"
+    },
+    "nycparks-crack": {
+      "title": "Crack Is Wack Playground: Crack Is Wack",
+      "pub": "NYC Parks",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://php-cms.nycgovparks.org/parks/M208E/monuments/1801"
+    },
+    "ra-hockney-2021": {
+      "title": "\"I love drawing\": David Hockney on iPad painting and finding joy in spring",
+      "pub": "Royal Academy of Arts",
+      "date": "17 May 2021",
+      "kind": "Interview",
+      "url": "https://royalacademy.org.uk/article/article-david-hockney-ipad-painting-during-lockdown"
+    },
+    "artfund-third-love": {
+      "title": "The Third Love Painting, 1960",
+      "pub": "Art Fund",
+      "date": "Undated",
+      "kind": "Reference",
+      "url": "https://www.artfund.org/our-purpose/art-funded-by-you/the-third-love-painting"
+    },
+    "dhf-third-love": {
+      "title": "The Third Love Painting, 1960",
+      "pub": "The David Hockney Foundation",
+      "date": "Undated",
+      "kind": "Reference",
+      "url": "https://www.thedavidhockneyfoundation.org/artwork/3549"
+    },
+    "goldsmiths-hirst": {
+      "title": "Damien Hirst (alumni profile and interview)",
+      "pub": "Goldsmiths, University of London",
+      "date": "Undated",
+      "kind": "Interview",
+      "url": "https://www.gold.ac.uk/our-people/profile-hub/art/ug/damien-hirst/"
+    },
+    "tate-press-hirst-2012": {
+      "title": "Damien Hirst (press release for the Tate Modern exhibition)",
+      "pub": "Tate",
+      "date": "2012",
+      "kind": "Museum page",
+      "url": "https://www.tate.org.uk/press/press-releases/damien-hirst-0"
+    },
+    "gagosian-spots-2012": {
+      "title": "Damien Hirst: The Complete Spot Paintings 1986 to 2011, exhibition press",
+      "pub": "Gagosian",
+      "date": "2012",
+      "kind": "Gallery page",
+      "url": "https://www.gagosian.com/exhibitions/damien-hirst--january-12-2012-3/exhibition-press"
+    },
+    "whitecube-pharmacy": {
+      "title": "Damien Hirst, Pharmacy, 1992",
+      "pub": "White Cube",
+      "date": "Undated",
+      "kind": "Gallery page",
+      "url": "https://whitecube.com/artworks/pharmacy"
+    },
+    "whitecube-mother-child": {
+      "title": "Damien Hirst, Mother and Child (Divided), 1993",
+      "pub": "White Cube",
+      "date": "Undated",
+      "kind": "Gallery page",
+      "url": "https://whitecube.com/artworks/mother-and-child-divided"
+    },
+    "afm-mother-child": {
+      "title": "Mother and Child (Divided), 1993",
+      "pub": "Astrup Fearnley Museet",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.afmuseet.no/en/artwork/mother-and-child-divided/"
+    },
+    "tfl-shrigley": {
+      "title": "David Shrigley",
+      "pub": "Art on the Underground, Transport for London",
+      "date": "Undated",
+      "kind": "Commissioner's artist page",
+      "url": "https://art.tfl.gov.uk/artists/david-shrigley/"
+    },
+    "artuk-shrigley": {
+      "title": "David Shrigley, b.1968",
+      "pub": "Art UK",
+      "date": "Undated",
+      "kind": "Reference",
+      "url": "https://artuk.org/discover/artists/shrigley-david-b-1968"
+    },
+    "tate-coll-shrigley": {
+      "title": "David Shrigley OBE born 1968",
+      "pub": "Tate",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.tate.org.uk/art/artists/david-shrigley-obe-10208"
+    },
+    "bc-shrigley": {
+      "title": "David Shrigley (1968 to ), works in the collection",
+      "pub": "British Council Collection",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://visualarts.britishcouncil.org/collection/artists/shrigley-david-1968/objects/all"
+    },
+    "ngv-really-good-2024": {
+      "title": "NGV acquires David Shrigley's Really Good",
+      "pub": "National Gallery of Victoria",
+      "date": "19 March 2024",
+      "kind": "Museum page",
+      "url": "https://ngv.vic.gov.au/media_release/222389"
+    },
+    "artsdesk-shrigley-2018": {
+      "title": "10 Questions for Artist David Shrigley (Thomas H. Green)",
+      "pub": "The Arts Desk",
+      "date": "1 May 2018",
+      "kind": "Interview",
+      "url": "https://theartsdesk.com/node/81310"
+    },
+    "guardian-shrigley-2021": {
+      "title": "David Shrigley: 'I see genius where other people see rubbish' (Tim Jonze), copy held in the Stephen Friedman Gallery press archive",
+      "pub": "The Guardian",
+      "date": "25 November 2021",
+      "kind": "Interview",
+      "url": "https://www.stephenfriedman.com/usr/documents/press/download_url/871/shrig_theguardian_25november2021.pdf"
+    },
+    "shrigley-life-model": {
+      "title": "Life Model",
+      "pub": "David Shrigley (artist's website)",
+      "date": "Undated",
+      "kind": "Gallery page",
+      "url": "https://davidshrigley.com/sculpture/life-model"
+    },
+    "bigissue-colbert-2026": {
+      "title": "Philip Colbert: 'There's a fascism of seriousness' (Steven MacKenzie)",
+      "pub": "The Big Issue",
+      "date": "9 August 2026",
+      "kind": "Interview",
+      "url": "https://www.bigissue.com/culture/art/philip-colbert-theres-a-fascism-of-seriousness/"
+    },
+    "hypebeast-lobsteropolis-2020": {
+      "title": "Artist Philip Colbert Invites You to Explore Lobsteropolis",
+      "pub": "Hypebeast",
+      "date": "4 November 2020",
+      "kind": "Press",
+      "url": "https://hypebeast.com/2020/11/philip-colbert-lobsteropolis-saatchi-gallery-london-exhibition"
+    },
+    "phillips-colbert-flower": {
+      "title": "Philip Colbert, Flower Study, from the Lobster Land Museum (White, Yellow, Magenta, Sky Blue), lot 85",
+      "pub": "Phillips",
+      "date": "24 June to 3 July 2025",
+      "kind": "Auction lot",
+      "url": "https://www.phillips.com/detail/philip-colbert/218092"
+    },
+    "hepworth-spirit-now-2023": {
+      "title": "Spirit Now London and The Hepworth Wakefield announce winners of the Spirit Now London Acquisition Prize in partnership with Frieze London",
+      "pub": "The Hepworth Wakefield",
+      "date": "12 October 2023",
+      "kind": "Museum page",
+      "url": "https://hepworthwakefield.org/news/spirit-now-london-and-the-hepworth-wakefield-announce-winners-of-the-spirit-now-london-acquisition-prize-in-partnership-with-frieze-london/"
+    },
+    "vam-matic-2026": {
+      "title": "Making East London: An Interview with Rene Matić (Madeleine Haddon)",
+      "pub": "V&A East",
+      "date": "24 June 2026",
+      "kind": "Interview",
+      "url": "https://www.vam.ac.uk/blog/east/making-east-london-an-interview-with-rene-matic"
+    },
+    "elephant-matic-2025": {
+      "title": "On (and In) Love with Rene Matić: Britain's Youngest Ever Turner Prize Nominee (Kitty Lees, interview by Will Ferreira Dyke)",
+      "pub": "Elephant",
+      "date": "21 November 2025",
+      "kind": "Interview",
+      "url": "https://elephant.art/on-and-in-love-with-rene-matic-britains-youngest-ever-turner-prize-nominee/"
+    },
+    "arcadia-matic": {
+      "title": "Rene Matić",
+      "pub": "Arcadia Missa",
+      "date": "Undated",
+      "kind": "Gallery page",
+      "url": "https://arcadiamissa.com/rene-matic"
+    },
+    "chapter-matic": {
+      "title": "Rene Matić",
+      "pub": "Chapter NY",
+      "date": "Undated",
+      "kind": "Gallery page",
+      "url": "https://chapter-ny.com/artists/rene-mati%C4%87/"
+    },
+    "sothebys-kusama-3pb": {
+      "title": "Yayoi Kusama, No. 3P.B., lot 110, The Now and Contemporary Evening Auction",
+      "pub": "Sotheby's",
+      "date": "November 2026",
+      "kind": "Auction lot",
+      "url": "https://www.sothebys.com/en/buy/auction/2026/the-now-contemporary-evening-auction-2/yayoi-kusama-no-3-p-b"
+    },
+    "christies-richter-kerze": {
+      "title": "Gerhard Richter, Kerze (Candle), lot 16B, Breaking Ground: The Private Collection of Marian Goodman",
+      "pub": "Christie's",
+      "date": "May 2026",
+      "kind": "Auction lot",
+      "url": "https://www.christies.com.cn/lot/lot-6585103"
+    },
+    "finestre-betonte": {
+      "title": "The Kandinsky sold by the Guggenheim in 1964 is now worth 85.8 million, a record for the artist",
+      "pub": "Finestre sull'Arte",
+      "date": "18 November 2026",
+      "kind": "Press",
+      "url": "https://www.finestresullarte.info/en/modern-art/the-kandinsky-sold-by-the-guggenheim-in-1964-is-now-worth-85-8-million-a-record-for-the-artist"
+    },
+    "vgm-wheatfield-thunderclouds": {
+      "title": "Wheatfield under Thunderclouds",
+      "pub": "Van Gogh Museum",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.vangoghmuseum.nl/en/collection/s0106V1962"
+    },
+    "vgm-wheatfield-crows": {
+      "title": "Wheatfield with Crows",
+      "pub": "Van Gogh Museum",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.vangoghmuseum.nl/en/collection/s0149v1962"
+    },
+    "biennale-saudi-2026": {
+      "title": "Biennale Arte 2026: Saudi Arabia",
+      "pub": "La Biennale di Venezia",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://www.labiennale.org/en/art/2026/saudi-arabia"
+    },
+    "towner-awartani": {
+      "title": "Dana Awartani: Standing by the Ruins, large print guide",
+      "pub": "Towner Eastbourne",
+      "date": "2025",
+      "kind": "Museum page",
+      "url": "https://townereastbourne.org.uk/media/pages/whats-on/dana-awartani/fd5a5df466-1764592376/final-lpg-dana-awartani.pdf"
+    },
+    "kurimanzutto-segovia-ny": {
+      "title": "Ana Segovia: The Office of Inter-American Affairs Presents",
+      "pub": "kurimanzutto",
+      "date": "2026",
+      "kind": "Gallery page",
+      "url": "https://kurimanzutto.com/exhibitions/ana-segovia-the-office-of-inter-american-affairs-presents"
+    },
+    "whitney-fan-contrapposto": {
+      "title": "Jes Fan, Contrapposto, 2023 (accession number 2025.113)",
+      "pub": "Whitney Museum of American Art",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://whitney.org/api/artworks/68921"
+    },
+    "mplus-fan-contrapposto": {
+      "title": "Jes Fan, Contrapposto, 2023 (object number 2024.541)",
+      "pub": "M+, Hong Kong",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.mplus.org.hk/tc/collection/objects/contrapposto-2024541/"
+    },
+    "ngv-eko": {
+      "title": "Eko Nugroho",
+      "pub": "National Gallery of Victoria",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/artist/24075/"
+    },
+    "ngv-rally": {
+      "title": "RALLY: Contemporary Indonesian Art: Jompet Kuswidananto and Eko Nugroho",
+      "pub": "National Gallery of Victoria",
+      "date": "2012",
+      "kind": "Museum page",
+      "url": "https://www.ngv.vic.gov.au/exhibition/rally-contemporary-indonesian-art/"
+    },
+    "lisson-awartani-rep": {
+      "title": "Announcing representation of Dana Awartani",
+      "pub": "Lisson Gallery",
+      "date": "30 April 2024",
+      "kind": "Gallery page",
+      "url": "https://lissongallery.com/news/announcing-representation-of-dana-awartani"
+    },
+    "asia-eko": {
+      "title": "Eko Nugroho, seven-panel painting, 2017 (2017.5a-g)",
+      "pub": "Asia Society Museum, New York",
+      "date": "Undated",
+      "kind": "Museum page",
+      "url": "https://museum.asiasociety.org/collection/explore/2017-005a-g-semelah"
+    },
+    "studio-halfmoon": {
+      "title": "Raven Halfmoon interview: Neesh and Soku at Salon 94",
+      "pub": "Studio International (Christiana Spens)",
+      "date": "29 August 2024",
+      "kind": "Interview",
+      "url": "https://www.studiointernational.com/index.php/raven-halfmoon-interview-neesh-and-soku-salon-94-blood-sweat-and-tears-went-into-these-sculptures"
+    },
+    "kusama-museum-light": {
+      "title": "The Light Spreads Out, and Glittering Things Start Appearing All Around Me",
+      "pub": "Yayoi Kusama Museum",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://yayoikusamamuseum.jp/en/exhibition/current/"
+    },
+    "pamm-basquiat": {
+      "title": "Basquiat: Figures, Signs, Symbols",
+      "pub": "Pérez Art Museum Miami",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://www.pamm.org/?p=57010"
+    },
+    "princeton-basquiat": {
+      "title": "Basquiat, the Blue Ribbon Paintings, and the Art of Reproduction",
+      "pub": "Princeton University Art Museum",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://artmuseum.princeton.edu/exhibitions-events/exhibitions/basquiat-blue-ribbon-paintings-and-art-reproduction"
+    },
+    "pace-milhazes-pina": {
+      "title": "Beatriz Milhazes at Pinacoteca de São Paulo",
+      "pub": "Pace Gallery",
+      "date": "2026",
+      "kind": "Gallery page",
+      "url": "https://www.pacegallery.com/journal/beatriz-milhazes-at-pinacoteca-de-sao-paulo/"
+    },
+    "whitecube-milhazes-pina": {
+      "title": "Beatriz Milhazes at Pinacoteca de São Paulo",
+      "pub": "White Cube",
+      "date": "2026",
+      "kind": "Gallery page",
+      "url": "https://www.whitecube.com/news/beatriz-milhazes-at-pinacoteca-de-são-paulo"
+    },
+    "lux-warhol-ligne": {
+      "title": "Andy Warhol. Line and image",
+      "pub": "Musée du Luxembourg",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://museeduluxembourg.fr/en/agenda/evenement/andy-warhol"
+    },
+    "pompidou-kandinsky-rome": {
+      "title": "Kandinsky, Palazzo Bonaparte, Rome",
+      "pub": "Centre Pompidou",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://www.centrepompidou.fr/en/program/calendar/event/7uxjmdc"
+    },
+    "naples-picasso-origins": {
+      "title": "Picasso: Back to the Origins",
+      "pub": "Naples Art Museum",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://www.naplesart.org/picasso-back-to-origins"
+    },
+    "kmm-vangogh-all": {
+      "title": "Van Gogh, All Our Paintings",
+      "pub": "Kröller-Müller Museum",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://www.krollermuller.nl/en/what-s-on/exhibitions/van-gogh-all-our-paintings"
+    },
+    "fad-zen": {
+      "title": "Grove Gallery now represent Zen Xander",
+      "pub": "FAD Magazine",
+      "date": "17 May 2024",
+      "kind": "Press",
+      "url": "https://fadmagazine.com/2024/05/17/grove-gallery-now-represent-zen-xander/"
+    },
+    "tab-amanza": {
+      "title": "An investigation into what art Selling Sunset's Amanza Smith actually does",
+      "pub": "The Tab",
+      "date": "30 October 2025",
+      "kind": "Press",
+      "url": "https://thetab.com/2025/10/30/an-investigation-into-what-art-selling-sunsets-amanza-smith-actually-does"
+    },
+    "mash-circuit-riot": {
+      "title": "Circuit Riot by Amanza Smith",
+      "pub": "MASH Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery page",
+      "url": "https://www.mashgallery.com/products/circuit-riot"
+    },
+    "mash-be-happy": {
+      "title": "Be Happy by Amanza Smith",
+      "pub": "MASH Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery page",
+      "url": "https://www.mashgallery.com/products/be-happy"
     }
   },
   "artists": [
@@ -2057,6 +2554,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "\n      <p>Zara Muse paints only with palette knives and spatulas, never brushes. She has called the choice instinctive, made for the depth and richness it gives the surface.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p>\n      <p>The result is paint that stands proud of the canvas. Colour is laid in thick, flat-edged slabs rather than blended, so a cheek or a jawline is built from separate planes of saturated colour. Seen close up the face breaks into ridges; from across a room it comes back together.</p>\n      <p>Her subjects are women, and she has said she wants the work to celebrate the strength and resilience of the women in her own life, her mother included.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> Many of the titles are Spanish: <i>Bella Dama del Sol</i>, <i>Luz Serena</i>, <i>Viento del Sur</i>. The gallery describes the work as exploring nature, emotion and human connection through a rich palette.<sup class=\"cite\"><a data-src=\"grove-port\">[grove-port]</a></sup><sup class=\"cite\"><a data-src=\"grove-zm\">[grove-zm]</a></sup></p>\n      <h3>How to read one</h3>\n      <p>Start with the lit side of the face, where the slabs are thickest and most separate. Count the planes that make the cheek. Then find the shadow side, where she tends to let the knife drag one colour through another. The join between the two is where the portrait either holds together or does not, and in the strongest works it is left slightly unresolved, so the eye keeps working at it.</p>\n      <div class=\"callout\"><strong>Read more</strong><a href=\"#a-palette-knife-painting\">Understanding palette-knife painting</a><br><a href=\"#a-texture-in-portraiture\">The role of texture in contemporary portraiture</a></div>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Alexandra Johnson trained as a trader in the City of London and went on to work as a fund manager.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> She took up painting again in 2020, during lockdown, working only with a palette knife and spatula.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p><p>Her paintings reached auction quickly. <i>In Her Own Light</i>, a work of 2023, sold at Tate Ward Auctions in London for £33,750.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> <i>The Shape of Stillness</i>, of 2024, sold at Tate Ward on 11 December 2024.<sup class=\"cite\"><a data-src=\"heni-muse-malala\">[heni-muse-malala]</a></sup> On 3 April 2025 her portrait of Malala Yousafzai sold at Bonhams in London, in the 20th/21st Century Art Day Sale. HENI News gives the price as £51,200, more than six times the low estimate, and Art Plugged gives both £51,000 and £51,200 including premium.<sup class=\"cite\"><a data-src=\"heni-muse-malala\">[heni-muse-malala]</a></sup><sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p><p>Luxury News Online described her in 2025 as a resident artist at Grove Gallery in Fitzrovia, London, and reported a commission with the jeweller Astrea London that sets 14.9 carats of diamonds into her portrait <i>Revolution</i>.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> Artiscope, which publishes this site, sells her work through Grove Gallery.</p>"
+        },
+        {
+          "id": "words",
+          "title": "In her own words",
+          "html": "<blockquote>My art is a homage to the resilience and beauty of women.<cite>Zara Muse, Art Plugged, 2025<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></cite></blockquote><blockquote>I've walked in many shoes, and that personal history gives me a deep well to draw from.<cite>Zara Muse, Art Plugged, 2025<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></cite></blockquote><blockquote>I wanted to paint women, their faces, their profile, from all backgrounds, in all of life phases.<cite>Zara Muse, Luxury News Online, 2025<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: set beside her in this site's comparison piece</li><li><a href=\"#artist-zen-xander\">Zen Xander</a>: also shown by Grove Gallery in London</li><li><a href=\"#artist-frank-canvas\">Frank Canvas</a>: another Grove Gallery artist</li><li><a href=\"#artist-los-talgia\">Los-Talgia</a>: another Grove Gallery artist</li></ul>"
         }
       ],
       "works": [
@@ -2159,17 +2671,24 @@
           ]
         },
         {
-          "when": null,
+          "when": "2020",
           "what": "Begins painting as Zara Muse, after the death of her mother.",
           "src": [
             "ap-muse"
           ]
         },
         {
-          "when": null,
-          "what": "Work placed in hotels including Fairmont group sites, and in Kanishka, Mayfair.",
+          "when": "2023",
+          "what": "<i>In Her Own Light</i>, painted in 2023, sells at Tate Ward Auctions, London, for £33,750.",
           "src": [
-            "lno-muse"
+            "ap-muse"
+          ]
+        },
+        {
+          "when": "11 December 2024",
+          "what": "<i>The Shape of Stillness</i>, of 2024, sells at Tate Ward Auctions, London.",
+          "src": [
+            "heni-muse-malala"
           ]
         },
         {
@@ -2180,12 +2699,26 @@
           ]
         },
         {
-          "when": "2025",
-          "what": "Portrait of Malala Yousafzai sells at Bonhams for £51,000. Exact sale date to confirm.",
+          "when": "3 April 2025",
+          "what": "Portrait of Malala Yousafzai sells at Bonhams, London, in the 20th/21st Century Art Day Sale. Sources give £51,000 and £51,200 including the buyer's premium.",
           "src": [
-            "ap-muse"
-          ],
-          "todo": true
+            "ap-muse",
+            "heni-muse-malala"
+          ]
+        },
+        {
+          "when": "4 November 2026",
+          "what": "New print collection released through Grove Gallery.",
+          "src": [
+            "grove"
+          ]
+        },
+        {
+          "when": null,
+          "what": "Work placed in hotels including Fairmont group sites, and in Kanishka, Mayfair.",
+          "src": [
+            "lno-muse"
+          ]
         },
         {
           "when": null,
@@ -2202,16 +2735,9 @@
             "grove-chis"
           ],
           "reported": true
-        },
-        {
-          "when": "4 November 2026",
-          "what": "New print collection released through Grove Gallery.",
-          "src": [
-            "grove"
-          ]
         }
       ],
-      "seen": "<p>Originals and signed limited edition prints are sold through Grove Gallery, which lists spaces in London and in Palma de Mallorca.<sup class=\"cite\"><a data-src=\"grove-zm\">[grove-zm]</a></sup><sup class=\"cite\"><a data-src=\"grove-chis\">[grove-chis]</a></sup> Her paintings have also appeared at the auction houses Tate Ward and Bonhams.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> <span class=\"placeholder\">[Confirm the current gallery addresses, and the hotel and restaurant locations.]</span></p>",
+      "seen": "<p>Originals and signed limited edition prints are sold through Grove Gallery, which lists spaces in London and in Palma de Mallorca.<sup class=\"cite\"><a data-src=\"grove-zm\">[grove-zm]</a></sup><sup class=\"cite\"><a data-src=\"grove-chis\">[grove-chis]</a></sup> In 2025 Luxury News Online placed her as a resident artist at the gallery's Fitzrovia space in London.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> The same profile reported her work at hotels of the Fairmont group and at Kanishka, a restaurant in Mayfair, London, without naming the hotel sites.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> Her paintings have also appeared at the auction houses Tate Ward and Bonhams.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p>",
       "related": [
         "a-explained-zara-muse-malala",
         "a-zara-muse-profile",
@@ -2220,11 +2746,15 @@
       ],
       "research": [
         "Year she left trading and began painting",
-        "Date of the Bonhams sale",
         "Dates, media and sizes for the listed works",
         "Confirm the Palma and Edinburgh showings and their dates",
         "Studio and artwork photographs with permission to publish",
-        "Independent review or catalogue entry for Malala Yousafzai, with its date and size"
+        "Independent review or catalogue entry for Malala Yousafzai, with its date and size",
+        "Year she left trading. Art Plugged dates the return to painting to 2020, but no source gives the year she stopped trading",
+        "Year Malala Yousafzai was painted: HENI News gives 2009, which cannot be right if she began painting in 2020; the Bonhams lot page could not be opened to check",
+        "Size of Malala Yousafzai from the Bonhams lot page (auction 30898, lot 134)",
+        "Which price is right for the Bonhams sale, £51,000 or £51,200 including premium",
+        "Which Fairmont hotels hold the work, and the current gallery addresses"
       ]
     },
     {
@@ -2285,11 +2815,6 @@
           [
             "fad-ghost"
           ]
-        ],
-        [
-          "Gallery",
-          "<span class=\"placeholder\">[Gallery relationship to confirm]</span>",
-          []
         ]
       ],
       "sections": [
@@ -2302,17 +2827,28 @@
           "id": "style",
           "title": "Themes and approach",
           "html": "\n      <p>Three ideas run through the work so far: wealth and who controls public space, the art market's habit of turning names into prices, and the fragility of value itself.</p>\n      <p>The materials are chosen to make those points physical. Ice melts. A newspaper is read and thrown away. An effigy in a canal drifts out of view. The work is designed not to last, which is a pointed choice for an art world built on preserving and reselling objects.<sup class=\"cite\"><a data-src=\"ap-antifrieze\">[ap-antifrieze]</a></sup></p>\n      <div class=\"callout\"><strong>Read more</strong><a href=\"#a-mixed-media\">Mixed-media art: materials, meaning and conservation</a><br><a href=\"#a-review-anti-frieze\">Review: ANTI-FRIEZE</a></div>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>The first work reported under the name was <i>The Washington Ghost</i>, a satirical newspaper with the front-page headline Male Orders Bride. FAD Magazine reported on 23 June 2025 that about 10,000 copies had appeared in Washington DC, at the White House, the Capitol and the offices of The Washington Post, days before Jeff Bezos's wedding in Venice.<sup class=\"cite\"><a data-src=\"fad-ghost\">[fad-ghost]</a></sup> The same report says related work was hung three times in the National Portrait Gallery in Washington, twice in the President's Room. This is reported, and we have not found independent confirmation.<sup class=\"cite\"><a data-src=\"fad-ghost\">[fad-ghost]</a></sup></p><p>In Venice, GB News reported on 25 June 2025 a run of stunts staged every few hours over several days: a Bezos mannequin on a raft near the Rialto Bridge, mannequins of Bezos and Lauren Sánchez in wedding clothes on a gondola on the Grand Canal, and a scarecrow figure in St Mark's Square covered in fake dollar bills printed with his face.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p><p>In October 2025, during Frieze week in London, five ice blocks of about 40 stone each were set in front of the main entrance of Frieze London. Each held a small effigy of Damien Hirst, Andy Warhol, Tracey Emin, Jeff Koons or KAWS, and the piece was titled <i>ANTI-FRIEZE</i>.<sup class=\"cite\"><a data-src=\"ap-antifrieze\">[ap-antifrieze]</a></sup> The Art Newspaper reported more blocks outside galleries and auction houses that week, including one beside a framed picture taped to the window of Phillips.<sup class=\"cite\"><a data-src=\"tan-frieze\">[tan-frieze]</a></sup></p><p>We have found no gallery exhibitions, collections or prizes for Konn Artiss in the sources we have read. The work so far lives in public space and in press photographs.<sup class=\"cite\"><a data-src=\"fad-ghost\">[fad-ghost]</a></sup><sup class=\"cite\"><a data-src=\"ap-antifrieze\">[ap-antifrieze]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-zen-xander\">Zen Xander</a>: another anonymous name</li><li><a href=\"#artist-banksy\">Banksy</a>: anonymity, satire and work in public space</li><li><a href=\"#artist-damien-hirst\">Damien Hirst</a>: one of the five figures frozen in ANTI-FRIEZE</li><li><a href=\"#artist-kaws\">KAWS</a>: another of the five figures in ANTI-FRIEZE</li></ul>"
         }
       ],
       "works": [
         {
           "title": "The Washington Ghost",
           "year": "2025",
-          "medium": "Satirical printed newspaper, distributed in Venice",
+          "medium": "Satirical printed newspaper",
           "size": "Over 10,000 copies",
-          "note": "Distributed ahead of Jeff Bezos's Venice wedding.",
+          "note": "GB News reported more than 10,000 copies in its Venice coverage. FAD Magazine places their distribution in Washington DC.",
           "src": [
-            "gb-venice"
+            "gb-venice",
+            "fad-ghost"
           ],
           "tone": "#D8D2C4"
         },
@@ -2331,7 +2867,7 @@
           "title": "ANTI-FRIEZE",
           "year": "2025",
           "medium": "Five ice blocks encasing effigies of Hirst, Warhol, Emin, Koons and KAWS",
-          "size": false,
+          "size": "Five ice blocks, each about 40 stone",
           "note": "Shown outside Frieze London.",
           "src": [
             "ap-antifrieze"
@@ -2342,7 +2878,7 @@
           "title": "Frieze week ice blocks",
           "year": "2025",
           "medium": "Ice blocks and a framed image, outside London galleries and auction houses including Phillips",
-          "size": false,
+          "size": "Blocks of about 40 stone each",
           "note": "Reported independently by The Art Newspaper.",
           "src": [
             "tan-frieze"
@@ -2382,7 +2918,7 @@
           ]
         }
       ],
-      "seen": "<p>Most Konn Artiss works exist for days, in public space, and survive as photographs and press. <span class=\"placeholder\">[Add any gallery-held works, editions or prints, with where they can be seen.]</span></p>",
+      "seen": "<p>Most Konn Artiss works exist for days, in public space, and survive as photographs and press. We have not found any gallery-held works, editions or prints in the sources we have read.</p>",
       "related": [
         "a-explained-konn-artiss-venice-effigy",
         "a-konn-artiss-profile",
@@ -2396,7 +2932,9 @@
         "Any editions, prints or saleable works",
         "Photographs with permission to publish",
         "Exact dates for each intervention",
-        "Independent published criticism of the work, for a full review"
+        "Independent published criticism of the work, for a full review",
+        "Where the copies of The Washington Ghost were handed out: FAD Magazine places them in Washington DC, while the works list on this site says Venice, and GB News gives the number without a place",
+        "A second attributed statement by the project, from a named interview"
       ]
     },
     {
@@ -2456,6 +2994,11 @@
           "html": "<p>Animals stand in for people. Art Plugged described <em>VR Vegan</em>, in which a lion in a virtual reality headset eats a bowl of salad, as a jab at the gap between real and virtual life and at the contradictions of modern diets. Another work in the show, <em>Always a Cheetah</em>, puts a cheetah on a scooter.<sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup></p><h3>How to read one</h3><p>Ask which habit is being laughed at. Using an animal keeps the joke general, so nobody is singled out and anyone can see themselves.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>FAD Magazine announced on 17 May 2024 that Grove Gallery now represents Zen Xander. It described an anonymous street artist who still carries out graffiti stunts while showing in galleries. This is reported, and the article gives no dates or places for the street work.<sup class=\"cite\"><a data-src=\"fad-zen\">[fad-zen]</a></sup></p><p>The same month Grove Gallery showed Zen Xander with Banksy at Grove at the Grove. <i>Society Falling</i> opened at Grove Gallery Fitzrovia in June 2024.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup> The sources differ on when it closed: Artsy lists 26 June to 31 July 2024, while Art Plugged, reviewing it on 4 July, gave 9 August 2024.<sup class=\"cite\"><a data-src=\"artsy-zen\">[artsy-zen]</a></sup><sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup> In July 2024 the show continued at Dorsett Hospitality London, and the work hung at the opening of the Hilton &amp; Moss showroom. From September 2024 it was shown at South Place Hotel in London with Frank Canvas and Robi Walters.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p><p>Alongside the paintings, Zen Xander releases limited edition prints in drops of three to five versions. Each version carries a different quote, chosen from audience feedback, while the original paintings carry none.<sup class=\"cite\"><a data-src=\"fad-zen\">[fad-zen]</a></sup><sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup></p>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: another anonymous name</li><li><a href=\"#artist-frank-canvas\">Frank Canvas</a>: satire of everyday habits</li><li><a href=\"#artist-banksy\">Banksy</a>: street art, satire and anonymity</li></ul>"
@@ -2506,6 +3049,27 @@
           "src": [
             "grove-exhibitions"
           ]
+        },
+        {
+          "when": "2024",
+          "what": "Grove Gallery announces it represents Zen Xander, May.",
+          "src": [
+            "fad-zen"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Society Falling continues at Dorsett Hospitality London, July.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Work shown at the opening of the Hilton & Moss showroom, July.",
+          "src": [
+            "grove-exhibitions"
+          ]
         }
       ],
       "seen": "<p>We have not found the work in a museum collection in the sources we read.</p>",
@@ -2514,7 +3078,8 @@
         "Who makes the work",
         "Media and sizes of VR Vegan and Always a Cheetah",
         "Street work, if any, with dates and places",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Closing date of Society Falling: Artsy gives 31 July 2024, Art Plugged gives 9 August 2024"
       ]
     },
     {
@@ -2632,7 +3197,7 @@
           "title": "Girl with Balloon",
           "year": "2002",
           "medium": "Stencil mural; later canvases and prints",
-          "size": null,
+          "size": false,
           "note": "First painted near Waterloo Bridge on London's South Bank. A framed version was partly shredded at Sotheby's in 2018 and renamed Love Is in the Bin.",
           "src": [
             "wiki-gwb",
@@ -2832,12 +3397,13 @@
         {
           "title": "No. 3P.B.",
           "year": "1960",
-          "medium": "Painting",
-          "size": "",
+          "medium": "Oil on canvas",
+          "size": "159.1 x 143.5 cm",
           "note": "An early Infinity Net, shown at the Whitney Museum in 1961. In November 2026 it set a new auction record for the artist at Sotheby's New York.",
           "src": [
             "tan-kusama-record",
-            "artsy-records-nov26"
+            "artsy-records-nov26",
+            "sothebys-kusama-3pb"
           ],
           "tone": "#E6DCC8"
         },
@@ -2932,6 +3498,13 @@
           ]
         },
         {
+          "when": "2021",
+          "what": "No. 3P.B. is shown in Kusama: Cosmic Nature at the New York Botanical Garden, April to October.",
+          "src": [
+            "sothebys-kusama-3pb"
+          ]
+        },
+        {
           "when": "August 2026",
           "what": "Dies in Tokyo, aged 97.",
           "src": [
@@ -2951,7 +3524,9 @@
         "Museum pages for works in public collections",
         "Photographs with permission to publish",
         "Exhibition history in Japan after 1973",
-        "Auction results at Sotheby's, which need a sign-in to read"
+        "Auction results at Sotheby's, which need a sign-in to read",
+        "Museum collection pages (Tate, QAGOMA Brisbane) found by search but not yet opened",
+        "Exhibition history in Japan after 1973: the National Art Center, Tokyo, page for My Eternal Soul (2017) found by search but not yet opened"
       ]
     },
     {
@@ -3695,11 +4270,12 @@
         {
           "title": "Kerze (Candle)",
           "year": "1982",
-          "medium": "Painting",
-          "size": "",
+          "medium": "Oil on canvas",
+          "size": "100.3 x 70.5 cm",
           "note": "A single candle painted from a photograph and blurred. It sold at Christie's New York in May 2026.",
           "src": [
-            "tan-richter-may"
+            "tan-richter-may",
+            "christies-richter-kerze"
           ],
           "tone": "#C9A96E"
         },
@@ -3803,7 +4379,8 @@
         "Museum pages for works in public collections",
         "Photographs with permission to publish",
         "The catalogue raisonné numbers for the works named",
-        "Auction results at Sotheby's, which need a sign-in to read"
+        "Auction results at Sotheby's, which need a sign-in to read",
+        "Catalogue raisonné numbers for Abstraktes Bild (1991) and Birkenau (2014); Kerze (Candle) is CR 510-1 per the Christie's lot page"
       ]
     },
     {
@@ -4500,6 +5077,13 @@
           ]
         },
         {
+          "when": "2012",
+          "what": "Paints the mural Flick that chip from your shoulder in Hosier Lane, Melbourne, for RALLY at the National Gallery of Victoria (18 October 2012 to 1 April 2013).",
+          "src": [
+            "ngv-rally"
+          ]
+        },
+        {
           "when": "2013",
           "what": "One of five artists in Indonesia's pavilion at the 55th Venice Biennale.",
           "src": [
@@ -4514,7 +5098,7 @@
           ]
         }
       ],
-      "seen": "<p>Illusion (2007) is in the collection of the Singapore Art Museum.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup></p>",
+      "seen": "<p>Illusion (2007) is in the collection of the Singapore Art Museum.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> The National Gallery of Victoria in Melbourne lists seven of his works, among them <i>It's our destiny 1</i> and <i>2</i>, <i>Dilema Generasi #2</i> and <i>#3</i>, and <i>I was a politician</i>.<sup class=\"cite\"><a data-src=\"ngv-eko\">[ngv-eko]</a></sup> For the NGV's exhibition <i>RALLY</i> (2012 to 2013) he painted a mural, <i>Flick that chip from your shoulder</i> (2012), in Hosier Lane, Melbourne.<sup class=\"cite\"><a data-src=\"ngv-rally\">[ngv-rally]</a></sup> Asia Society in New York holds a seven-panel painting of 2017 in acrylic on board, 243.8 x 853.4 cm overall, given by the artist.<sup class=\"cite\"><a data-src=\"asia-eko\">[asia-eko]</a></sup></p>",
       "related": [
         "a-review-eko-nugroho-lost-in-parody",
         "a-explained-eko-nugroho-illusion",
@@ -4522,10 +5106,10 @@
         "a-mixed-media"
       ],
       "research": [
-        "Other museum collections",
         "Photographs with permission to publish",
         "His murals and community projects",
-        "Christie's results confirmed on christies.com, not only the China site"
+        "Christie's results confirmed on christies.com, not only the China site",
+        "Asia Society New York (the title of its 2017 seven-panel painting, possibly Semelah, and whether it was made for the 2017 On Site project), the Art Gallery of South Australia, the Art Gallery of New South Wales (Lot Lost) and QAGOMA appear to hold or have shown his work: confirm from their pages."
       ]
     },
     {
@@ -4692,6 +5276,13 @@
           ]
         },
         {
+          "when": "2023",
+          "what": "Clair/Obscur, about forty works, at the Musée des Beaux-Arts de Nancy, opening to the public on 9 April.",
+          "src": [
+            "bsa-faith-nancy"
+          ]
+        },
+        {
           "when": "2025",
           "what": "ORIGINS: Family & Legacy at the STRAAT Museum, Amsterdam, 18 April to 8 June.",
           "src": [
@@ -4699,7 +5290,7 @@
           ]
         }
       ],
-      "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> The STRAAT Museum in Amsterdam added one of her works to its collection in 2025.<sup class=\"cite\"><a data-src=\"artdaily-faith\">[artdaily-faith]</a></sup></p>",
+      "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> The STRAAT Museum in Amsterdam added one of her works to its collection in 2025.<sup class=\"cite\"><a data-src=\"artdaily-faith\">[artdaily-faith]</a></sup> In 2023 the Musée des Beaux-Arts de Nancy showed <i>Clair/Obscur</i>, about forty works including drawings, textile works, Polaroids and videos across two floors.<sup class=\"cite\"><a data-src=\"bsa-faith-nancy\">[bsa-faith-nancy]</a></sup></p>",
       "related": [
         "a-review-faith-xlvii-chant",
         "a-explained-faith-xlvii-silent-watcher",
@@ -4708,8 +5299,7 @@
       ],
       "research": [
         "Museum pages for works in public collections",
-        "Photographs with permission to publish",
-        "An independent source for her exhibitions"
+        "Photographs with permission to publish"
       ]
     },
     {
@@ -4870,7 +5460,7 @@
           ]
         }
       ],
-      "seen": "<p>The Kröller-Müller Museum in Otterlo holds Blossoming Chestnut Trees.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup> Doctor Paul Gachet is in the Musée d'Orsay, Paris.<sup class=\"cite\"><a data-src=\"vgm-auvers-2023\">[vgm-auvers-2023]</a></sup></p>",
+      "seen": "<p>The Kröller-Müller Museum in Otterlo holds Blossoming Chestnut Trees.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup> Doctor Paul Gachet is in the Musée d'Orsay, Paris.<sup class=\"cite\"><a data-src=\"vgm-auvers-2023\">[vgm-auvers-2023]</a></sup> The Van Gogh Museum in Amsterdam holds two of the wide wheatfield canvases painted around Auvers in the last weeks of his life, <i>Wheatfield under Thunderclouds</i> and <i>Wheatfield with Crows</i>, both of 1890.<sup class=\"cite\"><a data-src=\"vgm-wheatfield-thunderclouds\">[vgm-wheatfield-thunderclouds]</a></sup><sup class=\"cite\"><a data-src=\"vgm-wheatfield-crows\">[vgm-wheatfield-crows]</a></sup> The museum notes that <i>Wheatfield with Crows</i> is often called his last painting, and says this is a myth: he made several works after it.<sup class=\"cite\"><a data-src=\"vgm-wheatfield-crows\">[vgm-wheatfield-crows]</a></sup></p>",
       "related": [
         "a-review-van-gogh-poets-and-lovers",
         "a-explained-van-gogh-sunflowers",
@@ -4878,7 +5468,6 @@
         "a-oil-and-acrylic"
       ],
       "research": [
-        "Museum pages for the Van Gogh Museum's own collection",
         "A free image of the artist or a work in a public collection",
         "The exact Sotheby's figures, which need a sign-in to read",
         "Earlier auction results"
@@ -4981,7 +5570,8 @@
           "src": [
             "artsy-kandinsky",
             "tan-kandinsky",
-            "christies-betonte"
+            "christies-betonte",
+            "finestre-betonte"
           ],
           "tone": "#B8452F"
         },
@@ -5096,7 +5686,6 @@
         "a-oil-and-acrylic"
       ],
       "research": [
-        "The medium and size of Betonte Ecken",
         "A free image of the artist or a work in a public collection",
         "Exact Christie's figures from the lot pages",
         "Earlier auction results"
@@ -5154,6 +5743,14 @@
             "tate-turner-2025",
             "1854-matic"
           ]
+        ],
+        [
+          "Galleries",
+          "Arcadia Missa, London, and Chapter NY, New York (as credited)",
+          [
+            "arcadia-matic",
+            "elephant-matic-2025"
+          ]
         ]
       ],
       "sections": [
@@ -5170,7 +5767,12 @@
         {
           "id": "life",
           "title": "Life and career",
-          "html": "<p>Matić is an artist and writer based in London, working in photography, film and sculpture.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup> The solo shows build up steadily: <i>fags for countries that don't exist but bodies that do</i> at Arcadia Missa in 2021, <i>soul time</i> at Studio Voltaire and <i>upon this rock</i> at the South London Gallery in 2022, <i>a girl for the living room</i> at the Martin Parr Foundation in 2023, and <i>JAZZ</i>, made with Oscar Murillo, at Kunsthalle Wien in 2024.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup></p><p>The work is held by Tate, the Fondation Louis Vuitton, the Government Art Collection and the Arts Council Collection.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup> We have not found an interview quote we could check against a recording or a named publication, so this portfolio does not put words in the artist's mouth.</p>"
+          "html": "<p>Matić is an artist and writer based in London, working in photography, film and sculpture.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup> The solo shows build up steadily: <i>flags for countries that don't exist but for bodies that do</i> at Arcadia Missa in 2021, <i>soul time</i> at Studio Voltaire and <i>upon this rock</i> at the South London Gallery in 2022, <i>a girl for the living room</i> at the Martin Parr Foundation in 2023, and <i>JAZZ</i>, made with Oscar Murillo, at Kunsthalle Wien in 2024.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup></p><p>The work is held by Tate, the Fondation Louis Vuitton, the Government Art Collection and the Arts Council Collection.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>The photographs will look for music in the gestures of people.<cite>Rene Matić on the V&amp;A East commission, V&amp;A East, 2026<sup class=\"cite\"><a data-src=\"vam-matic-2026\">[vam-matic-2026]</a></sup></cite></blockquote><blockquote>They are a quiet witnessing.<cite>Rene Matić, V&amp;A East, 2026<sup class=\"cite\"><a data-src=\"vam-matic-2026\">[vam-matic-2026]</a></sup></cite></blockquote><blockquote>I was interested in the chemistry, how blackness and whiteness came together to form an image.<cite>Rene Matić on first using photography, Elephant, 2025<sup class=\"cite\"><a data-src=\"elephant-matic-2025\">[elephant-matic-2025]</a></sup></cite></blockquote>"
         },
         {
           "id": "explore",
@@ -5231,9 +5833,10 @@
         },
         {
           "when": "2021",
-          "what": "fags for countries that don't exist but bodies that do, Arcadia Missa.",
+          "what": "flags for countries that don't exist but for bodies that do, Arcadia Missa.",
           "src": [
-            "dbpf-matic"
+            "dbpf-matic",
+            "arcadia-matic"
           ]
         },
         {
@@ -5251,6 +5854,13 @@
           ]
         },
         {
+          "when": "2023",
+          "what": "Two photographs enter The Hepworth Wakefield's collection through the Spirit Now London Acquisition Prize at Frieze London.",
+          "src": [
+            "hepworth-spirit-now-2023"
+          ]
+        },
+        {
           "when": "2024",
           "what": "AS OPPOSED TO THE TRUTH opens at CCA Berlin.",
           "src": [
@@ -5265,14 +5875,28 @@
           ]
         },
         {
+          "when": "2025",
+          "what": "Idols Lovers Mothers Friends, Arcadia Missa, London.",
+          "src": [
+            "arcadia-matic"
+          ]
+        },
+        {
           "when": "2026",
           "what": "Wins the Deutsche Börse Photography Foundation Prize.",
           "src": [
             "1854-matic"
           ]
+        },
+        {
+          "when": "2026",
+          "what": "New Work commission for V&A East: eight photographic lightboxes in a form drawn from a reggae sound system.",
+          "src": [
+            "vam-matic-2026"
+          ]
         }
       ],
-      "seen": "<p>Wikipedia reports that works entered The Hepworth Wakefield's collection through an acquisition prize at Frieze London.<sup class=\"cite\"><a data-src=\"wiki-matic\">[wiki-matic]</a></sup> We have not yet confirmed this with the museum.</p>",
+      "seen": "<p>The Hepworth Wakefield announced on 12 October 2023 that two photographs by Matić would join its collection through the Spirit Now London Acquisition Prize, run with Frieze London.<sup class=\"cite\"><a data-src=\"hepworth-spirit-now-2023\">[hepworth-spirit-now-2023]</a></sup> Arcadia Missa reports the work in further public collections, including Tate, the Fondation Louis Vuitton, the Government Art Collection, the Arts Council Collection, the Walker Art Gallery in Liverpool and the Leslie-Lohman Museum of Art in New York.<sup class=\"cite\"><a data-src=\"arcadia-matic\">[arcadia-matic]</a></sup></p>",
       "related": [
         "a-review-rene-matic-turner-prize",
         "a-explained-rene-matic-no-place-for-violence",
@@ -5280,9 +5904,10 @@
         "a-how-to-look-at-a-painting"
       ],
       "research": [
-        "Confirmation from The Hepworth Wakefield of works in its collection",
         "Which gallery represents the artist",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Written confirmation that Arcadia Missa and Chapter NY represent the artist: both credit the work and list it under artists, but neither page says 'represents'",
+        "Titles of the two Hepworth Wakefield photographs (the museum page gives none; only image file names hint at them)"
       ]
     },
     {
@@ -5431,6 +6056,13 @@
           "src": [
             "austin-halfmoon",
             "cb-halfmoon"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Neesh and Soku (Moon and Sun) at Salon 94, New York, 18 September to 2 November.",
+          "src": [
+            "studio-halfmoon"
           ]
         },
         {
@@ -5627,11 +6259,12 @@
           "when": "2026",
           "what": "First solo exhibition at kurimanzutto New York.",
           "src": [
-            "eflux-segovia"
+            "eflux-segovia",
+            "kurimanzutto-segovia-ny"
           ]
         }
       ],
-      "seen": "<p>kurimanzutto lists works in the Louisiana Museum of Modern Art, the Denver Art Museum and the Pérez Art Museum Miami.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia\">[kurimanzutto-segovia]</a></sup> MOCA Los Angeles bought <em>Through Mario's perspective</em>.<sup class=\"cite\"><a data-src=\"moca-segovia\">[moca-segovia]</a></sup></p>",
+      "seen": "<p>kurimanzutto lists works in the Louisiana Museum of Modern Art, the Denver Art Museum and the Pérez Art Museum Miami.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia\">[kurimanzutto-segovia]</a></sup> MOCA Los Angeles bought <em>Through Mario's perspective</em>.<sup class=\"cite\"><a data-src=\"moca-segovia\">[moca-segovia]</a></sup> <i>The Office of Inter-American Affairs Presents</i> was at kurimanzutto, 516 West 20th Street, New York, from 10 September 2026. The gallery's page gives the closing date as 24 October 2026; the e-flux announcement of 11 September 2026 gives 17 October 2026.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia-ny\">[kurimanzutto-segovia-ny]</a></sup><sup class=\"cite\"><a data-src=\"eflux-segovia\">[eflux-segovia]</a></sup> The show paired paintings of gaucho details and of Chilean Patagonia with archive films and sound from the Office of the Coordinator of Inter-American Affairs, the video <i>Gambola (Uruguay)</i> and its charcoal storyboards.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia-ny\">[kurimanzutto-segovia-ny]</a></sup></p>",
       "related": [
         "a-review-ana-segovia-cowboys",
         "a-explained-ana-segovia-ramon",
@@ -5639,8 +6272,8 @@
         "a-oil-and-acrylic"
       ],
       "research": [
-        "End date of the 2026 New York show (the gallery and e-flux disagree)",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "The exhibition page lists ten charcoal drawings (Near Gambola (Uruguay)) with the video; the portfolio's work entry says eight. Which count is right?"
       ]
     },
     {
@@ -5689,9 +6322,9 @@
         ],
         [
           "Galleries",
-          "Chemould Prescott Road and Athr Gallery",
+          "Lisson Gallery (worldwide, since April 2024), with Chemould Prescott Road and Athr Gallery",
           [
-            "lisson-awartani"
+            "lisson-awartani-rep"
           ]
         ]
       ],
@@ -5749,7 +6382,7 @@
           "title": "Standing by the Ruins",
           "year": "2025",
           "medium": "Installation",
-          "size": null,
+          "size": false,
           "note": "Shown in her solo exhibition at Arnolfini, Bristol, in 2025.",
           "src": [
             "ocula-awartani"
@@ -5787,10 +6420,24 @@
           ]
         },
         {
+          "when": "2024",
+          "what": "Lisson Gallery announces worldwide representation on 30 April; Chemould Prescott Road and Athr Gallery continue to represent her.",
+          "src": [
+            "lisson-awartani-rep"
+          ]
+        },
+        {
           "when": "2025",
           "what": "Solo exhibition at Arnolfini, Bristol.",
           "src": [
             "ocula-awartani"
+          ]
+        },
+        {
+          "when": "2025",
+          "what": "Standing by the Ruins travels to Towner Eastbourne, 29 November 2025 to 25 January 2026.",
+          "src": [
+            "towner-awartani"
           ]
         },
         {
@@ -5801,7 +6448,7 @@
           ]
         }
       ],
-      "seen": "<p>Ocula lists works in the Guggenheim in New York, the British Museum, the Jameel Arts Centre, Sharjah Art Foundation and the Louvre Abu Dhabi.<sup class=\"cite\"><a data-src=\"ocula-awartani\">[ocula-awartani]</a></sup></p>",
+      "seen": "<p>Ocula lists works in the Guggenheim in New York, the British Museum, the Jameel Arts Centre, Sharjah Art Foundation and the Louvre Abu Dhabi.<sup class=\"cite\"><a data-src=\"ocula-awartani\">[ocula-awartani]</a></sup> For the Saudi pavilion at the 2026 Venice Biennale, in the Arsenale, she made <i>May your tears never dry, you who weep over stones</i>: a floor of thousands of handmade tiles of naturally coloured mud and clay, laid out like an excavated site that visitors walk across.<sup class=\"cite\"><a data-src=\"biennale-saudi-2026\">[biennale-saudi-2026]</a></sup> The tiles were made with Saudi-based craftspeople using adobe brick methods without binders, so they crack as they dry, and their patterns draw on mosaics from heritage sites in Palestine, Syria and Lebanon.<sup class=\"cite\"><a data-src=\"biennale-saudi-2026\">[biennale-saudi-2026]</a></sup> At Towner Eastbourne in 2025 and 2026, <i>Standing by the Ruins III</i> (2025), in compressed earth, was lent courtesy of the artist and Lisson Gallery.<sup class=\"cite\"><a data-src=\"towner-awartani\">[towner-awartani]</a></sup></p>",
       "related": [
         "a-review-dana-awartani-standing-by-the-ruins",
         "a-explained-dana-awartani-come-let-me-heal",
@@ -5809,10 +6456,9 @@
         "a-research-emerging-artist"
       ],
       "research": [
-        "What she showed in the Saudi pavilion in 2026",
-        "Whether Lisson Gallery represents her (Ocula says so; Lisson's own page names only Chemould Prescott Road and Athr)",
         "Sizes of the 2024 Venice work and Standing by the Ruins",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Standing by the Ruins is the title of the 2025 Arnolfini and Towner exhibitions and of a numbered series (Towner showed Standing by the Ruins III). Which version does the work entry mean, and what are its dimensions?"
       ]
     },
     {
@@ -5976,7 +6622,7 @@
           ]
         }
       ],
-      "seen": "<p>We have not yet found a museum collection that lists a work by Jes Fan. Yale's 2026 survey borrowed works including <em>Bivalve II</em> (2023) from a private collection.<sup class=\"cite\"><a data-src=\"yale-fan\">[yale-fan]</a></sup></p>",
+      "seen": "<p>Two museums hold versions of <i>Contrapposto</i> (2023), a sculpture made from a 3D print of the artist's thigh muscle with resin, pigment, glass and metal.<sup class=\"cite\"><a data-src=\"mplus-fan-contrapposto\">[mplus-fan-contrapposto]</a></sup><sup class=\"cite\"><a data-src=\"whitney-fan-contrapposto\">[whitney-fan-contrapposto]</a></sup> M+ in Hong Kong commissioned its version in 2023 (object number 2024.541, 219 x 92 x 68.5 cm).<sup class=\"cite\"><a data-src=\"mplus-fan-contrapposto\">[mplus-fan-contrapposto]</a></sup> The Whitney Museum of American Art bought another, which also includes wax (accession number 2025.113, 216.5 x 89.2 x 68.3 cm).<sup class=\"cite\"><a data-src=\"whitney-fan-contrapposto\">[whitney-fan-contrapposto]</a></sup> Yale's 2026 survey borrowed works including <em>Bivalve II</em> (2023) from a private collection.<sup class=\"cite\"><a data-src=\"yale-fan\">[yale-fan]</a></sup></p>",
       "related": [
         "a-review-jes-fan-sites-of-wounding",
         "a-explained-jes-fan-palimpsest",
@@ -5984,7 +6630,6 @@
         "a-research-emerging-artist"
       ],
       "research": [
-        "Museum collections that hold the work",
         "Sizes of Apparatus and Right Pelvis, Cross Section",
         "Which gallery represents the artist",
         "A photograph with permission to publish"
@@ -6246,6 +6891,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The <i>Campbell's Soup Cans</i> of 1962 were still painted by hand: 32 canvases, one for each flavour the company sold, with the lettering traced from a projection and the border stamped on.<sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup><sup class=\"cite\"><a data-src=\"moma-learning-soup\">[moma-learning-soup]</a></sup> Later that year he switched to photo-silkscreen, which let him print a photograph onto canvas again and again.<sup class=\"cite\"><a data-src=\"moma-learning-soup\">[moma-learning-soup]</a></sup><sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p><p>That change shows in <i>Marilyn Diptych</i> (1962), made in the weeks after Monroe's death from a publicity still for the film <i>Niagara</i>. The same face is printed 50 times. On the left panel it is bright with colour; on the right it fades to black and white.<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p><h3>How to read one</h3><p>Look at where the print fails: smudges, gaps and colour laid slightly off the photograph. Our reading is that these slips are part of the point. The more often an image is repeated, the less it seems to hold.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Warhol graduated from the Carnegie Institute of Technology in 1949 with a degree in pictorial design and moved to New York to work as a commercial artist. Through the 1950s his illustration clients included Tiffany &amp; Co., <i>The New York Times</i> and Columbia Records, and he won a number of awards for the work.<sup class=\"cite\"><a data-src=\"warhol-life\">[warhol-life]</a></sup></p><p>In 1962 he made the <i>Campbell's Soup Cans</i>, began his portraits of film stars such as Marilyn Monroe and Elvis Presley, and started the paintings of car crashes and other disasters known as the death and disaster series. From 1963 he also made films, among them <i>Sleep</i> (1963), <i>Empire</i> (1964), <i>The Chelsea Girls</i> (1966) and the filmed portraits called <i>Screen Tests</i> (1964 to 1966).<sup class=\"cite\"><a data-src=\"warhol-life\">[warhol-life]</a></sup></p><p>On 3 June 1968 he was shot in the chest at his studio by Valerie Solanas. After he recovered he co-founded <i>Interview</i> magazine. In 1974 he began the <i>Time Capsules</i>, boxes of papers and objects that now number more than 600. Commissioned portraits became a large part of his work in the 1970s and 1980s.<sup class=\"cite\"><a data-src=\"warhol-life\">[warhol-life]</a></sup></p><p>In the mid-1980s he worked with Jean-Michel Basquiat and Keith Haring. The Andy Warhol Museum counts more than 150 canvases made with Basquiat over four years. His <i>Last Supper</i> paintings were shown in Milan early in 1987. He died in New York on 22 February that year, after gallbladder surgery. The museum in Pittsburgh was announced in 1989 and opened in 1994.<sup class=\"cite\"><a data-src=\"warhol-life\">[warhol-life]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>If you want to know all about Andy Warhol, just look at the surface of my paintings and films and me, and there I am.<cite>Andy Warhol, <i>The East Village Other</i>, 1966, as quoted by The Andy Warhol Museum<sup class=\"cite\"><a data-src=\"warhol-life\">[warhol-life]</a></sup></cite></blockquote><blockquote>Well, I think everybody should like everybody.<cite>Andy Warhol to Gene Swenson, 1963, from the full transcript published in the <i>Oxford Art Journal</i>, 2018<sup class=\"cite\"><a data-src=\"sichel-swenson-2018\">[sichel-swenson-2018]</a></sup></cite></blockquote><p>Swenson's interview first appeared in <i>ARTnews</i> in November 1963, as part of a series called \"What is Pop Art?\". Jennifer Sichel's later transcript restores passages that were cut from the printed version.<sup class=\"cite\"><a data-src=\"sichel-swenson-2018\">[sichel-swenson-2018]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a>: they painted together in the mid-1980s</li><li><a href=\"#artist-keith-haring\">Keith Haring</a>: another artist Warhol worked with in the mid-1980s</li><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: put Warhol in one of the ice blocks of ANTI-FRIEZE</li></ul>"
         }
       ],
       "works": [
@@ -6309,10 +6969,24 @@
           ]
         },
         {
+          "when": "1963",
+          "what": "Begins making films, including Sleep.",
+          "src": [
+            "warhol-life"
+          ]
+        },
+        {
           "when": "1968",
           "what": "Survives a shooting at his studio.",
           "src": [
             "wiki-warhol"
+          ]
+        },
+        {
+          "when": "1974",
+          "what": "Starts the Time Capsules, which grow to more than 600 boxes.",
+          "src": [
+            "warhol-life"
           ]
         },
         {
@@ -6328,6 +7002,13 @@
           "what": "Dies in New York on 22 February.",
           "src": [
             "wiki-warhol"
+          ]
+        },
+        {
+          "when": "1994",
+          "what": "The Andy Warhol Museum opens in Pittsburgh.",
+          "src": [
+            "warhol-life"
           ]
         },
         {
@@ -6349,7 +7030,9 @@
         "The Andy Warhol Museum's own collection pages",
         "Photographs of the works with permission to publish",
         "Sotheby's results for 16 November 2026, which need a sign-in to read",
-        "Catalogue raisonné numbers for the works named"
+        "Catalogue raisonné numbers for the works named",
+        "Whether Warhol and Basquiat made about 150 or about 160 paintings together (the Warhol Museum says more than 150 over four years; the existing timeline says about 160)",
+        "The year Interview magazine was founded, from a museum source"
       ]
     },
     {
@@ -6422,6 +7105,16 @@
           "html": "<p>In <em>Les Demoiselles d'Avignon</em> five nude women are built from flat, splintered planes. Their faces draw on Iberian sculpture and African masks, and the two figures on the right are often linked to Picasso's visit to the ethnographic museum at the Trocadéro in Paris while he was working on the picture.<sup class=\"cite\"><a data-src=\"moma-demoiselles\">[moma-demoiselles]</a></sup></p><p>With Georges Braque he went on to develop Cubism, in which an object is shown from several sides at once and the surface is broken into angled facets.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup></p><p><em>Guernica</em> uses the same language for a public subject. It is painted in greys, black and white, in a long landscape format that the Reina Sofía relates to film and press photography.<sup class=\"cite\"><a data-src=\"reina-guernica\">[reina-guernica]</a></sup></p><h3>How to read one</h3><p>Look for the places where two views of one face meet: an eye seen from the front set into a nose seen from the side. In our reading, that join is where the picture does its work. It asks you to hold two ways of seeing at once.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>After a short spell at art school in Madrid in 1897, Picasso was back in Barcelona by 1899, where he joined the writers and artists who met at the café Els Quatre Gats.<sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup> From late 1901 to about the middle of 1904 he painted the pictures now called the Blue Period: poor, lonely figures in a palette that is almost all blue, begun after the suicide of his friend Carles Casagemas.<sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup><sup class=\"cite\"><a data-src=\"nga-picasso-early\">[nga-picasso-early]</a></sup></p><p>He settled in Paris in the spring of 1904, in a run-down building in Montmartre known as the Bateau-Lavoir.<sup class=\"cite\"><a data-src=\"nga-picasso-early\">[nga-picasso-early]</a></sup><sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup> In 1905 he dropped the blues for chalky pinks and reds and turned to circus and fairground performers, the saltimbanques, whom he watched at the Cirque Medrano. This is the Rose Period. The National Gallery of Art names <i>Family of Saltimbanques</i> (1905) as a key work of the period.<sup class=\"cite\"><a data-src=\"nga-picasso-early\">[nga-picasso-early]</a></sup> Gertrude Stein, whose family supported him, sat for her portrait in 1905 to 1906.<sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup></p><p>He painted <i>Les Demoiselles d'Avignon</i> in 1907 and met Georges Braque the same year. With Braque he worked out Analytic Cubism between 1910 and 1912, then Synthetic Cubism and papier collé, pictures built partly from pasted paper, between 1912 and 1914.<sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup></p><p>In the early 1920s he returned to a classical style, and in the late 1920s he took up Surrealist ideas. <i>Guernica</i> was made for the Spanish Pavilion at the Paris exposition of 1937. From the late 1940s he lived in the south of France, where he painted, made prints and ceramics. Retrospectives followed in Tokyo in 1951, in Lyon, Rome, Milan and São Paulo in 1953, and at MoMA in 1957, where the show drew more than 100,000 visitors in its first month.<sup class=\"cite\"><a data-src=\"met-picasso-essay\">[met-picasso-essay]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Art is a lie that makes us realize the truth, at least the truth that is given us to understand.<cite>Pablo Picasso, \"Picasso Speaks\", <i>The Arts</i>, New York, May 1923<sup class=\"cite\"><a data-src=\"picassofr-dezayas\">[picassofr-dezayas]</a></sup></cite></blockquote><blockquote>In art, intentions are not sufficient and, as we say in Spanish, love must be proved by facts and not by reasons.<cite>Pablo Picasso, \"Picasso Speaks\", <i>The Arts</i>, New York, May 1923<sup class=\"cite\"><a data-src=\"picassofr-dezayas\">[picassofr-dezayas]</a></sup></cite></blockquote><p>The statement was published unsigned. It is generally attributed to Marius de Zayas, who had helped choose the 83 drawings and watercolours for Picasso's first show in New York, at Alfred Stieglitz's gallery 291 in 1911.<sup class=\"cite\"><a data-src=\"picassofr-dezayas\">[picassofr-dezayas]</a></sup></p>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: another painter who broke with how pictures had looked</li><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: an artist whose output runs from unique works to large editions</li></ul>"
@@ -6432,7 +7125,7 @@
           "title": "Les Demoiselles d'Avignon",
           "year": "1907",
           "medium": "Oil on canvas",
-          "size": "",
+          "size": "243.9 x 233.7 cm",
           "note": "Five nude women made of flat, broken planes. MoMA notes that the title refers to a street in Barcelona. Picasso began the sketches in the winter of 1906 to 1907 and revised the painting for months. The Museum of Modern Art, New York.",
           "src": [
             "moma-demoiselles",
@@ -6486,10 +7179,39 @@
           ]
         },
         {
+          "when": "1901 to 1904",
+          "what": "The Blue Period, from late 1901 to about mid-1904.",
+          "src": [
+            "met-picasso-essay"
+          ]
+        },
+        {
+          "when": "1904",
+          "what": "Settles in Paris, at the Bateau-Lavoir in Montmartre.",
+          "src": [
+            "nga-picasso-early",
+            "met-picasso-essay"
+          ]
+        },
+        {
+          "when": "1905",
+          "what": "Rose Period begins; paints Family of Saltimbanques.",
+          "src": [
+            "nga-picasso-early"
+          ]
+        },
+        {
           "when": "1906 to 1907",
           "what": "Sketches and paints Les Demoiselles d'Avignon.",
           "src": [
             "moma-demoiselles-100"
+          ]
+        },
+        {
+          "when": "1911",
+          "what": "First New York show, 83 drawings and watercolours at Stieglitz's gallery 291.",
+          "src": [
+            "picassofr-dezayas"
           ]
         },
         {
@@ -6520,7 +7242,6 @@
         "a-original-vs-print"
       ],
       "research": [
-        "Rose Period and the move to Paris, from a museum source",
         "Dates and catalogue numbers for the ceramics",
         "Christie's lot pages for the three paintings sold on 17 November 2026"
       ]
@@ -6589,6 +7310,16 @@
           "html": "<p>By 1980 he was painting on canvas, using oilstick to draw crowns, halos and parts of the body.<sup class=\"cite\"><a data-src=\"whitney-basquiat\">[whitney-basquiat]</a></sup> He painted on found materials too: <em>LNAPRK</em> (1982) has wooden crossbars, tied with twine, that the Whitney thinks may have come from the street.<sup class=\"cite\"><a data-src=\"whitney-lnaprk\">[whitney-lnaprk]</a></sup></p><p>Words fill the pictures. Many are crossed out, and he explained why.<sup class=\"cite\"><a data-src=\"whitney-hollywood-africans\">[whitney-hollywood-africans]</a></sup></p><blockquote>I cross out words so you will see them more; the fact that they are obscured makes you want to read them.</blockquote><h3>How to read one</h3><p>Read the words before the figures. In <em>Hollywood Africans</em> the lists of crops and film roles carry the argument, and the crown he used as a graffiti writer turns up as a signature.<sup class=\"cite\"><a data-src=\"whitney-hollywood-africans\">[whitney-hollywood-africans]</a></sup><sup class=\"cite\"><a data-src=\"whitney-lnaprk\">[whitney-lnaprk]</a></sup></p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>SAMO© was listed among the artists in The Times Square Show in June 1980, and Basquiat's work was in <i>New York/New Wave</i> at P.S. 1 early in 1981. His first solo show, titled <i>SAMO</i>, opened at the Galleria d'Arte Emilio Mazzoli in Modena on 23 May 1981.<sup class=\"cite\"><a data-src=\"mfa-basquiat-timeline\">[mfa-basquiat-timeline]</a></sup></p><p>In 1982 he showed at Annina Nosei in SoHo in March, at Larry Gagosian in Los Angeles from 8 April to 8 May, at Documenta 7 in Kassel over the summer, and at the Fun Gallery in the East Village from 4 November.<sup class=\"cite\"><a data-src=\"mfa-basquiat-timeline\">[mfa-basquiat-timeline]</a></sup> The Los Angeles show was his first on the West Coast. That November he moved into Gagosian's house on Market Street in Venice, California.<sup class=\"cite\"><a data-src=\"gagosian-market-street-2024\">[gagosian-market-street-2024]</a></sup></p><p>Between November 1982 and May 1984 he made about a hundred paintings in Venice, among them <i>Hollywood Africans</i> and <i>Horn Players</i>, and six silkscreen editions with the printer Fred Hoffman. His second Gagosian show, <i>New Paintings</i>, ran from 8 March to 2 April 1983.<sup class=\"cite\"><a data-src=\"gagosian-market-street-2024\">[gagosian-market-street-2024]</a></sup> He was in the Whitney Biennial that spring, from 15 March to 29 May 1983.<sup class=\"cite\"><a data-src=\"mfa-basquiat-timeline\">[mfa-basquiat-timeline]</a></sup> Gagosian later recalled a wall of seven paintings in that second show, including <i>Hollywood Africans</i>.<sup class=\"cite\"><a data-src=\"tan-basquiat-la-2024\">[tan-basquiat-la-2024]</a></sup></p><p>Mary Boone gave him a solo show in May 1984. His first solo museum show, <i>Paintings 1981 to 1984</i>, opened at the Fruitmarket Gallery in Edinburgh in August 1984 and went on to the Institute of Contemporary Arts in London. A show at the University Art Museum in Berkeley in 1985 was, according to the MFA Boston, the only one a US museum gave him in his lifetime.<sup class=\"cite\"><a data-src=\"mfa-basquiat-timeline\">[mfa-basquiat-timeline]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Well, SAMO wasn't supposed to be art, really.<cite>Jean-Michel Basquiat to Henry Geldzahler, <i>Interview</i>, January 1983<sup class=\"cite\"><a data-src=\"interview-basquiat-1983\">[interview-basquiat-1983]</a></sup></cite></blockquote><blockquote>I wanted to build up a name for myself.<cite>Jean-Michel Basquiat on his graffiti, to Henry Geldzahler, <i>Interview</i>, January 1983<sup class=\"cite\"><a data-src=\"interview-basquiat-1983\">[interview-basquiat-1983]</a></sup></cite></blockquote><blockquote>Royalty, heroism, and the streets.<cite>Jean-Michel Basquiat, asked about his subject matter, <i>Interview</i>, January 1983<sup class=\"cite\"><a data-src=\"interview-basquiat-1983\">[interview-basquiat-1983]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: friend and collaborator from 1983</li><li><a href=\"#artist-keith-haring\">Keith Haring</a>: the same downtown scene, from the street to the gallery</li><li><a href=\"#artist-banksy\">Banksy</a>: another artist who started with words on walls</li></ul>"
@@ -6652,10 +7383,24 @@
           ]
         },
         {
+          "when": "1981",
+          "what": "First solo show, SAMO, opens in Modena on 23 May.",
+          "src": [
+            "mfa-basquiat-timeline"
+          ]
+        },
+        {
           "when": "1982",
           "what": "Solo shows in New York and Los Angeles; Documenta 7, Kassel.",
           "src": [
             "mfa-basquiat-timeline"
+          ]
+        },
+        {
+          "when": "1982 to 1984",
+          "what": "Works in Venice, California, making about a hundred paintings.",
+          "src": [
+            "gagosian-market-street-2024"
           ]
         },
         {
@@ -6664,6 +7409,13 @@
           "src": [
             "whitney-basquiat",
             "brit-basquiat"
+          ]
+        },
+        {
+          "when": "1983",
+          "what": "New Paintings at Larry Gagosian, Los Angeles, 8 March to 2 April.",
+          "src": [
+            "gagosian-market-street-2024"
           ]
         },
         {
@@ -6693,9 +7445,9 @@
         "a-original-vs-print"
       ],
       "research": [
-        "The date of his 1983 Los Angeles show",
         "Christie's lot page for the November 2026 sale",
-        "A first-hand account of the SAMO© years"
+        "A fuller first-hand account of the SAMO© years from Al Diaz (only Basquiat's own short remarks in Interview, 1983, were found)",
+        "When SAMO© began: Interview magazine's introduction says 1976, other sources say late 1970s"
       ]
     },
     {
@@ -6761,6 +7513,16 @@
           "html": "<p>The subway drawings were made in white chalk on the black paper that covered unused advertising panels. Britannica calls them unauthorised. PBS counts them in the hundreds over five years.<sup class=\"cite\"><a data-src=\"brit-haring\">[brit-haring]</a></sup><sup class=\"cite\"><a data-src=\"pbs-haring\">[pbs-haring]</a></sup></p><p>The figures are drawn in one continuous outline, with short lines around them to show movement or noise. The same vocabulary runs through his murals, canvases and prints.<sup class=\"cite\"><a data-src=\"jsma-haring\">[jsma-haring]</a></sup></p><h3>How to read one</h3><p>Count the figures and follow what they are doing to each other. The pictures are simple to see and often not simple to read: in <em>Untitled (Still Alive in '85)</em> figures tumble from a body standing for the year 1985, at the height of the AIDS crisis.<sup class=\"cite\"><a data-src=\"jsma-haring\">[jsma-haring]</a></sup></p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Haring enrolled at the Ivy School of Professional Art in Pittsburgh in 1976 and left after two semesters. In 1978 he had a solo show at the Pittsburgh Arts and Crafts Center, then moved to New York to study at the School of Visual Arts.<sup class=\"cite\"><a data-src=\"haring-fdn-bio\">[haring-fdn-bio]</a></sup></p><p>His first solo show in New York was at the Westbeth Painters Space in 1981. His SoHo debut followed at Tony Shafrazi Gallery in 1982. In the early 1980s he took part in Documenta 7 in Kassel, the São Paulo Biennial and the Whitney Biennial.<sup class=\"cite\"><a data-src=\"haring-fdn-bio\">[haring-fdn-bio]</a></sup></p><p>The Keith Haring Foundation counts more than 50 public works in dozens of cities between 1982 and 1989. They include a mural on the outside of Necker Children's Hospital in Paris, painted in 1987, and one on the western side of the Berlin Wall.<sup class=\"cite\"><a data-src=\"haring-fdn-bio\">[haring-fdn-bio]</a></sup></p><p>The subway drawings are now held by museums. The Museum Brandhorst in Munich has six, one of them still in its original subway frame.<sup class=\"cite\"><a data-src=\"brandhorst-subway\">[brandhorst-subway]</a></sup> The first major exhibition of his work in the UK opened at Tate Liverpool in June 2019 and travelled to Brussels and Essen.<sup class=\"cite\"><a data-src=\"tateetc-haring\">[tateetc-haring]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Art lives through the imaginations of the people who are seeing it. Without that contact, there is no art.<cite>Keith Haring, Flash Art, 1984, quoted in Tate Etc., 2019<sup class=\"cite\"><a data-src=\"tateetc-haring\">[tateetc-haring]</a></sup></cite></blockquote><blockquote>They told a story that you could see from a moving train and you could get it.<cite>Keith Haring on the subway drawings, interview with John Gruen, 1989, quoted in Tate Etc., 2019<sup class=\"cite\"><a data-src=\"tateetc-haring\">[tateetc-haring]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a>: the same downtown scene</li><li><a href=\"#artist-banksy\">Banksy</a>: art made in public, without permission</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: murals that became museum shows</li></ul>"
@@ -6824,6 +7586,20 @@
           ]
         },
         {
+          "when": "1981",
+          "what": "First solo show in New York, at the Westbeth Painters Space.",
+          "src": [
+            "haring-fdn-bio"
+          ]
+        },
+        {
+          "when": "1982",
+          "what": "Solo show at Tony Shafrazi Gallery, his SoHo debut.",
+          "src": [
+            "haring-fdn-bio"
+          ]
+        },
+        {
           "when": "1983",
           "what": "Whitney Biennial.",
           "src": [
@@ -6835,6 +7611,13 @@
           "what": "Opens the Pop Shop; paints Crack is Wack and the Berlin Wall.",
           "src": [
             "pbs-haring"
+          ]
+        },
+        {
+          "when": "1987",
+          "what": "Paints a mural on the outside of Necker Children's Hospital, Paris.",
+          "src": [
+            "haring-fdn-bio"
           ]
         },
         {
@@ -6851,16 +7634,24 @@
           "src": [
             "brit-haring"
           ]
+        },
+        {
+          "when": "2019",
+          "what": "First major UK exhibition opens at Tate Liverpool on 14 June.",
+          "src": [
+            "tateetc-haring"
+          ]
         }
       ],
-      "seen": "<p><em>Tuttomondo</em> can be seen on Via Zandonai in Pisa.<sup class=\"cite\"><a data-src=\"pisa-tuttomondo\">[pisa-tuttomondo]</a></sup></p>",
+      "seen": "<p><em>Tuttomondo</em> can be seen on Via Zandonai in Pisa.<sup class=\"cite\"><a data-src=\"pisa-tuttomondo\">[pisa-tuttomondo]</a></sup></p><p><i>Crack is Wack</i> is on the handball court wall at East 128th Street, Second Avenue and Harlem River Drive, New York.<sup class=\"cite\"><a data-src=\"nycparks-crack\">[nycparks-crack]</a></sup> The Museum Brandhorst in Munich holds six subway drawings.<sup class=\"cite\"><a data-src=\"brandhorst-subway\">[brandhorst-subway]</a></sup></p>",
       "related": [
         "a-how-prints-are-made"
       ],
       "research": [
-        "Museum collections that hold subway drawings",
         "The full PBS account of the Statue of Liberty banner (two figures given)",
-        "The location and current state of Crack is Wack"
+        "Other museums that hold subway drawings, beyond the six at the Museum Brandhorst",
+        "The current state of Crack is Wack and the details of any restoration (Hyperallergic reported in October 2019 that the mural was back, without details on the page read)",
+        "Dimensions of Untitled (Still Alive in '85), Crack is Wack and Tuttomondo"
       ]
     },
     {
@@ -6926,6 +7717,16 @@
           "html": "<p>For <em>A Bigger Splash</em> he stapled the canvas to the wall and painted without drawing first. He rolled on the flat areas in two or three layers and used small brushes for the chair, the trees and the splash, which took about two weeks. He worked from someone else's photograph.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup></p><blockquote>When you photograph a splash, you're freezing a moment and it becomes something else.</blockquote><p>He kept changing tools. In 1987 he made prints on an office colour copier. In 2008 he printed computer drawings by inkjet. In Normandy he drew on an iPad, and the Royal Academy showed 116 of those drawings in 2021.<sup class=\"cite\"><a data-src=\"phillips-hockney-kilham\">[phillips-hockney-kilham]</a></sup><sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup></p><h3>How to read one</h3><p>Look at how little moves. In <em>A Bigger Splash</em> everything is flat and still except the white burst of water, so the eye goes straight to the one thing that has just happened.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup></p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p><i>The Third Love Painting</i> dates from 1960. Art Fund, which supported its purchase for Tate in 1992, links its scrawled surface to the graffiti-like work of Jean Dubuffet. It places the picture at the time Hockney began to take love between men as a subject.<sup class=\"cite\"><a data-src=\"artfund-third-love\">[artfund-third-love]</a></sup><sup class=\"cite\"><a data-src=\"dhf-third-love\">[dhf-third-love]</a></sup></p><p>In the spring of 2020, during lockdown, he drew the season arriving in Normandy on an iPad. He worked from a house in a field of fruit trees, from the motif and not from photographs, and made at least one drawing a day.<sup class=\"cite\"><a data-src=\"ra-hockney-2021\">[ra-hockney-2021]</a></sup></p><p>The Royal Academy showed the drawings as <i>The Arrival of Spring</i> from 23 May 2021, in an exhibition organised with the Centre for Fine Arts, Brussels.<sup class=\"cite\"><a data-src=\"ra-hockney-2021\">[ra-hockney-2021]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>You have to find out yourself, you have to draw it.<cite>David Hockney, RA Magazine, 2020<sup class=\"cite\"><a data-src=\"ra-hockney-2021\">[ra-hockney-2021]</a></sup></cite></blockquote><blockquote>It's ridiculous to think photographs are the ultimate realist picture.<cite>David Hockney, RA Magazine, 2020<sup class=\"cite\"><a data-src=\"ra-hockney-2021\">[ra-hockney-2021]</a></sup></cite></blockquote><blockquote>I always wanted to see things as spatial, which photographs never allow.<cite>David Hockney, RA Magazine, 2020<sup class=\"cite\"><a data-src=\"ra-hockney-2021\">[ra-hockney-2021]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: another artist who used new tools to make pictures</li><li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: painting and the photograph</li></ul>"
@@ -6936,11 +7737,13 @@
           "title": "The Third Love Painting",
           "year": "1960",
           "medium": "Oil on hardboard",
-          "size": "",
+          "size": "118.7 x 118.7 cm",
           "note": "A student work, more loosely painted than his later pictures. Tate compares it with A Bigger Splash. Tate.",
           "src": [
             "tate-third-love",
-            "tate-bigger-splash"
+            "tate-bigger-splash",
+            "dhf-third-love",
+            "artfund-third-love"
           ],
           "tone": "#8C6D46"
         },
@@ -7012,6 +7815,13 @@
           ]
         },
         {
+          "when": "2020",
+          "what": "Draws the arrival of spring in Normandy on an iPad, at least one drawing a day.",
+          "src": [
+            "ra-hockney-2021"
+          ]
+        },
+        {
           "when": "2021",
           "what": "The Arrival of Spring at the Royal Academy.",
           "src": [
@@ -7034,7 +7844,8 @@
       "research": [
         "Where he died (the obituary says at home)",
         "Whether A Bigger Splash includes a diving board (sources differ)",
-        "Museum records for the Normandy iPad drawings"
+        "Museum records for the Normandy iPad drawings",
+        "Medium of The Third Love Painting: the David Hockney Foundation and Tate say oil on board, Art Fund says oil on canvas"
       ]
     },
     {
@@ -7100,6 +7911,16 @@
           "html": "<p>White Cube groups the work into series: the Natural History sculptures of animals in formaldehyde, the medicine cabinets and pharmacy works, the spot and spin paintings, and the butterfly works. It describes his subjects as art, science, religion, love and the knowledge of death.<sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p><p>The vitrine is his basic unit. <em>The Acquired Inability to Escape</em> (1991) is a glass and steel case holding a chair, a table, an ashtray, a lighter and cigarettes. Nobody is in it, and White Cube reads that absence as the point.<sup class=\"cite\"><a data-src=\"tate-hirst-acquired\">[tate-hirst-acquired]</a></sup><sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p><h3>How to read one</h3><p>Ask what the case or the cabinet is keeping you from. The glass shows you everything and lets you touch nothing. In our reading, that distance does most of the work.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Hirst began a foundation course in Leeds, then took a BA in Fine Art at Goldsmiths in London in the late 1980s. While studying he worked part time at the Anthony d'Offay Gallery.<sup class=\"cite\"><a data-src=\"goldsmiths-hirst\">[goldsmiths-hirst]</a></sup></p><p>In 1988, in his second year, he conceived and curated <i>Freeze</i>, a show of his own work and that of fellow Goldsmiths students in an empty London warehouse. Tate dates his first public attention in London to that show.<sup class=\"cite\"><a data-src=\"tate-press-hirst-2012\">[tate-press-hirst-2012]</a></sup><sup class=\"cite\"><a data-src=\"goldsmiths-hirst\">[goldsmiths-hirst]</a></sup></p><p>The spot paintings grew out of collages that his tutor Basil Beattie told him did not belong at art school. Hirst broke them up, and the spots came from that.<sup class=\"cite\"><a data-src=\"goldsmiths-hirst\">[goldsmiths-hirst]</a></sup> Gagosian dates the first spot painting, on board, to 1986. In January 2012 it showed more than 300 of them across all eleven of its galleries at once.<sup class=\"cite\"><a data-src=\"gagosian-spots-2012\">[gagosian-spots-2012]</a></sup></p><p>In April 2012 Tate Modern opened the first substantial survey of his work in the UK, with more than seventy works.<sup class=\"cite\"><a data-src=\"tate-press-hirst-2012\">[tate-press-hirst-2012]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>The only place where you didn't have to choose between painting and sculpture.<cite>Damien Hirst on why he chose Goldsmiths, interview for Goldsmiths, University of London, undated<sup class=\"cite\"><a data-src=\"goldsmiths-hirst\">[goldsmiths-hirst]</a></sup></cite></blockquote><blockquote>Being in art school empowers you to do your own thing.<cite>Damien Hirst, interview for Goldsmiths, University of London, undated<sup class=\"cite\"><a data-src=\"goldsmiths-hirst\">[goldsmiths-hirst]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: another British artist with a very large print market</li><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: dots, repetition and installation</li></ul>"
@@ -7122,10 +7943,11 @@
           "title": "Pharmacy",
           "year": "1992",
           "medium": "Installation",
-          "size": "",
+          "size": "287 x 688 x 861 cm (9 ft 5 in x 22 ft 7 in x 28 ft 3 in)",
           "note": "A room fitted out as a pharmacy, with medicine packaging, apothecary bottles, desks and an insect-o-cutor among the materials Tate records. Tate.",
           "src": [
-            "tate-hirst-pharmacy"
+            "tate-hirst-pharmacy",
+            "whitecube-pharmacy"
           ],
           "tone": "#A3C4DC"
         },
@@ -7133,10 +7955,12 @@
           "title": "Mother and Child (Divided)",
           "year": "1993",
           "medium": "Cow and calf, cut in half, in formaldehyde solution, in four glass tanks",
-          "size": "",
+          "size": "Two tanks 190 x 322.5 x 109 cm and two tanks 102.9 x 168.9 x 62.3 cm (White Cube); the Astrup Fearnley Museet gives 207 x 322 x 109 cm and 115 x 167 x 60 cm",
           "note": "Made for the 1993 Venice Biennale and the centre of his 1995 Turner Prize show. Astrup Fearnley Museet, Oslo.",
           "src": [
-            "tate-turner-1995-hirst"
+            "tate-turner-1995-hirst",
+            "whitecube-mother-child",
+            "afm-mother-child"
           ],
           "tone": "#5D6D7E"
         }
@@ -7147,6 +7971,21 @@
           "what": "Born in Bristol.",
           "src": [
             "whitecube-hirst"
+          ]
+        },
+        {
+          "when": "1986",
+          "what": "Makes the first spot painting, on board.",
+          "src": [
+            "gagosian-spots-2012"
+          ]
+        },
+        {
+          "when": "1988",
+          "what": "Conceives and curates Freeze in a London warehouse while a student at Goldsmiths.",
+          "src": [
+            "tate-press-hirst-2012",
+            "goldsmiths-hirst"
           ]
         },
         {
@@ -7171,6 +8010,13 @@
           ]
         },
         {
+          "when": "2012",
+          "what": "Gagosian shows more than 300 spot paintings across eleven galleries from 12 January.",
+          "src": [
+            "gagosian-spots-2012"
+          ]
+        },
+        {
           "when": "2017",
           "what": "Treasures from the Wreck of the Unbelievable, Venice.",
           "src": [
@@ -7191,9 +8037,10 @@
         "a-original-vs-print"
       ],
       "research": [
-        "His training (no source read yet)",
         "Dimensions of the Tate works",
-        "How the spot paintings are made, from a primary source"
+        "Who paints the spot paintings and with what paint (the Gagosian page gives only the 1986 start and the rule that no colour repeats in the 2011 painting)",
+        "Exact years at Goldsmiths (the Goldsmiths page says the late 1980s)",
+        "Dimensions of The Acquired Inability to Escape"
       ]
     },
     {
@@ -7234,9 +8081,10 @@
         ],
         [
           "Trained",
-          "Glasgow School of Art (reported)",
+          "Glasgow School of Art, 1988 to 1991",
           [
-            "tateward-shrigley"
+            "tfl-shrigley",
+            "artuk-shrigley"
           ]
         ],
         [
@@ -7251,12 +8099,22 @@
         {
           "id": "bio",
           "title": "Who is David Shrigley?",
-          "html": "<p>Shrigley was born in Macclesfield in 1968 and lives in Brighton.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup> An auction catalogue notes that he studied at Glasgow School of Art. We have not yet confirmed that from a primary source.<sup class=\"cite\"><a data-src=\"tateward-shrigley\">[tateward-shrigley]</a></sup></p><p>He was shortlisted for the Turner Prize in 2013 for his Hayward Gallery show <em>Brain Activity</em>.<sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup> He had a solo show at the Pinakothek der Moderne in Munich in 2014, and the National Gallery of Victoria in Melbourne gave him his first major Australian survey, <em>Life and Life Drawing</em>, from November 2014 to March 2015.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup><sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup></p><p>In 2016 his bronze <em>Really Good</em> stood on the Fourth Plinth in Trafalgar Square.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p>"
+          "html": "<p>Shrigley was born in Macclesfield in 1968 and lives in Brighton.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup> He studied at Glasgow School of Art from 1988 to 1991.<sup class=\"cite\"><a data-src=\"artuk-shrigley\">[artuk-shrigley]</a></sup><sup class=\"cite\"><a data-src=\"tfl-shrigley\">[tfl-shrigley]</a></sup></p><p>He was shortlisted for the Turner Prize in 2013 for his Hayward Gallery show <em>Brain Activity</em>.<sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup> He had a solo show at the Pinakothek der Moderne in Munich in 2014, and the National Gallery of Victoria in Melbourne gave him his first major Australian survey, <em>Life and Life Drawing</em>, from November 2014 to March 2015.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup><sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup></p><p>In 2016 his bronze <em>Really Good</em> stood on the Fourth Plinth in Trafalgar Square.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p>"
         },
         {
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The NGV describes stripped-back, darkly funny drawings that are crude on purpose and deal with dysfunction and anxiety.<sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup> The Fourth Plinth programme places the work in the British tradition of satire.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p><p>Most drawings pair a rough image with hand-lettered words, often with a mistake crossed out and left in. He also makes animations, books, photographs, sculpture and performance.<sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup><sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup></p><h3>How to read one</h3><p>Read the words, then look at the drawing, then read the words again. The joke is usually in the gap between them.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Shrigley was born in Macclesfield in 1968 and grew up in Oadby, near Leicester.<sup class=\"cite\"><a data-src=\"guardian-shrigley-2021\">[guardian-shrigley-2021]</a></sup> He spent a year at Leicester Polytechnic from 1987, then studied at Glasgow School of Art from 1988 to 1991.<sup class=\"cite\"><a data-src=\"artuk-shrigley\">[artuk-shrigley]</a></sup><sup class=\"cite\"><a data-src=\"tfl-shrigley\">[tfl-shrigley]</a></sup> The early work was made in Glasgow: <i>Head Shrinker</i> on Glasgow Green in 1990, a first book, <i>Slug Trails</i>, in 1991, and a show at Transmission Gallery in 1992.<sup class=\"cite\"><a data-src=\"artuk-shrigley\">[artuk-shrigley]</a></sup></p><p>Solo shows followed in 1997 at The Photographers' Gallery and Stephen Friedman Gallery in London, at Galerie Yvon Lambert in Paris in 1999, at the Hammer Museum in Los Angeles and Camden Arts Centre in 2002, and at the Kunsthaus Zürich in 2003.<sup class=\"cite\"><a data-src=\"tfl-shrigley\">[tfl-shrigley]</a></sup> For years his drawings and texts ran weekly in the Guardian's Weekend magazine.<sup class=\"cite\"><a data-src=\"guardian-shrigley-2021\">[guardian-shrigley-2021]</a></sup></p><p>He lived in Glasgow for 27 years and moved to Brighton in 2015.<sup class=\"cite\"><a data-src=\"guardian-shrigley-2021\">[guardian-shrigley-2021]</a></sup> He was guest director of the Brighton Festival in 2018.<sup class=\"cite\"><a data-src=\"artsdesk-shrigley-2018\">[artsdesk-shrigley-2018]</a></sup> He was made an OBE in 2020.<sup class=\"cite\"><a data-src=\"ngv-really-good-2024\">[ngv-really-good-2024]</a></sup> In 2024 the National Gallery of Victoria in Melbourne bought <i>Really Good</i> through the Felton Bequest, after showing it on the forecourt of NGV International during the NGV Triennial.<sup class=\"cite\"><a data-src=\"ngv-really-good-2024\">[ngv-really-good-2024]</a></sup></p><p>Tate's collection page counts 19 works by him, among them <i>Leisure Centre</i> of 1992 and <i>Strive for Excellence</i> of 2013.<sup class=\"cite\"><a data-src=\"tate-coll-shrigley\">[tate-coll-shrigley]</a></sup> The British Council Collection lists 12.<sup class=\"cite\"><a data-src=\"bc-shrigley\">[bc-shrigley]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>The inquiry continues and it will never end until I'm gone.<cite>David Shrigley on drawing, The Guardian, 2021<sup class=\"cite\"><a data-src=\"guardian-shrigley-2021\">[guardian-shrigley-2021]</a></sup></cite></blockquote><blockquote>The context is half the work.<cite>David Shrigley, The Arts Desk, 2018<sup class=\"cite\"><a data-src=\"artsdesk-shrigley-2018\">[artsdesk-shrigley-2018]</a></sup></cite></blockquote><blockquote>I am delighted that Really Good has found a permanent home in Australia.<cite>David Shrigley, National Gallery of Victoria, 2024<sup class=\"cite\"><a data-src=\"ngv-really-good-2024\">[ngv-really-good-2024]</a></sup></cite></blockquote>"
         },
         {
           "id": "explore",
@@ -7308,6 +8166,21 @@
           ]
         },
         {
+          "when": "1988 to 1991",
+          "what": "Studies at Glasgow School of Art.",
+          "src": [
+            "tfl-shrigley",
+            "artuk-shrigley"
+          ]
+        },
+        {
+          "when": "1997",
+          "what": "Solo shows at The Photographers' Gallery and Stephen Friedman Gallery, London.",
+          "src": [
+            "tfl-shrigley"
+          ]
+        },
+        {
           "when": "2011 to 2012",
           "what": "Pass the Spoon performed at Tramway, Glasgow, and the Southbank Centre, London.",
           "src": [
@@ -7329,21 +8202,47 @@
           ]
         },
         {
+          "when": "2015",
+          "what": "Moves from Glasgow to Brighton.",
+          "src": [
+            "guardian-shrigley-2021"
+          ]
+        },
+        {
           "when": "2016",
           "what": "Really Good on the Fourth Plinth.",
           "src": [
             "gla-really-good"
           ]
+        },
+        {
+          "when": "2018",
+          "what": "Guest director of the Brighton Festival.",
+          "src": [
+            "artsdesk-shrigley-2018"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "Made an OBE.",
+          "src": [
+            "ngv-really-good-2024"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "The National Gallery of Victoria acquires Really Good.",
+          "src": [
+            "ngv-really-good-2024"
+          ]
         }
       ],
-      "seen": "<p>We have not yet confirmed a museum collection that owns his work from a museum's own record. <em>Really Good</em> stood in Trafalgar Square in 2016.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p>",
+      "seen": "<p>Tate's collection page counts 19 works by Shrigley, including <i>Leisure Centre</i> of 1992 and <i>Strive for Excellence</i> of 2013.<sup class=\"cite\"><a data-src=\"tate-coll-shrigley\">[tate-coll-shrigley]</a></sup> The British Council Collection lists 12.<sup class=\"cite\"><a data-src=\"bc-shrigley\">[bc-shrigley]</a></sup> <em>Really Good</em>, on the Fourth Plinth in Trafalgar Square from 2016, now belongs to the National Gallery of Victoria in Melbourne, which bought it in 2024.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup><sup class=\"cite\"><a data-src=\"ngv-really-good-2024\">[ngv-really-good-2024]</a></sup></p>",
       "related": [
         "a-how-prints-are-made"
       ],
       "research": [
-        "His training, from a primary source",
-        "Museum collections that hold drawings",
-        "Where Really Good went after Trafalgar Square"
+        "Size of Life Model (the artist's website calls it an interactive installation from the 2012 show HOW ARE YOU FEELING? but gives no size)"
       ]
     },
     {
@@ -7410,6 +8309,16 @@
           "html": "<p>The paintings are large and full. The Saatchi Gallery lists emojis, computer windows, classical architecture, Lichtenstein spots, comic-book sound effects, cactus plants and pixelated mouse cursors among the images.<sup class=\"cite\"><a data-src=\"saatchi-lobsteropolis\">[saatchi-lobsteropolis]</a></sup></p><p>The lobster runs through all of them, crowned and in pyjamas, according to Cent Magazine.<sup class=\"cite\"><a data-src=\"cent-colbert\">[cent-colbert]</a></sup> Colbert puts it simply.</p><blockquote>I became an artist when I became a Lobster.</blockquote><p>The <em>Hunt Paintings</em> borrow the layout of hunting scenes by Rubens and Van Dyck. In <em>Hunt with Dogs</em> the lobster, holding a devil's pitchfork, rides a unicorn against a man in a tracksuit on a donkey.<sup class=\"cite\"><a data-src=\"cent-colbert\">[cent-colbert]</a></sup></p><h3>How to read one</h3><p>Find the old painting underneath. Once you see the hunting scene or the portrait it is built on, the cartoon details read as comments on it.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Colbert comes from Perth, in Scotland, and studied philosophy at the University of St Andrews. He worked as a fashion designer before turning to painting.<sup class=\"cite\"><a data-src=\"bigissue-colbert-2026\">[bigissue-colbert-2026]</a></sup></p><p>The <i>Hunt Paintings</i> show at the Saatchi Gallery in London brought together large paintings, sculptures and a virtual reality piece.<sup class=\"cite\"><a data-src=\"hypebeast-colbert\">[hypebeast-colbert]</a></sup> <i>Lobsteropolis</i> was on view at the same gallery until 29 November 2020, during lockdown, and opened with what Hypebeast called the first private view for robots.<sup class=\"cite\"><a data-src=\"hypebeast-lobsteropolis-2020\">[hypebeast-lobsteropolis-2020]</a></sup></p><p>In 2026 The Big Issue reported 30 of his sculptures in the Archaeological Park of Pompeii, and a show called <i>The Lost Gardens of Lobsteropolis</i> at The Lightbox in Woking.<sup class=\"cite\"><a data-src=\"bigissue-colbert-2026\">[bigissue-colbert-2026]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>There's a fascism of seriousness.<cite>Philip Colbert, The Big Issue, 2026<sup class=\"cite\"><a data-src=\"bigissue-colbert-2026\">[bigissue-colbert-2026]</a></sup></cite></blockquote><blockquote>In a Warholian sense, I believe in the power, the poetry of the everyday.<cite>Philip Colbert, The Big Issue, 2026<sup class=\"cite\"><a data-src=\"bigissue-colbert-2026\">[bigissue-colbert-2026]</a></sup></cite></blockquote><blockquote>My paintings, on one hand, are life-affirming and super positive celebrations of hyper-pop language.<cite>Philip Colbert on the Hunt Paintings, Hypebeast, 2019<sup class=\"cite\"><a data-src=\"hypebeast-colbert\">[hypebeast-colbert]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: pop imagery and consumer goods</li><li><a href=\"#artist-kaws\">KAWS</a>: a cartoon character as the artist's signature</li></ul>"
@@ -7442,10 +8351,11 @@
           "title": "Flower Study, from the Lobster Land Museum",
           "year": "2019",
           "medium": "Oil on canvas, in several sizes",
-          "size": "",
+          "size": "288.6 x 287.8 cm (the version sold at Phillips London, July 2025)",
           "note": "A series of flowers in flat pop colour. One almost three metres square sold at Phillips London in July 2025.",
           "src": [
-            "cw-colbert"
+            "cw-colbert",
+            "phillips-colbert-flower"
           ],
           "tone": "#F4D03F"
         }
@@ -7473,6 +8383,13 @@
           ]
         },
         {
+          "when": "2020",
+          "what": "Lobsteropolis on view at the Saatchi Gallery until 29 November, with a private view for robots.",
+          "src": [
+            "hypebeast-lobsteropolis-2020"
+          ]
+        },
+        {
           "when": "2021",
           "what": "Lobsteropolis, Saatchi Gallery, 19 May to 6 June.",
           "src": [
@@ -7485,6 +8402,20 @@
           "src": [
             "pearllam-colbert-cv"
           ]
+        },
+        {
+          "when": "2025",
+          "what": "Flower Study, from the Lobster Land Museum (White, Yellow, Magenta, Sky Blue) sells at Phillips London.",
+          "src": [
+            "phillips-colbert-flower"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Sculptures shown in the Archaeological Park of Pompeii; The Lost Gardens of Lobsteropolis at The Lightbox, Woking.",
+          "src": [
+            "bigissue-colbert-2026"
+          ]
         }
       ],
       "seen": "<p>We have not found a museum collection that holds his work in the sources we read.</p>",
@@ -7492,7 +8423,6 @@
       "research": [
         "A photograph with permission to publish",
         "Museum collections, if any",
-        "The year Lobsteropolis opened (the CV says 2020, Saatchi says 2021)",
         "Medium and size of Hunt with Dogs"
       ]
     },
@@ -7552,6 +8482,16 @@
           "html": "<p>The gallery says the works act as portals to the objects, colours, textures, packaging and technologies of the eras the members grew up in.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></p><p>The Handheld Icon series is the main body of work. Tate Ward's catalogue describes one piece as 3D-printed polymer finished with acrylic and spray paint, resin and applied embellishments, 28 x 23 cm in the artist's frame, with a numbered collector card in an acrylic case. It was one of an edition of 55, each finished differently by hand.<sup class=\"cite\"><a data-src=\"tateward-lostalgia\">[tateward-lostalgia]</a></sup></p><h3>How to read one</h3><p>Look at how the object is presented: graded card, display case, presentation box. In our reading, the packaging is as much the subject as the thing inside it, the way a collectable is kept rather than used.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Grove Gallery, which sells the work, describes Los-Talgia as a collective of artists from different generations, drawing on the 1980s, 1990s and 2000s. It names no members and gives no date or place of founding. This is reported, and we have not been able to check it.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></p><p>The known body of work is the Handheld Icon series. Grove Gallery lists pieces numbered from HI-001 to HI-049, each identified by a colour name such as Magenta, Cobalt or Acid, and each shown framed with a certificate card, presentation box and authentication sheet.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup> The first sale outside the gallery that we have found was at Tate Ward in August 2026, where the catalogue gave the edition as 55 works, each finished differently by hand.<sup class=\"cite\"><a data-src=\"tateward-lostalgia\">[tateward-lostalgia]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<p>These lines come from the collective's statement on the Grove Gallery page, which sells the work. They are the collective's own account.</p><blockquote>los-talgia is not a single artist. it's a collective memory.<cite>Los-Talgia, statement on Grove Gallery, read 2026<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></cite></blockquote><blockquote>we treat nostalgia not as a trend, but as a universal sense of belonging.<cite>Los-Talgia, statement on Grove Gallery, read 2026<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></cite></blockquote><blockquote>we're not recreating the past exactly as it was, we're recreating how it felt.<cite>Los-Talgia, statement on Grove Gallery, read 2026<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: another artist who works without a public name</li><li><a href=\"#artist-zen-xander\">Zen Xander</a>: a name that may belong to a group</li></ul>"
@@ -7585,7 +8525,8 @@
         "When the collective was formed",
         "Any exhibition outside Grove Gallery",
         "Independent press coverage",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Who the members are and when the collective was formed"
       ]
     },
     {
@@ -7644,6 +8585,11 @@
           "html": "<p>The gallery describes humour, satire and social commentary.<sup class=\"cite\"><a data-src=\"grove-frank-canvas\">[grove-frank-canvas]</a></sup> The titles show it best: <em>Choose Your Reality</em>, <em>Shopaholic</em>, <em>Karma</em>, <em>Coffee</em>, <em>I Like Your Glasses</em>. They point at shopping, caffeine, self-improvement and the phone.<sup class=\"cite\"><a data-src=\"grove-frank-canvas\">[grove-frank-canvas]</a></sup></p><p>The 2022 press release says the first series drew on the design of classic Penguin book covers.<sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup></p><h3>How to read one</h3><p>Read the title first. The image is there to set it up.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Frank Canvas first appeared in public in a press release from Nomad Arts Group dated 31 December 2022. It announced his first series, <i>Socially Awkward Elephant</i>, and said he had shown at Quantus Gallery in Spitalfields, London, and at Grove Gallery in Villars-sur-Ollon, Switzerland. It gave no dates for either show, and it promised a second series for the end of January 2023. All of this is reported by the artist's side, and we have not been able to confirm it independently.<sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup></p><p>The same release describes the original paintings as acrylic on canvas, built up in layers of brushwork and finished with resin.<sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup> The work offered by Grove Gallery today is mostly signed limited edition prints, sold in sizes from A3 to A0.<sup class=\"cite\"><a data-src=\"grove-frank-canvas\">[grove-frank-canvas]</a></sup></p><p>Grove Gallery records his work at the opening of the Hilton &amp; Moss showroom in July 2024 and at South Place Hotel in London from September 2024, alongside Zen Xander and Robi Walters.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-david-shrigley\">David Shrigley</a>: words and pictures that make one joke</li><li><a href=\"#artist-zen-xander\">Zen Xander</a>: satire of modern habits</li></ul>"
@@ -7686,7 +8632,8 @@
         "Training and background",
         "An independent interview or review",
         "Confirmation of the 2022 shows",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Dates of the Quantus Gallery and Grove Gallery Villars-sur-Ollon shows, and whether the second series announced for January 2023 appeared"
       ]
     },
     {
@@ -7746,6 +8693,16 @@
           "html": "<p>He cuts discarded flyers, cardboard, packaging and broken records into petal shapes, hundreds at a time, and layers them outward from a centre. The Week compared the effect to fireworks or a lotus bursting open.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup> Cent Magazine traces the lotus to his first sculpture, a cereal box cut into petals and arranged by sacred geometry.<sup class=\"cite\"><a data-src=\"cent-walters\">[cent-walters]</a></sup></p><h3>How to read one</h3><p>Stand close. You can still see what the material used to be: a groove from a record, a scrap of lettering, the edge of a label. Then step back and it becomes a flower.</p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Walters has no formal art training that we could find. Culture Collective describes him as self-taught.<sup class=\"cite\"><a data-src=\"cc-walters\">[cc-walters]</a></sup> The daily paintings he began in 2011 grew in places into drawn scrolls, some about 12 by 12 feet, according to The Week.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup> In 2017 Aesthetica described collages built from undelivered flyers for music gigs, magazine and book cuttings, used envelopes and crushed cans, some of them taken from skips. It also reported that he had begun to let others help with production.<sup class=\"cite\"><a data-src=\"aesthetica-walters\">[aesthetica-walters]</a></sup></p><p>In September 2019 Aston Martin named him its artist in residence for twelve months. The plan was for him to work with material left over from the company's sites at Gaydon, St Athan and Newport Pagnell.<sup class=\"cite\"><a data-src=\"astonmartin-walters\">[astonmartin-walters]</a></sup> Culture Collective also lists a collaboration with Dr Martens.<sup class=\"cite\"><a data-src=\"cc-walters\">[cc-walters]</a></sup> A page credited to Walters reports table tops made with the chef Tom Kerridge for his London restaurant at the Corinthia Hotel.<sup class=\"cite\"><a data-src=\"mis-walters\">[mis-walters]</a></sup></p><p>Sources disagree on where <i>A Nation of Millions</i> was first shown. Grove Gallery lists it as a solo show in Fitzrovia in November 2023.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup> A page credited to Walters gives Quantus Gallery on Fashion Street, London, from 18 October to 13 November 2023, and describes thousands of hand-cut petals of recycled card and used greeting cards.<sup class=\"cite\"><a data-src=\"mis-walters\">[mis-walters]</a></sup> In October 2024, during Frieze London, 1 Hotel Mayfair showed a hand-cut installation, <i>Love Supreme</i>, with West Contemporary. This is reported by the hotel group.<sup class=\"cite\"><a data-src=\"onehotels-walters\">[onehotels-walters]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I like the overlaps of colour, or a smudge or a crease.<cite>Robi Walters, Aesthetica Magazine, 2017<sup class=\"cite\"><a data-src=\"aesthetica-walters\">[aesthetica-walters]</a></sup></cite></blockquote><blockquote>I like to use recycled card because it has an energy that something new doesn't have.<cite>Robi Walters, The Week, 2018<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup></cite></blockquote><blockquote>Time is our most precious resource, and I hope my work serves as a gentle reminder of its value.<cite>Robi Walters, 1 Hotels, The Field Guide, 2024<sup class=\"cite\"><a data-src=\"onehotels-walters\">[onehotels-walters]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: discarded material made into something new</li><li><a href=\"#artist-vhils\">Vhils</a>: making by taking away</li></ul>"
@@ -7756,7 +8713,7 @@
           "title": "365: Every Day Counts",
           "year": "2016",
           "medium": "Daily paintings",
-          "size": "",
+          "size": false,
           "note": "A year of paintings, each named after a news headline, shown at the Hospital Club, London.",
           "src": [
             "cent-walters"
@@ -7767,7 +8724,7 @@
           "title": "A Nation of Millions",
           "year": "2023",
           "medium": "Exhibition",
-          "size": "",
+          "size": false,
           "note": "First solo show, Grove Gallery, Fitzrovia, November 2023.",
           "src": [
             "grove-exhibitions"
@@ -7798,6 +8755,13 @@
           ]
         },
         {
+          "when": "2017",
+          "what": "Aesthetica profiles his collages of undelivered music flyers and other discarded paper.",
+          "src": [
+            "aesthetica-walters"
+          ]
+        },
+        {
           "when": "2018",
           "what": "Opens his own gallery in Soho.",
           "src": [
@@ -7805,10 +8769,18 @@
           ]
         },
         {
-          "when": "2023",
-          "what": "A Nation of Millions, Grove Gallery.",
+          "when": "2019",
+          "what": "Named Aston Martin's artist in residence for twelve months, from September.",
           "src": [
-            "grove-exhibitions"
+            "astonmartin-walters"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "A Nation of Millions. Grove Gallery lists it at its Fitzrovia space; a page credited to the artist gives Quantus Gallery, Fashion Street, 18 October to 13 November 2023.",
+          "src": [
+            "grove-exhibitions",
+            "mis-walters"
           ]
         },
         {
@@ -7817,6 +8789,13 @@
           "src": [
             "grove-exhibitions"
           ]
+        },
+        {
+          "when": "2024",
+          "what": "Love Supreme, a hand-cut installation, at 1 Hotel Mayfair with West Contemporary during Frieze London (reported).",
+          "src": [
+            "onehotels-walters"
+          ]
         }
       ],
       "seen": "<p>We have not found the work in a museum collection in the sources we read.</p>",
@@ -7824,7 +8803,9 @@
       "research": [
         "Titles, dates and sizes of individual collages",
         "Museum or public collections",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Where A Nation of Millions was shown in 2023: Grove Gallery lists Grove Gallery, Fitzrovia, in November; a page credited to the artist gives Quantus Gallery, Fashion Street, 18 October to 13 November",
+        "Whether the 2017 Tom Kerridge commission and Frieze participation went ahead as planned"
       ]
     },
     {
@@ -7883,6 +8864,16 @@
           "html": "<p>Gallery notes for <em>Scattered Remnants</em> and <em>Circuit Riot</em> describe robotic figures, circuitry, glitch effects and graffiti-like marks, with a nod to Basquiat. She calls the robots botsquiats.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup> She told the Bulletin that she never starts a canvas with a subject in mind.<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></p><h3>How to read one</h3><p>Look at the layers. Writing, marks and figures sit on top of one another, and some of the writing is her own: <em>Be Happy</em> takes in pages headed On Being Happy.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup></p>"
         },
         {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Smith took up painting at the end of 2023, according to The Tab.<sup class=\"cite\"><a data-src=\"tab-amanza\">[tab-amanza]</a></sup> She also told the Bulletin that an artist who found her on Instagram invited her into a group exhibition of about 14 artists in Los Angeles.<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></p><p>MASH Gallery in West Hollywood describes itself as the place of her debut as an exhibiting artist.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup> The Tab reports that one of her paintings was in the gallery's 2024 exhibition <i>Feminine Cadence</i>, and that her work also appeared in its <i>Artful Alchemy</i> and <i>Dazzling Glamor of Creative Pursuit</i> shows.<sup class=\"cite\"><a data-src=\"tab-amanza\">[tab-amanza]</a></sup></p><p>Her first solo exhibition, <i>404: Humanity not Found</i>, was at Grove Gallery Fitzrovia in London, with 12 paintings according to The Tab. Grove Gallery dates it April 2025 and The Tab says June. The Bulletin, writing on 1 May 2025, placed her London debut in the previous week, which fits April.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup><sup class=\"cite\"><a data-src=\"tab-amanza\">[tab-amanza]</a></sup><sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup> Her work was then in <i>Beyond The Surface</i>, the opening exhibition of Grove Gallery Palma in Mallorca, with Zara Muse and Silent Mike, in April 2025.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup><sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In her own words",
+          "html": "<blockquote>I never show up to a canvas with a subject.<cite>Amanza Smith, Majorca Daily Bulletin, 2025<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></cite></blockquote><blockquote>When it comes to my style, it's consistently inconsistent.<cite>Amanza Smith, Majorca Daily Bulletin, 2025<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></cite></blockquote>"
+        },
+        {
           "id": "explore",
           "title": "Explore more",
           "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a>: the painter her robots nod to</li><li><a href=\"#artist-zara-muse\">Zara Muse</a>: a painter who also came to art after a hard time</li></ul>"
@@ -7893,26 +8884,35 @@
           "title": "Circuit Riot",
           "year": "",
           "medium": "Mixed media on canvas",
-          "size": "",
+          "size": "132 x 178 cm (52 x 70 in), unstretched",
           "note": "Robotic figures and circuitry, described in MASH Gallery's notes.",
           "src": [
-            "mash-amanza"
+            "mash-amanza",
+            "mash-circuit-riot"
           ],
           "tone": "#48C9B0"
         },
         {
           "title": "Be Happy",
-          "year": "",
+          "year": "2024",
           "medium": "Mixed media on canvas",
-          "size": "",
+          "size": "122 x 122 cm",
           "note": "Includes pages of her own writing, headed On Being Happy.",
           "src": [
-            "mash-amanza"
+            "mash-amanza",
+            "mash-be-happy"
           ],
           "tone": "#F5B041"
         }
       ],
       "timeline": [
+        {
+          "when": "2024",
+          "what": "A painting in Feminine Cadence, MASH Gallery, West Hollywood.",
+          "src": [
+            "tab-amanza"
+          ]
+        },
         {
           "when": "2025",
           "what": "404: Humanity not Found, Grove Gallery, London, April.",
@@ -7934,7 +8934,9 @@
         "Year of birth",
         "Dates and sizes of the works named",
         "Independent review of the paintings",
-        "A photograph with permission to publish"
+        "A photograph with permission to publish",
+        "Year of Circuit Riot",
+        "Month of 404: Humanity not Found: Grove Gallery says April 2025, The Tab says June"
       ]
     }
   ],
@@ -8621,7 +9623,7 @@
         "gb-venice",
         "tan-frieze"
       ],
-      "body": "\n<p><b>Artist:</b> <a href=\"#artist-konn-artiss\">Konn Artiss</a>. <b>Date:</b> June 2025. <b>Form:</b> a mannequin of Jeff Bezos on a raft in the canals of Venice, with a satirical newspaper, <i>The Washington Ghost</i>.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What happened</h2>\n<p>GB News reported a figure of the Amazon founder floating on a raft near the Rialto Bridge, apparently steered by a hidden propeller. The appearances were repeated every three hours over several days. Earlier, mannequins of Bezos and Lauren Sánchez in wedding clothes had floated along the Grand Canal in a gondola, and another Bezos figure appeared in St Mark's Square as a scarecrow covered in fake dollar bills bearing his face.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup> Alongside, the artist handed out more than 10,000 copies of <i>The Washington Ghost</i>, with the headline \"Male Orders Bride\".<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The movement.</b> A figure that drifts, appears and vanishes on a schedule behaves more like a performance than a sculpture.</p>\n<p><b>The setting.</b> The figures turned up at the best-known sights, the Rialto, the Grand Canal and St Mark's Square, where they were sure to be seen and photographed.</p>\n<p><b>The paper.</b> The title plays on <i>The Washington Post</i>, and the headline turns the wedding into a joke about mail order.</p>\n<h2>What it means</h2>\n<p>Our reading: the target is not only one rich man but the way a city can be hired as a backdrop. The work lasted only as long as the wedding. Like <a href=\"#a-review-anti-frieze\">ANTI-FRIEZE</a>, it was made to be photographed and shared, then to disappear. As with all Konn Artiss work, much of what is known comes from press reports, and the artist's identity has not been confirmed.<sup class=\"cite\"><a data-src=\"tan-frieze\">[tan-frieze]</a></sup></p>\n"
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-konn-artiss\">Konn Artiss</a>. <b>Date:</b> June 2025. <b>Form:</b> a mannequin of Jeff Bezos on a raft in the canals of Venice, with a satirical newspaper, <i>The Washington Ghost</i>.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What happened</h2>\n<p>GB News reported a figure of the Amazon founder floating on a raft near the Rialto Bridge, apparently steered by a hidden propeller. The appearances were repeated every three hours over several days. Earlier, mannequins of Bezos and Lauren Sánchez in wedding clothes had floated along the Grand Canal in a gondola, and another Bezos figure appeared in St Mark's Square as a scarecrow covered in fake dollar bills bearing his face.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup> GB News also reported more than 10,000 copies of <i>The Washington Ghost</i>, with the headline \"Male Orders Bride\".<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The movement.</b> A figure that drifts, appears and vanishes on a schedule behaves more like a performance than a sculpture.</p>\n<p><b>The setting.</b> The figures turned up at the best-known sights, the Rialto, the Grand Canal and St Mark's Square, where they were sure to be seen and photographed.</p>\n<p><b>The paper.</b> The title plays on <i>The Washington Post</i>, and the headline turns the wedding into a joke about mail order.</p>\n<h2>What it means</h2>\n<p>Our reading: the target is not only one rich man but the way a city can be hired as a backdrop. The work lasted only as long as the wedding. Like <a href=\"#a-review-anti-frieze\">ANTI-FRIEZE</a>, it was made to be photographed and shared, then to disappear. As with all Konn Artiss work, much of what is known comes from press reports, and the artist's identity has not been confirmed.<sup class=\"cite\"><a data-src=\"tan-frieze\">[tan-frieze]</a></sup></p>\n"
     },
     {
       "slug": "explained-zara-muse-malala",
@@ -9374,14 +10376,109 @@
   ],
   "guides": [
     {
-      "title": null,
-      "venue": null,
-      "dates": null
+      "title": "Van Gogh, All Our Paintings",
+      "venue": "Kröller-Müller Museum, Otterlo",
+      "dates": "15 September 2026 to 3 January 2027",
+      "artists": [
+        "vincent-van-gogh"
+      ],
+      "url": "https://www.krollermuller.nl/en/what-s-on/exhibitions/van-gogh-all-our-paintings",
+      "html": "<p>The Kröller-Müller Museum is showing all 88 of its paintings by Vincent van Gogh together, for the first time since 1984.<sup class=\"cite\"><a data-src=\"kmm-vangogh-all\">[kmm-vangogh-all]</a></sup> The rooms are grouped by three ideas central to his life and work, faith, hope and love, and the museum points back to a sermon he gave in 1876.<sup class=\"cite\"><a data-src=\"kmm-vangogh-all\">[kmm-vangogh-all]</a></sup></p>\n<p>Things to look for: <i>The Potato Eaters</i> and <i>The Old Tower at Nuenen</i> from his years in the Netherlands; <i>Terrace of a Café at Night (Place du Forum)</i>, <i>Portrait of Joseph Roulin</i> and <i>L'Arlésienne (Madame Ginoux)</i>; <i>The Good Samaritan (after Delacroix)</i>; and <i>Sorrowing Old Man ('At Eternity's Gate')</i>.<sup class=\"cite\"><a data-src=\"kmm-vangogh-all\">[kmm-vangogh-all]</a></sup> <i>Bridge at Arles (Pont de Langlois)</i> has a display you can touch, with audio description.<sup class=\"cite\"><a data-src=\"kmm-vangogh-all\">[kmm-vangogh-all]</a></sup></p>\n<p>You need a museum and park ticket plus a timed exhibition ticket, which costs nothing extra and is booked online. The museum opens Tuesday to Sunday and on public holidays, 10.00 to 17.00, and is closed on 1 January.<sup class=\"cite\"><a data-src=\"kmm-vangogh-all\">[kmm-vangogh-all]</a></sup> Our suggestion is to allow two hours, and more if you want to walk in the park.</p>",
+      "src": [
+        "kmm-vangogh-all"
+      ]
     },
     {
-      "title": null,
-      "venue": null,
-      "dates": null
+      "title": "Andy Warhol. Line and image",
+      "venue": "Musée du Luxembourg, Paris",
+      "dates": "16 September 2026 to 10 January 2027",
+      "artists": [
+        "andy-warhol"
+      ],
+      "url": "https://museeduluxembourg.fr/en/agenda/evenement/andy-warhol",
+      "html": "<p>This exhibition looks at Andy Warhol as a draughtsman. It shows about 150 drawings alongside paintings, screenprints on paper, photographs and archive papers, from an early <i>Self-Portrait</i> (1942) to acrylic drawings linked to <i>The Last Supper</i> (1986).<sup class=\"cite\"><a data-src=\"lux-warhol-ligne\">[lux-warhol-ligne]</a></sup> It is curated by the art historian Alain Cueff and organised by GrandPalaisRmn.<sup class=\"cite\"><a data-src=\"lux-warhol-ligne\">[lux-warhol-ligne]</a></sup></p>\n<p>The show is in five parts: his early work as an advertising illustrator, handwriting, faces and masks, gay imagery that he long kept private, and death, which became a lasting concern after he was shot in 1968.<sup class=\"cite\"><a data-src=\"lux-warhol-ligne\">[lux-warhol-ligne]</a></sup> Things to look for: <i>The Nation's Nightmare</i> (1951), <i>Feet</i> (about 1959), and the methods he used to make a line, such as stamping, blotted or transferred lines, stencils and collage.<sup class=\"cite\"><a data-src=\"lux-warhol-ligne\">[lux-warhol-ligne]</a></sup></p>\n<p>The museum opens daily from 10.30 to 19.00, until 22.00 on Mondays, and is closed on 25 December. A full ticket costs 14 euros, and entry is free for under 16s.<sup class=\"cite\"><a data-src=\"lux-warhol-ligne\">[lux-warhol-ligne]</a></sup> Our suggestion is to allow about an hour and a half.</p>",
+      "src": [
+        "lux-warhol-ligne"
+      ]
+    },
+    {
+      "title": "The Light Spreads Out, and Glittering Things Start Appearing All Around Me",
+      "venue": "Yayoi Kusama Museum, Tokyo",
+      "dates": "8 October 2026 to 31 January 2027",
+      "artists": [
+        "yayoi-kusama"
+      ],
+      "url": "https://yayoikusamamuseum.jp/en/exhibition/current/",
+      "html": "<p>This show at the Yayoi Kusama Museum in Shinjuku looks at Kusama's work through the idea of light.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup> It runs from early drawings of the 1950s and the collages made after she returned to Japan, through the <i>Infinity Nets</i> and paintings from the 1980s onwards, to the recent <i>My Eternal Soul</i> series.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup> Mirror rooms, prints and sculptures that use glitter are also on show.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup></p>\n<p>Things to look for: the early <i>A Flower #6</i> (1953) set against later paintings such as <i>Longing for Infinite Heaven</i> (2020); a large sculpture covered in mosaic tiles with metal leaf; and an outdoor ladder sculpture with mirrors, shown in Japan for the first time.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup></p>\n<p>Tickets are sold only in advance on the museum's website, each for a 90 minute slot, and the museum is open Thursday to Sunday and on national holidays.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup> It is closed from 28 December 2026 to 6 January 2027.<sup class=\"cite\"><a data-src=\"kusama-museum-light\">[kusama-museum-light]</a></sup> Our suggestion is to plan on using the full 90 minutes.</p>",
+      "src": [
+        "kusama-museum-light"
+      ]
+    },
+    {
+      "title": "Basquiat, the Blue Ribbon Paintings, and the Art of Reproduction",
+      "venue": "Princeton University Art Museum, Princeton, New Jersey",
+      "dates": "4 October 2026 to 31 January 2027",
+      "artists": [
+        "jean-michel-basquiat"
+      ],
+      "url": "https://artmuseum.princeton.edu/exhibitions-events/exhibitions/basquiat-blue-ribbon-paintings-and-art-reproduction",
+      "html": "<p>The centre of this exhibition is a group of eleven paintings Jean-Michel Basquiat made in 1984, known as the Blue Ribbon paintings.<sup class=\"cite\"><a data-src=\"princeton-basquiat\">[princeton-basquiat]</a></sup> Around them the museum has gathered nearly all of Basquiat's known print projects, with work connected to Robert Rauschenberg and to the printmaker Bob Blackburn.<sup class=\"cite\"><a data-src=\"princeton-basquiat\">[princeton-basquiat]</a></sup></p>\n<p>Things to look for: how the eleven paintings relate to one another as a set, including <i>Blue Ribbon II</i> (1984); and how the prints carry Basquiat's images into another medium, which is the subject the title points to.<sup class=\"cite\"><a data-src=\"princeton-basquiat\">[princeton-basquiat]</a></sup></p>\n<p>Special exhibition tours are listed for 28 November and 5 December 2026.<sup class=\"cite\"><a data-src=\"princeton-basquiat\">[princeton-basquiat]</a></sup> After Princeton the show travels to the High Museum of Art (19 February to 16 May 2027) and the Frist Art Museum (4 June to 29 August 2027).<sup class=\"cite\"><a data-src=\"princeton-basquiat\">[princeton-basquiat]</a></sup> Our suggestion is to allow about an hour.</p>",
+      "src": [
+        "princeton-basquiat"
+      ]
+    },
+    {
+      "title": "Kandinsky",
+      "venue": "Palazzo Bonaparte, Rome",
+      "dates": "15 September 2026 to 14 February 2027",
+      "artists": [
+        "wassily-kandinsky"
+      ],
+      "url": "https://www.centrepompidou.fr/en/program/calendar/event/7uxjmdc",
+      "html": "<p>This exhibition at Palazzo Bonaparte on Piazza Venezia shows some sixty works by Wassily Kandinsky, organised by the Centre Pompidou in Paris with Arthemisia.<sup class=\"cite\"><a data-src=\"pompidou-kandinsky-rome\">[pompidou-kandinsky-rome]</a></sup> It follows his whole career: early figurative painting, the first steps into abstraction in Munich, his return to Russia during the revolutionary years, his teaching at the Bauhaus and his last years in Paris.<sup class=\"cite\"><a data-src=\"pompidou-kandinsky-rome\">[pompidou-kandinsky-rome]</a></sup></p>\n<p>Things to look for: <i>Le Parc de Saint-Cloud, allée ombragée</i> (1906), a landscape from before abstraction; <i>Bild mit rotem Fleck</i> (Painting with Red Spot, 1914); <i>Gelb-Rot-Blau</i> (Yellow-Red-Blue, 1925) and <i>Dunkle Kühle</i> (1927) from the Bauhaus years; and <i>Bleu de ciel</i> (1940) and <i>Cercle et Carré</i> (1943) from Paris.<sup class=\"cite\"><a data-src=\"pompidou-kandinsky-rome\">[pompidou-kandinsky-rome]</a></sup> Seeing the 1906 and 1943 works in one visit shows how far his painting travelled.</p>\n<p>The exhibition opens from 9.00 to 19.30 Monday to Thursday and from 9.00 to 21.00 Friday to Sunday.<sup class=\"cite\"><a data-src=\"pompidou-kandinsky-rome\">[pompidou-kandinsky-rome]</a></sup> Our suggestion is to allow an hour to an hour and a half.</p>",
+      "src": [
+        "pompidou-kandinsky-rome"
+      ]
+    },
+    {
+      "title": "Beatriz Milhazes: gravuras do acervo da Pinacoteca de São Paulo",
+      "venue": "Pinacoteca de São Paulo, São Paulo",
+      "dates": "16 May 2026 to 14 March 2027",
+      "artists": [
+        "beatriz-milhazes"
+      ],
+      "url": "https://pinacoteca.org.br/en/programacao/exposicoes/beatriz-milhazes/",
+      "html": "<p>This exhibition brings together 27 prints by Beatriz Milhazes, made between 1996 and 2019 and shown as a set for the first time, according to Pace, one of her galleries.<sup class=\"cite\"><a data-src=\"pace-milhazes-pina\">[pace-milhazes-pina]</a></sup> The prints come from her long collaboration with Durham Press, a print studio in the United States.<sup class=\"cite\"><a data-src=\"pace-milhazes-pina\">[pace-milhazes-pina]</a></sup><sup class=\"cite\"><a data-src=\"whitecube-milhazes-pina\">[whitecube-milhazes-pina]</a></sup> White Cube, which also represents her, reports that Milhazes gave the whole selection to the Pinacoteca's collection, and names the curator as Renato Menezes.<sup class=\"cite\"><a data-src=\"whitecube-milhazes-pina\">[whitecube-milhazes-pina]</a></sup></p>\n<p>Things to look for: <i>O pato</i> (1996) beside <i>Noite de verão</i> (2006), which show how her arrangement of shapes, colour and empty space changed over ten years; and motifs drawn from chita fabric, embroidery and weaving, such as discs, mandalas, bead necklaces and flowers.<sup class=\"cite\"><a data-src=\"pace-milhazes-pina\">[pace-milhazes-pina]</a></sup></p>\n<p>We could not read the Pinacoteca's own page, so check opening hours and tickets there before you go. Our suggestion is to allow about an hour for the prints, and longer if you plan to see the rest of the museum.</p>",
+      "src": [
+        "pace-milhazes-pina",
+        "whitecube-milhazes-pina"
+      ]
+    },
+    {
+      "title": "Picasso: Back to the Origins",
+      "venue": "Naples Art Museum, Naples, Florida",
+      "dates": "6 February 2027 to 2 May 2027",
+      "artists": [
+        "pablo-picasso"
+      ],
+      "url": "https://www.naplesart.org/picasso-back-to-origins",
+      "html": "<p>This exhibition, which opens in February, looks at how Pablo Picasso's early life shaped his work. It shows lithographs, etchings, manuscripts and ceramics.<sup class=\"cite\"><a data-src=\"naples-picasso-origins\">[naples-picasso-origins]</a></sup> The museum traces his youth and training in Galicia and in Barcelona, then his move to the south of France after the Second World War, when he reconnected with the Mediterranean.<sup class=\"cite\"><a data-src=\"naples-picasso-origins\">[naples-picasso-origins]</a></sup> The museum also links the work to unsettled family life and personal loss in his early years, and to how he drew on his cultural roots.<sup class=\"cite\"><a data-src=\"naples-picasso-origins\">[naples-picasso-origins]</a></sup></p>\n<p>Things to look for: how the same artist works across prints, ceramics and handwritten papers, and how themes from his youth come back in work made decades later.<sup class=\"cite\"><a data-src=\"naples-picasso-origins\">[naples-picasso-origins]</a></sup></p>\n<p>When we checked, the museum's page said tickets were coming soon and did not give the number of works, the lenders or the gallery. Check the page for opening hours before you go.<sup class=\"cite\"><a data-src=\"naples-picasso-origins\">[naples-picasso-origins]</a></sup> Our suggestion is to allow about an hour.</p>",
+      "src": [
+        "naples-picasso-origins"
+      ]
+    },
+    {
+      "title": "Basquiat: Figures, Signs, Symbols",
+      "venue": "Pérez Art Museum Miami, Miami",
+      "dates": "25 June 2026 to 6 June 2027",
+      "artists": [
+        "jean-michel-basquiat"
+      ],
+      "url": "https://www.pamm.org/?p=57010",
+      "html": "<p>This is a small, focused show: ten works by Jean-Michel Basquiat, all lent by the Kenneth C. Griffin Collection.<sup class=\"cite\"><a data-src=\"pamm-basquiat\">[pamm-basquiat]</a></sup> The museum describes it as the largest presentation of Basquiat's work in Florida to date.<sup class=\"cite\"><a data-src=\"pamm-basquiat\">[pamm-basquiat]</a></sup> It was organised by Franklin Sirmans, director of PAMM, and Megan Kincaid, curator of the Griffin Collection, and an illustrated publication goes with it.<sup class=\"cite\"><a data-src=\"pamm-basquiat\">[pamm-basquiat]</a></sup></p>\n<p>Things to look for: with only ten paintings, there is room to stand with each one and read the figures, signs and symbols the title names. It is also worth comparing how those three elements share space from one canvas to the next.</p>\n<p>Check opening days before you go: the museum lists itself as open Monday and Friday to Sunday, 11am to 6pm, and closed Tuesday to Thursday.<sup class=\"cite\"><a data-src=\"pamm-basquiat\">[pamm-basquiat]</a></sup> The show runs until 6 June 2027.<sup class=\"cite\"><a data-src=\"pamm-basquiat\">[pamm-basquiat]</a></sup> Our suggestion is to allow 45 minutes to an hour.</p>",
+      "src": [
+        "pamm-basquiat"
+      ]
     }
   ]
 }
