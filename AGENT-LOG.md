@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, filling the gaps across the site (draft)
+Published: nothing. Prepared as a draft after the owner asked for every missing piece of content to be researched and filled.
+Drafts waiting: new Life and career sections for 16 portfolios and In their own words for 14, Explore more for three, about 20 artwork details and many timeline dates, eight exhibition guides, an Our relationships paragraph on the standards page, and a site byline in place of the author placeholder. Pull request: https://github.com/Artiscope/World-art-review/pull/19
+Checked: every citation points to a listed source, no placeholder text is left apart from photos and a few artwork details no source gives, and the site builds with 34 artists and works at phone and desktop width.
+Needs you: confirm the Our relationships wording. The pull request lists what could not be sourced.
+
 ## Wednesday 25 November 2026, pages search engines can find (draft)
 Published: nothing. Prepared after the owner asked for the SEO problems found on 25 November to be fixed.
 Changed: every published portfolio and article now also has its own web address (artists/<name>/ and articles/<name>/), opening straight on that piece with its own title, search description and structured data. The links on every page lead to these addresses. The site now has a robots.txt and a sitemap listing the home page and all 97 addresses. The look, words and layout are unchanged, and src/index.html is untouched: all of this is done by tools/build_site.py.
