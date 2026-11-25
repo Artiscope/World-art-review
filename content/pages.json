@@ -187,7 +187,11 @@
           "visible": true,
           "settings": {
             "badge": "Artist in focus",
-            "artists": [],
+            "artists": [
+              "zara-muse",
+              "konn-artiss",
+              "damien-hirst"
+            ],
             "limit": 3
           }
         },
