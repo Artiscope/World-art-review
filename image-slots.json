@@ -432,6 +432,30 @@
       "group": "Artworks: Jes Fan",
       "label": "Right Pelvis, Cross Section",
       "filled": false
+    },
+    {
+      "id": "artist-mohamed-lghacham",
+      "group": "Artist main images",
+      "label": "Mohamed L'Ghacham",
+      "filled": false
+    },
+    {
+      "id": "work-mohamed-lghacham-casa-paquita",
+      "group": "Artworks: Mohamed L'Ghacham",
+      "label": "Casa Paquita",
+      "filled": false
+    },
+    {
+      "id": "work-mohamed-lghacham-la-fondue",
+      "group": "Artworks: Mohamed L'Ghacham",
+      "label": "La Fondue",
+      "filled": false
+    },
+    {
+      "id": "work-mohamed-lghacham-the-table-is-set",
+      "group": "Artworks: Mohamed L'Ghacham",
+      "label": "the table is set",
+      "filled": false
     }
   ]
 }

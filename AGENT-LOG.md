@@ -8,6 +8,12 @@ Drafts waiting: portfolio (biography, style, three works, timeline, research des
 Checked: MoMA, Tate, Wikipedia, The Art Newspaper, e-flux, Sotheby's lot page.
 Needs you: nothing beyond review.
 
+## Wednesday 25 November 2026, Mohamed L'Ghacham (draft)
+Published: the five portfolios for Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani and Jes Fan went live on the owner's go ahead (pull request 12).
+Drafts waiting: portfolio for Mohamed L'Ghacham, a muralist from the emerging artists research. Homepage count now twenty-two.
+Checked: festival pages (Nuart Aberdeen, North West Walls, Vision Art Festival, Calle Libre), Colossal, Street Art United States, The Crystal Ship and the artist's website. No auction results found.
+Needs you: photographs for the portfolio and its three works (spots added to image-slots.json).
+
 ## Wednesday 25 November 2026
 Published: nothing yet.
 Drafts waiting: five new portfolios (Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani, Jes Fan) and a short feature introducing them. The research desk picks up their open questions. Pull request link to follow.
