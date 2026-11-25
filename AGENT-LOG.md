@@ -2,6 +2,13 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, reviews and artwork explainers (draft)
+Published: nothing. Added as a draft after the owner asked for more reviews and art explained pieces for every artist.
+Drafts waiting: 20 new reviews and 22 artwork explainers, one or both for every published artist, plus a short feature introducing them at the top of the homepage list. 59 new numbered sources, all opened and read: named reviews in The Art Newspaper, Apollo, The Arts Desk, Studio International, Frieze, e-flux, The Brooklyn Rail, The New York Times and others, plus museum and gallery pages. Review and Art Explained list introductions updated. Pull request link to follow.
+Checked: every citation points to a listed source, every internal link works, the site builds with 23 artists and 62 articles, and pages hold at phone and desktop width with no page errors. No long dashes or words from the banned list.
+Left alone: Zen Xander (not yet published) and the artists being added in a separate change. Zara Muse and Konn Artiss get an explainer each but no new review, as no independent published criticism could be found. The research desk now says so.
+Needs you: photographs for the new pieces (41 empty spots added to image-slots.json). Two explainers reuse photos already on the site.
+
 ## Wednesday 25 November 2026, fuller artist portfolios
 Published: on the owner's go ahead, after the owner asked for more detailed information about each artist on every site.
 Changed: nineteen portfolios gain three new parts each: Life and career, In their own words (short named quotes) and Explore more (links to related portfolios on this site). Some also gain works and timeline dates. 36 new numbered sources, all interviews, museum pages, letters or press releases that were opened and read.
