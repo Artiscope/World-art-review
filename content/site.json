@@ -1217,6 +1217,419 @@
       "date": "1 August 2017",
       "kind": "Interview with the artist",
       "url": "https://streetartunitedstates.com/interview-mohamed-lghacham/"
+    },
+    "bigissue-cutrun": {
+      "title": "Banksy: Cut & Run is the closest we've come to seeing behind his mask",
+      "pub": "Big Issue (Laura Kelly)",
+      "date": "16 June 2023",
+      "kind": "Exhibition review",
+      "url": "https://www.bigissue.com/culture/art/banksy-cut-run-is-the-closest-weve-come-to-seeing-behind-his-mask"
+    },
+    "week-cutrun": {
+      "title": "Banksy: Cut and Run exhibition review",
+      "pub": "The Week",
+      "date": "7 July 2023",
+      "kind": "Round-up of reviews",
+      "url": "https://theweek.com/arts-life/961546/banksy-cut-and-run-exhibition-review"
+    },
+    "tan-goma-2023": {
+      "title": "Gallery of Modern Art in Glasgow shreds box-office record with Banksy exhibition",
+      "pub": "The Art Newspaper (Torey Akers)",
+      "date": "28 August 2023",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2023/08/28/gallery-of-modern-art-glasgow-breaks-box-office-record-banksy-exhibition"
+    },
+    "week-kusama": {
+      "title": "What are the critics saying about Yayoi Kusama's Infinity Mirror Rooms?",
+      "pub": "The Week",
+      "date": "3 June 2021",
+      "kind": "Round-up of reviews",
+      "url": "https://theweek.com/arts-life/953034/yayoi-kusama-infinity-mirror-rooms"
+    },
+    "ribaj-kusama": {
+      "title": "Yayoi Kusama's Tate Modern exhibition hits the reflective spot",
+      "pub": "RIBA Journal (Michèle Woodger)",
+      "date": "27 May 2021",
+      "kind": "Exhibition review",
+      "url": "https://www.ribaj.com/intelligence/yayoi-kusama-infinity-mirror-rooms-tate-modern/"
+    },
+    "tateetc-kusama": {
+      "title": "From Here to Infinity",
+      "pub": "Tate Etc., issue 51",
+      "date": "15 January 2021",
+      "kind": "Museum magazine",
+      "url": "https://www.tate.org.uk/tate-etc/issue-51-spring-2021/yayoi-kusama-infinity-mirror-rooms-from-here-to-infinity"
+    },
+    "artsdesk-anatsui": {
+      "title": "El Anatsui: Behind the Red Moon, Tate Modern review",
+      "pub": "The Arts Desk (Sarah Kent)",
+      "date": "25 October 2023",
+      "kind": "Exhibition review",
+      "url": "https://theartsdesk.com/visual-arts/el-anatsui-behind-red-moon-tate-modern-review-glorious-creations"
+    },
+    "hyperallergic-turbine": {
+      "title": "Is Tate Modern's Turbine Hall a Good Place to Show Art?",
+      "pub": "Hyperallergic (Michael Glover)",
+      "date": "19 November 2023",
+      "kind": "Exhibition review",
+      "url": "https://hyperallergic.com/is-tate-modern-turbine-hall-a-good-place-to-show-art/"
+    },
+    "tate-anatsui-guide": {
+      "title": "Hyundai Commission: El Anatsui: Behind the Red Moon, exhibition guide",
+      "pub": "Tate",
+      "date": "2023",
+      "kind": "Museum guide",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/el-anatsui/exhibition-guide"
+    },
+    "artfund-anatsui": {
+      "title": "Man's Cloth & Woman's Cloth",
+      "pub": "Art Fund",
+      "date": "read 25 November 2026",
+      "kind": "Acquisition grant page",
+      "url": "https://www.artfund.org/our-purpose/art-funded-by-you/mans-cloth-womans-cloth"
+    },
+    "smarthistory-oldmans": {
+      "title": "El Anatsui, Old Man's Cloth",
+      "pub": "Smarthistory (Allison Young), reproduced in an open textbook",
+      "date": "7 September 2018",
+      "kind": "Art history essay",
+      "url": "https://uen.pressbooks.pub/arth2720/chapter/el-anatsui-old-mans-cloth/"
+    },
+    "artsdesk-milhazes": {
+      "title": "Beatriz Milhazes: Maresias, Turner Contemporary review",
+      "pub": "The Arts Desk (Hannah Hutchings-Georgiou)",
+      "date": "3 August 2023",
+      "kind": "Exhibition review",
+      "url": "https://theartsdesk.com/node/89990"
+    },
+    "apollo-milhazes": {
+      "title": "Beatriz Milhazes brings a touch of Brazil to Margate",
+      "pub": "Apollo (Matthew Sperling)",
+      "date": "31 August 2023",
+      "kind": "Exhibition review",
+      "url": "https://apollo-magazine.com/beatriz-milhazes-turner-contemporary-review/"
+    },
+    "artlyst-milhazes": {
+      "title": "Beatriz Milhazes: Turner Contemporary Margate",
+      "pub": "Artlyst",
+      "date": "16 August 2023",
+      "kind": "Exhibition report",
+      "url": "https://artlyst.com/beatriz-milhazes-turner-contemporary-margate-claudia-barbieri-childs/"
+    },
+    "churchtimes-milhazes": {
+      "title": "Art review: Beatriz Milhazes: Maresias at Tate St Ives",
+      "pub": "Church Times (Susan Gray)",
+      "date": "13 September 2024",
+      "kind": "Exhibition review",
+      "url": "https://churchtimes.co.uk/articles/2024/13-september/books-arts/visual-arts/art-review-beatriz-milhazes-maresias-at-tate-st-ives"
+    },
+    "tate-milhazes-2024": {
+      "title": "Beatriz Milhazes: Maresias, press release",
+      "pub": "Tate",
+      "date": "23 May 2024",
+      "kind": "Museum press release",
+      "url": "https://www.tate.org.uk/press/press-releases/beatriz-milhazes-maresias"
+    },
+    "aap-raza": {
+      "title": "Missing the Mark at S.H. Raza (1922 to 2016)",
+      "pub": "ArtAsiaPacific (The Editors)",
+      "date": "13 June 2023",
+      "kind": "Exhibition review",
+      "url": "https://artasiapacific.com/shows/missing-the-mark-at-s-h-raza-1922-2016"
+    },
+    "pompidou-raza-event": {
+      "title": "S.H. Raza (1922-2016)",
+      "pub": "Centre Pompidou",
+      "date": "2023",
+      "kind": "Museum exhibition page",
+      "url": "https://www.centrepompidou.fr/en/program/calendar/event/FEzOAXj"
+    },
+    "deshgujarat-saurashtra": {
+      "title": "Raza's Saurashtra fetches record",
+      "pub": "DeshGujarat",
+      "date": "12 June 2010",
+      "kind": "News report",
+      "url": "https://deshgujarat.com/?p=13775"
+    },
+    "si-richter-2025": {
+      "title": "Gerhard Richter, review",
+      "pub": "Studio International (Joe Lloyd)",
+      "date": "December 2025",
+      "kind": "Exhibition review",
+      "url": "https://www.studiointernational.com/index.php/gerhard-richter-review-fondation-louis-vuitton-paris"
+    },
+    "flashart-richter": {
+      "title": "Gerhard Richter / Fondation Louis Vuitton, Paris",
+      "pub": "Flash Art (Siobhan O'Leary), issue 353",
+      "date": "30 January 2026",
+      "kind": "Exhibition review",
+      "url": "https://flash---art.com/article/gerhard-richter-fondation-louis-vuitton/"
+    },
+    "tan-richter-flv": {
+      "title": "Fondation Louis Vuitton in Paris opens epic Gerhard Richter retrospective",
+      "pub": "The Art Newspaper (J.S. Marcus)",
+      "date": "17 October 2025",
+      "kind": "Exhibition report",
+      "url": "https://www.theartnewspaper.com/2025/10/17/fondation-louis-vuitton-in-paris-stages-epic-gerhard-richter-retrospective"
+    },
+    "zwirner-guardian-richter": {
+      "title": "Gerhard Richter at the Fondation Louis Vuitton reviewed in The Guardian",
+      "pub": "David Zwirner, quoting The Guardian (Adrian Searle)",
+      "date": "21 October 2025",
+      "kind": "Gallery page quoting a review",
+      "url": "https://www.davidzwirner.com/news/2025/gerhard-richter-at-the-fondation-louis-vuitton-reviewed-in-the-guardian"
+    },
+    "bmore-osg": {
+      "title": "Endless Story: Decades-Spanning Survey of OSGEMEOS at the Hirshhorn Museum",
+      "pub": "Bmore Art (Brendan L. Smith)",
+      "date": "2024",
+      "kind": "Exhibition review",
+      "url": "https://bmoreart.com/?p=195674"
+    },
+    "hirshhorn-osg": {
+      "title": "The Hirshhorn Presents First US Museum Survey of Brazilian Artists OSGEMEOS",
+      "pub": "Hirshhorn Museum and Sculpture Garden",
+      "date": "6 December 2023",
+      "kind": "Museum press release",
+      "url": "https://hirshhorn.si.edu/news/press/the-hirshhorn-presents-first-us-museum-survey-of-brazilian-artists-osgemeos/"
+    },
+    "colossal-vhils-cairo": {
+      "title": "Against the Pyramids of Giza, Vhils' Etched Portraits Are Monuments of the Everyday",
+      "pub": "Colossal (Grace Ebert)",
+      "date": "12 November 2025",
+      "kind": "Project report",
+      "url": "https://www.thisiscolossal.com/2025/11/vhils-doors-of-cairo-portraits/"
+    },
+    "mmm-vhils-strata": {
+      "title": "20 Years of Vhils' Exceptional Art Now on View in Retrospective Exhibition",
+      "pub": "My Modern Met (Jessica Stewart)",
+      "date": "13 July 2025",
+      "kind": "Exhibition report",
+      "url": "https://mymodernmet.com/vhils-muca-retrospective-exhibit/"
+    },
+    "globe-kaws": {
+      "title": "KAWS reaches for feeling in the midst of irony",
+      "pub": "The Globe and Mail",
+      "date": "2023",
+      "kind": "Exhibition review",
+      "url": "https://www.theglobeandmail.com/arts/art-and-architecture/article-kaws-reaches-for-feeling-in-the-midst-of-irony/"
+    },
+    "ago-kaws": {
+      "title": "KAWS: FAMILY",
+      "pub": "Art Gallery of Ontario",
+      "date": "2023",
+      "kind": "Museum exhibition page",
+      "url": "https://ago.ca/exhibitions/kaws-family"
+    },
+    "artandmarket-eko": {
+      "title": "Review of 'Lost in Parody'",
+      "pub": "Art & Market (Clara Che Wei Peh)",
+      "date": "21 September 2020",
+      "kind": "Exhibition review",
+      "url": "https://artandmarket.net/reviews/2020/9/21/review-of-lost-in-parody"
+    },
+    "gac-illusion": {
+      "title": "Illusion, Eko Nugroho",
+      "pub": "Google Arts & Culture, with the National Heritage Board, Singapore",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://artsandculture.google.com/asset/illusion/tgH49wKO9F3C2g"
+    },
+    "artthrob-faith": {
+      "title": "Mutual Mourning: FAITH XLVII's CHANT",
+      "pub": "ArtThrob (Misha Krynauw)",
+      "date": "17 May 2021",
+      "kind": "Exhibition review",
+      "url": "https://artthrob.co.za/2021/05/17/mutual-mourning-faith-xlviis-chant/"
+    },
+    "bsa-faith-nancy": {
+      "title": "Faith XLVII Clair/Obscur at Musée des Beaux-Arts in Nancy, France",
+      "pub": "Brooklyn Street Art",
+      "date": "28 March 2023",
+      "kind": "Exhibition report",
+      "url": "https://brooklynstreetart.com/2023/03/28/faith-xlvii-clair-obscur-at-musee-des-beaux-arts-in-nancy-france"
+    },
+    "muralarts-silent": {
+      "title": "The Silent Watcher",
+      "pub": "Mural Arts Philadelphia",
+      "date": "2019",
+      "kind": "Public art record",
+      "url": "https://muralarts.org/artworks/the-silent-watcher/"
+    },
+    "streetsdept-silent": {
+      "title": "Street Art Legend, Faith XLVII, Creates Massive New Mural in West Philly",
+      "pub": "Streets Dept",
+      "date": "10 October 2019",
+      "kind": "News report",
+      "url": "https://streetsdept.com/2019/10/10/street-art-legend-faith-xlvii-creates-massive-new-mural-in-west-philly/"
+    },
+    "tan-vangogh-2024": {
+      "title": "The Big Review: Van Gogh: Poets and Lovers at the National Gallery, London",
+      "pub": "The Art Newspaper (Martin Bailey)",
+      "date": "20 September 2024",
+      "kind": "Exhibition review",
+      "url": "https://www.theartnewspaper.com/2024/09/20/the-big-review-van-gogh-poets-and-lovers-at-the-national-gallery-london"
+    },
+    "prospect-vangogh": {
+      "title": "Van Gogh's constant search for God",
+      "pub": "Prospect (David McAllister)",
+      "date": "1 October 2024",
+      "kind": "Exhibition review",
+      "url": "https://prospectmagazine.co.uk/culture/art/68058/vincent-van-goghs-constant-search-for-god-national-gallery-poets-and-lovers-review"
+    },
+    "artshub-vangogh": {
+      "title": "Exhibition review: Van Gogh: Poets and Lovers, National Gallery, London",
+      "pub": "ArtsHub UK (Diana Carroll)",
+      "date": "16 September 2024",
+      "kind": "Exhibition review",
+      "url": "https://www.artshub.co.uk/news/reviews/exhibition-review-van-gogh-poets-and-lovers-national-gallery-london-2618278/"
+    },
+    "ng-sunflowers": {
+      "title": "Vincent van Gogh, Sunflowers, 1888",
+      "pub": "The National Gallery, London",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection page",
+      "url": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"
+    },
+    "si-kandinsky-bilbao": {
+      "title": "Kandinsky, Guggenheim Bilbao",
+      "pub": "Studio International (David Trigg)",
+      "date": "2021",
+      "kind": "Exhibition review",
+      "url": "https://www.studiointernational.com/kandinsky-review-guggenheim-bilbao/"
+    },
+    "nyunews-kandinsky": {
+      "title": "Review: Guggenheim's Kandinsky exhibition uncovers layers of the abstract artist's evolution",
+      "pub": "Washington Square News (Clara Scholl)",
+      "date": "31 January 2022",
+      "kind": "Exhibition review",
+      "url": "https://nyunews.com/arts/2022/01/31/vasily-kandisky-guggenheim-review/"
+    },
+    "bilbao-comp8": {
+      "title": "Composition 8, teachers' guide",
+      "pub": "Guggenheim Museum Bilbao",
+      "date": "read 25 November 2026",
+      "kind": "Museum guide",
+      "url": "https://www.guggenheim-bilbao.eus/en/learn/schools/teachers-guides/composition-8"
+    },
+    "tateetc-turner-2025": {
+      "title": "Mirror, Mirror",
+      "pub": "Tate Etc., issue 68 (Kadish Morris)",
+      "date": "12 December 2025",
+      "kind": "Exhibition essay",
+      "url": "https://www.tate.org.uk/tate-etc/issue-68-winter-2025/mirror-mirror-turner-prize-2025"
+    },
+    "spectator-turner-2025": {
+      "title": "The best Turner Prize in years",
+      "pub": "The Spectator (Digby Warde-Aldam)",
+      "date": "4 October 2025",
+      "kind": "Exhibition review",
+      "url": "https://spectator.com/article/the-best-turner-prize-in-years/"
+    },
+    "tan-turner-2025": {
+      "title": "There's no fudging. She deserves to win: critics react as Turner Prize 2025 opens",
+      "pub": "The Art Newspaper (Gareth Harris)",
+      "date": "24 September 2025",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2025/09/24/theres-no-fudging-she-deserves-to-win-critics-react-as-turner-prize-2025-opens"
+    },
+    "sota-turner-2025": {
+      "title": "Inside the 2025 Turner Prize Exhibition in Bradford, review",
+      "pub": "The State of the Arts (Millie Lacey)",
+      "date": "3 October 2025",
+      "kind": "Exhibition review",
+      "url": "https://www.thestateofthearts.co.uk/features/inside-the-2025-turner-prize-exhibition-in-bradford-review/"
+    },
+    "rail-halfmoon": {
+      "title": "Raven Halfmoon: Flags of Our Mothers",
+      "pub": "The Brooklyn Rail",
+      "date": "September 2023",
+      "kind": "Exhibition review",
+      "url": "https://brooklynrail.org/2023/09/artseen/Raven-Halfmoon-Flags-of-Our-Mothers/"
+    },
+    "sixty-halfmoon": {
+      "title": "Defiant Bodies: a review of Flags of Our Mothers at Bemis Center for Contemporary Arts",
+      "pub": "Sixty Inches From Center (River Ian Kerstetter)",
+      "date": "13 September 2024",
+      "kind": "Exhibition review",
+      "url": "https://sixtyinchesfromcenter.org/defiant-bodies-a-review-of-flags-of-our-mothers-at-bemis-center-for-contemporary-art/"
+    },
+    "nyt-segovia": {
+      "title": "Ana Segovia Wants You to Take Another, Closer, Look at that Cowboy",
+      "pub": "The New York Times (Ray Mark Rinaldi), as reproduced by kurimanzutto",
+      "date": "1 October 2025",
+      "kind": "Feature",
+      "url": "https://kurimanzutto.com/news/press-ana-segovia-wants-you-to-take-another-closer-look-at-that-cowboy"
+    },
+    "kurimanzutto-oiaa": {
+      "title": "Ana Segovia: The Office of Inter-American Affairs Presents",
+      "pub": "kurimanzutto",
+      "date": "2026",
+      "kind": "Gallery exhibition page",
+      "url": "https://kurimanzutto.com/exhibitions/ana-segovia-the-office-of-inter-american-affairs-presents"
+    },
+    "designboom-awartani": {
+      "title": "Dana Awartani visualizes Gaza's devastation at Venice art biennale through layers of dyed silk",
+      "pub": "designboom (Lea Zeitoun)",
+      "date": "20 April 2024",
+      "kind": "Exhibition report",
+      "url": "https://www.designboom.com/art/dana-awartani-gaza-devastation-venice-biennale-layers-dyed-silk-04-20-2024/"
+    },
+    "eflux-awartani-ruins": {
+      "title": "Dana Awartani's Standing by the ruins",
+      "pub": "e-flux Criticism (Oliver Basciano)",
+      "date": "3 September 2025",
+      "kind": "Exhibition review",
+      "url": "https://www.e-flux.com/criticism/6782306/dana-awartani-s-standing-by-the-ruins"
+    },
+    "eflux-fan-wounding": {
+      "title": "Jes Fan's Sites of Wounding: Chapter 1",
+      "pub": "e-flux Criticism (Wong Binghao)",
+      "date": "7 July 2023",
+      "kind": "Exhibition review",
+      "url": "https://www.e-flux.com/criticism/548845/jes-fan-s-sites-of-wounding-chapter-1"
+    },
+    "jux-lghacham-colorado": {
+      "title": "Colorado: Mohamed L'Ghacham debuts at PDP Gallery",
+      "pub": "Juxtapoz (Sasha Bogojev)",
+      "date": "read 25 November 2026",
+      "kind": "Exhibition report",
+      "url": "https://www.juxtapoz.com/news/painting/colorado-mohamed-l-ghacham-debuts-pdp-gallery-la/"
+    },
+    "tan-warhol-2020": {
+      "title": "The Big Review: Andy Warhol at Tate Modern",
+      "pub": "The Art Newspaper (Brian Allen)",
+      "date": "9 April 2020",
+      "kind": "Exhibition review",
+      "url": "https://www.theartnewspaper.com/review/the-big-review-andy-warhol-at-tate-modern"
+    },
+    "frieze-warhol-2020": {
+      "title": "Not Another Warhol Show: A Review from Tate Modern",
+      "pub": "Frieze",
+      "date": "2020",
+      "kind": "Exhibition review",
+      "url": "https://www.frieze.com/article/not-another-warhol-show-review-tate-modern"
+    },
+    "si-warhol-2020": {
+      "title": "Andy Warhol, review",
+      "pub": "Studio International (Beth Williamson)",
+      "date": "7 April 2020",
+      "kind": "Exhibition review",
+      "url": "https://www.studiointernational.com/andy-warhol-review-tate-modern-london"
+    },
+    "tate-warhol-conservation": {
+      "title": "In the Conservation Studio: Andy Warhol",
+      "pub": "Tate",
+      "date": "2025",
+      "kind": "Museum display page",
+      "url": "https://www.tate.org.uk/visit/tate-modern/display/in-the-studio/in-the-conservation-studio-andy-warhol"
+    },
+    "phaidon-marilyn": {
+      "title": "Anatomy of an Artwork: Marilyn Diptych, 1962, by Andy Warhol",
+      "pub": "Phaidon",
+      "date": "2020",
+      "kind": "Feature",
+      "url": "https://www.phaidon.com/en-gb/blogs/stories/anatomy-of-an-artwork-marilyn-diptych-1962-by-andy-warhol"
     }
   },
   "artists": [
@@ -1464,6 +1877,7 @@
       ],
       "seen": "<p>Originals and signed limited edition prints are sold through Grove Gallery, which lists spaces in London and in Palma de Mallorca.<sup class=\"cite\"><a data-src=\"grove-zm\">[grove-zm]</a></sup><sup class=\"cite\"><a data-src=\"grove-chis\">[grove-chis]</a></sup> Her paintings have also appeared at the auction houses Tate Ward and Bonhams.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> <span class=\"placeholder\">[Confirm the current gallery addresses, and the hotel and restaurant locations.]</span></p>",
       "related": [
+        "a-explained-zara-muse-malala",
         "a-zara-muse-profile",
         "a-compare-muse-artiss",
         "a-research-emerging-artist"
@@ -1473,7 +1887,8 @@
         "Date of the Bonhams sale",
         "Dates, media and sizes for the listed works",
         "Confirm the Palma and Edinburgh showings and their dates",
-        "Studio and artwork photographs with permission to publish"
+        "Studio and artwork photographs with permission to publish",
+        "Independent review or catalogue entry for Malala Yousafzai, with its date and size"
       ]
     },
     {
@@ -1633,6 +2048,7 @@
       ],
       "seen": "<p>Most Konn Artiss works exist for days, in public space, and survive as photographs and press. <span class=\"placeholder\">[Add any gallery-held works, editions or prints, with where they can be seen.]</span></p>",
       "related": [
+        "a-explained-konn-artiss-venice-effigy",
         "a-konn-artiss-profile",
         "a-review-anti-frieze",
         "a-review-washington-ghost",
@@ -1643,7 +2059,8 @@
         "Independent confirmation of the National Portrait Gallery display",
         "Any editions, prints or saleable works",
         "Photographs with permission to publish",
-        "Exact dates for each intervention"
+        "Exact dates for each intervention",
+        "Independent published criticism of the work, for a full review"
       ]
     },
     {
@@ -1671,7 +2088,8 @@
         "Press coverage",
         "Photographs with permission to publish",
         "A yes or no on the first portfolio, waiting in the content calendar"
-      ]
+      ],
+      "related": []
     },
     {
       "slug": "banksy",
@@ -1884,6 +2302,8 @@
       ],
       "seen": "<p>Banksy's street works are in public space, and many have been painted over or removed. We do not give the locations of works still in place. Canvases and prints appear at auction; see the lot pages listed in the sources.</p>",
       "related": [
+        "a-review-banksy-cut-and-run",
+        "a-explained-love-is-in-the-bin",
         "a-what-is-an-intervention",
         "a-original-vs-print",
         "a-provenance-certificates",
@@ -2095,6 +2515,8 @@
       ],
       "seen": "<p>Her work is held by many museums. The Museum of Modern Art in New York holds <i>Accumulation of Stamps, 63</i> (1962).<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Paintings appear regularly at auction; see the lot reports listed in the sources. A museum devoted to her work, the Yayoi Kusama Museum, opened in Tokyo in 2017.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> Tate Modern showed two of her mirror rooms from May 2021 to April 2024.<sup class=\"cite\"><a data-src=\"tate-kusama-imr\">[tate-kusama-imr]</a></sup></p>",
       "related": [
+        "a-review-kusama-infinity-mirror-rooms",
+        "a-explained-kusama-brilliance-of-life",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic",
         "a-original-vs-print"
@@ -2299,6 +2721,8 @@
       ],
       "seen": "<p>His works hang in museums in Africa, Europe and the United States. Artnet names, among others, the Metropolitan Museum of Art and the Museum of Modern Art in New York, the Centre Pompidou and the British Museum.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup> Tate's 2023 press release also names the Smithsonian's National Museum of African Art in Washington.<sup class=\"cite\"><a data-src=\"tate-anatsui\">[tate-anatsui]</a></sup></p>",
       "related": [
+        "a-review-el-anatsui-behind-the-red-moon",
+        "a-explained-el-anatsui-old-mans-cloth",
         "a-mixed-media",
         "a-how-to-look-at-a-painting"
       ],
@@ -2504,6 +2928,8 @@
       ],
       "seen": "<p>Her work is held by the Museum of Modern Art and the Guggenheim in New York, Tate Modern in London and the Centre Pompidou in Paris, among others.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup></p>",
       "related": [
+        "a-review-beatriz-milhazes-maresias",
+        "a-explained-milhazes-maresias",
         "a-mixed-media",
         "a-original-vs-print",
         "a-oil-and-acrylic"
@@ -2741,6 +3167,8 @@
       ],
       "seen": "<p>His work appears often at auction in India and internationally; see the lot pages listed in the sources. In 2023 the Centre Pompidou in Paris held a retrospective of more than 90 works, which The Art Newspaper described as his first in a state-run institution.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup></p>",
       "related": [
+        "a-review-s-h-raza-pompidou",
+        "a-explained-raza-bindu",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
       ],
@@ -2940,6 +3368,8 @@
       ],
       "seen": "<p>His work is held by many museums, among them Tate and the Museum of Modern Art.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> His stained-glass window can be seen in Cologne Cathedral.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup></p>",
       "related": [
+        "a-review-gerhard-richter-paris",
+        "a-explained-richter-birkenau",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
       ],
@@ -3124,6 +3554,8 @@
       ],
       "seen": "<p>Artsy lists the Museu de Arte Moderna de São Paulo and the Museum of Contemporary Art, Los Angeles among the collections holding their work.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> In 2008 they painted part of Tate Modern's river front for Street Art, which Tate called the first major public museum display of street art in London.<sup class=\"cite\"><a data-src=\"tate-streetart\">[tate-streetart]</a></sup></p>",
       "related": [
+        "a-review-osgemeos-endless-story",
+        "a-explained-osgemeos-1980",
         "a-what-is-an-intervention",
         "a-mixed-media"
       ],
@@ -3307,6 +3739,8 @@
       ],
       "seen": "<p>Signed prints appear at auction regularly; Artcurial sold several in Paris in April 2026.<sup class=\"cite\"><a data-src=\"artcurial-tenuous\">[artcurial-tenuous]</a></sup> MAAT in Lisbon showed his video installation Prisma in 2022,<sup class=\"cite\"><a data-src=\"maat-vhils\">[maat-vhils]</a></sup> and MUDE, the city's design museum, showed a selection of his editions in early 2026.<sup class=\"cite\"><a data-src=\"euronews-vhils\">[euronews-vhils]</a></sup></p>",
       "related": [
+        "a-review-vhils-doors-of-cairo",
+        "a-explained-vhils-carved-portraits",
         "a-what-is-an-intervention",
         "a-original-vs-print"
       ],
@@ -3488,6 +3922,8 @@
       ],
       "seen": "<p>His large inflatable COMPANION has been shown in Seoul, Taipei and Hong Kong's Victoria Harbour.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> The Brooklyn Museum gave him a survey of more than 100 works in 2021.<sup class=\"cite\"><a data-src=\"brooklyn-kaws\">[brooklyn-kaws]</a></sup></p>",
       "related": [
+        "a-review-kaws-family",
+        "a-explained-kaws-companion",
         "a-what-is-an-intervention",
         "a-original-vs-print"
       ],
@@ -3654,6 +4090,8 @@
       ],
       "seen": "<p>Illusion (2007) is in the collection of the Singapore Art Museum.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup></p>",
       "related": [
+        "a-review-eko-nugroho-lost-in-parody",
+        "a-explained-eko-nugroho-illusion",
         "a-what-is-an-intervention",
         "a-mixed-media"
       ],
@@ -3837,6 +4275,8 @@
       ],
       "seen": "<p>Strauss & Co lists her work in collections including Universal Studios in Los Angeles and the Cyril Ramaphosa Foundation in South Africa.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> The STRAAT Museum in Amsterdam added one of her works to its collection in 2025.<sup class=\"cite\"><a data-src=\"artdaily-faith\">[artdaily-faith]</a></sup></p>",
       "related": [
+        "a-review-faith-xlvii-chant",
+        "a-explained-faith-xlvii-silent-watcher",
         "a-what-is-an-intervention",
         "a-original-vs-print"
       ],
@@ -4006,6 +4446,8 @@
       ],
       "seen": "<p>The Kröller-Müller Museum in Otterlo holds Blossoming Chestnut Trees.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup> Doctor Paul Gachet is in the Musée d'Orsay, Paris.<sup class=\"cite\"><a data-src=\"vgm-auvers-2023\">[vgm-auvers-2023]</a></sup></p>",
       "related": [
+        "a-review-van-gogh-poets-and-lovers",
+        "a-explained-van-gogh-sunflowers",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
       ],
@@ -4222,6 +4664,8 @@
       ],
       "seen": "<p>The Solomon R. Guggenheim Museum in New York holds a large group of his paintings, including Black Lines and Several Circles.<sup class=\"cite\"><a data-src=\"bilbao-kandinsky\">[bilbao-kandinsky]</a></sup></p>",
       "related": [
+        "a-review-kandinsky-guggenheim",
+        "a-explained-kandinsky-composition-8",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
       ],
@@ -4404,6 +4848,8 @@
       ],
       "seen": "<p>Wikipedia reports that works entered The Hepworth Wakefield's collection through an acquisition prize at Frieze London.<sup class=\"cite\"><a data-src=\"wiki-matic\">[wiki-matic]</a></sup> We have not yet confirmed this with the museum.</p>",
       "related": [
+        "a-review-rene-matic-turner-prize",
+        "a-explained-rene-matic-no-place-for-violence",
         "a-research-emerging-artist",
         "a-how-to-look-at-a-painting"
       ],
@@ -4579,6 +5025,8 @@
       ],
       "seen": "<p>Crystal Bridges, the Detroit Institute of Arts, ICA Miami and the Montclair Art Museum hold her work.<sup class=\"cite\"><a data-src=\"austin-halfmoon\">[austin-halfmoon]</a></sup> A large figure stands in the David Geffen Galleries at LACMA.<sup class=\"cite\"><a data-src=\"tan-halfmoon\">[tan-halfmoon]</a></sup></p>",
       "related": [
+        "a-review-raven-halfmoon-flags-of-our-mothers",
+        "a-explained-raven-halfmoon-flagbearer",
         "a-mixed-media",
         "a-research-emerging-artist"
       ],
@@ -4759,6 +5207,8 @@
       ],
       "seen": "<p>kurimanzutto lists works in the Louisiana Museum of Modern Art, the Denver Art Museum and the Pérez Art Museum Miami.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia\">[kurimanzutto-segovia]</a></sup> MOCA Los Angeles bought <em>Through Mario's perspective</em>.<sup class=\"cite\"><a data-src=\"moca-segovia\">[moca-segovia]</a></sup></p>",
       "related": [
+        "a-review-ana-segovia-cowboys",
+        "a-explained-ana-segovia-ramon",
         "a-how-to-look-at-a-painting",
         "a-oil-and-acrylic"
       ],
@@ -4927,6 +5377,8 @@
       ],
       "seen": "<p>Ocula lists works in the Guggenheim in New York, the British Museum, the Jameel Arts Centre, Sharjah Art Foundation and the Louvre Abu Dhabi.<sup class=\"cite\"><a data-src=\"ocula-awartani\">[ocula-awartani]</a></sup></p>",
       "related": [
+        "a-review-dana-awartani-standing-by-the-ruins",
+        "a-explained-dana-awartani-come-let-me-heal",
         "a-mixed-media",
         "a-research-emerging-artist"
       ],
@@ -5100,6 +5552,8 @@
       ],
       "seen": "<p>We have not yet found a museum collection that lists a work by Jes Fan. Yale's 2026 survey borrowed works including <em>Bivalve II</em> (2023) from a private collection.<sup class=\"cite\"><a data-src=\"yale-fan\">[yale-fan]</a></sup></p>",
       "related": [
+        "a-review-jes-fan-sites-of-wounding",
+        "a-explained-jes-fan-palimpsest",
         "a-mixed-media",
         "a-research-emerging-artist"
       ],
@@ -5285,6 +5739,8 @@
       ],
       "seen": "<p>His murals are in public streets. A painting of a woman cutting a birthday cake in Ostend can no longer be seen.<sup class=\"cite\"><a data-src=\"crystalship-lghacham\">[crystalship-lghacham]</a></sup> Check a wall is still there before travelling to it; festival walls are often painted over.</p>",
       "related": [
+        "a-review-mohamed-lghacham-colorado",
+        "a-explained-lghacham-casa-paquita",
         "a-research-emerging-artist",
         "a-how-to-look-at-a-painting"
       ],
@@ -5458,6 +5914,8 @@
       ],
       "seen": "<p><i>Campbell's Soup Cans</i> hangs at the Museum of Modern Art in New York, and Tate holds <i>Marilyn Diptych</i> and <i>Electric Chair</i> (1964).<sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup><sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup><sup class=\"cite\"><a data-src=\"tate-electric-chair\">[tate-electric-chair]</a></sup> The Andy Warhol Museum in Pittsburgh is described as the largest museum in the United States devoted to one artist.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup></p>",
       "related": [
+        "a-review-andy-warhol-tate-modern",
+        "a-explained-warhol-marilyn-diptych",
         "a-how-prints-are-made",
         "a-original-vs-print"
       ],
@@ -5470,6 +5928,44 @@
     }
   ],
   "articles": [
+    {
+      "slug": "reviews-and-explainers-november-2026",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "zara-muse",
+        "konn-artiss",
+        "banksy",
+        "yayoi-kusama",
+        "el-anatsui",
+        "beatriz-milhazes",
+        "s-h-raza",
+        "gerhard-richter",
+        "osgemeos",
+        "vhils",
+        "kaws",
+        "eko-nugroho",
+        "faith-xlvii",
+        "vincent-van-gogh",
+        "wassily-kandinsky",
+        "rene-matic",
+        "raven-halfmoon",
+        "ana-segovia",
+        "dana-awartani",
+        "jes-fan",
+        "mohamed-lghacham",
+        "andy-warhol"
+      ],
+      "tone": "#1D4A35",
+      "title": "New reviews and artwork explainers for every artist",
+      "dek": "20 reviews drawn from published criticism, and 22 close looks at single works. What we added, how we wrote it, and where the gaps are.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [],
+      "body": "\n  <p>Until this month the review section held three pieces and the explainers were mostly about technique. That left most of the artists on this site with a portfolio and nothing else. We have now added 20 reviews and 22 artwork explainers, so that every published artist has at least one longer piece to read.</p>\n  <h2>How the reviews are written</h2>\n  <p>Each review starts from a real exhibition or project and from what named critics wrote about it at the time. Where critics disagreed, we say so and give both sides. Our own view comes at the end and is labelled as ours. Every fact and every quotation links to its source.</p>\n  <h2>How the explainers work</h2>\n  <p>Each explainer takes one work and sets out the basics first: title, date, materials and where it is. Then it points to a few things worth looking at, and only after that says what the work might mean. Where we offer a reading of our own, we say so.</p>\n  <h2>Two gaps</h2>\n  <p>We found no independent published criticism of Zara Muse or Konn Artiss beyond what is already on the site, so each has an explainer but no new review. Artiscope, which publishes this site, sells Zara Muse's work through Grove Gallery, and the explainer says so.</p>\n  <h2>Where to start</h2>\n  <ul>\n    <li><a href=\"#artist-zara-muse\">Zara Muse</a>: <a href=\"#a-explained-zara-muse-malala\">the explainer</a>.</li>\n  <li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: <a href=\"#a-explained-konn-artiss-venice-effigy\">the explainer</a>.</li>\n  <li><a href=\"#artist-banksy\">Banksy</a>: <a href=\"#a-review-banksy-cut-and-run\">the review</a> and <a href=\"#a-explained-love-is-in-the-bin\">the explainer</a>.</li>\n  <li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: <a href=\"#a-review-kusama-infinity-mirror-rooms\">the review</a> and <a href=\"#a-explained-kusama-brilliance-of-life\">the explainer</a>.</li>\n  <li><a href=\"#artist-el-anatsui\">El Anatsui</a>: <a href=\"#a-review-el-anatsui-behind-the-red-moon\">the review</a> and <a href=\"#a-explained-el-anatsui-old-mans-cloth\">the explainer</a>.</li>\n  <li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: <a href=\"#a-review-beatriz-milhazes-maresias\">the review</a> and <a href=\"#a-explained-milhazes-maresias\">the explainer</a>.</li>\n  <li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: <a href=\"#a-review-s-h-raza-pompidou\">the review</a> and <a href=\"#a-explained-raza-bindu\">the explainer</a>.</li>\n  <li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: <a href=\"#a-review-gerhard-richter-paris\">the review</a> and <a href=\"#a-explained-richter-birkenau\">the explainer</a>.</li>\n  <li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: <a href=\"#a-review-osgemeos-endless-story\">the review</a> and <a href=\"#a-explained-osgemeos-1980\">the explainer</a>.</li>\n  <li><a href=\"#artist-vhils\">Vhils</a>: <a href=\"#a-review-vhils-doors-of-cairo\">the review</a> and <a href=\"#a-explained-vhils-carved-portraits\">the explainer</a>.</li>\n  <li><a href=\"#artist-kaws\">KAWS</a>: <a href=\"#a-review-kaws-family\">the review</a> and <a href=\"#a-explained-kaws-companion\">the explainer</a>.</li>\n  <li><a href=\"#artist-eko-nugroho\">Eko Nugroho</a>: <a href=\"#a-review-eko-nugroho-lost-in-parody\">the review</a> and <a href=\"#a-explained-eko-nugroho-illusion\">the explainer</a>.</li>\n  <li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: <a href=\"#a-review-faith-xlvii-chant\">the review</a> and <a href=\"#a-explained-faith-xlvii-silent-watcher\">the explainer</a>.</li>\n  <li><a href=\"#artist-vincent-van-gogh\">Vincent van Gogh</a>: <a href=\"#a-review-van-gogh-poets-and-lovers\">the review</a> and <a href=\"#a-explained-van-gogh-sunflowers\">the explainer</a>.</li>\n  <li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: <a href=\"#a-review-kandinsky-guggenheim\">the review</a> and <a href=\"#a-explained-kandinsky-composition-8\">the explainer</a>.</li>\n  <li><a href=\"#artist-rene-matic\">Rene Matić</a>: <a href=\"#a-review-rene-matic-turner-prize\">the review</a> and <a href=\"#a-explained-rene-matic-no-place-for-violence\">the explainer</a>.</li>\n  <li><a href=\"#artist-raven-halfmoon\">Raven Halfmoon</a>: <a href=\"#a-review-raven-halfmoon-flags-of-our-mothers\">the review</a> and <a href=\"#a-explained-raven-halfmoon-flagbearer\">the explainer</a>.</li>\n  <li><a href=\"#artist-ana-segovia\">Ana Segovia</a>: <a href=\"#a-review-ana-segovia-cowboys\">the review</a> and <a href=\"#a-explained-ana-segovia-ramon\">the explainer</a>.</li>\n  <li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: <a href=\"#a-review-dana-awartani-standing-by-the-ruins\">the review</a> and <a href=\"#a-explained-dana-awartani-come-let-me-heal\">the explainer</a>.</li>\n  <li><a href=\"#artist-jes-fan\">Jes Fan</a>: <a href=\"#a-review-jes-fan-sites-of-wounding\">the review</a> and <a href=\"#a-explained-jes-fan-palimpsest\">the explainer</a>.</li>\n  <li><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>: <a href=\"#a-review-mohamed-lghacham-colorado\">the review</a> and <a href=\"#a-explained-lghacham-casa-paquita\">the explainer</a>.</li>\n  <li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: <a href=\"#a-review-andy-warhol-tate-modern\">the review</a> and <a href=\"#a-explained-warhol-marilyn-diptych\">the explainer</a>.</li>\n  </ul>\n"
+    },
     {
       "slug": "andy-warhol-portfolio",
       "section": "features",
@@ -5614,6 +6110,484 @@
         "wiki-richter"
       ],
       "body": "\n  <p>Until this month the review covered three artists, all linked to Grove Gallery in London. It now covers fourteen. The eleven new portfolios follow the same rules as the first three: every fact carries a numbered source, and claims that come only from an artist's own channels are marked as reported.</p>\n  <p>Six of them started out on walls and streets. The other five made their names in studios and museums. That split is only ours, to make the list easier to read, and some of the artists do not sit neatly on either side.</p>\n  <h2>From the street</h2>\n  <p><a href=\"#artist-banksy\">Banksy</a> began as a graffiti writer in Bristol in the 1990s and has never publicly confirmed who he is.<sup class=\"cite\"><a data-src=\"jsma-banksy\">[jsma-banksy]</a></sup> Authentic works are certified by Pest Control, the artist's own authentication body.<sup class=\"cite\"><a data-src=\"bonhams-angel\">[bonhams-angel]</a></sup><sup class=\"cite\"><a data-src=\"phillips-keepout\">[phillips-keepout]</a></sup></p>\n  <p><a href=\"#artist-osgemeos\">OSGEMEOS</a> are the twin brothers Gustavo and Otavio Pandolfo, who started as graffiti artists in São Paulo.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> In 2007 they painted the outside walls of Kelburn Castle in Scotland.<sup class=\"cite\"><a data-src=\"hyperallergic-kelburn\">[hyperallergic-kelburn]</a></sup></p>\n  <p><a href=\"#artist-vhils\">Vhils</a>, the Lisbon artist Alexandre Farto, makes portraits by cutting, drilling and blasting into walls and posters, taking material away rather than adding it.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> Much of what is known about him comes from his own website, so his portfolio marks those claims as reported.</p>\n  <p><a href=\"#artist-kaws\">KAWS</a>, the New York artist Brian Donnelly, began by painting cartoon figures onto bus shelter adverts. His X-eyed character COMPANION first appeared as a toy after a trip to Japan in 1999.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup></p>\n  <p><a href=\"#artist-eko-nugroho\">Eko Nugroho</a> was born in Yogyakarta in 1977 and works there. His masked, comic-book figures move from walls into painting, embroidery and batik.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup><sup class=\"cite\"><a data-src=\"phillips-topi\">[phillips-topi]</a></sup></p>\n  <p><a href=\"#artist-faith-xlvii\">Faith XLVII</a> began as the graffiti writer Faith47 in South Africa in 1997 and has painted public murals in 39 countries since 2006.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup></p>\n  <h2>From the studio</h2>\n  <p><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a> covered canvases, objects and whole rooms in repeated nets and dots.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> She died in Tokyo on 14 August 2026, aged 97.<sup class=\"cite\"><a data-src=\"tan-kusama-obit\">[tan-kusama-obit]</a></sup></p>\n  <p><a href=\"#artist-el-anatsui\">El Anatsui</a>, born in Ghana in 1944 and based in Nsukka, Nigeria, since 1975, joins flattened aluminium bottle caps with copper wire into large hanging sheets.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup><sup class=\"cite\"><a data-src=\"sothebys-g6\">[sothebys-g6]</a></sup></p>\n  <p><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a> paints each motif on a sheet of plastic, presses it onto the canvas and peels the plastic away, so her pictures show no brushstrokes.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup><sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup></p>\n  <p><a href=\"#artist-s-h-raza\">S.H. Raza</a> co-founded the Progressive Artists' Group in Bombay in 1947 and spent most of his working life in France. From 1980 his paintings centre on the bindu, a single black dot. He died in New Delhi in 2016.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup></p>\n  <p><a href=\"#artist-gerhard-richter\">Gerhard Richter</a> works in two strands: blurred paintings copied from photographs, and abstracts made by dragging paint across the canvas with a squeegee.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup></p>\n  <h2>What each portfolio holds</h2>\n  <p>Every portfolio is laid out the same way: a short biography, how the work is made, a few documented works, a timeline and the sources. Each one also says how complete it is, so you can see what we are still checking. What is missing varies. Auction catalogues do not agree on Banksy's year of birth, for example, and several of the international portfolios still rely on encyclopaedia entries for biography while museum pages are found.</p>\n  <p>Some portfolios mention auction sales. We include them as events in the artist's career, naming the lot and saying whether the price includes the auction house's fees. They are not there to tell you what a work is worth, and we never set a print or an edition against a one-off work.</p>\n  <h2>Where to start</h2>\n  <p>If temporary public work is new to you, read <a href=\"#a-what-is-an-intervention\">What is an art intervention?</a> before the street portfolios. For the painters, <a href=\"#a-how-to-look-at-a-painting\">How to look at a painting in ten minutes</a> works with any of them. For El Anatsui and Eko Nugroho, try <a href=\"#a-mixed-media\">Mixed-media art</a>.</p>\n  "
+    },
+    {
+      "slug": "explained-vhils-carved-portraits",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "vhils"
+      ],
+      "tone": "#6B6259",
+      "title": "How a Vhils wall portrait is made",
+      "dek": "Vhils makes faces by taking material away: plaster, paint, posters, wood. A plain guide to the method behind Scratching the Surface.",
+      "credit": "Image: Joe Hatchiban, carved by Vhils in Berlin, 2011. Photo: OTFW, Berlin, CC BY-SA 3.0, via Wikimedia Commons",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "vhils-about",
+        "euronews-vhils-2024",
+        "db-vhils",
+        "hb-vhils",
+        "colossal-vhils-cairo"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-vhils\">Vhils</a> (Alexandre Farto). <b>Series:</b> <i>Scratching the Surface</i>, from 2007, first shown publicly in Lisbon that year and at the Cans Festival in London in 2008.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup></p>\n<h2>The idea</h2>\n<p>Most portraits are made by adding paint. Vhils removes material. He has called himself \"kind of an urban archaeologist\", carving into the walls of the city instead of painting on them.<sup class=\"cite\"><a data-src=\"euronews-vhils-2024\">[euronews-vhils-2024]</a></sup> He began as a teenager by painting over billboards and cutting back through the layers of posters, and found that \"by destroying I was revealing\".<sup class=\"cite\"><a data-src=\"db-vhils\">[db-vhils]</a></sup></p>\n<h2>How it is done</h2>\n<p>The face is cut into the surface, chipping away paint and plaster to reach the layers beneath, so the picture is drawn in depth and in the different colours of the wall's past. Tools range from chisels and power tools to explosives, which he began to develop around 2012.<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup><sup class=\"cite\"><a data-src=\"euronews-vhils-2024\">[euronews-vhils-2024]</a></sup> His studio in Barreiro, outside Lisbon, has a team of about fifteen.<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup></p>\n<p>The same method works on other surfaces. <i>Doors of Cairo</i>, shown beside the Pyramids in 2025, used 65 salvaged doors.<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The layers.</b> Each depth of cut shows a different colour from the wall's past: paint, plaster, brick.</p>\n<p><b>Distance.</b> Up close the face is rubble and scars. Across the street it resolves into a likeness.</p>\n<p><b>Who it is.</b> The faces are usually people from the place, not celebrities. Vhils has said a single face can stand for a community.<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<h2>What it means</h2>\n<p>Vhils has said that every layer he cuts through \"was a part of someone's life before\".<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup> Our reading: the portraits are about the city as much as the sitter. The building gives up its history to make a face.</p>\n",
+      "image": "images/vhils-berlin-chausseestrasse.jpg",
+      "alt": "A large portrait of a man in a cap, made by chipping away the pale plaster of a tall brown city wall to show the darker layers beneath."
+    },
+    {
+      "slug": "explained-faith-xlvii-silent-watcher",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "faith-xlvii"
+      ],
+      "tone": "#5E6B4A",
+      "title": "The Silent Watcher, explained",
+      "dek": "A nineteen-storey woman looks down over West Philadelphia. How Faith XLVII's largest mural was made, where it is, and what is written on it.",
+      "credit": "Image: a different mural by Faith XLVII, Cologne, photographed 2015. Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "muralarts-silent",
+        "streetsdept-silent",
+        "dm-faith"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-faith-xlvii\">Faith XLVII</a>, with Beth Clevenstine. <b>Date:</b> 2019. <b>Where:</b> 3901 Market Street, Philadelphia, on University Square, an affordable housing block for older people. <b>Size:</b> 11,000 square feet, nineteen storeys high. <b>Commissioned by:</b> Mural Arts Philadelphia.<sup class=\"cite\"><a data-src=\"muralarts-silent\">[muralarts-silent]</a></sup></p>\n<h2>What it shows</h2>\n<p>A woman looks down at the street \"with a caring gaze\", in Mural Arts' words.<sup class=\"cite\"><a data-src=\"muralarts-silent\">[muralarts-silent]</a></sup> Geometric lines, a colour gradient and touches of gold lead the eye upwards. The mural carries the words \"Philadelphia Maneto\", from the city's seal, which means \"Let Brotherly Love Endure\". Lights keep it visible after dark.<sup class=\"cite\"><a data-src=\"muralarts-silent\">[muralarts-silent]</a></sup> It was her first mural in Philadelphia.<sup class=\"cite\"><a data-src=\"streetsdept-silent\">[streetsdept-silent]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The face.</b> The local blog Streets Dept praised how she carries small details of face and body up to a huge scale: \"Her work is brilliantly painterly.\"<sup class=\"cite\"><a data-src=\"streetsdept-silent\">[streetsdept-silent]</a></sup></p>\n<p><b>The gold.</b> It marks the lines that pull the eye up the building, away from the street.</p>\n<p><b>The words.</b> A civic motto, painted on housing for older people, at the gateway to a university district.</p>\n<h2>What it means</h2>\n<p>Mural Arts says the artist drew on the neighbourhood's cultural, historical and social life.<sup class=\"cite\"><a data-src=\"muralarts-silent\">[muralarts-silent]</a></sup> Our reading: the title does the work. A watcher who is silent is neither a guard nor a camera. She offers attention without control, which fits Faith XLVII's own description of her work as made \"to consider, to dismantle, to question\".<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></p>\n",
+      "image": "images/faith47-cologne.jpg",
+      "alt": "A tall painted figure in a dark hooded robe, face lifted and lit from one side, fills the pale green end wall of a block of flats. Bare trees stand in front and ivy climbs the brick beside it."
+    },
+    {
+      "slug": "explained-love-is-in-the-bin",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "banksy"
+      ],
+      "tone": "#3B3B38",
+      "title": "Love Is in the Bin, explained",
+      "dek": "A painting that half destroyed itself the moment it sold, then sold again for eighteen times as much. What happened, and what you are looking at.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tan-litb",
+        "wiki-gwb",
+        "npr-banksy",
+        "tan-goma-2023"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-banksy\">Banksy</a>. <b>What it is:</b> a framed canvas of <i>Girl with Balloon</i>, partly shredded by a device hidden in its frame in 2018. <b>Sold again:</b> Sotheby's London, 14 October 2021.<sup class=\"cite\"><a data-src=\"tan-litb\">[tan-litb]</a></sup></p>\n<h2>What happened</h2>\n<p><i>Girl with Balloon</i> began as a stencil on a wall near Waterloo Bridge, in 2002.<sup class=\"cite\"><a data-src=\"wiki-gwb\">[wiki-gwb]</a></sup> A framed canvas version came up at Sotheby's in October 2018. Seconds after the hammer fell at about £1 million, a shredder hidden in the frame pulled the canvas down and cut the lower half into strips.<sup class=\"cite\"><a data-src=\"tan-litb\">[tan-litb]</a></sup><sup class=\"cite\"><a data-src=\"npr-banksy\">[npr-banksy]</a></sup> The work was renamed <i>Love Is in the Bin</i>. Sotheby's said it had no warning.<sup class=\"cite\"><a data-src=\"npr-banksy\">[npr-banksy]</a></sup></p>\n<p>In 2021 the buyer sent the shredded work back to auction. It made £16 million on the hammer, or £18.6 million with fees, a record for the artist at the time.<sup class=\"cite\"><a data-src=\"tan-litb\">[tan-litb]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The two halves.</b> The top is untouched: a girl in black and white reaching for a red heart-shaped balloon. The bottom hangs below the frame in thin vertical strips.</p>\n<p><b>The colour.</b> The balloon is the only red in the picture. It stays whole, in the upper half, while the girl's lower body is cut away.</p>\n<p><b>The frame.</b> It is an ornate gilt frame. It held the shredder, so the frame is as much part of the work as the canvas.</p>\n<h2>What it means</h2>\n<p>This is our reading. The prank was aimed at the auction room, where a picture becomes a price. It failed on its own terms: destroying the work made it famous and more expensive. That failure is now the subject of the piece. You are looking at a joke about the art market that the art market absorbed.</p>\n<p>Glasgow's 2023 show <i>Cut & Run</i> included a detailed model of how the shredder worked.<sup class=\"cite\"><a data-src=\"tan-goma-2023\">[tan-goma-2023]</a></sup></p>\n"
+    },
+    {
+      "slug": "explained-kusama-brilliance-of-life",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "yayoi-kusama"
+      ],
+      "tone": "#7A2E2A",
+      "title": "Infinity Mirrored Room, Filled with the Brilliance of Life, explained",
+      "dek": "A dark room, a shallow pool, mirrors and hundreds of small lights. How Kusama's best-known mirror room works, and where it came from.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tate-kusama-guide",
+        "tateetc-kusama",
+        "ribaj-kusama",
+        "week-kusama"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>. <b>Date:</b> 2011/2017. <b>Materials:</b> mirrored walls, a shallow pool of water and hundreds of coloured LED lights. <b>Collection:</b> Tate, presented by the artist, Ota Fine Arts and Victoria Miro in 2015.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup><sup class=\"cite\"><a data-src=\"tateetc-kusama\">[tateetc-kusama]</a></sup></p>\n<h2>How it works</h2>\n<p>You walk along a narrow path over a shallow pool. The walls are mirrors. Small lights hang from the ceiling at different heights. Each light is reflected in the walls and the water, then reflected again, so a room a few metres across seems to run on without end.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup> The lights change colour and pulse. Tate's guide compares them to \"a heartbeat or a ticking clock\".<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>Your own reflection.</b> You appear in the work many times over, and quickly lose track of which reflection is nearest.</p>\n<p><b>The water.</b> It doubles the room downwards as well as sideways, so there is no floor to anchor you.</p>\n<p><b>The rhythm.</b> Stay still and watch one light. The changes are slow, and the room feels different at the end of a visit than at the start.</p>\n<h2>Where it came from</h2>\n<p>Tate traces the mirror rooms back to <i>Phalli's Field</i> of 1965, and before that to the Infinity Net paintings, in which one looping brushmark is repeated across a whole canvas.<sup class=\"cite\"><a data-src=\"tateetc-kusama\">[tateetc-kusama]</a></sup> Kusama said of those years: \"I painted nets from dawn to dusk.\"<sup class=\"cite\"><a data-src=\"tateetc-kusama\">[tateetc-kusama]</a></sup> The room was made for her Tate retrospective in 2012.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></p>\n<h2>What it means</h2>\n<p>Our reading: the room is a painting you stand inside. The net paintings asked the eye to lose its place in a field of marks. The mirror room does the same to the whole body. Whether that feels calm or unsettling depends on the visitor, and critics have reported both.<sup class=\"cite\"><a data-src=\"ribaj-kusama\">[ribaj-kusama]</a></sup><sup class=\"cite\"><a data-src=\"week-kusama\">[week-kusama]</a></sup></p>\n"
+    },
+    {
+      "slug": "explained-el-anatsui-old-mans-cloth",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "el-anatsui"
+      ],
+      "tone": "#8A6A2E",
+      "title": "Old Man's Cloth, explained",
+      "dek": "From a distance it looks like woven gold. Close up it is thousands of flattened bottle tops held with copper wire. How El Anatsui's metal cloths are made.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "smarthistory-oldmans",
+        "artfund-anatsui",
+        "tate-anatsui-guide"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-el-anatsui\">El Anatsui</a>. <b>Date:</b> 2003. <b>Medium:</b> aluminium and copper wire. <b>Size:</b> 487.7 by 520.7 cm. <b>Collection:</b> Harn Museum of Art, Gainesville, Florida.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup></p>\n<h2>How it is made</h2>\n<p>The metal comes from the tops and neck labels of liquor bottles, collected near the artist's home in southern Nigeria. Each piece is flattened, cut or folded and joined to the next with copper wire, usually corner to corner.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup> Anatsui first used bottle tops instead of wood in <i>Man's Cloth</i> and <i>Woman's Cloth</i> of 2001.<sup class=\"cite\"><a data-src=\"artfund-anatsui\">[artfund-anatsui]</a></sup> By 2023, in Tate's Turbine Hall, as many as 200 people were working on a single hanging.<sup class=\"cite\"><a data-src=\"tate-anatsui-guide\">[tate-anatsui-guide]</a></sup></p>\n<p>The work is laid flat while it is made. When it is installed it is pushed, folded and draped, so it never hangs the same way twice.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>From across the room.</b> Bands of gold, red and black suggest a woven cloth. Smarthistory compares it to a large woven hanging.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup></p>\n<p><b>Close up.</b> Brand names and printed colours survive on the flattened metal. Every square was once a bottle.</p>\n<p><b>The edges.</b> They are uneven and jagged, not hemmed. Smarthistory singles this out as unusual.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup></p>\n<h2>What it means</h2>\n<p>Smarthistory links the bottle tops to the long and painful history of trade between Africa and Europe, including the Atlantic slave trade.<sup class=\"cite\"><a data-src=\"smarthistory-oldmans\">[smarthistory-oldmans]</a></sup> Art Fund describes Anatsui's use of cloth as a metaphor for both the fragility and the strength of tradition.<sup class=\"cite\"><a data-src=\"artfund-anatsui\">[artfund-anatsui]</a></sup> Our reading: the work is easy to love for its shimmer, and the bottle tops are there to remind you what the shimmer cost.</p>\n"
+    },
+    {
+      "slug": "explained-milhazes-maresias",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "beatriz-milhazes"
+      ],
+      "tone": "#2E6B5E",
+      "title": "Maresias, explained",
+      "dek": "Beatriz Milhazes' large 2002 painting gave its name to her UK survey. Here is how its flat, layered circles were made, using a method she invented.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "artsdesk-milhazes",
+        "tate-milhazes-2024",
+        "artlyst-milhazes",
+        "churchtimes-milhazes",
+        "ocula-milhazes"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>. <b>Date:</b> 2002. <b>Medium:</b> acrylic on canvas. <b>Size:</b> 300 by 267 cm. <b>Collection:</b> TBA21, Thyssen-Bornemisza Art Contemporary.<sup class=\"cite\"><a data-src=\"artsdesk-milhazes\">[artsdesk-milhazes]</a></sup> It was one of the large paintings in Brazil's pavilion at the 2003 Venice Biennale.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup> Tate glosses the title as the salty sea breeze.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup></p>\n<h2>How it is made</h2>\n<p>Milhazes calls her method monotransfer. Around 1989, frustrated by visible brushstrokes, she began painting her motifs onto sheets of plastic, then pressing them paint side down onto the canvas and peeling the plastic away.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup><sup class=\"cite\"><a data-src=\"artlyst-milhazes\">[artlyst-milhazes]</a></sup> The result is a perfectly flat skin of colour. Because each motif is made separately, the layers build up one over another and the surface can crack.<sup class=\"cite\"><a data-src=\"artsdesk-milhazes\">[artsdesk-milhazes]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The circles.</b> Targets, discs and rings of dots overlap edge to edge. One critic wrote that \"each circle spirals and spins into another\".<sup class=\"cite\"><a data-src=\"artsdesk-milhazes\">[artsdesk-milhazes]</a></sup></p>\n<p><b>The surface.</b> Look for faint cracks and peeled edges. No brushstroke is visible anywhere, which is the point of the method.</p>\n<p><b>Distance.</b> Walk towards it slowly. The picture changes from a single pattern to separate layers as you get closer.<sup class=\"cite\"><a data-src=\"churchtimes-milhazes\">[churchtimes-milhazes]</a></sup></p>\n<h2>What it means</h2>\n<p>Critics have read the circles as rosary beads, lace and carnival decoration, drawing on Rio's churches and carnival.<sup class=\"cite\"><a data-src=\"churchtimes-milhazes\">[churchtimes-milhazes]</a></sup><sup class=\"cite\"><a data-src=\"artsdesk-milhazes\">[artsdesk-milhazes]</a></sup> Milhazes calls herself an abstract geometric artist.<sup class=\"cite\"><a data-src=\"ocula-milhazes\">[ocula-milhazes]</a></sup> Our reading: both are true. The forms are geometric, and the memories come in through colour.</p>\n"
+    },
+    {
+      "slug": "explained-raza-bindu",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "s-h-raza"
+      ],
+      "tone": "#3A3A6A",
+      "title": "Raza's bindu, explained",
+      "dek": "For the last thirty years of his career S.H. Raza painted a black circle at the centre of the canvas again and again. Where it came from, and how to read one.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "saffronart-bindu",
+        "pompidou-raza",
+        "saffronart-otta",
+        "astaguru-provence",
+        "deshgujarat-saurashtra",
+        "christies-raza-10",
+        "tan-raza-pompidou",
+        "aap-raza"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-s-h-raza\">S.H. Raza</a>. <b>Example:</b> <i>Bindu</i>, 2002, acrylic on canvas, 40 by 40 cm.<sup class=\"cite\"><a data-src=\"saffronart-bindu\">[saffronart-bindu]</a></sup> The bindu became a systematic part of his painting from the 1980s.<sup class=\"cite\"><a data-src=\"pompidou-raza\">[pompidou-raza]</a></sup></p>\n<h2>The road to the dot</h2>\n<p>Raza arrived in France in 1950.<sup class=\"cite\"><a data-src=\"pompidou-raza\">[pompidou-raza]</a></sup> For years he painted landscape: French villages such as <i>Village Otta Corse</i> of 1958, then large dark canvases such as <i>La Provence Noire</i> of 1965.<sup class=\"cite\"><a data-src=\"saffronart-otta\">[saffronart-otta]</a></sup><sup class=\"cite\"><a data-src=\"astaguru-provence\">[astaguru-provence]</a></sup> <i>Saurashtra</i> of 1983, a canvas 200 cm square named after the peninsula in Gujarat, was described at its sale in 2010 as a bridge into the geometric work that followed.<sup class=\"cite\"><a data-src=\"deshgujarat-saurashtra\">[deshgujarat-saurashtra]</a></sup> It sold at Christie's London for £2,393,250 and went to Kiran Nadar.<sup class=\"cite\"><a data-src=\"deshgujarat-saurashtra\">[deshgujarat-saurashtra]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The centre.</b> A solid black circle sits in the middle of the canvas, often the darkest and flattest thing in it.</p>\n<p><b>What surrounds it.</b> Bands, triangles and squares of colour are arranged around the dot, often symmetrically, so the eye keeps returning to it.</p>\n<p><b>The edges.</b> In many late works the paint is kept clean and the forms hard-edged, a long way from the village landscapes of the 1950s.</p>\n<h2>What it means</h2>\n<p>Raza linked the bindu to Indian thought about origin and energy, and once said of it, \"It's the centre of my life.\"<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup> He is reported to have said that he learned how to paint from France, and what to paint from India.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup> When the Centre Pompidou showed his work in 2023, one review warned against turning his personal beliefs into general claims about Indian thought.<sup class=\"cite\"><a data-src=\"aap-raza\">[aap-raza]</a></sup> Our reading: take the black dot first as a painter's device. It is a fixed point that lets him try endless arrangements of colour around it, the way a musician might hold one note.</p>\n"
+    },
+    {
+      "slug": "explained-richter-birkenau",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "gerhard-richter"
+      ],
+      "tone": "#4A4F57",
+      "title": "Birkenau, explained",
+      "dek": "Four large abstract paintings from 2014 hide four photographs taken inside a death camp. What Richter did, and why you cannot see the pictures beneath.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "flashart-richter",
+        "met-richter",
+        "si-richter-2025",
+        "tan-richter-flv"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-gerhard-richter\">Gerhard Richter</a>. <b>Date:</b> 2014. <b>Medium:</b> oil on canvas, four paintings. <b>Size:</b> 260 by 200 cm each. <b>Collection:</b> on loan from the Gerhard Richter Kunststiftung to the Neue Nationalgalerie, Berlin.<sup class=\"cite\"><a data-src=\"flashart-richter\">[flashart-richter]</a></sup></p>\n<h2>The source</h2>\n<p>In 1944 four photographs were taken secretly at Auschwitz-Birkenau and smuggled out of the camp.<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup> Studio International describes them as the only four surviving photographs taken by inmates. Richter first tried to copy them onto canvas, and was not satisfied.<sup class=\"cite\"><a data-src=\"si-richter-2025\">[si-richter-2025]</a></sup></p>\n<h2>How it was made</h2>\n<p>The Met published photographs of the work in progress, dated through the summer of 2014. They show Richter sketching the photographs onto the canvases, then gradually covering them with layers of paint, white and black, then green, red, pink and coral, spread and scraped across the surface with wide squeegees.<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup> By the end, the photographs are buried.</p>\n<h2>What to look at</h2>\n<p><b>The colours.</b> Mostly grey and black, with red and green breaking through. Joe Lloyd, in Studio International, reads the grey as smoke, the red as blood and the green as nature.<sup class=\"cite\"><a data-src=\"si-richter-2025\">[si-richter-2025]</a></sup> That is his reading, and Richter has not confirmed any code.</p>\n<p><b>The scraping.</b> Look for places where one layer has been dragged off to show another. The Met calls them \"heavily disturbed, ruptured surfaces\".<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup></p>\n<p><b>What is missing.</b> There is no figure, no camp, no recognisable shape at all.</p>\n<h2>What it means</h2>\n<p>Our reading: the paintings are about refusing to make the photographs into a painting. Richter is best known for blurred paintings made from photographs, such as <i>Uncle Rudi</i> of 1965.<sup class=\"cite\"><a data-src=\"tan-richter-flv\">[tan-richter-flv]</a></sup> Here the subject was too grave to blur, so he covered it. The four canvases record that he started, and that he chose to stop. They are abstract paintings with a known subject that can no longer be seen.</p>\n"
+    },
+    {
+      "slug": "explained-osgemeos-1980",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "osgemeos"
+      ],
+      "tone": "#C79A2E",
+      "title": "1980, explained",
+      "dek": "Three teenagers on a graffiti-covered New York subway car, painted partly in sequins. How OSGEMEOS turned a memory of the streets into a shimmering panel.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "bmore-osg",
+        "hirshhorn-osg",
+        "npr-osg"
+      ],
+      "body": "\n<p><b>Artists:</b> <a href=\"#artist-osgemeos\">OSGEMEOS</a> (Gustavo and Otavio Pandolfo). <b>Date:</b> 2020. <b>Medium:</b> mixed media with sequins on MDF. <b>Size:</b> 219 by 319 by 5 cm. Shown in <i>Endless Story</i> at the Hirshhorn, 2024 to 2025.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup><sup class=\"cite\"><a data-src=\"hirshhorn-osg\">[hirshhorn-osg]</a></sup></p>\n<h2>What it shows</h2>\n<p>Three young men ride a New York subway car covered in tags. One holds a Krylon spray can.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup> The title is a year from the twins' childhood: they were born in São Paulo in 1974.<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The sequins.</b> They catch light as you move, so a picture of a dirty train flickers like a stage costume.</p>\n<p><b>The support.</b> MDF is a cheap building board, more like a wall than a canvas. It suits painters who started on walls.</p>\n<p><b>The figures.</b> Compare them with the yellow-skinned figures of the murals. The same cast moves between walls, trains and panels.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup></p>\n<h2>What it means</h2>\n<p>Our reading: it is a homage and a memory at once. Painting a tagged New York train in sequins turns a rough subject into something treasured, the way a childhood memory is polished by time. The work honours graffiti while admitting it is now a museum subject.</p>\n"
+    },
+    {
+      "slug": "explained-kaws-companion",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "kaws"
+      ],
+      "tone": "#4F6B8A",
+      "title": "COMPANION, explained",
+      "dek": "A cartoon body, a skull and crossbones for a head and X marks for eyes. How KAWS' best-known figure went from a toy to a bronze, and what critics make of it.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "christies-companion",
+        "tan-kaws-2021",
+        "globe-kaws",
+        "rail-kaws",
+        "ago-kaws"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-kaws\">KAWS</a> (Brian Donnelly). <b>First made:</b> 1999, as a vinyl toy. <b>Example:</b> <i>COMPANION (ORIGINALFAKE)</i>, 2011, fibreglass and paint, 245 cm high, edition of three plus two artist's proofs.<sup class=\"cite\"><a data-src=\"christies-companion\">[christies-companion]</a></sup></p>\n<h2>Where it came from</h2>\n<p>KAWS began by painting over advertisements, as in <i>UNTITLED (MAIDENFORM)</i> of 1999, where a model's head is replaced with a COMPANION head.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup> The figure has a body borrowed from Mickey Mouse and a skull for a head.<sup class=\"cite\"><a data-src=\"globe-kaws\">[globe-kaws]</a></sup> A version made for his Tokyo shop, ORIGINALFAKE, followed in 2006.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup></p>\n<h2>How it has grown</h2>\n<p>The figure now appears at every scale. <i>COMPANION (RESTING PLACE)</i> of 2013 is split down the middle, cartoon on one side and anatomy on the other.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup> A 35 metre inflatable floated in Hong Kong's Victoria Harbour in 2019.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup> In <i>FAMILY</i> of 2021, a painted bronze, four of his figures pose as a family.<sup class=\"cite\"><a data-src=\"ago-kaws\">[ago-kaws]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The eyes.</b> Two Xs. In cartoons they mean a character is dead or knocked out. Here they make the face unreadable.</p>\n<p><b>The pose.</b> Many recent figures cover their face with their hands or slump. The Globe and Mail's critic saw COMPANION used as an everyman, a parent and a mourner.<sup class=\"cite\"><a data-src=\"globe-kaws\">[globe-kaws]</a></sup></p>\n<p><b>The surface.</b> Even bronze is painted to look like plastic. Paddy Johnson found this the weakness of the sculptures.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup></p>\n<h2>What it means</h2>\n<p>KAWS told the Brooklyn Rail: \"I want you to look at the form. I don't want you to think about what they might say.\"<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup> Our reading: that is the trouble and the appeal. A figure without a readable face lets anyone project a feeling onto it, which is why it sells, and why critics find it hard to pin down.</p>\n"
+    },
+    {
+      "slug": "explained-eko-nugroho-illusion",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "eko-nugroho"
+      ],
+      "tone": "#8A3E5C",
+      "title": "Illusion, explained",
+      "dek": "A large embroidery in the Singapore Art Museum, stitched with masked figures and factory chimneys. How Eko Nugroho turned gang-jacket embroidery into a picture of a damaged landscape.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "sam-illusion",
+        "gac-illusion",
+        "artandmarket-eko",
+        "jp-eko"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-eko-nugroho\">Eko Nugroho</a>. <b>Date:</b> 2007. <b>Medium:</b> embroidery. <b>Size:</b> 296 by 148 cm. <b>Collection:</b> Singapore Art Museum.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup></p>\n<h2>How it is made</h2>\n<p>Nugroho draws the design and the stitching is done with a community of artisans in Indonesia. The National Heritage Board's record says he took the idea from the embroidered patches on Indonesian gang leather jackets.<sup class=\"cite\"><a data-src=\"gac-illusion\">[gac-illusion]</a></sup> He began making embroideries in 2007, the year of this work.<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup></p>\n<h2>What it shows</h2>\n<p>A stripped landscape with machine-like monsters and a masked figure.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> A chimney recurs as a sign of industry and pollution. The record quotes the artist describing \"the language of industry, factory, work, pollution and chaos\".<sup class=\"cite\"><a data-src=\"gac-illusion\">[gac-illusion]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The thread.</b> Dense, glossy stitching, closer to a badge or a uniform patch than to a sampler.</p>\n<p><b>The masks.</b> Nugroho's figures are almost always masked. He has said he does not want to pass judgement on anyone.<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup></p>\n<p><b>The empty ground.</b> Look at how much of the landscape is bare. The monsters stand in a place that has been used up.</p>\n<h2>What it means</h2>\n<p>Our reading: the material carries the argument. Gang patches are badges of belonging, made to be worn on the street. Nugroho turns that craft into a wall-sized picture of what industry leaves behind. A form of street identity becomes a form of protest.</p>\n"
+    },
+    {
+      "slug": "explained-van-gogh-sunflowers",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "vincent-van-gogh"
+      ],
+      "tone": "#3C5A8A",
+      "title": "Sunflowers, explained",
+      "dek": "Fifteen flowers in a jug, painted in about a week in August 1888 to decorate a room for a guest. How Van Gogh made a picture almost entirely in yellow.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "ng-sunflowers",
+        "tan-vangogh-2024"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-vincent-van-gogh\">Vincent van Gogh</a>. <b>Date:</b> 1888. <b>Medium:</b> oil on canvas. <b>Size:</b> 92.1 by 73 cm. <b>Collection:</b> The National Gallery, London, bought in 1924.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup></p>\n<h2>Why it was painted</h2>\n<p>Van Gogh painted it in Arles to decorate his house before Paul Gauguin came to stay. Gauguin arrived on 23 October 1888.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup> He made seven versions of the subject in 1888 and 1889: four in August 1888, in about a week, and three more in January 1889.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The stages of the flowers.</b> The National Gallery counts fifteen sunflowers, from bud to full bloom to heads gone to seed.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup> Some are fresh, some are dying. The picture shows a lifetime in one jug.</p>\n<p><b>The yellows.</b> Yellow flowers in a jug on a mustard table against a pale wheat-yellow wall. Van Gogh described it as \"a picture all in yellow\".<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup> The differences between the yellows are what hold the shapes apart.</p>\n<p><b>The paint.</b> The gallery notes that the stiff new tube paints let him build thick ridges, or impasto. Look at the seed heads, where the paint is piled up.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup></p>\n<p><b>The signature.</b> \"Vincent\" is written in blue on the jug, as if it were part of the decoration.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup></p>\n<h2>What it means</h2>\n<p>The National Gallery offers three readings: the old Dutch tradition of flower paintings as reminders of death, the flowers as a sign of friendship, and simple delight in the life of nature.<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup> Van Gogh himself wrote, as the gallery quotes him, \"The sunflower is mine.\"<sup class=\"cite\"><a data-src=\"ng-sunflowers\">[ng-sunflowers]</a></sup> Our reading: the friendship and the dying flowers sit together. It was a welcome for a guest, painted by someone who knew the flowers would not last the month.</p>\n<p>In 2024 the painting hung beside the Philadelphia version, with a blue background, for the first time since 1963.<sup class=\"cite\"><a data-src=\"tan-vangogh-2024\">[tan-vangogh-2024]</a></sup></p>\n"
+    },
+    {
+      "slug": "explained-kandinsky-composition-8",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "wassily-kandinsky"
+      ],
+      "tone": "#B8452F",
+      "title": "Composition 8, explained",
+      "dek": "Circles, triangles and lines on a pale ground, painted at the Bauhaus in 1923. Kandinsky thought it his best work since the war. How to look at a picture with no subject.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "bilbao-comp8",
+        "si-kandinsky-bilbao",
+        "bilbao-kandinsky"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>. <b>Date:</b> July 1923. <b>Medium:</b> oil on canvas. <b>Size:</b> 140 by 201 cm. <b>Collection:</b> Solomon R. Guggenheim Museum, New York, Founding Collection.<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup></p>\n<h2>Where it sits</h2>\n<p>Kandinsky painted it while teaching at the Bauhaus. The Guggenheim's guide says he regarded it as \"the high point of his postwar achievement\".<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup> Solomon Guggenheim bought it at Dessau in 1929, the first of more than 150 Kandinskys the museum came to own.<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup> Studio International notes the influence of Malevich and Rodchenko on this geometric phase.<sup class=\"cite\"><a data-src=\"si-kandinsky-bilbao\">[si-kandinsky-bilbao]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The circles.</b> The largest, upper left, is dark with a ring of colour. Smaller circles are scattered across the canvas. The guide notes that they point to the circle paintings that followed.<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup></p>\n<p><b>The lines.</b> Thin, straight and crossing, some ruled into grids, some ending in points. They work like a drawing laid over the colour.</p>\n<p><b>The triangles.</b> Sharp, often in pairs, pointing up or across. In the guide's words, \"circles, triangles, and linear elements create a surface of interacting geometric forms\".<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup></p>\n<p><b>The ground.</b> Pale and fairly even, so every shape reads clearly. Compare <i>Black Lines</i> of 1913, which is dense and crowded.<sup class=\"cite\"><a data-src=\"bilbao-kandinsky\">[bilbao-kandinsky]</a></sup></p>\n<h2>What it means</h2>\n<p>The Guggenheim guide opens with a line from Kandinsky's 1911 writing on colour, which compares the effect of colour to a piano: \"Color is the keyboard, the eyes are the hammers, the soul is the piano with many strings.\"<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup> Our reading: there is no hidden subject to find. Look at it the way you would listen to a piece of music, following which shape leads and which answers, and the picture makes sense.</p>\n"
+    },
+    {
+      "slug": "explained-rene-matic-no-place-for-violence",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "rene-matic"
+      ],
+      "tone": "#8A4F5E",
+      "title": "Untitled (No Place for Violence), explained",
+      "dek": "A huge white flag, hung in the middle of Matić's Turner Prize room. What the words say, where they came from, and why a flag was the right form.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tan-turner-2025",
+        "tateetc-turner-2025",
+        "sota-turner-2025"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-rene-matic\">Rene Matić</a>. <b>Date:</b> 2024. <b>Form:</b> a large white flag. <b>Shown:</b> <i>AS OPPOSED TO THE TRUTH</i>, CCA Berlin, and the Turner Prize 2025 exhibition, Cartwright Hall, Bradford.<sup class=\"cite\"><a data-src=\"tan-turner-2025\">[tan-turner-2025]</a></sup><sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup></p>\n<h2>What it says</h2>\n<p>One side reads \"No Place\". The other reads \"For Violence\". Kadish Morris, writing for Tate Etc., explains that the phrase echoes what Joe Biden and Barack Obama said after the attempt on Donald Trump's life in July 2024.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The two sides.</b> You can never read the whole phrase at once. Walk around it and the sentence splits into two claims.</p>\n<p><b>The placing.</b> In Bradford it hung from the ceiling in the centre of the room, so every other work was seen past it.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup></p>\n<p><b>The sound.</b> Millie Lacey reported audio from pro-Palestinian protests, naming the daily dead in Gaza, playing in the room and cutting across the flag's message.<sup class=\"cite\"><a data-src=\"sota-turner-2025\">[sota-turner-2025]</a></sup></p>\n<h2>What it means</h2>\n<p>Matić has said the aim was to \"embarrass the kind of principle of what a flag is supposed to be\".<sup class=\"cite\"><a data-src=\"tan-turner-2025\">[tan-turner-2025]</a></sup> Morris reads it as a flag that pledges allegiance to no state.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup> Our reading: a flag usually claims ground. This one borrows the words politicians use after violence and makes them literal, a flag for \"no place\". Put next to recordings of a war, the words start to sound hollow, which is the point.</p>\n"
+    },
+    {
+      "slug": "explained-raven-halfmoon-flagbearer",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "raven-halfmoon"
+      ],
+      "tone": "#9C5A3C",
+      "title": "Flagbearer, explained",
+      "dek": "A stoneware woman more than twelve feet tall, built from coils of clay and fired in three parts. How Raven Halfmoon made her largest work.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "ogden-halfmoon",
+        "sixty-halfmoon",
+        "rail-halfmoon",
+        "swc-halfmoon",
+        "tci-halfmoon"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-raven-halfmoon\">Raven Halfmoon</a>. <b>Date:</b> 2022. <b>Medium:</b> stoneware and glaze, in three stacked parts. <b>Size:</b> 388.6 by 149.9 by 121.9 cm. Made during a residency at California State University, Long Beach.<sup class=\"cite\"><a data-src=\"ogden-halfmoon\">[ogden-halfmoon]</a></sup></p>\n<h2>How it is made</h2>\n<p>Halfmoon builds with thick coils of clay, joined by pressing and scraping with her hands.<sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup> A figure this large will not fit in a kiln whole, so it was built and fired in three pieces and stacked.<sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup> The Brooklyn Rail gives its weight as 2,400 pounds.<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup> Firing can take two to three weeks.<sup class=\"cite\"><a data-src=\"swc-halfmoon\">[swc-halfmoon]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The hand marks.</b> Halfmoon leaves them on purpose. \"You can see the moment that I laid down the mark,\" she says.<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup></p>\n<p><b>The colour.</b> A red base, a white middle dripping onto the red, and a pale top. The Brooklyn Rail reads red as the soil of Oklahoma and as a reference to murdered Indigenous women.<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup><sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup></p>\n<p><b>The name.</b> \"Halfmoon\" is written in black across the work. River Ian Kerstetter reads it as a shift from graffiti's \"I was here\" to \"I am here\".<sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup></p>\n<h2>What it means</h2>\n<p>The figure is an Indigenous woman. Halfmoon is a citizen of the Caddo Nation, and the work honours Caddo women and the matrilineal tradition in which she carries her mother's family name.<sup class=\"cite\"><a data-src=\"tci-halfmoon\">[tci-halfmoon]</a></sup><sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup> At the Bemis Center it stood outside, facing towards Norman, Oklahoma, according to the curator quoted by Kerstetter.<sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup> Our reading: the size is not there to impress. It makes a woman impossible to overlook, in a country where Indigenous women have often been unseen.</p>\n"
+    },
+    {
+      "slug": "explained-ana-segovia-ramon",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "ana-segovia"
+      ],
+      "tone": "#B5392B",
+      "title": "The Ramón paintings, explained",
+      "dek": "A cowboy seen from hip to knee, face always hidden, with titles that do not match the picture. How Ana Segovia uses cropping to unpick the macho film hero.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "nyt-segovia",
+        "another-segovia",
+        "galerie-segovia-2025"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-ana-segovia\">Ana Segovia</a>. <b>Series:</b> <i>Ramón</i>, 2025, oil paintings. <b>Shown:</b> kurimanzutto's solo booth at Frieze London, October 2025.<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup><sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup></p>\n<h2>Who Ramón is</h2>\n<p>Ramón is an invented cowboy, described by The New York Times as a Mexican Marlboro Man.<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup> Segovia starts from film stills, many from the golden age of Mexican cinema, and from images found online.<sup class=\"cite\"><a data-src=\"galerie-segovia-2025\">[galerie-segovia-2025]</a></sup><sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The crop.</b> The pictures show the body from hips to knees. You never see Ramón's face.<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup></p>\n<p><b>The titles.</b> Titles such as <i>Ramón Eating an Apple</i> or <i>Ramón Playing the Flute</i> promise an action you cannot see. Of <i>Ramón Throwing a Rock</i>, the Times notes simply: \"There is no rock.\"<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup></p>\n<p><b>The surfaces.</b> Jeans and chaps are painted in reflective reds, and the Times reads the effect as openly erotic.<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup></p>\n<h2>What it means</h2>\n<p>Segovia names three things that drive the work: \"humor, eros, and aggression\".<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup> And of the character: \"Ramón is my fantasy of who I want to be, or think I am.\"<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup> Our reading: the cropping does two things at once. It takes away the hero's face, his authority. And it puts the viewer in the position of someone looking at a body with desire, a position western films rarely admit to. The joke is affectionate, which is why it lands.</p>\n"
+    },
+    {
+      "slug": "explained-dana-awartani-come-let-me-heal",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "dana-awartani"
+      ],
+      "tone": "#2F5E6E",
+      "title": "Come, let me heal your wounds. Let me mend your broken bones, explained",
+      "dek": "Torn silk, dyed with herbs and spices, then darned by hand. How Dana Awartani's Venice installation records destroyed buildings, one repair at a time.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "designboom-awartani",
+        "biennale-awartani",
+        "bal-awartani"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-dana-awartani\">Dana Awartani</a>. <b>Date:</b> 2024. <b>Medium:</b> darning on medicinally dyed silk. <b>Size:</b> 520 by 1250 by 297 cm. <b>First shown:</b> 60th Venice Biennale, Arsenale, 2024.<sup class=\"cite\"><a data-src=\"designboom-awartani\">[designboom-awartani]</a></sup><sup class=\"cite\"><a data-src=\"biennale-awartani\">[biennale-awartani]</a></sup></p>\n<h2>How it is made</h2>\n<p>Long panels of silk are dyed with herbs and spices chosen for their healing properties, a method linked to the textile traditions of Kerala that Awartani studied.<sup class=\"cite\"><a data-src=\"designboom-awartani\">[designboom-awartani]</a></sup> Holes are torn in the silk, each one standing for a historic or cultural site damaged or destroyed by war in Gaza and across the Arab world. Each hole is then darned by hand.<sup class=\"cite\"><a data-src=\"designboom-awartani\">[designboom-awartani]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The holes.</b> Each is a place. Count them, and remember that the work is added to as new sites are lost. The writer Saira Ansari, quoted by designboom, describes this as making room for newer documentation.<sup class=\"cite\"><a data-src=\"designboom-awartani\">[designboom-awartani]</a></sup></p>\n<p><b>The darning.</b> The mends do not hide the damage. They leave a visible scar in a different texture.</p>\n<p><b>The colour.</b> The silk hangs in long yellow and red lengths, and each repair shows as a change of texture in the colour.<sup class=\"cite\"><a data-src=\"designboom-awartani\">[designboom-awartani]</a></sup></p>\n<h2>What it means</h2>\n<p>Darning is a humble household repair. Awartani has said that some people see craft as a form of prayer.<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup> Our reading: the work sets the slowness of mending against the speed of destruction. It cannot keep up, and it does not pretend to. That honesty is what makes it moving.</p>\n"
+    },
+    {
+      "slug": "explained-jes-fan-palimpsest",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "jes-fan"
+      ],
+      "tone": "#4B5D7A",
+      "title": "Palimpsest, explained",
+      "dek": "Chinese characters implanted in live oysters, grown into pearls, then fired between plates of glass. Jes Fan's five-minute film about healing and what it hides.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "eflux-fan-wounding",
+        "mplus-fan"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-jes-fan\">Jes Fan</a>. <b>Date:</b> 2023. <b>Medium:</b> HD film, colour, sound, 5 minutes 39 seconds. <b>Shown:</b> <i>Sites of Wounding: Chapter 1</i>, Empty Gallery, Hong Kong, 2023.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup></p>\n<h2>What happens in it</h2>\n<p>The film follows a research project of nearly three years with scientists at the University of Hong Kong. Four Chinese characters, meaning \"Pearl of the Orient\", an old nickname for Hong Kong, were implanted in live oysters. The oysters were later fired in a kiln between plates of glass. There are panoramas of Hong Kong harbour and a wordless, close-up soundtrack.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The oysters.</b> An oyster makes a pearl by coating something that has got inside it. The pearl is a response to an injury.</p>\n<p><b>The writing.</b> The words are hidden inside the growth. You know they are there, but you cannot read them.</p>\n<p><b>The sound.</b> No narration. The film gives you process, not explanation.</p>\n<h2>What it means</h2>\n<p>Wong Binghao, reviewing the show for e-flux, wrote: \"Like the pearl it protects, this artwork reveals its meaning only in glimpses.\"<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup> The oyster was the first subject of Fan's long project on how bodies regenerate at sites of injury, which went on to include agarwood.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup><sup class=\"cite\"><a data-src=\"mplus-fan\">[mplus-fan]</a></sup> Our reading: the film is about Hong Kong as much as oysters. A city's name for itself is planted in a living thing, covered over and then put through fire. What survives is beautiful, and the message is sealed inside.</p>\n"
+    },
+    {
+      "slug": "explained-lghacham-casa-paquita",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "mohamed-lghacham"
+      ],
+      "tone": "#7A6A4F",
+      "title": "Casa Paquita, explained",
+      "dek": "A forty-year-old family snapshot, painted back onto a wall in the place where it was taken. How Mohamed L'Ghacham turns other people's photographs into murals.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "saus-lghacham",
+        "colossal-lghacham-2019",
+        "jux-lghacham"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>. <b>Date:</b> 2017. <b>Where:</b> Can Picafort, Mallorca. <b>Made for:</b> Saladina Art Fest.<sup class=\"cite\"><a data-src=\"saus-lghacham\">[saus-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<h2>The source</h2>\n<p>The mural was painted from a photograph of the owner's children taken about forty years earlier, in the same spot.<sup class=\"cite\"><a data-src=\"saus-lghacham\">[saus-lghacham]</a></sup> Colossal describes his habit of working from old family photographs and choosing the accidental shots, for their honesty.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The faces.</b> They are suggested with loose, layered strokes rather than drawn in detail. Colossal notes that you need to step back for them to come together.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<p><b>The colour.</b> A muted palette, close to a faded print, which ties the picture to its weathered wall.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<p><b>The place.</b> The scene is back where it happened. Anyone who knew the family sees the past and present at once.</p>\n<h2>What it means</h2>\n<p>L'Ghacham has said that his paintings \"usually represent moments of calm and reunion\".<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup> Our reading: this is a mural that only fully works for a few people, and that is its strength. Strangers see a warm, ordinary scene. The family sees itself forty years younger, painted larger than life on the wall of home.</p>\n"
+    },
+    {
+      "slug": "explained-warhol-marilyn-diptych",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "andy-warhol"
+      ],
+      "tone": "#B23A48",
+      "title": "Marilyn Diptych, explained",
+      "dek": "Fifty copies of one publicity photograph, in colour on the left and fading black and white on the right. Made in the months after Marilyn Monroe died.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "wiki-marilyn-diptych",
+        "tate-warhol-conservation",
+        "phaidon-marilyn"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-andy-warhol\">Andy Warhol</a>. <b>Date:</b> 1962. <b>Medium:</b> silkscreen ink and acrylic paint on canvas. <b>Size:</b> 205.4 by 289.6 cm. <b>Collection:</b> Tate, bought in 1980.<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p>\n<h2>How it was made</h2>\n<p>Warhol began making silkscreens in August 1962, the same month Monroe died.<sup class=\"cite\"><a data-src=\"tate-warhol-conservation\">[tate-warhol-conservation]</a></sup> The source was a publicity still for the film <i>Niagara</i> (1953), taken by Gene Kornman. Warhol cropped it to her face, had it made into a screen, painted some areas by hand and then printed the face over the colour.<sup class=\"cite\"><a data-src=\"tate-warhol-conservation\">[tate-warhol-conservation]</a></sup> Wikipedia quotes his description of the screen process: the photograph is transferred in glue onto silk, and you \"roll ink across it so the ink goes through the silk but not through the glue\".<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p>\n<p>It was first two separate pieces. Tate says the collectors Burton and Emily Tremaine bought them, and Phaidon reports that it was Emily Tremaine who put them together and asked Warhol if it could be a diptych.<sup class=\"cite\"><a data-src=\"tate-warhol-conservation\">[tate-warhol-conservation]</a></sup><sup class=\"cite\"><a data-src=\"phaidon-marilyn\">[phaidon-marilyn]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The left panel.</b> Twenty-five faces in yellow hair, lavender skin and orange ground. The colour is laid on in blocks and does not quite line up with the printed face.<sup class=\"cite\"><a data-src=\"phaidon-marilyn\">[phaidon-marilyn]</a></sup></p>\n<p><b>The right panel.</b> Twenty-five black and white faces. Some are heavy with ink, others so faint they nearly vanish.</p>\n<p><b>The grid.</b> Fifty repeats of one image, like a contact sheet or a shop shelf.<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p>\n<h2>What it means</h2>\n<p>A diptych is a two-panel painting, a form long used for religious images. Phaidon links the title to that tradition and to the way Monroe was worshipped.<sup class=\"cite\"><a data-src=\"phaidon-marilyn\">[phaidon-marilyn]</a></sup> Our reading: the two halves look like fame and death, the bright public image on one side and the fading prints on the other. Warhol said he wanted \"more of an assembly line effect\".<sup class=\"cite\"><a data-src=\"phaidon-marilyn\">[phaidon-marilyn]</a></sup> The fading is what happens when an assembly line runs out of ink, and here it reads as grief.</p>\n<p>After two years of conservation Tate now shows it looking \"closer to how Warhol and the Tremaines would have seen it in 1962\".<sup class=\"cite\"><a data-src=\"tate-warhol-conservation\">[tate-warhol-conservation]</a></sup></p>\n"
+    },
+    {
+      "slug": "explained-konn-artiss-venice-effigy",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "konn-artiss"
+      ],
+      "tone": "#2E4250",
+      "title": "The Venice canal effigy, explained",
+      "dek": "In June 2025 a floating figure of Jeff Bezos drifted through Venice ahead of his wedding. How the Konn Artiss stunt was staged, and what it was for.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "gb-venice",
+        "tan-frieze"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-konn-artiss\">Konn Artiss</a>. <b>Date:</b> June 2025. <b>Form:</b> a mannequin of Jeff Bezos on a raft in the canals of Venice, with a satirical newspaper, <i>The Washington Ghost</i>.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What happened</h2>\n<p>GB News reported a figure of the Amazon founder floating on a raft near the Rialto Bridge, apparently steered by a hidden propeller. The appearances were repeated every three hours over several days. Earlier, mannequins of Bezos and Lauren Sánchez in wedding clothes had floated along the Grand Canal in a gondola, and another Bezos figure appeared in St Mark's Square as a scarecrow covered in fake dollar bills bearing his face.<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup> Alongside, the artist handed out more than 10,000 copies of <i>The Washington Ghost</i>, with the headline \"Male Orders Bride\".<sup class=\"cite\"><a data-src=\"gb-venice\">[gb-venice]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The movement.</b> A figure that drifts, appears and vanishes on a schedule behaves more like a performance than a sculpture.</p>\n<p><b>The setting.</b> The figures turned up at the best-known sights, the Rialto, the Grand Canal and St Mark's Square, where they were sure to be seen and photographed.</p>\n<p><b>The paper.</b> The title plays on <i>The Washington Post</i>, and the headline turns the wedding into a joke about mail order.</p>\n<h2>What it means</h2>\n<p>Our reading: the target is not only one rich man but the way a city can be hired as a backdrop. The work lasted only as long as the wedding. Like <a href=\"#a-review-anti-frieze\">ANTI-FRIEZE</a>, it was made to be photographed and shared, then to disappear. As with all Konn Artiss work, much of what is known comes from press reports, and the artist's identity has not been confirmed.<sup class=\"cite\"><a data-src=\"tan-frieze\">[tan-frieze]</a></sup></p>\n"
+    },
+    {
+      "slug": "explained-zara-muse-malala",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "zara-muse"
+      ],
+      "tone": "#C08A68",
+      "title": "Zara Muse's portrait of Malala Yousafzai, explained",
+      "dek": "A portrait built from palette-knife slabs of acrylic, and the painting that took Zara Muse into a Bonhams sale. What we know, and what we do not.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "ap-muse"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-zara-muse\">Zara Muse</a>. <b>Subject:</b> Malala Yousafzai. <b>Medium:</b> acrylic on canvas. <b>Sold:</b> Bonhams London, 20th/21st Century Art Day Sale. The interview that reports the sale gives £51,200 including the buyer's premium in one place and £51,000 in another.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> We have not found the date or size of the painting in a source we could check.</p>\n<h2>How it is made</h2>\n<p>Muse paints with palette knives and spatulas only, never brushes.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The paint is laid in thick, flat-edged slabs rather than blended, so the face is built from separate planes of colour. Our <a href=\"#a-palette-knife-painting\">guide to palette-knife painting</a> explains the technique in more detail.</p>\n<h2>What to look at</h2>\n<p><b>The planes of the face.</b> Look at how the cheek and jaw are made from distinct strokes of colour, each with a hard edge left by the knife.</p>\n<p><b>The ridges.</b> Seen from the side, the paint stands proud of the canvas.</p>\n<p><b>Distance.</b> Close up the face breaks into slabs. From across a room it comes together.</p>\n<h2>Why this subject</h2>\n<p>Muse has said: \"I chose Malala Yousafzai because, to me, she is such a powerful subject.\" She describes her work as \"a homage to the resilience and beauty of women\".<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p>\n<h2>What we cannot say</h2>\n<p>We have found no independent review of the painting. The account above comes from an interview with the artist and from Grove Gallery, which represents her. Artiscope, which publishes this site, sells her work through Grove Gallery.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> We have marked it accordingly, and we would welcome a catalogue entry or lot page to confirm the details.</p>\n"
     },
     {
       "slug": "palette-knife-painting",
@@ -5857,6 +6831,428 @@
         "christies-semmedo"
       ],
       "body": "\n  <p>Mixed media simply means a work made from more than one material. That can be as gentle as a painting with collaged paper, or as far-reaching as an installation of ice, effigies and printed newspapers. What links them is that the choice of material is part of the meaning.</p>\n  <h2>Four words you will meet</h2>\n  <p><strong>Collage</strong> is flat material, usually paper or fabric, glued to a surface. <strong>Assemblage</strong> is the three-dimensional version, objects fixed together into a sculpture. <strong>Installation</strong> is work that takes over a space, so that the room itself is part of the piece. <strong>Ephemeral</strong> describes work made to last only a short time, whether that is ice, flowers, chalk or a performance. A single work can be all four at once.</p>\n  <h2>Reading materials as meaning</h2>\n  <p>Ask why each material is there. Newspaper suggests news, opinion and disposability. Found objects bring their own history into the work. Ice is the most extreme example: it exists only for as long as the weather allows. When <a href=\"#artist-konn-artiss\">Konn Artiss</a> sealed effigies of famous artists in blocks of ice outside Frieze London, the melting was the point.<sup class=\"cite\"><a data-src=\"ap-antifrieze\">[ap-antifrieze]</a></sup></p>\n  <div class=\"callout\"><strong>Try it</strong>Standing in front of any mixed-media work, list every material you can identify, then for each one ask two questions: where did it come from before it was art, and what would change if the artist had used something else? If the answer to the second question is \"nothing\", the material is probably there for how it looks. If the work would mean something different, the material is part of the message.</div>\n  <h2>Three examples on this site</h2>\n  <p><a href=\"#artist-el-anatsui\">El Anatsui</a> makes large hangings from the aluminium caps of liquor bottles, each one flattened, cut or folded and joined to the next with copper wire.<sup class=\"cite\"><a data-src=\"wiki-anatsui\">[wiki-anatsui]</a></sup><sup class=\"cite\"><a data-src=\"sothebys-g6\">[sothebys-g6]</a></sup> So the first question above has a plain answer: before it was art, each piece closed a bottle.</p>\n  <p><a href=\"#artist-eko-nugroho\">Eko Nugroho</a> carries the same comic-book figures from walls into embroidery and batik on cotton.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup><sup class=\"cite\"><a data-src=\"phillips-topi\">[phillips-topi]</a></sup> The drawing barely changes from wall to cloth. What changes is how it is made and how it will age.</p>\n  <p><a href=\"#artist-osgemeos\">OSGEMEOS</a> bring street materials into the studio: one panel of 2010 combines acrylic, spray enamel, latex and sequins.<sup class=\"cite\"><a data-src=\"christies-semmedo\">[christies-semmedo]</a></sup></p>\n  <h2>The conservation problem</h2>\n  <p>Different materials age at different speeds. Paper yellows and becomes brittle, especially if it is acidic. Glues fail. Plastics can discolour or become sticky. Fabrics fade. A mixed-media work can change unevenly, one part ageing while another stays fresh.</p>\n  <ul>\n    <li>Keep work out of direct sunlight, which fades paper, inks and textiles fastest.</li>\n    <li>Avoid damp and big swings in temperature, which stress joins between materials.</li>\n    <li>Ask the artist or gallery what materials were used, and keep that list.</li>\n    <li>Use a conservator who handles mixed media, not a general picture restorer.</li>\n  </ul>\n  <h2>Collecting work that is meant to disappear</h2>\n  <p>Some works are not meant to last at all. Artists have long found ways around this: a certificate that authorises the work to be remade, written instructions, or a related object such as a print, photograph or edition. If you are offered a work connected to a temporary piece, ask exactly what you own: the object in front of you, the right to remake something, or a record of an event.</p>\n  <p>For how to look at temporary public work as a whole, and what collectors have historically bought from it, read <a href=\"#a-what-is-an-intervention\">What is an art intervention?</a></p>\n  "
+    },
+    {
+      "slug": "review-banksy-cut-and-run",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "banksy"
+      ],
+      "tone": "#3B3B38",
+      "title": "Banksy: Cut & Run, the street brought indoors",
+      "dek": "Glasgow's Gallery of Modern Art showed the stencils behind 25 years of Banksy in 2023. Critics agreed it was a rare look behind the mask. They disagreed on whether the work survives the move indoors.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "week-cutrun",
+        "tan-goma-2023",
+        "bigissue-cutrun"
+      ],
+      "body": "\n<p>In the summer of 2023 Glasgow's Gallery of Modern Art opened <i>Cut & Run</i>, a show of the cardboard and acetate stencils <a href=\"#artist-banksy\">Banksy</a> has cut since the late 1990s. It was billed as his first authorised solo show in a public institution since Bristol in 2009.<sup class=\"cite\"><a data-src=\"week-cutrun\">[week-cutrun]</a></sup> It closed on 28 August after ten weeks, having drawn about 180,000 visitors, a box-office record for the gallery.<sup class=\"cite\"><a data-src=\"tan-goma-2023\">[tan-goma-2023]</a></sup></p>\n<h2>What was on the walls</h2>\n<p>The stencils were the point. Laura Kelly, reviewing for the Big Issue, noted that they hung a little way off the walls under lights, and that this was the first time Banksy had put his tools on show.<sup class=\"cite\"><a data-src=\"bigissue-cutrun\">[bigissue-cutrun]</a></sup> Around them sat stories: a bus-shelter prank that needed a forklift, a stab-proof vest made for Stormzy, and a scale model of the mechanism that shredded <i>Girl with Balloon</i> at Sotheby's in 2018.<sup class=\"cite\"><a data-src=\"bigissue-cutrun\">[bigissue-cutrun]</a></sup><sup class=\"cite\"><a data-src=\"tan-goma-2023\">[tan-goma-2023]</a></sup> One wall text sums up the tone: \"Monet had light, Hockney has colour, I've got police response time.\"<sup class=\"cite\"><a data-src=\"bigissue-cutrun\">[bigissue-cutrun]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Kelly was won over. She called the show \"a provocation, a celebration and a triumph of storytelling\", and thought the stories mattered more than the images.<sup class=\"cite\"><a data-src=\"bigissue-cutrun\">[bigissue-cutrun]</a></sup> The round-up in The Week was cooler. It found the show well made and full of invention and humour, but reported a recurring doubt: that this work, taken off the street, can feel inert. \"The real thing is out in the streets,\" as one line in the round-up puts it.<sup class=\"cite\"><a data-src=\"week-cutrun\">[week-cutrun]</a></sup></p>\n<h2>Our view</h2>\n<p>This is our reading, not a reported one. Both camps are right, and the reason is the stencil itself. A stencil is a tool for speed, made so a picture can go up on a wall in the minutes before someone arrives. In a gallery, under good light, it becomes a relic of that speed. The show worked best where it admitted this and told you how a piece was made and got away with. It worked least where it asked the stencils to stand in for the pictures they once made.</p>\n<div class=\"callout\"><strong>Verdict</strong>An honest look at Banksy's working method, and the closest a museum has come to showing how the street work is made. The images themselves are still better where they were first painted.</div>\n"
+    },
+    {
+      "slug": "review-kusama-infinity-mirror-rooms",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "yayoi-kusama"
+      ],
+      "tone": "#7A2E2A",
+      "title": "Yayoi Kusama: Infinity Mirror Rooms, two rooms and a long queue",
+      "dek": "Tate Modern's show of two mirror rooms opened in May 2021 and ran for nearly three years. London's critics split sharply over whether it was art or an elaborate photo opportunity.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tateetc-kusama",
+        "tate-kusama-guide",
+        "ribaj-kusama",
+        "week-kusama"
+      ],
+      "body": "\n<p><i>Yayoi Kusama: Infinity Mirror Rooms</i> opened at Tate Modern on 18 May 2021 and ran until 28 April 2024.<sup class=\"cite\"><a data-src=\"tateetc-kusama\">[tateetc-kusama]</a></sup> It was small. At its heart were two rooms: <i>Infinity Mirrored Room, Filled with the Brilliance of Life</i>, made for Tate's 2012 retrospective, and <i>Chandelier of Grief</i>.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup> Around them were photographs and archive film.<sup class=\"cite\"><a data-src=\"ribaj-kusama\">[ribaj-kusama]</a></sup></p>\n<h2>Two verdicts</h2>\n<p>Few shows have divided London's critics so cleanly. The Week gathered the reviews in June 2021. Adrian Searle in the Guardian called it \"an Instagram experience posing as art\", and compared the changing lights to his own \"cheapo garden fairy lights\". Nancy Durrant in the Evening Standard found the rooms \"endlessly entrancing\" and told readers to book. Rachel Campbell-Johnston in The Times found them beautiful but unsettling.<sup class=\"cite\"><a data-src=\"week-kusama\">[week-kusama]</a></sup></p>\n<p>Michèle Woodger, in the RIBA Journal, came at the rooms as spaces. She reported an unexpected calm inside them and described the larger room as \"disorientating yet dreamy\", while admitting the show was highly Instagrammable.<sup class=\"cite\"><a data-src=\"ribaj-kusama\">[ribaj-kusama]</a></sup></p>\n<h2>What the rooms are</h2>\n<p>Tate's own account is useful here. The mirror rooms grew out of the Infinity Net paintings, where one small mark is repeated until it fills a canvas, and go back to <i>Phalli's Field</i> of 1965.<sup class=\"cite\"><a data-src=\"tateetc-kusama\">[tateetc-kusama]</a></sup> The room's lights, in Tate's words, pulse \"like a heartbeat or a ticking clock\".<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the quarrel is less about Kusama than about the timed visit. A room meant to suggest endless space was seen in what Searle called two-minute dives, with a phone in most hands.<sup class=\"cite\"><a data-src=\"week-kusama\">[week-kusama]</a></sup> Searle's complaint is fair to that experience. Woodger's calm is fair to the work. Knowing that the rooms began as a painter's way of making repetition physical is the best defence against the queue.</p>\n<div class=\"callout\"><strong>Verdict</strong>A show of two works that asked a great deal of a short visit. Read the rooms as paintings you can stand inside and they hold up. Read them as an attraction and the doubters have a point.</div>\n"
+    },
+    {
+      "slug": "review-el-anatsui-behind-the-red-moon",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "el-anatsui"
+      ],
+      "tone": "#8A6A2E",
+      "title": "El Anatsui: Behind the Red Moon, the Turbine Hall tamed",
+      "dek": "Tate Modern's Turbine Hall has defeated many artists. In 2023 El Anatsui filled it with three hangings made from millions of bottle tops, and most critics thought he had won.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tate-anatsui-guide",
+        "hyperallergic-turbine",
+        "artsdesk-anatsui",
+        "artfund-anatsui"
+      ],
+      "body": "\n<p><i>Behind the Red Moon</i> was the 2023 Hyundai Commission for the Turbine Hall at Tate Modern, in three acts: a red sail, a drifting field of shapes, and a black wall.<sup class=\"cite\"><a data-src=\"tate-anatsui-guide\">[tate-anatsui-guide]</a></sup> Tate says the red sail alone used over two million rum bottle tops, weighed over a ton, and was made by as many as 200 people before it was shipped from Ghana in sheets.<sup class=\"cite\"><a data-src=\"tate-anatsui-guide\">[tate-anatsui-guide]</a></sup></p>\n<h2>The room problem</h2>\n<p>Michael Glover, in Hyperallergic, set the show against a long history of the hall beating the people invited to fill it: its sloping floor, the bridge that splits it, its uneven climate. His conclusion was that <a href=\"#artist-el-anatsui\">El Anatsui</a> \"has succeeded where many others have faltered, or settled for a joke.\"<sup class=\"cite\"><a data-src=\"hyperallergic-turbine\">[hyperallergic-turbine]</a></sup></p>\n<p>Sarah Kent, in The Arts Desk, agreed. She described \"magnificent hangings that tame the huge, industrial space\", and the sail as \"sombre on the front, exuberant on the reverse\". She admitted to grinning with delight.<sup class=\"cite\"><a data-src=\"artsdesk-anatsui\">[artsdesk-anatsui]</a></sup> Her one reservation was Tate's reading of the piece as a story about trade and empire, which she thought might enrich the work or weigh it down, and left the reader to decide.<sup class=\"cite\"><a data-src=\"artsdesk-anatsui\">[artsdesk-anatsui]</a></sup></p>\n<h2>What it is made of</h2>\n<p>Tate describes bottle tops and metal fragments crumpled, crushed and joined by hand with copper wire, with the tops sourced in Nigeria.<sup class=\"cite\"><a data-src=\"tate-anatsui-guide\">[tate-anatsui-guide]</a></sup> Anatsui has used this method since 2001, when <i>Man's Cloth</i> and <i>Woman's Cloth</i> became the first works to swap wood for bottle tops.<sup class=\"cite\"><a data-src=\"artfund-anatsui\">[artfund-anatsui]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the success comes from the back of the work as much as the front. Glover noted that the work changes character depending on where you stand.<sup class=\"cite\"><a data-src=\"hyperallergic-turbine\">[hyperallergic-turbine]</a></sup> You had to walk round and under the sail to see the colour change, which made the hall feel like a place to move through rather than a stage to look at.</p>\n<div class=\"callout\"><strong>Verdict</strong>One of the few Turbine Hall commissions that critics agreed had mastered the space. The scale is not the achievement. The handwork at that scale is.</div>\n"
+    },
+    {
+      "slug": "review-beatriz-milhazes-maresias",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "beatriz-milhazes"
+      ],
+      "tone": "#2E6B5E",
+      "title": "Beatriz Milhazes: Maresias, Rio on the English coast",
+      "dek": "Milhazes' survey opened in Margate in 2023 and moved to St Ives in 2024. Critics praised the big paintings of the early 2000s and argued over how much the work changes.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "si-milhazes",
+        "artlyst-milhazes",
+        "tate-milhazes-2024",
+        "artsdesk-milhazes",
+        "apollo-milhazes",
+        "churchtimes-milhazes"
+      ],
+      "body": "\n<p><i>Maresias</i> opened at Turner Contemporary, Margate, on 27 May 2023, and ran until 10 September.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup> Artlyst counted 20 paintings and five works on paper, and called it <a href=\"#artist-beatriz-milhazes\">Milhazes</a>' first show in a UK public gallery in more than 20 years.<sup class=\"cite\"><a data-src=\"artlyst-milhazes\">[artlyst-milhazes]</a></sup> It was then reworked for Tate St Ives, from 25 May to 29 September 2024.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup> The title is the name of a 2002 painting, and Tate glosses the word as the salty sea breeze.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Hannah Hutchings-Georgiou gave the Margate show five stars in The Arts Desk. She read the early work as \"a clever and, at times, anarchic celebration of Brazil's cultural history\", layering Baroque church decoration, colonial pattern and carnival.<sup class=\"cite\"><a data-src=\"artsdesk-milhazes\">[artsdesk-milhazes]</a></sup></p>\n<p>Matthew Sperling, in Apollo, was more measured. He saw the change across four decades as a series of small shifts rather than breaks, picked the large paintings of the early 2000s as the high point, and found the collages subtler. He also noted, drily, that \"Margate is not often mistaken for Rio de Janeiro.\"<sup class=\"cite\"><a data-src=\"apollo-milhazes\">[apollo-milhazes]</a></sup></p>\n<p>At St Ives, Susan Gray in the Church Times noticed something others had not: how the Catholic imagery of the early work grows quieter later on, and how the big canvases change as you walk towards them, becoming \"animated at different distances\".<sup class=\"cite\"><a data-src=\"churchtimes-milhazes\">[churchtimes-milhazes]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: Sperling's point about small shifts is the key to the show, and it is not a criticism. Milhazes found her method around 1989, painting motifs on plastic sheets and transferring them to canvas.<sup class=\"cite\"><a data-src=\"tate-milhazes-2024\">[tate-milhazes-2024]</a></sup> Once you know that every flat disc and flower was made that way, the interest moves from what she paints to how the layers stack up. That is a show best seen slowly.</p>\n<div class=\"callout\"><strong>Verdict</strong>A well paced survey that made a strong case for the paintings of around 2002. Less a story of change than of one technique pushed patiently for thirty years.</div>\n"
+    },
+    {
+      "slug": "review-s-h-raza-pompidou",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "s-h-raza"
+      ],
+      "tone": "#3A3A6A",
+      "title": "S.H. Raza at the Centre Pompidou: the paintings deserved better",
+      "dek": "Paris gave Raza his first French museum retrospective in 2023. One of the few full reviews in English praised the late bindu paintings and took the wall texts to task.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "pompidou-raza-event",
+        "tan-raza-pompidou",
+        "aap-raza"
+      ],
+      "body": "\n<p>From 15 February to 15 May 2023 the Centre Pompidou showed <i>S.H. Raza (1922-2016)</i>, which it called the first monographic presentation of his work in France.<sup class=\"cite\"><a data-src=\"pompidou-raza-event\">[pompidou-raza-event]</a></sup> <a href=\"#artist-s-h-raza\">Raza</a> lived in France from 1950, so the timing was overdue. The Art Newspaper reported more than 90 works.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup></p>\n<h2>The review</h2>\n<p>ArtAsiaPacific's review, credited to the editors, judged that the chronological survey \"hit and missed\".<sup class=\"cite\"><a data-src=\"aap-raza\">[aap-raza]</a></sup> The quarrel was mostly with the words around the paintings. The reviewers doubted the case made for a \"photographic vision\" in an early picture of Benares, and objected to a wall text which called black \"the mother color in Indian thought\". In their view this was Raza's own idea, presented as a general truth.<sup class=\"cite\"><a data-src=\"aap-raza\">[aap-raza]</a></sup></p>\n<p>The paintings fared better. The review singled out the mature bindu works that close the show, and concluded that Raza deserved better than the framing he was given.<sup class=\"cite\"><a data-src=\"aap-raza\">[aap-raza]</a></sup> Among the loans was <i>La Terre</i> of 1977, acrylic on canvas and 174 by 260 cm, from the Kiran Nadar Museum of Art.<sup class=\"cite\"><a data-src=\"aap-raza\">[aap-raza]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the complaint matters because Raza's late work invites explanation. A black circle at the centre of a canvas looks simple, and a museum is tempted to supply a meaning. Raza did talk about the bindu in spiritual terms, so it is fairer to quote him than to turn his beliefs into Indian thought in general. We have not seen the show, and the review is one voice. But its point is a sound rule for any label.</p>\n<div class=\"callout\"><strong>Verdict</strong>An important retrospective, reviewed as stronger on the walls than in its words. Worth knowing as a reminder to separate an artist's own ideas from a museum's summary of them.</div>\n"
+    },
+    {
+      "slug": "review-gerhard-richter-paris",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "gerhard-richter"
+      ],
+      "tone": "#4A4F57",
+      "title": "Gerhard Richter in Paris: 275 works and a lot of doubt",
+      "dek": "The Fondation Louis Vuitton's 2025 to 2026 retrospective covered six decades in strict date order. Critics were thrilled by the range, and divided on the abstracts of the 1970s.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tan-richter-flv",
+        "zwirner-guardian-richter",
+        "si-richter-2025",
+        "flashart-richter"
+      ],
+      "body": "\n<p>The Fondation Louis Vuitton showed <i>Gerhard Richter</i> from 17 October 2025 to 2 March 2026. It was curated by Dieter Schwarz and Nicholas Serota and held 275 works across 34 rooms, from <i>Table</i> of 1962 to small ink drawings made the year before.<sup class=\"cite\"><a data-src=\"tan-richter-flv\">[tan-richter-flv]</a></sup> The hang was strictly chronological, which the curators said was the only way to manage so many works.<sup class=\"cite\"><a data-src=\"tan-richter-flv\">[tan-richter-flv]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Adrian Searle, in the Guardian, called it \"this thrilling show\", which revealed <a href=\"#artist-gerhard-richter\">Richter</a> \"in all his contradictory brilliance\".<sup class=\"cite\"><a data-src=\"zwirner-guardian-richter\">[zwirner-guardian-richter]</a></sup></p>\n<p>Joe Lloyd, in Studio International, gave the most detailed account. He praised the date order for making a very mixed career easy to follow, and the photo-paintings for their skill. He found the abstracts of the early and mid 1970s garish and the jump to abstraction jarring, and thought the squeegee paintings of the mid 1980s were the strongest rooms. His summary: Richter \"might be the greatest painter to show such doubt towards the capacity of painting.\"<sup class=\"cite\"><a data-src=\"si-richter-2025\">[si-richter-2025]</a></sup></p>\n<p>Siobhan O'Leary, in Flash Art, read the show against its setting, a foundation set up by one of the world's richest men, and against Richter's announcement in 2017 that he had stopped painting. She found the timing both monumental and uneasy.<sup class=\"cite\"><a data-src=\"flashart-richter\">[flashart-richter]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: Lloyd's line about doubt is the best way into the show. Richter has spent sixty years painting things, then blurring, scraping or burying them. A chronological hang lets you see the same habit at work whether the picture starts from a family snapshot or a sweep of colour. The four <i>Birkenau</i> paintings of 2014, each 260 by 200 cm, are where that habit carries the most weight.<sup class=\"cite\"><a data-src=\"flashart-richter\">[flashart-richter]</a></sup></p>\n<div class=\"callout\"><strong>Verdict</strong>A huge, orderly survey that most critics found exciting. Its value is in letting you watch one painter's doubt work across every kind of picture.</div>\n"
+    },
+    {
+      "slug": "review-osgemeos-endless-story",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "osgemeos"
+      ],
+      "tone": "#C79A2E",
+      "title": "OSGEMEOS: Endless Story, a world too big for one floor",
+      "dek": "The Hirshhorn's survey of the São Paulo twins filled a whole floor with nearly 1,000 works. One critic loved the invention and found the repetition hard going by the end.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "hirshhorn-osg",
+        "bmore-osg"
+      ],
+      "body": "\n<p><i>OSGEMEOS: Endless Story</i> was the first survey of the twins Gustavo and Otavio Pandolfo in a US museum. The Hirshhorn, in Washington, planned it as nearly 1,000 artworks, photographs and archive pieces, with more than 30 paintings from American lenders.<sup class=\"cite\"><a data-src=\"hirshhorn-osg\">[hirshhorn-osg]</a></sup> It ran on the museum's third floor from 29 September 2024 to 3 August 2025.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup></p>\n<h2>What was there</h2>\n<p>Among the large installations were <i>The Moon Room</i> of 2022, built with sound and its own wallpaper, and <i>The Tritrez Altar</i> of 2020, a rainbow-coloured shrine to the twins' recurring characters.<sup class=\"cite\"><a data-src=\"hirshhorn-osg\">[hirshhorn-osg]</a></sup> Paintings ranged from early subway scenes to <i>1980</i>, a 2020 picture made partly in sequins.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Brendan L. Smith, in Bmore Art, admired the energy and the whimsy. He also made two fair points. A museum \"can't convey the epic scale\" of murals painted on whole buildings, and by the last rooms \"the naked yellow men and subway scenes had blurred together\". His conclusion was still warm: the work has staying power.<sup class=\"cite\"><a data-src=\"bmore-osg\">[bmore-osg]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: Smith's tiredness is partly the show's design. <a href=\"#artist-osgemeos\">OSGEMEOS</a> build one imaginary world, Tritrez, and keep returning to it, so repetition is the method, not a lapse. The risk of putting nearly a thousand pieces together is that a world becomes a catalogue. A smaller selection would probably have made the point harder.</p>\n<div class=\"callout\"><strong>Verdict</strong>Generous and inventive, and too long. The best reason to go was to see how a street vocabulary holds up as paintings and rooms. The best reason to leave early was the repetition.</div>\n"
+    },
+    {
+      "slug": "review-vhils-doors-of-cairo",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "vhils"
+      ],
+      "tone": "#6B6259",
+      "title": "Vhils: Doors of Cairo, faces carved for a month beside the pyramids",
+      "dek": "In late 2025 Vhils set 65 carved doors in the sand at Giza. A temporary work beside the most permanent monuments on earth makes his whole method easy to see.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "colossal-vhils-cairo",
+        "mmm-vhils-strata"
+      ],
+      "body": "\n<p>For about a month in late 2025 <a href=\"#artist-vhils\">Vhils</a> showed <i>Doors of Cairo</i> beside the Pyramids of Giza, as part of the fifth edition of the Forever Is Now project, curated by Art D'Égypte with the support of UNESCO. It was on view until 7 December.<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<h2>The work</h2>\n<p>Grace Ebert, writing in Colossal, describes 65 doors salvaged from demolition and renovation sites in Egypt and Portugal. Some stood in the sand, others on scaffolding, with faces carved into them. Vhils spent six months carving in his studio and three days arranging the doors on site. He was the first Portuguese artist invited to the project.<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<p>The faces are not portraits of named people. Vhils put it this way: \"A single face can represent one person, but it can also stand for a community.\"<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<h2>In context</h2>\n<p>The same year, the Museum of Urban and Contemporary Art in Munich gave him a twenty-year survey, <i>Strata</i>, with work in concrete, wood, metal, paper and video.<sup class=\"cite\"><a data-src=\"mmm-vhils-strata\">[mmm-vhils-strata]</a></sup> Doors of Cairo is a smaller and sharper statement of the same idea: that a face can be made by taking material away.</p>\n<h2>Our view</h2>\n<p>This is our reading. We have not seen the work in person, and we found reports rather than full reviews. Even so, the setting does the critical work for you. The pyramids were built to last for ever. These doors had already had one life as doors and were shown for a month. Vhils' own line, that even what is temporary can carry the weight of time, is a fair summary, though the site makes the point more strongly than any wall text could.<sup class=\"cite\"><a data-src=\"colossal-vhils-cairo\">[colossal-vhils-cairo]</a></sup></p>\n<div class=\"callout\"><strong>Verdict</strong>A clear, well placed piece that explains his method better than a gallery show can. Better as an idea than as an object, which is probably the point.</div>\n"
+    },
+    {
+      "slug": "review-kaws-family",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "kaws"
+      ],
+      "tone": "#4F6B8A",
+      "title": "KAWS: from WHAT PARTY to FAMILY, critics still unconvinced",
+      "dek": "Two museum shows, in Brooklyn in 2021 and Toronto in 2023, gave KAWS the institutional stage. The reviews admired the craft and questioned what lies beneath it.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "rail-kaws",
+        "tan-kaws-2021",
+        "ago-kaws",
+        "globe-kaws"
+      ],
+      "body": "\n<p><a href=\"#artist-kaws\">KAWS</a> had his first museum show in New York, <i>WHAT PARTY</i>, at the Brooklyn Museum in 2021, curated by Eugenie Tsai.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup><sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup> Two years later the Art Gallery of Ontario opened <i>KAWS: FAMILY</i>, with more than 75 works, from 27 September 2023 to 9 August 2024, curated by Julian Cox.<sup class=\"cite\"><a data-src=\"ago-kaws\">[ago-kaws]</a></sup> Its centrepiece, <i>FAMILY</i> of 2021, is a painted bronze of four of his recurring figures posed as a nuclear family.<sup class=\"cite\"><a data-src=\"ago-kaws\">[ago-kaws]</a></sup></p>\n<h2>Brooklyn</h2>\n<p>Paddy Johnson, in The Art Newspaper, gave KAWS credit for skill, especially the move from graffiti to painting and toys. But she found that \"nearly every sculpture in the show looks like it's rendered in plastic, even when cast in bronze or aluminium\", thought the final rotunda fizzled, and suggested the museum shop was the real show. Her last line: \"I felt left out of a party I didn't want to attend.\"<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup></p>\n<h2>Toronto</h2>\n<p>The Globe and Mail's critic asked the obvious question of an artist whose cartoon figures are an easy way in: \"an entry point to what?\" The review found the later work slick and its themes simple, and saw in <i>FAMILY</i> and its companions \"an unlikely reach for feeling in the midst of deeply ironic gestures\".<sup class=\"cite\"><a data-src=\"globe-kaws\">[globe-kaws]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the two reviews describe the same tension from opposite ends. The figures began as jokes on advertising, such as <i>UNTITLED (HARING)</i> of 1997, painted over a real advertising poster.<sup class=\"cite\"><a data-src=\"ago-kaws\">[ago-kaws]</a></sup> The recent sculptures are sincere: grief, care, family. The surfaces stayed glossy as the subjects grew serious, and that is what both critics found hard to trust.</p>\n<div class=\"callout\"><strong>Verdict</strong>Well made and widely loved, and still not persuasive to most critics as more than that. The early altered adverts remain the sharpest work.</div>\n"
+    },
+    {
+      "slug": "review-eko-nugroho-lost-in-parody",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "eko-nugroho"
+      ],
+      "tone": "#8A3E5C",
+      "title": "Eko Nugroho: Lost in Parody, spells that never quite work",
+      "dek": "Nugroho's 2020 show in Seoul was seen by many only on screen. One critic found the embroideries the strongest part, and the uncertainty in them the point.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "artandmarket-eko"
+      ],
+      "body": "\n<p><i>Lost in Parody</i> was <a href=\"#artist-eko-nugroho\">Eko Nugroho</a>'s show at Arario Gallery, Seoul, from 1 September to 24 November 2020. Clara Che Wei Peh reviewed it for Art & Market through the gallery's virtual tour.<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup></p>\n<h2>The show</h2>\n<p>The show mixed acrylic paintings, works on paper and embroidered paintings. Peh notes that embroidery became a major medium for Nugroho from 2007, made with a village workshop in Indonesia.<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup> The largest piece she discusses, <i>A Pot Full of Peace Spells</i> of 2018, is an embroidered painting 275 by 316 cm: four masked figures around a red pot that gives off neon green mist.<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup></p>\n<h2>What the critic said</h2>\n<p>Peh judged the embroideries the strongest works. She read the show as social commentary on love, peace and democracy, delivered in the look of comics and street art. Her favourite piece works by holding back: \"Nugroho's painting holds us hostage before we are able to witness the spells' effects.\"<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup> She was grateful for the virtual format, which let her study dense details closely, while admitting that the feel of the stitching was lost on screen.<sup class=\"cite\"><a data-src=\"artandmarket-eko\">[artandmarket-eko]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the withheld spell is a good key to Nugroho in general. His masked figures are rarely heroes or villains. They gather, plot and wait. Embroidery suits that mood, because the stitched surface is slow to make and slow to read. A review written from a screen is a limited thing, as Peh says, but she points to what to look for.</p>\n<div class=\"callout\"><strong>Verdict</strong>A thoughtful review of a show few saw in person. It makes a good case that the embroideries, not the paintings, carry his ideas best.</div>\n"
+    },
+    {
+      "slug": "review-faith-xlvii-chant",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "faith-xlvii"
+      ],
+      "tone": "#5E6B4A",
+      "title": "Faith XLVII: CHANT, a show about paying attention",
+      "dek": "Delayed a year by lockdown, Faith XLVII's Cape Town show opened in May 2021. One critic read it as an exercise in shared grief, across paint, brass, video and found material.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "dm-faith",
+        "artthrob-faith"
+      ],
+      "body": "\n<p><i>CHANT</i> was due to open at Everard Read, Cape Town, in April 2020 and was postponed by lockdown.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup> It finally ran from 5 to 28 May 2021. Misha Krynauw reviewed it for ArtThrob.<sup class=\"cite\"><a data-src=\"artthrob-faith\">[artthrob-faith]</a></sup></p>\n<h2>The work</h2>\n<p>Krynauw lists painting, video, photography, sculpture, found materials and drawing. Among the oils is <i>They Say Blood is Heavier Than Water</i> of 2020, 177 by 116 cm, painted after Nicky Newman's photographs of protests in Cape Town against gender-based violence: three arms, two pointing fingers and a raised fist. <i>The Human Cause III</i>, also 2020, is a flag made of brass and wood, 285.5 cm high.<sup class=\"cite\"><a data-src=\"artthrob-faith\">[artthrob-faith]</a></sup></p>\n<h2>What the critic said</h2>\n<p>Krynauw read the show as a counter to the numbness of the news cycle, a call to give full attention instead of skimming headlines. The phrase she uses is \"mutual mourning\": the works hold up moments of pain, from colonialism and inequality to police violence and war, and ask the viewer to share them rather than consume them.<sup class=\"cite\"><a data-src=\"artthrob-faith\">[artthrob-faith]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the variety of media is the most telling thing here. <a href=\"#artist-faith-xlvii\">Faith XLVII</a> made her name on walls, and a gallery show can feel like a step back from that. CHANT does not try to recreate a mural indoors. It uses slower media, oil on linen and cast brass, for subjects that the street usually only glimpses. Her own words from the time fit the show: \"These are not works made to be pretty or decorative.\"<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></p>\n<div class=\"callout\"><strong>Verdict</strong>A serious, varied show whose subject is attention itself. Read alongside her murals, it shows a street painter choosing slowness on purpose.</div>\n"
+    },
+    {
+      "slug": "review-van-gogh-poets-and-lovers",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "vincent-van-gogh"
+      ],
+      "tone": "#3C5A8A",
+      "title": "Van Gogh: Poets and Lovers, a painter with a plan",
+      "dek": "The National Gallery's 2024 show gathered 61 works from Arles and Saint-Rémy. Critics gave it top marks, and several argued it finally retired the myth of the mad, tortured artist.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "prospect-vangogh",
+        "tan-vangogh-2024",
+        "artshub-vangogh",
+        "letter-651"
+      ],
+      "body": "\n<p><i>Van Gogh: Poets and Lovers</i> ran at the National Gallery, London, from 14 September 2024 to 19 January 2025.<sup class=\"cite\"><a data-src=\"prospect-vangogh\">[prospect-vangogh]</a></sup> Martin Bailey counted 47 paintings and 14 drawings, all from the two years <a href=\"#artist-vincent-van-gogh\">Van Gogh</a> spent in the south of France.<sup class=\"cite\"><a data-src=\"tan-vangogh-2024\">[tan-vangogh-2024]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Bailey, in The Art Newspaper, gave it five stars: \"A magnificent show with important and rarely seen loans.\" He liked the plain presentation, with numbers on the walls and a free booklet, but noted one cost of the themed rooms: by mixing work from Arles and Saint-Rémy, they make the changes in his style harder to follow.<sup class=\"cite\"><a data-src=\"tan-vangogh-2024\">[tan-vangogh-2024]</a></sup></p>\n<p>Diana Carroll, in ArtsHub, called it \"a thoughtful and considered exhibition\", and pointed to the opening pair of portraits, <i>The Lover</i> and <i>The Poet</i>, as setting up a show about the man as much as the art.<sup class=\"cite\"><a data-src=\"artshub-vangogh\">[artshub-vangogh]</a></sup></p>\n<p>David McAllister, in Prospect, made the most interesting case. The show reveals no new Van Gogh, he wrote, and that is the point: the tortured-artist story has become a habit that stops us looking. Nothing in the rooms was unknown. What mattered was seeing it plainly, down to five versions of one olive grove in the final room.<sup class=\"cite\"><a data-src=\"prospect-vangogh\">[prospect-vangogh]</a></sup></p>\n<h2>The Sunflowers moment</h2>\n<p>The show reunited the National Gallery's <i>Sunflowers</i> with the version from the Philadelphia Museum of Art, not lent since Philadelphia bought it in 1963, with <i>La Berceuse</i> between them.<sup class=\"cite\"><a data-src=\"tan-vangogh-2024\">[tan-vangogh-2024]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: McAllister and Bailey pull in different directions and both are useful. Bailey wants to see development. McAllister wants to see method. Van Gogh's own letters support the second. In July 1890 he wrote of a painting of Daubigny's garden in Auvers as \"one of my most carefully thought-out canvases\".<sup class=\"cite\"><a data-src=\"letter-651\">[letter-651]</a></sup></p>\n<div class=\"callout\"><strong>Verdict</strong>The best kind of blockbuster: famous pictures, hung simply, with an argument that holds. It made the case for Van Gogh as a planner, not a patient.</div>\n"
+    },
+    {
+      "slug": "review-kandinsky-guggenheim",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "wassily-kandinsky"
+      ],
+      "tone": "#B8452F",
+      "title": "Kandinsky at the Guggenheims: a collector's eye",
+      "dek": "Bilbao in 2020 and New York in 2021 both drew on the Guggenheim's founding collection of Kandinsky. The shows were praised for clarity and faulted for saying nothing new.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "si-kandinsky-bilbao",
+        "nyunews-kandinsky",
+        "bilbao-comp8"
+      ],
+      "body": "\n<p>Two shows of <a href=\"#artist-wassily-kandinsky\">Kandinsky</a> drew on the same source. At Guggenheim Bilbao, <i>Kandinsky</i> ran from 20 November 2020 to 23 May 2021 with 62 paintings and works on paper, all from the Solomon R. Guggenheim Museum in New York.<sup class=\"cite\"><a data-src=\"si-kandinsky-bilbao\">[si-kandinsky-bilbao]</a></sup> In New York the same collection filled the spiral ramp in <i>Vasily Kandinsky: Around the Circle</i>, on view until September 2022.<sup class=\"cite\"><a data-src=\"nyunews-kandinsky\">[nyunews-kandinsky]</a></sup></p>\n<h2>What the critics said</h2>\n<p>David Trigg, in Studio International, found the Bilbao show \"superbly presented\" and clear about how the paintings change over time. He also said plainly that \"it offers no fresh interpretations of his life and work\". In his view the real author of the show was Solomon Guggenheim, who bought at every stage of Kandinsky's career: \"it is his discerning eye that really shapes this show.\"<sup class=\"cite\"><a data-src=\"si-kandinsky-bilbao\">[si-kandinsky-bilbao]</a></sup></p>\n<p>In New York, Clara Scholl, writing for NYU's Washington Square News, liked the way the ramp turned the career into a walk. She quoted the museum's own idea, that his was \"not a fixed path from representation to abstraction, but rather a circular passage\".<sup class=\"cite\"><a data-src=\"nyunews-kandinsky\">[nyunews-kandinsky]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: Trigg's complaint is fair, and also says something good about the collection. A single collector's purchases, made while the artist was alive, give a rare even view of a whole career. <i>Composition 8</i>, bought in Dessau in 1929, was the first of more than 150 Kandinskys the Guggenheim came to own.<sup class=\"cite\"><a data-src=\"bilbao-comp8\">[bilbao-comp8]</a></sup> The New York ramp, which forces a slow circling walk, suited a painter who thought of abstraction as a return as much as an arrival.</p>\n<div class=\"callout\"><strong>Verdict</strong>Clear, handsome collection shows that teach well and argue little. Go for the paintings, and for the history of how they were collected.</div>\n"
+    },
+    {
+      "slug": "review-rene-matic-turner-prize",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "rene-matic"
+      ],
+      "tone": "#8A4F5E",
+      "title": "Rene Matić at the Turner Prize: a flag that says no",
+      "dek": "In Bradford in 2025 Matić's room was built around a vast white flag. Critics read it as tender, political or, in one case, merely pleasant.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "spectator-turner-2025",
+        "tate-turner-2025",
+        "ma-turner-2025",
+        "tateetc-turner-2025",
+        "sota-turner-2025",
+        "tan-turner-2025"
+      ],
+      "body": "\n<p>The Turner Prize 2025 exhibition opened at Cartwright Hall, Bradford, in September 2025 and ran until 22 February 2026.<sup class=\"cite\"><a data-src=\"spectator-turner-2025\">[spectator-turner-2025]</a></sup> <a href=\"#artist-rene-matic\">Rene Matić</a> was shortlisted for the solo show <i>AS OPPOSED TO THE TRUTH</i> at CCA Berlin.<sup class=\"cite\"><a data-src=\"tate-turner-2025\">[tate-turner-2025]</a></sup> The prize went to Nnena Kalu.<sup class=\"cite\"><a data-src=\"ma-turner-2025\">[ma-turner-2025]</a></sup></p>\n<h2>The room</h2>\n<p>At its centre hung <i>Untitled (No Place for Violence)</i>, 2024, a huge white flag reading \"No Place\" on one side and \"For Violence\" on the other. Kadish Morris, in Tate Etc., notes that the words echo statements by Joe Biden and Barack Obama after the attempt on Donald Trump's life in July 2024.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup> Around it leaned the photographs of <i>Feelings Wheel</i>, 2022 to 2025: flags, parties, protests, lovers kissing, shop fronts.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup> On shelves sat <i>Restoration</i>, broken antique Black dolls, which Morris reads as an act of care linked to Matić's father, abandoned as a child in Peterborough.<sup class=\"cite\"><a data-src=\"tateetc-turner-2025\">[tateetc-turner-2025]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Millie Lacey, in The State of the Arts, read the flag against sound from pro-Palestinian protests in the room, and concluded: \"Matić exposes the contradiction between political rhetoric and violent state action.\"<sup class=\"cite\"><a data-src=\"sota-turner-2025\">[sota-turner-2025]</a></sup> Gareth Harris in The Art Newspaper quoted the artist's own aim, to \"embarrass the kind of principle of what a flag is supposed to be\".<sup class=\"cite\"><a data-src=\"tan-turner-2025\">[tan-turner-2025]</a></sup></p>\n<p>Digby Warde-Aldam, in The Spectator, was unmoved: \"Matic's room is nice enough, in its sub-Wolfgang Tillmans way.\" He added: \"I'm not sure there's much more to it, but it's all beautifully presented.\"<sup class=\"cite\"><a data-src=\"spectator-turner-2025\">[spectator-turner-2025]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the Tillmans comparison is about the photographs, and it is not unfair, as both artists hang snapshots loosely in groups. But it misses the flag. A flag usually claims a place for a nation. This one claims no place for anything, and the dolls on the other side of the wall turn that refusal into care. The room works because those two ideas sit so close together.</p>\n<div class=\"callout\"><strong>Verdict</strong>A quiet room with one loud object, and a fair case that photography, sound and found things can make a political point without shouting.</div>\n"
+    },
+    {
+      "slug": "review-raven-halfmoon-flags-of-our-mothers",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "raven-halfmoon"
+      ],
+      "tone": "#9C5A3C",
+      "title": "Raven Halfmoon: Flags of Our Mothers, clay that keeps its fingerprints",
+      "dek": "Halfmoon's touring show of giant stoneware figures opened at the Aldrich in 2023 and moved to Omaha in 2024. Critics wrote about weight, colour and the marks of her hands.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "rail-halfmoon",
+        "sixty-halfmoon"
+      ],
+      "body": "\n<p><i>Flags of Our Mothers</i> opened at the Aldrich Contemporary Art Museum in Ridgefield, Connecticut, from 25 June 2023 to 7 January 2024, and moved to the Bemis Center for Contemporary Arts, Omaha, from 18 May to 15 September 2024.<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup><sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup></p>\n<h2>What the critics said</h2>\n<p>The Brooklyn Rail's review was struck first by size. <i>Flagbearer</i> of 2022, built in three stacked parts, stands over twelve feet and weighs 2,400 pounds, and takes up more of the room than anything else.<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup> The review reads the glaze colours as meaningful: red for the soil of Oklahoma and for murdered Indigenous women, black for the clay of the Red River. It quotes <a href=\"#artist-raven-halfmoon\">Halfmoon</a> in the show's film: \"you can see the moment that I laid down the mark.\"<sup class=\"cite\"><a data-src=\"rail-halfmoon\">[rail-halfmoon]</a></sup></p>\n<p>River Ian Kerstetter, writing from the Bemis Center for Sixty Inches From Center, gives <i>Flagbearer</i> as 14 feet, so the sources differ on the height. Kerstetter argues that Halfmoon's women are \"unambiguously Indigenous both in their features and in their power\", and reads her name, written across each piece, as a turn from graffiti's \"I was here\" to \"I am here\".<sup class=\"cite\"><a data-src=\"sixty-halfmoon\">[sixty-halfmoon]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: both reviews come back to the hand marks, and so should anyone seeing the work. Art schools usually teach potters to smooth a surface. Halfmoon leaves the pushes and scrapes of building coils in place, so a twelve-foot figure still shows the size of the hand that made it. That is what stops the scale from feeling like a monument and keeps it feeling like a person.</p>\n<div class=\"callout\"><strong>Verdict</strong>A strong touring show that two very different critics read the same way: as presence, not decoration. The figures are worth seeing in person for the surfaces alone.</div>\n"
+    },
+    {
+      "slug": "review-ana-segovia-cowboys",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "ana-segovia"
+      ],
+      "tone": "#B5392B",
+      "title": "Ana Segovia: cowboys, cropped",
+      "dek": "From MOCA in Los Angeles to Frieze London and a 2026 show in New York, Segovia keeps cutting the heroic western figure down to his belt, his hat and his hands.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "moca-segovia",
+        "nyt-segovia",
+        "kurimanzutto-oiaa",
+        "another-segovia"
+      ],
+      "body": "\n<p>In two years <a href=\"#artist-ana-segovia\">Ana Segovia</a> has had a first US museum show, <i>MOCA Focus</i> in Los Angeles, a solo booth at Frieze London with kurimanzutto in October 2025, and a first solo show at kurimanzutto New York in autumn 2026.<sup class=\"cite\"><a data-src=\"moca-segovia\">[moca-segovia]</a></sup><sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup><sup class=\"cite\"><a data-src=\"kurimanzutto-oiaa\">[kurimanzutto-oiaa]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Ray Mark Rinaldi, in The New York Times, called Segovia \"a master at directing viewers' gaze\". He was writing about <i>Ramón</i>, a series built around an invented cowboy. The paintings crop the body from hip to knee and hide the face, and the titles mislead on purpose: in <i>Ramón Throwing a Rock</i>, he notes, \"There is no rock.\"<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup> Rinaldi reads the work as turning macho film heroes upside down, with the jeans and chaps painted in reflective reds that make the eroticism plain.<sup class=\"cite\"><a data-src=\"nyt-segovia\">[nyt-segovia]</a></sup></p>\n<h2>New York, 2026</h2>\n<p><i>The Office of Inter-American Affairs Presents</i> turned to the gaucho of South America. The gallery describes large paintings of single details, a hat, a poncho, a belt, hands holding a mate, \"cropped like cinematic close-ups\", alongside archive films from the United States agency of 1940 that gives the show its title, and <i>Gambola (Uruguay)</i>, a video showing only dancers' legs and feet.<sup class=\"cite\"><a data-src=\"kurimanzutto-oiaa\">[kurimanzutto-oiaa]</a></sup> We have not found an independent review of this show yet, so this is the gallery's account.</p>\n<h2>Our view</h2>\n<p>Our reading: the cropping is the critique. Western films sell the hero as a whole body in a wide landscape. Segovia keeps the costume and cuts away the man, so the pose stays and the authority goes. Segovia has said of the Ramón series: \"Ramón is my fantasy of who I want to be, or think I am.\"<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup> That line stops the work from being simple mockery.</p>\n<div class=\"callout\"><strong>Verdict</strong>A clear, witty body of work with a single strong device. The open question, which the next shows will answer, is how far one device can go.</div>\n"
+    },
+    {
+      "slug": "review-dana-awartani-standing-by-the-ruins",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "dana-awartani"
+      ],
+      "tone": "#2F5E6E",
+      "title": "Dana Awartani: Standing by the ruins, mending as a way of remembering",
+      "dek": "Awartani's 2025 show at Arnolfini, Bristol, rebuilt a destroyed bathhouse floor in Gaza in unfired brick. One critic found anger and prayer in the same rooms.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "eflux-awartani-ruins"
+      ],
+      "body": "\n<p><i>Standing by the ruins</i> was <a href=\"#artist-dana-awartani\">Dana Awartani</a>'s solo show at Arnolfini, Bristol, from 28 June to 28 September 2025. Oliver Basciano reviewed it for e-flux.<sup class=\"cite\"><a data-src=\"eflux-awartani-ruins\">[eflux-awartani-ruins]</a></sup></p>\n<h2>The work</h2>\n<p>On the floor were three squares of adobe brick in ochre, white and grey, laid in geometric patterns without cement. Basciano explains that they recreate the washroom tiles of the Hamam al-Sammara, a fourteenth-century bathhouse in Gaza destroyed in 2023.<sup class=\"cite\"><a data-src=\"eflux-awartani-ruins\">[eflux-awartani-ruins]</a></sup> Overhead hung <i>Come, let me heal your wounds. Let me mend your broken bones</i>, the silk work first shown in Venice in 2024. Small wall pieces of darned silk and typed labels named lost sites, such as the Tetrapylon at Palmyra.<sup class=\"cite\"><a data-src=\"eflux-awartani-ruins\">[eflux-awartani-ruins]</a></sup></p>\n<h2>What the critic said</h2>\n<p>Basciano framed the show through a saying of the Prophet about mending one's own sandals and clothes, and read the whole show as repair. Knowing what the brick floors copy, he wrote, adds anger to what would otherwise look like calm geometry. He saw a steady pull between politics and something closer to prayer, and called the works \"modes of preservation through recreation\".<sup class=\"cite\"><a data-src=\"eflux-awartani-ruins\">[eflux-awartani-ruins]</a></sup> Of a video in which sand is swept away, he wrote: \"a physical prayer in which illusion is swept away to reveal what lies beyond\".<sup class=\"cite\"><a data-src=\"eflux-awartani-ruins\">[eflux-awartani-ruins]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the unfired brick is the decision that matters. Adobe is the most ordinary building material there is, and laying it without mortar leaves the floor visibly temporary. A copy that admits it could fall apart is a more honest memorial than a polished replica.</p>\n<div class=\"callout\"><strong>Verdict</strong>A careful, moving show in which craft is used as evidence. Basciano's review is the best guide to what each piece copies, and why.</div>\n"
+    },
+    {
+      "slug": "review-jes-fan-sites-of-wounding",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "jes-fan"
+      ],
+      "tone": "#4B5D7A",
+      "title": "Jes Fan: Sites of Wounding, beautiful surfaces that keep a secret",
+      "dek": "Fan's 2023 Hong Kong show cast knees and torsos in resin and glass, and grew pearls with writing in them. One critic read the beauty as a disguise.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "eflux-fan-wounding",
+        "mplus-fan"
+      ],
+      "body": "\n<p><i>Sites of Wounding: Chapter 1</i> ran at Empty Gallery, Hong Kong, from 18 March to 24 June 2023. Wong Binghao reviewed it for e-flux.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup></p>\n<h2>The work</h2>\n<p>The sculptures look abstract, but Wong explains that they are cast from knees, chests and torsos. <i>Left and right knee, grafted</i> of 2023 is aqua resin, glass and pigment, with a glass form made by pushing two blowpipes into one goblet so it splits into two chambers.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup> The film <i>Palimpsest</i>, 2023, follows nearly three years of research with scientists at the University of Hong Kong, in which Chinese characters reading \"Pearl of the Orient\" were implanted in live oysters.<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup></p>\n<h2>What the critic said</h2>\n<p>Wong's argument is that the body sources are made deliberately hard to read. Trans artists' work is often received as a display of the body, and <a href=\"#artist-jes-fan\">Fan</a> refuses that: \"the mesmerizing veneers of the exhibited artworks double as disguises\". Of the pearls: \"Like the pearl it protects, this artwork reveals its meaning only in glimpses.\"<sup class=\"cite\"><a data-src=\"eflux-fan-wounding\">[eflux-fan-wounding]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the oyster is the right image for the whole show. A pearl is what an oyster makes around an injury, and it is beautiful partly because it hides the cause. Fan has said \"Art and sciences are essentially just ways of questioning.\"<sup class=\"cite\"><a data-src=\"mplus-fan\">[mplus-fan]</a></sup> In this show the questions are asked through materials, not explained in labels, and Wong's review is a good way to catch up with them.</p>\n<div class=\"callout\"><strong>Verdict</strong>Demanding and quietly beautiful work. Wong shows that the difficulty is chosen, and that it protects as much as it puzzles.</div>\n"
+    },
+    {
+      "slug": "review-mohamed-lghacham-colorado",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "mohamed-lghacham"
+      ],
+      "tone": "#7A6A4F",
+      "title": "Mohamed L'Ghacham: Colorado, a muralist's family album",
+      "dek": "L'Ghacham's first gallery show gathered nineteen paintings from a single road trip. Writers on his murals and his studio work keep returning to the same word: album.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "jux-lghacham-colorado",
+        "colossal-lghacham-2019"
+      ],
+      "body": "\n<p><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a> is best known for walls. <i>Colorado</i> was his first solo show at PDP Gallery, with 19 paintings drawn from a visit to Colorado in May 2018, during a road trip from New York to Los Angeles, and two mural interventions.<sup class=\"cite\"><a data-src=\"jux-lghacham-colorado\">[jux-lghacham-colorado]</a></sup></p>\n<h2>What writers said</h2>\n<p>Sasha Bogojev, in Juxtapoz, describes camping trips, interiors and household scenes, and says that \"each work invites a browse through a family photo album\". He notes that the figures are almost faceless, and that \"their surroundings and actions dictate the mood and narrative\".<sup class=\"cite\"><a data-src=\"jux-lghacham-colorado\">[jux-lghacham-colorado]</a></sup> This is closer to a gallery report than a critical review. We have not found an independent review of the show.</p>\n<p>Writing about the murals in Colossal, Andrew LaSane made a similar point. L'Ghacham paints from old family photographs, often choosing the accidental shots, and uses loose, layered strokes that ask the viewer to step back before a face comes together.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the faceless figures are what carry over from wall to canvas. On a wall, a face blurred from across the street lets passers-by see their own relatives. On a canvas, seen close, the same blur reads as memory fading. The studio paintings are smaller and quieter, but they show the method more clearly than the murals can.</p>\n<div class=\"callout\"><strong>Verdict</strong>A modest first show that is most useful as a key to the murals. The album idea is not ours, but it fits.</div>\n"
+    },
+    {
+      "slug": "review-andy-warhol-tate-modern",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "andy-warhol"
+      ],
+      "tone": "#B23A48",
+      "title": "Andy Warhol at Tate Modern: the man behind the brand",
+      "dek": "Tate's 2020 retrospective opened days before lockdown. Critics agreed it was handsome and personal, and argued about the late work and the queer reading.",
+      "credit": "",
+      "minutes": 5,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tan-warhol-2020",
+        "frieze-warhol-2020",
+        "si-warhol-2020"
+      ],
+      "body": "\n<p><i>Andy Warhol</i> opened at Tate Modern on 12 March 2020, closed almost at once because of the pandemic, and was due to run until 6 September 2020. It was curated by Gregor Muir and Fiontán Moran with Yilmaz Dziewior and Stephan Diederich of Museum Ludwig, Cologne.<sup class=\"cite\"><a data-src=\"tan-warhol-2020\">[tan-warhol-2020]</a></sup></p>\n<h2>What the critics said</h2>\n<p>Brian Allen, in The Art Newspaper, thought <a href=\"#artist-andy-warhol\">Warhol</a>'s own presence was the show's strength and the installation well done, but found the 1970s and 1980s work weaker. He was not persuaded by the curators' claim that Warhol put queer identity at the centre of Pop. Still, \"it's a fine exhibition and introduces Warhol to a new generation.\"<sup class=\"cite\"><a data-src=\"tan-warhol-2020\">[tan-warhol-2020]</a></sup></p>\n<p>The Frieze review took the opposite view of the late work. It rejected the usual story of decline after Warhol was shot, and saw \"all-of-a-piece Warhol, working full throttle for four solid decades\". It found <i>Sixty Last Suppers</i> of 1986 had \"lost its religiosity\".<sup class=\"cite\"><a data-src=\"frieze-warhol-2020\">[frieze-warhol-2020]</a></sup></p>\n<p>Beth Williamson, in Studio International, read the show as a story of loss, and the same late painting as a memorial, linked to the Aids-related death of Warhol's partner. She found <i>Silver Clouds</i> and the restaged light show <i>Exploding Plastic Inevitable</i> joyful.<sup class=\"cite\"><a data-src=\"si-warhol-2020\">[si-warhol-2020]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the disagreement over the late work is the most useful thing in these reviews. The silkscreen, which Warhol took up in 1962 to repeat images quickly, looks the same in 1962 and 1986.<sup class=\"cite\"><a data-src=\"si-warhol-2020\">[si-warhol-2020]</a></sup> What changes is what he chose to repeat: film stars, then skulls, then the Last Supper. Whether that is decline or continuity depends on whether you look at the method or the subject.</p>\n<div class=\"callout\"><strong>Verdict</strong>A personal, well hung retrospective, unlucky in its timing. The reviews together make the best case yet for taking the late work seriously.</div>\n"
     },
     {
       "slug": "review-anti-frieze",

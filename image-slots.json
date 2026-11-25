@@ -456,6 +456,264 @@
       "group": "Artworks: Mohamed L'Ghacham",
       "label": "the table is set",
       "filled": false
+    },
+    {
+      "id": "article-reviews-and-explainers-november-2026",
+      "group": "Articles: Features",
+      "label": "New reviews and artwork explainers for every artist",
+      "filled": false
+    },
+    {
+      "id": "article-review-banksy-cut-and-run",
+      "group": "Articles: Reviews",
+      "label": "Banksy: Cut & Run, the street brought indoors",
+      "filled": false
+    },
+    {
+      "id": "article-review-kusama-infinity-mirror-rooms",
+      "group": "Articles: Reviews",
+      "label": "Yayoi Kusama: Infinity Mirror Rooms, two rooms and a long queue",
+      "filled": false
+    },
+    {
+      "id": "article-review-el-anatsui-behind-the-red-moon",
+      "group": "Articles: Reviews",
+      "label": "El Anatsui: Behind the Red Moon, the Turbine Hall tamed",
+      "filled": false
+    },
+    {
+      "id": "article-review-beatriz-milhazes-maresias",
+      "group": "Articles: Reviews",
+      "label": "Beatriz Milhazes: Maresias, Rio on the English coast",
+      "filled": false
+    },
+    {
+      "id": "article-review-s-h-raza-pompidou",
+      "group": "Articles: Reviews",
+      "label": "S.H. Raza at the Centre Pompidou: the paintings deserved better",
+      "filled": false
+    },
+    {
+      "id": "article-review-gerhard-richter-paris",
+      "group": "Articles: Reviews",
+      "label": "Gerhard Richter in Paris: 275 works and a lot of doubt",
+      "filled": false
+    },
+    {
+      "id": "article-review-osgemeos-endless-story",
+      "group": "Articles: Reviews",
+      "label": "OSGEMEOS: Endless Story, a world too big for one floor",
+      "filled": false
+    },
+    {
+      "id": "article-review-vhils-doors-of-cairo",
+      "group": "Articles: Reviews",
+      "label": "Vhils: Doors of Cairo, faces carved for a month beside the pyramids",
+      "filled": false
+    },
+    {
+      "id": "article-review-kaws-family",
+      "group": "Articles: Reviews",
+      "label": "KAWS: from WHAT PARTY to FAMILY, critics still unconvinced",
+      "filled": false
+    },
+    {
+      "id": "article-review-eko-nugroho-lost-in-parody",
+      "group": "Articles: Reviews",
+      "label": "Eko Nugroho: Lost in Parody, spells that never quite work",
+      "filled": false
+    },
+    {
+      "id": "article-review-faith-xlvii-chant",
+      "group": "Articles: Reviews",
+      "label": "Faith XLVII: CHANT, a show about paying attention",
+      "filled": false
+    },
+    {
+      "id": "article-review-van-gogh-poets-and-lovers",
+      "group": "Articles: Reviews",
+      "label": "Van Gogh: Poets and Lovers, a painter with a plan",
+      "filled": false
+    },
+    {
+      "id": "article-review-kandinsky-guggenheim",
+      "group": "Articles: Reviews",
+      "label": "Kandinsky at the Guggenheims: a collector's eye",
+      "filled": false
+    },
+    {
+      "id": "article-review-rene-matic-turner-prize",
+      "group": "Articles: Reviews",
+      "label": "Rene Matić at the Turner Prize: a flag that says no",
+      "filled": false
+    },
+    {
+      "id": "article-review-raven-halfmoon-flags-of-our-mothers",
+      "group": "Articles: Reviews",
+      "label": "Raven Halfmoon: Flags of Our Mothers, clay that keeps its fingerprints",
+      "filled": false
+    },
+    {
+      "id": "article-review-ana-segovia-cowboys",
+      "group": "Articles: Reviews",
+      "label": "Ana Segovia: cowboys, cropped",
+      "filled": false
+    },
+    {
+      "id": "article-review-dana-awartani-standing-by-the-ruins",
+      "group": "Articles: Reviews",
+      "label": "Dana Awartani: Standing by the ruins, mending as a way of remembering",
+      "filled": false
+    },
+    {
+      "id": "article-review-jes-fan-sites-of-wounding",
+      "group": "Articles: Reviews",
+      "label": "Jes Fan: Sites of Wounding, beautiful surfaces that keep a secret",
+      "filled": false
+    },
+    {
+      "id": "article-review-mohamed-lghacham-colorado",
+      "group": "Articles: Reviews",
+      "label": "Mohamed L'Ghacham: Colorado, a muralist's family album",
+      "filled": false
+    },
+    {
+      "id": "article-review-andy-warhol-tate-modern",
+      "group": "Articles: Reviews",
+      "label": "Andy Warhol at Tate Modern: the man behind the brand",
+      "filled": false
+    },
+    {
+      "id": "article-explained-vhils-carved-portraits",
+      "group": "Articles: Art explained",
+      "label": "How a Vhils wall portrait is made",
+      "filled": true
+    },
+    {
+      "id": "article-explained-faith-xlvii-silent-watcher",
+      "group": "Articles: Art explained",
+      "label": "The Silent Watcher, explained",
+      "filled": true
+    },
+    {
+      "id": "article-explained-love-is-in-the-bin",
+      "group": "Articles: Art explained",
+      "label": "Love Is in the Bin, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-kusama-brilliance-of-life",
+      "group": "Articles: Art explained",
+      "label": "Infinity Mirrored Room, Filled with the Brilliance of Life, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-el-anatsui-old-mans-cloth",
+      "group": "Articles: Art explained",
+      "label": "Old Man's Cloth, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-milhazes-maresias",
+      "group": "Articles: Art explained",
+      "label": "Maresias, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-raza-bindu",
+      "group": "Articles: Art explained",
+      "label": "Raza's bindu, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-richter-birkenau",
+      "group": "Articles: Art explained",
+      "label": "Birkenau, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-osgemeos-1980",
+      "group": "Articles: Art explained",
+      "label": "1980, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-kaws-companion",
+      "group": "Articles: Art explained",
+      "label": "COMPANION, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-eko-nugroho-illusion",
+      "group": "Articles: Art explained",
+      "label": "Illusion, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-van-gogh-sunflowers",
+      "group": "Articles: Art explained",
+      "label": "Sunflowers, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-kandinsky-composition-8",
+      "group": "Articles: Art explained",
+      "label": "Composition 8, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-rene-matic-no-place-for-violence",
+      "group": "Articles: Art explained",
+      "label": "Untitled (No Place for Violence), explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-raven-halfmoon-flagbearer",
+      "group": "Articles: Art explained",
+      "label": "Flagbearer, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-ana-segovia-ramon",
+      "group": "Articles: Art explained",
+      "label": "The Ramón paintings, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-dana-awartani-come-let-me-heal",
+      "group": "Articles: Art explained",
+      "label": "Come, let me heal your wounds. Let me mend your broken bones, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-jes-fan-palimpsest",
+      "group": "Articles: Art explained",
+      "label": "Palimpsest, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-lghacham-casa-paquita",
+      "group": "Articles: Art explained",
+      "label": "Casa Paquita, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-warhol-marilyn-diptych",
+      "group": "Articles: Art explained",
+      "label": "Marilyn Diptych, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-konn-artiss-venice-effigy",
+      "group": "Articles: Art explained",
+      "label": "The Venice canal effigy, explained",
+      "filled": false
+    },
+    {
+      "id": "article-explained-zara-muse-malala",
+      "group": "Articles: Art explained",
+      "label": "Zara Muse's portrait of Malala Yousafzai, explained",
+      "filled": false
     }
   ]
 }
