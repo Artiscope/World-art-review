@@ -168,7 +168,138 @@ def main():
                 sys.exit("The layout file must contain one </head>.")
             page = page.replace("</head>", theme + "</head>")
         f.write(page)
-    print(f"Built index.html with {len(artists)} artists and {len(articles)} articles.")
+    n = write_search_pages(out_dir, page, artists, articles)
+    print(f"Built index.html with {len(artists)} artists and {len(articles)} articles, and {n} pages of their own for search engines.")
+
+
+# ----- pages of their own, so search engines can find each piece -----
+# The site is one page that shows each portfolio and article behind a #link.
+# Search engines treat #links as one address, so each published portfolio and
+# article also gets its own address (artists/<slug>/ and articles/<slug>/).
+# Each is the same page, opening straight on that piece, with its own title,
+# description and structured data. A small script turns the #links on every
+# page into these addresses. robots.txt and sitemap.xml list them all.
+SITE_NAME = "World Art Review"
+
+
+def site_url():
+    try:
+        host = open(os.path.join(ROOT, "CNAME"), encoding="utf-8").read().strip()
+    except OSError:
+        host = ""
+    return "https://%s/" % host if host else "https://worldartreview.com/"
+
+
+def attr(text):
+    return (str(text).replace("&", "&amp;").replace('"', "&quot;")
+            .replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def plain(html, limit=155):
+    text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", str(html or ""))).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit - 1].rsplit(" ", 1)[0].rstrip(",;:")
+    return cut + "…"
+
+
+def title_for(name):
+    # Short enough not to be cut off in search results; the site name is added when it fits.
+    full = "%s | %s" % (name, SITE_NAME)
+    return full if len(full) <= 60 else name
+
+
+def ld_json(data):
+    return '<script type="application/ld+json">%s</script>\n' % json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+
+LINKS_SCRIPT = """<script>/* turns #links to portfolios and articles into their own addresses */
+(function(){var root=%s;function fix(n){var as=n.querySelectorAll?n.querySelectorAll('a[href^="#a-"],a[href^="#artist-"]'):[];for(var i=0;i<as.length;i++){var h=as[i].getAttribute('href');var m=/^#(a|artist)-([a-z0-9-]+)$/.exec(h);if(!m)continue;if(m[1]==='artist'&&ARTISTS.every(function(x){return x.slug!==m[2]||!x.published;}))continue;if(m[1]==='a'&&ARTICLES.every(function(x){return x.slug!==m[2];}))continue;as[i].setAttribute('href',root+(m[1]==='a'?'articles/':'artists/')+m[2]+'/');}}
+fix(document);new MutationObserver(function(rs){rs.forEach(function(r){r.addedNodes.forEach(function(n){if(n.nodeType===1)fix(n.parentNode||n);});});}).observe(document.body,{childList:true,subtree:true});})();
+</script>
+"""
+
+
+def with_head(page, title, desc, canonical, extra, image=None, kind="website"):
+    page = re.sub(r"<title>[^<]*</title>", lambda m: "<title>%s</title>" % attr(title), page, count=1)
+    page = re.sub(r'<meta name="description" content="[^"]*">', lambda m: '<meta name="description" content="%s">' % attr(desc), page, count=1)
+    head = ('<link rel="canonical" href="%s">\n<meta property="og:type" content="%s">\n<meta property="og:site_name" content="%s">\n'
+            '<meta property="og:title" content="%s">\n<meta property="og:description" content="%s">\n<meta property="og:url" content="%s">\n'
+            % (attr(canonical), kind, SITE_NAME, attr(title), attr(desc), attr(canonical)))
+    if image:
+        head += '<meta property="og:image" content="%s">\n<meta name="twitter:card" content="summary_large_image">\n' % attr(image)
+    head += extra
+    return page.replace("</head>", head + "</head>", 1)
+
+
+def write_search_pages(out_dir, page, artists, articles):
+    url = site_url()
+    publisher = {"@type": "Organization", "name": "Artiscope", "url": "https://grovegallery.com/"}
+    img = lambda p: url + p if isinstance(p, str) and p.startswith("images/") else None
+    live_artists = [a for a in artists if a.get("published") is True]
+    if page.count("</head>") != 1 or page.count("</body>") != 1:
+        sys.exit("The layout file must contain one </head> and one </body>.")
+
+    home_ld = ld_json({"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": url,
+                       "description": "Researched artist portfolios, artwork reviews, collecting guides and techniques explained.",
+                       "publisher": publisher})
+    m = re.search(r'<meta name="description" content="([^"]*)">', page)
+    home = with_head(page, SITE_NAME, m.group(1) if m else "", url, home_ld)
+    home = home.replace("</body>", LINKS_SCRIPT % '""' + "</body>", 1)
+    with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(home)
+
+    # one folder down two levels: pictures and the page's own links are found from the top
+    deep = (page.replace('"images/', '"../../images/').replace("'images/'", "'../../images/'")
+                .replace('href="images/', 'href="../../images/'))
+    deep = deep.replace("</body>", LINKS_SCRIPT % '"../../"' + "</body>", 1)
+    addresses = [""]
+
+    def write(folder, slug, hash_, title, desc, ld, image, kind):
+        address = "%s/%s/" % (folder, slug)
+        boot = ("<script>if(!location.hash)history.replaceState(null,'',location.pathname+location.search+'#%s');</script>\n" % hash_)
+        html = with_head(deep, title, desc, url + address, ld, image, kind)
+        html = html.replace("<head>", "<head>\n" + boot, 1)
+        target = os.path.join(out_dir, folder, slug)
+        os.makedirs(target, exist_ok=True)
+        with open(os.path.join(target, "index.html"), "w", encoding="utf-8") as f:
+            f.write(html)
+        addresses.append(address)
+
+    for a in live_artists:
+        desc = plain(a.get("dek") or a.get("summary") or "")
+        image = img(a.get("image"))
+        person = {"@type": "Person", "name": a["name"]}
+        if image:
+            person["image"] = image
+        ld = ld_json({"@context": "https://schema.org", "@type": "ProfilePage", "name": a["name"] + ": artist portfolio",
+                      "url": url + "artists/%s/" % a["slug"], "description": desc, "mainEntity": person,
+                      "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url}, "publisher": publisher})
+        write("artists", a["slug"], "artist-" + a["slug"], title_for(a["name"] + ": artist portfolio"), desc, ld, image, "profile")
+
+    for a in articles:
+        desc = plain(a.get("dek") or a.get("body") or "")
+        image = img(a.get("image"))
+        data = {"@context": "https://schema.org", "@type": "Article", "headline": plain(a.get("title"), 110),
+                "description": desc, "url": url + "articles/%s/" % a["slug"],
+                "mainEntityOfPage": url + "articles/%s/" % a["slug"],
+                "author": {"@type": "Organization", "name": SITE_NAME, "url": url}, "publisher": publisher,
+                "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url}}
+        if image:
+            data["image"] = image
+        names = [x["name"] for s in (a.get("artists") or []) for x in live_artists if x["slug"] == s]
+        if names:
+            data["about"] = [{"@type": "Person", "name": n} for n in names]
+        write("articles", a["slug"], "a-" + a["slug"], title_for(a.get("title") or SITE_NAME), desc, ld_json(data), image, "article")
+
+    with open(os.path.join(out_dir, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        for address in addresses:
+            f.write("<url><loc>%s%s</loc></url>\n" % (url, address))
+        f.write("</urlset>\n")
+    with open(os.path.join(out_dir, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write("User-agent: *\nAllow: /\n\nSitemap: %ssitemap.xml\n" % url)
+    return len(addresses) - 1
 
 
 if __name__ == "__main__":
