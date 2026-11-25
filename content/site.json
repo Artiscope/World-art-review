@@ -1217,6 +1217,342 @@
       "date": "1 August 2017",
       "kind": "Interview with the artist",
       "url": "https://streetartunitedstates.com/interview-mohamed-lghacham/"
+    },
+    "brit-picasso": {
+      "title": "Pablo Picasso",
+      "pub": "Britannica",
+      "date": "read 25 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Pablo-Picasso"
+    },
+    "moma-demoiselles": {
+      "title": "Pablo Picasso, Les Demoiselles d'Avignon",
+      "pub": "The Museum of Modern Art",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.moma.org/collection/works/79766"
+    },
+    "moma-demoiselles-100": {
+      "title": "Picasso's Demoiselles d'Avignon at 100",
+      "pub": "The Museum of Modern Art",
+      "date": "2007",
+      "kind": "Museum exhibition page",
+      "url": "https://www.moma.org/calendar/exhibitions/40"
+    },
+    "reina-guernica": {
+      "title": "Guernica",
+      "pub": "Museo Reina Sofía",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://museoreinasofia.es/en/collections/artwork/guernica-0"
+    },
+    "phillips-picasso-hk": {
+      "title": "Pichet au vase, lot 149, 30 September 2026",
+      "pub": "Phillips",
+      "date": "30 September 2026",
+      "kind": "Auction lot record",
+      "url": "https://www.phillips.com/detail/pablo-picasso/239267"
+    },
+    "tan-christies-20c-2026": {
+      "title": "Christie's 20th Century Evening Sale, New York",
+      "pub": "The Art Newspaper",
+      "date": "18 November 2026",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2026/11/18/kandinsky-record-and-a-trove-consigned-by-jeff-koons-buoy-christies-solid-20th-century-evening-sale-in-new-york"
+    },
+    "brit-basquiat": {
+      "title": "Jean-Michel Basquiat",
+      "pub": "Britannica",
+      "date": "read 25 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Jean-Michel-Basquiat"
+    },
+    "whitney-basquiat": {
+      "title": "Jean-Michel Basquiat",
+      "pub": "Whitney Museum of American Art",
+      "date": "read 25 November 2026",
+      "kind": "Museum artist page",
+      "url": "https://whitney.org/artists/69"
+    },
+    "whitney-hollywood-africans": {
+      "title": "Jean-Michel Basquiat, Hollywood Africans, 1983",
+      "pub": "Whitney Museum of American Art",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://whitney.org/collection/works/453"
+    },
+    "whitney-lnaprk": {
+      "title": "Jean-Michel Basquiat, LNAPRK, 1982",
+      "pub": "Whitney Museum of American Art",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://whitney.org/collection/works/7811"
+    },
+    "mfa-basquiat-timeline": {
+      "title": "Basquiat and his contemporaries: exhibition timeline",
+      "pub": "Museum of Fine Arts, Boston",
+      "date": "read 25 November 2026",
+      "kind": "Museum timeline",
+      "url": "https://www.mfa.org/exhibition/writing-the-future/basquiat-contemporaries-exhibition-timeline"
+    },
+    "tan-christies-21c-2026": {
+      "title": "Christie's 21st Century sale, New York",
+      "pub": "The Art Newspaper",
+      "date": "20 November 2026",
+      "kind": "News report",
+      "url": "https://theartnewspaper.com/2026/11/20/christies-new-york-november-auction-21st-century-art-gund-sonnabend-basquiat"
+    },
+    "brit-haring": {
+      "title": "Keith Haring",
+      "pub": "Britannica",
+      "date": "read 25 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Keith-Haring"
+    },
+    "pbs-haring": {
+      "title": "Keith Haring biography",
+      "pub": "PBS American Masters",
+      "date": "read 25 November 2026",
+      "kind": "Broadcaster biography",
+      "url": "https://www.pbs.org/wnet/americanmasters/keith-haring-biography/16012"
+    },
+    "pisa-tuttomondo": {
+      "title": "Keith Haring, Tuttomondo",
+      "pub": "Pisa tourism office",
+      "date": "read 25 November 2026",
+      "kind": "City information page",
+      "url": "https://www.turismo.pisa.it/en/luogo/keith-haring,-tuttomondo"
+    },
+    "jsma-haring": {
+      "title": "Keith Haring research guide",
+      "pub": "Jordan Schnitzer Museum of Art",
+      "date": "2026",
+      "kind": "Museum research guide",
+      "url": "https://jsma.uoregon.edu/sites/default/files/2026-08/jsma-research-guide-keith-haring.pdf"
+    },
+    "tan-hockney-obit": {
+      "title": "David Hockney, an artist of brio and versatility, has died aged 88",
+      "pub": "The Art Newspaper",
+      "date": "12 June 2026",
+      "kind": "Obituary",
+      "url": "https://www.theartnewspaper.com/2026/06/12/david-hockney-an-artist-of-brio-and-versatility-with-global-recognition-beyond-the-art-world-has-died-aged-88"
+    },
+    "tate-bigger-splash": {
+      "title": "Understanding David Hockney's A Bigger Splash",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum article",
+      "url": "https://www.tate.org.uk/art/artworks/hockney-a-bigger-splash-t03254/understanding-david-hockneys-bigger-splash"
+    },
+    "tate-third-love": {
+      "title": "David Hockney, The Third Love Painting, 1960",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.tate.org.uk/art/artworks/hockney-the-third-love-painting-t06468"
+    },
+    "tate-lawson-sleep": {
+      "title": "David Hockney, George Lawson and Wayne Sleep, 1972 to 1975",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.tate.org.uk/art/artworks/hockney-george-lawson-and-wayne-sleep-t14098"
+    },
+    "phillips-hockney-kilham": {
+      "title": "Summer Road Near Kilham, lot 179, 20 November 2026",
+      "pub": "Phillips",
+      "date": "20 November 2026",
+      "kind": "Auction lot record",
+      "url": "https://www.phillips.com/detail/david-hockney/242634"
+    },
+    "whitecube-hirst": {
+      "title": "Damien Hirst",
+      "pub": "White Cube",
+      "date": "read 25 November 2026",
+      "kind": "Gallery artist page",
+      "url": "https://www.whitecube.com/artists/damien-hirst"
+    },
+    "tate-turner-1995-hirst": {
+      "title": "Turner Prize 1995 artists: Damien Hirst",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum exhibition page",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/exhibition/turner-prize-1995/turner-prize-1995-artists-damien-hirst"
+    },
+    "tate-hirst-pharmacy": {
+      "title": "Damien Hirst, Pharmacy, 1992",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.tate.org.uk/art/artworks/hirst-pharmacy-t07187"
+    },
+    "tate-hirst-acquired": {
+      "title": "Damien Hirst, The Acquired Inability to Escape, 1991",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.tate.org.uk/art/artworks/hirst-the-acquired-inability-to-escape-t12748"
+    },
+    "tate-turner-2013-shrigley": {
+      "title": "Turner Prize 2013 artists: David Shrigley",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum exhibition page",
+      "url": "https://www.tate.org.uk/whats-on/other-venue/turner-prize-2013/turner-prize-2013-artists-david-shrigley"
+    },
+    "gla-really-good": {
+      "title": "David Shrigley's Really Good",
+      "pub": "Mayor of London, Fourth Plinth",
+      "date": "read 25 November 2026",
+      "kind": "Commission page",
+      "url": "https://www.london.gov.uk/what-we-do/arts-and-culture/current-culture-projects/david-shrigleys-really-good"
+    },
+    "ngv-shrigley": {
+      "title": "David Shrigley",
+      "pub": "National Gallery of Victoria",
+      "date": "read 25 November 2026",
+      "kind": "Museum artist page",
+      "url": "https://www.ngv.vic.gov.au/triennial/artists-designers/david-shrigley"
+    },
+    "tateward-shrigley": {
+      "title": "Auction search: David Shrigley",
+      "pub": "Tate Ward",
+      "date": "read 25 November 2026",
+      "kind": "Auction catalogue",
+      "url": "https://www.tateward.com/auction/search/?st=David+Shrigley"
+    },
+    "saatchi-lobsteropolis": {
+      "title": "Philip Colbert: Lobsteropolis",
+      "pub": "Saatchi Gallery",
+      "date": "2021",
+      "kind": "Gallery exhibition page",
+      "url": "https://www.saatchigallery.com/exhibition/philip_colbert__lobsteropolis"
+    },
+    "hypebeast-colbert": {
+      "title": "Interview with Philip Colbert",
+      "pub": "Hypebeast",
+      "date": "January 2019",
+      "kind": "Interview with the artist",
+      "url": "https://hypebeast.com/2019/1/philip-colbert-interview-pen-and-paper-hunt-paintings-exhibiton-saatchi-gallery"
+    },
+    "cent-colbert": {
+      "title": "The Artist and the Lobster",
+      "pub": "Cent Magazine (Jo Phillips)",
+      "date": "read 25 November 2026",
+      "kind": "Profile",
+      "url": "https://centmagazine.co.uk/?p=56782"
+    },
+    "pearllam-colbert-cv": {
+      "title": "Philip Colbert CV",
+      "pub": "Pearl Lam Galleries",
+      "date": "2022",
+      "kind": "Gallery CV",
+      "url": "https://www.pearllam.com/wp-content/uploads/2022/05/Philip-Colbert-CV-EN-copy-2.pdf"
+    },
+    "cw-colbert": {
+      "title": "Philip Colbert, Hunt Paintings, Saatchi Gallery",
+      "pub": "Culture Whisper",
+      "date": "2018",
+      "kind": "Exhibition listing",
+      "url": "https://culturewhisper.com/amp/visual_arts/philip_colbert_new_paintings_saatchi_gallery/12651"
+    },
+    "grove-lostalgia": {
+      "title": "Los-Talgia",
+      "pub": "Grove Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery publicity",
+      "url": "https://grovegallery.com/collections/los-talgia"
+    },
+    "tateward-lostalgia": {
+      "title": "Los-Talgia, Handheld Icon Collection, lot 109",
+      "pub": "Tate Ward",
+      "date": "13 August 2026",
+      "kind": "Auction lot record",
+      "url": "https://www.tateward.com/auction/lot/lot-109---los-talgia-collaboration-handheld-icon-collection-2026/?lot=29066&sd=1"
+    },
+    "prn-frank-canvas": {
+      "title": "London-based artist Frank Canvas launches his first series, Socially Awkward Elephant",
+      "pub": "PR Newswire (Nomad Arts Group)",
+      "date": "31 December 2022",
+      "kind": "Press release",
+      "url": "https://www.prnewswire.com/news-releases/london-based-artist-frank-canvas-launches-his-first-series-socially-awkward-elephant-with-simultaneous-exhibitions-in-london-and-villars-sur-ollon-switzerland-301711580.html"
+    },
+    "grove-frank-canvas": {
+      "title": "Frank Canvas",
+      "pub": "Grove Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery publicity",
+      "url": "https://grovegallery.com/collections/frank-canvas"
+    },
+    "grove-choose-your-reality": {
+      "title": "Choose Your Reality by Frank Canvas",
+      "pub": "Grove Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery publicity",
+      "url": "https://grovegallery.com/products/choose-your-reality"
+    },
+    "grove-exhibitions": {
+      "title": "Exhibitions and collaborations",
+      "pub": "Grove Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery records",
+      "url": "https://grovegallery.com/pages/exhibitions"
+    },
+    "week-walters": {
+      "title": "Artful intuition: British painter Robi Walters on keeping it real",
+      "pub": "The Week",
+      "date": "January 2018",
+      "kind": "Profile",
+      "url": "https://theweek.com/90800/artful-intuition-british-painter-robi-walters-on-keeping-it-real"
+    },
+    "cent-walters": {
+      "title": "Mineral; crushed paint",
+      "pub": "Cent Magazine (Jo Phillips)",
+      "date": "read 25 November 2026",
+      "kind": "Profile",
+      "url": "https://centmagazine.co.uk/?p=48824"
+    },
+    "damoah-walters": {
+      "title": "Robi Walters Gives Art Career Advice",
+      "pub": "Adelaide Damoah Art",
+      "date": "March 2017",
+      "kind": "Interview with the artist",
+      "url": "https://adelaidedamoahart.com/2017/03/art-career-advice-from-robi-watlers-adelaide-damoah-art-discussion"
+    },
+    "mash-amanza": {
+      "title": "Amanza Smith",
+      "pub": "MASH Gallery",
+      "date": "read 25 November 2026",
+      "kind": "Gallery publicity",
+      "url": "https://www.mashgallery.com/collections/amanza-smith"
+    },
+    "mdb-amanza": {
+      "title": "Interview report on Amanza Smith",
+      "pub": "Majorca Daily Bulletin",
+      "date": "1 May 2025",
+      "kind": "Interview with the artist",
+      "url": "https://www.majorcadailybulletin.com/holiday/life-style/2025/05/01/132935/mallorca-famous-art-painting-dream-that-never-knew-had-and-love-use-help-others-the-future.html"
+    },
+    "ap-zen": {
+      "title": "Zen Xander: Society Falling",
+      "pub": "Art Plugged",
+      "date": "July 2024",
+      "kind": "Exhibition review",
+      "url": "https://artplugged.co.uk/zen-xander-society-falling/"
+    },
+    "artsy-zen": {
+      "title": "Society Falling by Zen Xander at Grove Gallery",
+      "pub": "Artsy",
+      "date": "June 2024",
+      "kind": "Exhibition listing",
+      "url": "https://www.artsy.net/show/grove-gallery-society-falling-by-zen-xander"
+    },
+    "zen-about": {
+      "title": "The Story of Zen Xander",
+      "pub": "Zen Xander",
+      "date": "read 25 November 2026",
+      "kind": "Artist's own website",
+      "url": "https://zenxander.com/pages/about"
     }
   },
   "artists": [
@@ -1650,27 +1986,118 @@
       "slug": "zen-xander",
       "name": "Zen Xander",
       "letter": "Z",
-      "published": false,
+      "published": true,
       "image": null,
       "alt": "",
       "ghostWords": [
-        "Work",
-        "in",
-        "progress.",
-        "Portfolio"
+        "A lion",
+        "in a",
+        "VR",
+        "headset."
       ],
-      "tag": "Grove Gallery artist",
-      "place": "",
+      "tag": "Satirical painting",
+      "place": "London",
       "tone": "#D3C5AA",
-      "summary": "Portfolio in research. A full profile will be added once it has been sourced and checked.",
+      "heroTone": "#8E7A55",
+      "summary": "A name with two published descriptions: an anonymous street artist, in one review, and a small group of painters, illustrators, designers and writers, on its own website. The paintings put animals in human situations.",
+      "dek": "Zen Xander's pictures are quick jokes: a cheetah on a scooter, a lion in a virtual reality headset eating salad. Who makes them is less clear.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Who",
+          "Anonymous; described as a collective on its own site",
+          [
+            "ap-zen",
+            "zen-about"
+          ]
+        ],
+        [
+          "First solo show",
+          "Society Falling, Grove Gallery, 2024",
+          [
+            "artsy-zen"
+          ]
+        ],
+        [
+          "Subject",
+          "Animals in human situations",
+          [
+            "ap-zen"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Zen Xander?",
+          "html": "<p>Reviewing <em>Society Falling</em> in July 2024, Art Plugged introduced Zen Xander as an anonymous street artist moving from the street into the gallery.<sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup> The Zen Xander website says instead that the name belongs to a small group of painters, illustrators, designers and writers. This is reported, and we have not been able to settle which account is fuller.<sup class=\"cite\"><a data-src=\"zen-about\">[zen-about]</a></sup></p><p><em>Society Falling</em>, listed by Artsy as a first solo exhibition, ran at Grove Gallery in Fitzrovia from 26 June to 31 July 2024.<sup class=\"cite\"><a data-src=\"artsy-zen\">[artsy-zen]</a></sup> Grove Gallery, which belongs to the same group as this site, also records the work at a Dorsett hotel in London and at South Place Hotel.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Animals stand in for people. Art Plugged described <em>VR Vegan</em>, in which a lion in a virtual reality headset eats a bowl of salad, as a jab at the gap between real and virtual life and at the contradictions of modern diets. Another work in the show, <em>Always a Cheetah</em>, puts a cheetah on a scooter.<sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup></p><h3>How to read one</h3><p>Ask which habit is being laughed at. Using an animal keeps the joke general, so nobody is singled out and anyone can see themselves.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: another anonymous name</li><li><a href=\"#artist-frank-canvas\">Frank Canvas</a>: satire of everyday habits</li><li><a href=\"#artist-banksy\">Banksy</a>: street art, satire and anonymity</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "VR Vegan",
+          "year": "2024",
+          "medium": "Painting",
+          "size": "",
+          "note": "A lion in a virtual reality headset eating salad. Shown in Society Falling, Grove Gallery, 2024.",
+          "src": [
+            "ap-zen"
+          ],
+          "tone": "#A9CCE3"
+        },
+        {
+          "title": "Always a Cheetah",
+          "year": "2024",
+          "medium": "Painting",
+          "size": "",
+          "note": "A cheetah on a scooter. Shown in Society Falling.",
+          "src": [
+            "ap-zen"
+          ],
+          "tone": "#F0B27A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "2024",
+          "what": "Grove at the Grove, with Banksy, May.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Society Falling, Grove Gallery, 26 June to 31 July.",
+          "src": [
+            "artsy-zen"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Work at South Place Hotel, London, from September.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found the work in a museum collection in the sources we read.</p>",
+      "related": [],
       "research": [
-        "Biography and background",
-        "Medium and technique",
-        "Key works with dates and sizes",
-        "Exhibition history",
-        "Press coverage",
-        "Photographs with permission to publish",
-        "A yes or no on the first portfolio, waiting in the content calendar"
+        "Who makes the work",
+        "Media and sizes of VR Vegan and Always a Cheetah",
+        "Street work, if any, with dates and places",
+        "A photograph with permission to publish"
       ]
     },
     {
@@ -5467,9 +5894,1636 @@
         "Sotheby's results for 16 November 2026, which need a sign-in to read",
         "Catalogue raisonné numbers for the works named"
       ]
+    },
+    {
+      "slug": "pablo-picasso",
+      "name": "Pablo Picasso",
+      "letter": "P",
+      "published": true,
+      "image": "images/pablo-picasso-1908.jpg",
+      "alt": "Black and white photograph of the young Pablo Picasso in a heavy overcoat, dark hair over his forehead, looking straight at the camera.",
+      "ghostWords": [
+        "A face",
+        "in",
+        "pieces.",
+        "Cubism"
+      ],
+      "tag": "Cubism",
+      "place": "Málaga, Barcelona and Paris",
+      "tone": "#7A3B2E",
+      "heroTone": "#7A3B2E",
+      "summary": "The Spanish painter, sculptor, printmaker and ceramicist who, with Georges Braque, broke the picture into flat, angled planes and called it Cubism.",
+      "dek": "Pablo Picasso worked for almost eighty years. Les Demoiselles d'Avignon, begun in the winter of 1906 to 1907, changed how a body could be drawn, and Guernica, thirty years later, changed what a painting about war could look like.",
+      "heroCredit": "Photo: unknown photographer, 1908, public domain",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Málaga, Spain, 25 October 1881",
+          [
+            "brit-picasso"
+          ]
+        ],
+        [
+          "Trained",
+          "La Llotja, Barcelona; Royal Academy of San Fernando, Madrid",
+          [
+            "brit-picasso"
+          ]
+        ],
+        [
+          "Based",
+          "Paris and the south of France",
+          [
+            "brit-picasso"
+          ]
+        ],
+        [
+          "Label",
+          "Cubism, with Georges Braque",
+          [
+            "brit-picasso"
+          ]
+        ],
+        [
+          "Died",
+          "Mougins, France, 8 April 1973",
+          [
+            "brit-picasso"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Pablo Picasso?",
+          "html": "<p>Picasso's father, José Ruiz Blasco, taught drawing, and he gave his son his first lessons. The family moved to A Coruña in 1891 and to Barcelona in 1895, where Picasso entered the art school known as La Llotja.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup></p><p>In 1897 he went to the Royal Academy of San Fernando in Madrid. He found the teaching poor and spent his time in the Prado instead.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup></p><p>He first went to Paris in October 1900, with his friend Carles Casagemas. Casagemas's death soon after is linked to the paintings of the so-called Blue Period. By the end of 1901 Picasso had stopped using his father's surname.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup> He died at Mougins in 1973, aged 91.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>In <em>Les Demoiselles d'Avignon</em> five nude women are built from flat, splintered planes. Their faces draw on Iberian sculpture and African masks, and the two figures on the right are often linked to Picasso's visit to the ethnographic museum at the Trocadéro in Paris while he was working on the picture.<sup class=\"cite\"><a data-src=\"moma-demoiselles\">[moma-demoiselles]</a></sup></p><p>With Georges Braque he went on to develop Cubism, in which an object is shown from several sides at once and the surface is broken into angled facets.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup></p><p><em>Guernica</em> uses the same language for a public subject. It is painted in greys, black and white, in a long landscape format that the Reina Sofía relates to film and press photography.<sup class=\"cite\"><a data-src=\"reina-guernica\">[reina-guernica]</a></sup></p><h3>How to read one</h3><p>Look for the places where two views of one face meet: an eye seen from the front set into a nose seen from the side. In our reading, that join is where the picture does its work. It asks you to hold two ways of seeing at once.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: another painter who broke with how pictures had looked</li><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: an artist whose output runs from unique works to large editions</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Les Demoiselles d'Avignon",
+          "year": "1907",
+          "medium": "Oil on canvas",
+          "size": "",
+          "note": "Five nude women made of flat, broken planes. MoMA notes that the title refers to a street in Barcelona. Picasso began the sketches in the winter of 1906 to 1907 and revised the painting for months. The Museum of Modern Art, New York.",
+          "src": [
+            "moma-demoiselles",
+            "moma-demoiselles-100"
+          ],
+          "tone": "#C08A6B"
+        },
+        {
+          "title": "Guernica",
+          "year": "1937",
+          "medium": "Oil on canvas",
+          "size": "349.3 x 776.6 cm",
+          "note": "Painted in Paris between 1 May and 4 June 1937 for the Spanish Pavilion at the International Exposition, after news of the bombing of the Basque town. The Reina Sofía calls it a general plea against the barbarity and terror of war. It returned to Spain in 1981. Museo Reina Sofía, Madrid.",
+          "src": [
+            "reina-guernica"
+          ],
+          "tone": "#5B5B5B"
+        },
+        {
+          "title": "Pichet au vase",
+          "year": "1954",
+          "medium": "White earthenware pitcher, painted and partly glazed, edition of 500",
+          "size": "30 x 24 x 15 cm",
+          "note": "A ceramic jug stamped Madoura, numbered 125 of 500. Editions like this make up much of what reaches auction. This one sold at Phillips Hong Kong in September 2026.",
+          "src": [
+            "phillips-picasso-hk"
+          ],
+          "tone": "#D9B26A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1881",
+          "what": "Born in Málaga on 25 October.",
+          "src": [
+            "brit-picasso"
+          ]
+        },
+        {
+          "when": "1895",
+          "what": "Enters La Llotja art school in Barcelona.",
+          "src": [
+            "brit-picasso"
+          ]
+        },
+        {
+          "when": "1900",
+          "what": "First visit to Paris, with Carles Casagemas.",
+          "src": [
+            "brit-picasso"
+          ]
+        },
+        {
+          "when": "1906 to 1907",
+          "what": "Sketches and paints Les Demoiselles d'Avignon.",
+          "src": [
+            "moma-demoiselles-100"
+          ]
+        },
+        {
+          "when": "1937",
+          "what": "Paints Guernica in Paris, 1 May to 4 June.",
+          "src": [
+            "reina-guernica"
+          ]
+        },
+        {
+          "when": "1973",
+          "what": "Dies at Mougins on 8 April.",
+          "src": [
+            "brit-picasso"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Le Baiser (1969) sells at Christie's New York for a hammer price of US$26.5 million.",
+          "src": [
+            "tan-christies-20c-2026"
+          ]
+        }
+      ],
+      "seen": "<p><em>Les Demoiselles d'Avignon</em> is at the Museum of Modern Art in New York and <em>Guernica</em> at the Museo Reina Sofía in Madrid.<sup class=\"cite\"><a data-src=\"moma-demoiselles\">[moma-demoiselles]</a></sup><sup class=\"cite\"><a data-src=\"reina-guernica\">[reina-guernica]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Rose Period and the move to Paris, from a museum source",
+        "Dates and catalogue numbers for the ceramics",
+        "Christie's lot pages for the three paintings sold on 17 November 2026"
+      ]
+    },
+    {
+      "slug": "jean-michel-basquiat",
+      "name": "Jean-Michel Basquiat",
+      "letter": "J",
+      "published": true,
+      "image": "images/jean-michel-basquiat-1984.jpg",
+      "alt": "Black and white photograph of Jean-Michel Basquiat smiling broadly, in a dark jacket over a pale shirt.",
+      "ghostWords": [
+        "Crowns,",
+        "words,",
+        "bones.",
+        "SAMO©"
+      ],
+      "tag": "Painting and drawing",
+      "place": "Brooklyn and New York",
+      "tone": "#B8862B",
+      "heroTone": "#B8862B",
+      "summary": "The New York painter who moved from the SAMO© graffiti of the late 1970s to large canvases crowded with words, crowns and fragments of anatomy, all within about eight years.",
+      "dek": "Jean-Michel Basquiat was 21 when he showed at Documenta in Kassel and 27 when he died. The paintings mix drawing, writing and crossing out, and the words matter as much as the figures.",
+      "heroCredit": "Photo: Galerie Bruno Bischofberger, 1984, CC BY-SA 4.0",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Brooklyn, New York, 22 December 1960",
+          [
+            "brit-basquiat"
+          ]
+        ],
+        [
+          "Began",
+          "SAMO© graffiti with Al Diaz, late 1970s",
+          [
+            "whitney-basquiat",
+            "brit-basquiat"
+          ]
+        ],
+        [
+          "First show",
+          "The Times Square Show, 1980",
+          [
+            "brit-basquiat"
+          ]
+        ],
+        [
+          "Died",
+          "New York, 12 August 1988",
+          [
+            "brit-basquiat"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Jean-Michel Basquiat?",
+          "html": "<p>Basquiat was born in Brooklyn in 1960. His mother was of Puerto Rican descent, and he lived in Puerto Rico from 1974 to 1976. He left school and home at 17.<sup class=\"cite\"><a data-src=\"brit-basquiat\">[brit-basquiat]</a></sup></p><p>With Al Diaz and Shannon Dawson he wrote the SAMO© tags that appeared around downtown Manhattan in the late 1970s. His first formal exhibition was The Times Square Show in 1980.<sup class=\"cite\"><a data-src=\"brit-basquiat\">[brit-basquiat]</a></sup><sup class=\"cite\"><a data-src=\"whitney-basquiat\">[whitney-basquiat]</a></sup></p><p>Shows came quickly: Modena in May 1981, Annina Nosei in New York and Larry Gagosian in Los Angeles in 1982, and Documenta 7 in Kassel that summer, where he was among the youngest of 182 artists.<sup class=\"cite\"><a data-src=\"mfa-basquiat-timeline\">[mfa-basquiat-timeline]</a></sup> He met Andy Warhol in 1983, and died of a heroin overdose in his New York loft in 1988.<sup class=\"cite\"><a data-src=\"brit-basquiat\">[brit-basquiat]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>By 1980 he was painting on canvas, using oilstick to draw crowns, halos and parts of the body.<sup class=\"cite\"><a data-src=\"whitney-basquiat\">[whitney-basquiat]</a></sup> He painted on found materials too: <em>LNAPRK</em> (1982) has wooden crossbars, tied with twine, that the Whitney thinks may have come from the street.<sup class=\"cite\"><a data-src=\"whitney-lnaprk\">[whitney-lnaprk]</a></sup></p><p>Words fill the pictures. Many are crossed out, and he explained why.<sup class=\"cite\"><a data-src=\"whitney-hollywood-africans\">[whitney-hollywood-africans]</a></sup></p><blockquote>I cross out words so you will see them more; the fact that they are obscured makes you want to read them.</blockquote><h3>How to read one</h3><p>Read the words before the figures. In <em>Hollywood Africans</em> the lists of crops and film roles carry the argument, and the crown he used as a graffiti writer turns up as a signature.<sup class=\"cite\"><a data-src=\"whitney-hollywood-africans\">[whitney-hollywood-africans]</a></sup><sup class=\"cite\"><a data-src=\"whitney-lnaprk\">[whitney-lnaprk]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: friend and collaborator from 1983</li><li><a href=\"#artist-keith-haring\">Keith Haring</a>: the same downtown scene, from the street to the gallery</li><li><a href=\"#artist-banksy\">Banksy</a>: another artist who started with words on walls</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Hollywood Africans",
+          "year": "1983",
+          "medium": "Acrylic and oil stick on canvas",
+          "size": "213.5 x 213.4 cm",
+          "note": "Painted during a long stay in Los Angeles. The Whitney identifies the three figures as Basquiat with the artists Rammellzee and Toxic. Words such as Sugar Cane, Tobacco and Gangsterism point to the narrow roles once given to Black actors. His birth date appears as 12, 22 and 60. Whitney Museum of American Art.",
+          "src": [
+            "whitney-hollywood-africans"
+          ],
+          "tone": "#E2B33C"
+        },
+        {
+          "title": "LNAPRK",
+          "year": "1982",
+          "medium": "Acrylic, oil, oilstick and marker on found paper on canvas and wood, with rope",
+          "size": "220.3 x 168.4 cm",
+          "note": "Named after an amusement park outside Milan, painted after a visit to Italy. The crown near the lower right is his old graffiti signature. Whitney Museum of American Art.",
+          "src": [
+            "whitney-lnaprk"
+          ],
+          "tone": "#8C3B2E"
+        },
+        {
+          "title": "Untitled (Leonardo and His Five Grotesque Heads)",
+          "year": "1983",
+          "medium": "Oilstick and acrylic",
+          "size": "about 203 x 203 cm",
+          "note": "Sold at Christie's New York on 19 November 2026 for a hammer price of US$28 million, US$32.8 million with fees, as reported by The Art Newspaper.",
+          "src": [
+            "tan-christies-21c-2026"
+          ],
+          "tone": "#2E6DA4"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1960",
+          "what": "Born in Brooklyn on 22 December.",
+          "src": [
+            "brit-basquiat"
+          ]
+        },
+        {
+          "when": "Late 1970s",
+          "what": "Writes SAMO© graffiti with Al Diaz.",
+          "src": [
+            "whitney-basquiat"
+          ]
+        },
+        {
+          "when": "1980",
+          "what": "Shows in The Times Square Show.",
+          "src": [
+            "brit-basquiat"
+          ]
+        },
+        {
+          "when": "1982",
+          "what": "Solo shows in New York and Los Angeles; Documenta 7, Kassel.",
+          "src": [
+            "mfa-basquiat-timeline"
+          ]
+        },
+        {
+          "when": "1983",
+          "what": "Whitney Biennial; meets Andy Warhol.",
+          "src": [
+            "whitney-basquiat",
+            "brit-basquiat"
+          ]
+        },
+        {
+          "when": "1984",
+          "what": "First solo museum show, Fruitmarket Gallery, Edinburgh.",
+          "src": [
+            "mfa-basquiat-timeline"
+          ]
+        },
+        {
+          "when": "1988",
+          "what": "Dies in New York on 12 August.",
+          "src": [
+            "brit-basquiat"
+          ]
+        },
+        {
+          "when": "1992",
+          "what": "Retrospective at the Whitney Museum.",
+          "src": [
+            "whitney-basquiat"
+          ]
+        }
+      ],
+      "seen": "<p>The Whitney Museum of American Art in New York holds <em>Hollywood Africans</em> and <em>LNAPRK</em>.<sup class=\"cite\"><a data-src=\"whitney-hollywood-africans\">[whitney-hollywood-africans]</a></sup><sup class=\"cite\"><a data-src=\"whitney-lnaprk\">[whitney-lnaprk]</a></sup></p>",
+      "related": [
+        "a-original-vs-print"
+      ],
+      "research": [
+        "The date of his 1983 Los Angeles show",
+        "Christie's lot page for the November 2026 sale",
+        "A first-hand account of the SAMO© years"
+      ]
+    },
+    {
+      "slug": "keith-haring",
+      "name": "Keith Haring",
+      "letter": "K",
+      "published": true,
+      "image": "images/keith-haring-stedelijk-1986.jpg",
+      "alt": "Keith Haring in a white T-shirt holding a paper cup, painting a thick black line on a white wall.",
+      "ghostWords": [
+        "Chalk",
+        "on",
+        "black",
+        "paper."
+      ],
+      "tag": "Drawing and murals",
+      "place": "Kutztown and New York",
+      "tone": "#C8102E",
+      "heroTone": "#C8102E",
+      "summary": "The American artist whose chalk figures on the empty black panels of the New York subway led to murals, paintings and prints in the same bold outline, and to a shop that sold his work cheaply.",
+      "dek": "Keith Haring drew in public, fast and without permission, and kept that habit when museums began to ask for him. He died at 31, having painted walls from New York to Pisa.",
+      "heroCredit": "Photo: Rob Bogaerts / Anefo, Nationaal Archief, 1986, CC0",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Reading, Pennsylvania, 4 May 1958",
+          [
+            "brit-haring"
+          ]
+        ],
+        [
+          "Trained",
+          "Ivy School of Professional Art, Pittsburgh; School of Visual Arts, New York",
+          [
+            "pbs-haring"
+          ]
+        ],
+        [
+          "Known for",
+          "Subway drawings, from 1981",
+          [
+            "brit-haring"
+          ]
+        ],
+        [
+          "Died",
+          "New York, 16 February 1990",
+          [
+            "brit-haring"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Keith Haring?",
+          "html": "<p>Haring grew up in Kutztown, Pennsylvania. His father was an amateur cartoonist. He spent two semesters at the Ivy School of Professional Art in Pittsburgh and had his first solo show at the Pittsburgh Center for the Arts in 1978, aged 19.<sup class=\"cite\"><a data-src=\"pbs-haring\">[pbs-haring]</a></sup></p><p>That year he moved to New York on a scholarship to the School of Visual Arts, and became part of the scene at Club 57 with Kenny Scharf and Jean-Michel Basquiat.<sup class=\"cite\"><a data-src=\"pbs-haring\">[pbs-haring]</a></sup></p><p>He showed at Tony Shafrazi Gallery in 1982 and in the Whitney Biennial in 1983. In 1986 he opened the Pop Shop. He was diagnosed with AIDS in 1988, set up the Keith Haring Foundation in 1989 and died in 1990.<sup class=\"cite\"><a data-src=\"pbs-haring\">[pbs-haring]</a></sup><sup class=\"cite\"><a data-src=\"brit-haring\">[brit-haring]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The subway drawings were made in white chalk on the black paper that covered unused advertising panels. Britannica calls them unauthorised. PBS counts them in the hundreds over five years.<sup class=\"cite\"><a data-src=\"brit-haring\">[brit-haring]</a></sup><sup class=\"cite\"><a data-src=\"pbs-haring\">[pbs-haring]</a></sup></p><p>The figures are drawn in one continuous outline, with short lines around them to show movement or noise. The same vocabulary runs through his murals, canvases and prints.<sup class=\"cite\"><a data-src=\"jsma-haring\">[jsma-haring]</a></sup></p><h3>How to read one</h3><p>Count the figures and follow what they are doing to each other. The pictures are simple to see and often not simple to read: in <em>Untitled (Still Alive in '85)</em> figures tumble from a body standing for the year 1985, at the height of the AIDS crisis.<sup class=\"cite\"><a data-src=\"jsma-haring\">[jsma-haring]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a>: the same downtown scene</li><li><a href=\"#artist-banksy\">Banksy</a>: art made in public, without permission</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: murals that became museum shows</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Untitled (Still Alive in '85)",
+          "year": "1985",
+          "medium": "Chalk on three joined sheets of black paper, on the original transit authority mount",
+          "size": "",
+          "note": "A subway drawing, one of the largest of its time according to the Jordan Schnitzer Museum of Art. Private collection, Los Angeles.",
+          "src": [
+            "jsma-haring"
+          ],
+          "tone": "#1E1E1E"
+        },
+        {
+          "title": "Crack is Wack",
+          "year": "1986",
+          "medium": "Mural",
+          "size": "",
+          "note": "Painted in New York in 1986, the year of the Pop Shop and his Berlin Wall painting, according to PBS.",
+          "src": [
+            "pbs-haring"
+          ],
+          "tone": "#E35B2B"
+        },
+        {
+          "title": "Tuttomondo",
+          "year": "1989",
+          "medium": "Mural",
+          "size": "",
+          "note": "Painted on the wall of the Servi di Maria convent beside the church of Sant'Antonio in Pisa, between the railway and bus stations. The city describes its subject as universal peace.",
+          "src": [
+            "pisa-tuttomondo"
+          ],
+          "tone": "#2E8B57"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1958",
+          "what": "Born in Reading, Pennsylvania, on 4 May.",
+          "src": [
+            "brit-haring"
+          ]
+        },
+        {
+          "when": "1978",
+          "what": "First solo show in Pittsburgh; moves to New York.",
+          "src": [
+            "pbs-haring"
+          ]
+        },
+        {
+          "when": "1981",
+          "what": "Begins the subway drawings.",
+          "src": [
+            "brit-haring"
+          ]
+        },
+        {
+          "when": "1983",
+          "what": "Whitney Biennial.",
+          "src": [
+            "pbs-haring"
+          ]
+        },
+        {
+          "when": "1986",
+          "what": "Opens the Pop Shop; paints Crack is Wack and the Berlin Wall.",
+          "src": [
+            "pbs-haring"
+          ]
+        },
+        {
+          "when": "1989",
+          "what": "Founds the Keith Haring Foundation; paints Tuttomondo in Pisa.",
+          "src": [
+            "pbs-haring",
+            "pisa-tuttomondo"
+          ]
+        },
+        {
+          "when": "1990",
+          "what": "Dies in New York on 16 February.",
+          "src": [
+            "brit-haring"
+          ]
+        }
+      ],
+      "seen": "<p><em>Tuttomondo</em> can be seen on Via Zandonai in Pisa.<sup class=\"cite\"><a data-src=\"pisa-tuttomondo\">[pisa-tuttomondo]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "Museum collections that hold subway drawings",
+        "The full PBS account of the Statue of Liberty banner (two figures given)",
+        "The location and current state of Crack is Wack"
+      ]
+    },
+    {
+      "slug": "david-hockney",
+      "name": "David Hockney",
+      "letter": "D",
+      "published": true,
+      "image": "images/david-hockney-2017.jpg",
+      "alt": "David Hockney in a flat cap, round black glasses and a striped cardigan.",
+      "ghostWords": [
+        "A splash,",
+        "a pool,",
+        "a field.",
+        "Light"
+      ],
+      "tag": "Painting",
+      "place": "Bradford, Los Angeles and Normandy",
+      "tone": "#2E86C1",
+      "heroTone": "#2E86C1",
+      "summary": "The Yorkshire-born painter of California swimming pools, double portraits and, late in life, landscapes drawn on an iPad, who worked in almost every medium he came across.",
+      "dek": "David Hockney moved between Bradford, London, Los Angeles and Normandy, and between oil, acrylic, photography, photocopiers and tablets. He died in June 2026, aged 88.",
+      "heroCredit": "Photo: Connaissance des Arts, 2017, CC BY 3.0",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Bradford, 9 July 1937",
+          [
+            "tan-hockney-obit"
+          ]
+        ],
+        [
+          "Trained",
+          "Bradford School of Art; Royal College of Art, 1959 to 1962",
+          [
+            "tan-hockney-obit"
+          ]
+        ],
+        [
+          "Honours",
+          "Companion of Honour 1997; Order of Merit 2012",
+          [
+            "tan-hockney-obit"
+          ]
+        ],
+        [
+          "Died",
+          "11 June 2026, at home, aged 88",
+          [
+            "tan-hockney-obit"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was David Hockney?",
+          "html": "<p>Hockney grew up in Bradford and studied at the town's art school from 1953 to 1957. He chose the Royal College of Art over the Slade and was there from 1959 to 1962. He showed in Young Contemporaries in 1961.<sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup></p><p>He first went to California in 1963 and spent much of the next forty years there.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup> From 2004 he lived in Bridlington and painted the Yorkshire Wolds. During the Covid-19 pandemic he moved to Normandy.<sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup></p><p>He was made a Royal Academician in 1991, a Companion of Honour in 1997 and a member of the Order of Merit in 2012. He died at home on 11 June 2026.<sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>For <em>A Bigger Splash</em> he stapled the canvas to the wall and painted without drawing first. He rolled on the flat areas in two or three layers and used small brushes for the chair, the trees and the splash, which took about two weeks. He worked from someone else's photograph.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup></p><blockquote>When you photograph a splash, you're freezing a moment and it becomes something else.</blockquote><p>He kept changing tools. In 1987 he made prints on an office colour copier. In 2008 he printed computer drawings by inkjet. In Normandy he drew on an iPad, and the Royal Academy showed 116 of those drawings in 2021.<sup class=\"cite\"><a data-src=\"phillips-hockney-kilham\">[phillips-hockney-kilham]</a></sup><sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup></p><h3>How to read one</h3><p>Look at how little moves. In <em>A Bigger Splash</em> everything is flat and still except the white burst of water, so the eye goes straight to the one thing that has just happened.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: another artist who used new tools to make pictures</li><li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: painting and the photograph</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "The Third Love Painting",
+          "year": "1960",
+          "medium": "Oil on hardboard",
+          "size": "",
+          "note": "A student work, more loosely painted than his later pictures. Tate compares it with A Bigger Splash. Tate.",
+          "src": [
+            "tate-third-love",
+            "tate-bigger-splash"
+          ],
+          "tone": "#8C6D46"
+        },
+        {
+          "title": "A Bigger Splash",
+          "year": "1967",
+          "medium": "Acrylic on cotton duck",
+          "size": "about 2.5 m square",
+          "note": "A splash in a Los Angeles swimming pool, painted in 1967. Tate.",
+          "src": [
+            "tate-bigger-splash"
+          ],
+          "tone": "#5DADE2"
+        },
+        {
+          "title": "Summer Road Near Kilham",
+          "year": "2008",
+          "medium": "Inkjet-printed computer drawing, edition of 25",
+          "size": "122.6 x 94 cm",
+          "note": "A Yorkshire Wolds road drawn on a computer. Number 6 of 25 sold at Phillips New York on 20 November 2026.",
+          "src": [
+            "phillips-hockney-kilham"
+          ],
+          "tone": "#7DAF4E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1937",
+          "what": "Born in Bradford on 9 July.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "1959",
+          "what": "Enters the Royal College of Art.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "1963",
+          "what": "First visit to California.",
+          "src": [
+            "tate-bigger-splash"
+          ]
+        },
+        {
+          "when": "1967",
+          "what": "Paints A Bigger Splash; John Moores Painting Prize.",
+          "src": [
+            "tate-bigger-splash",
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "2004",
+          "what": "Settles in Bridlington.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "Order of Merit.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "2021",
+          "what": "The Arrival of Spring at the Royal Academy.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Dies at home on 11 June.",
+          "src": [
+            "tan-hockney-obit"
+          ]
+        }
+      ],
+      "seen": "<p>Tate holds <em>A Bigger Splash</em>, <em>The Third Love Painting</em> and <em>George Lawson and Wayne Sleep</em>.<sup class=\"cite\"><a data-src=\"tate-bigger-splash\">[tate-bigger-splash]</a></sup><sup class=\"cite\"><a data-src=\"tate-third-love\">[tate-third-love]</a></sup><sup class=\"cite\"><a data-src=\"tate-lawson-sleep\">[tate-lawson-sleep]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Where he died (the obituary says at home)",
+        "Whether A Bigger Splash includes a diving board (sources differ)",
+        "Museum records for the Normandy iPad drawings"
+      ]
+    },
+    {
+      "slug": "damien-hirst",
+      "name": "Damien Hirst",
+      "letter": "D",
+      "published": true,
+      "image": "images/damien-hirst-2012.jpg",
+      "alt": "Damien Hirst in a white jacket and red T-shirt, standing in a gallery in front of a wall of large coloured spots.",
+      "ghostWords": [
+        "Glass,",
+        "steel,",
+        "formaldehyde.",
+        "Hirst"
+      ],
+      "tag": "Sculpture and installation",
+      "place": "Bristol, London and Gloucestershire",
+      "tone": "#2C3E50",
+      "heroTone": "#2C3E50",
+      "summary": "The British artist known for animals preserved in tanks of formaldehyde, medicine cabinets, and paintings made of spots or spun colour, who won the Turner Prize in 1995.",
+      "dek": "Damien Hirst's work keeps returning to the same few things: medicine, belief and death. He shows them in glass cases, in rows of pills and in grids of coloured spots.",
+      "heroCredit": "Photo: Andrew Russeth, 2012, CC BY-SA 2.0",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Bristol, 1965",
+          [
+            "whitecube-hirst"
+          ]
+        ],
+        [
+          "Based",
+          "London and Gloucestershire",
+          [
+            "whitecube-hirst"
+          ]
+        ],
+        [
+          "Prize",
+          "Turner Prize, 1995",
+          [
+            "tate-turner-1995-hirst"
+          ]
+        ],
+        [
+          "Gallery",
+          "White Cube",
+          [
+            "whitecube-hirst"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Damien Hirst?",
+          "html": "<p>Hirst was born in Bristol in 1965. White Cube counts more than 90 solo exhibitions and over 300 group shows since 1987.<sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p><p>He won the Turner Prize in 1995. The centre of that show was <em>Mother and Child (Divided)</em>, made for the Venice Biennale in 1993.<sup class=\"cite\"><a data-src=\"tate-turner-1995-hirst\">[tate-turner-1995-hirst]</a></sup></p><p>Tate Modern gave him a retrospective in 2012. In 2017 he showed <em>Treasures from the Wreck of the Unbelievable</em> in Venice, a project of almost 190 works that took ten years. Recent museum shows include the Albertina Modern in Vienna in 2025 and the National Museum of Modern and Contemporary Art in Seoul in 2026.<sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>White Cube groups the work into series: the Natural History sculptures of animals in formaldehyde, the medicine cabinets and pharmacy works, the spot and spin paintings, and the butterfly works. It describes his subjects as art, science, religion, love and the knowledge of death.<sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p><p>The vitrine is his basic unit. <em>The Acquired Inability to Escape</em> (1991) is a glass and steel case holding a chair, a table, an ashtray, a lighter and cigarettes. Nobody is in it, and White Cube reads that absence as the point.<sup class=\"cite\"><a data-src=\"tate-hirst-acquired\">[tate-hirst-acquired]</a></sup><sup class=\"cite\"><a data-src=\"whitecube-hirst\">[whitecube-hirst]</a></sup></p><h3>How to read one</h3><p>Ask what the case or the cabinet is keeping you from. The glass shows you everything and lets you touch nothing. In our reading, that distance does most of the work.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: another British artist with a very large print market</li><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: dots, repetition and installation</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "The Acquired Inability to Escape",
+          "year": "1991",
+          "medium": "Glass, steel, silicone rubber, Formica, chair, ashtray, lighter and cigarettes",
+          "size": "",
+          "note": "An empty office in a glass case. Tate.",
+          "src": [
+            "tate-hirst-acquired",
+            "whitecube-hirst"
+          ],
+          "tone": "#7F8C8D"
+        },
+        {
+          "title": "Pharmacy",
+          "year": "1992",
+          "medium": "Installation",
+          "size": "",
+          "note": "A room fitted out as a pharmacy, with medicine packaging, apothecary bottles, desks and an insect-o-cutor among the materials Tate records. Tate.",
+          "src": [
+            "tate-hirst-pharmacy"
+          ],
+          "tone": "#A3C4DC"
+        },
+        {
+          "title": "Mother and Child (Divided)",
+          "year": "1993",
+          "medium": "Cow and calf, cut in half, in formaldehyde solution, in four glass tanks",
+          "size": "",
+          "note": "Made for the 1993 Venice Biennale and the centre of his 1995 Turner Prize show. Astrup Fearnley Museet, Oslo.",
+          "src": [
+            "tate-turner-1995-hirst"
+          ],
+          "tone": "#5D6D7E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1965",
+          "what": "Born in Bristol.",
+          "src": [
+            "whitecube-hirst"
+          ]
+        },
+        {
+          "when": "1993",
+          "what": "Mother and Child (Divided) at the Venice Biennale.",
+          "src": [
+            "tate-turner-1995-hirst"
+          ]
+        },
+        {
+          "when": "1995",
+          "what": "Wins the Turner Prize.",
+          "src": [
+            "tate-turner-1995-hirst"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "Retrospective at Tate Modern.",
+          "src": [
+            "whitecube-hirst"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Treasures from the Wreck of the Unbelievable, Venice.",
+          "src": [
+            "whitecube-hirst"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "Exhibition at MMCA, Seoul, 20 March to 28 June.",
+          "src": [
+            "whitecube-hirst"
+          ]
+        }
+      ],
+      "seen": "<p>Tate holds <em>Pharmacy</em> and <em>The Acquired Inability to Escape</em>. <em>Mother and Child (Divided)</em> belongs to the Astrup Fearnley Museet in Oslo.<sup class=\"cite\"><a data-src=\"tate-hirst-pharmacy\">[tate-hirst-pharmacy]</a></sup><sup class=\"cite\"><a data-src=\"tate-hirst-acquired\">[tate-hirst-acquired]</a></sup><sup class=\"cite\"><a data-src=\"tate-turner-1995-hirst\">[tate-turner-1995-hirst]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "His training (no source read yet)",
+        "Dimensions of the Tate works",
+        "How the spot paintings are made, from a primary source"
+      ]
+    },
+    {
+      "slug": "david-shrigley",
+      "name": "David Shrigley",
+      "letter": "D",
+      "published": true,
+      "image": "images/david-shrigley-2011.jpg",
+      "alt": "David Shrigley in a dark top, looking to one side, in front of a flip chart covered in his line drawings.",
+      "ghostWords": [
+        "Badly",
+        "drawn,",
+        "on",
+        "purpose."
+      ],
+      "tag": "Drawing",
+      "place": "Macclesfield, Glasgow and Brighton",
+      "tone": "#1F1F1F",
+      "heroTone": "#1F1F1F",
+      "summary": "The British artist whose deliberately crude drawings, hand-lettered texts, animations and sculptures turn ordinary anxiety into dry jokes. He was shortlisted for the Turner Prize in 2013.",
+      "dek": "David Shrigley draws badly on purpose. The wobbly line and the crossed-out word are how the jokes land, and the same voice runs through his prints, films and a seven metre bronze thumb.",
+      "heroCredit": "Photo: Andy Miah, 2011, CC BY-SA 2.0",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Macclesfield, 1968",
+          [
+            "gla-really-good"
+          ]
+        ],
+        [
+          "Based",
+          "Brighton",
+          [
+            "gla-really-good"
+          ]
+        ],
+        [
+          "Trained",
+          "Glasgow School of Art (reported)",
+          [
+            "tateward-shrigley"
+          ]
+        ],
+        [
+          "Prize",
+          "Turner Prize shortlist, 2013",
+          [
+            "tate-turner-2013-shrigley"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is David Shrigley?",
+          "html": "<p>Shrigley was born in Macclesfield in 1968 and lives in Brighton.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup> An auction catalogue notes that he studied at Glasgow School of Art. We have not yet confirmed that from a primary source.<sup class=\"cite\"><a data-src=\"tateward-shrigley\">[tateward-shrigley]</a></sup></p><p>He was shortlisted for the Turner Prize in 2013 for his Hayward Gallery show <em>Brain Activity</em>.<sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup> He had a solo show at the Pinakothek der Moderne in Munich in 2014, and the National Gallery of Victoria in Melbourne gave him his first major Australian survey, <em>Life and Life Drawing</em>, from November 2014 to March 2015.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup><sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup></p><p>In 2016 his bronze <em>Really Good</em> stood on the Fourth Plinth in Trafalgar Square.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The NGV describes stripped-back, darkly funny drawings that are crude on purpose and deal with dysfunction and anxiety.<sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup> The Fourth Plinth programme places the work in the British tradition of satire.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p><p>Most drawings pair a rough image with hand-lettered words, often with a mistake crossed out and left in. He also makes animations, books, photographs, sculpture and performance.<sup class=\"cite\"><a data-src=\"ngv-shrigley\">[ngv-shrigley]</a></sup><sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup></p><h3>How to read one</h3><p>Read the words, then look at the drawing, then read the words again. The joke is usually in the gap between them.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: British satire and very large print editions</li><li><a href=\"#artist-damien-hirst\">Damien Hirst</a>: a Turner Prize artist with a big edition market</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Life Model",
+          "year": "2012",
+          "medium": "Installation",
+          "size": "",
+          "note": "Shown in the Turner Prize exhibition in Derry~Londonderry in 2013.",
+          "src": [
+            "tate-turner-2013-shrigley"
+          ],
+          "tone": "#BDB76B"
+        },
+        {
+          "title": "Untitled (Problem)",
+          "year": "2014",
+          "medium": "Synthetic polymer paint on paper",
+          "size": "153 x 111 cm",
+          "note": "Hand-lettered words and a rough image, the format most of his prints follow. Lent by Stephen Friedman Gallery to the NGV survey.",
+          "src": [
+            "ngv-shrigley"
+          ],
+          "tone": "#D35400"
+        },
+        {
+          "title": "Really Good",
+          "year": "2016",
+          "medium": "Bronze",
+          "size": "about 7 m high",
+          "note": "A thumbs-up with a much too long thumb, cast with the same dark patina as the other statues in Trafalgar Square. Fourth Plinth, 2016.",
+          "src": [
+            "gla-really-good"
+          ],
+          "tone": "#3B3B3B"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1968",
+          "what": "Born in Macclesfield.",
+          "src": [
+            "gla-really-good"
+          ]
+        },
+        {
+          "when": "2011 to 2012",
+          "what": "Pass the Spoon performed at Tramway, Glasgow, and the Southbank Centre, London.",
+          "src": [
+            "gla-really-good"
+          ]
+        },
+        {
+          "when": "2013",
+          "what": "Turner Prize shortlist for Brain Activity.",
+          "src": [
+            "tate-turner-2013-shrigley"
+          ]
+        },
+        {
+          "when": "2014",
+          "what": "Life and Life Drawing opens at the NGV, Melbourne.",
+          "src": [
+            "ngv-shrigley"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "Really Good on the Fourth Plinth.",
+          "src": [
+            "gla-really-good"
+          ]
+        }
+      ],
+      "seen": "<p>We have not yet confirmed a museum collection that owns his work from a museum's own record. <em>Really Good</em> stood in Trafalgar Square in 2016.<sup class=\"cite\"><a data-src=\"gla-really-good\">[gla-really-good]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "His training, from a primary source",
+        "Museum collections that hold drawings",
+        "Where Really Good went after Trafalgar Square"
+      ]
+    },
+    {
+      "slug": "philip-colbert",
+      "name": "Philip Colbert",
+      "letter": "P",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "The",
+        "painter",
+        "is",
+        "a lobster."
+      ],
+      "tag": "Pop painting",
+      "place": "Scotland and London",
+      "tone": "#D9302C",
+      "heroTone": "#D9302C",
+      "summary": "The Scottish-born painter whose large, crowded canvases are led by a cartoon lobster, his stand-in, and stuffed with emojis, comic-book sound effects and borrowings from pop art and Old Master hunting scenes.",
+      "dek": "Philip Colbert studied philosophy and ran a clothing label before he painted full time. Then the lobster arrived.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Scotland, 1979",
+          [
+            "pearllam-colbert-cv"
+          ]
+        ],
+        [
+          "Based",
+          "London",
+          [
+            "pearllam-colbert-cv"
+          ]
+        ],
+        [
+          "Studied",
+          "MA Philosophy, University of St Andrews, 2003",
+          [
+            "pearllam-colbert-cv"
+          ]
+        ],
+        [
+          "Alter ego",
+          "A cartoon lobster",
+          [
+            "saatchi-lobsteropolis",
+            "cent-colbert"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Philip Colbert?",
+          "html": "<p>Colbert was born in Scotland in 1979 and took an MA in philosophy at St Andrews in 2003. He lives in London.<sup class=\"cite\"><a data-src=\"pearllam-colbert-cv\">[pearllam-colbert-cv]</a></sup> After graduating he set up what he described as an art-inspired clothing brand, and later painted full time.<sup class=\"cite\"><a data-src=\"hypebeast-colbert\">[hypebeast-colbert]</a></sup></p><p>The Saatchi Gallery in London has shown him several times: <em>Hunt Paintings</em> from December 2018 into January 2019, and <em>Lobsteropolis</em> in May and June 2021, which it called his largest UK survey to date.<sup class=\"cite\"><a data-src=\"cw-colbert\">[cw-colbert]</a></sup><sup class=\"cite\"><a data-src=\"saatchi-lobsteropolis\">[saatchi-lobsteropolis]</a></sup> His CV lists group shows at Tate Modern and the Van Gogh Museum in 2015, and a solo show at the Wardlaw Museum in St Andrews in 2021. This is reported by the gallery that published the CV.<sup class=\"cite\"><a data-src=\"pearllam-colbert-cv\">[pearllam-colbert-cv]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The paintings are large and full. The Saatchi Gallery lists emojis, computer windows, classical architecture, Lichtenstein spots, comic-book sound effects, cactus plants and pixelated mouse cursors among the images.<sup class=\"cite\"><a data-src=\"saatchi-lobsteropolis\">[saatchi-lobsteropolis]</a></sup></p><p>The lobster runs through all of them, crowned and in pyjamas, according to Cent Magazine.<sup class=\"cite\"><a data-src=\"cent-colbert\">[cent-colbert]</a></sup> Colbert puts it simply.</p><blockquote>I became an artist when I became a Lobster.</blockquote><p>The <em>Hunt Paintings</em> borrow the layout of hunting scenes by Rubens and Van Dyck. In <em>Hunt with Dogs</em> the lobster, holding a devil's pitchfork, rides a unicorn against a man in a tracksuit on a donkey.<sup class=\"cite\"><a data-src=\"cent-colbert\">[cent-colbert]</a></sup></p><h3>How to read one</h3><p>Find the old painting underneath. Once you see the hunting scene or the portrait it is built on, the cartoon details read as comments on it.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: pop imagery and consumer goods</li><li><a href=\"#artist-kaws\">KAWS</a>: a cartoon character as the artist's signature</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Hunt with Dogs",
+          "year": "2018",
+          "medium": "Painting",
+          "size": "",
+          "note": "Part of the Hunt Paintings shown at the Saatchi Gallery in 2018 to 2019. Medium and size still to confirm.",
+          "src": [
+            "cent-colbert"
+          ],
+          "tone": "#C0392B"
+        },
+        {
+          "title": "The Painter Portrait 2022 (Sky Blue)",
+          "year": "2022",
+          "medium": "Oil on canvas",
+          "size": "250.3 x 185.6 cm",
+          "note": "The lobster as painter. Sold at Phillips London in December 2022.",
+          "src": [
+            "pearllam-colbert-cv"
+          ],
+          "tone": "#85C1E9"
+        },
+        {
+          "title": "Flower Study, from the Lobster Land Museum",
+          "year": "2019",
+          "medium": "Oil on canvas, in several sizes",
+          "size": "",
+          "note": "A series of flowers in flat pop colour. One almost three metres square sold at Phillips London in July 2025.",
+          "src": [
+            "cw-colbert"
+          ],
+          "tone": "#F4D03F"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1979",
+          "what": "Born in Scotland.",
+          "src": [
+            "pearllam-colbert-cv"
+          ]
+        },
+        {
+          "when": "2003",
+          "what": "MA in Philosophy, University of St Andrews.",
+          "src": [
+            "pearllam-colbert-cv"
+          ]
+        },
+        {
+          "when": "2018 to 2019",
+          "what": "Hunt Paintings, Saatchi Gallery, London.",
+          "src": [
+            "cw-colbert"
+          ]
+        },
+        {
+          "when": "2021",
+          "what": "Lobsteropolis, Saatchi Gallery, 19 May to 6 June.",
+          "src": [
+            "saatchi-lobsteropolis"
+          ]
+        },
+        {
+          "when": "2022",
+          "what": "Dreams of Lobsteropolis, Pearl Lam Galleries, Shanghai.",
+          "src": [
+            "pearllam-colbert-cv"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found a museum collection that holds his work in the sources we read.</p>",
+      "related": [],
+      "research": [
+        "A photograph with permission to publish",
+        "Museum collections, if any",
+        "The year Lobsteropolis opened (the CV says 2020, Saatchi says 2021)",
+        "Medium and size of Hunt with Dogs"
+      ]
+    },
+    {
+      "slug": "los-talgia",
+      "name": "Los-Talgia",
+      "letter": "L",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Consoles,",
+        "cassettes,",
+        "VHS.",
+        "Memory"
+      ],
+      "tag": "Grove Gallery artist",
+      "place": "",
+      "tone": "#6C3483",
+      "heroTone": "#6C3483",
+      "summary": "An anonymous collective whose hand-finished objects borrow the colours, plastics and packaging of past decades: game consoles, video sleeves, cassette labels and discontinued snacks.",
+      "dek": "Los-Talgia does not give names. Grove Gallery, which sells the work, describes a small group of artists from different generations working under one name.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Who",
+          "Anonymous collective (reported)",
+          [
+            "grove-lostalgia"
+          ]
+        ],
+        [
+          "Works",
+          "Handheld Icon series",
+          [
+            "grove-lostalgia"
+          ]
+        ],
+        [
+          "At auction",
+          "Tate Ward, August 2026",
+          [
+            "tateward-lostalgia"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Los-Talgia?",
+          "html": "<p>Almost everything published about Los-Talgia comes from Grove Gallery, which sells the work and belongs to the same group as this site. It describes a collective formed by a small group of artists from different generations, with no names and no hierarchy. This is reported, and we have not been able to check it.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The gallery says the works act as portals to the objects, colours, textures, packaging and technologies of the eras the members grew up in.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup></p><p>The Handheld Icon series is the main body of work. Tate Ward's catalogue describes one piece as 3D-printed polymer finished with acrylic and spray paint, resin and applied embellishments, 28 x 23 cm in the artist's frame, with a numbered collector card in an acrylic case. It was one of an edition of 55, each finished differently by hand.<sup class=\"cite\"><a data-src=\"tateward-lostalgia\">[tateward-lostalgia]</a></sup></p><h3>How to read one</h3><p>Look at how the object is presented: graded card, display case, presentation box. In our reading, the packaging is as much the subject as the thing inside it, the way a collectable is kept rather than used.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: another artist who works without a public name</li><li><a href=\"#artist-zen-xander\">Zen Xander</a>: a name that may belong to a group</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Handheld Icon Collection",
+          "year": "2026",
+          "medium": "3D-printed polymer, acrylic and spray paint, resin and mixed media, edition of 55 unique works",
+          "size": "28 x 23 cm framed",
+          "note": "Sold at Tate Ward's online sale on Artsy, closing 13 August 2026.",
+          "src": [
+            "tateward-lostalgia"
+          ],
+          "tone": "#AF7AC5"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "2026",
+          "what": "Handheld Icon Collection offered at Tate Ward, August.",
+          "src": [
+            "tateward-lostalgia"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found the work in a museum collection or exhibition outside Grove Gallery.</p>",
+      "related": [],
+      "research": [
+        "When the collective was formed",
+        "Any exhibition outside Grove Gallery",
+        "Independent press coverage",
+        "A photograph with permission to publish"
+      ]
+    },
+    {
+      "slug": "frank-canvas",
+      "name": "Frank Canvas",
+      "letter": "F",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "One",
+        "line,",
+        "one",
+        "joke."
+      ],
+      "tag": "Grove Gallery artist",
+      "place": "London",
+      "tone": "#D4AC0D",
+      "heroTone": "#D4AC0D",
+      "summary": "A London-based artist working under an alias, whose satirical pictures pair a bold image with a one-line title, sold mostly as signed limited edition prints.",
+      "dek": "Frank Canvas makes pictures that work like captions. Almost everything published about him comes from the gallery that sells the work or from a press release.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Based",
+          "London (reported)",
+          [
+            "prn-frank-canvas"
+          ]
+        ],
+        [
+          "First series",
+          "Socially Awkward Elephant, 2022",
+          [
+            "prn-frank-canvas"
+          ]
+        ],
+        [
+          "Format",
+          "Signed limited editions",
+          [
+            "grove-choose-your-reality"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Frank Canvas?",
+          "html": "<p>A press release from Nomad Arts Group, dated 31 December 2022, introduced Frank Canvas as a London-based artist working under an alias and announced his first series, <em>Socially Awkward Elephant</em>, with shows at Quantus Gallery in Spitalfields and in Villars-sur-Ollon in Switzerland. This is reported, and we have not been able to confirm the shows.<sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup></p><p>Grove Gallery records his work at South Place Hotel in London from September 2024, and at the opening of the Hilton &amp; Moss showroom in July 2024.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The gallery describes humour, satire and social commentary.<sup class=\"cite\"><a data-src=\"grove-frank-canvas\">[grove-frank-canvas]</a></sup> The titles show it best: <em>Choose Your Reality</em>, <em>Shopaholic</em>, <em>Karma</em>, <em>Coffee</em>, <em>I Like Your Glasses</em>. They point at shopping, caffeine, self-improvement and the phone.<sup class=\"cite\"><a data-src=\"grove-frank-canvas\">[grove-frank-canvas]</a></sup></p><p>The 2022 press release says the first series drew on the design of classic Penguin book covers.<sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup></p><h3>How to read one</h3><p>Read the title first. The image is there to set it up.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-david-shrigley\">David Shrigley</a>: words and pictures that make one joke</li><li><a href=\"#artist-zen-xander\">Zen Xander</a>: satire of modern habits</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Choose Your Reality",
+          "year": "",
+          "medium": "Signed limited edition print, edition of 125",
+          "size": "A3 to A0",
+          "note": "Offered by Grove Gallery in several sizes.",
+          "src": [
+            "grove-choose-your-reality"
+          ],
+          "tone": "#F7DC6F"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "2022",
+          "what": "First series, Socially Awkward Elephant, announced in a press release.",
+          "src": [
+            "prn-frank-canvas"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Work shown at South Place Hotel, London, from September.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found the work in a museum collection, or an independent review.</p>",
+      "related": [
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "Training and background",
+        "An independent interview or review",
+        "Confirmation of the 2022 shows",
+        "A photograph with permission to publish"
+      ]
+    },
+    {
+      "slug": "robi-walters",
+      "name": "Robi Walters",
+      "letter": "R",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Petals",
+        "from",
+        "broken",
+        "records."
+      ],
+      "tag": "Collage",
+      "place": "London",
+      "tone": "#A93226",
+      "heroTone": "#A93226",
+      "summary": "A London artist who cuts petals from broken vinyl records, flyers and packaging and layers them into lotus-like collages, and who has made a painting a day since 2011.",
+      "dek": "Robi Walters works from what others throw away. Two bodies of work run side by side: slow, exact collages and quick daily paintings.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "London, 1973",
+          [
+            "week-walters"
+          ]
+        ],
+        [
+          "Materials",
+          "Vinyl records, card, packaging",
+          [
+            "week-walters",
+            "cent-walters"
+          ]
+        ],
+        [
+          "Daily practice",
+          "A painting a day since 2011",
+          [
+            "cent-walters"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Robi Walters?",
+          "html": "<p>Walters was born in London in 1973 and works there. He has spoken publicly about a difficult childhood in care, which The Week and Cent Magazine report, and he told The Week that his art makes little sense without his story.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup><sup class=\"cite\"><a data-src=\"cent-walters\">[cent-walters]</a></sup></p><p>Cent Magazine reports that the artist Chris Ofili advised him to paint every day, and that since 2011 he has made a painting a day, each named after a news headline. The Hospital Club in London showed them in 2016 as <em>365: Every Day Counts</em>.<sup class=\"cite\"><a data-src=\"cent-walters\">[cent-walters]</a></sup> In January 2018 The Week reported that he had opened his own gallery on Ingestre Place in Soho.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup> Grove Gallery gave him a first solo show, <em>A Nation of Millions</em>, in November 2023.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>He cuts discarded flyers, cardboard, packaging and broken records into petal shapes, hundreds at a time, and layers them outward from a centre. The Week compared the effect to fireworks or a lotus bursting open.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup> Cent Magazine traces the lotus to his first sculpture, a cereal box cut into petals and arranged by sacred geometry.<sup class=\"cite\"><a data-src=\"cent-walters\">[cent-walters]</a></sup></p><h3>How to read one</h3><p>Stand close. You can still see what the material used to be: a groove from a record, a scrap of lettering, the edge of a label. Then step back and it becomes a flower.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: discarded material made into something new</li><li><a href=\"#artist-vhils\">Vhils</a>: making by taking away</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "365: Every Day Counts",
+          "year": "2016",
+          "medium": "Daily paintings",
+          "size": "",
+          "note": "A year of paintings, each named after a news headline, shown at the Hospital Club, London.",
+          "src": [
+            "cent-walters"
+          ],
+          "tone": "#E59866"
+        },
+        {
+          "title": "A Nation of Millions",
+          "year": "2023",
+          "medium": "Exhibition",
+          "size": "",
+          "note": "First solo show, Grove Gallery, Fitzrovia, November 2023.",
+          "src": [
+            "grove-exhibitions"
+          ],
+          "tone": "#CD6155"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1973",
+          "what": "Born in London.",
+          "src": [
+            "week-walters"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Begins a painting a day.",
+          "src": [
+            "cent-walters"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "365: Every Day Counts at the Hospital Club.",
+          "src": [
+            "cent-walters"
+          ]
+        },
+        {
+          "when": "2018",
+          "what": "Opens his own gallery in Soho.",
+          "src": [
+            "week-walters"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "A Nation of Millions, Grove Gallery.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Work at South Place Hotel, London.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found the work in a museum collection in the sources we read.</p>",
+      "related": [],
+      "research": [
+        "Titles, dates and sizes of individual collages",
+        "Museum or public collections",
+        "A photograph with permission to publish"
+      ]
+    },
+    {
+      "slug": "amanza-smith",
+      "name": "Amanza Smith",
+      "letter": "A",
+      "published": true,
+      "image": null,
+      "alt": "",
+      "ghostWords": [
+        "Robots,",
+        "circuits,",
+        "glitches.",
+        "Paint"
+      ],
+      "tag": "Mixed media painting",
+      "place": "Indiana and Los Angeles",
+      "tone": "#117A65",
+      "heroTone": "#117A65",
+      "summary": "An American artist, known to television audiences from Selling Sunset, who began painting during a long stay in hospital. Her mixed media canvases mix robotic figures, circuitry and graffiti-like marks.",
+      "dek": "Amanza Smith came to painting with a public name. The fair test is whether the canvases hold up once you stop thinking about who made them.",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "From",
+          "Indiana",
+          [
+            "mdb-amanza"
+          ]
+        ],
+        [
+          "Medium",
+          "Mixed media on canvas",
+          [
+            "mash-amanza"
+          ]
+        ],
+        [
+          "Debut",
+          "MASH Gallery, Los Angeles",
+          [
+            "mash-amanza"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Amanza Smith?",
+          "html": "<p>Smith grew up in Indiana and was a dancer and gymnast before she painted, according to the Majorca Daily Bulletin. The same report says she began painting during a long stay in hospital, when she could use only her right arm.<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></p><p>MASH Gallery in Los Angeles gave her a debut as an exhibiting artist, and lists her other roles, including television and interior design.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup> In April 2025 Grove Gallery showed her in London and in Palma, Mallorca.<sup class=\"cite\"><a data-src=\"grove-exhibitions\">[grove-exhibitions]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Gallery notes for <em>Scattered Remnants</em> and <em>Circuit Riot</em> describe robotic figures, circuitry, glitch effects and graffiti-like marks, with a nod to Basquiat. She calls the robots botsquiats.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup> She told the Bulletin that she never starts a canvas with a subject in mind.<sup class=\"cite\"><a data-src=\"mdb-amanza\">[mdb-amanza]</a></sup></p><h3>How to read one</h3><p>Look at the layers. Writing, marks and figures sit on top of one another, and some of the writing is her own: <em>Be Happy</em> takes in pages headed On Being Happy.<sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a>: the painter her robots nod to</li><li><a href=\"#artist-zara-muse\">Zara Muse</a>: a painter who also came to art after a hard time</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Circuit Riot",
+          "year": "",
+          "medium": "Mixed media on canvas",
+          "size": "",
+          "note": "Robotic figures and circuitry, described in MASH Gallery's notes.",
+          "src": [
+            "mash-amanza"
+          ],
+          "tone": "#48C9B0"
+        },
+        {
+          "title": "Be Happy",
+          "year": "",
+          "medium": "Mixed media on canvas",
+          "size": "",
+          "note": "Includes pages of her own writing, headed On Being Happy.",
+          "src": [
+            "mash-amanza"
+          ],
+          "tone": "#F5B041"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "2025",
+          "what": "404: Humanity not Found, Grove Gallery, London, April.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        },
+        {
+          "when": "2025",
+          "what": "Beyond The Surface, Grove Gallery, Palma, April.",
+          "src": [
+            "grove-exhibitions"
+          ]
+        }
+      ],
+      "seen": "<p>We have not found the work in a museum collection in the sources we read.</p>",
+      "related": [],
+      "research": [
+        "Year of birth",
+        "Dates and sizes of the works named",
+        "Independent review of the paintings",
+        "A photograph with permission to publish"
+      ]
     }
   ],
   "articles": [
+    {
+      "slug": "eleven-new-portfolios-november-2026",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "pablo-picasso",
+        "jean-michel-basquiat",
+        "keith-haring",
+        "david-hockney",
+        "damien-hirst",
+        "david-shrigley",
+        "philip-colbert",
+        "los-talgia",
+        "frank-canvas",
+        "robi-walters",
+        "amanza-smith"
+      ],
+      "tone": "#5B3A29",
+      "title": "Eleven new portfolios, from Picasso to artists in their first years",
+      "dek": "World Art Review now covers thirty-four artists. The newest eleven range from the founders of modern art to collectives with a single auction result.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "brit-picasso",
+        "tan-hockney-obit",
+        "tate-turner-1995-hirst",
+        "tate-turner-2013-shrigley",
+        "whitney-basquiat",
+        "brit-basquiat",
+        "brit-haring",
+        "saatchi-lobsteropolis",
+        "week-walters",
+        "grove-lostalgia",
+        "prn-frank-canvas",
+        "ap-zen",
+        "mash-amanza",
+        "tan-christies-20c-2026"
+      ],
+      "body": "\n  <p>World Art Review now has thirty-four portfolios. The eleven added this month came to us as one list, and it is an odd mix. It runs from Picasso to collectives that have been showing for only a few years.</p>\n  <p>That range means the portfolios are uneven, and we have not tried to hide it. The older names have museum catalogues, obituaries and decades of auction records behind them. The newer ones have a gallery page, a handful of interviews and sometimes a single sale. Where a fact could not be checked, it sits in the research desk, not in the portfolio.</p>\n  <h2>The long careers</h2>\n  <p><a href=\"#artist-pablo-picasso\">Pablo Picasso</a>, born in Málaga in 1881, built Cubism with Georges Braque.<sup class=\"cite\"><a data-src=\"brit-picasso\">[brit-picasso]</a></sup> <em>Le Baiser</em>, a 1969 painting, sold at Christie's New York in November 2026 for a hammer price of $26.5 million.<sup class=\"cite\"><a data-src=\"tan-christies-20c-2026\">[tan-christies-20c-2026]</a></sup></p>\n  <p><a href=\"#artist-david-hockney\">David Hockney</a> died at home on 11 June 2026, aged 88.<sup class=\"cite\"><a data-src=\"tan-hockney-obit\">[tan-hockney-obit]</a></sup> His portfolio follows him from Bradford and the Royal College of Art to Los Angeles, Yorkshire and Normandy.</p>\n  <p><a href=\"#artist-damien-hirst\">Damien Hirst</a> won the Turner Prize in 1995.<sup class=\"cite\"><a data-src=\"tate-turner-1995-hirst\">[tate-turner-1995-hirst]</a></sup> <a href=\"#artist-david-shrigley\">David Shrigley</a>, whose drawings look clumsy on purpose, was shortlisted for it in 2013.<sup class=\"cite\"><a data-src=\"tate-turner-2013-shrigley\">[tate-turner-2013-shrigley]</a></sup></p>\n  <h2>From the street to the saleroom</h2>\n  <p><a href=\"#artist-jean-michel-basquiat\">Jean-Michel Basquiat</a> wrote SAMO© graffiti with Al Diaz in the late 1970s, before he was known as a painter.<sup class=\"cite\"><a data-src=\"whitney-basquiat\">[whitney-basquiat]</a></sup><sup class=\"cite\"><a data-src=\"brit-basquiat\">[brit-basquiat]</a></sup> <a href=\"#artist-keith-haring\">Keith Haring</a> began drawing in chalk on the black paper covering empty advertising panels in the subway in 1981.<sup class=\"cite\"><a data-src=\"brit-haring\">[brit-haring]</a></sup> Both died young, in 1988 and 1990.</p>\n  <h2>Newer names</h2>\n  <p><a href=\"#artist-philip-colbert\">Philip Colbert</a> paints crowded scenes led by a cartoon lobster.<sup class=\"cite\"><a data-src=\"saatchi-lobsteropolis\">[saatchi-lobsteropolis]</a></sup> <a href=\"#artist-robi-walters\">Robi Walters</a> cuts petals from broken records and packaging.<sup class=\"cite\"><a data-src=\"week-walters\">[week-walters]</a></sup> <a href=\"#artist-los-talgia\">Los-Talgia</a>, <a href=\"#artist-frank-canvas\">Frank Canvas</a>, <a href=\"#artist-zen-xander\">Zen Xander</a> and <a href=\"#artist-amanza-smith\">Amanza Smith</a> have shorter public records, and we say so on each page.<sup class=\"cite\"><a data-src=\"grove-lostalgia\">[grove-lostalgia]</a></sup><sup class=\"cite\"><a data-src=\"prn-frank-canvas\">[prn-frank-canvas]</a></sup><sup class=\"cite\"><a data-src=\"ap-zen\">[ap-zen]</a></sup><sup class=\"cite\"><a data-src=\"mash-amanza\">[mash-amanza]</a></sup></p>\n  <p>Grove Gallery shows and sells work by several of these artists. Their portfolios follow the same rule as every other: if a fact rests only on the gallery's own word, it is marked as reported.</p>\n"
+    },
     {
       "slug": "andy-warhol-portfolio",
       "section": "features",
