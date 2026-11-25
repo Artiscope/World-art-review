@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, pages search engines can find (draft)
+Published: nothing. Prepared after the owner asked for the SEO problems found on 25 November to be fixed.
+Changed: every published portfolio and article now also has its own web address (artists/<name>/ and articles/<name>/), opening straight on that piece with its own title, search description and structured data. The links on every page lead to these addresses. The site now has a robots.txt and a sitemap listing the home page and all 97 addresses. The look, words and layout are unchanged, and src/index.html is untouched: all of this is done by tools/build_site.py.
+Checked: the site builds, a portfolio and an article open on their own address with no page errors, and links between pieces work.
+Needs you: a yes on the pull request, then adding the site to Google Search Console and sending it the sitemap.
+
 ## Wednesday 25 November 2026, reviews and artwork explainers (draft)
 Published: nothing. Added as a draft after the owner asked for more reviews and art explained pieces for every artist.
 Drafts waiting: 20 new reviews and 22 artwork explainers, one or both for every published artist, plus a short feature introducing them at the top of the homepage list. 59 new numbered sources, all opened and read: named reviews in The Art Newspaper, Apollo, The Arts Desk, Studio International, Frieze, e-flux, The Brooklyn Rail, The New York Times and others, plus museum and gallery pages. Review and Art Explained list introductions updated. Pull request: https://github.com/Artiscope/World-art-review/pull/16
