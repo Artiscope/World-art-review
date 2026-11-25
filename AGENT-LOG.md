@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, Kandinsky record price (draft)
+Published: nothing. Prepared as a draft after the price check on Global Art Monitor.
+Drafts waiting: Kandinsky: exact record price from Christie's lot page, https://github.com/Artiscope/World-art-review/pull/11
+Checked: Christie's lot page for Betonte Ecken (lot 12 A, US$85,780,000, 130 x 130 cm). The other auction figures in the portfolios already read as reported and agree with what was confirmed.
+Needs you: nothing.
+
 ## Monday 23 November 2026, Van Gogh and Kandinsky portfolios
 Published: portfolios for Vincent van Gogh and Wassily Kandinsky, whose paintings set auction records in New York in November 2026. The artists list now says sixteen artists. Published on the owner's instruction in a conversation ("once everything is done. merge and publish").
 Drafts waiting: none from this change.
