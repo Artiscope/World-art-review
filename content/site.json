@@ -874,6 +874,83 @@
       "date": "",
       "kind": "Art route page",
       "url": "https://thecrystalship.org/artworks/mohamed-lghacham/?upage=2"
+    },
+    "wiki-warhol": {
+      "title": "Andy Warhol",
+      "pub": "Wikipedia",
+      "date": "read 25 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Andy_Warhol"
+    },
+    "moma-soup": {
+      "title": "Andy Warhol, Campbell's Soup Cans, 1962",
+      "pub": "The Museum of Modern Art, New York",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.moma.org/collection/works/79809"
+    },
+    "moma-learning-soup": {
+      "title": "Andy Warhol, Campbell's Soup Cans, 1962",
+      "pub": "MoMA Learning",
+      "date": "read 25 November 2026",
+      "kind": "Museum teaching page",
+      "url": "https://www.moma.org/learn/moma_learning/andy-warhol-campbells-soup-cans-1962/"
+    },
+    "wiki-marilyn-diptych": {
+      "title": "Marilyn Diptych",
+      "pub": "Wikipedia",
+      "date": "read 25 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Marilyn_Diptych"
+    },
+    "tate-electric-chair": {
+      "title": "Andy Warhol, Electric Chair, 1964",
+      "pub": "Tate",
+      "date": "read 25 November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.tate.org.uk/art/artworks/warhol-electric-chair-t07145"
+    },
+    "tan-basquiat-warhol": {
+      "title": "Andy Warhol and Jean-Michel Basquiat's collaboration examined in Fondation Louis Vuitton show",
+      "pub": "The Art Newspaper (Gareth Harris)",
+      "date": "30 March 2023",
+      "kind": "News",
+      "url": "https://www.theartnewspaper.com/2023/03/30/andy-warhol-and-jean-michel-basquiats-collaboration-examined-in-fondation-louis-vuitton-show"
+    },
+    "eflux-basquiat-warhol": {
+      "title": "Basquiat x Warhol: Painting 4 Hands",
+      "pub": "e-flux (Fondation Louis Vuitton announcement)",
+      "date": "2023",
+      "kind": "Exhibition announcement",
+      "url": "https://www.e-flux.com/announcements/501487/basquiat-x-warhol-painting-4-hands/"
+    },
+    "sothebys-warhol-flowers": {
+      "title": "Andy Warhol, Flowers, lot 112",
+      "pub": "Sotheby's, The Now and Contemporary Evening Auction, New York",
+      "date": "16 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.sothebys.com/en/buy/auction/2026/the-now-contemporary-evening-auction-2/andy-warhol-flowers"
+    },
+    "tan-sothebys-nov-2026": {
+      "title": "Yayoi Kusama sets $15m auction record as Sotheby's opens New York mega-sales",
+      "pub": "The Art Newspaper",
+      "date": "16 November 2026",
+      "kind": "Auction report",
+      "url": "https://www.theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales"
+    },
+    "tan-christies-nov-2026": {
+      "title": "Christie's tepid 21st-century sale caps week of blockbuster auctions in New York",
+      "pub": "The Art Newspaper (Judd Tully)",
+      "date": "20 November 2026",
+      "kind": "Auction report",
+      "url": "https://theartnewspaper.com/2026/11/20/christies-new-york-november-auction-21st-century-art-gund-sonnabend-basquiat"
+    },
+    "commons-warhol-1977": {
+      "title": "Andy Warhol 1977.jpg",
+      "pub": "Wikimedia Commons",
+      "date": "photographed 14 June 1977",
+      "kind": "Photograph, public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_1977.jpg"
     }
   },
   "artists": [
@@ -4306,9 +4383,206 @@
         "Any public auction result (none found as of 25 November 2026)",
         "A photograph with permission to publish"
       ]
+    },
+    {
+      "slug": "andy-warhol",
+      "name": "Andy Warhol",
+      "letter": "A",
+      "published": true,
+      "image": "images/andy-warhol-white-house-1977.jpg",
+      "alt": "Black and white photograph of Andy Warhol in a dark suit and striped tie, with pale swept hair and round glasses, hands folded, standing in a candlelit room.",
+      "ghostWords": [
+        "A soup can,",
+        "a film star,",
+        "a silkscreen.",
+        "Pop"
+      ],
+      "tag": "Pop art",
+      "place": "Pittsburgh and New York",
+      "tone": "#B23A48",
+      "heroTone": "#B23A48",
+      "summary": "The American painter, printmaker and filmmaker who turned supermarket goods, film stars and news photographs into repeated, silkscreened images.",
+      "dek": "Andy Warhol began as a commercial illustrator. In 1962 he started printing photographs straight onto canvas, and repetition became his subject as much as Marilyn Monroe or a can of soup.",
+      "heroCredit": "Photo: Jack Kightlinger, White House, 1977, public domain",
+      "checked": "25 November 2026",
+      "glance": [
+        [
+          "Born",
+          "Pittsburgh, Pennsylvania, 6 August 1928, as Andrew Warhola",
+          [
+            "wiki-warhol"
+          ]
+        ],
+        [
+          "Trained",
+          "Pictorial design, Carnegie Institute of Technology, BFA 1949",
+          [
+            "wiki-warhol"
+          ]
+        ],
+        [
+          "Based",
+          "New York, from 1949",
+          [
+            "wiki-warhol"
+          ]
+        ],
+        [
+          "Label",
+          "Pop art",
+          [
+            "wiki-warhol",
+            "wiki-marilyn-diptych"
+          ]
+        ],
+        [
+          "Died",
+          "New York, 22 February 1987",
+          [
+            "wiki-warhol"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who was Andy Warhol?",
+          "html": "<p>Warhol was born Andrew Warhola in Pittsburgh in 1928, the son of Rusyn immigrants from what is now Slovakia. He studied pictorial design at the Carnegie Institute of Technology and moved to New York in 1949, the year he graduated.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup></p><p>His first commercial job was a set of shoe drawings for <i>Glamour</i>. Through the 1950s he drew for magazines such as <i>Vogue</i> and <i>Harper's Bazaar</i> and for the shoe company I. Miller.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup> In 1962 he showed the <i>Campbell's Soup Cans</i> at the Ferus Gallery in Los Angeles and had his first New York Pop show at the Stable Gallery.<sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup><sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup></p><p>He also made films, managed the Velvet Underground and founded <i>Interview</i> magazine. He survived a shooting in 1968 and died in New York in 1987, after gallbladder surgery.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The <i>Campbell's Soup Cans</i> of 1962 were still painted by hand: 32 canvases, one for each flavour the company sold, with the lettering traced from a projection and the border stamped on.<sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup><sup class=\"cite\"><a data-src=\"moma-learning-soup\">[moma-learning-soup]</a></sup> Later that year he switched to photo-silkscreen, which let him print a photograph onto canvas again and again.<sup class=\"cite\"><a data-src=\"moma-learning-soup\">[moma-learning-soup]</a></sup><sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p><p>That change shows in <i>Marilyn Diptych</i> (1962), made in the weeks after Monroe's death from a publicity still for the film <i>Niagara</i>. The same face is printed 50 times. On the left panel it is bright with colour; on the right it fades to black and white.<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p><h3>How to read one</h3><p>Look at where the print fails: smudges, gaps and colour laid slightly off the photograph. Our reading is that these slips are part of the point. The more often an image is repeated, the less it seems to hold.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Campbell's Soup Cans",
+          "year": "1962",
+          "medium": "Acrylic with metallic enamel paint on canvas, 32 panels",
+          "size": "Each 50.8 x 40.6 cm",
+          "note": "Thirty-two canvases, one for each soup the company sold in 1962. First shown at the Ferus Gallery, Los Angeles, in July 1962. The Museum of Modern Art, New York.",
+          "src": [
+            "moma-soup",
+            "moma-learning-soup"
+          ],
+          "tone": "#C8102E"
+        },
+        {
+          "title": "Marilyn Diptych",
+          "year": "1962",
+          "medium": "Silkscreen ink and acrylic paint on canvas",
+          "size": "205.4 x 289.6 cm",
+          "note": "Fifty repeats of one publicity photograph of Marilyn Monroe, in colour on the left and black and white on the right. Tate bought it in 1980.",
+          "src": [
+            "wiki-marilyn-diptych"
+          ],
+          "tone": "#E2B33C"
+        },
+        {
+          "title": "Flowers",
+          "year": "1964 to 1965",
+          "medium": "Spray paint and silkscreen ink on canvas",
+          "size": "121.9 x 121.9 cm",
+          "note": "One of seven Flowers paintings of this size, according to Sotheby's. Sold in New York on 16 November 2026 for a reported US$18.2 million with fees.",
+          "src": [
+            "sothebys-warhol-flowers",
+            "tan-sothebys-nov-2026"
+          ],
+          "tone": "#2E6DA4"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1928",
+          "what": "Born in Pittsburgh on 6 August.",
+          "src": [
+            "wiki-warhol"
+          ]
+        },
+        {
+          "when": "1949",
+          "what": "Graduates from Carnegie Tech and moves to New York.",
+          "src": [
+            "wiki-warhol"
+          ]
+        },
+        {
+          "when": "1962",
+          "what": "Campbell's Soup Cans shown at the Ferus Gallery, Los Angeles; first silkscreen paintings.",
+          "src": [
+            "moma-soup",
+            "moma-learning-soup"
+          ]
+        },
+        {
+          "when": "1968",
+          "what": "Survives a shooting at his studio.",
+          "src": [
+            "wiki-warhol"
+          ]
+        },
+        {
+          "when": "1983 to 1985",
+          "what": "Paints about 160 works with Jean-Michel Basquiat.",
+          "src": [
+            "tan-basquiat-warhol",
+            "eflux-basquiat-warhol"
+          ]
+        },
+        {
+          "when": "1987",
+          "what": "Dies in New York on 22 February.",
+          "src": [
+            "wiki-warhol"
+          ]
+        },
+        {
+          "when": "2026",
+          "what": "A 48 inch Flowers sells for a reported US$18.2 million at Sotheby's New York on 16 November.",
+          "src": [
+            "tan-sothebys-nov-2026"
+          ]
+        }
+      ],
+      "seen": "<p><i>Campbell's Soup Cans</i> hangs at the Museum of Modern Art in New York, and Tate holds <i>Marilyn Diptych</i> and <i>Electric Chair</i> (1964).<sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup><sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup><sup class=\"cite\"><a data-src=\"tate-electric-chair\">[tate-electric-chair]</a></sup> The Andy Warhol Museum in Pittsburgh is described as the largest museum in the United States devoted to one artist.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup></p>",
+      "related": [
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "The Andy Warhol Museum's own collection pages",
+        "Photographs of the works with permission to publish",
+        "Sotheby's results for 16 November 2026, which need a sign-in to read",
+        "Catalogue raisonné numbers for the works named"
+      ]
     }
   ],
   "articles": [
+    {
+      "slug": "andy-warhol-portfolio",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "andy-warhol"
+      ],
+      "tone": "#B23A48",
+      "title": "Andy Warhol: a portfolio of the artist who made repetition the subject",
+      "dek": "World Art Review now covers twenty-three artists. The newest died in 1987, and his paintings were the talk of the New York sales this month.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "wiki-warhol",
+        "moma-soup",
+        "wiki-marilyn-diptych",
+        "tan-sothebys-nov-2026",
+        "tan-christies-nov-2026",
+        "tan-basquiat-warhol"
+      ],
+      "body": "\n  <p>Most portfolios on this site are of living artists. <a href=\"#artist-andy-warhol\">Andy Warhol</a> is the exception, and he earns his place because so much of what came after him, from screenprints to street art, borrows his methods.</p>\n  <p>He trained in design, drew shoes and fashion for magazines in the 1950s, and then, in 1962, painted 32 soup cans and began printing photographs onto canvas.<sup class=\"cite\"><a data-src=\"wiki-warhol\">[wiki-warhol]</a></sup><sup class=\"cite\"><a data-src=\"moma-soup\">[moma-soup]</a></sup> <i>Marilyn Diptych</i>, from the same year, repeats one publicity photograph 50 times.<sup class=\"cite\"><a data-src=\"wiki-marilyn-diptych\">[wiki-marilyn-diptych]</a></sup></p>\n  <h2>Why now</h2>\n  <p>Warhol paintings sold in New York four days running this month. At Sotheby's on 16 November a 48 inch <i>Flowers</i> made a reported US$18.2 million with fees.<sup class=\"cite\"><a data-src=\"tan-sothebys-nov-2026\">[tan-sothebys-nov-2026]</a></sup> At Christie's on 19 November <i>Campbell's Soup Can (Turkey Noodle)</i> (1962) made US$9 million with fees.<sup class=\"cite\"><a data-src=\"tan-christies-nov-2026\">[tan-christies-nov-2026]</a></sup> Our sister site Global Art Monitor lists the details and the gaps.</p>\n  <p>The portfolio also covers his work with Jean-Michel Basquiat, about 160 paintings made together between 1983 and 1985.<sup class=\"cite\"><a data-src=\"tan-basquiat-warhol\">[tan-basquiat-warhol]</a></sup></p>\n"
+    },
     {
       "slug": "zara-muse-profile",
       "section": "features",

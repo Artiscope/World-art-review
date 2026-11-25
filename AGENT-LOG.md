@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, Andy Warhol (draft)
+Published: nothing. Andy Warhol portfolio added as a draft after the owner asked for him on all five sites.
+Drafts waiting: portfolio (biography, style, three works, timeline, research desk items), a short feature "Andy Warhol: a portfolio of the artist who made repetition the subject" at the top of the homepage list, and a public domain 1977 White House portrait. Branch draft/2026-11-25-andy-warhol.
+Checked: MoMA, Tate, Wikipedia, The Art Newspaper, e-flux, Sotheby's lot page.
+Needs you: nothing beyond review.
+
 ## Wednesday 25 November 2026, Mohamed L'Ghacham (draft)
 Published: the five portfolios for Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani and Jes Fan went live on the owner's go ahead (pull request 12).
 Drafts waiting: portfolio for Mohamed L'Ghacham, a muralist from the emerging artists research. Homepage count now twenty-two.
