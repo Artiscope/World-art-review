@@ -609,6 +609,13 @@
       "kind": "News report",
       "url": "https://www.artsy.net/article/artsy-editorial-record-breaking-858-million-kandinsky-leads-christie-s-november-2026-new-york-evening-sale"
     },
+    "christies-betonte": {
+      "title": "Wassily Kandinsky, Betonte Ecken, lot 12 A",
+      "pub": "Christie's",
+      "date": "17 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.christies.com/en/lot/lot-6614733"
+    },
     "tan-kandinsky": {
       "title": "Kandinsky record and trove consigned by Jeff Koons buoy Christie's 20th-century sale in New York",
       "pub": "The Art Newspaper (Judd Tully)",
@@ -3007,10 +3014,10 @@
         ],
         [
           "Auction record",
-          "Betonte Ecken (1922 to 1923), Christie's New York, 17 November 2026, reported at US$85.8 million with fees",
+          "Betonte Ecken (1922 to 1923), Christie's New York, 17 November 2026, lot 12 A, US$85,780,000 with fees",
           [
-            "tan-kandinsky",
-            "artsy-kandinsky"
+            "christies-betonte",
+            "tan-kandinsky"
           ]
         ]
       ],
@@ -3030,12 +3037,13 @@
         {
           "title": "Betonte Ecken (Accented Corners)",
           "year": "1922 to 1923",
-          "medium": "Painting",
-          "size": "",
+          "medium": "Oil on canvas",
+          "size": "130 x 130 cm",
           "note": "An abstract of black lines and coloured geometric forms from his early Bauhaus years. Owned by the Guggenheim from 1941 to 1964. Sold at Christie's New York on 17 November 2026, a new auction record for the artist.",
           "src": [
             "artsy-kandinsky",
-            "tan-kandinsky"
+            "tan-kandinsky",
+            "christies-betonte"
           ],
           "tone": "#B8452F"
         },
