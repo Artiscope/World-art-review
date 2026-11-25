@@ -187,13 +187,14 @@
           "visible": true,
           "settings": {
             "badge": "Artist in focus",
-            "artists": []
+            "artists": [],
+            "limit": 3
           }
         },
         {
           "id": "sections",
           "type": "section-list",
-          "visible": true,
+          "visible": false,
           "settings": {
             "eyebrow": "What you will find here",
             "heading": [
