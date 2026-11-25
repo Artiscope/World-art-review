@@ -2,6 +2,13 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026, fuller artist portfolios (draft)
+Published: nothing. Prepared as a draft on the owner's request to write more detailed information about each artist on every site.
+Drafts waiting: nineteen portfolios gain three new parts each: Life and career, In their own words (short named quotes) and Explore more (links to related portfolios on this site). Some also gain works and timeline dates. 36 new numbered sources, all interviews, museum pages, letters or press releases that were opened and read.
+Checked: every new citation points to a listed source. The site builds with 22 artists. Portfolios hold at phone and desktop width with no page errors. No long dashes.
+Left alone: Konn Artiss, Zen Xander and Zara Muse (nothing new found that could be checked). No interview quote could be confirmed for Rene Matić, so that portfolio has no quotes. Andy Warhol is being added in a separate change.
+Needs you: a yes or no on the draft.
+
 ## Wednesday 25 November 2026, Mohamed L'Ghacham (draft)
 Published: the five portfolios for Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani and Jes Fan went live on the owner's go ahead (pull request 12).
 Drafts waiting: portfolio for Mohamed L'Ghacham, a muralist from the emerging artists research. Homepage count now twenty-two.

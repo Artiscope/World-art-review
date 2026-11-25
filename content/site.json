@@ -874,6 +874,272 @@
       "date": "",
       "kind": "Art route page",
       "url": "https://thecrystalship.org/artworks/mohamed-lghacham/?upage=2"
+    },
+    "mg-banksy": {
+      "title": "Banksy's great and secret show",
+      "pub": "Mail & Guardian (Sapa-DPA, Anna Tomforde)",
+      "date": "13 June 2009",
+      "kind": "News report",
+      "url": "https://mg.co.za/friday/2009-06-13-banksy-s-great-and-secret-show/"
+    },
+    "tate-kusama-dots": {
+      "title": "Yayoi Kusama: Obsessed with Polka Dots",
+      "pub": "Tate",
+      "date": "6 February 2012",
+      "kind": "Video interview",
+      "url": "https://www.tate.org.uk/art/artists/yayoi-kusama-8094/obsessed-polka-dots"
+    },
+    "tate-kusama-guide": {
+      "title": "Yayoi Kusama: Infinity Mirror Rooms, exhibition guide",
+      "pub": "Tate Modern",
+      "date": "2021",
+      "kind": "Exhibition guide",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/yayoi-kusama-infinity-mirror-rooms/exhibition-guide"
+    },
+    "si-anatsui": {
+      "title": "El Anatsui interview: Behind the Red Moon",
+      "pub": "Studio International (Veronica Simpson)",
+      "date": "27 October 2023",
+      "kind": "Interview with the artist",
+      "url": "https://www.studiointernational.com/el-anatsui-interview-behind-the-red-moon-turbine-hall-tate-modern/"
+    },
+    "tan-anatsui-2023": {
+      "title": "El Anatsui, the sculptor, on making art from waste",
+      "pub": "The Art Newspaper (Louisa Buck)",
+      "date": "9 October 2023",
+      "kind": "Interview with the artist",
+      "url": "https://www.theartnewspaper.com/2023/10/09/el-anatsui-the-sculptor-on-making-art-from-waste-and-waking-up-the-artist-in-all-of-us"
+    },
+    "si-milhazes": {
+      "title": "Beatriz Milhazes interview: Maresias at Turner Contemporary",
+      "pub": "Studio International (David Trigg)",
+      "date": "12 July 2023",
+      "kind": "Interview with the artist",
+      "url": "https://www.studiointernational.com/beatriz-milhazes-interview-maresias-turner-contemporary-margate/"
+    },
+    "ocula-milhazes": {
+      "title": "Beatriz Milhazes in conversation",
+      "pub": "Ocula (Diana d’Arenberg)",
+      "date": "7 April 2015",
+      "kind": "Interview with the artist",
+      "url": "https://ocula.com/magazine/conversations/beatriz-milhazes/"
+    },
+    "christies-raza-10": {
+      "title": "10 things to know about Sayed Haider Raza",
+      "pub": "Christie's",
+      "date": "3 September 2023",
+      "kind": "Auction house guide",
+      "url": "https://www.christies.com.cn/en/stories/10-things-to-know-about-s-h-raza-168c5715e514415ea3b92229a01cd1f6"
+    },
+    "pompidou-raza": {
+      "title": "Sayed Haider Raza, les lieux de l’abstraction",
+      "pub": "Centre Pompidou (Catherine David and Diane Toubert)",
+      "date": "15 December 2022",
+      "kind": "Museum article",
+      "url": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/sayed-haider-raza-les-lieux-de-labstraction"
+    },
+    "met-richter": {
+      "title": "Gerhard Richter: Painting After All, primer",
+      "pub": "The Metropolitan Museum of Art",
+      "date": "2020",
+      "kind": "Museum guide",
+      "url": "https://www.metmuseum.org/de/primer/gerhard-richter"
+    },
+    "npr-osg": {
+      "title": "'We are like one artist': these identical twins are in sync from graffiti to gallery",
+      "pub": "NPR",
+      "date": "19 September 2024",
+      "kind": "Interview with the artists",
+      "url": "https://www.npr.org/2024/09/19/nx-s1-4967480/osgemeos-twins-brazil-hirshhorn-pandolfo"
+    },
+    "jux-osg": {
+      "title": "OSGEMEOS reveal their secrets in major homecoming museum show in Sao Paulo",
+      "pub": "Juxtapoz (Sasha Bogojev)",
+      "date": "2020",
+      "kind": "Exhibition report",
+      "url": "https://juxtapoz.com/news/installation/osgemeos-reveal-their-secrets-in-major-homecoming-museum-show-in-sao-paulo/"
+    },
+    "jsma-osg": {
+      "title": "OSGEMEOS research guide",
+      "pub": "Jordan Schnitzer Museum of Art",
+      "date": "2025",
+      "kind": "Museum research guide",
+      "url": "https://jsma.uoregon.edu/sites/default/files/2025-09/jsma-research-guide-osgemeos.pdf"
+    },
+    "db-vhils": {
+      "title": "Alexandre Farto aka Vhils: studio visit and interview",
+      "pub": "designboom (Hollie Smith)",
+      "date": "19 May 2017",
+      "kind": "Interview with the artist",
+      "url": "https://www.designboom.com/art/alexandre-farto-vhils-studio-visit-interview-05-19-2017/"
+    },
+    "euronews-vhils-2024": {
+      "title": "Street art made with explosives and chisels: meet Vhils, Portugal's urban archaeologist",
+      "pub": "Euronews (Charlotte Cullen)",
+      "date": "14 May 2024",
+      "kind": "Interview with the artist",
+      "url": "https://www.euronews.com/2024/05/14/street-art-made-with-explosives-and-chisels-meet-vhils-portugal-s-urban-archaeologist"
+    },
+    "hb-vhils": {
+      "title": "Exploding identity with Vhils",
+      "pub": "Hypebeast (Kevin Wong)",
+      "date": "9 March 2020",
+      "kind": "Interview with the artist",
+      "url": "https://hypebeast.com/2020/3/exploding-identity-with-vhils"
+    },
+    "rail-kaws": {
+      "title": "KAWS with Jason Rosenfeld",
+      "pub": "The Brooklyn Rail",
+      "date": "June 2021",
+      "kind": "Interview with the artist",
+      "url": "https://brooklynrail.org/2021/06/art/KAWS-with-Jason-Rosenfeld/"
+    },
+    "tan-kaws-2021": {
+      "title": "The big review: KAWS: What Party at the Brooklyn Museum",
+      "pub": "The Art Newspaper (Paddy Johnson)",
+      "date": "9 April 2021",
+      "kind": "Exhibition review",
+      "url": "https://www.theartnewspaper.com/review/the-big-review-kaws-what-party-at-the-brooklyn-museum"
+    },
+    "jp-eko": {
+      "title": "Getting personal: Eko Nugroho recording history through art",
+      "pub": "The Jakarta Post (Bambang Muryanto)",
+      "date": "14 January 2017",
+      "kind": "Profile",
+      "url": "https://www.thejakartapost.com/news/2017/01/14/getting-personal-eko-nugroho-recording-history-through-art.html"
+    },
+    "aa-eko": {
+      "title": "Reality in the world of Eko Nugroho",
+      "pub": "Art + Australia (Rifky Effendy)",
+      "date": "about 2013",
+      "kind": "Essay",
+      "url": "https://artandaustralia.com/A_A/p255/reality-in-the-world-of-eko-nugroho"
+    },
+    "danysz-eko": {
+      "title": "Eko Nugroho, biography",
+      "pub": "DANYSZ",
+      "date": "2026",
+      "kind": "Gallery biography",
+      "url": "https://danyszgallery.com/artists/10977-eko-nugroho/biography/"
+    },
+    "dm-faith": {
+      "title": "CHANT: Faith XLVII's public practice",
+      "pub": "Daily Maverick (Dave Mann)",
+      "date": "22 April 2020",
+      "kind": "Interview with the artist",
+      "url": "https://www.dailymaverick.co.za/article/2020-04-22-chant-faith-xlviis-public-practice/"
+    },
+    "bsa-faith": {
+      "title": "FaithXLVII x Moniker x BSA",
+      "pub": "Brooklyn Street Art",
+      "date": "25 April 2018",
+      "kind": "Interview with the artist",
+      "url": "https://brooklynstreetart.com/2018/04/25/faithxlvii-x-moniker-x-bsa"
+    },
+    "letter-649": {
+      "title": "Letter 649 to Theo and Jo van Gogh, Auvers, about 10 July 1890",
+      "pub": "WebExhibits (Johanna van Gogh-Bonger translation)",
+      "date": "1890",
+      "kind": "Letter by the artist",
+      "url": "https://www.webexhibits.org/vangogh/letter/21/649.htm"
+    },
+    "letter-651": {
+      "title": "Letter 651 to Theo van Gogh, Auvers, 23 July 1890",
+      "pub": "WebExhibits (Johanna van Gogh-Bonger translation)",
+      "date": "1890",
+      "kind": "Letter by the artist",
+      "url": "https://webexhibits.org/vangogh/letter/21/651.htm"
+    },
+    "gutenberg-kandinsky": {
+      "title": "Concerning the Spiritual in Art (tr. Michael Sadler)",
+      "pub": "Project Gutenberg",
+      "date": "1912 text",
+      "kind": "Book by the artist",
+      "url": "https://www.gutenberg.org/ebooks/5321"
+    },
+    "bilbao-writings": {
+      "title": "Influential writings",
+      "pub": "Guggenheim Museum Bilbao",
+      "date": "2026",
+      "kind": "Museum page",
+      "url": "https://guggenheim-bilbao.eus/en/did-you-know/influential-writings"
+    },
+    "dbpf-matic": {
+      "title": "Rene Matić wins the Deutsche Börse Photography Foundation Prize 2026",
+      "pub": "Deutsche Börse",
+      "date": "15 May 2026",
+      "kind": "Press release",
+      "url": "https://www.deutsche-boerse.com/dbg-en/media/news-stories/press-releases/Rene-Mati-wins-the-Deutsche-B-rse-Photography-Foundation-Prize-2026-5130514"
+    },
+    "swc-halfmoon": {
+      "title": "8,000 pounds of clay with my hands: an interview with Raven Halfmoon",
+      "pub": "Southwest Contemporary (Coco Picard)",
+      "date": "1 September 2023",
+      "kind": "Interview with the artist",
+      "url": "https://southwestcontemporary.com/8000-pounds-of-clay-with-my-hands-an-interview-with-raven-halfmoon/"
+    },
+    "tci-halfmoon": {
+      "title": "Visual artist Raven Halfmoon on being true to who you are",
+      "pub": "The Creative Independent (as told to Katy Diamond Hamer)",
+      "date": "24 October 2024",
+      "kind": "Interview with the artist",
+      "url": "https://thecreativeindependent.com/people/visual-artist-raven-halfmoon-on-being-true-to-who-you-are/"
+    },
+    "another-segovia": {
+      "title": "Ana Segovia: Ramón",
+      "pub": "AnOther (Julianne Escobedo Shepherd)",
+      "date": "24 October 2025",
+      "kind": "Interview with the artist",
+      "url": "https://www.anothermag.com/another-man/16714/ana-segovia-ramon-artist-interview-another-man"
+    },
+    "biennale-segovia": {
+      "title": "Ana Segovia, Nucleo Contemporaneo",
+      "pub": "La Biennale di Venezia",
+      "date": "2024",
+      "kind": "Biennale page",
+      "url": "https://labiennale.org/en/art/2024/nucleo-contemporaneo/ana-segovia"
+    },
+    "galerie-segovia-2025": {
+      "title": "The next big thing: Ana Segovia",
+      "pub": "Galerie (Jacoba Urist)",
+      "date": "28 November 2025",
+      "kind": "Profile",
+      "url": "https://galeriemagazine.com/next-big-thing-ana-segovia/"
+    },
+    "bal-awartani": {
+      "title": "Interview: Dana Awartani, Goodword Art Foundation, Erasure",
+      "pub": "Berlin Art Link (Eve Rogers)",
+      "date": "28 November 2025",
+      "kind": "Interview with the artist",
+      "url": "https://www.berlinartlink.com/2025/11/28/interview-dana-awartani-goodword-art-foundation-erasure/"
+    },
+    "mplus-fan": {
+      "title": "Jes Fan, artist interview, Sigg Prize 2023",
+      "pub": "M+",
+      "date": "25 September 2023",
+      "kind": "Interview with the artist",
+      "url": "https://www.mplus.org.hk/en/magazine/jes-fan-artist-interview-sigg-prize-2023/"
+    },
+    "wp-fan-2022": {
+      "title": "Jes Fan, artist profile",
+      "pub": "Wallpaper* (Drew Zeiba)",
+      "date": "1 August 2022",
+      "kind": "Profile",
+      "url": "https://www.wallpaper.com/art/jes-fan-artist-profile"
+    },
+    "jux-lghacham": {
+      "title": "Mohamed l'Ghacham: The Time Traveller",
+      "pub": "Juxtapoz (Evan Pricco)",
+      "date": "about 2022",
+      "kind": "Interview with the artist",
+      "url": "https://la.juxtapoz.com/news/magazine/features/mohamed-l-ghacham-the-time-traveler/"
+    },
+    "sau-lghacham": {
+      "title": "Interview: Mohamed L'Ghacham",
+      "pub": "Street Art United States (Sami Wakim)",
+      "date": "1 August 2017",
+      "kind": "Interview with the artist",
+      "url": "https://streetartunitedstates.com/interview-mohamed-lghacham/"
     }
   },
   "artists": [
@@ -1412,6 +1678,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "\n      <p>The method is the stencil: a sheet with shapes cut out of it, held to a surface and sprayed through. The Jordan Schnitzer Museum of Art calls Banksy an early mainstream innovator of stencil graffiti, a technique valued for its speed and graphic clarity.<sup class=\"cite\"><a data-src=\"jsma-banksy\">[jsma-banksy]</a></sup></p>\n      <p>On canvas he often mixes spray paint with acrylic or household emulsion.<sup class=\"cite\"><a data-src=\"bonhams-angel\">[bonhams-angel]</a></sup><sup class=\"cite\"><a data-src=\"heritage-ratheart\">[heritage-ratheart]</a></sup> The look carries over from the wall: flat, hard-edged figures in black and white, often with one accent colour, and few or no words.</p>\n      <p>Animals stand in for people. Rats and chimpanzees recur, and Bonhams' catalogue for <i>Laugh Now</i> describes the chimpanzee as a surrogate through which human hierarchies are seen.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup></p>\n      <h3>How to read one</h3>\n      <p>Look for the single point of colour first, then the gap around it. In <i>Girl with Balloon</i> the red heart sits apart from the black figure, and the empty space between them carries the picture.<sup class=\"cite\"><a data-src=\"wiki-gwb\">[wiki-gwb]</a></sup> In <i>Laugh Now</i> the dark figure sits against a pale green ground, and the white placard is the only break in it.<sup class=\"cite\"><a data-src=\"bonhams-laughnow\">[bonhams-laughnow]</a></sup> Our reading: the joke arrives first, and the point follows a second later.</p>\n      <div class=\"callout\"><strong>Read more</strong><a href=\"#a-what-is-an-intervention\">What is an art intervention?</a><br><a href=\"#a-original-vs-print\">Original, limited edition or open print?</a><br><a href=\"#a-provenance-certificates\">Provenance and certificates, explained</a></div>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>One well-reported step from the street into museums came in 2009, in his home city. <i>Banksy Versus Bristol Museum</i> opened that summer with about 100 works, free to visit, and ran until 31 August. It had been kept secret since the previous October.<sup class=\"cite\"><a data-src=\"mg-banksy\">[mg-banksy]</a></sup></p><p>The show mixed paintings and sculpture with full-size set pieces, among them an ice-cream van and a ring of portable toilets laid out like Stonehenge.<sup class=\"cite\"><a data-src=\"mg-banksy\">[mg-banksy]</a></sup> Our reading: it was the same joke he makes on walls, moved indoors.</p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>This is the first show I’ve ever done where taxpayers’ money is being used to hang my pictures up rather than scrape them off.<cite>Banksy, in a statement on the Bristol show, 2009<sup class=\"cite\"><a data-src=\"mg-banksy\">[mg-banksy]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-kaws\">KAWS</a>: another artist who began by altering adverts in public</li><li><a href=\"#artist-vhils\">Vhils</a>: shown alongside Banksy at the Cans Festival in London in 2008</li><li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: from graffiti writing to museum shows</li></ul>"
         }
       ],
       "works": [
@@ -1500,6 +1781,13 @@
           "what": "Barely Legal exhibition, Los Angeles.",
           "src": [
             "bonhams-angel"
+          ]
+        },
+        {
+          "when": "2009",
+          "what": "Banksy Versus Bristol Museum, about 100 works, free, until 31 August.",
+          "src": [
+            "mg-banksy"
           ]
         },
         {
@@ -1600,6 +1888,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The Infinity Nets are large canvases covered edge to edge in small looped brushmarks, painted over a darker ground.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup> There is no centre and no edge to the pattern: it simply stops where the canvas stops.</p><p>Later she gave the same repeated mark the form of a dot and carried it onto objects, sculptures and rooms. The pumpkin became her best-known object, wrapped in dots like a skin.<sup class=\"cite\"><a data-src=\"heni-kusama-pumpkin\">[heni-kusama-pumpkin]</a></sup> In the mirror rooms, reflections repeat lights or dots without end.<sup class=\"cite\"><a data-src=\"wiki-kusama\">[wiki-kusama]</a></sup></p><h3>How to read one</h3><p>Stand close to a Net painting first, then step back. Close up you see single loops of paint; from a distance they merge into a surface that seems to move. Our reading: the effect comes from patience, not from any single mark.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Tate's guide to its Infinity Mirror Rooms show fills in the New York years. Her first mirrored installation, <i>Kusama's Peep Show or Endless Love Show</i>, dates from 1966, and in September 1968 she staged a <i>Mirror Performance</i> in New York.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup> In that decade she knew Donald Judd, Andy Warhol, Joseph Cornell and Claes Oldenburg, and some of the net canvases ran to 33 feet long.<sup class=\"cite\"><a data-src=\"tate-kusama-dots\">[tate-kusama-dots]</a></sup></p><p>After her return to Japan she chose in 1977 to live in a psychiatric hospital in Tokyo, and kept painting in a studio from nine in the morning until six.<sup class=\"cite\"><a data-src=\"tate-kusama-dots\">[tate-kusama-dots]</a></sup> She also wrote novels and poems there.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup> Two of the rooms shown at Tate Modern from 2021 were <i>Infinity Mirrored Room, Filled with the Brilliance of Life</i>, made for Tate's 2012 retrospective, and <i>Chandelier of Grief</i>.<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>My wish was to be a painter one day.<cite>Yayoi Kusama, in a Tate film, 2012<sup class=\"cite\"><a data-src=\"tate-kusama-dots\">[tate-kusama-dots]</a></sup></cite></blockquote><blockquote>I write novels and poems, and I also paint in the hospital. They are my saviours.<cite>Yayoi Kusama, quoted in Tate’s exhibition guide<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></cite></blockquote><blockquote>I would stand up to them all with a single polka dot.<cite>Yayoi Kusama, quoted in Tate’s exhibition guide<sup class=\"cite\"><a data-src=\"tate-kusama-guide\">[tate-kusama-guide]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: repetition of one small unit across a huge surface</li><li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: pattern and colour with no fixed centre</li><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: an earlier painter who wrote about art and the inner life</li></ul>"
         }
       ],
       "works": [
@@ -1657,10 +1960,24 @@
           ]
         },
         {
+          "when": "1968",
+          "what": "Mirror Performance staged in New York in September.",
+          "src": [
+            "tate-kusama-guide"
+          ]
+        },
+        {
           "when": "1973",
           "what": "Returns to Japan.",
           "src": [
             "wiki-kusama"
+          ]
+        },
+        {
+          "when": "1977",
+          "what": "Moves by her own choice into a psychiatric hospital in Tokyo, and keeps working.",
+          "src": [
+            "tate-kusama-dots"
           ]
         },
         {
@@ -1782,6 +2099,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The material is the aluminium cap from a liquor bottle. Each cap is flattened, cut or folded, and joined to its neighbours with copper wire.<sup class=\"cite\"><a data-src=\"sothebys-g6\">[sothebys-g6]</a></sup><sup class=\"cite\"><a data-src=\"sothebys-hesitant\">[sothebys-hesitant]</a></sup> Thousands of them make a sheet that is heavy but soft enough to hang in folds.</p><p>He does not fix how a work should hang. Artnet quotes him saying that life is always in flux, and the works can be draped differently each time.<sup class=\"cite\"><a data-src=\"artnet-anatsui\">[artnet-anatsui]</a></sup></p><h3>How to read one</h3><p>Look first at the whole: bands and fields of colour, like woven cloth. Then look at one cap, with its printed label still visible. Our reading: the work holds both scales at once, a large abstract surface and the small history of each bottle.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Anatsui studied at the university in Kumasi from 1965 to 1968, and spent more than four decades teaching sculpture at Nsukka.<sup class=\"cite\"><a data-src=\"tan-anatsui-2023\">[tan-anatsui-2023]</a></sup> Before the bottle caps there was driftwood: <i>Akua's Surviving Children</i> of 1996 is made from it.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup> The October Gallery in London showed the metal hangings in 2002, and the British Museum took <i>Man's Cloth</i> and <i>Woman's Cloth</i>.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup></p><p>Within five years the hangings were in the de Young, the Pompidou and the Met, and at Venice in 2007 he hung <i>Dusasa I</i> and <i>II</i>, with another work on the facade of the Palazzo Fortuny.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup> In 2019 <i>Second Wave</i> covered the front of the Haus der Kunst in Munich, in the last show curated there by Okwui Enwezor.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup><sup class=\"cite\"><a data-src=\"tan-anatsui-2023\">[tan-anatsui-2023]</a></sup> The Turbine Hall commission of 2023, <i>Behind the Red Moon</i>, was staged in three acts: The Red Moon, The World and The Wall.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup> His studio in Ghana is about 80 metres long.<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>When something has been used, there is a certain charge, a certain energy.<cite>El Anatsui, The Art Newspaper, 2023<sup class=\"cite\"><a data-src=\"tan-anatsui-2023\">[tan-anatsui-2023]</a></sup></cite></blockquote><blockquote>I have a hidden aim of waking up the artist in everybody.<cite>El Anatsui, The Art Newspaper, 2023<sup class=\"cite\"><a data-src=\"tan-anatsui-2023\">[tan-anatsui-2023]</a></sup></cite></blockquote><blockquote>You can think of that piece as either a wall or a wave.<cite>El Anatsui on Behind the Red Moon, Studio International, 2023<sup class=\"cite\"><a data-src=\"si-anatsui\">[si-anatsui]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: one small mark repeated thousands of times</li><li><a href=\"#artist-vhils\">Vhils</a>: used material that carries the life of a place</li><li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: craft, repair and hand work at large scale</li></ul>"
         }
       ],
       "works": [
@@ -1831,10 +2163,31 @@
           ]
         },
         {
+          "when": "1996",
+          "what": "Akua's Surviving Children, a driftwood work.",
+          "src": [
+            "si-anatsui"
+          ]
+        },
+        {
+          "when": "2002",
+          "what": "Metal hangings shown at the October Gallery; the British Museum acquires two.",
+          "src": [
+            "si-anatsui"
+          ]
+        },
+        {
           "when": "2005",
           "what": "Skoto Gallery exhibition brings the bottle-cap works to wide notice.",
           "src": [
             "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Dusasa I and II at the Venice Biennale.",
+          "src": [
+            "si-anatsui"
           ]
         },
         {
@@ -1849,6 +2202,13 @@
           "what": "Praemium Imperiale.",
           "src": [
             "wiki-anatsui"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "Second Wave covers the facade of the Haus der Kunst, Munich.",
+          "src": [
+            "si-anatsui"
           ]
         },
         {
@@ -1948,6 +2308,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>She paints each motif on a sheet of plastic. When it is dry, she presses it face down onto the canvas and peels the plastic away, leaving the paint behind.<sup class=\"cite\"><a data-src=\"wiki-milhazes\">[wiki-milhazes]</a></sup><sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup> There are no brushstrokes to see, and small tears and wrinkles stay in the surface.<sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup></p><p>Phillips' catalogue lists her sources as Baroque architecture, lace, Carnival decoration and the plants of Rio's botanical garden, and links her to the Brazilian modernist idea of absorbing outside influences and making them local.<sup class=\"cite\"><a data-src=\"phillips-paraty\">[phillips-paraty]</a></sup></p><h3>How to read one</h3><p>Find the geometry first: the bands, grids and circles. Then see how flowers and arabesques sit over and under them. Our reading: the pleasure is in how much is held in balance.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Milhazes studied journalism first, then painting at the Parque Lage school in Rio under Charles Watson.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup> In 1984 she was in the group show <i>Como Vai Você, Geração 80?</i>, a show of young Rio painters of the decade.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup> She grew up under Brazil's military dictatorship of 1964 to 1985, and has named Tarsila do Amaral as an influence, along with Matisse, Mondrian and Bridget Riley.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup><sup class=\"cite\"><a data-src=\"ocula-milhazes\">[ocula-milhazes]</a></sup></p><p>She worked out the transfer method in 1989, and her studio sits beside Rio's botanical garden.<sup class=\"cite\"><a data-src=\"ocula-milhazes\">[ocula-milhazes]</a></sup> From 2003 she also made collages using sweet wrappers, and in 2004 she covered the front of Selfridges in Manchester.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup> Peeling one painted layer can take up to ten hours.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup> In 2023 Turner Contemporary in Margate showed 25 works in <i>Maresias</i>, her first UK museum show in over 20 years.<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I think of myself as an abstract geometric artist.<cite>Beatriz Milhazes, Ocula, 2015<sup class=\"cite\"><a data-src=\"ocula-milhazes\">[ocula-milhazes]</a></sup></cite></blockquote><blockquote>I don’t fear colour.<cite>Beatriz Milhazes, Studio International, 2023<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup></cite></blockquote><blockquote>For me, nature is life, and my work has always been in favour of life.<cite>Beatriz Milhazes, Studio International, 2023<sup class=\"cite\"><a data-src=\"si-milhazes\">[si-milhazes]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: pattern that runs past the edge</li><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: colour and geometry as their own subject</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: Brazilian artists of the same years, from the street</li></ul>"
         }
       ],
       "works": [
@@ -1972,6 +2347,17 @@
             "phillips-paraty"
           ],
           "tone": "#3F8A6E"
+        },
+        {
+          "title": "O Turista",
+          "year": "2004 to 2005",
+          "medium": "Painting",
+          "size": "Not given",
+          "note": "One of the works shown at Turner Contemporary in 2023.",
+          "src": [
+            "si-milhazes"
+          ],
+          "tone": "#2E6B5E"
         }
       ],
       "timeline": [
@@ -1980,6 +2366,20 @@
           "what": "Born in Rio de Janeiro.",
           "src": [
             "wiki-milhazes"
+          ]
+        },
+        {
+          "when": "1984",
+          "what": "In the group show Como Vai Você, Geração 80? in Rio.",
+          "src": [
+            "si-milhazes"
+          ]
+        },
+        {
+          "when": "1989",
+          "what": "Develops the painted transfer method.",
+          "src": [
+            "ocula-milhazes"
           ]
         },
         {
@@ -1994,6 +2394,13 @@
           "what": "Brazil's pavilion, Venice Biennale.",
           "src": [
             "wiki-milhazes"
+          ]
+        },
+        {
+          "when": "2004",
+          "what": "Covers the facade of Selfridges, Manchester.",
+          "src": [
+            "si-milhazes"
           ]
         },
         {
@@ -2106,6 +2513,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The early French paintings are landscapes made of blocks: houses, roofs and hillsides set down in thick paint.<sup class=\"cite\"><a data-src=\"saffronart-otta\">[saffronart-otta]</a></sup> By the 1960s the forms loosen into large fields of dark colour.<sup class=\"cite\"><a data-src=\"astaguru-provence\">[astaguru-provence]</a></sup></p><p>From 1980 the bindu, a central black dot, becomes the centre of his work.<sup class=\"cite\"><a data-src=\"wiki-raza\">[wiki-raza]</a></sup> Around it he sets circles, triangles and bands of flat colour in near symmetry.<sup class=\"cite\"><a data-src=\"saffronart-bindu\">[saffronart-bindu]</a></sup></p><h3>How to read one</h3><p>In a Bindu painting, start at the dot and move outwards through the rings and bands. Our reading: the picture is built like a diagram of something growing from a seed.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Raza was the son of a forest ranger, and later called the forests of his childhood his most lasting memory.<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup> He went to Bombay in 1943.<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup> In Paris he met the gallerist Lara Vincy in 1955, and in 1962 he taught at Berkeley in California.<sup class=\"cite\"><a data-src=\"pompidou-raza\">[pompidou-raza]</a></sup><sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup> He married the French artist Janine Mongillat, and went home to India after her death.<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup></p><p>The Pompidou's own writers trace the change in the paintings: <i>Adho Man Naadi Dus Bees</i> (1964) and <i>Punjab</i> (1969) belong to the years of loose colour, and the bindu becomes a system from the 1980s.<sup class=\"cite\"><a data-src=\"pompidou-raza\">[pompidou-raza]</a></sup> He set up the Raza Foundation in 2001, and was honoured with the Padma Shri, Padma Bhushan and Padma Vibhushan, and the Légion d'honneur.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup><sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup> In 2023 the Centre Pompidou gave him his first retrospective in a state museum, with more than 90 works.<sup class=\"cite\"><a data-src=\"tan-raza-pompidou\">[tan-raza-pompidou]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>The most tenacious memory of my childhood is the fear and fascination of Indian forests.<cite>S.H. Raza, 2001, quoted by Christie’s<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup></cite></blockquote><blockquote>Rothko’s work opened up lots of interesting associations for me.<cite>S.H. Raza, quoted by Christie’s<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup></cite></blockquote><blockquote>It’s the centre of my life.<cite>S.H. Raza on the bindu, 2010, quoted by Christie’s<sup class=\"cite\"><a data-src=\"christies-raza-10\">[christies-raza-10]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: abstraction driven by spiritual ideas</li><li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: a painter who moved between landscape and abstraction</li><li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: circles and colour at the centre of the picture</li></ul>"
         }
       ],
       "works": [
@@ -2141,6 +2563,17 @@
             "saffronart-bindu"
           ],
           "tone": "#C08A2E"
+        },
+        {
+          "title": "Punjab",
+          "year": "1969",
+          "medium": "Painting",
+          "size": "Not given",
+          "note": "Held by the Piramal Museum, according to the Centre Pompidou.",
+          "src": [
+            "pompidou-raza"
+          ],
+          "tone": "#3A3A6A"
         }
       ],
       "timeline": [
@@ -2149,6 +2582,13 @@
           "what": "Born in Kakkaiya, Mandla district.",
           "src": [
             "wiki-raza"
+          ]
+        },
+        {
+          "when": "1943",
+          "what": "Moves to Bombay.",
+          "src": [
+            "christies-raza-10"
           ]
         },
         {
@@ -2166,6 +2606,13 @@
           ]
         },
         {
+          "when": "1955",
+          "what": "Meets the Paris gallerist Lara Vincy.",
+          "src": [
+            "pompidou-raza"
+          ]
+        },
+        {
           "when": "1956",
           "what": "Prix de la Critique, Paris.",
           "src": [
@@ -2173,10 +2620,24 @@
           ]
         },
         {
+          "when": "1962",
+          "what": "Teaches at Berkeley, California.",
+          "src": [
+            "christies-raza-10"
+          ]
+        },
+        {
           "when": "1980",
           "what": "Begins the Bindu paintings.",
           "src": [
             "wiki-raza"
+          ]
+        },
+        {
+          "when": "2001",
+          "what": "Sets up the Raza Foundation.",
+          "src": [
+            "tan-raza-pompidou"
           ]
         },
         {
@@ -2282,6 +2743,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The photo paintings begin with a photograph, often black and white, copied onto canvas and then softened with a dry brush while the paint is wet.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup> <i>Kerze</i> (Candle) of 1982 is one of these, a candle shown in his blurred, photographic manner.<sup class=\"cite\"><a data-src=\"tan-richter-may\">[tan-richter-may]</a></sup></p><p>From the mid-1980s he also made abstracts with a large squeegee, pulling layers of paint across the canvas so that colours tear, scrape and show through.<sup class=\"cite\"><a data-src=\"wiki-richter\">[wiki-richter]</a></sup><sup class=\"cite\"><a data-src=\"thevalue-richter-hk\">[thevalue-richter-hk]</a></sup></p><h3>How to read one</h3><p>In a squeegee painting, look for the direction of the pull, then for what shows through the gaps. Our reading: the artist sets the conditions, and the paint decides the details.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>The Met's guide to its 2020 Richter show puts the leap west plainly: he was 29 when he left East Germany in 1961 to study in Düsseldorf.<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup> That show, <i>Painting After All</i>, gathered more than 100 works from <i>Table</i> (1962) to <i>House of Cards</i> (2020).<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup></p><p>One of its centrepieces was <i>Birkenau</i> (2014). It started from four photographs smuggled out of Auschwitz-Birkenau in 1944, and photographs record the paintings in progress between 15 July and 25 August 2014.<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup> Our reading: it shows that his abstracts and his photo paintings were never two separate careers.</p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Helplessness is the great theme in painting, or rather the strongest motivation for and during painting.<cite>Gerhard Richter, 2014, quoted by the Met<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup></cite></blockquote><blockquote>It’s not unusual for me to start from the figurative and end up with something abstract.<cite>Gerhard Richter, 2016, quoted by the Met<sup class=\"cite\"><a data-src=\"met-richter\">[met-richter]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: from landscape into abstraction</li><li><a href=\"#artist-rene-matic\">Rene Matić</a>: a younger artist working from photographs</li><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: another German abstract painter, a century earlier</li></ul>"
         }
       ],
       "works": [
@@ -2306,6 +2782,17 @@
             "thevalue-richter-hk"
           ],
           "tone": "#6A4E7A"
+        },
+        {
+          "title": "Birkenau",
+          "year": "2014",
+          "medium": "Painting",
+          "size": "Not given",
+          "note": "Based on four photographs smuggled out of Auschwitz-Birkenau in 1944. Shown at the Met Breuer in 2020.",
+          "src": [
+            "met-richter"
+          ],
+          "tone": "#4A4F57"
         }
       ],
       "timeline": [
@@ -2357,6 +2844,20 @@
           "what": "Gerhard Richter: Panorama, a retrospective, opens at Tate Modern, London, in October.",
           "src": [
             "tate-richter-panorama"
+          ]
+        },
+        {
+          "when": "2014",
+          "what": "Paints Birkenau, between July and August.",
+          "src": [
+            "met-richter"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "Painting After All at the Met Breuer, New York, 4 March to 5 July.",
+          "src": [
+            "met-richter"
           ]
         }
       ],
@@ -2433,6 +2934,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>Their figures are long-limbed and yellow-skinned, set in surreal landscapes. Artsy links the imagery to Brazilian folklore, hip-hop and graffiti.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup> In the studio they mix street materials with others: one 2010 panel combines acrylic, spray enamel, latex and sequins.<sup class=\"cite\"><a data-src=\"christies-semmedo\">[christies-semmedo]</a></sup> Another work of 2005 includes an audio player and headphones.<sup class=\"cite\"><a data-src=\"phillips-andorinha\">[phillips-andorinha]</a></sup></p><h3>How to read one</h3><p>Look at the clothes and backgrounds first, which are full of small patterns. Our reading: the figures seem calm and dreamy, as if they belong to a world that runs on its own rules.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Gustavo and Otavio Pandolfo were born in São Paulo in 1974 and grew up in Cambuci, a working-class part of the city.<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup><sup class=\"cite\"><a data-src=\"jux-osg\">[jux-osg]</a></sup> As children they invented their own world, which they call Tritrez.<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup> The Jordan Schnitzer Museum's guide says the yellow of their figures comes from a colour both twins see in their dreams.<sup class=\"cite\"><a data-src=\"jsma-osg\">[jsma-osg]</a></sup></p><p>Their museum career runs through Tate Modern's street art show in 2008, Los Angeles MOCA's <i>Art in the Streets</i> in 2011 and their first US solo show at ICA Boston in 2012.<sup class=\"cite\"><a data-src=\"jux-osg\">[jux-osg]</a></sup><sup class=\"cite\"><a data-src=\"jsma-osg\">[jsma-osg]</a></sup> At the 2004 Athens Olympics they painted a giant figure in underwear, 82 feet tall.<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup> <i>Segredos</i> at the Pinacoteca de São Paulo (2020 to 2021) showed more than 1,000 items, including their teenage notebooks.<sup class=\"cite\"><a data-src=\"jux-osg\">[jux-osg]</a></sup> In 2024 the Hirshhorn in Washington opened <i>Endless Story</i>, their first major US museum survey, also with more than 1,000 works.<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup><sup class=\"cite\"><a data-src=\"jsma-osg\">[jsma-osg]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>We are like one artist.<cite>Gustavo Pandolfo, NPR, 2024<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup></cite></blockquote><blockquote>There is a conversation in the air flying there, but only we can listen [to] each other.<cite>Otavio Pandolfo, NPR, 2024<sup class=\"cite\"><a data-src=\"npr-osg\">[npr-osg]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: Brazilian colour, from the studio side</li><li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: murals on several continents</li><li><a href=\"#artist-eko-nugroho\">Eko Nugroho</a>: a private world of characters</li></ul>"
         }
       ],
       "works": [
@@ -2458,6 +2974,17 @@
             "christies-semmedo"
           ],
           "tone": "#C79A2E"
+        },
+        {
+          "title": "1980",
+          "year": "2020",
+          "medium": "Sequins on MDF",
+          "size": "Not given",
+          "note": "Shown in Endless Story at the Hirshhorn, 2024.",
+          "src": [
+            "npr-osg"
+          ],
+          "tone": "#C79A2E"
         }
       ],
       "timeline": [
@@ -2466,6 +2993,13 @@
           "what": "Born.",
           "src": [
             "christies-semmedo"
+          ]
+        },
+        {
+          "when": "2004",
+          "what": "Giant figure painted for the Athens Olympics.",
+          "src": [
+            "npr-osg"
           ]
         },
         {
@@ -2480,6 +3014,34 @@
           "what": "One of six artists to paint the river front of Tate Modern for its Street Art exhibition, 23 May to 25 August.",
           "src": [
             "tate-streetart"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Art in the Streets, MOCA Los Angeles.",
+          "src": [
+            "jux-osg"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "First US solo show, ICA Boston.",
+          "src": [
+            "jsma-osg"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "Segredos at the Pinacoteca de São Paulo, to February 2021.",
+          "src": [
+            "jux-osg"
+          ]
+        },
+        {
+          "when": "2024",
+          "what": "Endless Story opens at the Hirshhorn, Washington, on 29 September.",
+          "src": [
+            "npr-osg"
           ]
         }
       ],
@@ -2563,6 +3125,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>His site describes the method as subtraction: cutting, drilling, etching or blasting through a surface rather than adding to it.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> He uses walls, billboards, doors, metal, wood, styrofoam, paper and film.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup> In the studio, stacks of street posters are carved by hand, so the colours of old adverts become the light and shade of a face.<sup class=\"cite\"><a data-src=\"bonhams-attrition\">[bonhams-attrition]</a></sup></p><h3>How to read one</h3><p>Stand back to see the face, then step close to see the layers. Our reading: the portraits seem to come out of the building's own history.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Vhils told designboom he started illegal graffiti at 13. At 16 or 17 he began to question it, and tried painting billboards white and carving back into them.<sup class=\"cite\"><a data-src=\"db-vhils\">[db-vhils]</a></sup> He moved to London to study at about 19, and in 2008 took part in the Cans Festival with Banksy.<sup class=\"cite\"><a data-src=\"euronews-vhils-2024\">[euronews-vhils-2024]</a></sup></p><p>The studio is in Barreiro, outside Lisbon, with a team of about 15. Hypebeast reports that he began using explosives around 2012, and names the <i>Dissecção</i> train carriages (2014) and the <i>Camadas</i> billboards (2018) among the series.<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup> His carved faces have gone up from Shanghai and Paris to Los Angeles and Mexico City, and in Rio he worked with an NGO on houses in a favela that was being demolished.<sup class=\"cite\"><a data-src=\"euronews-vhils-2024\">[euronews-vhils-2024]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I felt that by destroying I was revealing.<cite>Vhils, designboom, 2017<sup class=\"cite\"><a data-src=\"db-vhils\">[db-vhils]</a></sup></cite></blockquote><blockquote>All of the layers in my work were a part of someone’s life before.<cite>Vhils, Hypebeast, 2020<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup></cite></blockquote><blockquote>I try to give dignity to these places that were left behind.<cite>Vhils, Hypebeast, 2020<sup class=\"cite\"><a data-src=\"hb-vhils\">[hb-vhils]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: they shared the Cans Festival in 2008</li><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: used material carrying the life of a place</li><li><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>: portraits of ordinary people on walls</li></ul>"
         }
       ],
       "works": [
@@ -2585,6 +3162,17 @@
           "note": "Sold at Bonhams London in October 2025 for GBP 10,240 including premium.",
           "src": [
             "bonhams-attrition"
+          ],
+          "tone": "#6B6259"
+        },
+        {
+          "title": "Dissecção",
+          "year": "2014",
+          "medium": "Carved train carriages",
+          "size": "Not given",
+          "note": "Named by Hypebeast among his series.",
+          "src": [
+            "hb-vhils"
           ],
           "tone": "#6B6259"
         }
@@ -2616,6 +3204,13 @@
           "what": "Studio founded.",
           "src": [
             "vhils-about"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "Begins working with explosives (Hypebeast).",
+          "src": [
+            "hb-vhils"
           ]
         },
         {
@@ -2711,6 +3306,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>His figures are cartoon-like, with crossed-out eyes. Christie's notes comparisons with Basquiat and Haring, who also came from the street, and with Warhol and Koons.<sup class=\"cite\"><a data-src=\"christies-kaws-guide\">[christies-kaws-guide]</a></sup> The paintings crop the figures tight and break them into flat areas of colour.<sup class=\"cite\"><a data-src=\"christies-camo\">[christies-camo]</a></sup></p><h3>How to read one</h3><p>Look for the X's first, then for the borrowed cartoon. Our reading: a friendly character becomes a little sad or uneasy.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Among the early street works were adverts he altered by painting over them: <i>Untitled (Maidenform)</i> of 1999 is one.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup> In 2006 he made a COMPANION for a shop in Tokyo.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup> His first exhibition of sculpture alone was at CAC Málaga in 2014.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup></p><p>The figures then grew very large. <i>HOLIDAY</i> in 2019 was an inflatable about 121 feet long, floating in Hong Kong's Victoria Harbour, and in 2021 a <i>HOLIDAY</i> hot air balloon of about 140 feet flew in Bristol.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup> The same year the Brooklyn Museum gave him his first New York museum show, <i>WHAT PARTY</i>, from February to September.<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup> Alongside the museum work he has made products with Nike, Uniqlo and Dior, and designed MTV's video music award.<sup class=\"cite\"><a data-src=\"tan-kaws-2021\">[tan-kaws-2021]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I want you to look at the form. I don’t want you to think about what they might say.<cite>KAWS, The Brooklyn Rail, 2021<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup></cite></blockquote><blockquote>I think no matter what I put on canvas, people don’t think of me as a painter.<cite>KAWS, The Brooklyn Rail, 2021<sup class=\"cite\"><a data-src=\"rail-kaws\">[rail-kaws]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: another street artist who began by altering adverts</li><li><a href=\"#artist-eko-nugroho\">Eko Nugroho</a>: cartoon figures carrying serious ideas</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: graffiti roots and large public sculpture</li></ul>"
         }
       ],
       "works": [
@@ -2733,6 +3343,17 @@
           "note": "First shown at Kaikai Kiki Gallery, Tokyo, in 2013. Sold at Christie's Hong Kong in September 2026 for HKD 8,960,000.",
           "src": [
             "christies-camo"
+          ],
+          "tone": "#4F6B8A"
+        },
+        {
+          "title": "UNTITLED (MAIDENFORM)",
+          "year": "1999",
+          "medium": "Paint on an advertisement",
+          "size": "Not given",
+          "note": "An early altered advert, shown at the Brooklyn Museum in 2021.",
+          "src": [
+            "tan-kaws-2021"
           ],
           "tone": "#4F6B8A"
         }
@@ -2760,6 +3381,13 @@
           ]
         },
         {
+          "when": "2014",
+          "what": "First sculpture-only exhibition, CAC Málaga.",
+          "src": [
+            "rail-kaws"
+          ]
+        },
+        {
           "when": "2019",
           "what": "KAWS: HOLIDAY inflatable in Victoria Harbour, Hong Kong.",
           "src": [
@@ -2771,6 +3399,13 @@
           "what": "KAWS: WHAT PARTY, a survey of more than 100 works, at the Brooklyn Museum, 26 February to 5 September.",
           "src": [
             "brooklyn-kaws"
+          ]
+        },
+        {
+          "when": "2021",
+          "what": "WHAT PARTY at the Brooklyn Museum, 26 February to 5 September.",
+          "src": [
+            "rail-kaws"
           ]
         }
       ],
@@ -2848,6 +3483,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>His figures come from comic culture and are usually masked. The Singapore Art Museum says the masks are deliberate: he avoids stereotyped faces that could lead to discrimination.<sup class=\"cite\"><a data-src=\"sam-illusion\">[sam-illusion]</a></sup> The same graphic style appears in embroidery and in batik on cotton.<sup class=\"cite\"><a data-src=\"phillips-topi\">[phillips-topi]</a></sup></p><h3>How to read one</h3><p>Read the words in the picture as part of the image. Our reading: the humour carries a serious point about power and society.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Nugroho studied at the Indonesian Institute of the Arts in Yogyakarta and graduated in 2006.<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup><sup class=\"cite\"><a data-src=\"danysz-eko\">[danysz-eko]</a></sup> He was 20 when Suharto fell in 1998, and his first solo show, <i>Bercerobong</i>, was at Cemeti Art House in 2002.<sup class=\"cite\"><a data-src=\"danysz-eko\">[danysz-eko]</a></sup><sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup> In June 2000 he started the comic zine <i>Daging Tumbuh</i>.<sup class=\"cite\"><a data-src=\"aa-eko\">[aa-eko]</a></sup> He has also taught in a primary school, and runs his own art class.<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup></p><p>From 2000 to 2015 he had 14 exhibitions and eight residencies abroad. Among the shows were the Lyon Biennale in 2009 and the Musée d'Art Moderne in Paris in 2012.<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup><sup class=\"cite\"><a data-src=\"danysz-eko\">[danysz-eko]</a></sup><sup class=\"cite\"><a data-src=\"aa-eko\">[aa-eko]</a></sup> He showed in Indonesia's pavilion at the 2013 Venice Biennale, and the same year Louis Vuitton made 500 scarves from his designs.<sup class=\"cite\"><a data-src=\"aa-eko\">[aa-eko]</a></sup><sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup> His studio employs about 30 people.<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I don’t want to pass judgment on somebody. Such cases can happen to anybody in the future.<cite>Eko Nugroho on his masked figures, The Jakarta Post, 2017<sup class=\"cite\"><a data-src=\"jp-eko\">[jp-eko]</a></sup></cite></blockquote><blockquote>I must understand the overall situation of the place where the mural will be.<cite>Eko Nugroho, quoted in Art + Australia<sup class=\"cite\"><a data-src=\"aa-eko\">[aa-eko]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-kaws\">KAWS</a>: cartoon figures in serious art</li><li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: words and walls</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: a private world of masked or dreaming characters</li></ul>"
         }
       ],
       "works": [
@@ -2883,10 +3533,31 @@
           ]
         },
         {
+          "when": "2000",
+          "what": "Starts the comic zine Daging Tumbuh.",
+          "src": [
+            "aa-eko"
+          ]
+        },
+        {
+          "when": "2002",
+          "what": "First solo show, Bercerobong, Cemeti Art House.",
+          "src": [
+            "jp-eko"
+          ]
+        },
+        {
           "when": "2006",
           "what": "5th Asia Pacific Triennial, Brisbane.",
           "src": [
             "sam-illusion"
+          ]
+        },
+        {
+          "when": "2009",
+          "what": "Lyon Biennale.",
+          "src": [
+            "danysz-eko"
           ]
         },
         {
@@ -2977,6 +3648,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>Her work now spans new media installations, hand-sewn wall hangings, bronzes, paintings and prints.<sup class=\"cite\"><a data-src=\"strauss-faith\">[strauss-faith]</a></sup> Wall images return as prints: the lithograph CAPAX INFINITI refers to her 2014 mural on the Carlyle building in Portland, Oregon.<sup class=\"cite\"><a data-src=\"strauss-capax\">[strauss-capax]</a></sup></p><h3>How to read one</h3><p>Read the text first, then the figure. Our reading: the old phrases give everyday subjects a feeling of ritual.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Faith XLVII was born in Cape Town, and her first wall was at the old Clovelly train station, painted with the writer Wealz130.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup> By the late 1990s and early 2000s she was one of the most active names in South African graffiti.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup> Two books cover the work: <i>Faith 47</i> (2011) and <i>Ex Animo</i> (2019), which runs from 2012 to late 2018.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></p><p>Animals recur on her walls: a zebra in central Johannesburg, horses on a Los Angeles facade, swans on a Brooklyn roof.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup> In 2019 she painted <i>The Silent Watcher</i> for Philadelphia's Mural Arts programme.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup> By 2020 she had been based in Los Angeles for three years, and her solo show <i>CHANT</i> at Everard Read in Cape Town was postponed by lockdown.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>These are not works made to be pretty or decorative; these are works made to consider, to dismantle, to question.<cite>Faith XLVII, Daily Maverick, 2020<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></cite></blockquote><blockquote>How can one explain in words a language that is not verbal?<cite>Faith XLVII, Brooklyn Street Art, 2018<sup class=\"cite\"><a data-src=\"bsa-faith\">[bsa-faith]</a></sup></cite></blockquote><blockquote>One can’t stop the clouds from moving. Nothing is permanent.<cite>Faith XLVII, Brooklyn Street Art, 2018<sup class=\"cite\"><a data-src=\"bsa-faith\">[bsa-faith]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: from graffiti to museums</li><li><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>: figurative murals</li><li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: flags, textiles and hand work</li></ul>"
         }
       ],
       "works": [
@@ -2999,6 +3685,17 @@
           "note": "Three panels named after resources mined in Africa. Sold at Strauss & Co in June 2024 for ZAR 29,313 including premium and VAT.",
           "src": [
             "strauss-coltan"
+          ],
+          "tone": "#5E6B4A"
+        },
+        {
+          "title": "The Silent Watcher",
+          "year": "2019",
+          "medium": "Mural",
+          "size": "Building wall",
+          "note": "Painted for Philadelphia's Mural Arts programme.",
+          "src": [
+            "dm-faith"
           ],
           "tone": "#5E6B4A"
         }
@@ -3026,10 +3723,31 @@
           ]
         },
         {
+          "when": "2011",
+          "what": "First book, Faith 47.",
+          "src": [
+            "dm-faith"
+          ]
+        },
+        {
           "when": "2014",
           "what": "Capax Infiniti mural, Portland.",
           "src": [
             "strauss-capax"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "The Silent Watcher, Philadelphia; the book Ex Animo.",
+          "src": [
+            "dm-faith"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "CHANT at Everard Read, Cape Town, postponed by lockdown.",
+          "src": [
+            "dm-faith"
           ]
         },
         {
@@ -3119,6 +3837,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>His painting is known for bold colour and dramatic, impulsive brushwork.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup> The Kröller-Müller Museum's description of Blossoming Chestnut Trees, painted in Auvers on 22 and 23 May 1890, shows how deliberate those marks were: flat strokes for the green of the tree, short straight strokes of dark blue to give the leaves structure, thick blue outlines round some of the white blossom, and a sky built from overlapping zigzags. Part of the lower canvas is left bare.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup></p><h3>How to read one</h3><p>Our reading: look at one area at a time and ask what kind of stroke it is made of. Sky, foliage and road are often painted in different directions and rhythms, so the brushwork describes the thing as much as the colour does.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>His letters to his brother Theo are the best guide to the last weeks. Around 10 July 1890 he wrote from Auvers about new canvases of wide fields under troubled skies.<sup class=\"cite\"><a data-src=\"letter-649\">[letter-649]</a></sup> On 23 July, six days before he died, he sent a sketch of Daubigny's garden and called it one of his most carefully thought-out paintings.<sup class=\"cite\"><a data-src=\"letter-651\">[letter-651]</a></sup></p><p>Our reading: the letters do not match the legend of a painter working blind. He describes what he wants a picture to say, and how he set about it.</p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>They are vast stretches of corn under troubled skies, and I did not have to go out of my way very much in order to try to express sadness and extreme loneliness.<cite>Vincent van Gogh to Theo and Jo, about 10 July 1890<sup class=\"cite\"><a data-src=\"letter-649\">[letter-649]</a></sup></cite></blockquote><blockquote>I’m fairly sure that these canvases will tell you what I cannot say in words, that is, how healthy and invigorating I find the countryside.<cite>Vincent van Gogh, the same letter<sup class=\"cite\"><a data-src=\"letter-649\">[letter-649]</a></sup></cite></blockquote><blockquote>Perhaps you will take a look at this sketch of Daubigny’s garden - it is one of my most carefully thought-out canvases.<cite>Vincent van Gogh to Theo, 23 July 1890<sup class=\"cite\"><a data-src=\"letter-651\">[letter-651]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: colour used for feeling, a generation later</li><li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: landscape painted from memory and feeling</li><li><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>: everyday scenes and ordinary people</li></ul>"
         }
       ],
       "works": [
@@ -3276,6 +4009,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>From about 1908 he gradually removed recognisable things from his pictures.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup> He wanted painting to be as free of the visible world as music, and wrote about colour as a way of carrying the artist's inner life to the viewer.<sup class=\"cite\"><a data-src=\"agnsw-kandinsky\">[agnsw-kandinsky]</a></sup></p><p>Tate describes two main phases: a free, expressive one from 1909 to 1918, and tighter, more geometric compositions from 1921 to 1935.<sup class=\"cite\"><a data-src=\"tate-kandinsky-1958\">[tate-kandinsky-1958]</a></sup> The second belongs to his Bauhaus years, when lines, circles and angled shapes take over. Betonte Ecken (Accented Corners), made between December 1922 and January 1923, is from the start of that period.<sup class=\"cite\"><a data-src=\"artsy-kandinsky\">[artsy-kandinsky]</a></sup></p><h3>How to read one</h3><p>Our reading: treat the shapes less as objects than as notes. Follow a line from one edge, see where colours press against each other, and notice which forms seem loud and which quiet.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Kandinsky wrote as much as he painted. Besides <i>On the Spiritual in Art</i> there was <i>Point and Line to Plane</i> (1926) and <i>Klänge</i> (1913), with 56 woodcuts.<sup class=\"cite\"><a data-src=\"bilbao-writings\">[bilbao-writings]</a></sup> Between 1909 and 1914 he wrote four stage works built on colour and sound, among them <i>The Yellow Sound</i>; none was produced in his lifetime.<sup class=\"cite\"><a data-src=\"bilbao-writings\">[bilbao-writings]</a></sup></p><p>In 1928 he staged Mussorgsky's <i>Pictures at an Exhibition</i> at Dessau, a production the Guggenheim in New York recreated in 2012.<sup class=\"cite\"><a data-src=\"bilbao-writings\">[bilbao-writings]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Every work of art is the child of its age and, in many cases, the mother of our emotions.<cite>Wassily Kandinsky, opening of On the Spiritual in Art (tr. Michael Sadler)<sup class=\"cite\"><a data-src=\"gutenberg-kandinsky\">[gutenberg-kandinsky]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: spiritual ideas behind abstract shapes</li><li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: circles and colour, built in layers</li><li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: abstraction in Germany, later in the century</li></ul>"
         }
       ],
       "works": [
@@ -3342,6 +4090,27 @@
           "what": "Publishes On the Spiritual in Art.",
           "src": [
             "agnsw-kandinsky"
+          ]
+        },
+        {
+          "when": "1913",
+          "what": "Klänge published, with 56 woodcuts.",
+          "src": [
+            "bilbao-writings"
+          ]
+        },
+        {
+          "when": "1926",
+          "what": "Point and Line to Plane published.",
+          "src": [
+            "bilbao-writings"
+          ]
+        },
+        {
+          "when": "1928",
+          "what": "Stages Pictures at an Exhibition at Dessau.",
+          "src": [
+            "bilbao-writings"
           ]
         },
         {
@@ -3450,6 +4219,16 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>Tate describes highly personal photographs paired with sound, banners and installation.<sup class=\"cite\"><a data-src=\"tate-turner-2025\">[tate-turner-2025]</a></sup> The pictures are of the artist's own circle: family, friends and community. A long-running series begun in 2018 carries the title <em>flags for countries that don't exist but bodies that do</em>.<sup class=\"cite\"><a data-src=\"wiki-matic\">[wiki-matic]</a></sup></p><h3>How to read one</h3><p>Our reading: look first at who is in the picture and how close the camera stands. Then look at what hangs around it. The flags and banners turn a private snapshot into something closer to a public statement.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Matić is an artist and writer based in London, working in photography, film and sculpture.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup> The solo shows build up steadily: <i>fags for countries that don't exist but bodies that do</i> at Arcadia Missa in 2021, <i>soul time</i> at Studio Voltaire and <i>upon this rock</i> at the South London Gallery in 2022, <i>a girl for the living room</i> at the Martin Parr Foundation in 2023, and <i>JAZZ</i>, made with Oscar Murillo, at Kunsthalle Wien in 2024.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup></p><p>The work is held by Tate, the Fondation Louis Vuitton, the Government Art Collection and the Arts Council Collection.<sup class=\"cite\"><a data-src=\"dbpf-matic\">[dbpf-matic]</a></sup> We have not found an interview quote we could check against a recording or a named publication, so this portfolio does not put words in the artist's mouth.</p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-jes-fan\">Jes Fan</a>: identity and the body, from a sculptor</li><li><a href=\"#artist-ana-segovia\">Ana Segovia</a>: a painter questioning how men are pictured</li><li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: another artist working from photographs</li></ul>"
         }
       ],
       "works": [
@@ -3504,10 +4283,24 @@
           ]
         },
         {
+          "when": "2021",
+          "what": "fags for countries that don't exist but bodies that do, Arcadia Missa.",
+          "src": [
+            "dbpf-matic"
+          ]
+        },
+        {
           "when": "2022",
           "what": "upon this rock, South London Gallery.",
           "src": [
             "wiki-matic"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "a girl for the living room, Martin Parr Foundation.",
+          "src": [
+            "dbpf-matic"
           ]
         },
         {
@@ -3604,6 +4397,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>She builds her sculptures by coiling clay, from torso size to well over human height, and glazes them.<sup class=\"cite\"><a data-src=\"ogden-halfmoon\">[ogden-halfmoon]</a></sup><sup class=\"cite\"><a data-src=\"salon94-halfmoon\">[salon94-halfmoon]</a></sup> Most are portraits. <em>Flagbearer</em> (2022) is made in three stacked parts and stands more than 12 feet high; The Art Newspaper reports that it took a year to make.<sup class=\"cite\"><a data-src=\"ogden-halfmoon\">[ogden-halfmoon]</a></sup><sup class=\"cite\"><a data-src=\"tan-halfmoon\">[tan-halfmoon]</a></sup></p><h3>How to read one</h3><p>Our reading: walk all the way round. Many figures have two or more faces, so the work changes as you move, and the marks of the coils stay visible under the glaze.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Halfmoon is a citizen of the Caddo Nation and also has Choctaw, Delaware and Otoe heritage.<sup class=\"cite\"><a data-src=\"tci-halfmoon\">[tci-halfmoon]</a></sup> At 13 she met the Caddo potter Jeri Redcorn, and later studied anthropology and studio art at the University of Arkansas.<sup class=\"cite\"><a data-src=\"tci-halfmoon\">[tci-halfmoon]</a></sup></p><p>She told Southwest Contemporary she had gone through about 8,000 pounds of clay by hand, and that a firing can take two to three weeks.<sup class=\"cite\"><a data-src=\"swc-halfmoon\">[swc-halfmoon]</a></sup> That interview also covers <i>HASINAI (Caddo): Our People</i> (2021) and <i>Weeping Willow Women</i> (2022).<sup class=\"cite\"><a data-src=\"swc-halfmoon\">[swc-halfmoon]</a></sup> She now works in bronze as well as stoneware. <i>Dancing at Dusk</i> (2024) is travertine, and <i>The Guardians</i> (2024) is a bronze nine feet tall. <i>NEESH + SOKU (MOON + SUN)</i> was her first show with Salon 94.<sup class=\"cite\"><a data-src=\"tci-halfmoon\">[tci-halfmoon]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Clay is my most intimate relationship.<cite>Raven Halfmoon, Southwest Contemporary, 2023<sup class=\"cite\"><a data-src=\"swc-halfmoon\">[swc-halfmoon]</a></sup></cite></blockquote><blockquote>I want the process to be seen in the work.<cite>Raven Halfmoon, Southwest Contemporary, 2023<sup class=\"cite\"><a data-src=\"swc-halfmoon\">[swc-halfmoon]</a></sup></cite></blockquote><blockquote>Art is our cultural preservation, it’s how we talk about what’s happening.<cite>Raven Halfmoon, The Creative Independent, 2024<sup class=\"cite\"><a data-src=\"tci-halfmoon\">[tci-halfmoon]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: large sculpture, made by hand, rooted in place</li><li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: traditional craft as contemporary art</li><li><a href=\"#artist-jes-fan\">Jes Fan</a>: the body as sculpture</li></ul>"
         }
       ],
       "works": [
@@ -3640,6 +4448,17 @@
             "phillips-halfmoon-okla"
           ],
           "tone": "#B9774F"
+        },
+        {
+          "title": "The Guardians",
+          "year": "2024",
+          "medium": "Bronze",
+          "size": "About nine feet high",
+          "note": "Discussed in her 2024 interview with The Creative Independent.",
+          "src": [
+            "tci-halfmoon"
+          ],
+          "tone": "#9C5A3C"
         }
       ],
       "timeline": [
@@ -3753,6 +4572,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>MOCA describes paintings that draw on Mexican cowboy imagery and golden-age cinema to question ideas of masculinity.<sup class=\"cite\"><a data-src=\"moca-segovia\">[moca-segovia]</a></sup> The works are mostly oil on canvas or linen, some of them very wide, and recent projects add digital video and charcoal drawings.<sup class=\"cite\"><a data-src=\"kurimanzutto-segovia\">[kurimanzutto-segovia]</a></sup></p><h3>How to read one</h3><p>Our reading: find the pose first. Many figures are lifted from films and posters, so ask where you have seen that stance before, then look at what the painting changes about it.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Segovia's paintings start from film stills, mostly from the golden age of Mexican cinema, from the mid-1930s to the late 1950s, and from Westerns.<sup class=\"cite\"><a data-src=\"galerie-segovia-2025\">[galerie-segovia-2025]</a></sup> Early titles include <i>To Some Dead Painters</i> (2017) and <i>Jorge Negrete's Cock</i> (2018).<sup class=\"cite\"><a data-src=\"galerie-segovia-2025\">[galerie-segovia-2025]</a></sup></p><p>At the 2024 Venice Biennale Segovia showed a first film, <i>Pos' se acabó este cantar</i> (2021), about two charros; the suits were made by the grandson of the tailor who dressed the film star Jorge Negrete.<sup class=\"cite\"><a data-src=\"biennale-segovia\">[biennale-segovia]</a></sup> The 2025 <i>Ramón</i> series, shown on kurimanzutto's stand at Frieze London, centres on a figure called Ramón.<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup><sup class=\"cite\"><a data-src=\"galerie-segovia-2025\">[galerie-segovia-2025]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I’m always thinking about three things in art that are important to my process: humor, eros, and aggression.<cite>Ana Segovia, AnOther, 2025<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup></cite></blockquote><blockquote>Ramón is my fantasy of who I want to be, or think I am.<cite>Ana Segovia, AnOther, 2025<sup class=\"cite\"><a data-src=\"another-segovia\">[another-segovia]</a></sup></cite></blockquote><blockquote>I always joke that I’m the worst person to watch a film with because I’ll pause it every five seconds.<cite>Ana Segovia, Galerie, 2025<sup class=\"cite\"><a data-src=\"galerie-segovia-2025\">[galerie-segovia-2025]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-rene-matic\">Rene Matić</a>: gender and identity in pictures</li><li><a href=\"#artist-kaws\">KAWS</a>: borrowed popular imagery, made strange</li><li><a href=\"#artist-vincent-van-gogh\">Vincent van Gogh</a>: a painter whose figures are full of feeling</li></ul>"
         }
       ],
       "works": [
@@ -3788,6 +4622,17 @@
             "kurimanzutto-segovia"
           ],
           "tone": "#6B4236"
+        },
+        {
+          "title": "Noche Americana I",
+          "year": "2023",
+          "medium": "Painting",
+          "size": "Not given",
+          "note": "Named by Galerie among the key works.",
+          "src": [
+            "galerie-segovia-2025"
+          ],
+          "tone": "#B5392B"
         }
       ],
       "timeline": [
@@ -3907,6 +4752,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>Her work uses painting, sculpture, site-specific installation and performance, and leans on crafts such as geometric drawing, embroidery and dyeing with plants.<sup class=\"cite\"><a data-src=\"ocula-awartani\">[ocula-awartani]</a></sup> At Venice in 2024 she showed a large work of silk dyed with herbs and spices, torn and then darned by hand.<sup class=\"cite\"><a data-src=\"biennale-awartani\">[biennale-awartani]</a></sup></p><h3>How to read one</h3><p>Our reading: look for the repairs. The stitching, patching and careful geometry take far longer than the damage they answer, and that difference in time is part of what the work is about.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Awartani was born in Jeddah to a Palestinian-Saudi family.<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup> Her dyed textiles are made with craftspeople in Trivandrum in India, using natural dyes, and she commissions embroidery from Syrian women living as refugees in Jordan.<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup></p><p>In 2025 she showed in <i>Erasure</i>, a group exhibition that ran until 12 April 2026, with a sand work that grew from Jeddah's old district of Al-Balad. Its title comes from the poet Mahmoud Darwish.<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Some people see craft as a form of prayer.<cite>Dana Awartani, Berlin Art Link, 2025<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup></cite></blockquote><blockquote>Nothing is mass-produced and I don’t make duplicates.<cite>Dana Awartani, Berlin Art Link, 2025<sup class=\"cite\"><a data-src=\"bal-awartani\">[bal-awartani]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: cloth-like works made by many hands</li><li><a href=\"#artist-raven-halfmoon\">Raven Halfmoon</a>: inherited craft in new forms</li><li><a href=\"#artist-jes-fan\">Jes Fan</a>: craft, material and repair</li></ul>"
         }
       ],
       "works": [
@@ -4062,6 +4922,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>The sculptures join hand-blown glass, resin, fibreglass and 3D prints of body parts with biological substances.<sup class=\"cite\"><a data-src=\"yale-fan\">[yale-fan]</a></sup><sup class=\"cite\"><a data-src=\"kreps-fan\">[kreps-fan]</a></sup> <em>Form Begets Function</em> (2020), for example, lists urine, depo-testosterone and melanin among its materials.<sup class=\"cite\"><a data-src=\"kreps-fan\">[kreps-fan]</a></sup></p><h3>How to read one</h3><p>Our reading: read the materials list before the title. Much of the meaning sits in what the piece is made of, and the forms often look like specimens or medical models.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In 2018, on a residency at Recess in New York, Fan worked with melanin made by E. coli bacteria.<sup class=\"cite\"><a data-src=\"wp-fan-2022\">[wp-fan-2022]</a></sup> The <i>Mother of Pearl</i> series followed from 2020 to 2022, and Fan showed at Socrates Sculpture Park (2019), the Liverpool Biennial and the New Museum Triennial (2021), and in <i>The Milk of Dreams</i> at Venice (2022).<sup class=\"cite\"><a data-src=\"wp-fan-2022\">[wp-fan-2022]</a></sup></p><p>For the Sigg Prize exhibition at M+ in 2023, Fan showed <i>Sites of Wounding: Chapter 2</i>, a project begun in 2020 around agarwood (<i>Aquilaria sinensis</i>), which also uses 3D scans of the artist's own body.<sup class=\"cite\"><a data-src=\"mplus-fan\">[mplus-fan]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Art and sciences are essentially just ways of questioning. They are not opposing in my world.<cite>Jes Fan, M+, 2023<sup class=\"cite\"><a data-src=\"mplus-fan\">[mplus-fan]</a></sup></cite></blockquote><blockquote>Craft used to be technological; back in the day, the loom was the first computer.<cite>Jes Fan, Wallpaper*, 2022<sup class=\"cite\"><a data-src=\"wp-fan-2022\">[wp-fan-2022]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-rene-matic\">Rene Matić</a>: identity and the body</li><li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: craft and natural materials</li><li><a href=\"#artist-raven-halfmoon\">Raven Halfmoon</a>: the body in large sculpture</li></ul>"
         }
       ],
       "works": [
@@ -4122,6 +4997,13 @@
           "src": [
             "biennale-fan",
             "kreps-fan"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "Sites of Wounding: Chapter 2, in the Sigg Prize exhibition at M+.",
+          "src": [
+            "mplus-fan"
           ]
         },
         {
@@ -4213,6 +5095,21 @@
           "id": "style",
           "title": "Style and technique",
           "html": "<p>Festival organisers describe figurative painting close to realism, with Impressionist touches, showing everyday scenes taken from late twentieth century photographs.<sup class=\"cite\"><a data-src=\"nuart-lghacham\">[nuart-lghacham]</a></sup> Colossal noted muted colour, loose layered brushwork, and a liking for photographs with small accidents in them, because they make a scene feel real.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup> By 2021 he was working from snapshots and home videos lent by neighbours and from city archives.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2021\">[colossal-lghacham-2021]</a></sup></p><h3>How to read one</h3><p>Our reading: ask whose photograph it was. Many of the walls show the family or the town where they are painted, so the picture belonged to someone who can still walk past it.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>L'Ghacham's parents moved from Tangier to Spain a few months after he was born, and he grew up in Mataró.<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup> He started painting in the street in 2008, as factories were closing after the financial crisis, and names Aryz, Gr170 and Kikx among his early influences.<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup> Juxtapoz reported in about 2022 that he had recently moved to Madrid.<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup></p><p>Colossal lists walls from 2019 and 2020: <i>Confinamiento</i> in Cheste, <i>Matança do porco</i> in Figueiró dos Vinhos in Portugal, <i>Indoor II</i> in Schiedam, <i>Dormitorio III</i> in Mantova, <i>Family portrait</i> in Wevelgem and <i>El dormitorio de Aina</i> in Torrellas.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2021\">[colossal-lghacham-2021]</a></sup> He has said he would probably have chosen film-making if not painting.<sup class=\"cite\"><a data-src=\"sau-lghacham\">[sau-lghacham]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I almost never depict acted scenes with people posing, I am keen on conveying what is authentic.<cite>Mohamed L'Ghacham, Street Art United States, 2017<sup class=\"cite\"><a data-src=\"sau-lghacham\">[sau-lghacham]</a></sup></cite></blockquote><blockquote>My paintings usually represent moments of calm and reunion.<cite>Mohamed L'Ghacham, Juxtapoz<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup></cite></blockquote><blockquote>When I’m on a wall it’s a fight against the clock and you know you have deadlines to meet.<cite>Mohamed L'Ghacham, Juxtapoz<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-vhils\">Vhils</a>: portraits of ordinary people on walls</li><li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: figurative murals around the world</li><li><a href=\"#artist-vincent-van-gogh\">Vincent van Gogh</a>: everyday life as the subject</li></ul>"
         }
       ],
       "works": [
@@ -4260,6 +5157,13 @@
           ]
         },
         {
+          "when": "2008",
+          "what": "Starts painting in the street.",
+          "src": [
+            "jux-lghacham"
+          ]
+        },
+        {
           "when": "2017",
           "what": "Casa Paquita, Saladina Art Fest, Mallorca.",
           "src": [
@@ -4278,6 +5182,13 @@
           "what": "La Fondue, Vision Art Festival, Switzerland.",
           "src": [
             "vaf-lghacham"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "El dormitorio de Aina, Torrellas.",
+          "src": [
+            "colossal-lghacham-2021"
           ]
         },
         {
