@@ -171,6 +171,7 @@
             "rule_link": "How we work",
             "latest": [
               "eleven-new-portfolios-november-2026",
+              "reviews-and-explainers-november-2026",
               "andy-warhol-portfolio",
               "five-new-portfolios-november-2026",
               "new-portfolios-november-2026",
@@ -407,7 +408,7 @@
         "Recent reviews",
         "and comparisons"
       ],
-      "intro": "Considered responses to individual works and projects, and side-by-side comparisons of artists."
+      "intro": "Reviews of exhibitions and projects by the artists we cover, built on what named critics wrote at the time, with our own view marked as ours."
     },
     "explained": {
       "eyebrow": "Art Explained",
@@ -415,7 +416,7 @@
         "How the work is made,",
         "and why it matters"
       ],
-      "intro": "Plain-language guides to the techniques, materials and ideas behind the artworks."
+      "intro": "Close looks at single works, and plain guides to the techniques, materials and ideas behind them."
     },
     "library": {
       "eyebrow": "Collector's Library",
