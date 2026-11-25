@@ -4,7 +4,7 @@ A record of what the website agent did on each run, newest first.
 
 ## Wednesday 25 November 2026, reviews and artwork explainers (draft)
 Published: nothing. Added as a draft after the owner asked for more reviews and art explained pieces for every artist.
-Drafts waiting: 20 new reviews and 22 artwork explainers, one or both for every published artist, plus a short feature introducing them at the top of the homepage list. 59 new numbered sources, all opened and read: named reviews in The Art Newspaper, Apollo, The Arts Desk, Studio International, Frieze, e-flux, The Brooklyn Rail, The New York Times and others, plus museum and gallery pages. Review and Art Explained list introductions updated. Pull request link to follow.
+Drafts waiting: 20 new reviews and 22 artwork explainers, one or both for every published artist, plus a short feature introducing them at the top of the homepage list. 59 new numbered sources, all opened and read: named reviews in The Art Newspaper, Apollo, The Arts Desk, Studio International, Frieze, e-flux, The Brooklyn Rail, The New York Times and others, plus museum and gallery pages. Review and Art Explained list introductions updated. Pull request: https://github.com/Artiscope/World-art-review/pull/16
 Checked: every citation points to a listed source, every internal link works, the site builds with 23 artists and 62 articles, and pages hold at phone and desktop width with no page errors. No long dashes or words from the banned list.
 Left alone: Zen Xander (not yet published) and the artists being added in a separate change. Zara Muse and Konn Artiss get an explainer each but no new review, as no independent published criticism could be found. The research desk now says so.
 Needs you: photographs for the new pieces (41 empty spots added to image-slots.json). Two explainers reuse photos already on the site.
@@ -30,7 +30,7 @@ Needs you: photographs for the portfolio and its three works (spots added to ima
 
 ## Wednesday 25 November 2026
 Published: nothing yet.
-Drafts waiting: five new portfolios (Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani, Jes Fan) and a short feature introducing them. The research desk picks up their open questions. Pull request link to follow.
+Drafts waiting: five new portfolios (Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani, Jes Fan) and a short feature introducing them. The research desk picks up their open questions. Pull request: https://github.com/Artiscope/World-art-review/pull/16
 Checked: gallery, museum, biennale and auction pages for all five artists.
 Needs you: photographs for the five portfolios and their works (spots added to image-slots.json).
 
