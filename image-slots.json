@@ -306,6 +306,132 @@
       "group": "Artworks: Wassily Kandinsky",
       "label": "Several Circles (Einige Kreise)",
       "filled": false
+    },
+    {
+      "id": "article-five-new-portfolios-november-2026",
+      "group": "Articles: Features",
+      "label": "Five new portfolios: artists in the early years of their careers",
+      "filled": false
+    },
+    {
+      "id": "artist-rene-matic",
+      "group": "Artist main images",
+      "label": "Rene Matić",
+      "filled": false
+    },
+    {
+      "id": "work-rene-matic-as-opposed-to-the-truth",
+      "group": "Artworks: Rene Matić",
+      "label": "AS OPPOSED TO THE TRUTH",
+      "filled": false
+    },
+    {
+      "id": "work-rene-matic-flags-for-countries-that-don-t-exist-but-bodies-that-do",
+      "group": "Artworks: Rene Matić",
+      "label": "flags for countries that don't exist but bodies that do",
+      "filled": false
+    },
+    {
+      "id": "work-rene-matic-pink-shoes-at-a-party",
+      "group": "Artworks: Rene Matić",
+      "label": "Pink Shoes at a Party",
+      "filled": false
+    },
+    {
+      "id": "artist-raven-halfmoon",
+      "group": "Artist main images",
+      "label": "Raven Halfmoon",
+      "filled": false
+    },
+    {
+      "id": "work-raven-halfmoon-caddo-woman-warrior",
+      "group": "Artworks: Raven Halfmoon",
+      "label": "Caddo Woman Warrior",
+      "filled": false
+    },
+    {
+      "id": "work-raven-halfmoon-flagbearer",
+      "group": "Artworks: Raven Halfmoon",
+      "label": "Flagbearer",
+      "filled": false
+    },
+    {
+      "id": "work-raven-halfmoon-okla-homma-ohoyo",
+      "group": "Artworks: Raven Halfmoon",
+      "label": "OKLA HOMMA OHOYO",
+      "filled": false
+    },
+    {
+      "id": "artist-ana-segovia",
+      "group": "Artist main images",
+      "label": "Ana Segovia",
+      "filled": false
+    },
+    {
+      "id": "work-ana-segovia-through-mario-s-perspective",
+      "group": "Artworks: Ana Segovia",
+      "label": "Through Mario's perspective",
+      "filled": false
+    },
+    {
+      "id": "work-ana-segovia-monarchs-of-the-grasslands",
+      "group": "Artworks: Ana Segovia",
+      "label": "monarchs of the grasslands",
+      "filled": false
+    },
+    {
+      "id": "work-ana-segovia-gambola-uruguay",
+      "group": "Artworks: Ana Segovia",
+      "label": "Gambola (Uruguay)",
+      "filled": false
+    },
+    {
+      "id": "artist-dana-awartani",
+      "group": "Artist main images",
+      "label": "Dana Awartani",
+      "filled": false
+    },
+    {
+      "id": "work-dana-awartani-come-let-me-heal-your-wounds-let-me-mend-your-broken-bones",
+      "group": "Artworks: Dana Awartani",
+      "label": "Come, let me heal your wounds. Let me mend your broken bones",
+      "filled": false
+    },
+    {
+      "id": "work-dana-awartani-where-the-dwellers-lay",
+      "group": "Artworks: Dana Awartani",
+      "label": "Where the Dwellers Lay",
+      "filled": false
+    },
+    {
+      "id": "work-dana-awartani-standing-by-the-ruins",
+      "group": "Artworks: Dana Awartani",
+      "label": "Standing by the Ruins",
+      "filled": false
+    },
+    {
+      "id": "artist-jes-fan",
+      "group": "Artist main images",
+      "label": "Jes Fan",
+      "filled": false
+    },
+    {
+      "id": "work-jes-fan-form-begets-function",
+      "group": "Artworks: Jes Fan",
+      "label": "Form Begets Function",
+      "filled": false
+    },
+    {
+      "id": "work-jes-fan-apparatus",
+      "group": "Artworks: Jes Fan",
+      "label": "Apparatus",
+      "filled": false
+    },
+    {
+      "id": "work-jes-fan-right-pelvis-cross-section",
+      "group": "Artworks: Jes Fan",
+      "label": "Right Pelvis, Cross Section",
+      "filled": false
     }
   ]
 }

@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Wednesday 25 November 2026
+Published: nothing yet.
+Drafts waiting: five new portfolios (Rene Matić, Raven Halfmoon, Ana Segovia, Dana Awartani, Jes Fan) and a short feature introducing them. The research desk picks up their open questions. Pull request link to follow.
+Checked: gallery, museum, biennale and auction pages for all five artists.
+Needs you: photographs for the five portfolios and their works (spots added to image-slots.json).
+
 ## Wednesday 25 November 2026, Kandinsky record price (draft)
 Published: nothing. Prepared as a draft after the price check on Global Art Monitor.
 Drafts waiting: Kandinsky: exact record price from Christie's lot page, https://github.com/Artiscope/World-art-review/pull/11
