@@ -811,6 +811,69 @@
       "date": "2022",
       "kind": "Magazine profile",
       "url": "https://www.wallpaper.com/art/jes-fan-artist-profile"
+    },
+    "nuart-lghacham": {
+      "title": "Mohamed L'Ghacham (MA)",
+      "pub": "Nuart Aberdeen",
+      "date": "2022",
+      "kind": "Festival page",
+      "url": "https://2022.nuartaberdeen.co.uk/artists/mohamed-lghacham-ma/"
+    },
+    "nww-lghacham": {
+      "title": "Mohamed L'Ghacham (MAR)",
+      "pub": "North West Walls",
+      "date": "2018",
+      "kind": "Festival page",
+      "url": "https://northwestwalls.be/history/2018/mohamedlghacham"
+    },
+    "vaf-lghacham": {
+      "title": "Mohamed L'Ghacham",
+      "pub": "Vision Art Festival",
+      "date": "2019",
+      "kind": "Festival page",
+      "url": "https://visionartfestival.com/artist/mohamed-lghacham/"
+    },
+    "colossal-lghacham-2019": {
+      "title": "Vintage Family Photos Painted As Large Scale Murals by Mohamed L'Ghacham",
+      "pub": "Colossal (Andrew LaSane)",
+      "date": "21 April 2019",
+      "kind": "Magazine article",
+      "url": "https://www.thisiscolossal.com/2019/04/vintage-photo-murals-by-mohamed-lghacham/"
+    },
+    "colossal-lghacham-2021": {
+      "title": "Candid Moments Captured in Vintage Photos Are Magnified in Mohamed L'Ghacham's Murals",
+      "pub": "Colossal (Grace Ebert)",
+      "date": "13 April 2021",
+      "kind": "Magazine article",
+      "url": "https://www.thisiscolossal.com/2021/04/mohamed-lghacham-photo-murals/"
+    },
+    "saus-lghacham": {
+      "title": "Mohamed L'Ghacham in Can Picafort, Mallorca",
+      "pub": "Street Art United States (Sami Wakim)",
+      "date": "11 October 2017",
+      "kind": "News report",
+      "url": "https://streetartunitedstates.com/mohamed-lghacham-in-can-picafort-mallorca/"
+    },
+    "site-lghacham": {
+      "title": "Projects",
+      "pub": "mohamedlghacham.com (artist's website)",
+      "date": "",
+      "kind": "Artist's website",
+      "url": "http://www.mohamedlghacham.com/"
+    },
+    "callelibre-lghacham": {
+      "title": "the table is set",
+      "pub": "Calle Libre",
+      "date": "2025",
+      "kind": "Festival page",
+      "url": "https://www.callelibre.at/walls-2025/mohamed-lghacham"
+    },
+    "crystalship-lghacham": {
+      "title": "Mohamed L'Ghacham",
+      "pub": "The Crystal Ship, Ostend",
+      "date": "",
+      "kind": "Art route page",
+      "url": "https://thecrystalship.org/artworks/mohamed-lghacham/?upage=2"
     }
   },
   "artists": [
@@ -4085,6 +4148,162 @@
         "Museum collections that hold the work",
         "Sizes of Apparatus and Right Pelvis, Cross Section",
         "Which gallery represents the artist",
+        "A photograph with permission to publish"
+      ]
+    },
+    {
+      "published": true,
+      "image": "",
+      "alt": "",
+      "heroCredit": "",
+      "checked": "25 November 2026",
+      "slug": "mohamed-lghacham",
+      "name": "Mohamed L'Ghacham",
+      "letter": "M",
+      "ghostWords": [
+        "Family",
+        "photographs,",
+        "wall",
+        "size."
+      ],
+      "tag": "Murals and painting",
+      "place": "Mataró, Barcelona",
+      "tone": "#7A6A4F",
+      "heroTone": "#7A6A4F",
+      "summary": "A muralist from Tangier who paints old family photographs across whole walls.",
+      "dek": "Mohamed L'Ghacham works from snapshots taken in the late twentieth century, often lent by the people who live where he paints. Since 2017 his walls have appeared at festivals from Mallorca to Vienna.",
+      "glance": [
+        [
+          "Born",
+          "Tangier, Morocco, 1993",
+          [
+            "nuart-lghacham",
+            "callelibre-lghacham"
+          ]
+        ],
+        [
+          "Based",
+          "Mataró, near Barcelona",
+          [
+            "nuart-lghacham"
+          ]
+        ],
+        [
+          "Began",
+          "Graffiti at school, then classical painting",
+          [
+            "nww-lghacham"
+          ]
+        ],
+        [
+          "Media",
+          "Murals and paintings",
+          [
+            "nuart-lghacham"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Mohamed L'Ghacham?",
+          "html": "<p>L'Ghacham was born in Tangier in 1993 and is based in Mataró, near Barcelona.<sup class=\"cite\"><a data-src=\"nuart-lghacham\">[nuart-lghacham]</a></sup> He came to painting through graffiti at school and then the classical painters.<sup class=\"cite\"><a data-src=\"nww-lghacham\">[nww-lghacham]</a></sup> He has named the painters Antonio López and Pere Llobera among his influences.<sup class=\"cite\"><a data-src=\"vaf-lghacham\">[vaf-lghacham]</a></sup></p><p>He told Colossal that his first murals were painted in abandoned or demolished places, or on the edges of cities.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2021\">[colossal-lghacham-2021]</a></sup> Since then he has painted for festivals including Saladina Art Fest in Mallorca, North West Walls in Belgium, Vision Art Festival in Switzerland, Nuart Aberdeen and Calle Libre in Vienna.<sup class=\"cite\"><a data-src=\"saus-lghacham\">[saus-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"site-lghacham\">[site-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"vaf-lghacham\">[vaf-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"nuart-lghacham\">[nuart-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"callelibre-lghacham\">[callelibre-lghacham]</a></sup> He showed with PDP Gallery at the Moniker Art Fair in Brooklyn in 2018.<sup class=\"cite\"><a data-src=\"site-lghacham\">[site-lghacham]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Festival organisers describe figurative painting close to realism, with Impressionist touches, showing everyday scenes taken from late twentieth century photographs.<sup class=\"cite\"><a data-src=\"nuart-lghacham\">[nuart-lghacham]</a></sup> Colossal noted muted colour, loose layered brushwork, and a liking for photographs with small accidents in them, because they make a scene feel real.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup> By 2021 he was working from snapshots and home videos lent by neighbours and from city archives.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2021\">[colossal-lghacham-2021]</a></sup></p><h3>How to read one</h3><p>Our reading: ask whose photograph it was. Many of the walls show the family or the town where they are painted, so the picture belonged to someone who can still walk past it.</p>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Casa Paquita",
+          "year": "2017",
+          "medium": "Mural, Can Picafort, Mallorca",
+          "size": "Wall",
+          "note": "Painted for Saladina Art Fest from a photograph of the owner's children taken about forty years earlier in the same place.",
+          "src": [
+            "saus-lghacham"
+          ],
+          "tone": "#7A6A4F"
+        },
+        {
+          "title": "La Fondue",
+          "year": "2019",
+          "medium": "Mural, Crans-Montana, Switzerland",
+          "size": "Wall",
+          "note": "Painted for Vision Art Festival.",
+          "src": [
+            "vaf-lghacham",
+            "colossal-lghacham-2021"
+          ],
+          "tone": "#5E6A70"
+        },
+        {
+          "title": "the table is set",
+          "year": "2025",
+          "medium": "Mural, Vienna",
+          "size": "Wall",
+          "note": "Painted for Calle Libre in the Meidling district. A family meal, partly overgrown with plants.",
+          "src": [
+            "callelibre-lghacham"
+          ],
+          "tone": "#5F7A55"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1993",
+          "what": "Born in Tangier, Morocco.",
+          "src": [
+            "nuart-lghacham"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Casa Paquita, Saladina Art Fest, Mallorca.",
+          "src": [
+            "saus-lghacham"
+          ]
+        },
+        {
+          "when": "2018",
+          "what": "De Fiesta with Alba Trench, North West Walls, Belgium; Moniker Art Fair with PDP Gallery, Brooklyn.",
+          "src": [
+            "site-lghacham"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "La Fondue, Vision Art Festival, Switzerland.",
+          "src": [
+            "vaf-lghacham"
+          ]
+        },
+        {
+          "when": "2022",
+          "what": "Nuart Aberdeen.",
+          "src": [
+            "nuart-lghacham"
+          ]
+        },
+        {
+          "when": "2025",
+          "what": "the table is set, Calle Libre, Vienna.",
+          "src": [
+            "callelibre-lghacham"
+          ]
+        }
+      ],
+      "seen": "<p>His murals are in public streets. A painting of a woman cutting a birthday cake in Ostend can no longer be seen.<sup class=\"cite\"><a data-src=\"crystalship-lghacham\">[crystalship-lghacham]</a></sup> Check a wall is still there before travelling to it; festival walls are often painted over.</p>",
+      "related": [
+        "a-research-emerging-artist",
+        "a-how-to-look-at-a-painting"
+      ],
+      "research": [
+        "Gallery representation today (PDP Gallery is named for 2018 and 2021)",
+        "Date of the Ostend birthday cake mural",
+        "Any public auction result (none found as of 25 November 2026)",
         "A photograph with permission to publish"
       ]
     }
