@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>World Art Review</title>
-<meta name="description" content="Discover Artists. Understand Art. Researched artist portfolios, artwork reviews, collecting guides and techniques explained.">
+<meta name="description" content="Discover the Artists. Understand the Art. Researched artist portfolios, artwork reviews, collecting guides and techniques explained.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%231D1D1B'/%3E%3Cpath fill='%23F6F4EF' fill-rule='evenodd' d='M2 3h9v10H2zM3 4v8h7V4z'/%3E%3Cpath fill='none' stroke='%23F6F4EF' stroke-width='1' stroke-linejoin='miter' stroke-miterlimit='3' d='M4.25 11.7 6.5 5.3l2.25 6.4'/%3E%3Crect x='12' y='9' width='2' height='4' fill='%23F6F4EF'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -362,6 +362,7 @@ a.aw-item:hover .aw-pic{opacity:.92}
 @media (min-width:640px){.hero .bottom{padding:0 2.5rem 2.5rem;flex-direction:row;justify-content:space-between;align-items:flex-end}}
 .hero .tagline{font-family:var(--display);font-size:calc(2.4rem * var(--h-scale, 1));line-height:1;color:rgba(238,229,212,.88)}
 .hero .tagline .ital{color:var(--brick-soft)}
+.hero .hero-intro{font-family:var(--text);font-size:.98rem;line-height:1.6;color:rgba(238,229,212,.84);max-width:34rem;margin-top:1.1rem}
 .hero .mobwall{width:11rem;margin-top:1rem}
 @media (min-width:768px){.hero .mobwall{display:none}}
 .hero .cluster{display:flex;gap:1rem;align-items:flex-end}
@@ -877,7 +878,7 @@ footer .bar{padding-top:1rem}
 <div id="opening" aria-hidden="true">
   <div class="col">
     <span class="wordmark on-green" id="opWord"><svg class="mark"><use href="#sym-mark"/></svg><span id="opName">World Art Review</span></span>
-        <span class="tag" id="opTag">Discover Artists. Understand Art.</span>
+        <span class="tag" id="opTag">Discover the Artists. Understand the Art.</span>
   </div>
 </div>
 
@@ -1750,7 +1751,7 @@ function footerOnly(){
    HOMEPAGE
    ========================================================= */
 const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
-const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
+const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, guides: () => (typeof GUIDES !== 'undefined' ? GUIDES.length : 0), articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
 const SECTION_INFO = (((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).filter(x => !(x && x.hidden === true))).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
 
 /* a list of names where one can be hidden: "name" or {v:"name", hidden:true} */
@@ -1793,6 +1794,7 @@ const SECTIONS = {
     <div class="bottom">
       <div>
         <p class="tagline" id="heroTag${x}">${ln(st.tagline, 'tagline')}</p>
+        ${String(st.intro || '').trim() ? `<p class="hero-intro">${T(st.intro)}</p>` : ''}
         ${st.hide_picture ? '' : `<div class="mobwall" data-adh-b="picture.0">${wallLabel(a1, [artistLine(a1), glanceVal(a1,'Medium'), glanceVal(a1,'Gallery')])}</div>`}
       </div>
       <div class="cluster">

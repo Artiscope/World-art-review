@@ -6,7 +6,7 @@
       "visible": true,
       "settings": {
         "name": "World Art Review",
-        "tagline": "Discover Artists. Understand Art."
+        "tagline": "Discover the Artists. Understand the Art."
       }
     },
     "header": {
@@ -41,7 +41,7 @@
           "once a month."
         ],
         "button": "Subscribe",
-        "blurb": "Researched artist portfolios, reviews and collecting guides. Discover Artists. Understand Art.",
+        "blurb": "Researched artist portfolios, reviews and collecting guides. Discover the Artists. Understand the Art.",
         "columns": [
           {
             "title": "Read",
@@ -148,7 +148,7 @@
                 "ital": false
               },
               {
-                "t": "Artists.",
+                "t": "the Artists.",
                 "ital": true
               }
             ],
@@ -158,7 +158,7 @@
                 "ital": false
               },
               {
-                "t": "Art.",
+                "t": "the Art.",
                 "ital": true
               }
             ],
@@ -181,7 +181,8 @@
               "zara-muse-profile"
             ],
             "hide_picture": false,
-            "hide_rule": false
+            "hide_rule": false,
+            "intro": "Explore the people, techniques, artworks and movements shaping contemporary art. World Art Review brings together researched artist profiles, accessible collecting guides and thoughtful artwork analysis to help readers look beyond the image and understand the story behind the work."
           }
         },
         {
@@ -201,7 +202,7 @@
         {
           "id": "sections",
           "type": "section-list",
-          "visible": false,
+          "visible": true,
           "settings": {
             "eyebrow": "What you will find here",
             "heading": [
@@ -211,34 +212,42 @@
             "rows": [
               {
                 "n": "01",
-                "name": "Artists A to Z",
-                "desc": "Researched portfolios: biography, style, career and selected works.",
+                "name": "Artist A to Z",
+                "desc": "Researched portfolios: biography, documented works, exhibitions, a career timeline and a numbered source for every fact.",
                 "href": "#artists",
                 "count": "artists",
                 "unit": "portfolio"
               },
               {
                 "n": "02",
-                "name": "Reviews",
-                "desc": "Close readings of single works, shows and interventions.",
-                "href": "#reviews",
-                "count": "reviews",
-                "unit": "review"
-              },
-              {
-                "n": "03",
                 "name": "Art Explained",
-                "desc": "Techniques, materials and ideas, in plain language.",
+                "desc": "Close looks at single works, and plain guides to techniques and materials.",
                 "href": "#explained",
                 "count": "explained",
                 "unit": "guide"
               },
               {
-                "n": "04",
+                "n": "03",
                 "name": "Collector's Library",
                 "desc": "How to research an artist, read a certificate and tell an original from a print.",
                 "href": "#library",
                 "count": "library",
+                "unit": "guide"
+              },
+              {
+                "n": "04",
+                "name": "Recent Reviews",
+                "desc": "Exhibitions and projects by the artists we cover, read through what named critics wrote.",
+                "href": "#reviews",
+                "count": "reviews",
+                "unit": "review"
+              },
+              {
+                "n": "05",
+                "name": "Exhibition Guides",
+                "desc": "Current and upcoming shows featuring our artists, with dates and the venue's own page.",
+                "href": "#guides",
+                "count": "guides",
                 "unit": "guide"
               }
             ]
