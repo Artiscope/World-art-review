@@ -2463,6 +2463,90 @@
       "date": "read 25 November 2026",
       "kind": "Gallery page",
       "url": "https://www.mashgallery.com/products/be-happy"
+    },
+    "wiki-eine": {
+      "title": "Ben Eine",
+      "pub": "Wikipedia",
+      "date": "Read 26 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Ben_Eine"
+    },
+    "guardian-eine-obama": {
+      "title": "Cameron's gifts for Obama",
+      "pub": "The Guardian, reprinted by Dawn (Patrick Wintour)",
+      "date": "22 July 2010",
+      "kind": "News report",
+      "url": "https://www.dawn.com/news/548500"
+    },
+    "bsa-eine-whitehouse": {
+      "title": "Ben Aine: Street Art and The White House",
+      "pub": "Brooklyn Street Art",
+      "date": "21 July 2010",
+      "kind": "News report",
+      "url": "https://www.brooklynstreetart.com/2010/07/21/ben-aine-street-art-and-the-white-house"
+    },
+    "bigissue-eine": {
+      "title": "Rise up, stand up, speak up with guest editor Ben Eine",
+      "pub": "Big Issue (Maeve Doyle)",
+      "date": "11 March 2020",
+      "kind": "Interview with the artist",
+      "url": "https://bigissue.com/culture/art/rise-up-stand-up-speak-up-with-guest-editor-ben-eine"
+    },
+    "interview-eine": {
+      "title": "Ben Eine's Age of Innocence",
+      "pub": "Interview Magazine (Georgia Frances King)",
+      "date": "14 June 2013",
+      "kind": "Interview with the artist",
+      "url": "https://www.interviewmagazine.com/art/ben-eine-innocence"
+    },
+    "sal-eine": {
+      "title": "Eine",
+      "pub": "Street Art London",
+      "date": "20 January 2011",
+      "kind": "Artist profile",
+      "url": "https://streetartlondon.co.uk/artists/eine/"
+    },
+    "cb-eine": {
+      "title": "Ben Eine on typography, street art and OurTypes",
+      "pub": "Creative Boom (Katy Cowan)",
+      "date": "31 July 2019",
+      "kind": "Interview with the artist",
+      "url": "https://www.creativeboom.com/inspiration/ben-eine/"
+    },
+    "ocula-eine": {
+      "title": "Ben Eine",
+      "pub": "Ocula",
+      "date": "Read 26 November 2026",
+      "kind": "Artist profile",
+      "url": "https://ocula.com/artists/ben-eine/"
+    },
+    "wonderland-eine": {
+      "title": "Ben Eine: An Unconventional Canvas",
+      "pub": "Wonderland",
+      "date": "26 January 2018",
+      "kind": "Interview with the artist",
+      "url": "https://www.wonderlandmagazine.com/2018/01/26/ben-eine-an-unconventional-canvas/"
+    },
+    "un-eine": {
+      "title": "Eine",
+      "pub": "Urban Nation, Berlin",
+      "date": "Read 26 November 2026",
+      "kind": "Artist profile",
+      "url": "https://urban-nation.com/artist/eine/"
+    },
+    "tw-eine-178": {
+      "title": "Lot 178, Ben Eine, Tenderloin A-Z Sandstone (Unique), 2013",
+      "pub": "Tate Ward Auctions",
+      "date": "Sale closed 29 October 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.tateward.com/auction/lot/lot-178---ben-eine-british-1970--tenderloin-a-z-sandstone-crosshatch-black--gold/?lot=29620"
+    },
+    "ma-eine": {
+      "title": "Ben Eine auction results",
+      "pub": "MutualArt",
+      "date": "Read 26 November 2026",
+      "kind": "Auction database",
+      "url": "https://www.mutualart.com/Artist/Ben-Eine/AAEF07BB447196D3/auction-results"
     }
   },
   "artists": [
@@ -8938,9 +9022,230 @@
         "Year of Circuit Riot",
         "Month of 404: Humanity not Found: Grove Gallery says April 2025, The Tab says June"
       ]
+    },
+    {
+      "published": true,
+      "image": "images/ben-eine-love-at-first-sight-zurich.jpg",
+      "alt": "The end wall of a city building painted black and covered in stacked, striped capital letters in pink, yellow, green and blue, spelling LOVE AT FIRST SIGHT.",
+      "heroCredit": "Photo: Balise42, CC BY 4.0",
+      "checked": "26 November 2026",
+      "slug": "ben-eine",
+      "name": "Ben Eine",
+      "letter": "E",
+      "ghostWords": [
+        "One",
+        "letter",
+        "to",
+        "a",
+        "shutter."
+      ],
+      "tag": "Lettering and screenprint",
+      "place": "London",
+      "tone": "#B5462F",
+      "heroTone": "#B5462F",
+      "summary": "A London street artist who paints giant circus-style letters on shop shutters and walls.",
+      "dek": "Ben Eine moved from graffiti to lettering by way of a print studio he ran with Banksy. In 2010 he painted the alphabet along a London street, and one of his canvases went to the White House as a gift from the prime minister.",
+      "glance": [
+        [
+          "Born",
+          "Benjamin Flynn, London, 1970",
+          [
+            "wiki-eine"
+          ]
+        ],
+        [
+          "Grew up",
+          "South London",
+          [
+            "guardian-eine-obama"
+          ]
+        ],
+        [
+          "Began",
+          "Graffiti at about 14",
+          [
+            "guardian-eine-obama",
+            "un-eine"
+          ]
+        ],
+        [
+          "Media",
+          "Spray paint, hand-cut stencils, screenprints",
+          [
+            "interview-eine"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Ben Eine?",
+          "html": "<p>Ben Eine is the working name of Benjamin Flynn, born in London in 1970.<sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup> He grew up in south London and told the Observer that he started writing graffiti at about 14 and was arrested 15 to 20 times.<sup class=\"cite\"><a data-src=\"guardian-eine-obama\">[guardian-eine-obama]</a></sup> He is self-taught.<sup class=\"cite\"><a data-src=\"un-eine\">[un-eine]</a></sup></p><p>He met Banksy at a party at the Dragon Bar near Old Street, and they set up Pictures on Walls to sell affordable screenprints.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup> Eine was its principal screenprinter, printing for Banksy and David Shrigley among others, before he worked under his own name.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup><sup class=\"cite\"><a data-src=\"ocula-eine\">[ocula-eine]</a></sup> Ocula reports that the Victoria and Albert Museum holds his work.<sup class=\"cite\"><a data-src=\"ocula-eine\">[ocula-eine]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Eine paints letters. They are large display capitals, usually one to a shutter or a handful to a wall, in solid colour with an offset shadow. He has said he has studied neither art nor typography.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup> He draws each letter, scans and prints it, and cuts the stencil himself with a scalpel rather than using design software or a laser cutter.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup> He has given his lettering styles names, among them Shutter, Neon, Tenderloin and New Circus, and released Tenderloin as a free font with Chank Diesel in 2012.<sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup></p><h3>How to read one</h3><p>Our reading: look at the surface first. On a roller shutter the slats cut every letter into horizontal bands, and Eine often adds stripes of his own, so the pattern looks planned. Then step back. A single letter says nothing, but a run of them along a street works like a sign for the street itself.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Eine told the Big Issue that the book <i>Subway Art</i> by Martha Cooper and Henry Chalfant set him off, and that graffiti eventually brought a £7,000 fine and about 180 hours of community service.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup> In 2010 he painted A to Z across the shop shutters of Middlesex Street in London, and later a series called Alphabet City at Crisp Street Market.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup></p><p>In July 2010 David Cameron gave Barack Obama Eine's painting <i>Twenty First Century City</i> as an official gift; the Guardian put its value at £2,500.<sup class=\"cite\"><a data-src=\"guardian-eine-obama\">[guardian-eine-obama]</a></sup> Brooklyn Street Art reported that Samantha Cameron chose the artist.<sup class=\"cite\"><a data-src=\"bsa-eine-whitehouse\">[bsa-eine-whitehouse]</a></sup> He was in <i>Art in the Streets</i> at the Museum of Contemporary Art, Los Angeles, in 2011, and had a solo show, <i>Innocence</i>, with Corey Helford Gallery in Los Angeles in 2013.<sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup><sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup> In 2019 he launched OurTypes, a platform for licensing his typography.<sup class=\"cite\"><a data-src=\"cb-eine\">[cb-eine]</a></sup> In March 2020 he guest-edited the Big Issue and designed the cover of its 200 millionth copy.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Typography guides you around a city without you being aware of it.<cite>Ben Eine, Big Issue, 2020<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup></cite></blockquote><blockquote>I haven't studied art and I haven't studied typography, but I've still gone out and done it.<cite>Ben Eine, Interview Magazine, 2013<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup></cite></blockquote><blockquote>Things we paint on the street are painted with the understanding that they're not going to be there forever.<cite>Ben Eine, Creative Boom, 2019<sup class=\"cite\"><a data-src=\"cb-eine\">[cb-eine]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: they started Pictures on Walls together</li><li><a href=\"#artist-david-shrigley\">David Shrigley</a>: hand-lettered words, and an early Pictures on Walls artist</li><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: screenprinting as the main tool</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "The Middlesex Street alphabet",
+          "year": "2010",
+          "medium": "Spray paint on 26 shop shutters, London",
+          "size": "Street",
+          "note": "A to Z, one letter to a shutter.",
+          "src": [
+            "bigissue-eine",
+            "wiki-eine"
+          ],
+          "tone": "#B5462F"
+        },
+        {
+          "title": "Twenty First Century City",
+          "year": "2010",
+          "medium": "Painting",
+          "size": "To confirm",
+          "note": "Given by David Cameron to Barack Obama in July 2010.",
+          "src": [
+            "guardian-eine-obama",
+            "bsa-eine-whitehouse"
+          ],
+          "tone": "#2F4A6B"
+        },
+        {
+          "title": "Tenderloin A-Z Sandstone (Unique)",
+          "year": "2013",
+          "medium": "Unique screenprint, 1 of 1, published by Nelly Duff",
+          "size": "70 x 70 cm",
+          "note": "His Tenderloin alphabet as a print. Sold at Tate Ward in October 2026 for £500 including buyer's premium.",
+          "src": [
+            "tw-eine-178"
+          ],
+          "tone": "#8A6A3A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1970",
+          "what": "Born Benjamin Flynn in London.",
+          "src": [
+            "wiki-eine"
+          ]
+        },
+        {
+          "when": "About age 14",
+          "what": "Starts writing graffiti.",
+          "src": [
+            "guardian-eine-obama"
+          ]
+        },
+        {
+          "when": "2010",
+          "what": "Paints A to Z on the shutters of Middlesex Street.",
+          "src": [
+            "bigissue-eine",
+            "wiki-eine"
+          ]
+        },
+        {
+          "when": "July 2010",
+          "what": "Twenty First Century City given to Barack Obama by David Cameron.",
+          "src": [
+            "guardian-eine-obama"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Art in the Streets, MOCA, Los Angeles.",
+          "src": [
+            "wiki-eine"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "Releases the Tenderloin font with Chank Diesel.",
+          "src": [
+            "wiki-eine"
+          ]
+        },
+        {
+          "when": "2013",
+          "what": "Innocence, solo show with Corey Helford Gallery, Los Angeles.",
+          "src": [
+            "interview-eine"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "Launches OurTypes.",
+          "src": [
+            "cb-eine"
+          ]
+        },
+        {
+          "when": "March 2020",
+          "what": "Guest-edits the Big Issue.",
+          "src": [
+            "bigissue-eine"
+          ]
+        }
+      ],
+      "seen": "<p>The Victoria and Albert Museum in London holds his work.<sup class=\"cite\"><a data-src=\"ocula-eine\">[ocula-eine]</a></sup> Most of his letters are on shutters and walls, which change. Check a work is still there before travelling to it.</p>",
+      "related": [
+        "a-explained-eine-middlesex-street",
+        "a-ben-eine-portfolio",
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Current gallery representation",
+        "Date of the LOVE AT FIRST SIGHT wall in Zürich",
+        "Size and present location of Twenty First Century City",
+        "Whether the Middlesex Street letters are still in place",
+        "An independent critical review of a gallery show (none found as of 26 November 2026)",
+        "Auction prices from Griffin's, Los Angeles Modern Auctions and Ewbank's, so far seen only in MutualArt"
+      ]
     }
   ],
   "articles": [
+    {
+      "slug": "ben-eine-portfolio",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "ben-eine"
+      ],
+      "tone": "#B5462F",
+      "title": "Ben Eine joins World Art Review",
+      "dek": "A new portfolio for the London artist who turned shop shutters into an alphabet, with an explainer of his best known street and what his recent auction results do and do not show.",
+      "credit": "",
+      "minutes": 2,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "guardian-eine-obama",
+        "bigissue-eine",
+        "tw-eine-178",
+        "ma-eine"
+      ],
+      "body": "\n<p>World Art Review now has thirty-five portfolios. The newest is <a href=\"#artist-ben-eine\">Ben Eine</a>, a London artist who came out of graffiti and the print studio he ran with Banksy, and who paints letters, not pictures.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup></p>\n<p>His best known canvas left the country as a diplomatic gift. In July 2010 David Cameron gave Barack Obama <i>Twenty First Century City</i>; the Guardian put its value at £2,500.<sup class=\"cite\"><a data-src=\"guardian-eine-obama\">[guardian-eine-obama]</a></sup> That is a valuation, not a sale.</p>\n<p>The auction record is mostly prints at modest prices. A unique 1 of 1 screenprint, <i>Tenderloin A-Z Sandstone</i> (2013), sold at Tate Ward in October 2026 for £500 including buyer's premium.<sup class=\"cite\"><a data-src=\"tw-eine-178\">[tw-eine-178]</a></sup> MutualArt lists 172 Eine lots offered in 2025 and 2026.<sup class=\"cite\"><a data-src=\"ma-eine\">[ma-eine]</a></sup> A handful of sales tells you little about where a market is going, so we have not drawn a trend from them.</p>\n<p>The portfolio comes with an explainer, <a href=\"#article-explained-eine-middlesex-street\">The Middlesex Street alphabet, explained</a>. We have not found an independent critical review of any of his gallery shows, so there is no review yet. The open questions are listed in the research desk.</p>\n"
+    },
     {
       "slug": "eleven-new-portfolios-november-2026",
       "section": "features",
@@ -9583,6 +9888,28 @@
         "jux-lghacham"
       ],
       "body": "\n<p><b>Artist:</b> <a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>. <b>Date:</b> 2017. <b>Where:</b> Can Picafort, Mallorca. <b>Made for:</b> Saladina Art Fest.<sup class=\"cite\"><a data-src=\"saus-lghacham\">[saus-lghacham]</a></sup><sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<h2>The source</h2>\n<p>The mural was painted from a photograph of the owner's children taken about forty years earlier, in the same spot.<sup class=\"cite\"><a data-src=\"saus-lghacham\">[saus-lghacham]</a></sup> Colossal describes his habit of working from old family photographs and choosing the accidental shots, for their honesty.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The faces.</b> They are suggested with loose, layered strokes rather than drawn in detail. Colossal notes that you need to step back for them to come together.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<p><b>The colour.</b> A muted palette, close to a faded print, which ties the picture to its weathered wall.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p>\n<p><b>The place.</b> The scene is back where it happened. Anyone who knew the family sees the past and present at once.</p>\n<h2>What it means</h2>\n<p>L'Ghacham has said that his paintings \"usually represent moments of calm and reunion\".<sup class=\"cite\"><a data-src=\"jux-lghacham\">[jux-lghacham]</a></sup> Our reading: this is a mural that only fully works for a few people, and that is its strength. Strangers see a warm, ordinary scene. The family sees itself forty years younger, painted larger than life on the wall of home.</p>\n"
+    },
+    {
+      "slug": "explained-eine-middlesex-street",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "ben-eine"
+      ],
+      "tone": "#B5462F",
+      "title": "The Middlesex Street alphabet, explained",
+      "dek": "Twenty-six shop shutters, twenty-six letters, and no message. Why Ben Eine's alphabet street is still the clearest key to his work.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "bigissue-eine",
+        "wiki-eine",
+        "interview-eine",
+        "sal-eine"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-ben-eine\">Ben Eine</a>. <b>Date:</b> 2010. <b>Where:</b> Middlesex Street, on the edge of the City of London. <b>Medium:</b> spray paint and stencil on 26 shop shutters.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup><sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup></p>\n<h2>What it is</h2>\n<p>Eine painted the alphabet across the shutters of one street, A to Z, one letter to each.<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup> Street Art London reported that he talked the shop owners into it.<sup class=\"cite\"><a data-src=\"sal-eine\">[sal-eine]</a></sup> Wikipedia records the date as May 2010 and says the street became known as Alphabet Street.<sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The letters.</b> Fat display capitals with an offset shadow in a second colour, close to circus and fairground lettering. Each starts as a drawing, which he scans, prints and cuts into a stencil by hand.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup></p>\n<p><b>The shutter.</b> The slats break each letter into bands. Our reading: Eine treats that as part of the design rather than a flaw, which is why many of his letters carry stripes of their own.</p>\n<p><b>The hours.</b> The work only appears when the shops are shut. By day the letters roll up out of sight.</p>\n<h2>What it means</h2>\n<p>Eine has said that \"typography guides you around a city without you being aware of it\".<sup class=\"cite\"><a data-src=\"bigissue-eine\">[bigissue-eine]</a></sup> He has also said that painting a shutter turns something ugly and boring into something colourful.<sup class=\"cite\"><a data-src=\"sal-eine\">[sal-eine]</a></sup> Our reading: the alphabet takes the signs of a shopping street and strips them back to the letters, so the street reads as lettering and nothing else. It was the step that made his name, and the same idea runs through the word paintings that followed.</p>\n"
     },
     {
       "slug": "explained-warhol-marilyn-diptych",

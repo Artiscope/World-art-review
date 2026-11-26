@@ -714,6 +714,42 @@
       "group": "Articles: Art explained",
       "label": "Zara Muse's portrait of Malala Yousafzai, explained",
       "filled": false
+    },
+    {
+      "id": "artist-ben-eine",
+      "group": "Artist main images",
+      "label": "Ben Eine",
+      "filled": true
+    },
+    {
+      "id": "work-ben-eine-the-middlesex-street-alphabet",
+      "group": "Artworks: Ben Eine",
+      "label": "The Middlesex Street alphabet",
+      "filled": false
+    },
+    {
+      "id": "work-ben-eine-twenty-first-century-city",
+      "group": "Artworks: Ben Eine",
+      "label": "Twenty First Century City",
+      "filled": false
+    },
+    {
+      "id": "work-ben-eine-tenderloin-a-z-sandstone-unique",
+      "group": "Artworks: Ben Eine",
+      "label": "Tenderloin A-Z Sandstone (Unique)",
+      "filled": false
+    },
+    {
+      "id": "article-explained-eine-middlesex-street",
+      "group": "Articles: Art explained",
+      "label": "The Middlesex Street alphabet, explained",
+      "filled": false
+    },
+    {
+      "id": "article-ben-eine-portfolio",
+      "group": "Articles: Features",
+      "label": "Ben Eine joins World Art Review",
+      "filled": false
     }
   ]
 }
