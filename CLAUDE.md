@@ -64,6 +64,9 @@ Digital Home without touching code:
   deep aubergine #2A1A28 for the figures band and footer, aubergine #4A2C46
   buttons, gold #C9A24B for hairlines and badges (dark text only), dark gold
   #6E5317 for gold text. Text is charcoal #1D1D1B.
+- Logo mark (26 November 2026): aubergine #4A2C46 tile with warm white
+  #FBFAF7 lines, on the site, the favicon and `brand/mark-aubergine.svg`.
+  In the dark footer it is a lilac mist tile with aubergine lines.
 - Typefaces: Castoro for the name and headlines, Literata for reading
   text, Libre Franklin for small text and buttons.
 - Sharp square boxes, no rounded corners, small text, no theme
