@@ -798,6 +798,282 @@
       "group": "Articles: Features",
       "label": "JR joins World Art Review",
       "filled": false
+    },
+    {
+      "id": "artist-takashi-murakami",
+      "group": "Artist main images",
+      "label": "Takashi Murakami",
+      "filled": true
+    },
+    {
+      "id": "work-takashi-murakami-727",
+      "group": "Artworks: Takashi Murakami",
+      "label": "727",
+      "filled": false
+    },
+    {
+      "id": "work-takashi-murakami-my-lonesome-cowboy",
+      "group": "Artworks: Takashi Murakami",
+      "label": "My Lonesome Cowboy",
+      "filled": false
+    },
+    {
+      "id": "work-takashi-murakami-the-500-arhats",
+      "group": "Artworks: Takashi Murakami",
+      "label": "The 500 Arhats",
+      "filled": false
+    },
+    {
+      "id": "work-takashi-murakami-splash-nude",
+      "group": "Artworks: Takashi Murakami",
+      "label": "Splash Nude",
+      "filled": false
+    },
+    {
+      "id": "artist-daniel-arsham",
+      "group": "Artist main images",
+      "label": "Daniel Arsham",
+      "filled": false
+    },
+    {
+      "id": "work-daniel-arsham-falling-clock",
+      "group": "Artworks: Daniel Arsham",
+      "label": "Falling Clock",
+      "filled": false
+    },
+    {
+      "id": "work-daniel-arsham-eroded-brillo-boxes",
+      "group": "Artworks: Daniel Arsham",
+      "label": "Eroded Brillo Boxes",
+      "filled": false
+    },
+    {
+      "id": "work-daniel-arsham-blue-calcite-eroded-pharaoh-psamtik-ii",
+      "group": "Artworks: Daniel Arsham",
+      "label": "Blue Calcite Eroded Pharaoh Psamtik II",
+      "filled": false
+    },
+    {
+      "id": "work-daniel-arsham-rose-quartz-eroded-giuliano-di-medici",
+      "group": "Artworks: Daniel Arsham",
+      "label": "Rose Quartz Eroded Giuliano di Medici",
+      "filled": false
+    },
+    {
+      "id": "artist-ai-weiwei",
+      "group": "Artist main images",
+      "label": "Ai Weiwei",
+      "filled": true
+    },
+    {
+      "id": "work-ai-weiwei-sunflower-seeds",
+      "group": "Artworks: Ai Weiwei",
+      "label": "Sunflower Seeds",
+      "filled": false
+    },
+    {
+      "id": "work-ai-weiwei-large",
+      "group": "Artworks: Ai Weiwei",
+      "label": "@Large",
+      "filled": false
+    },
+    {
+      "id": "work-ai-weiwei-human-flow",
+      "group": "Artworks: Ai Weiwei",
+      "label": "Human Flow",
+      "filled": false
+    },
+    {
+      "id": "artist-william-kentridge",
+      "group": "Artist main images",
+      "label": "William Kentridge",
+      "filled": true
+    },
+    {
+      "id": "work-william-kentridge-johannesburg-2nd-greatest-city-after-paris",
+      "group": "Artworks: William Kentridge",
+      "label": "Johannesburg, 2nd Greatest City After Paris",
+      "filled": false
+    },
+    {
+      "id": "work-william-kentridge-felix-in-exile",
+      "group": "Artworks: William Kentridge",
+      "label": "Felix in Exile",
+      "filled": false
+    },
+    {
+      "id": "work-william-kentridge-triumphs-and-laments",
+      "group": "Artworks: William Kentridge",
+      "label": "Triumphs and Laments",
+      "filled": false
+    },
+    {
+      "id": "artist-zao-wou-ki",
+      "group": "Artist main images",
+      "label": "Zao Wou-Ki",
+      "filled": false
+    },
+    {
+      "id": "work-zao-wou-ki-paysage-dans-la-lune",
+      "group": "Artworks: Zao Wou-Ki",
+      "label": "Paysage dans la lune",
+      "filled": false
+    },
+    {
+      "id": "work-zao-wou-ki-29-01-64",
+      "group": "Artworks: Zao Wou-Ki",
+      "label": "29.01.64",
+      "filled": false
+    },
+    {
+      "id": "work-zao-wou-ki-juin-octobre-1985",
+      "group": "Artworks: Zao Wou-Ki",
+      "label": "Juin-Octobre 1985",
+      "filled": false
+    },
+    {
+      "id": "artist-mai-trung-thu",
+      "group": "Artist main images",
+      "label": "Mai Trung Thứ",
+      "filled": true
+    },
+    {
+      "id": "work-mai-trung-thu-portrait-de-mademoiselle-phuong",
+      "group": "Artworks: Mai Trung Thứ",
+      "label": "Portrait de Mademoiselle Phuong",
+      "filled": false
+    },
+    {
+      "id": "work-mai-trung-thu-lady-combing-hair",
+      "group": "Artworks: Mai Trung Thứ",
+      "label": "Lady Combing Hair",
+      "filled": false
+    },
+    {
+      "id": "work-mai-trung-thu-grand-m-re",
+      "group": "Artworks: Mai Trung Thứ",
+      "label": "Grand-mère",
+      "filled": false
+    },
+    {
+      "id": "artist-frida-kahlo",
+      "group": "Artist main images",
+      "label": "Frida Kahlo",
+      "filled": true
+    },
+    {
+      "id": "work-frida-kahlo-the-two-fridas",
+      "group": "Artworks: Frida Kahlo",
+      "label": "The Two Fridas",
+      "filled": false
+    },
+    {
+      "id": "work-frida-kahlo-el-sue-o-la-cama",
+      "group": "Artworks: Frida Kahlo",
+      "label": "El sueño (La cama)",
+      "filled": false
+    },
+    {
+      "id": "work-frida-kahlo-the-broken-column",
+      "group": "Artworks: Frida Kahlo",
+      "label": "The Broken Column",
+      "filled": false
+    },
+    {
+      "id": "artist-jenny-holzer",
+      "group": "Artist main images",
+      "label": "Jenny Holzer",
+      "filled": false
+    },
+    {
+      "id": "work-jenny-holzer-truisms",
+      "group": "Artworks: Jenny Holzer",
+      "label": "Truisms",
+      "filled": false
+    },
+    {
+      "id": "work-jenny-holzer-inflammatory-essays",
+      "group": "Artworks: Jenny Holzer",
+      "label": "Inflammatory Essays",
+      "filled": false
+    },
+    {
+      "id": "work-jenny-holzer-i-woke-up-naked",
+      "group": "Artworks: Jenny Holzer",
+      "label": "I WOKE UP NAKED",
+      "filled": false
+    },
+    {
+      "id": "artist-mona-hatoum",
+      "group": "Artist main images",
+      "label": "Mona Hatoum",
+      "filled": true
+    },
+    {
+      "id": "work-mona-hatoum-measures-of-distance",
+      "group": "Artworks: Mona Hatoum",
+      "label": "Measures of Distance",
+      "filled": false
+    },
+    {
+      "id": "work-mona-hatoum-light-sentence",
+      "group": "Artworks: Mona Hatoum",
+      "label": "Light Sentence",
+      "filled": false
+    },
+    {
+      "id": "work-mona-hatoum-map",
+      "group": "Artworks: Mona Hatoum",
+      "label": "Map",
+      "filled": false
+    },
+    {
+      "id": "work-mona-hatoum-grater-divide",
+      "group": "Artworks: Mona Hatoum",
+      "label": "Grater Divide",
+      "filled": false
+    },
+    {
+      "id": "artist-zanele-muholi",
+      "group": "Artist main images",
+      "label": "Zanele Muholi",
+      "filled": true
+    },
+    {
+      "id": "work-zanele-muholi-id-crisis",
+      "group": "Artworks: Zanele Muholi",
+      "label": "ID Crisis",
+      "filled": false
+    },
+    {
+      "id": "work-zanele-muholi-bester-i-mayotte",
+      "group": "Artworks: Zanele Muholi",
+      "label": "Bester I, Mayotte",
+      "filled": false
+    },
+    {
+      "id": "work-zanele-muholi-phila-i-parktown",
+      "group": "Artworks: Zanele Muholi",
+      "label": "Phila I, Parktown",
+      "filled": false
+    },
+    {
+      "id": "work-zanele-muholi-thembitshe-parktown",
+      "group": "Artworks: Zanele Muholi",
+      "label": "Thembitshe, Parktown",
+      "filled": false
+    },
+    {
+      "id": "article-explained-kentridge-triumphs-and-laments",
+      "group": "Articles: Art explained",
+      "label": "Triumphs and Laments, explained",
+      "filled": false
+    },
+    {
+      "id": "article-ten-new-portfolios-mutualart-november-2026",
+      "group": "Articles: Features",
+      "label": "Ten new portfolios, from Tokyo to Coyoacán",
+      "filled": false
     }
   ]
 }
