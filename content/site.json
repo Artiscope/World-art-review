@@ -2652,6 +2652,349 @@
       "date": "October 2019",
       "kind": "Exhibition preview",
       "url": "https://news.artnet.com/art-world/jr-chronicles-brooklyn-museum-1669099"
+    },
+    "wiki-murakami": {
+      "title": "Takashi Murakami",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Takashi_Murakami"
+    },
+    "ocula-murakami": {
+      "title": "Takashi Murakami",
+      "pub": "Ocula",
+      "date": "consulted November 2026",
+      "kind": "Artist profile",
+      "url": "https://ocula.com/artists/takashi-murakami/"
+    },
+    "christies-murakami": {
+      "title": "Takashi Murakami collecting guide",
+      "pub": "Christie's",
+      "date": "consulted November 2026",
+      "kind": "Auction house article",
+      "url": "https://www.christies.com.cn/en/stories/takashi-murakami-collecting-guide-12271754976f49af969ee0b510b6e328"
+    },
+    "ph-murakami-318": {
+      "title": "Takashi Murakami, Splash Nude, lot 318",
+      "pub": "Phillips",
+      "date": "19 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/takashi-murakami/242033"
+    },
+    "ma-murakami": {
+      "title": "Takashi Murakami auction results",
+      "pub": "MutualArt",
+      "date": "consulted 26 November 2026",
+      "kind": "Auction database",
+      "url": "https://www.mutualart.com/Artist/Takashi-Murakami/0438F5DC4119C33D/auction-results"
+    },
+    "ocula-arsham": {
+      "title": "Daniel Arsham",
+      "pub": "Ocula",
+      "date": "consulted November 2026",
+      "kind": "Artist profile",
+      "url": "https://ocula.com/artists/daniel-arsham/"
+    },
+    "ocula-arsham-conv": {
+      "title": "Daniel Arsham in conversation",
+      "pub": "Ocula Magazine",
+      "date": "consulted November 2026",
+      "kind": "Interview",
+      "url": "https://ocula.com/magazine/conversations/daniel-arsham/"
+    },
+    "soth-arsham": {
+      "title": "Daniel Arsham: modern polymath",
+      "pub": "Sotheby's",
+      "date": "2020",
+      "kind": "Auction house article",
+      "url": "https://www.sothebys.com/en/articles/daniel-arsham-modern-polymath-moonraker-musee-guimet"
+    },
+    "hs-arsham": {
+      "title": "Daniel Arsham biography",
+      "pub": "Highsnobiety",
+      "date": "consulted November 2026",
+      "kind": "Magazine article",
+      "url": "https://www.highsnobiety.com/p/daniel-arsham-biography"
+    },
+    "wp-arsham": {
+      "title": "Corrective lenses have lent colour to Daniel Arsham",
+      "pub": "Wallpaper",
+      "date": "consulted November 2026",
+      "kind": "Magazine article",
+      "url": "https://wallpaper.com/art/corrective-lenses-have-lent-colour-to-artist-daniel-arsham-of-snarkitectures-monochromatic-output"
+    },
+    "ph-arsham-389": {
+      "title": "Daniel Arsham, Rose Quartz Eroded Giuliano di Medici, lot 389",
+      "pub": "Phillips",
+      "date": "19 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/daniel-arsham/NY011626/389"
+    },
+    "tate-ai": {
+      "title": "Ai Weiwei",
+      "pub": "Tate",
+      "date": "consulted November 2026",
+      "kind": "Museum artist page",
+      "url": "https://www.tate.org.uk/art/artists/ai-weiwei-8208"
+    },
+    "tate-ai-seeds": {
+      "title": "Ai Weiwei: Sunflower Seeds",
+      "pub": "Tate",
+      "date": "consulted November 2026",
+      "kind": "Museum text",
+      "url": "https://www.tate.org.uk/art/artists/ai-weiwei-8208/ai-weiwei-sunflower-seeds"
+    },
+    "brit-ai": {
+      "title": "Ai Weiwei",
+      "pub": "Britannica",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Ai-Weiwei"
+    },
+    "smart-ai": {
+      "title": "Ai Weiwei",
+      "pub": "Smarthistory",
+      "date": "consulted November 2026",
+      "kind": "Art history essay",
+      "url": "https://smarthistory.org/?p=32841"
+    },
+    "wiki-ai": {
+      "title": "Ai Weiwei",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Ai_Weiwei"
+    },
+    "wiki-kentridge": {
+      "title": "William Kentridge",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/William_Kentridge"
+    },
+    "tan-kentridge-2016": {
+      "title": "William Kentridge unveils 550-metre frieze along Rome's river Tiber",
+      "pub": "The Art Newspaper",
+      "date": "22 April 2016",
+      "kind": "News report",
+      "url": "https://www.theartnewspaper.com/2016/04/22/william-kentridge-unveils-550-metre-frieze-along-romes-river-tiber"
+    },
+    "tan-kentridge-2017": {
+      "title": "Rome to remove graffiti defacing Kentridge's graffiti",
+      "pub": "The Art Newspaper",
+      "date": "6 April 2017",
+      "kind": "News report",
+      "url": "https://theartnewspaper.com/2017/04/06/rome-to-remove-graffiti-defacing-kentridges-graffiti"
+    },
+    "ipa-kentridge": {
+      "title": "Triumphs and Laments: A Project for Rome",
+      "pub": "Institute for Public Art",
+      "date": "consulted November 2026",
+      "kind": "Case study",
+      "url": "https://instituteforpublicart.org/case-studies/triumphs-laments"
+    },
+    "soth-zao-21": {
+      "title": "21 facts about Zao Wou-Ki",
+      "pub": "Sotheby's",
+      "date": "consulted November 2026",
+      "kind": "Auction house article",
+      "url": "https://www.sothebys.com/en/articles/21-facts-about-zao-wou-ki"
+    },
+    "soth-zao-num": {
+      "title": "Zao Wou-Ki by the numbers",
+      "pub": "Sotheby's",
+      "date": "consulted November 2026",
+      "kind": "Auction house article",
+      "url": "https://sothebys.com/en/articles/zao-wou-ki-by-the-numbers"
+    },
+    "artnet-zao": {
+      "title": "Zao Wou-Ki's $65 million triptych",
+      "pub": "Artnet News",
+      "date": "2018",
+      "kind": "News report",
+      "url": "https://news.artnet.com/art-world/zao-wou-ki-65-million-triptych-hong-kong-1360900"
+    },
+    "cnn-zao": {
+      "title": "Zao Wou-Ki, abstract painter",
+      "pub": "CNN Style",
+      "date": "consulted November 2026",
+      "kind": "Magazine article",
+      "url": "https://amp.cnn.com/cnn/style/article/zao-wou-ki-abstract-painter"
+    },
+    "wiki-zao": {
+      "title": "Zao Wou-Ki",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Zao_Wou-Ki"
+    },
+    "wiki-mai": {
+      "title": "Mai Thứ",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Mai_Th%E1%BB%A9"
+    },
+    "soth-mai": {
+      "title": "Mai Trung Thu",
+      "pub": "Sotheby's",
+      "date": "consulted November 2026",
+      "kind": "Auction house artist page",
+      "url": "https://www.sothebys.com/en/artists/mai-trung-thu"
+    },
+    "aguttes-mai": {
+      "title": "Mai Trung Thu, Grand-mère, 1976",
+      "pub": "Aguttes",
+      "date": "consulted November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.aguttes.com/en/lot/160379/28022297-mai-trung-thu-1906-1980-deg-grand-mere-1976-encre-et"
+    },
+    "ph-mai": {
+      "title": "Mai Trung Thu, lot page",
+      "pub": "Phillips",
+      "date": "consulted November 2026",
+      "kind": "Auction lot page",
+      "url": "https://phillips.com/detail/mai-trung-th/116731"
+    },
+    "nd-mai": {
+      "title": "Portrait by late Vietnamese painter sold for record US$3.1 million",
+      "pub": "Nhân Dân",
+      "date": "2021",
+      "kind": "News report",
+      "url": "https://en.nhandan.vn/portrait-by-late-vietnamese-painter-sold-for-record-us3-1-million-post97007.html"
+    },
+    "wiki-kahlo": {
+      "title": "Frida Kahlo",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+    },
+    "aj-kahlo": {
+      "title": "Frida Kahlo painting sells for $54.7m, breaking record for female artists",
+      "pub": "Al Jazeera",
+      "date": "21 November 2025",
+      "kind": "News report",
+      "url": "https://www.aljazeera.com/news/2025/11/21/frida-kahlo-painting-sells-for-54-7m-breaking-record-for-female-artists"
+    },
+    "npr-kahlo": {
+      "title": "Frida Kahlo painting sets auction record",
+      "pub": "NPR",
+      "date": "November 2025",
+      "kind": "News report",
+      "url": "https://www.npr.org/2025/11/19/nx-s1-5584087/frida-kahlo-auction-record-sothebys-el-sueno-la-cama"
+    },
+    "gv-holzer": {
+      "title": "Jenny Holzer",
+      "pub": "Peggy Guggenheim Collection, Venice",
+      "date": "consulted November 2026",
+      "kind": "Museum artist page",
+      "url": "https://www.guggenheim-venice.it/en/art/artists/jenny-holzer/"
+    },
+    "brit-holzer": {
+      "title": "Jenny Holzer",
+      "pub": "Britannica",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Jenny-Holzer"
+    },
+    "moma-holzer": {
+      "title": "Jenny Holzer, Truisms",
+      "pub": "MoMA",
+      "date": "consulted November 2026",
+      "kind": "Museum collection record",
+      "url": "https://www.moma.org/collection/works/63755"
+    },
+    "wiki-holzer": {
+      "title": "Jenny Holzer",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Jenny_Holzer"
+    },
+    "wiki-truisms": {
+      "title": "Truisms (Jenny Holzer)",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Truisms_(Jenny_Holzer)"
+    },
+    "bilbao-holzer": {
+      "title": "From the 1970s to today: Jenny Holzer in context",
+      "pub": "Guggenheim Museum Bilbao",
+      "date": "consulted November 2026",
+      "kind": "Museum text",
+      "url": "https://guggenheim-bilbao.eus/en/did-you-know/desde-la-decada-de-1970-hasta-hoy-jenny-holzer-en-contexto"
+    },
+    "tate-hatoum": {
+      "title": "Mona Hatoum",
+      "pub": "Tate",
+      "date": "consulted November 2026",
+      "kind": "Museum artist page",
+      "url": "https://www.tate.org.uk/art/artists/mona-hatoum-2365"
+    },
+    "tate-hatoum-who": {
+      "title": "Who is Mona Hatoum?",
+      "pub": "Tate",
+      "date": "consulted November 2026",
+      "kind": "Museum text",
+      "url": "https://www.tate.org.uk/art/artists/mona-hatoum-2365/who-is-mona-hatoum"
+    },
+    "pi-hatoum": {
+      "title": "Mona Hatoum",
+      "pub": "Praemium Imperiale",
+      "date": "consulted November 2026",
+      "kind": "Prize laureate page",
+      "url": "https://praemiumimperiale.org/en/laureate-en/laureates-en/hatoum-en"
+    },
+    "wiki-hatoum": {
+      "title": "Mona Hatoum",
+      "pub": "Wikipedia",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/Mona_Hatoum"
+    },
+    "tate-muholi": {
+      "title": "Zanele Muholi, press release",
+      "pub": "Tate",
+      "date": "2020",
+      "kind": "Museum press release",
+      "url": "https://www.tate.org.uk/press/press-releases/zanele-muholi"
+    },
+    "tateetc-muholi": {
+      "title": "Zanele Muholi: repertoires of resistance",
+      "pub": "Tate Etc",
+      "date": "Autumn 2020",
+      "kind": "Magazine article",
+      "url": "https://www.tate.org.uk/tate-etc/issue-50-autumn-2020/zanele-muholi-repertoires-resistance"
+    },
+    "tate-muholi-2024": {
+      "title": "Zanele Muholi",
+      "pub": "Tate Modern",
+      "date": "2024",
+      "kind": "Exhibition page",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/zanele-muholi"
+    },
+    "brit-muholi": {
+      "title": "Zanele Muholi",
+      "pub": "Britannica",
+      "date": "consulted November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://www.britannica.com/biography/Zanele-Muholi"
+    },
+    "ph-muholi-96": {
+      "title": "Zanele Muholi, Thembitshe, Parktown, lot 96",
+      "pub": "Phillips",
+      "date": "8 October 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.phillips.com/detail/zanele-muholi/NY040326/96"
+    },
+    "ma-ten": {
+      "title": "Artist Discovery",
+      "pub": "MutualArt",
+      "date": "consulted 26 November 2026",
+      "kind": "Auction database",
+      "url": "https://www.mutualart.com/artist-discovery"
     }
   },
   "artists": [
@@ -9566,9 +9909,1957 @@
         "Visitor numbers for La Caverne du Pont-Neuf",
         "Opening date of La Caverne du Pont-Neuf: Associated Press said 6 June 2026 before it opened, Perrotin says 15 June"
       ]
+    },
+    {
+      "published": true,
+      "image": "images/takashi-murakami-geisai-2006.jpg",
+      "alt": "Takashi Murakami in a dark jacket and glasses, seated on a tall stool at a small table on a stage.",
+      "heroCredit": "Photo: Yamashita Yohei, CC BY 2.0",
+      "checked": "26 November 2026",
+      "slug": "takashi-murakami",
+      "name": "Takashi Murakami",
+      "letter": "M",
+      "ghostWords": [
+        "Flat",
+        "on",
+        "purpose."
+      ],
+      "tag": "Painting, sculpture and prints",
+      "place": "Tokyo",
+      "tone": "#C2553A",
+      "heroTone": "#C2553A",
+      "summary": "A Japanese painter and sculptor who trained in traditional Nihonga and turned cartoon flatness into a theory he calls Superflat.",
+      "dek": "Takashi Murakami holds a doctorate in traditional Japanese painting and is best known for smiling flowers, a character called Mr. DOB and work for Louis Vuitton. He named his style Superflat in 2000.",
+      "glance": [
+        [
+          "Born",
+          "Tokyo, 1962",
+          [
+            "wiki-murakami",
+            "ocula-murakami"
+          ]
+        ],
+        [
+          "Training",
+          "PhD in Nihonga, Tokyo University of the Arts, 1993",
+          [
+            "ocula-murakami"
+          ]
+        ],
+        [
+          "Studio",
+          "Kaikai Kiki, founded as the Hiropon Factory in 1996",
+          [
+            "wiki-murakami"
+          ]
+        ],
+        [
+          "Media",
+          "Acrylic and gold leaf on canvas, fibreglass sculpture, prints",
+          [
+            "wiki-murakami",
+            "christies-murakami"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Takashi Murakami?",
+          "html": "<p>Takashi Murakami is a Japanese artist, born in Tokyo in 1962.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup><sup class=\"cite\"><a data-src=\"ocula-murakami\">[ocula-murakami]</a></sup> He studied Nihonga, the traditional Japanese painting style, and earned a doctorate in it at Tokyo University of the Arts in 1993.<sup class=\"cite\"><a data-src=\"ocula-murakami\">[ocula-murakami]</a></sup></p><p>In 2000 he curated a show at the Museum of Contemporary Art in Los Angeles and published his Superflat theory in its catalogue.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His recurring motifs are smiling flowers, mushrooms, skulls, Buddhist figures and Mr. DOB, a character Christie's calls his most enduring.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup><sup class=\"cite\"><a data-src=\"christies-murakami\">[christies-murakami]</a></sup></p><h3>How to read one</h3><p>Our reading: look for the edges first. The outlines are hard and the colour inside them is flat, with no brushwork. Then look at what is underneath the cheerful surface. Skulls and mushrooms sit among the flowers, and his work after 2011 turns to death and disaster directly.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In 1996 he set up the Hiropon Factory, which became the company Kaikai Kiki in 2001.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup> His fibreglass sculpture <i>My Lonesome Cowboy</i> (1998) sold for $15.2 million in 2008, still his highest price at auction.<sup class=\"cite\"><a data-src=\"christies-murakami\">[christies-murakami]</a></sup></p><p>From 2002 he designed handbags for Louis Vuitton at Marc Jacobs' invitation, and in 2007 he made the cover for Kanye West's album <i>Graduation</i>.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup> In 2010 he was the first Japanese artist to show at the Palace of Versailles.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup><sup class=\"cite\"><a data-src=\"christies-murakami\">[christies-murakami]</a></sup> After the earthquake and tsunami of March 2011 he painted <i>The 500 Arhats</i>, more than 100 metres long.<sup class=\"cite\"><a data-src=\"ocula-murakami\">[ocula-murakami]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I don't think of it as straddling. I think of it as changing the line.<cite>Murakami on art and commerce, 2006, quoted on Wikipedia<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup></cite></blockquote><blockquote>After that, my philosophy completely changed.<cite>Murakami on the 2011 disaster, quoted by Christie's<sup class=\"cite\"><a data-src=\"christies-murakami\">[christies-murakami]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-kaws\">KAWS</a>: cartoon characters turned into sculpture and editions</li><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: another Japanese artist with a very large market</li><li><a href=\"#artist-daniel-arsham\">Daniel Arsham</a>: brand collaborations and big editions</li><li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: the studio as a factory</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "727",
+          "year": "1996",
+          "medium": "Acrylic on canvas",
+          "size": "To confirm",
+          "note": "In the collection of MoMA.",
+          "src": [
+            "wiki-murakami"
+          ],
+          "tone": "#2F4A6B"
+        },
+        {
+          "title": "My Lonesome Cowboy",
+          "year": "1998",
+          "medium": "Fibreglass sculpture",
+          "size": "To confirm",
+          "note": "Sold for $15.2 million in 2008, his highest auction price.",
+          "src": [
+            "christies-murakami"
+          ],
+          "tone": "#C2553A"
+        },
+        {
+          "title": "The 500 Arhats",
+          "year": "2012",
+          "medium": "Acrylic on canvas",
+          "size": "Over 100 m long",
+          "note": "Made in response to the March 2011 disaster in Japan.",
+          "src": [
+            "ocula-murakami"
+          ],
+          "tone": "#8A6A2F"
+        },
+        {
+          "title": "Splash Nude",
+          "year": "2001",
+          "medium": "Acrylic on canvas over panel",
+          "size": "90.5 x 120 cm",
+          "note": "Sold at Phillips, New York, on 19 November 2026 for $193,500 including fees.",
+          "src": [
+            "ph-murakami-318"
+          ],
+          "tone": "#6A8FB0"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1962",
+          "what": "Born in Tokyo.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "1993",
+          "what": "PhD in Nihonga, Tokyo University of the Arts.",
+          "src": [
+            "ocula-murakami"
+          ]
+        },
+        {
+          "when": "1996",
+          "what": "Sets up the Hiropon Factory.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "2000",
+          "what": "Superflat show and theory, MOCA Los Angeles.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "2001",
+          "what": "Studio becomes Kaikai Kiki.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "2002",
+          "what": "Begins work with Louis Vuitton.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Album cover for Kanye West's Graduation.",
+          "src": [
+            "wiki-murakami"
+          ]
+        },
+        {
+          "when": "2010",
+          "what": "Exhibition at the Palace of Versailles.",
+          "src": [
+            "wiki-murakami",
+            "christies-murakami"
+          ]
+        },
+        {
+          "when": "2012",
+          "what": "The 500 Arhats.",
+          "src": [
+            "ocula-murakami"
+          ]
+        }
+      ],
+      "seen": "<p>MoMA in New York owns <i>727</i> (1996).<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup> We have not checked whether it is on view.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Size and current owner of My Lonesome Cowboy",
+        "Year of the Superflat show: Wikipedia and Christie's both give 2000; exact dates to confirm",
+        "Auction results other than Phillips seen so far only in MutualArt"
+      ]
+    },
+    {
+      "published": true,
+      "checked": "26 November 2026",
+      "slug": "daniel-arsham",
+      "name": "Daniel Arsham",
+      "letter": "A",
+      "ghostWords": [
+        "Relics",
+        "from",
+        "a",
+        "future",
+        "dig."
+      ],
+      "tag": "Sculpture and installation",
+      "place": "New York",
+      "tone": "#8C7F73",
+      "heroTone": "#8C7F73",
+      "summary": "An American artist who casts everyday objects in sand, selenite, quartz and volcanic ash so they look like finds from a future excavation.",
+      "dek": "Daniel Arsham calls his best known series Future Relics: familiar objects, from Brillo boxes to Porsches, cast in crumbling mineral as if dug up in the future. He is colour blind, and says that shaped the colours of his early work.",
+      "glance": [
+        [
+          "Born",
+          "Cleveland, Ohio, 1980; raised in Miami",
+          [
+            "hs-arsham",
+            "ocula-arsham"
+          ]
+        ],
+        [
+          "Training",
+          "Cooper Union, New York",
+          [
+            "ocula-arsham"
+          ]
+        ],
+        [
+          "Media",
+          "Sand, selenite, volcanic ash, quartz, hydrostone, bronze",
+          [
+            "ocula-arsham",
+            "hs-arsham"
+          ]
+        ],
+        [
+          "Gallery",
+          "Perrotin",
+          [
+            "ocula-arsham"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Daniel Arsham?",
+          "html": "<p>Daniel Arsham is an American artist, born in Cleveland in 1980 and raised in Miami.<sup class=\"cite\"><a data-src=\"hs-arsham\">[hs-arsham]</a></sup><sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup> When he was 12, Hurricane Andrew destroyed his family's home.<sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup> He studied at the Cooper Union in New York and won a Gelman Trust Fellowship in 2003.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup></p><p>He is colour blind. He has said most of his work was made within that range, and lenses he tried in 2015 let him see pinks and purples for the first time.<sup class=\"cite\"><a data-src=\"wp-arsham\">[wp-arsham]</a></sup><sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>After a trip to Easter Island in 2011 he began what he calls fictional archaeology.<sup class=\"cite\"><a data-src=\"ocula-arsham-conv\">[ocula-arsham-conv]</a></sup> Sotheby's describes the resulting Future Relics as eroded objects excavated from an imaginary dig site.<sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup> He casts familiar things, from Brillo boxes to a Medici figure, in sand, selenite, volcanic ash or quartz.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup><sup class=\"cite\"><a data-src=\"hs-arsham\">[hs-arsham]</a></sup><sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup></p><h3>How to read one</h3><p>Our reading: the joke depends on recognising the object. Start with what it is and when it was made, then look at where the surface breaks open and what material shows through.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>He designed sets for the choreographer Merce Cunningham.<sup class=\"cite\"><a data-src=\"ocula-arsham-conv\">[ocula-arsham-conv]</a></sup> With Alex Mustonen he co-founded the design studio Snarkitecture; Ocula dates it to 2007.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup> His collaborations include Dior, Adidas, Porsche, Hedi Slimane and Pharrell Williams.<sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup></p><p>In 2020 the Cleveland Cavaliers named him creative director, and the Musée Guimet in Paris showed his exhibition <i>Moonraker</i>.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup><sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup> He is represented by Perrotin.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>There is a sense in my works that they can float in time.<cite>Arsham, quoted by Sotheby's, 2020<sup class=\"cite\"><a data-src=\"soth-arsham\">[soth-arsham]</a></sup></cite></blockquote><blockquote>I'm colour blind, so most of the work I've made has been in that scope.<cite>Arsham, quoted by Wallpaper<sup class=\"cite\"><a data-src=\"wp-arsham\">[wp-arsham]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-takashi-murakami\">Takashi Murakami</a>: an artist who also works between art and brands</li><li><a href=\"#artist-kaws\">KAWS</a>: toys and editions made at scale</li><li><a href=\"#artist-philip-colbert\">Philip Colbert</a>: pop references turned into sculpture</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Falling Clock",
+          "year": "2011",
+          "medium": "To confirm",
+          "size": "To confirm",
+          "note": "An early work listed by Ocula.",
+          "src": [
+            "ocula-arsham"
+          ],
+          "tone": "#B9B2A6"
+        },
+        {
+          "title": "Eroded Brillo Boxes",
+          "year": "2019",
+          "medium": "Blue calcite, quartz and hydrostone",
+          "size": "To confirm",
+          "note": "A Future Relics version of a pop art object.",
+          "src": [
+            "soth-arsham"
+          ],
+          "tone": "#6F8CA6"
+        },
+        {
+          "title": "Blue Calcite Eroded Pharaoh Psamtik II",
+          "year": "2020",
+          "medium": "To confirm",
+          "size": "To confirm",
+          "note": "Pictured by Sotheby's in its 2020 article on Moonraker.",
+          "src": [
+            "soth-arsham"
+          ],
+          "tone": "#5C7A95"
+        },
+        {
+          "title": "Rose Quartz Eroded Giuliano di Medici",
+          "year": "2021",
+          "medium": "Rose quartz, pink selenite and hydrostone",
+          "size": "181.6 cm high",
+          "note": "Sold at Phillips, New York, on 19 November 2026 for $154,800 including fees.",
+          "src": [
+            "ph-arsham-389"
+          ],
+          "tone": "#C79A9A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1980",
+          "what": "Born in Cleveland, Ohio.",
+          "src": [
+            "hs-arsham"
+          ]
+        },
+        {
+          "when": "1992",
+          "what": "Hurricane Andrew destroys the family home in Miami.",
+          "src": [
+            "soth-arsham"
+          ]
+        },
+        {
+          "when": "2003",
+          "what": "Gelman Trust Fellowship.",
+          "src": [
+            "ocula-arsham"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Snarkitecture founded with Alex Mustonen (date per Ocula).",
+          "src": [
+            "ocula-arsham"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Easter Island trip; fictional archaeology begins.",
+          "src": [
+            "ocula-arsham-conv"
+          ]
+        },
+        {
+          "when": "2015",
+          "what": "Tries colour-correcting lenses.",
+          "src": [
+            "soth-arsham"
+          ]
+        },
+        {
+          "when": "2020",
+          "what": "Moonraker, Musée Guimet; creative director of the Cleveland Cavaliers.",
+          "src": [
+            "ocula-arsham",
+            "soth-arsham"
+          ]
+        }
+      ],
+      "seen": "<p>Perrotin represents him and shows his work in its galleries.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup> We have not found a museum that lists his work on permanent display.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Founding year of Snarkitecture: sources give dates from 2005 to 2008",
+        "Public collections that hold his work",
+        "Photograph of the artist with a free licence (none found as of 26 November 2026)"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/ai-weiwei-sao-paulo-2018.jpg",
+      "alt": "Ai Weiwei, grey-bearded, in a blue-grey shirt, seated in front of a purple stage curtain.",
+      "heroCredit": "Photo: Greg Salibian / Fronteiras do Pensamento, CC BY-SA 2.0",
+      "checked": "26 November 2026",
+      "slug": "ai-weiwei",
+      "name": "Ai Weiwei",
+      "letter": "A",
+      "ghostWords": [
+        "A",
+        "hundred",
+        "million",
+        "seeds."
+      ],
+      "tag": "Installation, sculpture and photography",
+      "place": "Beijing, Berlin and Portugal",
+      "tone": "#5B6B4E",
+      "heroTone": "#5B6B4E",
+      "summary": "A Chinese artist and activist whose work in porcelain, wood, photography and film addresses state power, memory and migration.",
+      "dek": "Ai Weiwei filled Tate Modern's Turbine Hall with 100 million porcelain sunflower seeds in 2010. The next spring he was detained for 81 days. He has lived outside China since 2015.",
+      "glance": [
+        [
+          "Born",
+          "Beijing, 1957",
+          [
+            "tate-ai",
+            "brit-ai"
+          ]
+        ],
+        [
+          "Family",
+          "Son of the poet Ai Qing",
+          [
+            "brit-ai"
+          ]
+        ],
+        [
+          "Media",
+          "Porcelain, wood, photography, LEGO bricks, film",
+          [
+            "tate-ai-seeds",
+            "smart-ai"
+          ]
+        ],
+        [
+          "Lives",
+          "Berlin, then Cambridge, then Portugal",
+          [
+            "wiki-ai"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Ai Weiwei?",
+          "html": "<p>Ai Weiwei is a Chinese artist, born in Beijing in 1957, the son of the poet Ai Qing.<sup class=\"cite\"><a data-src=\"tate-ai\">[tate-ai]</a></sup><sup class=\"cite\"><a data-src=\"brit-ai\">[brit-ai]</a></sup> In 1958 his family was sent to a labour camp, and in 1961 to Xinjiang.<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup> He lived in the United States from 1981 to 1993 and returned to Beijing when his father became ill.<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>He often works with traditional Chinese craft and with very large numbers. For <i>Sunflower Seeds</i> (2010), about 1,600 workers in Jingdezhen, the porcelain city, painted 100 million seeds by hand.<sup class=\"cite\"><a data-src=\"tate-ai-seeds\">[tate-ai-seeds]</a></sup><sup class=\"cite\"><a data-src=\"smart-ai\">[smart-ai]</a></sup> Other works use LEGO bricks or his own photographs.<sup class=\"cite\"><a data-src=\"smart-ai\">[smart-ai]</a></sup></p><h3>How to read one</h3><p>Our reading: count first. Ask how many objects there are and how many hands made them. In many of his works the number is the subject, whether of seeds or of names.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>After the Sichuan earthquake of 2008 he led a citizens' investigation into the schoolchildren who died, and by April 2009 it had gathered 5,385 names.<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup><sup class=\"cite\"><a data-src=\"smart-ai\">[smart-ai]</a></sup> On 3 April 2011 he was arrested at Beijing airport and held for 81 days.<sup class=\"cite\"><a data-src=\"smart-ai\">[smart-ai]</a></sup><sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup></p><p>His passport was returned in July 2015. He moved to Berlin, then to Cambridge in September 2019, and later to Portugal.<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup> His film <i>Human Flow</i> (2017) follows the refugee crisis.<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Basically, you use life to punish life.<cite>Ai Weiwei, quoted on Wikipedia from Art &amp; Object, 2021<sup class=\"cite\"><a data-src=\"wiki-ai\">[wiki-ai]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: political art aimed at a wide public</li><li><a href=\"#artist-william-kentridge\">William Kentridge</a>: art shaped by a country's political history</li><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: vast works built from many small parts</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Sunflower Seeds",
+          "year": "2010",
+          "medium": "Hand-painted porcelain",
+          "size": "100 million seeds",
+          "note": "Shown in the Turbine Hall at Tate Modern.",
+          "src": [
+            "tate-ai-seeds"
+          ],
+          "tone": "#7A7468"
+        },
+        {
+          "title": "@Large",
+          "year": "2015",
+          "medium": "Portraits in LEGO bricks",
+          "size": "Installation",
+          "note": "Discussed by Smarthistory.",
+          "src": [
+            "smart-ai"
+          ],
+          "tone": "#B54A3A"
+        },
+        {
+          "title": "Human Flow",
+          "year": "2017",
+          "medium": "Documentary film",
+          "size": "Feature length",
+          "note": "A film about the refugee crisis.",
+          "src": [
+            "wiki-ai"
+          ],
+          "tone": "#3D5466"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1957",
+          "what": "Born in Beijing.",
+          "src": [
+            "tate-ai"
+          ]
+        },
+        {
+          "when": "1958",
+          "what": "Family sent to a labour camp.",
+          "src": [
+            "wiki-ai"
+          ]
+        },
+        {
+          "when": "1981 to 1993",
+          "what": "Lives in the United States.",
+          "src": [
+            "wiki-ai"
+          ]
+        },
+        {
+          "when": "2008 to 2009",
+          "what": "Citizens' investigation after the Sichuan earthquake.",
+          "src": [
+            "wiki-ai",
+            "smart-ai"
+          ]
+        },
+        {
+          "when": "2010",
+          "what": "Sunflower Seeds, Tate Modern.",
+          "src": [
+            "tate-ai-seeds"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "Detained for 81 days.",
+          "src": [
+            "smart-ai"
+          ]
+        },
+        {
+          "when": "2015",
+          "what": "Passport returned; moves to Berlin.",
+          "src": [
+            "wiki-ai"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Human Flow.",
+          "src": [
+            "wiki-ai"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "Moves to Cambridge.",
+          "src": [
+            "wiki-ai"
+          ]
+        }
+      ],
+      "seen": "<p>Tate's pages on <i>Sunflower Seeds</i> describe the 2010 Turbine Hall installation.<sup class=\"cite\"><a data-src=\"tate-ai-seeds\">[tate-ai-seeds]</a></sup> We have not confirmed which of his works are on view in public collections now.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "Works by Ai Weiwei now on view in UK and European museums",
+        "Year of his move to Portugal",
+        "Auction prices so far seen only in MutualArt"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/william-kentridge-2025.jpg",
+      "alt": "William Kentridge, white-haired, in a white open-necked shirt, smiling slightly.",
+      "heroCredit": "Photo: Mozamaniac, CC BY-SA 4.0",
+      "checked": "26 November 2026",
+      "slug": "william-kentridge",
+      "name": "William Kentridge",
+      "letter": "K",
+      "ghostWords": [
+        "Draw,",
+        "film,",
+        "erase,",
+        "repeat."
+      ],
+      "tag": "Drawing, animation and prints",
+      "place": "Johannesburg",
+      "tone": "#3B3A36",
+      "heroTone": "#3B3A36",
+      "summary": "A South African artist who makes animated films from charcoal drawings that he changes and re-films, as well as prints, sculpture and stage work.",
+      "dek": "William Kentridge draws in charcoal, films the drawing, rubs part of it out and films again. The smudges of every earlier stage stay visible. In 2016 he took a similar idea to Rome and cleaned a 550-metre frieze into a river wall.",
+      "glance": [
+        [
+          "Born",
+          "Johannesburg, 28 April 1955",
+          [
+            "wiki-kentridge"
+          ]
+        ],
+        [
+          "Training",
+          "Politics and African studies, Wits; Johannesburg Art Foundation; Lecoq theatre school, Paris",
+          [
+            "wiki-kentridge"
+          ]
+        ],
+        [
+          "Media",
+          "Charcoal, animated film, prints, sculpture, opera and theatre",
+          [
+            "wiki-kentridge"
+          ]
+        ],
+        [
+          "Prizes",
+          "Kyoto Prize 2010; Olivier Award 2023",
+          [
+            "wiki-kentridge"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is William Kentridge?",
+          "html": "<p>William Kentridge is a South African artist, born in Johannesburg on 28 April 1955.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup> His parents were both lawyers who represented people marginalised by apartheid.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup> He studied politics and African studies at the University of the Witwatersrand, then art at the Johannesburg Art Foundation, and in the early 1980s trained in theatre at the Lecoq school in Paris.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>His films are made by filming a drawing, making erasures and changes, and filming it again.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup></p><h3>How to read one</h3><p>Our reading: watch the grey ghosts. In a Kentridge film the past of each image is still faintly there after it has been rubbed out. That is the clearest way into what the work says about memory and history in South Africa.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In 1989 he made <i>Johannesburg, 2nd Greatest City After Paris</i>, the first of the films later gathered as Drawings for Projection. <i>Felix in Exile</i> followed in 1994.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup></p><p>On 21 April 2016 he unveiled <i>Triumphs and Laments</i> on the Tiber embankment in Rome: a 550-metre frieze of more than 80 figures, up to 12 metres tall, made by blasting the grime off the wall with water through stencils.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup> He won the Kyoto Prize in 2010, showed at the Royal Academy in London in 2022, and won an Olivier Award in 2023 for the opera <i>Sibyl</i>.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I’m not interested in telling a chronological history of Rome.<cite>Kentridge, quoted by The Art Newspaper, 2016<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup></cite></blockquote><blockquote>The fact that the work is destined to disappear is part of the concept.<cite>Kentridge to La Repubblica, quoted by The Art Newspaper, 2017<sup class=\"cite\"><a data-src=\"tan-kentridge-2017\">[tan-kentridge-2017]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-zanele-muholi\">Zanele Muholi</a>: another South African artist working with history and visibility</li><li><a href=\"#artist-vhils\">Vhils</a>: images made by removing material from a wall</li><li><a href=\"#artist-jr\">JR</a>: large temporary images in public space</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Johannesburg, 2nd Greatest City After Paris",
+          "year": "1989",
+          "medium": "Animated film from charcoal drawings",
+          "size": "Film",
+          "note": "The first Drawings for Projection film.",
+          "src": [
+            "wiki-kentridge"
+          ],
+          "tone": "#3B3A36"
+        },
+        {
+          "title": "Felix in Exile",
+          "year": "1994",
+          "medium": "Animated film from charcoal drawings",
+          "size": "Film",
+          "note": "Part of the same series.",
+          "src": [
+            "wiki-kentridge"
+          ],
+          "tone": "#4E5A5F"
+        },
+        {
+          "title": "Triumphs and Laments",
+          "year": "2016",
+          "medium": "Water-blasted frieze through stencils, Tiber embankment, Rome",
+          "size": "550 m long",
+          "note": "Expected to fade within three to five years.",
+          "src": [
+            "tan-kentridge-2016"
+          ],
+          "tone": "#A39A88"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1955",
+          "what": "Born in Johannesburg.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "Early 1980s",
+          "what": "Theatre training at the Lecoq school, Paris.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "1989",
+          "what": "First Drawings for Projection film.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "1994",
+          "what": "Felix in Exile.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "2010",
+          "what": "Kyoto Prize.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "Triumphs and Laments, Rome.",
+          "src": [
+            "tan-kentridge-2016"
+          ]
+        },
+        {
+          "when": "2022",
+          "what": "Royal Academy, London.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        },
+        {
+          "when": "2023",
+          "what": "Olivier Award for Sibyl.",
+          "src": [
+            "wiki-kentridge"
+          ]
+        }
+      ],
+      "seen": "<p>The Institute for Public Art keeps a case study of <i>Triumphs and Laments</i> with photographs.<sup class=\"cite\"><a data-src=\"ipa-kentridge\">[ipa-kentridge]</a></sup> The frieze was designed to fade, and we have not confirmed how much of it remains.</p>",
+      "related": [
+        "a-explained-kentridge-triumphs-and-laments",
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "How much of Triumphs and Laments is still visible in Rome",
+        "Figure count and length of the frieze: The Art Newspaper says more than 80 figures and 550 m; the Institute for Public Art says more than 50 and 560 m",
+        "Number of Drawings for Projection films: sources give nine to eleven",
+        "Which UK museums hold his films or prints"
+      ]
+    },
+    {
+      "published": true,
+      "checked": "26 November 2026",
+      "slug": "zao-wou-ki",
+      "name": "Zao Wou-Ki",
+      "letter": "Z",
+      "ghostWords": [
+        "Bound",
+        "by",
+        "two",
+        "traditions."
+      ],
+      "tag": "Abstract painting",
+      "place": "Beijing and Paris",
+      "tone": "#2E4F6B",
+      "heroTone": "#2E4F6B",
+      "summary": "A Chinese-born painter who moved to Paris in 1948 and spent six decades joining Chinese ink painting to Western abstraction.",
+      "dek": "Zao Wou-Ki trained in Hangzhou, sailed to France at 28 and found his way to abstraction through Paul Klee. From the late 1950s he named his paintings only by the date they were finished.",
+      "glance": [
+        [
+          "Born",
+          "Beijing, 1 February 1920",
+          [
+            "wiki-zao",
+            "soth-zao-21"
+          ]
+        ],
+        [
+          "Died",
+          "Nyon, Switzerland, 9 April 2013",
+          [
+            "wiki-zao"
+          ]
+        ],
+        [
+          "Training",
+          "Hangzhou art academy, under Lin Fengmian",
+          [
+            "soth-zao-21",
+            "wiki-zao"
+          ]
+        ],
+        [
+          "Media",
+          "Oil on canvas, ink, lithographs and etchings",
+          [
+            "soth-zao-21"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Zao Wou-Ki?",
+          "html": "<p>Zao Wou-Ki was born in Beijing in 1920 and died in Nyon, Switzerland, in 2013.<sup class=\"cite\"><a data-src=\"wiki-zao\">[wiki-zao]</a></sup><sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> He studied at the art academy in Hangzhou under Lin Fengmian and taught there for six years after graduating in 1941.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup><sup class=\"cite\"><a data-src=\"soth-zao-num\">[soth-zao-num]</a></sup></p><p>In 1948 he made the 36-day voyage from Shanghai to Marseille and settled in Paris.<sup class=\"cite\"><a data-src=\"soth-zao-num\">[soth-zao-num]</a></sup><sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Seeing Paul Klee's work in Switzerland in 1951 pushed him towards abstraction, and for a period he drew on the signs carved on ancient oracle bones.<sup class=\"cite\"><a data-src=\"cnn-zao\">[cnn-zao]</a></sup> From the late 1950s he gave his paintings only the date of completion as a title.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> Sotheby's calls the long stretch of large, stormy canvases that followed his Hurricane Period, lasting 13 years.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> In the early 1970s he returned to Chinese ink.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup></p><h3>How to read one</h3><p>Our reading: stand back first. The large oils are built like landscapes, with dark masses and a light that seems to come from behind them. Then come close and look at the strokes, which move like brushwork in ink rather than oil.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In Paris he had the support of Joan Miró and Pablo Picasso, and in 1950 the poet Henri Michaux wrote poems for eight of his lithographs.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> In 1957 he travelled to New York with Pierre Soulages.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> He first went back to China in 1972.<sup class=\"cite\"><a data-src=\"cnn-zao\">[cnn-zao]</a></sup></p><p>His triptych <i>Juin-Octobre 1985</i>, made for the architect I.M. Pei, sold for $65 million at Sotheby's Hong Kong in 2018, at the time a record for an oil painting by an Asian artist.<sup class=\"cite\"><a data-src=\"soth-zao-num\">[soth-zao-num]</a></sup><sup class=\"cite\"><a data-src=\"artnet-zao\">[artnet-zao]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>Everybody is bound by tradition. I am bound by two.<cite>Zao Wou-Ki, quoted by Sotheby's and CNN<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup><sup class=\"cite\"><a data-src=\"cnn-zao\">[cnn-zao]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: another Asian painter who made his career in Paris</li><li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: an earlier route into abstraction</li><li><a href=\"#artist-mai-trung-thu\">Mai Trung Thứ</a>: a Vietnamese painter in Paris in the same years</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Paysage dans la lune",
+          "year": "1955",
+          "medium": "Oil on canvas",
+          "size": "To confirm",
+          "note": "Sold at Sotheby's Hong Kong in October 2016.",
+          "src": [
+            "soth-zao-num"
+          ],
+          "tone": "#3D4F6A"
+        },
+        {
+          "title": "29.01.64",
+          "year": "1964",
+          "medium": "Oil on canvas",
+          "size": "To confirm",
+          "note": "Sold at Christie's Hong Kong in 2017, according to Wikipedia.",
+          "src": [
+            "wiki-zao"
+          ],
+          "tone": "#5A4636"
+        },
+        {
+          "title": "Juin-Octobre 1985",
+          "year": "1985",
+          "medium": "Oil on canvas, triptych",
+          "size": "His largest composition",
+          "note": "Made for I.M. Pei; sold for $65 million in 2018.",
+          "src": [
+            "artnet-zao",
+            "soth-zao-num"
+          ],
+          "tone": "#2E4F6B"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1920",
+          "what": "Born in Beijing.",
+          "src": [
+            "wiki-zao"
+          ]
+        },
+        {
+          "when": "1941",
+          "what": "Graduates in Hangzhou and starts teaching there.",
+          "src": [
+            "soth-zao-num"
+          ]
+        },
+        {
+          "when": "1948",
+          "what": "Moves to Paris.",
+          "src": [
+            "soth-zao-21"
+          ]
+        },
+        {
+          "when": "1950",
+          "what": "Lithographs with poems by Henri Michaux.",
+          "src": [
+            "soth-zao-21"
+          ]
+        },
+        {
+          "when": "1951",
+          "what": "Sees Paul Klee's work in Switzerland.",
+          "src": [
+            "cnn-zao"
+          ]
+        },
+        {
+          "when": "1957",
+          "what": "Travels to New York with Pierre Soulages.",
+          "src": [
+            "soth-zao-21"
+          ]
+        },
+        {
+          "when": "1972",
+          "what": "First return to China.",
+          "src": [
+            "cnn-zao"
+          ]
+        },
+        {
+          "when": "1985",
+          "what": "Juin-Octobre 1985, for I.M. Pei.",
+          "src": [
+            "artnet-zao"
+          ]
+        },
+        {
+          "when": "2013",
+          "what": "Dies in Nyon, Switzerland.",
+          "src": [
+            "wiki-zao"
+          ]
+        }
+      ],
+      "seen": "<p>We have not yet confirmed which public collections have his work on view. We will add them once checked.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-how-prints-are-made"
+      ],
+      "research": [
+        "Public collections with his work on view",
+        "Year he took French citizenship (1964 is often given; not yet confirmed)",
+        "Exact date of the 2018 Hong Kong sale",
+        "Photograph of the artist with a free licence"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/mai-trung-thu-and-father.jpg",
+      "alt": "Black and white photograph of the young Mai Trung Thứ standing beside his father, an older man with a white beard.",
+      "heroCredit": "Photographer unknown, public domain",
+      "checked": "26 November 2026",
+      "slug": "mai-trung-thu",
+      "name": "Mai Trung Thứ",
+      "letter": "M",
+      "ghostWords": [
+        "Ink",
+        "on",
+        "silk."
+      ],
+      "tag": "Painting on silk",
+      "place": "Hải Phòng and Paris",
+      "tone": "#9C6B4E",
+      "heroTone": "#9C6B4E",
+      "summary": "A Vietnamese painter of the first generation trained in Hanoi, who settled in Paris in 1937 and painted women, children and daily life in ink and gouache on silk.",
+      "dek": "Mai Trung Thứ was one of six students out of 266 applicants admitted to the first class of the École des Beaux-Arts de l'Indochine. In France he painted on silk for more than forty years and made his own frames.",
+      "glance": [
+        [
+          "Born",
+          "Rò Nha, Kiến An, Hải Phòng, 1906",
+          [
+            "wiki-mai"
+          ]
+        ],
+        [
+          "Died",
+          "10 October 1980",
+          [
+            "wiki-mai"
+          ]
+        ],
+        [
+          "Training",
+          "École des Beaux-Arts de l'Indochine, 1925 to 1930",
+          [
+            "wiki-mai",
+            "aguttes-mai"
+          ]
+        ],
+        [
+          "Media",
+          "Ink and gouache on silk; a few oils",
+          [
+            "wiki-mai"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Mai Trung Thứ?",
+          "html": "<p>Mai Trung Thứ, often known as Mai Thu, was born in 1906 near Hải Phòng and died on 10 October 1980.<sup class=\"cite\"><a data-src=\"wiki-mai\">[wiki-mai]</a></sup> His father, Mai Trung Cát, was governor of Bắc Ninh province.<sup class=\"cite\"><a data-src=\"soth-mai\">[soth-mai]</a></sup> He was in the first class of the École des Beaux-Arts de l'Indochine in Hanoi, from 1925 to 1930, one of six admitted out of 266 candidates.<sup class=\"cite\"><a data-src=\"wiki-mai\">[wiki-mai]</a></sup><sup class=\"cite\"><a data-src=\"aguttes-mai\">[aguttes-mai]</a></sup> He moved to Paris in 1937.<sup class=\"cite\"><a data-src=\"soth-mai\">[soth-mai]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Apart from a few oil paintings, his work is ink and gouache on silk.<sup class=\"cite\"><a data-src=\"wiki-mai\">[wiki-mai]</a></sup> His subjects are women, children and scenes of daily life. Phillips describes the work as known for its delicate linework and muted palette.<sup class=\"cite\"><a data-src=\"ph-mai\">[ph-mai]</a></sup> He made his own gilded frames.<sup class=\"cite\"><a data-src=\"aguttes-mai\">[aguttes-mai]</a></sup></p><h3>How to read one</h3><p>Our reading: look at the line before the colour. Phillips singles out his linework, and the colours stay soft so that the drawing leads. The frame is part of the work, since he made it himself.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In Paris he also played the đàn bầu, a Vietnamese stringed instrument, and in 1946 he filmed Hồ Chí Minh's visit to the city.<sup class=\"cite\"><a data-src=\"wiki-mai\">[wiki-mai]</a></sup></p><p>His oil <i>Portrait de Mademoiselle Phuong</i> (1930) sold at Sotheby's Hong Kong on 18 April 2021 for US$3.1 million including fees, a record for the artist.<sup class=\"cite\"><a data-src=\"nd-mai\">[nd-mai]</a></sup></p>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-zao-wou-ki\">Zao Wou-Ki</a>: an Asian painter in Paris in the same decades</li><li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: a painter who moved from India to France</li><li><a href=\"#artist-frida-kahlo\">Frida Kahlo</a>: intimate scenes on a small scale</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Portrait de Mademoiselle Phuong",
+          "year": "1930",
+          "medium": "Oil",
+          "size": "To confirm",
+          "note": "His auction record, US$3.1 million in 2021.",
+          "src": [
+            "nd-mai"
+          ],
+          "tone": "#7A5A44"
+        },
+        {
+          "title": "Lady Combing Hair",
+          "year": "1943",
+          "medium": "Ink and gouache on silk",
+          "size": "To confirm",
+          "note": "Sold at Phillips Hong Kong in 2018.",
+          "src": [
+            "ph-mai"
+          ],
+          "tone": "#B08A6A"
+        },
+        {
+          "title": "Grand-mère",
+          "year": "1976",
+          "medium": "Ink and colours on silk",
+          "size": "To confirm",
+          "note": "Sold at Aguttes, Paris.",
+          "src": [
+            "aguttes-mai"
+          ],
+          "tone": "#9C6B4E"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1906",
+          "what": "Born near Hải Phòng.",
+          "src": [
+            "wiki-mai"
+          ]
+        },
+        {
+          "when": "1925 to 1930",
+          "what": "First class of the École des Beaux-Arts de l'Indochine.",
+          "src": [
+            "wiki-mai"
+          ]
+        },
+        {
+          "when": "1937",
+          "what": "Moves to Paris.",
+          "src": [
+            "soth-mai"
+          ]
+        },
+        {
+          "when": "1946",
+          "what": "Films Hồ Chí Minh's visit to Paris.",
+          "src": [
+            "wiki-mai"
+          ]
+        },
+        {
+          "when": "1980",
+          "what": "Dies on 10 October.",
+          "src": [
+            "wiki-mai"
+          ]
+        },
+        {
+          "when": "2021",
+          "what": "Portrait de Mademoiselle Phuong sets his auction record.",
+          "src": [
+            "nd-mai"
+          ]
+        }
+      ],
+      "seen": "<p>We have not yet confirmed which museums show his work. We will add them once checked.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026"
+      ],
+      "research": [
+        "Place of death: Wikipedia gives Hải Phòng, while most sources say he lived in France until his death",
+        "Museums that hold his work",
+        "Auction prices so far seen only in MutualArt"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/frida-kahlo-frissell-1937.jpg",
+      "alt": "Black and white photograph of Frida Kahlo in a long skirt, seated on rocky ground beside a large agave plant.",
+      "heroCredit": "Photo: Toni Frissell, 1937, Library of Congress, public domain",
+      "checked": "26 November 2026",
+      "slug": "frida-kahlo",
+      "name": "Frida Kahlo",
+      "letter": "K",
+      "ghostWords": [
+        "I",
+        "painted",
+        "my",
+        "own",
+        "reality."
+      ],
+      "tag": "Painting",
+      "place": "Coyoacán, Mexico City",
+      "tone": "#7A2E3A",
+      "heroTone": "#7A2E3A",
+      "summary": "A Mexican painter, mostly of small self-portraits, who began to paint while recovering from a bus accident at 18.",
+      "dek": "Frida Kahlo made somewhere between fewer than 150 and about 200 paintings, most of them small self-portraits. Mexico treats her work in the country as a national monument. In 2025 one of her paintings became the most expensive work by a woman ever sold at auction.",
+      "glance": [
+        [
+          "Born",
+          "Coyoacán, 6 July 1907",
+          [
+            "wiki-kahlo"
+          ]
+        ],
+        [
+          "Died",
+          "13 July 1954",
+          [
+            "wiki-kahlo"
+          ]
+        ],
+        [
+          "Media",
+          "Oil on canvas and metal, watercolour, drawing",
+          [
+            "wiki-kahlo"
+          ]
+        ],
+        [
+          "Home",
+          "La Casa Azul, now the Frida Kahlo Museum",
+          [
+            "wiki-kahlo"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Frida Kahlo?",
+          "html": "<p>Frida Kahlo was born in Coyoacán, now part of Mexico City, on 6 July 1907 and died on 13 July 1954.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> On 17 September 1925, aged 18, she was badly injured in a bus accident, and she began to paint while confined to bed.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> She married the painter Diego Rivera in 1929.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Most of her paintings are small self-portraits.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> She drew on Mexican folk art and on mexicanidad, a pride in Mexican identity and culture.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> She rejected the label of dreams for her work.<sup class=\"cite\"><a data-src=\"aj-kahlo\">[aj-kahlo]</a></sup></p><h3>How to read one</h3><p>Our reading: start with the face, which is usually still and direct. Then look at everything around it: clothes, plants, animals, ribbons, wounds. The setting carries most of the meaning, while the expression gives little away.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Her painting <i>The Two Fridas</i> was bought by Mexico's Museo de Arte Moderno in 1947.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> <i>The Broken Column</i> dates from 1944.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup></p><p>Mexico has declared her works in the country an artistic monument, which means they cannot be sold abroad or destroyed.<sup class=\"cite\"><a data-src=\"aj-kahlo\">[aj-kahlo]</a></sup> In November 2025 <i>El sueño (La cama)</i> (1940), which shows her asleep in a bed floating in clouds beneath a skeleton wrapped in dynamite, sold at Sotheby's in New York for $54.7 million, a record for a woman artist at auction.<sup class=\"cite\"><a data-src=\"aj-kahlo\">[aj-kahlo]</a></sup><sup class=\"cite\"><a data-src=\"npr-kahlo\">[npr-kahlo]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I paint myself because I am often alone and I am the subject I know best.<cite>Kahlo, quoted on Wikipedia<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup></cite></blockquote><blockquote>I never painted dreams... I painted my own reality.<cite>Kahlo, quoted by Al Jazeera<sup class=\"cite\"><a data-src=\"aj-kahlo\">[aj-kahlo]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: a woman artist whose life and work are closely tied</li><li><a href=\"#artist-pablo-picasso\">Pablo Picasso</a>: a contemporary who also painted himself again and again</li><li><a href=\"#artist-ana-segovia\">Ana Segovia</a>: a Mexican painter working today</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "The Two Fridas",
+          "year": "1939",
+          "medium": "Oil on canvas",
+          "size": "To confirm",
+          "note": "Bought by the Museo de Arte Moderno, Mexico City, in 1947.",
+          "src": [
+            "wiki-kahlo"
+          ],
+          "tone": "#5C4A6B"
+        },
+        {
+          "title": "El sueño (La cama)",
+          "year": "1940",
+          "medium": "Oil on canvas",
+          "size": "To confirm",
+          "note": "Sold for $54.7 million at Sotheby's New York in November 2025.",
+          "src": [
+            "aj-kahlo",
+            "npr-kahlo"
+          ],
+          "tone": "#8FA6B8"
+        },
+        {
+          "title": "The Broken Column",
+          "year": "1944",
+          "medium": "To confirm",
+          "size": "To confirm",
+          "note": "One of her best known self-portraits.",
+          "src": [
+            "wiki-kahlo"
+          ],
+          "tone": "#7A2E3A"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1907",
+          "what": "Born in Coyoacán.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "1925",
+          "what": "Bus accident; begins painting in bed.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "1929",
+          "what": "Marries Diego Rivera.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "1940",
+          "what": "El sueño (La cama).",
+          "src": [
+            "npr-kahlo"
+          ]
+        },
+        {
+          "when": "1944",
+          "what": "The Broken Column.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "1947",
+          "what": "The Two Fridas enters the Museo de Arte Moderno.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "1954",
+          "what": "Dies on 13 July.",
+          "src": [
+            "wiki-kahlo"
+          ]
+        },
+        {
+          "when": "2025",
+          "what": "El sueño sells for $54.7 million.",
+          "src": [
+            "aj-kahlo"
+          ]
+        }
+      ],
+      "seen": "<p>Her house, La Casa Azul in Coyoacán, is now the Frida Kahlo Museum, and the Museo de Arte Moderno in Mexico City owns <i>The Two Fridas</i>.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup></p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026"
+      ],
+      "research": [
+        "Total number of paintings: sources give fewer than 150 to about 200",
+        "Exact sale date of El sueño (La cama) in November 2025",
+        "Details of Mexico's export rules for her work"
+      ]
+    },
+    {
+      "published": true,
+      "checked": "26 November 2026",
+      "slug": "jenny-holzer",
+      "name": "Jenny Holzer",
+      "letter": "H",
+      "ghostWords": [
+        "Abuse",
+        "of",
+        "power",
+        "comes",
+        "as",
+        "no",
+        "surprise."
+      ],
+      "tag": "Text, light and sign",
+      "place": "New York",
+      "tone": "#1F2A44",
+      "heroTone": "#1F2A44",
+      "summary": "An American artist who works with words in public: anonymous street posters, LED signs, carved stone and light projected onto buildings.",
+      "dek": "Jenny Holzer began pasting anonymous one-line Truisms around Manhattan in 1977. The same lines later ran in Times Square, were cut into stone benches and were projected onto rivers. In 1990 she won the Golden Lion in Venice.",
+      "glance": [
+        [
+          "Born",
+          "Gallipolis, Ohio, 29 July 1950",
+          [
+            "gv-holzer",
+            "brit-holzer"
+          ]
+        ],
+        [
+          "Training",
+          "Ohio University; Rhode Island School of Design; Whitney study programme",
+          [
+            "gv-holzer"
+          ]
+        ],
+        [
+          "Media",
+          "Posters, LED signs, stone, light projection, paintings",
+          [
+            "brit-holzer",
+            "bilbao-holzer"
+          ]
+        ],
+        [
+          "Prize",
+          "Golden Lion, Venice Biennale, 1990",
+          [
+            "brit-holzer",
+            "gv-holzer"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Jenny Holzer?",
+          "html": "<p>Jenny Holzer was born in Gallipolis, Ohio, on 29 July 1950.<sup class=\"cite\"><a data-src=\"gv-holzer\">[gv-holzer]</a></sup><sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup> She graduated in painting and printmaking from Ohio University in 1972, studied at the Rhode Island School of Design and then joined the Whitney Museum's study programme in New York.<sup class=\"cite\"><a data-src=\"gv-holzer\">[gv-holzer]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Her material is text. The Truisms, begun in 1977, are single sentences such as “Abuse of power comes as no surprise” and “Bad intentions can yield good results”.<sup class=\"cite\"><a data-src=\"moma-holzer\">[moma-holzer]</a></sup> She first printed them as anonymous broadsheets and pasted them on walls and fences around Manhattan.<sup class=\"cite\"><a data-src=\"wiki-holzer\">[wiki-holzer]</a></sup><sup class=\"cite\"><a data-src=\"gv-holzer\">[gv-holzer]</a></sup> Later formats include LED signs, stone benches and, since 1996, large outdoor light projections.<sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup><sup class=\"cite\"><a data-src=\"bilbao-holzer\">[bilbao-holzer]</a></sup></p><h3>How to read one</h3><p>Our reading: read the line twice, once as advice and once as a warning. Most of her sentences can be taken either way, and without an author's name the reader has to decide which.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>The Truisms were followed by the Inflammatory Essays (1979 to 1982), the Living series (1981 to 1982) and the Survival series (1983 to 1985).<sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup> In 1982 she put her first electronic sign on the Spectacolor board in Times Square.<sup class=\"cite\"><a data-src=\"wiki-holzer\">[wiki-holzer]</a></sup></p><p>Her installation for the United States Pavilion at the 1990 Venice Biennale won the Golden Lion.<sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup><sup class=\"cite\"><a data-src=\"gv-holzer\">[gv-holzer]</a></sup> In 1996 she projected text onto the Arno in Florence.<sup class=\"cite\"><a data-src=\"bilbao-holzer\">[bilbao-holzer]</a></sup> In 2005 she began the Redaction paintings, silkscreens of declassified government documents.<sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I like placing content wherever people look.<cite>Holzer, quoted by the Guggenheim Museum Bilbao<sup class=\"cite\"><a data-src=\"bilbao-holzer\">[bilbao-holzer]</a></sup></cite></blockquote><blockquote>You only have a few seconds to catch people, so you can't do long, reasoned arguments.<cite>Holzer on the Truisms, quoted on Wikipedia<sup class=\"cite\"><a data-src=\"wiki-truisms\">[wiki-truisms]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-ben-eine\">Ben Eine</a>: letters and words on city walls</li><li><a href=\"#artist-david-shrigley\">David Shrigley</a>: short texts that read as jokes and warnings</li><li><a href=\"#artist-keith-haring\">Keith Haring</a>: art in New York's public spaces in the same years</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Truisms",
+          "year": "1978 to 1987",
+          "medium": "Photostat (MoMA's version); first shown as street posters",
+          "size": "243.9 x 101.6 cm (MoMA)",
+          "note": "MoMA dates the series 1978 to 1987 and says she began it in 1977.",
+          "src": [
+            "moma-holzer"
+          ],
+          "tone": "#1F2A44"
+        },
+        {
+          "title": "Inflammatory Essays",
+          "year": "1979 to 1982",
+          "medium": "Offset posters",
+          "size": "Street",
+          "note": "Longer texts, also posted around New York.",
+          "src": [
+            "brit-holzer"
+          ],
+          "tone": "#B5392B"
+        },
+        {
+          "title": "I WOKE UP NAKED",
+          "year": "2019",
+          "medium": "LED sign with blue, green and red diodes",
+          "size": "358.1 x 14 x 14 cm",
+          "note": "Shown by the Guggenheim Museum Bilbao.",
+          "src": [
+            "bilbao-holzer"
+          ],
+          "tone": "#2C6E8F"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1950",
+          "what": "Born in Gallipolis, Ohio.",
+          "src": [
+            "gv-holzer"
+          ]
+        },
+        {
+          "when": "1972",
+          "what": "Graduates from Ohio University.",
+          "src": [
+            "gv-holzer"
+          ]
+        },
+        {
+          "when": "1977",
+          "what": "Begins the Truisms.",
+          "src": [
+            "moma-holzer"
+          ]
+        },
+        {
+          "when": "1979 to 1982",
+          "what": "Inflammatory Essays.",
+          "src": [
+            "brit-holzer"
+          ]
+        },
+        {
+          "when": "1982",
+          "what": "First sign in Times Square.",
+          "src": [
+            "wiki-holzer"
+          ]
+        },
+        {
+          "when": "1990",
+          "what": "Golden Lion, Venice Biennale.",
+          "src": [
+            "brit-holzer"
+          ]
+        },
+        {
+          "when": "1996",
+          "what": "Light projection on the Arno, Florence.",
+          "src": [
+            "bilbao-holzer"
+          ]
+        },
+        {
+          "when": "2005",
+          "what": "Redaction paintings begin.",
+          "src": [
+            "brit-holzer"
+          ]
+        }
+      ],
+      "seen": "<p>MoMA in New York owns a version of the Truisms.<sup class=\"cite\"><a data-src=\"moma-holzer\">[moma-holzer]</a></sup> The Guggenheim Museum Bilbao has shown her LED work.<sup class=\"cite\"><a data-src=\"bilbao-holzer\">[bilbao-holzer]</a></sup></p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026",
+        "a-what-is-an-intervention"
+      ],
+      "research": [
+        "Start of the Redaction paintings: Britannica says 2005, Wikipedia 2008",
+        "Year she joined the Whitney programme: 1976 or 1977",
+        "Photograph of the artist with a suitable free licence"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/mona-hatoum-ivam-2021.jpg",
+      "alt": "Mona Hatoum, with dark curly hair and glasses, in a striped top, seen in front of shelves of files.",
+      "heroCredit": "Photo: Miguel Lorenzo, IVAM, CC BY-SA 4.0",
+      "checked": "26 November 2026",
+      "slug": "mona-hatoum",
+      "name": "Mona Hatoum",
+      "letter": "H",
+      "ghostWords": [
+        "Home,",
+        "made",
+        "strange."
+      ],
+      "tag": "Installation and sculpture",
+      "place": "London",
+      "tone": "#5E5A55",
+      "heroTone": "#5E5A55",
+      "summary": "A Palestinian artist born in Beirut and based in London, who moved from performance and video to sculpture and installation in 1989.",
+      "dek": "Mona Hatoum was visiting London in 1975 when war broke out in Lebanon, and she stayed. She worked in video and performance until 1988, then turned to installations that make household objects and maps feel unsafe.",
+      "glance": [
+        [
+          "Born",
+          "Beirut, 1952, to a Palestinian family",
+          [
+            "tate-hatoum-who"
+          ]
+        ],
+        [
+          "Training",
+          "Byam Shaw School of Art, 1975 to 1979; Slade, 1979 to 1981",
+          [
+            "tate-hatoum",
+            "pi-hatoum"
+          ]
+        ],
+        [
+          "Media",
+          "Performance, video, installation, sculpture",
+          [
+            "tate-hatoum"
+          ]
+        ],
+        [
+          "Prizes",
+          "Turner Prize shortlist 1995; Praemium Imperiale",
+          [
+            "tate-hatoum",
+            "wiki-hatoum"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Mona Hatoum?",
+          "html": "<p>Mona Hatoum was born in Beirut in 1952 to a Palestinian family.<sup class=\"cite\"><a data-src=\"tate-hatoum-who\">[tate-hatoum-who]</a></sup> She studied at Beirut University College from 1970 to 1972.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> In 1975 she was in London when civil war broke out in Lebanon, and she was unable to return.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup><sup class=\"cite\"><a data-src=\"pi-hatoum\">[pi-hatoum]</a></sup> She then studied at the Byam Shaw School of Art and the Slade.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup><sup class=\"cite\"><a data-src=\"pi-hatoum\">[pi-hatoum]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Tate notes that until 1988 she worked mainly with video and performance, and since 1989 she has concentrated on installations.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> Her objects are often familiar ones, such as lockers, kitchen graters, a light bulb or a map, made in steel, glass or rubber.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup><sup class=\"cite\"><a data-src=\"pi-hatoum\">[pi-hatoum]</a></sup></p><h3>How to read one</h3><p>Our reading: start by naming the object, then look at what has changed. A grater, a locker or a map made of loose marbles keeps the shape of something ordinary, while the change of scale or material takes away its safety.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>In the 1985 performance <i>Roadworks</i> she walked barefoot through Brixton with a pair of boots tied to her ankles.<sup class=\"cite\"><a data-src=\"wiki-hatoum\">[wiki-hatoum]</a></sup> <i>Measures of Distance</i> (1988) is a video built around images of her mother.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> <i>Light Sentence</i> (1992) sets a slowly moving light bulb among wire mesh lockers, <i>Corps étranger</i> (1994) projects endoscopic footage, and <i>Map</i> (1999) is made of glass marbles.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup><sup class=\"cite\"><a data-src=\"pi-hatoum\">[pi-hatoum]</a></sup></p><p>She was shortlisted for the Turner Prize in 1995.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> Tate Modern held a retrospective in 2016, and she won the Hiroshima Art Prize in 2017.<sup class=\"cite\"><a data-src=\"pi-hatoum\">[pi-hatoum]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I got stranded there because the war broke out in Lebanon.<cite>Hatoum on London in 1975, BOMB, 1998, quoted by Tate<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup></cite></blockquote><blockquote>I've always had quite a rebellious and contrary attitude.<cite>Hatoum, BOMB, 1998, quoted by Tate<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: work that deals with damage and repair in the Middle East</li><li><a href=\"#artist-el-anatsui\">El Anatsui</a>: everyday materials turned into large installations</li><li><a href=\"#artist-jes-fan\">Jes Fan</a>: glass and the body</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Measures of Distance",
+          "year": "1988",
+          "medium": "Video",
+          "size": "Film",
+          "note": "Built around images of her mother.",
+          "src": [
+            "tate-hatoum"
+          ],
+          "tone": "#6B5A4E"
+        },
+        {
+          "title": "Light Sentence",
+          "year": "1992",
+          "medium": "Wire mesh lockers and a motorised light bulb",
+          "size": "Installation",
+          "note": "A single bulb moves slowly among the lockers.",
+          "src": [
+            "tate-hatoum"
+          ],
+          "tone": "#5E5A55"
+        },
+        {
+          "title": "Map",
+          "year": "1999",
+          "medium": "Glass marbles",
+          "size": "Installation",
+          "note": "Listed among her key works by the Praemium Imperiale.",
+          "src": [
+            "pi-hatoum"
+          ],
+          "tone": "#8FA0A8"
+        },
+        {
+          "title": "Grater Divide",
+          "year": "2002",
+          "medium": "To confirm",
+          "size": "To confirm",
+          "note": "Discussed by Tate.",
+          "src": [
+            "tate-hatoum"
+          ],
+          "tone": "#7A7570"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1952",
+          "what": "Born in Beirut.",
+          "src": [
+            "tate-hatoum-who"
+          ]
+        },
+        {
+          "when": "1975",
+          "what": "Stranded in London by the war in Lebanon.",
+          "src": [
+            "tate-hatoum"
+          ]
+        },
+        {
+          "when": "1979 to 1981",
+          "what": "Studies at the Slade.",
+          "src": [
+            "tate-hatoum"
+          ]
+        },
+        {
+          "when": "1985",
+          "what": "Roadworks, Brixton.",
+          "src": [
+            "wiki-hatoum"
+          ]
+        },
+        {
+          "when": "1988",
+          "what": "Measures of Distance.",
+          "src": [
+            "tate-hatoum"
+          ]
+        },
+        {
+          "when": "1989",
+          "what": "Turns to installation.",
+          "src": [
+            "tate-hatoum"
+          ]
+        },
+        {
+          "when": "1995",
+          "what": "Turner Prize shortlist.",
+          "src": [
+            "tate-hatoum"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "Retrospective at Tate Modern.",
+          "src": [
+            "pi-hatoum"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Hiroshima Art Prize.",
+          "src": [
+            "pi-hatoum"
+          ]
+        }
+      ],
+      "seen": "<p>Tate's pages on her discuss works including <i>Light Sentence</i> and <i>Grater Divide</i>.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> We have not checked which are on display now.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026"
+      ],
+      "research": [
+        "Year of the Praemium Imperiale (2019 according to Wikipedia)",
+        "Dates of the Hot Spot series vary between sources",
+        "Which of her works are on display in London now"
+      ]
+    },
+    {
+      "published": true,
+      "image": "images/zanele-muholi-2011.jpg",
+      "alt": "Zanele Muholi, in a dark hat and patterned top, speaking in a gallery while people with cameras listen.",
+      "heroCredit": "Photo: Side by Side LGBT Film Festival, CC BY-SA 3.0",
+      "checked": "26 November 2026",
+      "slug": "zanele-muholi",
+      "name": "Zanele Muholi",
+      "letter": "M",
+      "ghostWords": [
+        "These",
+        "are",
+        "my",
+        "people."
+      ],
+      "tag": "Photography",
+      "place": "Johannesburg",
+      "tone": "#2B2B2B",
+      "heroTone": "#2B2B2B",
+      "summary": "A South African photographer who calls themself a visual activist, known for portraits of Black lesbian, gay, trans and gender non-conforming people and for self-portraits.",
+      "dek": "Zanele Muholi began Faces and Phases in 2006, a long series of portraits of Black lesbian, trans and gender non-conforming South Africans. In 2014 they turned the camera on themself in Somnyama Ngonyama. Muholi's pronouns are they, them and their.",
+      "glance": [
+        [
+          "Born",
+          "Umlazi, Durban, 19 July 1972",
+          [
+            "brit-muholi",
+            "tate-muholi"
+          ]
+        ],
+        [
+          "Pronouns",
+          "They, them, their",
+          [
+            "tate-muholi"
+          ]
+        ],
+        [
+          "Training",
+          "Market Photo Workshop, Johannesburg; MFA, Ryerson University, 2009",
+          [
+            "tateetc-muholi",
+            "brit-muholi"
+          ]
+        ],
+        [
+          "Media",
+          "Black and white photography; painting",
+          [
+            "tate-muholi",
+            "brit-muholi"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is Zanele Muholi?",
+          "html": "<p>Zanele Muholi was born in Umlazi, Durban, in 1972.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup><sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup> They describe themself as a visual activist rather than an artist.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup><sup class=\"cite\"><a data-src=\"tate-muholi-2024\">[tate-muholi-2024]</a></sup> They trained at the Market Photo Workshop in Johannesburg and earned a master's degree in documentary media at Ryerson University in Toronto in 2009.<sup class=\"cite\"><a data-src=\"tateetc-muholi\">[tateetc-muholi]</a></sup><sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup></p><p>In 2002 they co-founded the Forum for the Empowerment of Women, and in 2009 they founded Inkanyiso.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>Most of the work is black and white portrait photography. <i>Faces and Phases</i>, begun in 2006, photographs Black lesbian, trans and gender non-conforming people; <i>Brave Beauties</i> photographs trans women and non-binary people; <i>Being</i> photographs couples.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup><sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup></p><p><i>Somnyama Ngonyama</i>, meaning Hail the Dark Lioness, began in 2014. In these self-portraits Muholi wears props from scouring pads and latex gloves to tyres and cable ties, and raises the contrast so their skin reads darker.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup><sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup></p><h3>How to read one</h3><p>Our reading: in the portraits, look at the gaze. The sitters face the camera and hold it. In the self-portraits, look at the props, which are often ordinary household or work objects worn like regalia.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>Muholi won the Prince Claus Award and the Carnegie Fine Prize in 2013 and the ICP Infinity Award in 2016, was shortlisted for the Deutsche Börse Photography Prize in 2015, and showed at the 58th Venice Biennale in 2019.<sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup> Tate Modern gave them a major exhibition from 5 November 2020 to 7 March 2021, and showed their work again from 6 June 2024 to 26 January 2025.<sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup><sup class=\"cite\"><a data-src=\"tate-muholi-2024\">[tate-muholi-2024]</a></sup></p><p><i>Bester I, Mayotte</i> (2015), a self-portrait with clothes pegs, honours their mother's labour.<sup class=\"cite\"><a data-src=\"brit-muholi\">[brit-muholi]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>these are not [just] subjects, these are my people<cite>Muholi, quoted by Tate Etc, 2020<sup class=\"cite\"><a data-src=\"tateetc-muholi\">[tateetc-muholi]</a></sup></cite></blockquote><blockquote>to queer, to blacken, to open, and to occupy spaces<cite>Muholi, quoted by Tate Etc, 2020<sup class=\"cite\"><a data-src=\"tateetc-muholi\">[tateetc-muholi]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-rene-matic\">Rene Matić</a>: photography of community and identity</li><li><a href=\"#artist-jr\">JR</a>: large portraits made with the people pictured</li><li><a href=\"#artist-william-kentridge\">William Kentridge</a>: another South African artist working with history</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "ID Crisis",
+          "year": "2003",
+          "medium": "Gelatin silver print",
+          "size": "To confirm",
+          "note": "An early work discussed by Tate Etc.",
+          "src": [
+            "tateetc-muholi"
+          ],
+          "tone": "#3A3A3A"
+        },
+        {
+          "title": "Bester I, Mayotte",
+          "year": "2015",
+          "medium": "Gelatin silver print",
+          "size": "To confirm",
+          "note": "A self-portrait with clothes pegs, honouring their mother's labour.",
+          "src": [
+            "brit-muholi"
+          ],
+          "tone": "#2B2B2B"
+        },
+        {
+          "title": "Phila I, Parktown",
+          "year": "2016",
+          "medium": "Gelatin silver print",
+          "size": "80 x 53.5 cm",
+          "note": "From Somnyama Ngonyama.",
+          "src": [
+            "tateetc-muholi"
+          ],
+          "tone": "#4A4A4A"
+        },
+        {
+          "title": "Thembitshe, Parktown",
+          "year": "2014",
+          "medium": "Gelatin silver print, 8 of 8",
+          "size": "49.5 x 33 cm",
+          "note": "Sold at Phillips, New York, on 8 October 2026 for $28,380 including fees.",
+          "src": [
+            "ph-muholi-96"
+          ],
+          "tone": "#1F1F1F"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1972",
+          "what": "Born in Umlazi, Durban.",
+          "src": [
+            "brit-muholi"
+          ]
+        },
+        {
+          "when": "2002",
+          "what": "Co-founds the Forum for the Empowerment of Women.",
+          "src": [
+            "brit-muholi"
+          ]
+        },
+        {
+          "when": "2006",
+          "what": "Begins Faces and Phases.",
+          "src": [
+            "brit-muholi"
+          ]
+        },
+        {
+          "when": "2009",
+          "what": "MFA, Ryerson University; founds Inkanyiso.",
+          "src": [
+            "brit-muholi"
+          ]
+        },
+        {
+          "when": "2013",
+          "what": "Prince Claus Award; Carnegie Fine Prize.",
+          "src": [
+            "tate-muholi"
+          ]
+        },
+        {
+          "when": "2014",
+          "what": "Begins Somnyama Ngonyama.",
+          "src": [
+            "brit-muholi"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "58th Venice Biennale.",
+          "src": [
+            "tate-muholi"
+          ]
+        },
+        {
+          "when": "2020 to 2021",
+          "what": "Exhibition at Tate Modern.",
+          "src": [
+            "tate-muholi"
+          ]
+        },
+        {
+          "when": "2024 to 2025",
+          "what": "Tate Modern shows their work again.",
+          "src": [
+            "tate-muholi-2024"
+          ]
+        }
+      ],
+      "seen": "<p>Tate Modern has shown Muholi's work twice, most recently from June 2024 to January 2025.<sup class=\"cite\"><a data-src=\"tate-muholi-2024\">[tate-muholi-2024]</a></sup> We have not checked where their work is on view now.</p>",
+      "related": [
+        "a-ten-new-portfolios-mutualart-november-2026"
+      ],
+      "research": [
+        "Year the Market Photo Workshop course was completed (2003 in one source)",
+        "Start date of Brave Beauties",
+        "Galleries that represent them"
+      ]
     }
   ],
   "articles": [
+    {
+      "slug": "ten-new-portfolios-mutualart-november-2026",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "takashi-murakami",
+        "daniel-arsham",
+        "ai-weiwei",
+        "william-kentridge",
+        "zao-wou-ki",
+        "mai-trung-thu",
+        "frida-kahlo",
+        "jenny-holzer",
+        "mona-hatoum",
+        "zanele-muholi"
+      ],
+      "tone": "#1D4A35",
+      "title": "Ten new portfolios, from Tokyo to Coyoacán",
+      "dek": "Murakami, Arsham, Ai Weiwei, Kentridge, Zao Wou-Ki, Mai Trung Thứ, Kahlo, Holzer, Hatoum and Muholi join World Art Review, with an explainer on Kentridge's Tiber frieze.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "ma-ten",
+        "wiki-murakami",
+        "ocula-arsham",
+        "tate-ai-seeds",
+        "tan-kentridge-2016",
+        "soth-zao-21",
+        "wiki-mai",
+        "aj-kahlo",
+        "moma-holzer",
+        "tate-hatoum",
+        "tate-muholi"
+      ],
+      "body": "<p>World Art Review now has forty-six portfolios. The ten newest were chosen from MutualArt's Artist Discovery list, picking artists who were not yet on any Artiscope site and who widen the range of places and ways of working we cover.<sup class=\"cite\"><a data-src=\"ma-ten\">[ma-ten]</a></sup></p>\n<h2>Painters</h2>\n<p><a href=\"#artist-frida-kahlo\">Frida Kahlo</a> painted mostly small self-portraits and began painting in bed after a bus accident at 18.<sup class=\"cite\"><a data-src=\"wiki-kahlo\">[wiki-kahlo]</a></sup> <a href=\"#artist-zao-wou-ki\">Zao Wou-Ki</a> left China for Paris in 1948 and spent the rest of his life joining ink painting to Western abstraction.<sup class=\"cite\"><a data-src=\"soth-zao-21\">[soth-zao-21]</a></sup> <a href=\"#artist-mai-trung-thu\">Mai Trung Thứ</a>, from the first class of the art school in Hanoi, painted on silk in France for more than forty years.<sup class=\"cite\"><a data-src=\"wiki-mai\">[wiki-mai]</a></sup> <a href=\"#artist-takashi-murakami\">Takashi Murakami</a> trained in traditional Japanese painting and named his own flat style Superflat.<sup class=\"cite\"><a data-src=\"wiki-murakami\">[wiki-murakami]</a></sup></p>\n<h2>Objects, words and installations</h2>\n<p><a href=\"#artist-ai-weiwei\">Ai Weiwei</a> filled Tate Modern's Turbine Hall with 100 million hand-painted porcelain seeds in 2010.<sup class=\"cite\"><a data-src=\"tate-ai-seeds\">[tate-ai-seeds]</a></sup> <a href=\"#artist-mona-hatoum\">Mona Hatoum</a> turns household objects and maps into things that feel unsafe.<sup class=\"cite\"><a data-src=\"tate-hatoum\">[tate-hatoum]</a></sup> <a href=\"#artist-jenny-holzer\">Jenny Holzer</a> started with anonymous one-line posters in Manhattan in 1977.<sup class=\"cite\"><a data-src=\"moma-holzer\">[moma-holzer]</a></sup> <a href=\"#artist-daniel-arsham\">Daniel Arsham</a> casts everyday objects in mineral so they look excavated.<sup class=\"cite\"><a data-src=\"ocula-arsham\">[ocula-arsham]</a></sup></p>\n<h2>Drawing and photography</h2>\n<p><a href=\"#artist-william-kentridge\">William Kentridge</a> makes films from charcoal drawings that he keeps rubbing out and redrawing, and in 2016 cleaned a 550-metre procession into the grime of a Roman river wall.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup> <a href=\"#artist-zanele-muholi\">Zanele Muholi</a>, who uses they and them, photographs Black lesbian, trans and gender non-conforming South Africans and themself.<sup class=\"cite\"><a data-src=\"tate-muholi\">[tate-muholi]</a></sup></p>\n<h2>What is still open</h2>\n<p>Three of the ten have no portrait with a free licence yet: Arsham, Zao Wou-Ki and Holzer. Each portfolio lists the questions we could not settle, and they are collected in the research desk. Auction figures for these artists are on Global Art Monitor, not here.</p>\n<p>Read the new explainer on <a href=\"#article-explained-kentridge-triumphs-and-laments\">Kentridge's Triumphs and Laments</a>.</p>"
+    },
+    {
+      "slug": "explained-kentridge-triumphs-and-laments",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "william-kentridge"
+      ],
+      "tone": "#A39A88",
+      "title": "Triumphs and Laments, explained",
+      "dek": "In 2016 William Kentridge drew 80 figures along the Tiber without adding any paint. He took the dirt away instead, knowing it would come back.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "tan-kentridge-2016",
+        "tan-kentridge-2017",
+        "ipa-kentridge",
+        "wiki-kentridge"
+      ],
+      "body": "<p><b>Artist:</b> <a href=\"#artist-william-kentridge\">William Kentridge</a>. <b>Date:</b> unveiled 21 April 2016. <b>Where:</b> the travertine embankment wall on the right bank of the Tiber, Rome. <b>Medium:</b> high-pressure water jets through plastic stencils, removing grime from the stone.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup></p>\n<h2>What it is</h2>\n<p>A frieze 550 metres long, showing a procession of more than 80 figures, some up to 12 metres tall.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup> The title sets Rome's triumphs beside its laments. Kentridge said at the launch that he was “not interested in telling a chronological history of Rome”.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup></p>\n<p>The Institute for Public Art, which keeps a case study of the project, gives different figures: more than 50 figures and 560 metres.<sup class=\"cite\"><a data-src=\"ipa-kentridge\">[ipa-kentridge]</a></sup> We use The Art Newspaper's, which were reported at the unveiling.</p>\n<h2>How it was made</h2>\n<p>Nothing was painted. Teams sprayed high-pressure water through giant plastic stencils, so the figures appear as clean stone against the dark, polluted wall. The Art Newspaper noted that street artists call this reverse graffiti.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup> The Institute for Public Art describes the process as removing years of accumulated bacteria and pollution.<sup class=\"cite\"><a data-src=\"ipa-kentridge\">[ipa-kentridge]</a></sup></p>\n<p>The opening was marked with performances of live shadow play and more than 40 musicians, with music by Philip Miller.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The material.</b> The image is made of the wall itself. Our reading: this is the reverse of his animated films, where charcoal is rubbed away and redrawn, but the idea is close. In both, what has been removed matters as much as what is left.<sup class=\"cite\"><a data-src=\"wiki-kentridge\">[wiki-kentridge]</a></sup></p>\n<p><b>Time.</b> The frieze was expected to fade within three to five years as the dirt built up again.<sup class=\"cite\"><a data-src=\"tan-kentridge-2016\">[tan-kentridge-2016]</a></sup> Within a year, taggers had painted into the gaps between the figures, and the city said it would clean their marks off. Kentridge's view was that “the fact that the work is destined to disappear is part of the concept”.<sup class=\"cite\"><a data-src=\"tan-kentridge-2017\">[tan-kentridge-2017]</a></sup></p>\n<p>We have not been able to confirm how much of the frieze is visible today. The question is on the research desk.</p>"
+    },
     {
       "slug": "jr-portfolio",
       "section": "features",
