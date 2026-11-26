@@ -6,7 +6,7 @@ new pieces, place images and fix problems. This file is your standing
 brief. Read all of it before doing anything.
 
 ## The site
-- Name: World Art Review. Tagline: "Discover Artists. Understand Art."
+- Name: World Art Review. Tagline: "Discover the Artists. Understand the Art."
 - Live at: https://worldartreview.com
 - Repository: Artiscope/World-art-review, main branch.
 - What it is: an editorial artist research site with artist

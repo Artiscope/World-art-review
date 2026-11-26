@@ -2,6 +2,11 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Thursday 26 November 2026, home page matched to the site brief (draft)
+Published: nothing. The owner sent a new brief for all five sites. The home page now opens with "Discover the Artists. Understand the Art." and the brief's introduction, and the Read by section list is back on, under the featured artists, with Artist A to Z, Art Explained, Collector's Library, Recent Reviews and Exhibition Guides. The tagline in the page description and CLAUDE.md is updated to match.
+Checked: the site builds, the home page holds at 390 pixels and desktop width.
+Needs you: a yes on the pull request.
+
 ## Wednesday 25 November 2026, tiles for Reviews and Art Explained (draft)
 Published: nothing. Design change the owner asked for: the Reviews and Art Explained pages now show their pieces as tiles (picture or colour block, kind of piece, title, summary, reading time), three across on a computer, two on a tablet and one on a phone. Collector's Library is unchanged.
 Checked: the site builds, both pages hold at 390 pixels and desktop width with no page errors.
