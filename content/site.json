@@ -2547,6 +2547,111 @@
       "date": "Read 26 November 2026",
       "kind": "Auction database",
       "url": "https://www.mutualart.com/Artist/Ben-Eine/AAEF07BB447196D3/auction-results"
+    },
+    "wiki-jr": {
+      "title": "JR (artist)",
+      "pub": "Wikipedia",
+      "date": "Read 26 November 2026",
+      "kind": "Encyclopedia entry",
+      "url": "https://en.wikipedia.org/wiki/JR_(artist)"
+    },
+    "jrart-about": {
+      "title": "About JR",
+      "pub": "jr-art.net (the artist's website)",
+      "date": "Read 26 November 2026",
+      "kind": "Artist website",
+      "url": "https://www.jr-art.net/about"
+    },
+    "bkm-jr": {
+      "title": "JR: Chronicles, exhibition page",
+      "pub": "Brooklyn Museum",
+      "date": "2019",
+      "kind": "Museum exhibition text",
+      "url": "https://brooklynmuseum.org/opencollection/exhibitions/3380"
+    },
+    "gc-jr": {
+      "title": "JR, biography",
+      "pub": "Galleria Continua",
+      "date": "Read 26 November 2026",
+      "kind": "Gallery biography",
+      "url": "https://galleriacontinua.com/artists/jr-258/biography"
+    },
+    "artstory-jr": {
+      "title": "JR",
+      "pub": "The Art Story",
+      "date": "Read 26 November 2026",
+      "kind": "Reference article",
+      "url": "https://www.theartstory.org/artist/jr/"
+    },
+    "ap-jr-caverne": {
+      "title": "French artist JR's installation will transform Paris' oldest bridge into a giant cave",
+      "pub": "Associated Press, via KSAT",
+      "date": "23 February 2026",
+      "kind": "News report",
+      "url": "https://www.ksat.com/entertainment/2026/02/23/french-artist-jrs-installation-will-transform-paris-oldest-bridge-into-a-giant-cave/"
+    },
+    "perrotin-jr-caverne": {
+      "title": "JR: In the Making, La Caverne du Pont Neuf, press release",
+      "pub": "Perrotin New York, via Ocula",
+      "date": "2026",
+      "kind": "Gallery press release",
+      "url": "https://ocula.com/art-galleries/perrotin/exhibitions/jr-in-the-making-la-caverne-du-pont-neuf/"
+    },
+    "ac-jr-37": {
+      "title": "JR, 28 millimètres: Woman Are Heroes, Action in Phnom-Penh, lot 37, Iconoclasts",
+      "pub": "Artcurial",
+      "date": "18 November 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.artcurial.com/en/sales/6572/lots/37-a"
+    },
+    "ac-jr-sale": {
+      "title": "Iconoclasts: 20 Years of Urban Art, sale 6572",
+      "pub": "Artcurial",
+      "date": "18 November 2026",
+      "kind": "Auction sale page",
+      "url": "https://www.artcurial.com/en/sales/6572"
+    },
+    "tw-jr-121": {
+      "title": "JR, Eyes On Bricks-New Delhi-LA, lot 121",
+      "pub": "Tate Ward",
+      "date": "Closed 13 August 2026",
+      "kind": "Auction lot page",
+      "url": "https://www.tateward.com/auction/lot/lot-121---jr-french-1983--eyes-on-bricks-new-delhi-la-2010/?lot=28995"
+    },
+    "ma-jr": {
+      "title": "JR auction results",
+      "pub": "MutualArt",
+      "date": "Read 26 November 2026",
+      "kind": "Auction database",
+      "url": "https://www.mutualart.com/Artist/JR/1BA9B3850C546405/auction-results"
+    },
+    "nyt-jr-chronicles": {
+      "title": "JR's Street Gallery Comes Indoors",
+      "pub": "The New York Times (read via a NewsSniffer archive copy)",
+      "date": "11 December 2019",
+      "kind": "Newspaper review",
+      "url": "https://www.nytimes.com/2019/12/11/arts/design/jr-brooklyn-museum.html"
+    },
+    "nyt-jr-copy": {
+      "title": "JR's Street Gallery Comes Indoors, archive copy",
+      "pub": "NewsSniffer",
+      "date": "December 2019",
+      "kind": "Archive copy of newspaper article",
+      "url": "https://newssniffer.co.uk/articles/1873463/versions/8761469"
+    },
+    "rail-jr-chronicles": {
+      "title": "JR: Chronicles",
+      "pub": "The Brooklyn Rail",
+      "date": "February 2020",
+      "kind": "Exhibition review",
+      "url": "https://brooklynrail.org/2020/02/artseen/JR-Chronicles/"
+    },
+    "artnet-jr-chronicles": {
+      "title": "JR: Chronicles at the Brooklyn Museum",
+      "pub": "Artnet News",
+      "date": "October 2019",
+      "kind": "Exhibition preview",
+      "url": "https://news.artnet.com/art-world/jr-chronicles-brooklyn-museum-1669099"
     }
   },
   "artists": [
@@ -9221,9 +9326,317 @@
         "An independent critical review of a gallery show (none found as of 26 November 2026)",
         "Auction prices from Griffin's, Los Angeles Modern Auctions and Ewbank's, so far seen only in MutualArt"
       ]
+    },
+    {
+      "published": true,
+      "image": "images/jr-ted-2011.jpg",
+      "alt": "JR in a black hat, dark glasses, checked shirt and blue jacket, photographed indoors in 2011.",
+      "heroCredit": "Photo: Mohamed Nanabhay, CC BY 2.0",
+      "checked": "26 November 2026",
+      "slug": "jr",
+      "name": "JR",
+      "letter": "J",
+      "ghostWords": [
+        "Faces",
+        "as",
+        "big",
+        "as",
+        "buildings."
+      ],
+      "tag": "Photography and paste-up",
+      "place": "Paris and New York",
+      "tone": "#3A3A36",
+      "heroTone": "#3A3A36",
+      "summary": "A French artist who pastes black-and-white portraits the size of buildings onto walls around the world.",
+      "dek": "JR found a camera on the Paris Métro in 2001 and has been putting strangers’ faces on walls ever since, from the estates outside Paris to the Louvre. His Inside Out Project hands the method to anyone who asks.",
+      "glance": [
+        [
+          "Born",
+          "Paris, 1983",
+          [
+            "bkm-jr",
+            "wiki-jr"
+          ]
+        ],
+        [
+          "Family",
+          "Eastern European and Tunisian immigrant parents",
+          [
+            "bkm-jr"
+          ]
+        ],
+        [
+          "Began",
+          "Graffiti at 13, as Face 3",
+          [
+            "bkm-jr"
+          ]
+        ],
+        [
+          "Media",
+          "Large-format photographs, paper and wheat paste, film, printed fabric",
+          [
+            "bkm-jr",
+            "perrotin-jr-caverne"
+          ]
+        ],
+        [
+          "Galleries",
+          "Perrotin, Pace, Galleria Continua, Galeria Nara Roesler, Simon Studer Art",
+          [
+            "jrart-about"
+          ]
+        ]
+      ],
+      "sections": [
+        {
+          "id": "bio",
+          "title": "Who is JR?",
+          "html": "<p>JR is a French artist, born in Paris in 1983 to Eastern European and Tunisian immigrant parents.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> He works under his initials, taken from his first name, Jean-René.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup> He started as a graffiti writer at thirteen and turned to photography after he found a camera on the Paris Métro in 2001.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"gc-jr\">[gc-jr]</a></sup></p><p>He prints portraits very large and pastes them on buildings, bridges, trains and rooftops, usually with the help of the people in them.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"jrart-about\">[jrart-about]</a></sup> He calls himself a photograffeur, and has said he is “neither a street artist nor a photographer”.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup></p>"
+        },
+        {
+          "id": "style",
+          "title": "Style and technique",
+          "html": "<p>The pictures are black and white and pasted with wheat paste, which the Brooklyn Museum describes as done “at a monumental scale usually reserved for advertisements”.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> For his first series he used a 28mm wide-angle lens close to the face.<sup class=\"cite\"><a data-src=\"artstory-jr\">[artstory-jr]</a></sup> He leaves the portraits unframed and uncaptioned.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup> Since 2016 he has also worked with anamorphosis, images that only fall into place from one spot.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup> The studio side of his practice includes photographs, collages and lithographs, and his website says selling them is the main way he pays for the public projects.<sup class=\"cite\"><a data-src=\"jrart-about\">[jrart-about]</a></sup></p><h3>How to read one</h3><p>Our reading: start with the building, not the face. Look at where the windows, doors and cracks fall across the picture, because JR chooses the wall as carefully as the sitter. Then ask who the person is and why they are on this wall in this place. In most of his projects the answer is the subject of the work.</p>"
+        },
+        {
+          "id": "life",
+          "title": "Life and career",
+          "html": "<p>From 2001 to 2004 he pasted photocopies of his photographs on walls around Paris and called the shows Expo 2 Rue.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> His first major project, Portrait of a Generation (2004 to 2006), made with Ladj Ly, showed young people from Les Bosquets in Montfermeil and La Forestière in Clichy-sous-Bois. The 2005 riots began after the deaths of two teenagers, Zyed Benna and Bouna Traoré.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></p><p>Face 2 Face (2007) put portraits of Israelis and Palestinians side by side in eight cities on both sides of the separation wall.<sup class=\"cite\"><a data-src=\"gc-jr\">[gc-jr]</a></sup> Women Are Heroes started in Rio’s Morro da Providência in 2008 and moved on to Kenya, India and Cambodia.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"gc-jr\">[gc-jr]</a></sup> The Wrinkles of the City (2008 to 2015) photographed older people in Cartagena, Shanghai, Los Angeles, Havana, Berlin and Istanbul.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"gc-jr\">[gc-jr]</a></sup> In 2011 he won the TED Prize, worth $100,000, and launched the Inside Out Project.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></p><p>Commissions followed. The Louvre invited him in 2016, and he returned in 2019 for the pyramid’s 30th anniversary.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> <i>Faces Places</i>, the film he made with Agnès Varda, won the Golden Eye at Cannes in 2017 and was nominated for an Oscar.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup> In 2019 the Brooklyn Museum gave him a large solo show, <i>JR: Chronicles</i>.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> In June 2026 he covered the Pont-Neuf in Paris with a 120-metre cave of printed fabric, made in homage to Christo and Jeanne-Claude.<sup class=\"cite\"><a data-src=\"perrotin-jr-caverne\">[perrotin-jr-caverne]</a></sup><sup class=\"cite\"><a data-src=\"ap-jr-caverne\">[ap-jr-caverne]</a></sup></p>"
+        },
+        {
+          "id": "words",
+          "title": "In their own words",
+          "html": "<blockquote>I own the largest gallery of the world—the walls of the city!<cite>JR, quoted by the Brooklyn Museum<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></cite></blockquote><blockquote>Because we arrived without sponsorship or political agenda, people always received us with open arms.<cite>JR, quoted by the Brooklyn Museum<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></cite></blockquote><blockquote>What are our caves today is our phone.<cite>JR to the Associated Press, February 2026<sup class=\"cite\"><a data-src=\"ap-jr-caverne\">[ap-jr-caverne]</a></sup></cite></blockquote>"
+        },
+        {
+          "id": "explore",
+          "title": "Explore more",
+          "html": "<p>Portfolios on this site that connect with this one.</p><ul><li><a href=\"#artist-banksy\">Banksy</a>: unannounced work in public space, and a long fight over permission</li><li><a href=\"#artist-vhils\">Vhils</a>: giant portraits carved into walls rather than pasted on</li><li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: walls in Brazil, where JR made Women Are Heroes</li></ul>"
+        }
+      ],
+      "works": [
+        {
+          "title": "Face 2 Face",
+          "year": "2007",
+          "medium": "Paste-up photographs, Israel and Palestine",
+          "size": "Street",
+          "note": "Portraits of Israelis and Palestinians pasted side by side in eight cities.",
+          "src": [
+            "gc-jr",
+            "wiki-jr"
+          ],
+          "tone": "#3A3A36"
+        },
+        {
+          "title": "Women Are Heroes, Morro da Providência",
+          "year": "2008",
+          "medium": "Paste-up photographs on about forty buildings, Rio de Janeiro",
+          "size": "Street",
+          "note": "The first stop of a project that went on to Kenya, India and Cambodia.",
+          "src": [
+            "bkm-jr",
+            "gc-jr"
+          ],
+          "tone": "#6B4E3D"
+        },
+        {
+          "title": "28 millimètres: Women Are Heroes, Action in Phnom-Penh, Open Eyes, Cambodge",
+          "year": "2009 to 2012",
+          "medium": "Colour photograph on Dibond under Plexiglas, 1 of 3",
+          "size": "124 x 192 x 7 cm",
+          "note": "Sold at Artcurial, Paris, on 18 November 2026 for €16,032 including fees.",
+          "src": [
+            "ac-jr-37"
+          ],
+          "tone": "#7A6A4F"
+        },
+        {
+          "title": "La Caverne du Pont-Neuf",
+          "year": "2026",
+          "medium": "Printed fabric over the Pont-Neuf, Paris",
+          "size": "120 m long",
+          "note": "A trompe-l’oeil cave in homage to Christo and Jeanne-Claude’s wrapping of the bridge in 1985.",
+          "src": [
+            "perrotin-jr-caverne",
+            "ap-jr-caverne"
+          ],
+          "tone": "#5A5348"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1983",
+          "what": "Born in Paris.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "Age 13",
+          "what": "Starts writing graffiti as Face 3.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2001",
+          "what": "Finds a camera on the Paris Métro.",
+          "src": [
+            "gc-jr"
+          ]
+        },
+        {
+          "when": "2001 to 2004",
+          "what": "Expo 2 Rue, photocopies pasted on Paris walls.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2004 to 2006",
+          "what": "Portrait of a Generation, with Ladj Ly.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2007",
+          "what": "Face 2 Face, Israel and Palestine.",
+          "src": [
+            "gc-jr"
+          ]
+        },
+        {
+          "when": "2008",
+          "what": "Women Are Heroes begins in Rio de Janeiro.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2011",
+          "what": "TED Prize; Inside Out Project launched.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2016",
+          "what": "Louvre pyramid commission.",
+          "src": [
+            "bkm-jr",
+            "wiki-jr"
+          ]
+        },
+        {
+          "when": "2017",
+          "what": "Faces Places with Agnès Varda wins the Golden Eye at Cannes; Kikito at the Tecate border.",
+          "src": [
+            "wiki-jr",
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "2019",
+          "what": "JR: Chronicles, Brooklyn Museum.",
+          "src": [
+            "bkm-jr"
+          ]
+        },
+        {
+          "when": "June 2026",
+          "what": "La Caverne du Pont-Neuf, Paris.",
+          "src": [
+            "perrotin-jr-caverne"
+          ]
+        }
+      ],
+      "seen": "<p>Most of his street work is temporary by design and has gone. The Brooklyn Museum showed his studio work and documentation in <i>JR: Chronicles</i> from October 2019.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> Perrotin New York is showing studies for La Caverne du Pont-Neuf from 28 October to 19 December 2026.<sup class=\"cite\"><a data-src=\"perrotin-jr-caverne\">[perrotin-jr-caverne]</a></sup></p>",
+      "related": [
+        "a-explained-jr-louvre-pyramid",
+        "a-jr-portfolio",
+        "a-how-prints-are-made",
+        "a-original-vs-print"
+      ],
+      "research": [
+        "Year he found the camera: the Brooklyn Museum gives both 2000 and 2001",
+        "Public collections that hold his work (none listed in the sources we read)",
+        "Phillips Paris, 21 October 2026, lot 37: shown as unsold by MutualArt, not checked on Phillips' own site",
+        "Visitor numbers for La Caverne du Pont-Neuf",
+        "Opening date of La Caverne du Pont-Neuf: Associated Press said 6 June 2026 before it opened, Perrotin says 15 June"
+      ]
     }
   ],
   "articles": [
+    {
+      "slug": "jr-portfolio",
+      "section": "features",
+      "kicker": "New on the review",
+      "artists": [
+        "jr"
+      ],
+      "tone": "#3A3A36",
+      "title": "JR joins World Art Review",
+      "dek": "A new portfolio for the French artist who pastes giant faces onto walls, with an explainer on his Louvre pyramid works and a look at critics’ verdicts on his Brooklyn Museum show.",
+      "credit": "",
+      "minutes": 2,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "bkm-jr",
+        "jrart-about",
+        "ac-jr-37",
+        "ac-jr-sale",
+        "tw-jr-121",
+        "ma-jr"
+      ],
+      "body": "\n<p>World Art Review now has thirty-six portfolios. The newest is <a href=\"#artist-jr\">JR</a>, born in Paris in 1983, whose work mostly lives outdoors for a few weeks and then peels away.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></p>\n<p>That makes him an odd fit for a site about collecting, and an interesting one. The street pieces cannot be bought. What sells is the studio side: photographs of the projects, collages and lithographs, and his website says those sales are the main way he funds the public work.<sup class=\"cite\"><a data-src=\"jrart-about\">[jrart-about]</a></sup></p>\n<p>The prices show how wide that range is. At Artcurial in Paris on 18 November 2026, a large colour print from Women Are Heroes, one of an edition of three, sold for €16,032 including fees, while a Face 2 Face portrait and a Wrinkles of the City panel in the same sale did not sell.<sup class=\"cite\"><a data-src=\"ac-jr-37\">[ac-jr-37]</a></sup><sup class=\"cite\"><a data-src=\"ac-jr-sale\">[ac-jr-sale]</a></sup> In August a unique Cibachrome print almost four metres wide made £6,250 with premium at Tate Ward.<sup class=\"cite\"><a data-src=\"tw-jr-121\">[tw-jr-121]</a></sup> MutualArt counts 1,764 JR lots in all, most of them prints.<sup class=\"cite\"><a data-src=\"ma-jr\">[ma-jr]</a></sup> Five recent sales are not a trend, and we have not treated them as one.</p>\n<p>The portfolio comes with <a href=\"#article-explained-jr-louvre-pyramid\">an explainer on the Louvre pyramid works</a> and a review of <i>JR: Chronicles</i>. Open questions are in the research desk.</p>\n"
+    },
+    {
+      "slug": "explained-jr-louvre-pyramid",
+      "section": "explained",
+      "kicker": "Artwork explained",
+      "artists": [
+        "jr"
+      ],
+      "tone": "#3A3A36",
+      "title": "JR at the Louvre pyramid, explained",
+      "dek": "Twice, in 2016 and 2019, JR used paper and paste on the Louvre’s glass pyramid. The first made it seem to vanish. The second lasted barely a day.",
+      "credit": "",
+      "minutes": 3,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "wiki-jr",
+        "bkm-jr",
+        "artstory-jr"
+      ],
+      "body": "\n<p><b>Artist:</b> <a href=\"#artist-jr\">JR</a>. <b>Dates:</b> 25 May to 27 June 2016, and 2019. <b>Where:</b> the glass pyramid in the courtyard of the Louvre, Paris. <b>Medium:</b> black-and-white photographic images on paper, pasted on site.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup><sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup></p>\n<h2>What it is</h2>\n<p>In 2016 the Louvre commissioned JR to work on its glass pyramid.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> He covered it with an anamorphic image, a picture distorted so that it only lines up from one viewpoint, which made the pyramid appear to disappear into the palace behind it.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup> It stayed up from 25 May to 27 June.<sup class=\"cite\"><a data-src=\"wiki-jr\">[wiki-jr]</a></sup></p>\n<p>He came back for the pyramid’s 30th anniversary in 2019 with <i>The Secret of the Great Pyramid</i>, a black-and-white image laid across the courtyard around it.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"artstory-jr\">[artstory-jr]</a></sup> The Art Story reports that it was printed on more than 2,000 pieces of paper and put down by a team of about 400 people.<sup class=\"cite\"><a data-src=\"artstory-jr\">[artstory-jr]</a></sup></p>\n<h2>What to look at</h2>\n<p><b>The viewpoint.</b> Both works only make sense from one place. Walk a few steps and the trick falls apart, which turns the courtyard into a lesson in looking.</p>\n<p><b>The paper.</b> The Art Story says the 2019 image was all but destroyed within a day as visitors walked on it.<sup class=\"cite\"><a data-src=\"artstory-jr\">[artstory-jr]</a></sup> Our reading: that was never a failure. It is the same bargain as every JR paste-up. The work exists for as long as people let it.</p>\n<h2>What it means</h2>\n<p>Our reading: JR had spent fifteen years pasting faces on walls without asking. At the Louvre he was invited onto one of the most official sites in France, and he used it to make a famous building briefly invisible. The joke is gentle, but it is a joke about attention. We photograph the pyramid so often that we stop seeing it.</p>\n"
+    },
+    {
+      "slug": "review-jr-chronicles",
+      "section": "reviews",
+      "kicker": "Review",
+      "artists": [
+        "jr"
+      ],
+      "tone": "#3A3A36",
+      "title": "JR: Chronicles, the street on museum walls",
+      "dek": "The Brooklyn Museum gave JR his largest museum show in 2019. One critic saw an artist bearing witness. Another saw a vision that skims the surface. Both had a point.",
+      "credit": "",
+      "minutes": 4,
+      "updated": "November 2026",
+      "status": "Draft for review",
+      "sources": [
+        "bkm-jr",
+        "nyt-jr-chronicles",
+        "nyt-jr-copy",
+        "rail-jr-chronicles",
+        "artnet-jr-chronicles"
+      ],
+      "body": "\n<p><i>JR: Chronicles</i> opened at the Brooklyn Museum on 4 October 2019.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup> It followed his career from Expo 2 Rue and Portrait of a Generation to Inside Out, and at its centre was <i>The Chronicles of New York City</i>, a mural built from portraits of more than a thousand New Yorkers photographed and interviewed in the summer of 2018.<sup class=\"cite\"><a data-src=\"bkm-jr\">[bkm-jr]</a></sup><sup class=\"cite\"><a data-src=\"artnet-jr-chronicles\">[artnet-jr-chronicles]</a></sup> The New York Times put the number at 1,128.<sup class=\"cite\"><a data-src=\"nyt-jr-chronicles\">[nyt-jr-chronicles]</a></sup><sup class=\"cite\"><a data-src=\"nyt-jr-copy\">[nyt-jr-copy]</a></sup></p>\n<h2>What the critics said</h2>\n<p>The Brooklyn Rail was warm. Its reviewer saw JR turning attention away from the famous and towards people the media ignore, and wrote that he “performs an important role in simply bearing witness.” The review noted that some critics find his response to suffering superficial, but did not dwell on it.<sup class=\"cite\"><a data-src=\"rail-jr-chronicles\">[rail-jr-chronicles]</a></sup></p>\n<p>The New York Times was sharper. It enjoyed the playfulness and called the opening print of Ladj Ly a sly subversion of how the media show black men. But it found the work deliberately noncommittal, “skimming the surface of deeply intractable social problems rather than engaging with them fully,” and called the outlook behind it “a frustratingly reductive vision.” It also suggested that the anonymous persona feeds a mystique the work might not otherwise earn.<sup class=\"cite\"><a data-src=\"nyt-jr-chronicles\">[nyt-jr-chronicles]</a></sup><sup class=\"cite\"><a data-src=\"nyt-jr-copy\">[nyt-jr-copy]</a></sup></p>\n<p>Artnet News, previewing the show rather than reviewing it, predicted a crowd-pleaser and pointed to the problem every street artist faces indoors: the energy of work made on the street is hard to capture in a gallery.<sup class=\"cite\"><a data-src=\"artnet-jr-chronicles\">[artnet-jr-chronicles]</a></sup></p>\n<h2>Our view</h2>\n<p>Our reading: the two reviews describe the same quality from opposite sides. JR’s portraits ask the viewer to look at a person, not to agree with a policy, and that is both why people stop for them and why they say little about causes. The museum setting makes this plainer, because the street, which supplies half the meaning, is missing. The shows that work best are the ones where the place is part of the picture, and a gallery wall is never quite that place.</p>\n<div class=\"callout\"><strong>Verdict</strong>A generous survey of an artist best seen outdoors. Strong on faces and process, and open to the charge that it stops at the surface.</div>\n"
+    },
     {
       "slug": "ben-eine-portfolio",
       "section": "features",
