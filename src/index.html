@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>World Art Review</title>
 <meta name="description" content="Discover the Artists. Understand the Art. Researched artist portfolios, artwork reviews, collecting guides and techniques explained.">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%231D1D1B'/%3E%3Cpath fill='%23F6F4EF' fill-rule='evenodd' d='M2 3h9v10H2zM3 4v8h7V4z'/%3E%3Cpath fill='none' stroke='%23F6F4EF' stroke-width='1' stroke-linejoin='miter' stroke-miterlimit='3' d='M4.25 11.7 6.5 5.3l2.25 6.4'/%3E%3Crect x='12' y='9' width='2' height='4' fill='%23F6F4EF'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%234A2C46'/%3E%3Cpath fill='%23FBFAF7' fill-rule='evenodd' d='M2 3h9v10H2zM3 4v8h7V4z'/%3E%3Cpath fill='none' stroke='%23FBFAF7' stroke-width='1' stroke-linejoin='miter' stroke-miterlimit='3' d='M4.25 11.7 6.5 5.3l2.25 6.4'/%3E%3Crect x='12' y='9' width='2' height='4' fill='%23FBFAF7'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
   --mist:#EFE7EC; --mist-deep:#E6DBE2; --aubergine:#4A2C46; --aubergine-ink:#2A1A28; --gold:#C9A24B; --gold-text:#6E5317; --gold-light:#E3C77F;
   --green:#4A2C46; --green-dark:#3A2237; --green-hover:#5A3755;
   --brick:#C9A24B; --brick-soft:#E3C77F;
-  --ink:#1D1D1B; --muted:#4E4E58; --soft:#6B6570; --tile-ink:#F6F4EF; --tile:#1D1D1B; --mk-tile:#1D1D1B; --mk-ink:#F6F4EF;
+  --ink:#1D1D1B; --muted:#4E4E58; --soft:#6B6570; --tile-ink:#F6F4EF; --tile:#1D1D1B; --mk-tile:#4A2C46; --mk-ink:#FBFAF7;
   --reported-bg:#EFE7EC; --reported-fg:#7A2E3A;
   --display:'Castoro', Georgia, serif;
   --text:'Literata', Georgia, serif;
@@ -88,7 +88,8 @@ html:not(.rm) [data-in]{opacity:0}
 .chip:hover{border-color:var(--ink)}
 .chip[aria-pressed="true"]{background:var(--mist);border-color:var(--green);color:var(--aubergine-ink)}
 .mark{display:block;flex:0 0 auto}
-.on-green{--mk-tile:#F6F4EF;--mk-ink:#1D1D1B}
+.on-green{--mk-tile:#4A2C46;--mk-ink:#FBFAF7}
+footer.on-green{--mk-tile:#EFE7EC;--mk-ink:#2A1A28}
 .wordmark{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--display);line-height:1}
 .plate{position:relative;overflow:hidden;background:var(--tone,var(--paper-deep));isolation:isolate}
 .plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
