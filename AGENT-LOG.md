@@ -2,6 +2,11 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Thursday 26 November 2026, contact form saves messages (draft)
+Published: nothing. The owner asked for an enquiry form on every site, stored in Supabase. A new Contact page at #page-contact holds the form, and the footer's Contact link now goes there. Messages are saved to the enquiries table in the Artiscope Digital Home project on Supabase, which visitors can add to but never read. A hidden box catches spam robots. The privacy wording says where messages are kept and how to have them deleted.
+Checked: the site builds; the form shows its sending, thank you and error messages; the layout holds at 390 pixels and desktop width.
+Needs you: a yes on the pull request.
+
 ## Thursday 26 November 2026, home page matched to the site brief (draft)
 Published: nothing. The owner sent a new brief for all five sites. The home page now opens with "Discover the Artists. Understand the Art." and the brief's introduction, and the Read by section list is back on, under the featured artists, with Artist A to Z, Art Explained, Collector's Library, Recent Reviews and Exhibition Guides. The tagline in the page description and CLAUDE.md is updated to match.
 Checked: the site builds, the home page holds at 390 pixels and desktop width.

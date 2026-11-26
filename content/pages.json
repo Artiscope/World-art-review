@@ -102,7 +102,7 @@
               ],
               [
                 "Contact",
-                "mailto:info@artiscope.co.uk"
+                "#page-contact"
               ]
             ]
           }
@@ -340,7 +340,31 @@
           "type": "long-text",
           "visible": true,
           "settings": {
-            "body": "<h2>Every fact has a source</h2>\n<p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>\n<h2>We say who said it</h2>\n<p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class=\"reported\">Reported</span>.</p>\n<h2>We show what is missing</h2>\n<p>Portfolios show a research status: how many facts are sourced and how many dates or details are still awaiting confirmation.</p>\n<h2>Our relationships</h2>\n<p>World Art Review is published by Artiscope, of Grove Gallery in London. Artiscope sells work by some of the artists covered on this site, and you should know that when you read about them.</p>\n<p>It changes how we write. A fact that comes only from Grove Gallery, from another selling gallery or from an artist's own publicity is marked <span class=\"reported\">Reported</span>. Reviews draw on what independent critics have published, and where no independent criticism exists we say so rather than write a review ourselves.</p>\n<h2>Corrections</h2>\n<p>If you spot an error, write to <a href=\"mailto:info@artiscope.co.uk?subject=Correction\">info@artiscope.co.uk</a>. We correct promptly and note the change on the page.</p>\n<h2>Privacy</h2>\n<p>This site has no cookies, no adverts and no tracking. We do not know who you are when you read it.</p>\n<p>A few things do leave your browser. The site is hosted on GitHub Pages, and GitHub keeps basic server records, such as your IP address, as any web host does. The typefaces come from Google Fonts and one small script comes from jsDelivr, so those services also see your browser ask for them. Their own privacy policies apply.</p>\n<p>If you save an article, write a note or change the text size, that is kept in your own browser and nowhere else. Clearing the site's data in your browser removes it.</p>\n<p>The Subscribe and contact buttons do not send anything by themselves. They open your own email app with a message to <a href=\"mailto:info@artiscope.co.uk\">info@artiscope.co.uk</a>. If you send it, Grove Gallery gets your name and email address and uses them only to reply, or to add you to the list you asked to join. To come off the list, or to ask what we hold about you, write to the same address.</p>\n<h2>Terms</h2>\n<p>You are welcome to read, quote and link to anything here. If you quote us, keep it short and name World Art Review as the source.</p>\n<p>The writing belongs to World Art Review. Pictures belong to the artists or photographers named in their captions, and some are used under the licence given there. Please check that licence before reusing a picture from this site.</p>\n<p>We check our facts and show where each one comes from, but we can still get things wrong. Nothing here is financial advice or a valuation. An auction price is a past result and does not tell you what a work will fetch next time.</p>\n<p>Links to other sites are there so you can check our sources. We do not run those sites and are not responsible for them.</p>\n<p>Last updated 23 November 2026.</p>"
+            "body": "<h2>Every fact has a source</h2>\n<p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>\n<h2>We say who said it</h2>\n<p>We label sources by type: independent reporting, interviews with the artist, the artist's or gallery's own publicity, and gallery records. A claim that comes only from publicity is marked <span class=\"reported\">Reported</span>.</p>\n<h2>We show what is missing</h2>\n<p>Portfolios show a research status: how many facts are sourced and how many dates or details are still awaiting confirmation.</p>\n<h2>Our relationships</h2>\n<p>World Art Review is published by Artiscope, of Grove Gallery in London. Artiscope sells work by some of the artists covered on this site, and you should know that when you read about them.</p>\n<p>It changes how we write. A fact that comes only from Grove Gallery, from another selling gallery or from an artist's own publicity is marked <span class=\"reported\">Reported</span>. Reviews draw on what independent critics have published, and where no independent criticism exists we say so rather than write a review ourselves.</p>\n<h2>Corrections</h2>\n<p>If you spot an error, write to <a href=\"mailto:info@artiscope.co.uk?subject=Correction\">info@artiscope.co.uk</a>. We correct promptly and note the change on the page.</p>\n<h2>Privacy</h2>\n<p>This site has no cookies, no adverts and no tracking. We do not know who you are when you read it, unless you write to us.</p>\n<p>A few things do leave your browser. The site is hosted on GitHub Pages, and GitHub keeps basic server records, such as your IP address, as any web host does. The typefaces come from Google Fonts and one small script comes from jsDelivr, so those services also see your browser ask for them. Their own privacy policies apply.</p>\n<p>If you save an article, write a note or change the text size, that is kept in your own browser and nowhere else. Clearing the site's data in your browser removes it.</p>\n<p>The Subscribe button does not send anything by itself. It opens your own email app with a message to <a href=\"mailto:info@artiscope.co.uk\">info@artiscope.co.uk</a>. If you send it, Artiscope gets your name and email address and uses them only to add you to the list you asked to join.</p>\n<p>The <a href=\"#page-contact\">contact form</a> is different: it sends your name, email address, topic and message straight to us. They are stored with Supabase, a database service, on servers in Ireland (see the <a href=\"https://supabase.com/privacy\">Supabase privacy policy</a>). Only the Artiscope team can read them, and we use them only to reply.</p>\n<p>To come off the list, to ask what we hold about you or to have it deleted, write to <a href=\"mailto:info@artiscope.co.uk\">info@artiscope.co.uk</a>.</p>\n<h2>Terms</h2>\n<p>You are welcome to read, quote and link to anything here. If you quote us, keep it short and name World Art Review as the source.</p>\n<p>The writing belongs to World Art Review. Pictures belong to the artists or photographers named in their captions, and some are used under the licence given there. Please check that licence before reusing a picture from this site.</p>\n<p>We check our facts and show where each one comes from, but we can still get things wrong. Nothing here is financial advice or a valuation. An auction price is a past result and does not tell you what a work will fetch next time.</p>\n<p>Links to other sites are there so you can check our sources. We do not run those sites and are not responsible for them.</p>\n<p>Last updated 23 November 2026.</p>"
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "sections": [
+        {
+          "id": "form",
+          "type": "contact-form",
+          "visible": true,
+          "settings": {
+            "eyebrow": "Contact",
+            "heading": [
+              "Write to us"
+            ],
+            "text": "Questions, corrections and suggestions for artists to cover. We read every message and reply by email.",
+            "topics": [
+              "A question",
+              "A correction",
+              "Suggest an artist",
+              "Something else"
+            ],
+            "button": "Send message"
           }
         }
       ]
