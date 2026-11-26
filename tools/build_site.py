@@ -292,6 +292,17 @@ def write_search_pages(out_dir, page, artists, articles):
             data["about"] = [{"@type": "Person", "name": n} for n in names]
         write("articles", a["slug"], "a-" + a["slug"], title_for(a.get("title") or SITE_NAME), desc, ld_json(data), image, "article")
 
+    # The page GitHub Pages sends for an address that does not exist. It can be shown at any depth,
+    # so pictures and links start from the top, and it is kept out of search results.
+    missing = (page.replace('"images/', '"/images/').replace("'images/'", "'/images/'")
+                   .replace('href="images/', 'href="/images/'))
+    missing = missing.replace("</body>", LINKS_SCRIPT % '"/"' + "</body>", 1)
+    missing = re.sub(r"<title>[^<]*</title>", "<title>Page not found | %s</title>" % SITE_NAME, missing, count=1)
+    missing = missing.replace("<head>", "<head>\n<meta name=\"robots\" content=\"noindex\">\n"
+                              "<script>if(!location.hash)history.replaceState(null,'',location.pathname+location.search+'#not-found');</script>\n", 1)
+    with open(os.path.join(out_dir, "404.html"), "w", encoding="utf-8") as f:
+        f.write(missing)
+
     with open(os.path.join(out_dir, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         for address in addresses:
