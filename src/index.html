@@ -2065,7 +2065,7 @@ const LIBRARY = {
       `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">${W("form.your-name", "Your name")}<input name="name" type="text" autocomplete="name" required maxlength="120"></label><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required maxlength="254"></label></div>`+
       (topics.length ? `<label class="mf">${W("form.topic", "What it is about")}<select name="topic">${topics.map(x => `<option data-adh-b="topics.${x.i}">${T(x.t.trim())}</option>`).join('')}</select></label>` : '')+
       `<label class="mf">${W("form.message", "Your message")}<textarea name="message" rows="6" required maxlength="5000"></textarea></label><div class="hp" aria-hidden="true"><label>Leave this box empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>`+
-      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.send", "Send message")}</button><p class="mf-note" role="status">${W("form.note-contact", "Your name, email and message are stored with Supabase, on servers in Ireland, and used only to reply to you. To have them deleted, write to {email}.", { email: MAIL_TO })}</p></form></div>`);
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.send", "Send message")}</button><p class="mf-note" role="status">${W("form.note-contact", "", { email: MAIL_TO })}</p></form></div>`);
   },
   /* empty room between two sections; nothing is drawn */
   space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `
