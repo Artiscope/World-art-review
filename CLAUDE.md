@@ -59,9 +59,11 @@ Digital Home without touching code:
   `content/` and `tools/`) out of the public site.
 
 ## The look of this site
-- Colours: Oatmilk #EEE5D4 for pages and cards (about 60%), Calm Green
-  #1D4A35 for bands, buttons and labels (about 30%), brick #B5392B for
-  links and highlights (about 10%). Text is charcoal #1D1D1B.
+- Colours (the owner's choice, 26 November 2026): lilac mist #EFE7EC hero,
+  warm white #FBFAF7 pages, ivory #F5F1EC and lilac stone #EDE6E6 sections,
+  deep aubergine #2A1A28 for the figures band and footer, aubergine #4A2C46
+  buttons, gold #C9A24B for hairlines and badges (dark text only), dark gold
+  #6E5317 for gold text. Text is charcoal #1D1D1B.
 - Typefaces: Castoro for the name and headlines, Literata for reading
   text, Libre Franklin for small text and buttons.
 - Sharp square boxes, no rounded corners, small text, no theme
