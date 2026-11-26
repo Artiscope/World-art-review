@@ -263,7 +263,7 @@
       "id": "artist-vincent-van-gogh",
       "group": "Artist main images",
       "label": "Vincent van Gogh",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-vincent-van-gogh-chataigniers-en-fleurs",
@@ -287,7 +287,7 @@
       "id": "artist-wassily-kandinsky",
       "group": "Artist main images",
       "label": "Wassily Kandinsky",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-wassily-kandinsky-betonte-ecken",
@@ -389,7 +389,7 @@
       "id": "artist-dana-awartani",
       "group": "Artist main images",
       "label": "Dana Awartani",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-dana-awartani-come-let-me-heal-your-wounds-let-me-mend-your-broken-bones",
@@ -437,7 +437,7 @@
       "id": "artist-mohamed-lghacham",
       "group": "Artist main images",
       "label": "Mohamed L'Ghacham",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-mohamed-lghacham-casa-paquita",
@@ -983,7 +983,7 @@
       "id": "artist-jenny-holzer",
       "group": "Artist main images",
       "label": "Jenny Holzer",
-      "filled": false
+      "filled": true
     },
     {
       "id": "work-jenny-holzer-truisms",
@@ -1074,6 +1074,12 @@
       "group": "Articles: Features",
       "label": "Ten new portfolios, from Tokyo to Coyoacán",
       "filled": false
+    },
+    {
+      "id": "artist-philip-colbert",
+      "group": "Artist main images",
+      "label": "Philip Colbert",
+      "filled": true
     }
   ]
 }

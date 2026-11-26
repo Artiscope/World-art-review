@@ -5839,8 +5839,8 @@
       "name": "Vincent van Gogh",
       "letter": "V",
       "published": true,
-      "image": "",
-      "alt": "",
+      "image": "images/vincent-van-gogh-self-portrait-1887.jpg",
+      "alt": "Vincent van Gogh's self-portrait of 1887: his head and shoulders in short strokes of orange, blue and green, with a red beard and a sideways look.",
       "ghostWords": [
         "Seventy",
         "days,",
@@ -5853,7 +5853,7 @@
       "heroTone": "#3C5A8A",
       "summary": "A Dutch painter of bold colour and fast, visible brushwork, who made most of his paintings in the last two years of his short life.",
       "dek": "Vincent van Gogh painted for little more than ten years and sold little while he lived. In November 2026 one of his last paintings became the most expensive he has ever made at auction.",
-      "heroCredit": "",
+      "heroCredit": "Self-Portrait, 1887. Art Institute of Chicago, public domain",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -6010,8 +6010,8 @@
       "name": "Wassily Kandinsky",
       "letter": "W",
       "published": true,
-      "image": "",
-      "alt": "",
+      "image": "images/wassily-kandinsky-erfurth-1923.jpg",
+      "alt": "Black and white photograph of Wassily Kandinsky in a dark suit, white collar and round glasses, seated with his hands folded on his knee.",
       "ghostWords": [
         "Colour",
         "as",
@@ -6024,7 +6024,7 @@
       "heroTone": "#B8452F",
       "summary": "A Russian-born painter who moved from landscape to pure abstraction, and who believed colour could move a viewer the way music does.",
       "dek": "Wassily Kandinsky gave up law for painting at 30 and spent the rest of his life stripping the recognisable out of his pictures. His Bauhaus years produced the hard-edged circles and angles now most closely tied to his name.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Hugo Erfurth, 1923, public domain",
       "checked": "23 November 2026",
       "glance": [
         [
@@ -6810,9 +6810,9 @@
     },
     {
       "published": true,
-      "image": "",
-      "alt": "",
-      "heroCredit": "",
+      "image": "images/dana-awartani-venice-2026.jpg",
+      "alt": "Dana Awartani, smiling, with long dark hair, in a denim shirt and a wooden bead necklace.",
+      "heroCredit": "Photo: Hano, CC BY-SA 4.0 (cropped)",
       "checked": "25 November 2026",
       "slug": "dana-awartani",
       "name": "Dana Awartani",
@@ -7169,9 +7169,9 @@
     },
     {
       "published": true,
-      "image": "",
-      "alt": "",
-      "heroCredit": "",
+      "image": "images/mohamed-lghacham-table-is-set-vienna.jpg",
+      "alt": "A mural covering the end wall of a five-storey block of flats: a family gathered round an outdoor table among trees and sunflowers, with parked cars and scooters in front.",
+      "heroCredit": "the table is set, Vienna. Photo: Skunk, CC BY-SA 4.0",
       "checked": "25 November 2026",
       "slug": "mohamed-lghacham",
       "name": "Mohamed L'Ghacham",
@@ -8782,8 +8782,8 @@
       "name": "Philip Colbert",
       "letter": "P",
       "published": true,
-      "image": null,
-      "alt": "",
+      "image": "images/philip-colbert-studio-2022.jpg",
+      "alt": "Philip Colbert in a red suit and red and white trainers, sitting on a white plinth in a gallery space, with lobster sculptures and a round painting behind him.",
       "ghostWords": [
         "The",
         "painter",
@@ -8796,7 +8796,7 @@
       "heroTone": "#D9302C",
       "summary": "The Scottish-born painter whose large, crowded canvases are led by a cartoon lobster, his stand-in, and stuffed with emojis, comic-book sound effects and borrowings from pop art and Old Master hunting scenes.",
       "dek": "Philip Colbert studied philosophy and ran a clothing label before he painted full time. Then the lobster arrived.",
-      "heroCredit": "",
+      "heroCredit": "Photo: Gpc9, CC BY-SA 4.0",
       "checked": "25 November 2026",
       "glance": [
         [
@@ -11394,7 +11394,10 @@
         "Start of the Redaction paintings: Britannica says 2005, Wikipedia 2008",
         "Year she joined the Whitney programme: 1976 or 1977",
         "Photograph of the artist with a suitable free licence"
-      ]
+      ],
+      "image": "images/jenny-holzer-erlauf-peace-memorial.jpg",
+      "alt": "A tall pale stone column among young birch trees and low planting at dusk, with houses behind.",
+      "heroCredit": "Peace memorial, Erlauf. Photo: Herzi Pinki, CC BY-SA 4.0"
     },
     {
       "published": true,
