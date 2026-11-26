@@ -787,9 +787,9 @@ sup.cite.more::before{content:",";color:var(--muted)}
 @media (max-width:700px){.gw-note{position:relative;right:auto;bottom:auto;margin:0 auto .75rem}}
 .pop{position:absolute;z-index:90;width:18.75rem;max-width:calc(100vw - 1.5rem);background:var(--green);color:var(--paper);padding:1rem 1.1rem;font-family:var(--sans);font-size:.78rem;line-height:1.5;box-shadow:0 1.5rem 3rem -1.5rem rgba(0,0,0,.6);opacity:0;transform:translateY(.4rem);transition:opacity .2s,transform .25s var(--ease-expo);pointer-events:none}
 .pop.show{opacity:1;transform:none;pointer-events:auto}
-.supop .pt{font-family:var(--display);font-size:calc(1rem * var(--h-scale, 1));line-height:1.3;margin-bottom:.3rem}
-.supop .pk{color:var(--brick-soft);font-size:.68rem;margin-bottom:.5rem}
-.supop .pa{display:flex;gap:.9rem;margin-top:.6rem}
+.pop .pt{font-family:var(--display);font-size:calc(1rem * var(--h-scale, 1));line-height:1.3;margin-bottom:.3rem}
+.pop .pk{color:var(--brick-soft);font-size:.68rem;margin-bottom:.5rem}
+.pop .pa{display:flex;gap:.9rem;margin-top:.6rem}
 .pop button,.pop a{color:var(--brick-soft);font-family:var(--sans);font-size:.78rem}
 .toast{position:fixed;left:50%;bottom:1.75rem;z-index:130;transform:translate(-50%,1.5rem);opacity:0;background:var(--green);color:var(--paper);padding:.75rem 1.25rem;font-family:var(--sans);font-size:.78rem;transition:opacity .3s,transform .4s var(--ease-expo);pointer-events:none}
 .toast.show{opacity:1;transform:translate(-50%,0)}
@@ -969,7 +969,7 @@ footer .bar{padding-top:1rem}
   </div>
 </div>
 
-<div class="supop" id="pop" role="dialog" aria-label="Source"></div>
+<div class="pop" id="pop" role="dialog" aria-label="Source"></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="dock" id="dock" aria-label="Reading tools"></div>
 
