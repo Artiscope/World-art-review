@@ -599,9 +599,11 @@ footer .wordmark{font-size:1.15rem}footer .wordmark .mark{width:1.4rem;height:1.
 .prose .callout strong{display:block;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--green);margin-bottom:.5rem}
 .prose a{color:var(--brick);transition:color .2s}
 .prose a:hover{color:var(--green)}
-sup.cite{font-family:var(--sans);font-size:.65rem;color:var(--brick);margin-left:.1rem}
-sup.cite a{color:var(--brick);cursor:pointer;padding:0 .1rem}
-sup.cite a:hover,sup.cite a.on{background:var(--paper-deep)}
+sup.cite{font-family:var(--sans);font-size:.62rem;line-height:0;color:var(--brick);margin-left:.08rem}
+sup.cite a{color:var(--brick);cursor:pointer;text-decoration:none}
+body sup.cite a:hover,body sup.cite a.on,body sup.cite a:focus-visible{color:var(--brick);text-decoration:underline;text-underline-offset:2px;outline:0}
+sup.cite.more::before{content:",";color:var(--muted)}
+.src-note{font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--muted);margin:0 0 1rem}
 .works{display:grid;grid-template-columns:repeat(auto-fill,minmax(11rem,1fr));gap:2rem 1.5rem}
 .work-btn{all:unset;box-sizing:border-box;cursor:pointer;display:block;position:relative;padding-bottom:1.75rem}
 .work-btn:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
@@ -990,7 +992,7 @@ const IC = {
   link:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>',
   mark:'<svg class="mark" aria-hidden="true"><use href="#sym-mark"/></svg>'
 };
-function c(id){ return `<sup class="cite"><a data-src="${id}">[${id}]</a></sup>`; }
+function c(id){ return `<sup class="cite"><a data-src="${id}">${id}</a></sup>`; }
 function ph(t){ return `<span class="placeholder">[${t}]</span>`; }
 function artistBy(slug){ return ARTISTS.find(a => a.slug === slug); }
 function articleBy(slug){ return ARTICLES.find(a => a.slug === slug); }
@@ -1286,7 +1288,12 @@ function numberCitations(root, order){
   root.querySelectorAll('a[data-src]').forEach(a => {
     const id = a.getAttribute('data-src');
     if(!(id in map)){ order.push(id); map[id] = order.length; }
-    a.textContent = '['+map[id]+']';
+    a.textContent = String(map[id]);
+    /* two or more sources on one fact read as 1,2 rather than separate marks */
+    const sup = a.closest('sup.cite');
+    if(sup){ let prev = sup.previousSibling;
+      while(prev && prev.nodeType===3 && !prev.textContent.trim()){ const gap = prev; prev = prev.previousSibling; gap.remove(); }
+      if(prev && prev.nodeType===1 && prev.matches('sup.cite')) sup.classList.add('more'); }
     a.setAttribute('role','button'); a.setAttribute('tabindex','0');
     a.setAttribute('aria-label','Source '+map[id]+': '+(SOURCES[id]?SOURCES[id].title:''));
     a.addEventListener('mouseenter', ()=>showPop(a));
@@ -1300,7 +1307,7 @@ function numberCitations(root, order){
 }
 function sourcesHTML(ids){
   if(!ids.length) return '';
-  return `<section class="sources" id="sources-list" aria-labelledby="srcH"><h2 id="srcH">${W("item.sources", "Sources")}</h2><ol>${
+  return `<section class="sources" id="sources-list" aria-labelledby="srcH"><h2 id="srcH">${W("item.sources", "Sources")}</h2><p class="src-note">${W("item.sources-note", "The small numbers in the text match the sources below. Each one shows where a fact comes from.")}</p><ol>${
     ids.map(id => { const s = SOURCES[id]; if(!s) return '';
       const t = s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title);
       return `<li id="src-${id}" style="border-radius:0;padding:2px 4px;margin-left:-4px">${t}. ${esc(s.pub)}, ${esc(s.date)}. <span class="meta">${esc(s.kind)}.</span></li>`; }).join('')
@@ -2330,7 +2337,7 @@ function portfolio(a){
       <span class="eyebrow">${W("item.glance", "At a glance")}</span>
       ${a.glance.map(g=>`<div class="row"><span class="k">${esc(g[0])}</span><span class="v">${g[1]}${g[2].map(c).join('')}</span></div>`).join('')}
       <div class="rs"><span class="pc num">${pct}<small>%</small></span><span>Research complete. ${facts} facts sourced${openDates?`, ${openDates} date${openDates>1?'s':''} awaiting confirmation`:''}${reported?`, ${reported} reported claim${reported>1?'s':''} not yet confirmed`:''}. Last checked ${a.checked}. <a href="#research" style="text-decoration:underline">${W("item.see-missing", "See what is missing")}</a></span></div>
-      <span class="credits">Researched and written for World Art Review. Every fact links to its source.</span>
+      <span class="credits">${W("item.credits", "Researched and written for World Art Review. The small red number after a fact shows where it comes from. Tap or hover over it to see the source.")}</span>
     </aside>
   </div>
   <div class="pf-body">
