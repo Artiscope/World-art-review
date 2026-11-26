@@ -878,6 +878,47 @@ form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
 footer.on-green{border-top:1px solid var(--gold)}
 .btn.paper{background:var(--aubergine)!important;color:var(--page)!important}
 footer.on-green .btn.paper{background:var(--gold)!important;color:var(--aubergine-ink)!important}
+
+/* ---------- Tighter spacing, 26 November 2026 ----------
+   Less empty space between bands, under page headings, between cards
+   and in the footer, on desktop and phone. Colours and type unchanged. */
+.inner{padding:2.75rem 1.5rem}
+@media (min-width:640px){.inner{padding:3.5rem 2.5rem}}
+.phead{padding:2rem 1.5rem 1.75rem}
+@media (min-width:640px){.phead{padding:2.75rem 2.5rem 2rem}}
+.tiles,.agrid,.list,.pf-body,.art-body{padding-bottom:3rem}
+@media (min-width:640px){.tiles,.agrid,.list,.pf-body,.art-body{padding-bottom:3.5rem}}
+.tiles{gap:2rem 1.75rem}
+.agrid{gap:1.75rem 1.5rem}
+.azrow{padding-bottom:1.75rem}
+.pf-top{gap:2rem;padding-bottom:2.25rem}
+@media (min-width:640px){.pf-top{padding-bottom:2.75rem}}
+.pf-body,.art-body{gap:2.25rem}
+.pf-main{gap:2.75rem}
+.art-body .main{gap:2.25rem}
+.art-hero{padding-bottom:1.75rem}
+@media (min-width:640px){.art-hero{padding-bottom:2.25rem}}
+.prose h2{margin-top:2rem}
+.prose h3{margin-top:1.5rem}
+.rows{margin-top:1.75rem}
+.rows a{padding:1.2rem 0}
+.list a{padding:1.15rem 0}
+.nums dl{margin-top:2.5rem;gap:2.25rem 2rem}
+.method .grid{margin-top:2.25rem}
+.mcard{min-height:13rem;gap:1.25rem}
+.feat .ctrls{margin-top:2rem}
+.ghost{margin-top:2rem}
+.lib-articles .list,.lib-faq .items,.lib-columns .cols,.lib-slideshow .ss,.lib-gallery .gl,.lib-artworks .aw,.lib-press .pq,.lib-artist-cards .agrid{margin-top:1.75rem}
+.lib-exhibitions .exh,.lib-career .timeline{margin-top:1.75rem}
+.lib-text-picture .grid{gap:2rem}
+@media (min-width:800px){.lib-text-picture .grid{gap:3rem}}
+.pbanner{min-height:26rem}
+@media (min-width:640px){.pbanner{min-height:32rem}}
+footer{padding:2.5rem 1.5rem}
+@media (min-width:640px){footer{padding:3rem 2.5rem}}
+footer .cta{padding-bottom:2.25rem}
+footer .cols{padding:2.25rem 0;gap:1.75rem}
+footer .bar{padding-top:1.5rem}
 </style>
 </head>
 <body>
