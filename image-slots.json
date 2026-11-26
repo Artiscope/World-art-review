@@ -750,6 +750,54 @@
       "group": "Articles: Features",
       "label": "Ben Eine joins World Art Review",
       "filled": false
+    },
+    {
+      "id": "artist-jr",
+      "group": "Artist main images",
+      "label": "JR",
+      "filled": true
+    },
+    {
+      "id": "work-jr-face-2-face",
+      "group": "Artworks: JR",
+      "label": "Face 2 Face",
+      "filled": false
+    },
+    {
+      "id": "work-jr-women-are-heroes-morro-da-provid-ncia",
+      "group": "Artworks: JR",
+      "label": "Women Are Heroes, Morro da Providência",
+      "filled": false
+    },
+    {
+      "id": "work-jr-28-millimetres-women-are-heroes-action-in-phnom-penh-open-eyes-cambodge",
+      "group": "Artworks: JR",
+      "label": "28 millimètres: Women Are Heroes, Action in Phnom-Penh, Open Eyes, Cambodge",
+      "filled": false
+    },
+    {
+      "id": "work-jr-la-caverne-du-pont-neuf",
+      "group": "Artworks: JR",
+      "label": "La Caverne du Pont-Neuf",
+      "filled": false
+    },
+    {
+      "id": "article-explained-jr-louvre-pyramid",
+      "group": "Articles: Art explained",
+      "label": "JR at the Louvre pyramid, explained",
+      "filled": false
+    },
+    {
+      "id": "article-review-jr-chronicles",
+      "group": "Articles: Reviews",
+      "label": "JR: Chronicles, the street on museum walls",
+      "filled": false
+    },
+    {
+      "id": "article-jr-portfolio",
+      "group": "Articles: Features",
+      "label": "JR joins World Art Review",
+      "filled": false
     }
   ]
 }
