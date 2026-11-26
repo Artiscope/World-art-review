@@ -865,6 +865,9 @@ footer .bar{padding-top:1rem}
 .ao-privacy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .ao-privacy button { border: 0; cursor: pointer; padding: 8px 14px; background: #EEE5D4; color: #1D4A35; font: inherit; border-radius: 0; }
 @media (max-width: 600px) { .ao-top { right: 14px; bottom: 14px; } .ao-top.left { left: 14px; } .ao-privacy { left: 10px; right: 10px; bottom: 10px; } }
+/* Contact form: the box only spam robots fill in stays off screen, and the button rests while a message is sending */
+.hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+form[aria-busy="true"] [type="submit"]{opacity:.6;cursor:progress}
 </style>
 </head>
 <body>
@@ -1659,10 +1662,10 @@ document.addEventListener('submit', e => {
   const f = e.target.closest && e.target.closest('form[data-mailform]'); if(!f) return;
   e.preventDefault();
   const kind = f.dataset.mailform, note = f.querySelector('.mf-note'), say = (t, bad) => { if(note){ note.textContent = t; note.classList.toggle('err', !!bad); } };
+  if(kind === 'contact') return sendEnquiry(f, say);
   const email = f.elements.email; if(email && (!email.value.trim() || !email.checkValidity())){ email.focus(); say(Wt("form.need-email", "We need a working email address, so we can reply."), true); return; }
-  if(kind === 'contact' && f.elements.message && !f.elements.message.value.trim()){ f.elements.message.focus(); say(Wt("form.need-message", "Write your message first."), true); return; }
   openMail(kind, f);
-  say(kind === 'contact' ? `Your email app should now be open with your message ready to send. If nothing opened, write to ${MAIL_TO}.` : `Your email app should now be open with the message ready. Send it and you are on the list. If nothing opened, write to ${MAIL_TO}.`);
+  say(`Your email app should now be open with the message ready. Send it and you are on the list. If nothing opened, write to ${MAIL_TO}.`);
 });
 $('subClose').onclick = closeSub; $('subBg').onclick = closeSub; $('subDone').onclick = closeSub;
 $('menuClose').onclick = closeMenu; $('menuBg').onclick = closeMenu;
@@ -1887,9 +1890,32 @@ function bandOf(st, dflt){
   else if(st.fg && /^#[0-9a-fA-F]{6}$/.test(st.fg)) style += `color:${st.fg};`;
   return { cls, style };
 }
-/* The site's forms send nothing themselves. Each one opens the visitor's own email app with a
-   message ready to send to this address, and says so plainly. Nothing is stored or passed on. */
+/* The sign-up forms send nothing themselves. Each one opens the visitor's own email app with a
+   message ready to send to this address, and says so plainly. The contact form is the exception:
+   its messages are saved to the Artiscope enquiries table on Supabase. The key below is the public
+   (publishable) one. It can only add a message; it cannot read, change or delete any. */
 const MAIL_TO = 'info@artiscope.co.uk';
+const ENQ = { url: 'https://qjfutwulufvmhetztubt.supabase.co/rest/v1/enquiries', key: 'sb_publishable_6X_IS-AOOVGNpzp73QPU8w_l_qSEnhX', site: 'world-art-review' };
+const ENQ_EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+function sendEnquiry(f, say){
+  if(f.dataset.busy) return;
+  const v = n => { const el = f.elements[n]; return el ? String(el.value || '').trim() : ''; };
+  const bad = (n, t) => { const el = f.elements[n]; if(el){ el.setAttribute('aria-invalid', 'true'); el.focus(); el.addEventListener('input', () => el.removeAttribute('aria-invalid'), { once: true }); } say(t, true); };
+  if(f.elements.name && !v('name')) return bad('name', Wt("form.need-name", "Please add your name, so we know who we are replying to."));
+  if(!ENQ_EMAIL.test(v('email')) || (f.elements.email && !f.elements.email.checkValidity())) return bad('email', Wt("form.need-email", "We need a working email address, so we can reply."));
+  if(!v('message')) return bad('message', Wt("form.need-message", "Write your message first."));
+  if(v('message').length > 5000) return bad('message', Wt("form.too-long", "That is longer than the form allows. Please keep it under 5,000 characters, or write to {email}.", { email: MAIL_TO }));
+  if(window.ADH_EDIT) return say(Wt("form.preview", "The form does not send while the page is being edited."));
+  const thanks = () => { f.reset(); say(Wt("form.thanks-contact", "Thank you. Your message has reached us and we will reply by email.")); };
+  /* the hidden "website" box is only ever filled in by spam robots: thank them and send nothing */
+  if(v('website')) return thanks();
+  const btn = f.querySelector('[type="submit"]'), busy = on => { if(on){ f.dataset.busy = '1'; f.setAttribute('aria-busy', 'true'); } else { delete f.dataset.busy; f.removeAttribute('aria-busy'); } if(btn) btn.disabled = on; };
+  busy(true); say(Wt("form.sending", "Sending your message."));
+  fetch(ENQ.url, { method: 'POST', headers: { 'apikey': ENQ.key, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+    body: JSON.stringify({ site: ENQ.site, name: v('name').slice(0, 120), email: v('email').slice(0, 254), subject: v('topic').slice(0, 200) || null, message: v('message') }) })
+    .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); busy(false); thanks(); })
+    .catch(() => { busy(false); say(Wt("form.failed", "Sorry, your message did not go through. Please try again in a moment, or write to {email}.", { email: MAIL_TO }), true); });
+}
 function mailDraft(kind, f){
   const v = n => { const el = f.elements[n]; return el ? String(el.value || '').trim() : ''; };
   if(kind === 'contact') return { subject: (v('topic') || 'A message') + (v('name') ? ' from ' + v('name') : ''), body: v('message') + '\n\nFrom: ' + v('name') + '\nReply to: ' + v('email') };
@@ -2031,15 +2057,15 @@ const LIBRARY = {
     const rows = liveRowsOf(st.details), map = st.map_words && /^https:\/\//i.test(String(st.map || '')) ? `<a class="vmap" href="${esc(st.map)}" target="_blank" rel="noopener">${T(st.map_words)}</a>` : '';
     return libWrap(st, id, 'visit', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${map}</div><dl class="vis">${rows.map(r => `<div data-adh-b="details.${r.i}"><dt>${T(r.x.title || '')}</dt><dd>${r.x.text ? T(String(r.x.text).trim()) : ph(W("missing.to-add", "To add"))}</dd></div>`).join('')}</dl></div>`);
   },
-  /* contact form: like the sign-up, it opens the visitor's own email app with everything filled in */
+  /* contact form: the message is saved to the Artiscope enquiries table on Supabase (see sendEnquiry) */
   'contact-form'(st, id){
     const onGreen = bandOf(st).cls.includes('on-green');
     const topics = (Array.isArray(st.topics) ? st.topics : []).map((t,i) => ({t,i})).filter(x => typeof x.t === 'string' && x.t.trim());
     return libWrap(st, id, 'contact-form', `<div class="mf-grid"><div class="mf-head">${libHead(st)}${st.text ? `<p class="lead">${T(String(st.text).trim())}</p>` : ''}</div>`+
-      `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">${W("form.your-name", "Your name")}<input name="name" type="text" autocomplete="name"></label><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required></label></div>`+
+      `<form class="mailform" data-mailform="contact" novalidate><div class="mf-row"><label class="mf">${W("form.your-name", "Your name")}<input name="name" type="text" autocomplete="name" required maxlength="120"></label><label class="mf">${W("form.email", "Your email")}<input name="email" type="email" autocomplete="email" required maxlength="254"></label></div>`+
       (topics.length ? `<label class="mf">${W("form.topic", "What it is about")}<select name="topic">${topics.map(x => `<option data-adh-b="topics.${x.i}">${T(x.t.trim())}</option>`).join('')}</select></label>` : '')+
-      `<label class="mf">${W("form.message", "Your message")}<textarea name="message" rows="5" required></textarea></label>`+
-      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.write", "Write the email")}</button><p class="mf-note" role="status">${W("form.note-contact", "This opens your own email app with your message ready to send to {email}.", { email: MAIL_TO })}</p></form></div>`);
+      `<label class="mf">${W("form.message", "Your message")}<textarea name="message" rows="6" required maxlength="5000"></textarea></label><div class="hp" aria-hidden="true"><label>Leave this box empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>`+
+      `<button class="btn ${onGreen ? 'paper' : 'green'}" type="submit">${st.button ? T(st.button) : W("btn.send", "Send message")}</button><p class="mf-note" role="status">${W("form.note-contact", "Your name, email and message are stored with Supabase, on servers in Ireland, and used only to reply to you. To have them deleted, write to {email}.", { email: MAIL_TO })}</p></form></div>`);
   },
   /* empty room between two sections; nothing is drawn */
   space(st, id){ const c = { S: 's', L: 'l' }[st.size] || 'm'; return `
