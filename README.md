@@ -26,7 +26,7 @@ Pushes to `main` publish automatically to GitHub Pages. Turn Pages on once in th
 
 ## House rules for the design
 
-- Colours: Oatmilk #EEE5D4 for pages and cards (about 60%), Calm Green #1D4A35 for bands, buttons and labels (about 30%), brick #B5392B for links and highlights (about 10%). Text is charcoal #1D1D1B.
+- Colours: lilac mist #EFE7EC hero, warm white #FBFAF7 pages, ivory #F5F1EC and lilac stone #EDE6E6 sections, deep aubergine #2A1A28 bands and footer, aubergine #4A2C46 buttons, gold #C9A24B accents and dark gold #6E5317 for gold text. Text is charcoal #1D1D1B.
 
 - Typefaces: Castoro for the name and headlines, Literata for reading text, Libre Franklin for small text and buttons. Logo and colours follow the World Art Review logo guidelines (version 2.0, November 2026).
 - No long dashes, no long dividing lines, no spaced capital labels, no rounded corners. Eyebrows are sentence case with a small square.
