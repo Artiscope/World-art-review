@@ -342,6 +342,8 @@ a.aw-item:hover .aw-pic{opacity:.92}
 .hdr .sub{display:none;opacity:.85}
 @media (min-width:640px){.hdr .sub{display:inline}}
 .hdr .sub:hover{opacity:1}
+/* phones: Subscribe moves to the menu (it is already there), so the Menu button is never cut off (27 Nov 2026) */
+@media (max-width:639px){.hdr .right [data-sub]{display:none}.hdr .centre{min-width:0}.hdr .centre span{overflow:hidden;text-overflow:ellipsis}}
 .menubtn{width:2.5rem;height:2.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:rgba(42,26,40,.14);transition:background .25s}
 .menubtn:hover{background:rgba(42,26,40,.24)}
 .menubtn i{display:block;width:1rem;height:1px;background:var(--paper)}
