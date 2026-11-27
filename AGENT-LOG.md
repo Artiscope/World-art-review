@@ -5,7 +5,7 @@ A record of what the website agent did on each run, newest first.
 
 ## Friday 27 November 2026
 Published: nothing.
-Drafts waiting: Related links within World Art Review (More about [artist] and Similar styles on every portfolio).
+Drafts waiting: Related links within World Art Review, https://github.com/Artiscope/World-art-review/pull/37 (More about [artist] and Similar styles on every portfolio).
 Checked: built from the reviews, explainers and medium labels already on the site. No new facts.
 Needs you: look at the draft and the screenshots in the project's engagement folder.
 ## Thursday 26 November 2026, contact form saves messages (draft)
