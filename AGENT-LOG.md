@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Friday 27 November 2026 (phone menu)
+Published: the Menu button no longer runs off the right edge on phones. Below 640 pixels the Subscribe word leaves the top bar; it is still in the menu.
+Drafts waiting: none from this change.
+Checked: the top bar at 320, 360, 390, 430, 700 and 1366 pixels wide.
+Needs you: nothing.
+
 ## Friday 27 November 2026 (style quiz)
 Published: nothing.
 Drafts waiting: Whose style is it?, a six-round quiz at #play, linked from the menu bar, the full menu, the footer and the home page (draft/2026-11-27-whose-style-is-it).
