@@ -2391,6 +2391,24 @@ pages.search = () => {
   ${q && !results.length?`<p class="lead">Nothing found. Try an artist's name, a technique such as impasto, or a topic such as prints.</p>`:''}</div>`);
 };
 
+/* the same artist on the other Artiscope sites, from content/artiscope-links.json */
+function elsewhereFor(path){
+  const E = typeof ELSEWHERE !== 'undefined' && ELSEWHERE && ELSEWHERE.artists && ELSEWHERE.sites ? ELSEWHERE : null;
+  if(!E) return null;
+  const e = Object.values(E.artists).find(x => x && x.war === path);
+  if(!e) return null;
+  const links = [];
+  ['gam','tac','sad','tawr'].forEach(s => {
+    const site = E.sites[s] || {}, base = String(site.url||'');
+    if(!e[s] || !/^https:\/\/[a-z0-9.-]+\/$/.test(base)) return;
+    (Array.isArray(e[s]) ? e[s] : [{path:e[s], title:site.link}]).forEach(t => {
+      if(t && /^[a-z0-9-]+\/[a-z0-9-]+\/$/.test(String(t.path||'')) && t.title) links.push({href:base+t.path, text:String(t.title), site:String(site.name||''), on:(s==='tac'||s==='tawr')?'in':'on'});
+    });
+  });
+  if(!links.length) return null;
+  return {heading:String((E.sites.war||{}).heading||'Elsewhere').split('{name}').join(e.name||''), links};
+}
+
 /* portfolio page */
 let currentArtist = null;
 function portfolio(a){
@@ -2401,6 +2419,7 @@ function portfolio(a){
   const reported = (a.timeline||[]).filter(t=>t.reported).length;
   const toc = [...a.sections.map(s=>[s.id,s.title]),['works','Documented works'],['timeline','Career timeline'],['seen','Where to see the work'],['sources-list','Sources']];
   const related = (a.related||[]).map(s=>articleBy(s.replace(/^a-/,''))).filter(Boolean);
+  const elsew = elsewhereFor('artists/'+a.slug+'/');
   TPL_NOW = ['artist', a.slug];
   return shell(`
   ${pageHead('Artist portfolio', [{t:esc(a.name)}], esc(a.dek), `<a href="#artists">Artists</a><span aria-hidden="true">/</span><a href="#artists" data-letter="${a.letter}">${a.letter}</a><span aria-hidden="true">/</span><span>${esc(a.name)}</span>`)}
@@ -2427,6 +2446,7 @@ function portfolio(a){
         <div class="works">${a.works.map((w,i)=>`<button type="button" class="work-btn" data-work="${i}" aria-label="View details: ${w.title?esc(w.title):'work to be documented'}" data-in data-from='{"opacity":0,"y":30}' data-delay="${i*90}">${plateFor(w,{note:w.title?W("missing.image", "Image to supply"):W("missing.work", "Work to be documented")})}<span class="wall"><span class="wn"><i>${w.title?esc(w.title):'Title to be documented'}</i>${w.year?', '+esc(w.year):''}</span><span class="wt">${w.medium?esc(w.medium):ph('Medium')}${w.size===false?'':'<br>'+(w.size?esc(w.size):ph('Size'))}</span></span></button>`).join('')}</div></div>
       <div id="timeline" data-spy><h2>${W("item.career", "Career timeline")}</h2><ol class="timeline">${a.timeline.map((t,i)=>`<li data-in data-from='{"opacity":0,"y":16}' data-delay="${i*60}"><span class="when">${t.when?esc(t.when):ph(W("missing.year", "Year to confirm"))}</span><span class="what">${t.reported?`<span class="reported">${W("item.reported", "Reported")}</span> `:''}${esc(t.what)}${t.src.map(c).join('')}</span></li>`).join('')}</ol></div>
       <div id="seen" class="prose" data-spy><h2 style="margin-top:0">${W("item.where", "Where to see the work")}</h2>${a.seen}</div>
+      ${elsew?`<div id="elsewhere" class="prose"><h2 style="margin-top:0">${esc(elsew.heading)}</h2><ul>${elsew.links.map(l=>`<li><a href="${esc(l.href)}">${esc(l.text)}</a> ${l.on} ${esc(l.site)}</li>`).join('')}</ul></div>`:''}
       <div id="srcwrap"></div>
       ${related.length?`<div><h2>${W("btn.read-next", "Read next")}</h2><div class="next">${related.map(r=>`<a href="#a-${r.slug}" class="${r.compare?'dark':''}"><span class="k">${esc(r.kicker)}</span><span class="t">${esc(r.title)}</span></a>`).join('')}</div></div>`:''}
     </article>

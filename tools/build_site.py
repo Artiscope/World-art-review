@@ -132,6 +132,11 @@ def theme_social(path):
     return out
 
 
+def elsewhere_links():
+    p = os.path.join(ROOT, "content", "artiscope-links.json")
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else None
+
+
 def main():
     out_dir = sys.argv[1] if len(sys.argv) > 1 else ROOT
     data = json.load(open(os.path.join(ROOT, "content", "site.json"), encoding="utf-8"))
@@ -156,6 +161,8 @@ def main():
         "const GUIDES = " + js(data["guides"]) + ";",
         "const PAGES = " + js(pages) + ";",
         "let SOCIAL = " + js(theme_social(os.path.join(ROOT, "content", "theme.json"))) + ";",
+        # links to the same artist on the other Artiscope sites (the same file in all five repositories)
+        "const ELSEWHERE = " + js(elsewhere_links()) + ";",
     ])
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
