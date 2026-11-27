@@ -920,6 +920,49 @@ footer{padding:2.5rem 1.5rem}
 footer .cta{padding-bottom:2.25rem}
 footer .cols{padding:2.25rem 0;gap:1.75rem}
 footer .bar{padding-top:1.5rem}
+
+/* Whose style is it? (27 Nov 2026) */
+.sq{max-width:64rem;padding:0 1.5rem 5rem}
+@media (min-width:640px){.sq{padding:0 2.5rem 6rem}}
+.sq-top{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:1rem;font-family:var(--sans);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.sq-top b{font-weight:600;color:var(--aubergine)}
+.sq-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:2rem;align-items:start}
+@media (max-width:900px){.sq-grid{grid-template-columns:minmax(0,1fr);gap:1.25rem}}
+.sq-frame{position:relative;overflow:hidden;background:var(--aubergine-ink);aspect-ratio:4/5;margin:0}
+.sq-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease-expo)}
+.sq-frame.whole img{object-fit:contain;transform:none!important}
+.sq-cap{margin-top:.6rem;font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--soft)}
+.sq-cap a{text-decoration:underline;text-underline-offset:.2em}
+.sq-q{font-family:var(--display);font-size:calc(1.9rem * var(--h-scale, 1));line-height:1.15;margin-bottom:.6rem}
+.sq-help{font-size:.95rem;line-height:1.6;color:var(--muted);margin-bottom:1.25rem}
+.sq-choices{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+@media (max-width:640px){.sq-choices{grid-template-columns:1fr}}
+.sq-choice{all:unset;box-sizing:border-box;cursor:pointer;min-height:3.25rem;padding:.9rem 1.1rem .8rem;background:var(--mist);color:var(--aubergine-ink);font-family:var(--display);font-size:calc(1.08rem * var(--h-scale, 1));line-height:1.2;transition:background .2s,color .2s,transform .3s var(--ease-expo)}
+.sq-choice:hover{background:var(--mist-deep)}
+.sq-choice:focus-visible{outline:2px solid var(--aubergine);outline-offset:2px}
+.sq-choice[disabled]{cursor:default}
+.sq-choice.right{background:var(--aubergine);color:var(--paper)}
+.sq-choice.wrong{background:var(--paper-deep);color:var(--soft);text-decoration:line-through}
+.sq-choice span{display:block;margin-top:.25rem;font-family:var(--sans);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none}
+.sq-answer{margin-top:1.5rem}
+.sq-verdict{font-family:var(--display);font-size:calc(1.45rem * var(--h-scale, 1));line-height:1.2;margin-bottom:.4rem;color:var(--aubergine)}
+.sq-work{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-bottom:1rem}
+.sq-answer .prose{font-size:.98rem}
+.sq-srcs{margin:.25rem 0 1rem;padding-left:1.1rem;list-style:decimal;font-family:var(--sans);font-size:.8rem;line-height:1.55;color:var(--muted)}
+.sq-srcs a{text-decoration:underline;text-underline-offset:.2em}
+.sq-acts{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;margin-top:.5rem}
+.sq-acts a.vlink{font-family:var(--display);color:var(--gold-text);text-decoration:underline;text-underline-offset:.2em}
+.sq-end{background:var(--mist);color:var(--aubergine-ink);padding:2.5rem 1.75rem}
+@media (min-width:640px){.sq-end{padding:3.25rem 3rem}}
+.sq-end .big{font-family:var(--display);font-size:calc(4.5rem * var(--h-scale, 1));line-height:1;color:var(--aubergine)}
+.sq-end h2{font-family:var(--display);font-size:calc(1.8rem * var(--h-scale, 1));line-height:1.15;margin:.75rem 0 .75rem}
+.sq-end ol{margin:1.25rem 0 1.5rem;padding-left:1.1rem;list-style:decimal;font-size:.95rem;line-height:1.7}
+.sq-end ol a{text-decoration:underline;text-underline-offset:.2em}
+.sq-shared{font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.75rem;overflow-wrap:anywhere}
+.sq-shared:empty{display:none}
+.sq-about{max-width:44rem;margin-top:3.5rem}
+.sq-about h2{font-family:var(--display);font-size:calc(1.5rem * var(--h-scale, 1));margin-bottom:.75rem}
+@media (prefers-reduced-motion:reduce){.sq-frame img{transition:none}}
 </style>
 </head>
 <body>
@@ -951,6 +994,7 @@ footer .bar{padding-top:1.5rem}
       <a href="#reviews" data-menu-close>Reviews</a>
       <a href="#explained" data-menu-close>Art Explained</a>
       <a href="#library" data-menu-close>Collector's Library</a>
+      <a href="#play" data-menu-close>Whose style is it?</a>
       <a href="#home" data-menu-close data-go="method">How we research</a>
     </nav>
     <div class="foot">
@@ -1806,7 +1850,7 @@ function footerOnly(){
    HOMEPAGE
    ========================================================= */
 const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
-const COUNTS = { artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, guides: () => (typeof GUIDES !== 'undefined' ? GUIDES.length : 0), articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
+const COUNTS = { quiz: () => sqRounds().length, artists: () => ARTISTS.filter(a=>a.published).length, reviews: () => ARTICLES.filter(a=>a.section==='reviews').length, explained: () => ARTICLES.filter(a=>a.section==='explained').length, library: () => ARTICLES.filter(a=>a.section==='library').length, guides: () => (typeof GUIDES !== 'undefined' ? GUIDES.length : 0), articles: () => ARTICLES.length, sources: () => Object.keys(SOURCES).length };
 const SECTION_INFO = (((PAGES.pages.home.sections.find(x=>x.type==='section-list')||{settings:{rows:[]}}).settings.rows||[]).filter(x => !(x && x.hidden === true))).map(r => ({...r, count: COUNTS[r.count] || (()=>0)}));
 
 /* a list of names where one can be hidden: "name" or {v:"name", hidden:true} */
@@ -2361,6 +2405,79 @@ pages.reviews = sectionPage('reviews','Reviews',[{t:'Recent reviews'},{t:'and co
 pages.guides = () => shell(listHead('guides', 'Exhibition Guides',[{t:'What to see,'},{t:'and how to see it'}],'Short, practical guides to current exhibitions featuring the artists we cover.') + `<div style="max-width:56rem;padding:0 1.5rem 5rem">${GUIDES.map((g,i)=>`<div style="padding:1.5rem 0" data-in data-delay="${i*80}"><div class="list" style="padding:0"><span class="body"><span class="k">${g.dates||ph('Dates')}</span><span class="t">${g.title||ph('Exhibition title')}</span><span class="d">${g.venue||ph('Venue')}</span></span></div>${g.html?`<div class="prose" style="margin-top:.9rem;max-width:44rem">${g.html.replace(/<sup class="cite">.*?<\/sup>/g,'')}</div>`:''}<p class="meta" style="margin-top:.6rem">${(g.artists||[]).map(s=>{const a=ARTISTS.find(x=>x.slug===s);return a&&a.published?`<a href="#artist-${s}" style="text-decoration:underline">${esc(a.name)}'s portfolio</a>`:''}).filter(Boolean).join(' · ')}${g.url?`${(g.artists||[]).length?' · ':''}Source: <a href="${g.url}" rel="noopener" style="text-decoration:underline">the venue's exhibition page</a>`:''}</p></div>`).join('')}<p class="meta" style="margin-top:1.5rem">We add guides as exhibitions are confirmed, and take them down when they close.</p></div>`);
 
 /* Editorial standards: drawn from its sections in content/pages.json when it has them */
+/* Whose style is it? A detail of a work, four names, and the visual clues with their sources.
+   The rounds live in content/site.json under "quiz". Only freely licensed, credited photos are used. */
+let SQ = null;
+function sqShuffle(a){ a = a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function sqRounds(){ return ((typeof QUIZ!=='undefined' && QUIZ.rounds)||[]).filter(r => r && r.hidden !== true && artistBy(r.artist) && r.image); }
+pages.play = () => {
+  const n = sqRounds().length;
+  return shell(pageHead(W("sq.eyebrow", "A quiz"),[{t:W("sq.title1", "Whose style")},{t:W("sq.title2", "is it?")}],
+    W("sq.dek", "We show you a close detail of a work. Pick the artist from four names, then see the whole picture and the visual clues that give it away, with the sources.")) +
+    `<div class="sq" id="sq"><noscript><p>The quiz needs JavaScript. Every artist in it has a portfolio in the <a href="#artists">A to Z</a>.</p></noscript></div>
+    <div class="sq" style="padding-top:0"><div class="sq-about prose">
+      <h2>${W("sq.how", "How the quiz works")}</h2>
+      <p>There are ${n} rounds. Each one starts with a close crop of a photograph of the work, then opens out to the whole picture once you answer. The explanation separates what our sources say about the artist's style from our own reading of the picture, which is labelled as such.</p>
+      <p>We only use photographs that are free to reuse and credited to the person who took them. Artists without a free photograph of their work are left out for now, and more rounds will be added as photographs become available. Your score stays on your own device.</p>
+    </div></div>`);
+};
+function sqStart(){
+  const rounds = sqShuffle(sqRounds());
+  SQ = { rounds, i: 0, right: 0, log: [] };
+  sqDraw();
+}
+function sqBest(v){ try{ if(v!=null){ const b = +localStorage.getItem('war-sq-best')||0; if(v>b) localStorage.setItem('war-sq-best', String(v)); } return +localStorage.getItem('war-sq-best')||0; }catch(e){ return 0; } }
+function sqDraw(){
+  const box = $('sq'); if(!box || !SQ) return;
+  if(SQ.i >= SQ.rounds.length) return sqEnd(box);
+  const r = SQ.rounds[SQ.i], a = artistBy(r.artist);
+  const names = sqShuffle([r.artist].concat(r.choices||[]).filter(x => artistBy(x))).slice(0,4);
+  const z = Math.max(1, Math.min(5, +r.zoom || 2.5));
+  box.innerHTML = `<div class="sq-top"><span>${W("sq.round", "Round {n} of {total}", {n:String(SQ.i+1), total:String(SQ.rounds.length)})}</span><b>${W("sq.score", "Score {n}", {n:String(SQ.right)})}</b></div>
+  <div class="sq-grid">
+    <div><figure class="sq-frame" id="sqFrame"><img src="${esc(r.image)}" alt="${esc(W("sq.detail-alt", "A close detail of a work, for the quiz."))}" style="transform-origin:${esc(r.focus||'50% 50%')};transform:scale(${z})"></figure>
+      <p class="sq-cap" id="sqCap">${W("sq.detail", "A detail. The whole picture appears when you answer.")}</p></div>
+    <div><h2 class="sq-q">${W("sq.question", "Whose work is this?")}</h2>
+      <p class="sq-help">${W("sq.help", "Look at the marks, the materials and the subject before you choose.")}</p>
+      <div class="sq-choices" role="group" aria-label="${W("sq.choices", "Four artists")}">${names.map(s => `<button class="sq-choice" type="button" data-sq="${esc(s)}">${esc(artistBy(s).name)}</button>`).join('')}</div>
+      <div class="sq-answer" id="sqAnswer" aria-live="polite"></div></div>
+  </div>`;
+  box.querySelectorAll('[data-sq]').forEach(b => b.addEventListener('click', () => sqPick(r, b.dataset.sq)));
+}
+function sqPick(r, pick){
+  const box = $('sq'), a = artistBy(r.artist), ok = pick === r.artist;
+  if(ok) SQ.right++;
+  SQ.log.push({ r, ok });
+  box.querySelectorAll('[data-sq]').forEach(b => { b.disabled = true; if(b.dataset.sq === r.artist){ b.classList.add('right'); b.insertAdjacentHTML('beforeend', `<span>${W("sq.the-artist", "The artist")}</span>`); } else if(b.dataset.sq === pick){ b.classList.add('wrong'); } });
+  const f = $('sqFrame'); if(f){ f.classList.add('whole'); const im = f.querySelector('img'); if(im){ im.alt = r.alt || ''; } }
+  const credit = r.creditHref ? `<a href="${esc(r.creditHref)}" rel="noopener">${esc(r.credit)}</a>` : esc(r.credit||'');
+  $('sqCap').innerHTML = `${esc(r.work||'')}. ${credit}`;
+  const srcs = (r.src||[]).filter(id => SOURCES[id]);
+  const last = SQ.i + 1 >= SQ.rounds.length;
+  const ans = $('sqAnswer');
+  ans.innerHTML = `<p class="sq-verdict">${ok ? W("sq.right", "Right. It is {name}.", {name:esc(a.name)}) : W("sq.wrong", "Not this time. It is {name}.", {name:esc(a.name)})}</p>
+    <div class="prose">${r.tells||''}</div>
+    ${srcs.length?`<ol class="sq-srcs">${srcs.map(id => `<li>${SOURCES[id].url?`<a href="${esc(SOURCES[id].url)}" target="_blank" rel="noopener">${esc(SOURCES[id].title)}</a>`:esc(SOURCES[id].title)}. ${esc(SOURCES[id].pub)}.</li>`).join('')}</ol>`:''}
+    <div class="sq-acts"><button class="btn green" type="button" id="sqNext">${last ? W("sq.see-score", "See your score") : W("sq.next", "Next round")}</button><a class="vlink" href="#artist-${esc(a.slug)}">${W("sq.portfolio", "Read the {name} portfolio", {name:esc(a.name)})}</a></div>`;
+  numberCitations(ans, srcs.slice());
+  $('sqNext').addEventListener('click', () => { SQ.i++; sqDraw(); const t = $('sq'); if(t) scrollToEl(t, 90); });
+}
+function sqEnd(box){
+  const n = SQ.rounds.length, k = SQ.right, best = sqBest(k);
+  const line = k === n ? W("sq.all", "Every one. You know your walls and your brushstrokes.") : k >= n/2 ? W("sq.most", "A good eye. The portfolios hold the rest of the clues.") : W("sq.few", "Styles take time to learn. The portfolios are a good place to start.");
+  box.innerHTML = `<div class="sq-end"><p class="big">${k} / ${n}</p><h2>${line}</h2>
+    <p>${W("sq.best", "Your best so far on this device: {n} out of {total}.", {n:String(best), total:String(n)})}</p>
+    <ol>${SQ.log.map(x => `<li>${x.ok?'Right':'Missed'}: <a href="#artist-${esc(x.r.artist)}">${esc(artistBy(x.r.artist).name)}</a>, ${esc(x.r.work||'')}</li>`).join('')}</ol>
+    <div class="sq-acts"><button class="btn paper" type="button" id="sqShare">${W("sq.share", "Share my score")}</button><button class="btn outline" type="button" id="sqAgain">${W("sq.again", "Play again")}</button></div>
+    <p class="sq-shared" id="sqShared" role="status"></p></div>`;
+  $('sqAgain').addEventListener('click', sqStart);
+  $('sqShare').addEventListener('click', () => {
+    const url = location.href.split('#')[0] + '#play', text = 'Whose style is it? I named ' + k + ' of ' + n + ' artists from a detail. World Art Review';
+    if(navigator.share){ navigator.share({ title: 'Whose style is it?', text, url }).catch(()=>{}); return; }
+    const out = $('sqShared'), full = text + ' ' + url;
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(full).then(()=>{ out.textContent = 'Copied. Paste it wherever you like.'; }, ()=>{ out.textContent = full; }); else out.textContent = full;
+  });
+}
 pages.standards = () => PAGES.pages.standards ? customPage('standards') : shell(pageHead('Editorial standards',[{t:'How we research'},{t:'and what we publish'}],'The rules every portfolio and article on World Art Review follows.') + `
   <div class="std"><div class="prose" style="max-width:44rem">
   <h2>Every fact has a source</h2><p>Each fact in an artist portfolio carries a numbered citation to where it came from. If we cannot source something, we do not state it as fact; it appears as a gap to be filled.</p>
@@ -2566,6 +2683,7 @@ function render(){
     html = customPage(h.slice(5)); title = (PAGES.pages[h.slice(5)].title||'') + ' | World Art Review';
   } else if(pages[h]){
     html = pages[h](); title = h.charAt(0).toUpperCase()+h.slice(1)+' | World Art Review';
+    if(h==='play') title = 'Whose Style Is It? An Art Quiz | World Art Review';
   }
   if(!html){ html = shell(pageHead(W("nf.eyebrow", "Not found"),[{t:W("nf.line1", "We could not")},{t:W("nf.line2", "find that page")}],'<a href="#home" style="color:var(--gold-text)">' + W("nf.home", "Return to the homepage") + '</a>.')); }
   main.innerHTML = html; menuSocial(); aoWire(); applyWords();
@@ -2579,6 +2697,7 @@ function render(){
   setupHover(main);
   setupSpy();
   setupDock(dock, slug);
+  if(h==='play') sqStart();
   if(h!=='home') main.querySelectorAll('[data-go]').forEach(a => a.addEventListener('click', () => { sessionStorage.setItem('war-go', a.dataset.go); }));
   const go = sessionStorage.getItem('war-go'); if(h==='home' && go){ sessionStorage.removeItem('war-go'); setTimeout(()=>{ const el = $(go); if(el) scrollToEl(el, 24); }, 700); }
 }
