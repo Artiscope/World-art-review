@@ -98,15 +98,11 @@
             "links": [
               [
                 "How we research",
-                "#home"
-              ],
-              [
-                "Sources",
                 "#standards"
               ],
               [
                 "Suggest an artist",
-                "mailto:info@artiscope.co.uk?subject=Suggest%20an%20artist%20for%20World%20Art%20Review"
+                "#page-contact"
               ],
               [
                 "Contact",
@@ -117,18 +113,6 @@
         ],
         "copyright": "© 2026 World Art Review. Published by Artiscope. All rights reserved.",
         "elsewhere": [
-          [
-            "Instagram",
-            "#"
-          ],
-          [
-            "X",
-            "#"
-          ],
-          [
-            "LinkedIn",
-            "#"
-          ],
           [
             "Privacy",
             "#page-privacy"

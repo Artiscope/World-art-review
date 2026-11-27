@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Friday 27 November 2026 (usability fixes)
+Published: nothing yet.
+Drafts waiting: Usability fixes from the 27 November walkthrough (draft/2026-11-27-usability-fixes): search in the header, a working search box, menu that stops catching clicks as it closes, headings that never stay faded, plain addresses for every page, lettered cards instead of "Image to supply", no "Draft for review" badges, no dead social links, phone home page, surname filing in the A to Z.
+Checked: every page type at 1366 and 375 pixels; old #links still open the right page; no missing pictures or broken links in the local build.
+Needs you: your yes on the draft. Social links come back once the real account addresses are added in Artiscope Digital Home.
+
 ## Friday 27 November 2026 (phone menu)
 Published: the Menu button no longer runs off the right edge on phones. Below 640 pixels the Subscribe word leaves the top bar; it is still in the menu.
 Drafts waiting: none from this change.
