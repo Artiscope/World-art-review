@@ -169,7 +169,7 @@ def main():
                 sys.exit("The layout file must contain one </head>.")
             page = page.replace("</head>", theme + "</head>")
         f.write(page)
-    n = write_search_pages(out_dir, page, artists, articles, pages)
+    n = write_search_pages(out_dir, page, artists, articles, pages, data)
     print(f"Built index.html with {len(artists)} artists and {len(articles)} articles, and {n} pages of their own for search engines.")
 
 
@@ -181,6 +181,11 @@ def main():
 # description and structured data. A small script turns the #links on every
 # page into these addresses. robots.txt and sitemap.xml list them all.
 SITE_NAME = "World Art Review"
+# Who may read the site. Everyone is welcome; the search engines and the AI search tools that
+# link back to their sources are also named, so there is no doubt they are allowed in.
+ROBOTS = ("User-agent: *\nAllow: /\n\nUser-agent: Googlebot\nUser-agent: Bingbot\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\n"
+          "User-agent: PerplexityBot\nUser-agent: Perplexity-User\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\n"
+          "User-agent: Applebot\nUser-agent: DuckDuckBot\nAllow: /\n")
 
 
 def site_url():
@@ -241,7 +246,115 @@ def with_head(page, title, desc, canonical, extra, image=None, kind="website"):
     return page.replace("</head>", head + "</head>", 1)
 
 
-def write_search_pages(out_dir, page, artists, articles, pages):
+# ----- a reading copy in the page itself -----
+# The site draws each piece with JavaScript. Search engines that run it see the finished page,
+# but many AI search tools (ChatGPT search, Perplexity and others) read only the page as sent.
+# So each page also carries its piece as plain HTML inside <main>. The script replaces it with
+# the designed page as soon as it runs, and a line in the <head> hides it until then, so
+# visitors never see it. The words are the same ones the designed page shows.
+CITE = re.compile(r'<sup class="cite">\s*<a data-src="([^"]+)">[^<]*</a>\s*</sup>')
+HIDE_STATIC = ('<script>document.documentElement.className+=" js";</script>\n'
+               '<style>.js .war-static{display:none}</style>\n')
+
+
+def esc(text):
+    return (str(text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def cited(html, order):
+    """Turns the site's citation marks into plain numbered notes, counting each source once."""
+    def num(m):
+        key = m.group(1)
+        if key not in order:
+            order.append(key)
+        return "<sup>[%d]</sup>" % (order.index(key) + 1)
+    return CITE.sub(num, str(html or ""))
+
+
+def source_list(order, sources):
+    items = []
+    for key in order:
+        src = sources.get(key) or {}
+        label = ", ".join(x for x in (src.get("title"), src.get("pub")) if x) or key
+        url = src.get("url") or ""
+        items.append('<li><a href="%s" rel="noopener">%s</a></li>' % (attr(url), esc(label)) if url.startswith("http") else "<li>%s</li>" % esc(label))
+    return ("<h2>Sources</h2>\n<ol>\n%s\n</ol>\n" % "\n".join(items)) if items else ""
+
+
+def static_artist(a, articles, sources, url):
+    order = []
+    out = ['<article class="war-static">', "<h1>%s</h1>" % esc(a["name"])]
+    if a.get("dek"):
+        out.append("<p>%s</p>" % esc(a["dek"]))
+    if a.get("summary"):
+        out.append("<p>%s</p>" % esc(a["summary"]))
+    glance = [g for g in (a.get("glance") or []) if isinstance(g, list) and len(g) >= 2]
+    if glance:
+        out.append("<h2>At a glance</h2>\n<dl>")
+        for g in glance:
+            notes = "".join(cited('<sup class="cite"><a data-src="%s">[x]</a></sup>' % k, order) for k in (g[2] if len(g) > 2 else []))
+            out.append("<dt>%s</dt><dd>%s%s</dd>" % (esc(g[0]), esc(g[1]), notes))
+        out.append("</dl>")
+    for sec in a.get("sections") or []:
+        out.append("<h2>%s</h2>\n%s" % (esc(sec.get("title")), cited(sec.get("html"), order)))
+    works = a.get("works") or []
+    if works:
+        out.append("<h2>Works</h2>\n<ul>")
+        for w in works:
+            bits = [x for x in (w.get("year"), w.get("medium"), w.get("size")) if isinstance(x, str) and x]
+            notes = "".join(cited('<sup class="cite"><a data-src="%s">[x]</a></sup>' % k, order) for k in (w.get("src") or []))
+            out.append("<li><i>%s</i>%s%s%s</li>" % (esc(w.get("title")), (", " + esc(", ".join(bits))) if bits else "",
+                                                       (". " + esc(w.get("note"))) if w.get("note") else "", notes))
+        out.append("</ul>")
+    about = [x for x in articles if a["slug"] in (x.get("artists") or [])]
+    if about:
+        out.append("<h2>More on %s</h2>\n<ul>" % esc(a["name"]))
+        out += ['<li><a href="%sarticles/%s/">%s</a></li>' % (url, x["slug"], esc(x.get("title"))) for x in about]
+        out.append("</ul>")
+    out.append(source_list(order, sources))
+    out.append('<p><a href="%sartists/">All artists, A to Z</a></p>\n</article>' % url)
+    return "\n".join(out)
+
+
+def static_article(x, live_artists, sources, url):
+    order = []
+    out = ['<article class="war-static">', "<h1>%s</h1>" % esc(x.get("title"))]
+    if x.get("dek"):
+        out.append("<p>%s</p>" % esc(x["dek"]))
+    out.append(cited(x.get("body"), order))
+    named = [a for s in (x.get("artists") or []) for a in live_artists if a["slug"] == s]
+    if named:
+        out.append("<h2>Artists in this piece</h2>\n<ul>")
+        out += ['<li><a href="%sartists/%s/">%s</a></li>' % (url, a["slug"], esc(a["name"])) for a in named]
+        out.append("</ul>")
+    # sources listed on the piece but not cited in the text still belong in the list
+    for key in x.get("sources") or []:
+        if key not in order:
+            order.append(key)
+    out.append(source_list(order, sources))
+    out.append("</article>")
+    return "\n".join(out)
+
+
+def static_list(title, intro, links):
+    out = ['<section class="war-static">', "<h1>%s</h1>" % esc(title)]
+    if intro:
+        out.append("<p>%s</p>" % esc(plain(intro, 600)))
+    out.append("<ul>")
+    out += ['<li><a href="%s">%s</a>%s</li>' % (attr(h), esc(t), (": " + esc(d)) if d else "") for h, t, d in links]
+    out.append("</ul>\n</section>")
+    return "\n".join(out)
+
+
+def with_static(page, html):
+    marker = '<main id="main" tabindex="-1" style="outline:none"></main>'
+    if page.count(marker) != 1:
+        return page
+    page = page.replace(marker, marker[:-len("</main>")] + "\n" + html + "\n</main>", 1)
+    return page.replace("</head>", HIDE_STATIC + "</head>", 1)
+
+
+def write_search_pages(out_dir, page, artists, articles, pages, data=None):
     url = site_url()
     publisher = {"@type": "Organization", "name": "Artiscope", "url": "https://grovegallery.com/"}
     img = lambda p: url + p if isinstance(p, str) and p.startswith("images/") else None
@@ -254,14 +367,21 @@ def write_search_pages(out_dir, page, artists, articles, pages):
                        "publisher": publisher})
     m = re.search(r'<meta name="description" content="([^"]*)">', page)
     home = with_head(page, SITE_NAME, m.group(1) if m else "", url, home_ld)
+    site_data = data or {}
+    sources = site_data.get("sources") or {}
+    artist_links = [(url + "artists/%s/" % a["slug"], a["name"], plain(a.get("summary") or a.get("dek") or "", 200)) for a in live_artists]
+    home_links = artist_links + [(url + "articles/%s/" % x["slug"], x.get("title") or "", plain(x.get("dek") or "", 200)) for x in articles if x.get("section") == "features"]
+    home = with_static(home, static_list(SITE_NAME, m.group(1) if m else "", home_links))
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(home)
 
     addresses = [""]
 
-    def write(folder, slug, hash_, title, desc, ld, image, kind, index=True):
+    def write(folder, slug, hash_, title, desc, ld, image, kind, index=True, static=""):
         address = "%s/%s/" % (folder, slug) if folder else "%s/" % slug
         html = with_head(page, title, desc, url + address, ld, image, kind)
+        if static:
+            html = with_static(html, static)
         head = depth_line(address.count("/"))
         if not index:
             head += '<meta name="robots" content="noindex">\n'
@@ -276,13 +396,28 @@ def write_search_pages(out_dir, page, artists, articles, pages):
     for a in live_artists:
         desc = plain(a.get("dek") or a.get("summary") or "")
         image = img(a.get("image"))
-        person = {"@type": "Person", "name": a["name"]}
+        here = url + "artists/%s/" % a["slug"]
+        person = {"@type": "Person", "@id": here + "#artist", "name": a["name"], "url": here}
+        if a.get("summary"):
+            person["description"] = plain(a["summary"], 300)
         if image:
             person["image"] = image
         ld = ld_json({"@context": "https://schema.org", "@type": "ProfilePage", "name": a["name"] + ": artist portfolio",
-                      "url": url + "artists/%s/" % a["slug"], "description": desc, "mainEntity": person,
+                      "url": here, "description": desc, "mainEntity": person,
                       "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url}, "publisher": publisher})
-        write("artists", a["slug"], "artist-" + a["slug"], title_for(a["name"] + ": artist portfolio"), desc, ld, image, "profile")
+        # the works shown in the portfolio, each as an artwork by this artist
+        for w in a.get("works") or []:
+            if not w.get("title"):
+                continue
+            art = {"@context": "https://schema.org", "@type": "VisualArtwork", "name": plain(w["title"], 200),
+                   "creator": {"@type": "Person", "@id": here + "#artist", "name": a["name"]}, "url": here}
+            if re.fullmatch(r"\d{4}", str(w.get("year") or "")):
+                art["dateCreated"] = w["year"]
+            if isinstance(w.get("medium"), str) and w["medium"]:
+                art["artMedium"] = w["medium"]
+            ld += ld_json(art)
+        write("artists", a["slug"], "artist-" + a["slug"], title_for(a["name"] + ": artist portfolio"), desc, ld, image, "profile",
+              static=static_artist(a, articles, sources, url))
 
     for a in articles:
         desc = plain(a.get("dek") or a.get("body") or "")
@@ -294,10 +429,11 @@ def write_search_pages(out_dir, page, artists, articles, pages):
                 "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url}}
         if image:
             data["image"] = image
-        names = [x["name"] for s in (a.get("artists") or []) for x in live_artists if x["slug"] == s]
-        if names:
-            data["about"] = [{"@type": "Person", "name": n} for n in names]
-        write("articles", a["slug"], "a-" + a["slug"], title_for(a.get("title") or SITE_NAME), desc, ld_json(data), image, "article")
+        named = [x for s in (a.get("artists") or []) for x in live_artists if x["slug"] == s]
+        if named:
+            data["about"] = [{"@type": "Person", "name": x["name"], "url": url + "artists/%s/" % x["slug"]} for x in named]
+        write("articles", a["slug"], "a-" + a["slug"], title_for(a.get("title") or SITE_NAME), desc, ld_json(data), image, "article",
+              static=static_article(a, live_artists, sources, url))
 
     lists = pages.get("lists") or {}
     for key, name in LIST_PAGES.items():
@@ -309,7 +445,16 @@ def write_search_pages(out_dir, page, artists, articles, pages):
         ld = ld_json({"@context": "https://schema.org", "@type": "CollectionPage" if key not in ("play", "standards") else "WebPage",
                       "name": name, "url": url + key + "/", "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url},
                       "publisher": publisher})
-        write("", key, key, title_for(name), desc or name, ld, None, "website", key not in NOINDEX)
+        links = []
+        if key == "artists":
+            links = artist_links
+        elif key in ("reviews", "explained", "library"):
+            links = [(url + "articles/%s/" % x["slug"], x.get("title") or "", plain(x.get("dek") or "", 200)) for x in articles if x.get("section") == key]
+        elif key == "guides":
+            links = [(g["url"], g.get("title") or "", ", ".join(v for v in (g.get("venue"), g.get("dates")) if v))
+                     for g in (site_data.get("guides") or []) if isinstance(g.get("url"), str) and g["url"].startswith("http")]
+        write("", key, key, title_for(name), desc or name, ld, None, "website", key not in NOINDEX,
+              static=static_list(name, desc, links) if links else "")
     for key, pg in (pages.get("pages") or {}).items():
         if key in ("home",) or key in LIST_PAGES or not re.fullmatch(r"[a-z0-9-]+", key):
             continue
@@ -332,7 +477,18 @@ def write_search_pages(out_dir, page, artists, articles, pages):
             f.write("<url><loc>%s%s</loc></url>\n" % (url, address))
         f.write("</urlset>\n")
     with open(os.path.join(out_dir, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write("User-agent: *\nAllow: /\n\nSitemap: %ssitemap.xml\n" % url)
+        f.write(ROBOTS + "\nSitemap: %ssitemap.xml\n" % url)
+    # llms.txt: a plain guide to the site for AI search tools, built from the same content as the pages
+    lines = ["# " + SITE_NAME, "", "> " + plain(m.group(1) if m else "", 400), "",
+             "Every portfolio and article lists its sources, and claims that come only from publicity are labelled as reported.", "", "## Artist portfolios", ""]
+    lines += ["- [%s](%s): %s" % (n, h, d) if d else "- [%s](%s)" % (n, h) for h, n, d in artist_links]
+    for key, heading in (("features", "Features"), ("reviews", "Reviews"), ("explained", "Art Explained"), ("library", "Collector's Library")):
+        items = [x for x in articles if x.get("section") == key]
+        if items:
+            lines += ["", "## " + heading, ""]
+            lines += ["- [%s](%sarticles/%s/): %s" % (x.get("title"), url, x["slug"], plain(x.get("dek") or "", 300)) for x in items]
+    with open(os.path.join(out_dir, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
     return len(addresses) - 1
 
 
