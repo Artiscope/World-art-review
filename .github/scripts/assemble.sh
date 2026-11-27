@@ -28,6 +28,6 @@ rsync -a "$SRC/" "$OUT/" \
   --exclude '/design'
 python3 "$SRC/tools/build_site.py" "$OUT"
 if [ "${3:-}" = "preview" ]; then
-  rm -f "$OUT/CNAME" "$OUT/robots.txt" "$OUT/sitemap.xml"
+  rm -f "$OUT/CNAME" "$OUT/robots.txt" "$OUT/sitemap.xml" "$OUT/llms.txt"
   find "$OUT" -name '*.html' -exec sed -i '0,/<head>/s//<head><meta name="robots" content="noindex, nofollow">/' {} +
 fi
