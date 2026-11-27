@@ -990,6 +990,56 @@ footer .bar{padding-top:1.5rem}
 .sq-about{max-width:44rem;margin-top:3.5rem}
 .sq-about h2{font-family:var(--display);font-size:calc(1.5rem * var(--h-scale, 1));margin-bottom:.75rem}
 @media (prefers-reduced-motion:reduce){.sq-frame img{transition:none}}
+
+/* ---------- A richer look, 27 November 2026 ----------
+   Same colours, typefaces, logo and spacing; more depth and finish. A soft light in the hero
+   and the aubergine bands, section rows and cards that answer the pointer, figures in gold
+   italic, and articles that open with a drop cap. Movement on hover only runs for visitors
+   who have not asked for less motion. Nothing is hidden while a page loads. */
+:root{--lift:0 1px 2px rgba(42,26,40,.06),0 18px 36px -20px rgba(42,26,40,.45)}
+.hero{background-image:radial-gradient(60% 80% at 78% 40%, rgba(251,250,247,.75), transparent 70%),radial-gradient(50% 60% at 0% 100%, rgba(74,44,70,.08), transparent 70%)}
+.hero .tagline{letter-spacing:-.015em}
+/* Read by section: each row lifts onto a light panel, its number turns gold */
+.rows a{position:relative;transition:background .3s,padding .4s var(--ease-expo)}
+.rows a::before{content:"";position:absolute;inset:0 -1rem;background:var(--page);opacity:0;transition:opacity .3s;z-index:0;box-shadow:var(--lift)}
+.rows a>*{position:relative;z-index:1}
+.rows a:hover::before,.rows a:focus-visible::before{opacity:1}
+.rows a:hover .n,.rows a:focus-visible .n{color:var(--gold-text)}
+.rows .name{transition:color .25s,translate .45s var(--ease-expo)}
+.rows a:hover .name{color:var(--aubergine)}
+@media (prefers-reduced-motion:no-preference) and (min-width:769px){.rows a:hover .name{translate:.5rem 0}}
+.rows .n{font-family:var(--display);font-style:italic;font-size:calc(1.1rem * var(--h-scale, 1))}
+/* The figures band: gold italic figures on a softly lit aubergine */
+.band.nums{background-image:radial-gradient(70% 120% at 100% 0%, rgba(201,162,75,.16), transparent 60%),radial-gradient(60% 90% at 0% 100%, rgba(239,231,236,.07), transparent 65%)!important}
+.band.nums dd{color:var(--gold-light)!important;font-style:italic;letter-spacing:-.02em}
+/* How we research: cards that lift, with a larger gold numeral */
+.mcard{background:var(--paper-deep);transition:box-shadow .4s var(--ease-expo),translate .4s var(--ease-expo),background .3s}
+.mcard .k{font-size:calc(3.25rem * var(--h-scale, 1));font-style:italic}
+.mcard:hover{background:var(--page);box-shadow:var(--lift)}
+@media (prefers-reduced-motion:no-preference){.mcard:hover{translate:0 -.3rem}}
+/* Artist and article cards: the picture leans in a touch, the title turns aubergine */
+.tiles a .plate,.acard .plate{overflow:hidden;transition:box-shadow .5s var(--ease-expo),transform .5s var(--ease-expo)}
+.tiles a:hover .plate,.acard:hover .plate{box-shadow:var(--lift)}
+.tiles .plate img,.acard .plate img,.ae .cards .plate img{transition:scale .9s var(--ease-expo)}
+@media (prefers-reduced-motion:no-preference){.tiles a:hover .plate img,.acard:hover .plate img,.ae .cards a:hover .plate img{scale:1.04}}
+.tiles .t,.acard .t{transition:color .25s}
+.tiles a:hover .t{color:var(--aubergine)}
+.tiles a.noimg{transition:background .25s,box-shadow .4s var(--ease-expo)}
+.tiles a.noimg:hover{box-shadow:var(--lift)}
+.list a{transition:background .3s}
+.list a:hover .t{color:var(--aubergine)}
+/* Page heads: a larger, tighter headline */
+.phead h1{letter-spacing:-.02em}
+@media (min-width:640px){.phead h1{font-size:calc(3.75rem * var(--h-scale, 1))}}
+/* Articles and portfolios: a drop cap in aubergine and a gold-marked pull quote */
+.art-body .prose>p:first-of-type:not(:has(>strong:first-child,>b:first-child,>a:first-child))::first-letter{float:left;font-family:var(--display);font-size:4.2em;line-height:.82;padding:.06em .1em 0 0;color:var(--aubergine)}
+.prose blockquote{position:relative;padding-left:2.25rem;font-size:calc(1.35rem * var(--h-scale, 1));line-height:1.4}
+.prose blockquote::before{content:"";position:absolute;left:1rem;top:1.6rem;width:.45rem;height:.45rem;background:var(--gold)}
+.prose h2{letter-spacing:-.012em}
+/* Buttons and focus */
+.btn{transition:background .25s,color .25s,box-shadow .3s}
+.btn:hover{box-shadow:0 10px 20px -12px rgba(42,26,40,.6)}
+main :focus-visible{outline-color:var(--aubergine)}
 </style>
 </head>
 <body>
