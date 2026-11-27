@@ -50,6 +50,11 @@ Digital Home without touching code:
   automatically on every publish. There is no `index.html` in the
   repository any more. To check your work, run
   `python3 tools/build_site.py /tmp/preview` and open the result.
+- The published site is built with Astro (see `ASTRO.md`). Run `npm ci`
+  once, then `npx astro build`: it runs the same build plus checks on
+  sources and quiz rounds, and stops with a plain list if something is
+  wrong. `npx astro dev` gives a local copy that reloads as you edit.
+  Do not commit `_site`, `public`, `.site-build` or `node_modules`.
 - Every fact in a portfolio carries a numbered source from `sources`.
 - Each artist entry can carry `image`, `alt` and `heroCredit`. Each
   article can carry `image`, `alt` and `credit`. Store image files in
