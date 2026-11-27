@@ -13567,7 +13567,28 @@
           "nuart-lghacham",
           "colossal-lghacham-2019"
         ]
+      },
+      {
+        "id": "faith-xlvii-wissmannstrasse-cologne",
+        "artist": "faith-xlvii",
+        "image": "images/faith47-cologne.jpg",
+        "alt": "A tall painted figure in a dark hooded robe, face lifted and lit from one side, fills the pale green end wall of a block of flats, with a phrase lettered in a ring around the head. Bare trees stand in front and ivy climbs the brick beside it.",
+        "work": "Mural on Wißmannstraße, Cologne",
+        "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Wandgem%C3%A4lde_Wi%C3%9Fmannstra%C3%9Fe_17,_Faith47-4696.jpg",
+        "focus": "55% 30%",
+        "zoom": 2.6,
+        "choices": [
+          "mohamed-lghacham",
+          "jenny-holzer",
+          "vhils"
+        ],
+        "tells": "<p>Read the words. Lettering is a core part of Faith XLVII's work, and Daily Maverick describes phrases, slogans and found texts framing her images. It also names spirituality among the themes that run through it.<sup class=\"cite\"><a data-src=\"dm-faith\">[dm-faith]</a></sup></p><p>Our reading: the hooded figure, the lifted face and the phrase set in a ring around the head make a block of flats feel like a devotional picture.</p>",
+        "src": [
+          "dm-faith"
+        ]
       }
-    ]
+    ],
+    "perGame": 5
   }
 }
