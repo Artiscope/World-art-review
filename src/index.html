@@ -630,6 +630,7 @@ sup.cite.more::before{content:",";color:var(--muted)}
 .next{display:grid;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr));gap:1rem}
 .next a{background:var(--paper-deep);padding:1.25rem;display:flex;flex-direction:column;gap:.4rem;transition:transform .4s var(--ease-expo)}
 .next a:hover{transform:translateY(-.25rem)}
+.rel-more{margin-top:2.5rem}
 .next a.dark{background:var(--mist);color:var(--aubergine-ink)}
 .next .k{font-family:var(--sans);font-size:.68rem;color:var(--muted)}.next a.dark .k{color:var(--gold-text)}
 .next .t{font-family:var(--display);font-size:calc(1.1rem * var(--h-scale, 1));line-height:1.25}
@@ -2429,8 +2430,30 @@ function portfolio(a){
       <div id="seen" class="prose" data-spy><h2 style="margin-top:0">${W("item.where", "Where to see the work")}</h2>${a.seen}</div>
       <div id="srcwrap"></div>
       ${related.length?`<div><h2>${W("btn.read-next", "Read next")}</h2><div class="next">${related.map(r=>`<a href="#a-${r.slug}" class="${r.compare?'dark':''}"><span class="k">${esc(r.kicker)}</span><span class="t">${esc(r.title)}</span></a>`).join('')}</div></div>`:''}
+      ${moreAbout(a, related)}${similarStyles(a)}
     </article>
   </div>`);
+}
+
+/* related reading on a portfolio, worked out from the site's own data */
+// Reviews and explainers that name this artist, leaving out the round-ups of many artists and what "Read next" already shows.
+function moreAbout(a, shown){
+  const list = ARTICLES.filter(x => (x.artists||[]).includes(a.slug) && (x.artists||[]).length <= 3 && !shown.includes(x)).slice(0,3);
+  return list.length ? `<div class="rel-more"><h2>${W("item.more-about", "More about {name}").replace("{name}", esc(a.name))}</h2><div class="next">${list.map(r=>`<a href="#a-${r.slug}"><span class="k">${esc(r.kicker)}</span><span class="t">${esc(r.title)}</span></a>`).join('')}</div></div>` : '';
+}
+// Other portfolios whose medium label shares a word with this one, such as painting, murals or photography.
+const STYLE_SKIP = ['and','grove','gallery','artist','on','the','of','art'];
+// work made on and for the street counts as one family, whatever the label calls it
+const STYLE_SAME = {abstraction:'abstract', urban:'street', mural:'street', 'paste-up':'street', graffiti:'street', wall:'street', screenprint:'print'};
+function styleWords(t){ return String(t||'').toLowerCase().replace(/[^a-z\s-]/g,' ').split(/\s+/).filter(w => w && !STYLE_SKIP.includes(w)).map(w => w.replace(/s$/,'')).map(w => STYLE_SAME[w] || w); }
+function similarStyles(a){
+  const mine = styleWords(a.tag);
+  if (!mine.length) return '';
+  // closest label first; among equals, the artists that follow this one in the list, so each portfolio shows a different set
+  const me = ARTISTS.indexOf(a), n = ARTISTS.length;
+  const list = ARTISTS.filter(x => x.published && x.slug !== a.slug).map(x => { const w = styleWords(x.tag), both = w.filter(v => mine.includes(v)).length; return [x, both / (new Set(w.concat(mine)).size || 1), (ARTISTS.indexOf(x) - me + n) % n]; })
+    .filter(r => r[1] > 0).sort((p,q) => q[1]-p[1] || p[2]-q[2]).slice(0,4).map(r => r[0]);
+  return list.length ? `<div class="rel-more"><h2>${W("item.similar", "Similar styles")}</h2><div class="next">${list.map(x=>`<a href="#artist-${x.slug}"><span class="k">${esc(x.tag)}</span><span class="t">${esc(x.name)}</span></a>`).join('')}</div></div>` : '';
 }
 
 /* article page */
