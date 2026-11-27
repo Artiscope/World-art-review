@@ -3001,7 +3001,7 @@
     {
       "slug": "zara-muse",
       "name": "Zara Muse",
-      "letter": "Z",
+      "letter": "M",
       "published": true,
       "image": "images/zara-muse-portrait.jpg",
       "alt": "A painting in thick palette knife strokes of a woman seen from behind, with a pale blonde bob and bare shoulders, against a deep blue background.",
@@ -3292,7 +3292,7 @@
     {
       "slug": "konn-artiss",
       "name": "Konn Artiss",
-      "letter": "K",
+      "letter": "A",
       "published": true,
       "image": "images/grove-gallery-23-7-26-018402.jpg",
       "alt": "A square artwork in collage and paint. A large glossy black disc with the name Konn Artiss in white capital letters sits over torn printed paper and thick strokes of yellow, red, black and pale peach paint.",
@@ -3472,7 +3472,7 @@
     {
       "slug": "zen-xander",
       "name": "Zen Xander",
-      "letter": "Z",
+      "letter": "X",
       "published": true,
       "image": null,
       "alt": "",
@@ -3842,7 +3842,7 @@
     {
       "slug": "yayoi-kusama",
       "name": "Yayoi Kusama",
-      "letter": "Y",
+      "letter": "K",
       "published": true,
       "image": "images/yayoi-kusama-c2004.jpg",
       "alt": "Close view of Yayoi Kusama's face, with dark hair, red lipstick and pale pink glasses in a decorative silver frame.",
@@ -4064,7 +4064,7 @@
     {
       "slug": "el-anatsui",
       "name": "El Anatsui",
-      "letter": "E",
+      "letter": "A",
       "published": true,
       "image": "images/el-anatsui-ambivalent-hold-nsukka.jpg",
       "alt": "A weathered grey stone sculpture of a crouching, rounded figure whose large hands cover its face, set on paving in front of a yellow concrete building.",
@@ -4269,7 +4269,7 @@
     {
       "slug": "beatriz-milhazes",
       "name": "Beatriz Milhazes",
-      "letter": "B",
+      "letter": "M",
       "published": true,
       "image": null,
       "alt": "",
@@ -4477,7 +4477,7 @@
     {
       "slug": "s-h-raza",
       "name": "S.H. Raza",
-      "letter": "S",
+      "letter": "R",
       "published": true,
       "image": "images/s-h-raza-delhi-2011.jpg",
       "alt": "S.H. Raza, an elderly man with white hair and glasses in a pale suit, seated and leaning over a sheet of paper as people gather close around him.",
@@ -4715,7 +4715,7 @@
     {
       "slug": "gerhard-richter",
       "name": "Gerhard Richter",
-      "letter": "G",
+      "letter": "R",
       "published": true,
       "image": "images/gerhard-richter-prague-2017.jpg",
       "alt": "Portrait of Gerhard Richter, an older man with white hair, a short white beard and round dark glasses, in a dark coat, looking at the camera.",
@@ -5444,13 +5444,7 @@
           "when": "2021",
           "what": "KAWS: WHAT PARTY, a survey of more than 100 works, at the Brooklyn Museum, 26 February to 5 September.",
           "src": [
-            "brooklyn-kaws"
-          ]
-        },
-        {
-          "when": "2021",
-          "what": "WHAT PARTY at the Brooklyn Museum, 26 February to 5 September.",
-          "src": [
+            "brooklyn-kaws",
             "rail-kaws"
           ]
         }
@@ -5471,7 +5465,7 @@
     {
       "slug": "eko-nugroho",
       "name": "Eko Nugroho",
-      "letter": "E",
+      "letter": "N",
       "published": true,
       "image": null,
       "alt": "",
@@ -5837,7 +5831,7 @@
     {
       "slug": "vincent-van-gogh",
       "name": "Vincent van Gogh",
-      "letter": "V",
+      "letter": "G",
       "published": true,
       "image": "images/vincent-van-gogh-self-portrait-1887.jpg",
       "alt": "Vincent van Gogh's self-portrait of 1887: his head and shoulders in short strokes of orange, blue and green, with a red beard and a sideways look.",
@@ -6008,7 +6002,7 @@
     {
       "slug": "wassily-kandinsky",
       "name": "Wassily Kandinsky",
-      "letter": "W",
+      "letter": "K",
       "published": true,
       "image": "images/wassily-kandinsky-erfurth-1923.jpg",
       "alt": "Black and white photograph of Wassily Kandinsky in a dark suit, white collar and round glasses, seated with his hands folded on his knee.",
@@ -6231,7 +6225,7 @@
       "checked": "25 November 2026",
       "slug": "rene-matic",
       "name": "Rene Matić",
-      "letter": "R",
+      "letter": "M",
       "ghostWords": [
         "People",
         "we",
@@ -6450,7 +6444,7 @@
       "checked": "25 November 2026",
       "slug": "raven-halfmoon",
       "name": "Raven Halfmoon",
-      "letter": "R",
+      "letter": "H",
       "ghostWords": [
         "Clay,",
         "coiled",
@@ -6633,7 +6627,7 @@
       "checked": "25 November 2026",
       "slug": "ana-segovia",
       "name": "Ana Segovia",
-      "letter": "A",
+      "letter": "S",
       "ghostWords": [
         "Cowboys,",
         "looked",
@@ -6816,7 +6810,7 @@
       "checked": "25 November 2026",
       "slug": "dana-awartani",
       "name": "Dana Awartani",
-      "letter": "D",
+      "letter": "A",
       "ghostWords": [
         "Mending",
         "what",
@@ -7001,7 +6995,7 @@
       "checked": "25 November 2026",
       "slug": "jes-fan",
       "name": "Jes Fan",
-      "letter": "J",
+      "letter": "F",
       "ghostWords": [
         "The",
         "body",
@@ -7175,7 +7169,7 @@
       "checked": "25 November 2026",
       "slug": "mohamed-lghacham",
       "name": "Mohamed L'Ghacham",
-      "letter": "M",
+      "letter": "L",
       "ghostWords": [
         "Family",
         "photographs,",
@@ -7357,7 +7351,7 @@
     {
       "slug": "andy-warhol",
       "name": "Andy Warhol",
-      "letter": "A",
+      "letter": "W",
       "published": true,
       "image": "images/andy-warhol-white-house-1977.jpg",
       "alt": "Black and white photograph of Andy Warhol in a dark suit and striped tie, with pale swept hair and round glasses, hands folded, standing in a candlelit room.",
@@ -7781,7 +7775,7 @@
     {
       "slug": "jean-michel-basquiat",
       "name": "Jean-Michel Basquiat",
-      "letter": "J",
+      "letter": "B",
       "published": true,
       "image": "images/jean-michel-basquiat-1984.jpg",
       "alt": "Black and white photograph of Jean-Michel Basquiat smiling broadly, in a dark jacket over a pale shirt.",
@@ -7985,7 +7979,7 @@
     {
       "slug": "keith-haring",
       "name": "Keith Haring",
-      "letter": "K",
+      "letter": "H",
       "published": true,
       "image": "images/keith-haring-stedelijk-1986.jpg",
       "alt": "Keith Haring in a white T-shirt holding a paper cup, painting a thick black line on a white wall.",
@@ -8189,7 +8183,7 @@
     {
       "slug": "david-hockney",
       "name": "David Hockney",
-      "letter": "D",
+      "letter": "H",
       "published": true,
       "image": "images/david-hockney-2017.jpg",
       "alt": "David Hockney in a flat cap, round black glasses and a striped cardigan.",
@@ -8383,7 +8377,7 @@
     {
       "slug": "damien-hirst",
       "name": "Damien Hirst",
-      "letter": "D",
+      "letter": "H",
       "published": true,
       "image": "images/damien-hirst-2012.jpg",
       "alt": "Damien Hirst in a white jacket and red T-shirt, standing in a gallery in front of a wall of large coloured spots.",
@@ -8578,7 +8572,7 @@
     {
       "slug": "david-shrigley",
       "name": "David Shrigley",
-      "letter": "D",
+      "letter": "S",
       "published": true,
       "image": "images/david-shrigley-2011.jpg",
       "alt": "David Shrigley in a dark top, looking to one side, in front of a flip chart covered in his line drawings.",
@@ -8780,7 +8774,7 @@
     {
       "slug": "philip-colbert",
       "name": "Philip Colbert",
-      "letter": "P",
+      "letter": "C",
       "published": true,
       "image": "images/philip-colbert-studio-2022.jpg",
       "alt": "Philip Colbert in a red suit and red and white trainers, sitting on a white plinth in a gallery space, with lobster sculptures and a round painting behind him.",
@@ -9064,7 +9058,7 @@
     {
       "slug": "frank-canvas",
       "name": "Frank Canvas",
-      "letter": "F",
+      "letter": "C",
       "published": true,
       "image": null,
       "alt": "",
@@ -9171,7 +9165,7 @@
     {
       "slug": "robi-walters",
       "name": "Robi Walters",
-      "letter": "R",
+      "letter": "W",
       "published": true,
       "image": null,
       "alt": "",
@@ -9343,7 +9337,7 @@
     {
       "slug": "amanza-smith",
       "name": "Amanza Smith",
-      "letter": "A",
+      "letter": "S",
       "published": true,
       "image": null,
       "alt": "",
@@ -11825,7 +11819,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ma-ten",
         "wiki-murakami",
@@ -11854,7 +11847,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tan-kentridge-2016",
         "tan-kentridge-2017",
@@ -11876,7 +11868,6 @@
       "credit": "",
       "minutes": 2,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bkm-jr",
         "jrart-about",
@@ -11900,7 +11891,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "wiki-jr",
         "bkm-jr",
@@ -11921,7 +11911,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bkm-jr",
         "nyt-jr-chronicles",
@@ -11944,7 +11933,6 @@
       "credit": "",
       "minutes": 2,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "guardian-eine-obama",
         "bigissue-eine",
@@ -11976,7 +11964,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "brit-picasso",
         "tan-hockney-obit",
@@ -12029,7 +12016,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [],
       "body": "\n  <p>Until this month the review section held three pieces and the explainers were mostly about technique. That left most of the artists on this site with a portfolio and nothing else. We have now added 20 reviews and 22 artwork explainers, so that every published artist has at least one longer piece to read.</p>\n  <h2>How the reviews are written</h2>\n  <p>Each review starts from a real exhibition or project and from what named critics wrote about it at the time. Where critics disagreed, we say so and give both sides. Our own view comes at the end and is labelled as ours. Every fact and every quotation links to its source.</p>\n  <h2>How the explainers work</h2>\n  <p>Each explainer takes one work and sets out the basics first: title, date, materials and where it is. Then it points to a few things worth looking at, and only after that says what the work might mean. Where we offer a reading of our own, we say so.</p>\n  <h2>Two gaps</h2>\n  <p>We found no independent published criticism of Zara Muse or Konn Artiss beyond what is already on the site, so each has an explainer but no new review. Artiscope, which publishes this site, sells Zara Muse's work through Grove Gallery, and the explainer says so.</p>\n  <h2>Where to start</h2>\n  <ul>\n    <li><a href=\"#artist-zara-muse\">Zara Muse</a>: <a href=\"#a-explained-zara-muse-malala\">the explainer</a>.</li>\n  <li><a href=\"#artist-konn-artiss\">Konn Artiss</a>: <a href=\"#a-explained-konn-artiss-venice-effigy\">the explainer</a>.</li>\n  <li><a href=\"#artist-banksy\">Banksy</a>: <a href=\"#a-review-banksy-cut-and-run\">the review</a> and <a href=\"#a-explained-love-is-in-the-bin\">the explainer</a>.</li>\n  <li><a href=\"#artist-yayoi-kusama\">Yayoi Kusama</a>: <a href=\"#a-review-kusama-infinity-mirror-rooms\">the review</a> and <a href=\"#a-explained-kusama-brilliance-of-life\">the explainer</a>.</li>\n  <li><a href=\"#artist-el-anatsui\">El Anatsui</a>: <a href=\"#a-review-el-anatsui-behind-the-red-moon\">the review</a> and <a href=\"#a-explained-el-anatsui-old-mans-cloth\">the explainer</a>.</li>\n  <li><a href=\"#artist-beatriz-milhazes\">Beatriz Milhazes</a>: <a href=\"#a-review-beatriz-milhazes-maresias\">the review</a> and <a href=\"#a-explained-milhazes-maresias\">the explainer</a>.</li>\n  <li><a href=\"#artist-s-h-raza\">S.H. Raza</a>: <a href=\"#a-review-s-h-raza-pompidou\">the review</a> and <a href=\"#a-explained-raza-bindu\">the explainer</a>.</li>\n  <li><a href=\"#artist-gerhard-richter\">Gerhard Richter</a>: <a href=\"#a-review-gerhard-richter-paris\">the review</a> and <a href=\"#a-explained-richter-birkenau\">the explainer</a>.</li>\n  <li><a href=\"#artist-osgemeos\">OSGEMEOS</a>: <a href=\"#a-review-osgemeos-endless-story\">the review</a> and <a href=\"#a-explained-osgemeos-1980\">the explainer</a>.</li>\n  <li><a href=\"#artist-vhils\">Vhils</a>: <a href=\"#a-review-vhils-doors-of-cairo\">the review</a> and <a href=\"#a-explained-vhils-carved-portraits\">the explainer</a>.</li>\n  <li><a href=\"#artist-kaws\">KAWS</a>: <a href=\"#a-review-kaws-family\">the review</a> and <a href=\"#a-explained-kaws-companion\">the explainer</a>.</li>\n  <li><a href=\"#artist-eko-nugroho\">Eko Nugroho</a>: <a href=\"#a-review-eko-nugroho-lost-in-parody\">the review</a> and <a href=\"#a-explained-eko-nugroho-illusion\">the explainer</a>.</li>\n  <li><a href=\"#artist-faith-xlvii\">Faith XLVII</a>: <a href=\"#a-review-faith-xlvii-chant\">the review</a> and <a href=\"#a-explained-faith-xlvii-silent-watcher\">the explainer</a>.</li>\n  <li><a href=\"#artist-vincent-van-gogh\">Vincent van Gogh</a>: <a href=\"#a-review-van-gogh-poets-and-lovers\">the review</a> and <a href=\"#a-explained-van-gogh-sunflowers\">the explainer</a>.</li>\n  <li><a href=\"#artist-wassily-kandinsky\">Wassily Kandinsky</a>: <a href=\"#a-review-kandinsky-guggenheim\">the review</a> and <a href=\"#a-explained-kandinsky-composition-8\">the explainer</a>.</li>\n  <li><a href=\"#artist-rene-matic\">Rene Matić</a>: <a href=\"#a-review-rene-matic-turner-prize\">the review</a> and <a href=\"#a-explained-rene-matic-no-place-for-violence\">the explainer</a>.</li>\n  <li><a href=\"#artist-raven-halfmoon\">Raven Halfmoon</a>: <a href=\"#a-review-raven-halfmoon-flags-of-our-mothers\">the review</a> and <a href=\"#a-explained-raven-halfmoon-flagbearer\">the explainer</a>.</li>\n  <li><a href=\"#artist-ana-segovia\">Ana Segovia</a>: <a href=\"#a-review-ana-segovia-cowboys\">the review</a> and <a href=\"#a-explained-ana-segovia-ramon\">the explainer</a>.</li>\n  <li><a href=\"#artist-dana-awartani\">Dana Awartani</a>: <a href=\"#a-review-dana-awartani-standing-by-the-ruins\">the review</a> and <a href=\"#a-explained-dana-awartani-come-let-me-heal\">the explainer</a>.</li>\n  <li><a href=\"#artist-jes-fan\">Jes Fan</a>: <a href=\"#a-review-jes-fan-sites-of-wounding\">the review</a> and <a href=\"#a-explained-jes-fan-palimpsest\">the explainer</a>.</li>\n  <li><a href=\"#artist-mohamed-lghacham\">Mohamed L'Ghacham</a>: <a href=\"#a-review-mohamed-lghacham-colorado\">the review</a> and <a href=\"#a-explained-lghacham-casa-paquita\">the explainer</a>.</li>\n  <li><a href=\"#artist-andy-warhol\">Andy Warhol</a>: <a href=\"#a-review-andy-warhol-tate-modern\">the review</a> and <a href=\"#a-explained-warhol-marilyn-diptych\">the explainer</a>.</li>\n  </ul>\n"
     },
@@ -12046,7 +12032,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "wiki-warhol",
         "moma-soup",
@@ -12070,13 +12055,13 @@
       "credit": "Image: Zara Muse portrait, detail. Supplied by Grove Gallery",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-muse",
+        "heni-muse-malala",
         "lno-muse",
         "grove"
       ],
-      "body": "\n  <p>Some artists arrive through art school, residencies and group shows. Zara Muse arrived from the City. Before she picked up a palette knife, Alexandra Johnson was a trader, in a job she has described as intense and, looking back, soulless.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The paintings she makes now could hardly be further from it: slow, physical, built up by hand, layer on layer.</p>\n  <h2>A change of direction</h2>\n  <p>The change was not planned. Johnson has spoken openly about the death of her mother, to whom she was very close, and about how the grief that followed left her stronger and more determined.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> Painting became the place that determination went. She took the name Zara Muse for the work.</p>\n  <p>That story matters for how we read the paintings. Her subjects are women, and she has said plainly that she wants the work to stand for the strength and resilience she saw in her mother, in herself and in the women around her.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup></p>\n  <h2>Knives, not brushes</h2>\n  <p>The most distinctive thing about a Zara Muse painting is how it is made. She works only with palette knives and spatulas, never brushes, a choice she has described as instinctive.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The acrylic goes on thick and is pushed into shape rather than stroked, so each passage of colour keeps a hard edge where the knife lifted away.</p>\n  <p>Look closely and you see the method. Skin is not blended into soft gradients; it is built from separate, flat planes of strong colour laid side by side. The eye does the blending, which is why the portraits seem to sharpen as you step back from them. The paint has real height, so the way a work is lit changes what you see. A light from the side throws every ridge into shadow.</p>\n  <div class=\"callout\"><strong>What to look for</strong>Stand close, then far. Close up, notice where the knife has dragged one colour through another, and where a fresh, untouched slab sits on top. Far away, notice how few of those slabs it takes to make a convincing face.</div>\n  <h2>From walls to the saleroom</h2>\n  <p>The work found its first wide audience on hospitality walls rather than in museums. Her portraits have hung in luxury hotels, including Fairmont group sites, and in Kanishka in Mayfair, and limited edition prints were introduced so that more people could own one.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> The same profile reports the work reaching collectors in Dubai.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup></p>\n  <p>The most widely reported moment came at auction. Her portrait of Malala Yousafzai sold at Bonhams for £51,000. She has said she chose Malala because she sees in her the resilience and courage the work sets out to celebrate.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> Her paintings have also passed through the London auction house Tate Ward.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p>\n  <h2>Reading the career so far</h2>\n  <p>For a collector or a curious reader, a few things are worth holding together. The technique is consistent and recognisable, which is rarer than it sounds. The subject matter is focused. And the career has moved quickly, through commercial interiors and prints as much as through exhibitions. A single strong auction result is a meaningful moment, but it is one data point; the more useful question is how the work develops from here.</p>\n  <p>Zara Muse is represented by Grove Gallery, which released a new print collection on 4 November 2026.<sup class=\"cite\"><a data-src=\"grove\">[grove]</a></sup></p>\n  "
+      "body": "\n  <p>Some artists arrive through art school, residencies and group shows. Zara Muse arrived from the City. Before she picked up a palette knife, Alexandra Johnson was a trader, in a job she has described as intense and, looking back, soulless.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The paintings she makes now could hardly be further from it: slow, physical, built up by hand, layer on layer.</p>\n  <h2>A change of direction</h2>\n  <p>The change was not planned. Johnson has spoken openly about the death of her mother, to whom she was very close, and about how the grief that followed left her stronger and more determined.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> Painting became the place that determination went. She took the name Zara Muse for the work.</p>\n  <p>That story matters for how we read the paintings. Her subjects are women, and she has said plainly that she wants the work to stand for the strength and resilience she saw in her mother, in herself and in the women around her.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup></p>\n  <h2>Knives, not brushes</h2>\n  <p>The most distinctive thing about a Zara Muse painting is how it is made. She works only with palette knives and spatulas, never brushes, a choice she has described as instinctive.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The acrylic goes on thick and is pushed into shape rather than stroked, so each passage of colour keeps a hard edge where the knife lifted away.</p>\n  <p>Look closely and you see the method. Skin is not blended into soft gradients; it is built from separate, flat planes of strong colour laid side by side. The eye does the blending, which is why the portraits seem to sharpen as you step back from them. The paint has real height, so the way a work is lit changes what you see. A light from the side throws every ridge into shadow.</p>\n  <div class=\"callout\"><strong>What to look for</strong>Stand close, then far. Close up, notice where the knife has dragged one colour through another, and where a fresh, untouched slab sits on top. Far away, notice how few of those slabs it takes to make a convincing face.</div>\n  <h2>From walls to the saleroom</h2>\n  <p>The work found its first wide audience on hospitality walls rather than in museums. Her portraits have hung in luxury hotels, including Fairmont group sites, and in Kanishka in Mayfair, and limited edition prints were introduced so that more people could own one.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup> The same profile reports the work reaching collectors in Dubai.<sup class=\"cite\"><a data-src=\"lno-muse\">[lno-muse]</a></sup></p>\n  <p>The most widely reported moment came at auction. On 3 April 2025 her portrait of Malala Yousafzai sold at Bonhams in London. HENI News gives the price as £51,200, and an interview with the artist gives both £51,000 and £51,200 including the buyer's premium.<sup class=\"cite\"><a data-src=\"heni-muse-malala\">[heni-muse-malala]</a></sup><sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> We have not yet checked the figure against Bonhams' own published result. She has said she chose Malala because she sees in her the resilience and courage the work sets out to celebrate.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup> The same interview says her paintings have also sold through the London auction house Tate Ward.<sup class=\"cite\"><a data-src=\"ap-muse\">[ap-muse]</a></sup></p>\n  <h2>Reading the career so far</h2>\n  <p>For a collector or a curious reader, a few things are worth holding together. The technique is consistent and recognisable, which is rarer than it sounds. The subject matter is focused. And the career has moved quickly, through commercial interiors and prints as much as through exhibitions. A single strong auction result is a meaningful moment, but it is one data point; the more useful question is how the work develops from here.</p>\n  <p>Zara Muse is represented by Grove Gallery, which released a new print collection on 4 November 2026.<sup class=\"cite\"><a data-src=\"grove\">[grove]</a></sup></p>\n  "
     },
     {
       "slug": "konn-artiss-profile",
@@ -12091,7 +12076,6 @@
       "credit": "Image: ANTI-FRIEZE, London, 2025. Courtesy Konn Artiss",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-antifrieze",
         "tan-frieze",
@@ -12117,7 +12101,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tate-turner-2025",
         "1854-matic",
@@ -12155,7 +12138,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "jsma-banksy",
         "bonhams-angel",
@@ -12191,7 +12173,6 @@
       "credit": "Image: Joe Hatchiban, carved by Vhils in Berlin, 2011. Photo: OTFW, Berlin, CC BY-SA 3.0, via Wikimedia Commons",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "vhils-about",
         "euronews-vhils-2024",
@@ -12216,7 +12197,6 @@
       "credit": "Image: a different mural by Faith XLVII, Cologne, photographed 2015. Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "muralarts-silent",
         "streetsdept-silent",
@@ -12239,7 +12219,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tan-litb",
         "wiki-gwb",
@@ -12261,7 +12240,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tate-kusama-guide",
         "tateetc-kusama",
@@ -12283,7 +12261,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "smarthistory-oldmans",
         "artfund-anatsui",
@@ -12304,7 +12281,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "artsdesk-milhazes",
         "tate-milhazes-2024",
@@ -12327,7 +12303,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "saffronart-bindu",
         "pompidou-raza",
@@ -12353,7 +12328,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "flashart-richter",
         "met-richter",
@@ -12375,7 +12349,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bmore-osg",
         "hirshhorn-osg",
@@ -12396,7 +12369,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "christies-companion",
         "tan-kaws-2021",
@@ -12419,7 +12391,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "sam-illusion",
         "gac-illusion",
@@ -12441,7 +12412,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ng-sunflowers",
         "tan-vangogh-2024"
@@ -12461,7 +12431,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bilbao-comp8",
         "si-kandinsky-bilbao",
@@ -12482,7 +12451,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tan-turner-2025",
         "tateetc-turner-2025",
@@ -12503,7 +12471,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ogden-halfmoon",
         "sixty-halfmoon",
@@ -12526,7 +12493,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "nyt-segovia",
         "another-segovia",
@@ -12547,7 +12513,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "designboom-awartani",
         "biennale-awartani",
@@ -12568,7 +12533,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "eflux-fan-wounding",
         "mplus-fan"
@@ -12588,7 +12552,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "saus-lghacham",
         "colossal-lghacham-2019",
@@ -12609,7 +12572,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bigissue-eine",
         "wiki-eine",
@@ -12631,7 +12593,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "wiki-marilyn-diptych",
         "tate-warhol-conservation",
@@ -12652,7 +12613,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "gb-venice",
         "tan-frieze"
@@ -12672,7 +12632,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-muse"
       ],
@@ -12691,7 +12650,6 @@
       "credit": "Image: palette-knife detail.",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "getty-courbet",
         "thyssen-destael",
@@ -12715,7 +12673,6 @@
       "credit": "Image: portrait surface, raking light. [Image to supply]",
       "minutes": 8,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "nga-rembrandt",
         "colourlex-rembrandt",
@@ -12740,7 +12697,6 @@
       "credit": "Image: a visitor in front of a painting. [Image to supply]",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "wiki-kusama",
         "wiki-richter",
@@ -12761,7 +12717,6 @@
       "credit": "Image: tubes of oil and acrylic paint. [Image to supply]",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-muse"
       ],
@@ -12780,7 +12735,6 @@
       "credit": "",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [],
       "body": "\n  <p>Art writing leans on a small vocabulary of technical terms, most of them borrowed from Italian or French. They are not difficult, but nobody explains them. Here are the ones you are most likely to meet, with what to look for in the painting itself.</p>\n  <h2>About the paint</h2>\n  <p><strong>Pigment</strong> is the coloured powder. <strong>Binder</strong> is what holds it together and sticks it to the surface: oil, acrylic emulsion, egg in tempera, gum in watercolour. <strong>Medium</strong> has two meanings: the type of paint in general (oil is a medium) or a substance added to paint to change how it handles (a gel medium thickens acrylic). Context tells you which.</p>\n  <h2>About the surface</h2>\n  <p><strong>Support</strong> is whatever the painting is on: canvas, linen, board, paper. <strong>Ground</strong> is the preparation layer, usually white or tinted, that seals the support and gives the paint something to hold. A coloured ground sometimes shows through at the edges of strokes; look for it between marks.</p>\n  <h2>About the marks</h2>\n  <p><strong>Impasto</strong> is paint laid on thickly enough to stand up from the surface and cast its own shadow. Knife painters work almost entirely in impasto. Look at the painting from the side to see how high it is.</p>\n  <p><strong>Glaze</strong> is the opposite: a thin, transparent layer of colour over dry paint beneath, which changes the colour below without hiding it. Old Master flesh and deep reds are built from glazes. Look for depth that seems to sit below the surface.</p>\n  <p><strong>Scumble</strong> is a thin, broken layer of opaque or semi-opaque paint dragged over a dry layer so the lower colour shows through in patches. It gives a soft, hazy effect, often in skies and backgrounds.</p>\n  <p><strong>Wet-in-wet</strong> (or <em>alla prima</em>, meaning at first attempt) is painting into paint that is still wet, so colours blend on the canvas. <strong>Wet-over-dry</strong> is the reverse. Most paintings use both; a hard edge usually means dry beneath, a soft one usually means wet.</p>\n  <p><strong>Sgraffito</strong> is scratching through a wet layer to reveal the colour underneath, with the end of a brush, a knife edge or a tool. Look for fine lines that are lighter or darker than their surroundings and have a slightly ploughed edge.</p>\n  <h2>About the whole picture</h2>\n  <p><strong>Palette</strong> is both the board the painter mixes on and the range of colours chosen for a work. A limited palette uses few colours; many strong paintings use three or four. <strong>Tonal range</strong> is the span from lightest to darkest. A painting with a narrow tonal range feels quiet; a wide one feels dramatic.</p>\n  <div class=\"callout\"><strong>Try it</strong>Take any painting on this site, or any in a gallery, and find three of these in it. Impasto, a hard edge and a soft edge are usually the easiest to start with.</div>\n  <p>For how these marks work together in a face, read <a href=\"#a-texture-in-portraiture\">The role of texture in contemporary portraiture</a>, and for the knife in particular, <a href=\"#a-palette-knife-painting\">Understanding palette-knife painting</a>.</p>\n  "
     },
@@ -12801,7 +12755,6 @@
       "credit": "Image: ANTI-FRIEZE, London, 2025. Courtesy Konn Artiss",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tate-gg",
         "whitney-gg",
@@ -12828,7 +12781,6 @@
       "credit": "Image: a screenprinting squeegee. [Image to supply]",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "grove-zm"
       ],
@@ -12845,7 +12797,6 @@
       "credit": "",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [],
       "body": "\n  <p>With an established artist, much of the research has been done for you by museums, critics and auction records. With an emerging artist, you have to do more of it yourself. That is not a reason to avoid new work; it is a reason to be methodical.</p>\n  <h2>1. Start with the work</h2>\n  <p>Before any research, decide whether you want to live with the piece. Look at as much of the artist's work as you can find. Is there a consistent voice? Does it develop over time, or repeat one successful idea? A clear, recognisable approach is a good sign; so is evidence of growth.</p>\n  <h2>2. Build a timeline</h2>\n  <p>Put together a simple career timeline: training, first exhibitions, notable sales, press. Then check each entry. An exhibition should be listed by the venue itself, not just in the artist's CV. A portfolio on World Art Review shows which facts we have confirmed and which are still awaiting a source, and you can apply the same discipline yourself.</p>\n  <h2>3. Weigh the press</h2>\n  <p>Not all coverage is equal. Independent reviews by critics and established art publications carry more weight than features based on press releases, and much more than paid or sponsored content. Ask of every article: who wrote it, did they see the work, and did anyone pay for it to appear?</p>\n  <h2>4. Read auction results carefully</h2>\n  <p>A strong auction result is real evidence of demand on that day, from at least two bidders. It is not a market on its own. Check the result on the auction house's own website, note whether the price includes the buyer's premium, and look for whether other works by the artist have sold, failed to sell or been withdrawn.</p>\n  <h2>5. Understand what you are buying</h2>\n  <ul>\n    <li>Is it an original, a limited edition or an open edition print? See our guide to <a href=\"#a-original-vs-print\">originals and prints</a>.</li>\n    <li>For editions: how many in total, which number is yours, and are there artist's proofs on top?</li>\n    <li>Does it come with a certificate of authenticity, and who issued it?</li>\n  </ul>\n  <h2>6. Ask the gallery</h2>\n  <p>A good gallery will answer these questions willingly and in writing: how long they have worked with the artist, what the artist's price history is, where the work has been exhibited, and what paperwork comes with it.</p>\n  <div class=\"callout\"><strong>Red flags</strong>Pressure to decide quickly. Promises of guaranteed returns. Exhibition histories you cannot verify. Press coverage that turns out to be paid placement. None of these alone proves a problem, but each deserves a direct question.</div>\n  "
     },
@@ -12864,7 +12815,6 @@
       "credit": "",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "grove-zm",
         "grove-chis",
@@ -12886,7 +12836,6 @@
       "credit": "",
       "minutes": 6,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "bonhams-laughnow",
         "bonhams-angel",
@@ -12910,7 +12859,6 @@
       "credit": "Image: ANTI-FRIEZE, 2025. Courtesy Konn Artiss",
       "minutes": 7,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-antifrieze",
         "wiki-anatsui",
@@ -12934,7 +12882,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "week-cutrun",
         "tan-goma-2023",
@@ -12955,7 +12902,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tateetc-kusama",
         "tate-kusama-guide",
@@ -12977,7 +12923,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tate-anatsui-guide",
         "hyperallergic-turbine",
@@ -12999,7 +12944,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "si-milhazes",
         "artlyst-milhazes",
@@ -13023,7 +12967,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "pompidou-raza-event",
         "tan-raza-pompidou",
@@ -13044,7 +12987,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tan-richter-flv",
         "zwirner-guardian-richter",
@@ -13066,7 +13008,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "hirshhorn-osg",
         "bmore-osg"
@@ -13086,7 +13027,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "colossal-vhils-cairo",
         "mmm-vhils-strata"
@@ -13106,7 +13046,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "rail-kaws",
         "tan-kaws-2021",
@@ -13128,7 +13067,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "artandmarket-eko"
       ],
@@ -13147,7 +13085,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "dm-faith",
         "artthrob-faith"
@@ -13167,7 +13104,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "prospect-vangogh",
         "tan-vangogh-2024",
@@ -13189,7 +13125,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "si-kandinsky-bilbao",
         "nyunews-kandinsky",
@@ -13210,7 +13145,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "spectator-turner-2025",
         "tate-turner-2025",
@@ -13234,7 +13168,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "rail-halfmoon",
         "sixty-halfmoon"
@@ -13254,7 +13187,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "moca-segovia",
         "nyt-segovia",
@@ -13276,7 +13208,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "eflux-awartani-ruins"
       ],
@@ -13295,7 +13226,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "eflux-fan-wounding",
         "mplus-fan"
@@ -13315,7 +13245,6 @@
       "credit": "",
       "minutes": 3,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "jux-lghacham-colorado",
         "colossal-lghacham-2019"
@@ -13335,7 +13264,6 @@
       "credit": "",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "tan-warhol-2020",
         "frieze-warhol-2020",
@@ -13356,7 +13284,6 @@
       "credit": "Image: ANTI-FRIEZE, London, October 2025. Courtesy Konn Artiss",
       "minutes": 5,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-antifrieze",
         "tan-frieze"
@@ -13376,7 +13303,6 @@
       "credit": "Image: The Washington Ghost, Venice, 2025. [Image to supply]",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "gb-venice",
         "fad-ghost"
@@ -13397,7 +13323,6 @@
       "credit": "",
       "minutes": 4,
       "updated": "November 2026",
-      "status": "Draft for review",
       "sources": [
         "ap-muse",
         "lno-muse",

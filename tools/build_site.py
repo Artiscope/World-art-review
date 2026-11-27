@@ -169,7 +169,7 @@ def main():
                 sys.exit("The layout file must contain one </head>.")
             page = page.replace("</head>", theme + "</head>")
         f.write(page)
-    n = write_search_pages(out_dir, page, artists, articles)
+    n = write_search_pages(out_dir, page, artists, articles, pages)
     print(f"Built index.html with {len(artists)} artists and {len(articles)} articles, and {n} pages of their own for search engines.")
 
 
@@ -214,11 +214,19 @@ def ld_json(data):
     return '<script type="application/ld+json">%s</script>\n' % json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
-LINKS_SCRIPT = """<script>/* turns #links to portfolios and articles into their own addresses */
-(function(){var root=%s;function fix(n){var as=n.querySelectorAll?n.querySelectorAll('a[href^="#a-"],a[href^="#artist-"]'):[];for(var i=0;i<as.length;i++){var h=as[i].getAttribute('href');var m=/^#(a|artist)-([a-z0-9-]+)$/.exec(h);if(!m)continue;if(m[1]==='artist'&&ARTISTS.every(function(x){return x.slug!==m[2]||!x.published;}))continue;if(m[1]==='a'&&ARTICLES.every(function(x){return x.slug!==m[2];}))continue;as[i].setAttribute('href',root+(m[1]==='a'?'articles/':'artists/')+m[2]+'/');}}
-fix(document);new MutationObserver(function(rs){rs.forEach(function(r){r.addedNodes.forEach(function(n){if(n.nodeType===1)fix(n.parentNode||n);});});}).observe(document.body,{childList:true,subtree:true});})();
-</script>
-"""
+# Each page is the same one-page site, opening on its own piece. A small line at the top
+# tells the page how many folders down it sits, so pictures and links are found from the top.
+def depth_line(depth):
+    return "<script>window.WAR_DEPTH=%d;</script>\n" % depth
+
+# list pages and pages made in the console that get a plain address of their own
+LIST_PAGES = {
+    "artists": "Artists A to Z", "reviews": "Reviews", "explained": "Art Explained",
+    "library": "Collector's Library", "guides": "Exhibition Guides", "play": "Whose Style Is It? An Art Quiz",
+    "standards": "How we research", "research": "Research desk", "search": "Search",
+}
+# kept out of search results: a working list and an empty search page
+NOINDEX = {"research", "search"}
 
 
 def with_head(page, title, desc, canonical, extra, image=None, kind="website"):
@@ -233,7 +241,7 @@ def with_head(page, title, desc, canonical, extra, image=None, kind="website"):
     return page.replace("</head>", head + "</head>", 1)
 
 
-def write_search_pages(out_dir, page, artists, articles):
+def write_search_pages(out_dir, page, artists, articles, pages):
     url = site_url()
     publisher = {"@type": "Organization", "name": "Artiscope", "url": "https://grovegallery.com/"}
     img = lambda p: url + p if isinstance(p, str) and p.startswith("images/") else None
@@ -246,26 +254,24 @@ def write_search_pages(out_dir, page, artists, articles):
                        "publisher": publisher})
     m = re.search(r'<meta name="description" content="([^"]*)">', page)
     home = with_head(page, SITE_NAME, m.group(1) if m else "", url, home_ld)
-    home = home.replace("</body>", LINKS_SCRIPT % '""' + "</body>", 1)
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(home)
 
-    # one folder down two levels: pictures and the page's own links are found from the top
-    deep = (page.replace('"images/', '"../../images/').replace("'images/'", "'../../images/'")
-                .replace('href="images/', 'href="../../images/'))
-    deep = deep.replace("</body>", LINKS_SCRIPT % '"../../"' + "</body>", 1)
     addresses = [""]
 
-    def write(folder, slug, hash_, title, desc, ld, image, kind):
-        address = "%s/%s/" % (folder, slug)
-        boot = ("<script>if(!location.hash)history.replaceState(null,'',location.pathname+location.search+'#%s');</script>\n" % hash_)
-        html = with_head(deep, title, desc, url + address, ld, image, kind)
-        html = html.replace("<head>", "<head>\n" + boot, 1)
-        target = os.path.join(out_dir, folder, slug)
+    def write(folder, slug, hash_, title, desc, ld, image, kind, index=True):
+        address = "%s/%s/" % (folder, slug) if folder else "%s/" % slug
+        html = with_head(page, title, desc, url + address, ld, image, kind)
+        head = depth_line(address.count("/"))
+        if not index:
+            head += '<meta name="robots" content="noindex">\n'
+        html = html.replace("<head>", "<head>\n" + head, 1)
+        target = os.path.join(out_dir, folder, slug) if folder else os.path.join(out_dir, slug)
         os.makedirs(target, exist_ok=True)
         with open(os.path.join(target, "index.html"), "w", encoding="utf-8") as f:
             f.write(html)
-        addresses.append(address)
+        if index:
+            addresses.append(address)
 
     for a in live_artists:
         desc = plain(a.get("dek") or a.get("summary") or "")
@@ -293,14 +299,30 @@ def write_search_pages(out_dir, page, artists, articles):
             data["about"] = [{"@type": "Person", "name": n} for n in names]
         write("articles", a["slug"], "a-" + a["slug"], title_for(a.get("title") or SITE_NAME), desc, ld_json(data), image, "article")
 
+    lists = pages.get("lists") or {}
+    for key, name in LIST_PAGES.items():
+        desc = plain((lists.get(key) or {}).get("intro") or "")
+        if key == "standards":
+            desc = "The rules every portfolio and article on World Art Review follows: sources, labels and corrections."
+        if key == "play":
+            desc = "A quick game: look at a close detail of a work and pick the artist who made it."
+        ld = ld_json({"@context": "https://schema.org", "@type": "CollectionPage" if key not in ("play", "standards") else "WebPage",
+                      "name": name, "url": url + key + "/", "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url},
+                      "publisher": publisher})
+        write("", key, key, title_for(name), desc or name, ld, None, "website", key not in NOINDEX)
+    for key, pg in (pages.get("pages") or {}).items():
+        if key in ("home",) or key in LIST_PAGES or not re.fullmatch(r"[a-z0-9-]+", key):
+            continue
+        name = pg.get("title") or key.capitalize()
+        ld = ld_json({"@context": "https://schema.org", "@type": "WebPage", "name": name, "url": url + key + "/",
+                      "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": url}, "publisher": publisher})
+        write("", key, "page-" + key, title_for(name), "%s, World Art Review." % name, ld, None, "website")
+
     # The page GitHub Pages sends for an address that does not exist. It can be shown at any depth,
     # so pictures and links start from the top, and it is kept out of search results.
-    missing = (page.replace('"images/', '"/images/').replace("'images/'", "'/images/'")
-                   .replace('href="images/', 'href="/images/'))
-    missing = missing.replace("</body>", LINKS_SCRIPT % '"/"' + "</body>", 1)
-    missing = re.sub(r"<title>[^<]*</title>", "<title>Page not found | %s</title>" % SITE_NAME, missing, count=1)
+    missing = re.sub(r"<title>[^<]*</title>", "<title>Page not found | %s</title>" % SITE_NAME, page, count=1)
     missing = missing.replace("<head>", "<head>\n<meta name=\"robots\" content=\"noindex\">\n"
-                              "<script>if(!location.hash)history.replaceState(null,'',location.pathname+location.search+'#not-found');</script>\n", 1)
+                              "<script>window.WAR_BASE=\"/\";</script>\n", 1)
     with open(os.path.join(out_dir, "404.html"), "w", encoding="utf-8") as f:
         f.write(missing)
 
