@@ -4,7 +4,7 @@ A record of what the website agent did on each run, newest first.
 
 ## Friday 27 November 2026 (style quiz rotation)
 Published: nothing yet.
-Drafts waiting: Whose style is it? now rotates. Each game draws 5 rounds, unseen works first, and one new round (Faith XLVII, Cologne mural). Pull request link to follow below.
+Drafts waiting: Whose style is it? now rotates. Each game draws 5 rounds, unseen works first, and one new round (Faith XLVII, Cologne mural). https://github.com/Artiscope/World-art-review/pull/41
 Checked: Daily Maverick on Faith XLVII (lettering and spirituality in her work). Other free photos on the five sites are portraits of artists, not works, so they cannot make fair rounds.
 Needs you: more rounds need free photos of artworks.
 
