@@ -154,6 +154,7 @@ def main():
         "const ARTISTS = " + js(artists) + ";",
         "const ARTICLES = " + js(articles) + ";",
         "const GUIDES = " + js(data["guides"]) + ";",
+        "const QUIZ = " + js(data.get("quiz") or {"rounds": []}) + ";",
         "const PAGES = " + js(pages) + ";",
         "let SOCIAL = " + js(theme_social(os.path.join(ROOT, "content", "theme.json"))) + ";",
     ])

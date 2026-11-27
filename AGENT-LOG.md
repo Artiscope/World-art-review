@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Friday 27 November 2026 (style quiz)
+Published: nothing.
+Drafts waiting: Whose style is it?, a six-round quiz at #play, linked from the menu bar, the full menu, the footer and the home page (draft/2026-11-27-whose-style-is-it).
+Checked: every round uses a free, credited photo already on the Artiscope sites, and every clue cites a source already in the portfolios.
+Needs you: your yes on the draft.
+
 
 ## Friday 27 November 2026
 Published: nothing.

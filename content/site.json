@@ -13514,5 +13514,135 @@
         "pamm-basquiat"
       ]
     }
-  ]
+  ],
+  "quiz": {
+    "title": "Whose style is it?",
+    "rounds": [
+      {
+        "id": "van-gogh-self-portrait-1887",
+        "artist": "vincent-van-gogh",
+        "image": "images/vincent-van-gogh-self-portrait-1887.jpg",
+        "alt": "Vincent van Gogh's self-portrait of 1887: his head and shoulders in short strokes of orange, blue and green, with a red beard and a sideways look.",
+        "work": "Self-Portrait, 1887. Art Institute of Chicago",
+        "credit": "Public domain",
+        "creditHref": "",
+        "focus": "42% 58%",
+        "zoom": 3.2,
+        "choices": [
+          "wassily-kandinsky",
+          "pablo-picasso",
+          "david-hockney"
+        ],
+        "tells": "<p>The brushwork gives it away. Van Gogh's painting is known for bold colour and dramatic, impulsive brushwork.<sup class=\"cite\"><a data-src=\"wiki-vangogh\">[wiki-vangogh]</a></sup> The Kröller-Müller Museum's notes on one of his last paintings show how deliberate those marks were: different areas are built from different kinds of stroke, short and straight in one place, zigzag in another.<sup class=\"cite\"><a data-src=\"kmm-chestnuts\">[kmm-chestnuts]</a></sup></p><p>Our reading: in this detail the beard and cheek are made of short, separate dashes of orange, red and green that sit side by side instead of being blended, and the background moves in its own direction.</p>",
+        "src": [
+          "wiki-vangogh",
+          "kmm-chestnuts"
+        ]
+      },
+      {
+        "id": "ben-eine-love-at-first-sight",
+        "artist": "ben-eine",
+        "image": "images/ben-eine-love-at-first-sight-zurich.jpg",
+        "alt": "The end wall of a city building painted black and covered in stacked, striped capital letters in pink, yellow, green and blue, spelling LOVE AT FIRST SIGHT.",
+        "work": "Love at First Sight, mural in Zurich",
+        "credit": "Photo: Balise42, CC BY 4.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Ben_Eine_Love_At_First_Sight_mural_in_Z%C3%BCrich.jpg",
+        "focus": "45% 47%",
+        "zoom": 2.6,
+        "choices": [
+          "jenny-holzer",
+          "banksy",
+          "vhils"
+        ],
+        "tells": "<p>Large display capitals, each in solid colour with an offset shadow, are what Ben Eine paints.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup> He has given his lettering styles names, among them Shutter, Neon, Tenderloin and New Circus.<sup class=\"cite\"><a data-src=\"wiki-eine\">[wiki-eine]</a></sup></p><p>Our reading: the circus-poster shapes and the stripes running through every letter point to Eine. Jenny Holzer also works with words, but her sentences appear on signs, stone benches and light projections, not as decorated letters.<sup class=\"cite\"><a data-src=\"brit-holzer\">[brit-holzer]</a></sup><sup class=\"cite\"><a data-src=\"bilbao-holzer\">[bilbao-holzer]</a></sup></p>",
+        "src": [
+          "interview-eine",
+          "wiki-eine",
+          "brit-holzer",
+          "bilbao-holzer"
+        ]
+      },
+      {
+        "id": "osgemeos-mam-sao-paulo",
+        "artist": "osgemeos",
+        "image": "images/osgemeos-mam-sao-paulo.jpg",
+        "alt": "A long, brightly coloured mural of yellow-skinned figures in patterned clothes, a giant sleeping face, floating trees and railway tracks running across an orange desert under a purple sky.",
+        "work": "Mural at the entrance to the Museum of Modern Art, São Paulo",
+        "credit": "Photo: André Deak for Arte Fora do Museu, CC BY 2.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Grafite_na_entrada_do_MAM,_osgemeos_(5878023404).jpg",
+        "focus": "52% 50%",
+        "zoom": 3.4,
+        "choices": [
+          "faith-xlvii",
+          "keith-haring",
+          "mohamed-lghacham"
+        ],
+        "tells": "<p>The yellow skin is the clue. OSGEMEOS paint long-limbed, yellow-skinned figures in surreal landscapes, and Artsy links the imagery to Brazilian folklore, hip-hop and graffiti.<sup class=\"cite\"><a data-src=\"artsy-osgemeos\">[artsy-osgemeos]</a></sup></p><p>Our reading: the sleeping face, the patterned clothes and the dreamlike changes of scale belong to the same world, one that runs on its own rules.</p>",
+        "src": [
+          "artsy-osgemeos"
+        ]
+      },
+      {
+        "id": "vhils-berlin",
+        "artist": "vhils",
+        "image": "images/vhils-berlin-chausseestrasse.jpg",
+        "alt": "A large portrait of a man in a cap, made by chipping away the pale plaster of a tall brown city wall to show the darker layers beneath.",
+        "work": "Carved wall portrait, Chausseestraße, Berlin",
+        "credit": "Photo: OTFW, Berlin, CC BY-SA 3.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Wandbild_Chausseestr_36_(Mitte)_Joe_Hatchiban-Alexandre_Farto-2011.jpg",
+        "focus": "50% 40%",
+        "zoom": 2.8,
+        "choices": [
+          "jr",
+          "banksy",
+          "mohamed-lghacham"
+        ],
+        "tells": "<p>This face is not painted. Vhils's own site describes his method as subtraction: cutting, drilling, etching or blasting through a surface rather than adding to it.<sup class=\"cite\"><a data-src=\"vhils-about\">[vhils-about]</a></sup></p><p>Our reading: the dark lines are the older layers of the wall showing through where the plaster was chipped away, which is why the edges look broken rather than brushed.</p>",
+        "src": [
+          "vhils-about"
+        ]
+      },
+      {
+        "id": "ben-eine-naschmarkt",
+        "artist": "ben-eine",
+        "image": "images/ben-eine-naschmarkt-vienna.jpg",
+        "alt": "A shop shutter at a market painted with a large orange capital D, striped by the shutter's slats, with a turquoise shadow on its right side.",
+        "work": "A letter D on a shutter at the Naschmarkt, Vienna",
+        "credit": "Photo: Ungry Young Man, CC BY 2.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Naschmarkt_Letter_by_Ben_Eine.jpg",
+        "focus": "47% 42%",
+        "zoom": 2.4,
+        "choices": [
+          "keith-haring",
+          "osgemeos",
+          "david-shrigley"
+        ],
+        "tells": "<p>One big capital on a shop shutter, in solid colour with an offset shadow, is the format Ben Eine is known for.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup> He cuts each stencil himself with a scalpel.<sup class=\"cite\"><a data-src=\"interview-eine\">[interview-eine]</a></sup></p><p>Our reading: the slats of the shutter cut the letter into bands, so the stripes look planned, and that is the first thing our portfolio suggests looking for.</p>",
+        "src": [
+          "interview-eine"
+        ]
+      },
+      {
+        "id": "lghacham-table-is-set",
+        "artist": "mohamed-lghacham",
+        "image": "images/mohamed-lghacham-table-is-set-vienna.jpg",
+        "alt": "A mural covering the end wall of a five-storey block of flats: a family gathered round an outdoor table among trees and sunflowers, with parked cars and scooters in front.",
+        "work": "the table is set, 2025, mural in Vienna",
+        "credit": "Photo: Skunk, CC BY-SA 4.0, via Wikimedia Commons",
+        "creditHref": "https://commons.wikimedia.org/wiki/File:Mural_The_Table_is_set_by_Mohamed_l%E2%80%99Ghacham,_2025-01-23.jpg",
+        "focus": "70% 42%",
+        "zoom": 2.8,
+        "choices": [
+          "faith-xlvii",
+          "osgemeos",
+          "zara-muse"
+        ],
+        "tells": "<p>Festival organisers describe Mohamed L'Ghacham's walls as figurative painting close to realism, with Impressionist touches, showing everyday scenes taken from late twentieth century photographs.<sup class=\"cite\"><a data-src=\"nuart-lghacham\">[nuart-lghacham]</a></sup> Colossal noted his muted colour and loose, layered brushwork.<sup class=\"cite\"><a data-src=\"colossal-lghacham-2019\">[colossal-lghacham-2019]</a></sup></p><p>Our reading: a family meal in soft colour, painted at the scale of a whole building, looks like a page from a family album rather than an invented scene.</p>",
+        "src": [
+          "nuart-lghacham",
+          "colossal-lghacham-2019"
+        ]
+      }
+    ]
+  }
 }

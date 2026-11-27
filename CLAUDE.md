@@ -38,6 +38,12 @@ Digital Home without touching code:
   and `guides`. To add or change content, edit this file and follow the
   shape of the entries already there. An entry with `"hidden": true`
   is left off the site.
+- The quiz "Whose style is it?" (at `#play`) reads its rounds from
+  `quiz` in `content/site.json`. Each round names the artist, a photo
+  already in `images/` that is free to reuse and credited, the point
+  to zoom in on (`focus`, `zoom`), three other published artists
+  (`choices`), and the clues (`tells`) with numbered sources. Only add
+  a round when the photo is freely licensed and every clue is sourced.
 - `src/index.html` holds the design and layout. Leave it alone unless
   the owner asks for a design change.
 - `tools/build_site.py` joins the two into the finished page. It runs
