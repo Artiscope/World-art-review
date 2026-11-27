@@ -2,6 +2,12 @@
 
 A record of what the website agent did on each run, newest first.
 
+## Friday 27 November 2026 (style quiz rotation)
+Published: nothing yet.
+Drafts waiting: Whose style is it? now rotates. Each game draws 5 rounds, unseen works first, and one new round (Faith XLVII, Cologne mural). Pull request link to follow below.
+Checked: Daily Maverick on Faith XLVII (lettering and spirituality in her work). Other free photos on the five sites are portraits of artists, not works, so they cannot make fair rounds.
+Needs you: more rounds need free photos of artworks.
+
 ## Friday 27 November 2026 (usability fixes)
 Published: nothing yet.
 Drafts waiting: Usability fixes from the 27 November walkthrough (draft/2026-11-27-usability-fixes): search in the header, a working search box, menu that stops catching clicks as it closes, headings that never stay faded, plain addresses for every page, lettered cards instead of "Image to supply", no "Draft for review" badges, no dead social links, phone home page, surname filing in the A to Z.

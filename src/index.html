@@ -2460,20 +2460,34 @@ pages.guides = () => shell(listHead('guides', 'Exhibition Guides',[{t:'What to s
 let SQ = null;
 function sqShuffle(a){ a = a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 function sqRounds(){ return ((typeof QUIZ!=='undefined' && QUIZ.rounds)||[]).filter(r => r && r.hidden !== true && artistBy(r.artist) && r.image); }
+/* Each game draws a few rounds. Works this device has not seen come first, in a new order;
+   once every work has been seen, the ones seen longest ago come back first. */
+function sqPer(){ const n = +((typeof QUIZ!=='undefined' && QUIZ.perGame)||5); return Math.max(3, Math.min(10, n||5)); }
+function sqSeen(add){
+  let seen = [];
+  try{ seen = JSON.parse(localStorage.getItem('war-sq-seen')||'[]'); if(!Array.isArray(seen)) seen = []; }catch(e){ seen = []; }
+  if(add){ seen = seen.filter(x => x !== add); seen.push(add); try{ localStorage.setItem('war-sq-seen', JSON.stringify(seen.slice(-200))); }catch(e){} }
+  return seen;
+}
+function sqUnseen(){ const seen = sqSeen(); return sqRounds().filter(r => seen.indexOf(r.id) < 0).length; }
 pages.play = () => {
-  const n = sqRounds().length;
+  const n = sqRounds().length, per = Math.min(sqPer(), n);
   return shell(pageHead(W("sq.eyebrow", "A quiz"),[{t:W("sq.title1", "Whose style")},{t:W("sq.title2", "is it?")}],
     W("sq.dek", "We show you a close detail of a work. Pick the artist from four names, then see the whole picture and the visual clues that give it away, with the sources.")) +
     `<div class="sq" id="sq"><noscript><p>The quiz needs JavaScript. Every artist in it has a portfolio in the <a href="#artists">A to Z</a>.</p></noscript></div>
     <div class="sq" style="padding-top:0"><div class="sq-about prose">
       <h2>${W("sq.how", "How the quiz works")}</h2>
-      <p>There are ${n} rounds. Each one starts with a close crop of a photograph of the work, then opens out to the whole picture once you answer. The explanation separates what our sources say about the artist's style from our own reading of the picture, which is labelled as such.</p>
-      <p>We only use photographs that are free to reuse and credited to the person who took them. Artists without a free photograph of their work are left out for now, and more rounds will be added as photographs become available. Your score stays on your own device.</p>
+      <p>Each game has ${per} rounds, drawn from the ${n} works in the quiz so far. Works you have not seen come first, in a new order each time. Each round starts with a close crop of a photograph of the work, then opens out to the whole picture once you answer. The explanation separates what our sources say about the artist's style from our own reading of the picture, which is labelled as such.</p>
+      <p>We only use photographs that are free to reuse and credited to the person who took them. Artists without a free photograph of their work are left out for now, and more rounds will be added as photographs become available. Your score, and the works you have already seen, stay on your own device.</p>
     </div></div>`);
 };
 function sqStart(){
-  const rounds = sqShuffle(sqRounds());
-  SQ = { rounds, i: 0, right: 0, log: [] };
+  const all = sqRounds(), seen = sqSeen(), per = Math.min(sqPer(), all.length);
+  const fresh = sqShuffle(all.filter(r => seen.indexOf(r.id) < 0));
+  const old = all.filter(r => seen.indexOf(r.id) >= 0).sort((p, q) => seen.indexOf(p.id) - seen.indexOf(q.id));
+  const pick = fresh.slice(0, per), repeats = Math.max(0, per - pick.length);
+  const rounds = pick.concat(sqShuffle(old.slice(0, repeats)));
+  SQ = { rounds, i: 0, right: 0, log: [], repeats, pool: all.length };
   sqDraw();
 }
 function sqBest(v){ try{ if(v!=null){ const b = +localStorage.getItem('war-sq-best')||0; if(v>b) localStorage.setItem('war-sq-best', String(v)); } return +localStorage.getItem('war-sq-best')||0; }catch(e){ return 0; } }
@@ -2486,7 +2500,8 @@ function sqDraw(){
   box.innerHTML = `<div class="sq-top"><span>${W("sq.round", "Round {n} of {total}", {n:String(SQ.i+1), total:String(SQ.rounds.length)})}</span><b>${W("sq.score", "Score {n}", {n:String(SQ.right)})}</b></div>
   <div class="sq-grid">
     <div><figure class="sq-frame" id="sqFrame"><img src="${esc(r.image)}" alt="${esc(W("sq.detail-alt", "A close detail of a work, for the quiz."))}" style="transform-origin:${esc(r.focus||'50% 50%')};transform:scale(${z})"></figure>
-      <p class="sq-cap" id="sqCap">${W("sq.detail", "A detail. The whole picture appears when you answer.")}</p></div>
+      <p class="sq-cap" id="sqCap">${W("sq.detail", "A detail. The whole picture appears when you answer.")}</p>
+      ${SQ.i===0 && SQ.repeats ? `<p class="sq-cap sq-note">${SQ.repeats >= SQ.rounds.length ? W("sq.all-seen", "You have seen all {n} works we have so far, so this game brings back the ones you saw longest ago. New rounds are added as free photographs become available.", {n:String(SQ.pool)}) : W("sq.some-seen", "Only {k} of these works are new to you. The rest are the ones you saw longest ago, because the quiz has {n} works so far. New rounds are added as free photographs become available.", {k:String(SQ.rounds.length-SQ.repeats), n:String(SQ.pool)})}</p>` : ''}</div>
     <div><h2 class="sq-q">${W("sq.question", "Whose work is this?")}</h2>
       <p class="sq-help">${W("sq.help", "Look at the marks, the materials and the subject before you choose.")}</p>
       <div class="sq-choices" role="group" aria-label="${W("sq.choices", "Four artists")}">${names.map(s => `<button class="sq-choice" type="button" data-sq="${esc(s)}">${esc(artistBy(s).name)}</button>`).join('')}</div>
@@ -2497,7 +2512,7 @@ function sqDraw(){
 function sqPick(r, pick){
   const box = $('sq'), a = artistBy(r.artist), ok = pick === r.artist;
   if(ok) SQ.right++;
-  SQ.log.push({ r, ok });
+  SQ.log.push({ r, ok }); sqSeen(r.id);
   box.querySelectorAll('[data-sq]').forEach(b => { b.disabled = true; if(b.dataset.sq === r.artist){ b.classList.add('right'); b.insertAdjacentHTML('beforeend', `<span>${W("sq.the-artist", "The artist")}</span>`); } else if(b.dataset.sq === pick){ b.classList.add('wrong'); } });
   const f = $('sqFrame'); if(f){ f.classList.add('whole'); const im = f.querySelector('img'); if(im){ im.alt = r.alt || ''; } }
   const credit = r.creditHref ? `<a href="${esc(r.creditHref)}" rel="noopener">${esc(r.credit)}</a>` : esc(r.credit||'');
@@ -2517,6 +2532,7 @@ function sqEnd(box){
   const line = k === n ? W("sq.all", "Every one. You know your walls and your brushstrokes.") : k >= n/2 ? W("sq.most", "A good eye. The portfolios hold the rest of the clues.") : W("sq.few", "Styles take time to learn. The portfolios are a good place to start.");
   box.innerHTML = `<div class="sq-end"><p class="big">${k} / ${n}</p><h2>${line}</h2>
     <p>${W("sq.best", "Your best so far on this device: {n} out of {total}.", {n:String(best), total:String(n)})}</p>
+    <p>${(u => u ? W("sq.next-game", "Next game: {k} of the {all} works are still new to you.", {k:String(u), all:String(SQ.pool)}) : W("sq.none-new", "You have now seen all {all} works in the quiz. Play again and they come back in a new order, oldest first. We add rounds as free photographs become available.", {all:String(SQ.pool)}))(sqUnseen())}</p>
     <ol>${SQ.log.map(x => `<li>${x.ok?'Right':'Missed'}: <a href="#artist-${esc(x.r.artist)}">${esc(artistBy(x.r.artist).name)}</a>, ${esc(x.r.work||'')}</li>`).join('')}</ol>
     <div class="sq-acts"><button class="btn paper" type="button" id="sqShare">${W("sq.share", "Share my score")}</button><button class="btn outline" type="button" id="sqAgain">${W("sq.again", "Play again")}</button></div>
     <p class="sq-shared" id="sqShared" role="status"></p></div>`;
